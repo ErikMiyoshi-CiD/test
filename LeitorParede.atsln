@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "LeitorParede", "LeitorParede\LeitorParede.cproj", "{3F5F6544-02F9-4C11-BDB4-A9404B56D38C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		ASK_Release|AVR = ASK_Release|AVR
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F5F6544-02F9-4C11-BDB4-A9404B56D38C}.ASK_Release|AVR.ActiveCfg = ASK_Release|AVR
+		{3F5F6544-02F9-4C11-BDB4-A9404B56D38C}.ASK_Release|AVR.Build.0 = ASK_Release|AVR
+		{3F5F6544-02F9-4C11-BDB4-A9404B56D38C}.Debug|AVR.ActiveCfg = Debug|AVR
+		{3F5F6544-02F9-4C11-BDB4-A9404B56D38C}.Debug|AVR.Build.0 = Debug|AVR
+		{3F5F6544-02F9-4C11-BDB4-A9404B56D38C}.Release|AVR.ActiveCfg = Release|AVR
+		{3F5F6544-02F9-4C11-BDB4-A9404B56D38C}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

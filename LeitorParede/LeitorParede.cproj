@@ -384,13 +384,19 @@
     <OutputPath>bin\ASK_Release\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="src\AbaTK2.c">
+    <Compile Include="src\ABATK2.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="src\AbaTK2.h">
+    <Compile Include="src\ABATK2.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="src\ASF\common\boards\user_board\init.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\SerialOut.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\SerialOut.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="src\Wiegand.c">

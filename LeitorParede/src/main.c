@@ -8,7 +8,7 @@ int main (void)
 	
 	Inicializa_GPIO();
 	
-	//Inicializa_USART();
+	Inicializa_USART();
 
 	Liga_125kHz();
 

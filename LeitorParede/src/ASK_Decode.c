@@ -11,6 +11,7 @@
 #include "string.h"
 #include "ABATK2.h"
 #include "Wiegand.h"
+#include "SerialOut.h"
 
 static inline void reinicia_leitura(void);
 static inline void leu_bit(int bit);
@@ -218,7 +219,7 @@ static void processa_resultado(uint64_t val)
 	((val >> 46u) & 0xfu) |
 	(((val >> 51u) & 0xfu) << 4u));
 	
-	Transmite_Pacote_Wiegand(num);
+	//Transmite_Pacote_Wiegand(num);
 
 	//char Hex_Num[20];
 	//
@@ -227,7 +228,13 @@ static void processa_resultado(uint64_t val)
 	//sprintf(&Hex_Num[0],"0x%03X",(const uint16_t)((num >> 16) & 0xFFF));
 	//sprintf(&Hex_Num[5],"%04X\n\r",(const uint16_t)((num >> 0) & 0xFFFFFFFF));
 	//usart_serial_write_packet(USART_SERIAL,(const uint8_t*)Hex_Num,strlen(Hex_Num));
-
+	
+	uint64_t serial;
+	
+	serial = Monta_Dados_Serial(num,ver);
+	
+	Transmite_Cartao_Serial(serial);
+	
 }
 
 static inline int count_ones(uint32_t i)

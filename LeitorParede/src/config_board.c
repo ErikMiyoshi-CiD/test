@@ -59,6 +59,8 @@ void Inicializa_GPIO(void)
 	ioport_set_pin_dir(D1_DATA,IOPORT_DIR_OUTPUT);
 	ioport_set_pin_dir(BUZZER,IOPORT_DIR_OUTPUT);
 	
+	ioport_set_pin_dir(LED_IN,IOPORT_DIR_INPUT);
+	
 	// retirar para poder usar usart
 	ioport_set_pin_dir(USART_TX_PIN, IOPORT_DIR_OUTPUT);
 }

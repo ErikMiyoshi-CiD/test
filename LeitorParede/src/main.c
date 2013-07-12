@@ -18,7 +18,7 @@ int main (void)
 
 	Liga_TC5();
 	
-	ASK_FSK_Pin_Config();
+	ASK_Pin_Config();
 	
 	while(1)
 	{

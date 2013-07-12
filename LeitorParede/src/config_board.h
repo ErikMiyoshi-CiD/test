@@ -13,21 +13,21 @@
 
 #define INT2IF 2 // Flag da interrupção do pino de ASK_FSK
 
-#define LED_GREEN (IOPORT_CREATE_PIN(PORTD,5))
-#define BUZZER (IOPORT_CREATE_PIN(PORTD,3))
-#define RELAY (IOPORT_CREATE_PIN(PORTC,4))
-#define RFID_CLK (IOPORT_CREATE_PIN(PORTC,3))
-#define ASK_FSK (IOPORT_CREATE_PIN(PORTD,2))
-#define CARD_PRES (IOPORT_CREATE_PIN(PORTR,1))
-#define USART_TX_PIN IOPORT_CREATE_PIN(PORTD, 7)
-#define D1_DATA IOPORT_CREATE_PIN(PORTC,0)
-#define LED_IN IOPORT_CREATE_PIN(PORTC,7)
+#define LED_GREEN (IOPORT_CREATE_PIN(PORTD,5))		// Pino de saída para controle do LED Verde de acesso
+#define BUZZER (IOPORT_CREATE_PIN(PORTD,3))			// Pino de saída para geração de frequência do Buzzer
+#define RELAY (IOPORT_CREATE_PIN(PORTC,4))			// Pino de saída para controle da bobina do relé
+#define RFID_CLK (IOPORT_CREATE_PIN(PORTC,3))		// Pino de saída para geração do clock de 125kHz excitador da antena
+#define ASK_FSK (IOPORT_CREATE_PIN(PORTD,2))		// Pino de entrada para recepção do sinal filtrado
+#define CARD_PRES (IOPORT_CREATE_PIN(PORTR,1))		// Pino de saída para sinalização de presença de cartão no protocolo ABATK2 (Card Present)
+#define USART_TX_PIN IOPORT_CREATE_PIN(PORTD, 7)	// Pino de saída para envio dos dados de Wiegand (D0), TX (Serial) e CLK (ABATK2).
+#define D1_DATA IOPORT_CREATE_PIN(PORTC,0)			// Pino de saída para envio dos dados de Wiegand (D1)
+#define LED_IN IOPORT_CREATE_PIN(PORTC,7)			// Pino de entrada para sinalização de que o cartão foi aceito e a entrada foi liberada
 
-#define USART_SERIAL               &USARTD0
-#define USART_SERIAL_BAUDRATE      115200
-#define USART_SERIAL_LENGTH        USART_CHSIZE_8BIT_gc
-#define USART_SERIAL_PARITY        USART_PMODE_DISABLED_gc
-#define USART_SERIAL_STOP_BIT      0
+#define USART_SERIAL               &USARTD0					// Serial utilizada para transmistir
+#define USART_SERIAL_BAUDRATE      115200					// Velocidade de transmissao
+#define USART_SERIAL_LENGTH        USART_CHSIZE_8BIT_gc		// Tamanho do frame de dados
+#define USART_SERIAL_PARITY        USART_PMODE_DISABLED_gc	// Sem paridade
+#define USART_SERIAL_STOP_BIT      0						// 1 bit de parada
 
 void Inicializa_USART(void);
 
@@ -40,7 +40,7 @@ void Desliga_Buzzer(void);
 void Liga_125kHz(void);
 
 void Inicializa_GPIO(void);
-void ASK_FSK_Pin_Config(void);
+void ASK_Pin_Config(void);
 void Clear_PORTD_Int_Flag(void);
 
 void Liga_Timer_XCL_16bits(void);

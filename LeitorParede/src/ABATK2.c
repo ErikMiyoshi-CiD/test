@@ -2,18 +2,20 @@
  * AbaTK2.c
  *
  * Created: 10/07/2013 16:39:32
- *  Author: Administrator
+ *  Author: Neto & David
  */ 
 #include <asf.h>
 #include "config_board.h"
 #include "ABATK2.h"
 
-#define TEMPO_ABATK2 120
-#define END_SENTINEL 0b11111
-#define START_SENTINEL 0b01011
-#define NUM_DIGITS 14
+#define TEMPO_ABATK2 120		// Tempo em que um pulso é mantido em nível baixo
+#define END_SENTINEL 0b11111	// Campo END SENTINEL do frame de mensagem ABATK2
+#define START_SENTINEL 0b01011	// Campo START SENTINEL do frame de mensagem ABATK2
+#define NUM_DIGITS 14			// Número de campos do frame que efetivamente recebem informações do cartão
 
 static uint8_t _abatk2_buff[NUM_DIGITS+3]; // Numero de dados do cartao + SS + ES + LRC 
+
+// Recebe 4 bits de dados e retorna o mesmo valor com a paridade concatenada.
 
 static inline uint8_t encode_with_parity(uint8_t val)
 {
@@ -29,11 +31,12 @@ static inline uint8_t encode_with_parity(uint8_t val)
 	return ((val & 0xf) | ((!parity)<<4));
 }
 
+//Rotina de envio de frame de 5 bits via protocolo ABATK2.
+
 static inline void Enviar_Caracter_ABA_TK2(uint8_t dado)
 {
 	int8_t i;
-	// Lembrar dos transitores de saida que invertem os dados
-	
+		
 	for(i=4;i>=0;i--)
 	{
 		ioport_set_pin_level(D1_DATA,!(dado & 1));
@@ -44,6 +47,8 @@ static inline void Enviar_Caracter_ABA_TK2(uint8_t dado)
 		dado >>= 1;
 	}
 }
+
+//Calcula o campo LRC utilizado na transmissão via ABATK2.
 
 static inline uint8_t Calcula_LRC(void)
 {
@@ -57,6 +62,9 @@ static inline uint8_t Calcula_LRC(void)
 	
 	return encode_with_parity(lrc);
 }
+
+//Recebe os dados do cartão com site e facility code e monta o buffer com os dados a serem enviados.
+//Já calula paridade a cada 4 bit e o campo de LRC.
 
 static inline void Codifica_ABATK2(uint64_t num)
 {
@@ -94,6 +102,10 @@ void Enviar_ABA_TK2(uint64_t val) // Recebe o valor do cartao
 	Enviar_Caracter_ABA_TK2(0);
 	ioport_set_pin_level(CARD_PRES,0);
 }
+
+//Recebe os dados de site e facility do cartão RFID e concatena em uma única variável para
+//tratamento pelas rotinas de envio. Caso o dado adquirido já possua as informações concatenadas
+//e sem paridade não é necessário utilizar esta função.
 
 uint64_t Monta_Dados_Cartao_ABATK2(uint64_t num, int ver)
 {

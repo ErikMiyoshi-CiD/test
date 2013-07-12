@@ -2,8 +2,9 @@
  * ASK_Decode.c
  *
  * Created: 04/07/2013 19:35:10
- *  Author: Neto
- */ 
+ *  Author: Neto & David
+ */
+
 #include <asf.h>
 #include "ASK_Decode.h"
 #include "config_board.h"

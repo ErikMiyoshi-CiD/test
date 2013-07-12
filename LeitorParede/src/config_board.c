@@ -1,4 +1,9 @@
-
+/*
+ * config_board.h
+ *
+ * Created: 02/07/2013 10:21:07
+ *  Author: Neto
+ */ 
 #include "config_board.h"
 #include <asf.h>
 
@@ -8,6 +13,8 @@ usart_serial_options_t USART_SERIAL_OPTIONS = {
 	.paritytype = USART_SERIAL_PARITY,
 	.stopbits = USART_SERIAL_STOP_BIT
 };
+
+//Inicia o gerador de frequência de 125kHz para a excitação da antena.
 
 void Liga_125kHz(void)
 {
@@ -34,10 +41,14 @@ void Liga_Buzzer(uint16_t period)
 	xcl_enable_oc1();
 }
 
+// Desliga o buzzer da placa
+
 void Desliga_Buzzer(void)
 {
 	xcl_tc_source_clock(OFF);
 }
+
+// Inicializa a placa. Habilita clock de 32MHz, interrupções, delay via software, etc.
 
 void Inicializa_Placa(void)
 {
@@ -49,6 +60,8 @@ void Inicializa_Placa(void)
 	cpu_irq_enable();
 }
 
+// Inicializa os pinos de entrada e saída da placa
+
 void Inicializa_GPIO(void)
 {
 	ioport_init();
@@ -58,20 +71,34 @@ void Inicializa_GPIO(void)
 	ioport_set_pin_dir(CARD_PRES,IOPORT_DIR_OUTPUT);
 	ioport_set_pin_dir(D1_DATA,IOPORT_DIR_OUTPUT);
 	ioport_set_pin_dir(BUZZER,IOPORT_DIR_OUTPUT);
+	ioport_set_pin_dir(USART_TX_PIN, IOPORT_DIR_OUTPUT);
 	
 	ioport_set_pin_dir(LED_IN,IOPORT_DIR_INPUT);
-	
-	// retirar para poder usar usart
-	ioport_set_pin_dir(USART_TX_PIN, IOPORT_DIR_OUTPUT);
 }
 
-void ASK_FSK_Pin_Config(void)
+// Inicializa o pino para recepção do sinal de ASK filtrado pelos op-amps. Sensibilidade na borda de subida e descida
+// e habilitando interrupção
+
+void ASK_Pin_Config(void)
 {
 	ioport_set_pin_dir(ASK_FSK,IOPORT_DIR_INPUT);
 	ioport_set_pin_sense_mode(ASK_FSK,IOPORT_SENSE_BOTHEDGES);
 	PORTD.INTCTRL = PMIC_MEDLVLEN_bm;
 	PORTD.INTMASK |= (1<<INTMASK2);
 }
+
+// Inicializa o pino para recepção do sinal de FSK filtrado pelos op-amps. Sensibilidade na borda de descida
+// e habilitando interrupção
+
+void FSK_Pin_Config(void)
+{
+	ioport_set_pin_dir(ASK_FSK,IOPORT_DIR_INPUT);
+	ioport_set_pin_sense_mode(ASK_FSK,IOPORT_SENSE_FALLING);
+	PORTD.INTCTRL = PMIC_MEDLVLEN_bm;
+	PORTD.INTMASK |= (1<<INTMASK2);
+}
+
+// Limpa a flag de interrupção do pino de ASK e FSK
 
 void Clear_PORTD_Int_Flag(void)
 {
@@ -107,6 +134,8 @@ uint16_t  Cont_Timer_XCL_16bits(void)
 	return temp;
 }
 
+// Inicia o contador TC5 em modo normal e com período de contagem máximo
+
 void Configura_TC5(void)
 {
 	tc45_enable(&TCC5);
@@ -114,20 +143,28 @@ void Configura_TC5(void)
 	tc45_write_period(&TCC5, 0xFFFF); 
 }
 
+// Liga o contador TC5 selecionando a sua fonte de clock
+
 void Liga_TC5(void)
 {
 	tc45_write_clock_source(&TCC5,TC45_CLKSEL_DIV1_gc);
 }
+
+// Desliga a fonte de clock do TC5 parando a contagem 
 
 void Desliga_TC5(void)
 {
 	tc45_write_clock_source(&TCC5,TC45_CLKSEL_OFF_gc);
 }
 
+// Define o modo do contador TC5 para contar para cima
+
 void TC5_Set_CountUp_Mode(void)
 {
 	TCC5.CTRLGCLR |= (1<<0);
 }
+
+// Recebe o valor do registrador do contador TC5
 
 uint16_t Ler_Contagem_TC5(void)
 {
@@ -140,10 +177,14 @@ uint16_t Ler_Contagem_TC5(void)
 	return cont;
 }
 
+// Reinicia o registrador de contagem do TC5
+
 inline void Reinicia_Contagem_TC5(void)
 {
 	TCC5.CTRLGSET = (1<<3);
 }
+
+// Inicializa a USART para transmissao de dados do cartao
 
 void Inicializa_USART(void)
 {

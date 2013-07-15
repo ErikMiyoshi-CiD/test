@@ -139,7 +139,7 @@ static inline void leu_bit(int bit)
 {
 	static uint64_t val;
 	static int num_bits;
-
+	
 	if (!_valendo)
 	{
 		if (bit)
@@ -158,6 +158,7 @@ static inline void leu_bit(int bit)
 	}
 	else
 	{
+		
 		val <<= 1;
 		if (bit)
 			val |= 1u;

@@ -41,6 +41,7 @@ void Liga_125kHz(void);
 
 void Inicializa_GPIO(void);
 void ASK_Pin_Config(void);
+void FSK_Pin_Config(void);
 void Clear_PORTD_Int_Flag(void);
 
 void Liga_Timer_XCL_16bits(void);

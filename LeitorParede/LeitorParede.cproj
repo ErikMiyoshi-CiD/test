@@ -393,10 +393,10 @@
     <Compile Include="src\ASF\common\boards\user_board\init.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="src\PSK_Decode.c">
+    <Compile Include="src\FSK_Decode.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="src\PSK_Decode.h">
+    <Compile Include="src\FSK_Decode.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="src\SerialOut.c">

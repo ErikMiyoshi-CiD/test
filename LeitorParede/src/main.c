@@ -1,6 +1,7 @@
 #include <asf.h>
 #include "config_board.h"
 #include "ASK_Decode.h"
+#include "FSK_Decode.h"
 
 int main (void)
 {
@@ -18,7 +19,7 @@ int main (void)
 
 	Liga_TC5();
 	
-	ASK_Pin_Config();
+	FSK_Pin_Config();
 	
 	while(1)
 	{
@@ -27,6 +28,9 @@ int main (void)
 
 ISR(PORTD_INT_vect)
 {
-	ASK_Decoding();
+	ioport_toggle_pin(CARD_PRES);
+	delay_us(5);
+	ioport_toggle_pin(CARD_PRES);
+	//ASK_Decoding();
 	Clear_PORTD_Int_Flag();
 }

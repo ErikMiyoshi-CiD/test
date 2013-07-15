@@ -28,9 +28,8 @@ int main (void)
 
 ISR(PORTD_INT_vect)
 {
-	ioport_toggle_pin(CARD_PRES);
-	delay_us(5);
-	ioport_toggle_pin(CARD_PRES);
 	//ASK_Decoding();
+	FSK_Decoding();
+	
 	Clear_PORTD_Int_Flag();
 }

@@ -9,10 +9,12 @@
 #ifndef FSK_DECODE_H_
 #define FSK_DECODE_H_
 
-#define FSK_LOW_PERIOD_MIN
-#define FSK_LOW_PERIOD_MAX
+#define FSK_SHORT_PERIOD_MIN	(2048-256)
+#define FSK_SHORT_PERIOD_MAX	(2048+256)
 
-#define FSK_HIGH_PERIOD_MIN
-#define FSK_HIGH_PERIOD_MAX
+#define FSK_LONG_PERIOD_MIN		(2560-256)
+#define FSK_LONG_PERIOD_MAX		(2560+256)
+
+void FSK_Decoding(void);
 
 #endif /* PSK_DECODE_H_ */

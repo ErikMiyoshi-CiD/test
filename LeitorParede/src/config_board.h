@@ -9,19 +9,22 @@
 #ifndef CONFIG_BOARD_H_
 #define CONFIG_BOARD_H_
 
-#define INTMASK2 2 // Pino da PORTD que receberá a interrupção
+#define INTMASK2 2 // Pino da PORTD que receberá a interrupção do ASK e FSK
+#define INTMASK6 6 // Pino da PORTC que receberá a interrupção do PSK
 
 #define INT2IF 2 // Flag da interrupção do pino de ASK_FSK
+#define INT6IF 6 // Flag da interrupção do pino de PSK
 
 #define LED_GREEN (IOPORT_CREATE_PIN(PORTD,5))		// Pino de saída para controle do LED Verde de acesso
 #define BUZZER (IOPORT_CREATE_PIN(PORTD,3))			// Pino de saída para geração de frequência do Buzzer
 #define RELAY (IOPORT_CREATE_PIN(PORTC,4))			// Pino de saída para controle da bobina do relé
 #define RFID_CLK (IOPORT_CREATE_PIN(PORTC,3))		// Pino de saída para geração do clock de 125kHz excitador da antena
-#define ASK_FSK (IOPORT_CREATE_PIN(PORTD,2))		// Pino de entrada para recepção do sinal filtrado
+#define ASK_FSK (IOPORT_CREATE_PIN(PORTD,2))		// Pino de entrada para recepção do sinal filtrado ASK e PSK
 #define CARD_PRES (IOPORT_CREATE_PIN(PORTR,1))		// Pino de saída para sinalização de presença de cartão no protocolo ABATK2 (Card Present)
 #define USART_TX_PIN IOPORT_CREATE_PIN(PORTD, 7)	// Pino de saída para envio dos dados de Wiegand (D0), TX (Serial) e CLK (ABATK2).
 #define D1_DATA IOPORT_CREATE_PIN(PORTC,0)			// Pino de saída para envio dos dados de Wiegand (D1)
 #define LED_IN IOPORT_CREATE_PIN(PORTC,7)			// Pino de entrada para sinalização de que o cartão foi aceito e a entrada foi liberada
+#define PSK (IOPORT_CREATE_PIN(PORTC,6))			// Pino de entrada para recepção do sinal filtrado PSK
 
 #define USART_SERIAL               &USARTD0					// Serial utilizada para transmistir
 #define USART_SERIAL_BAUDRATE      115200					// Velocidade de transmissao
@@ -42,7 +45,9 @@ void Liga_125kHz(void);
 void Inicializa_GPIO(void);
 void ASK_Pin_Config(void);
 void FSK_Pin_Config(void);
+void PSK_Pin_Config(void);
 void Clear_PORTD_Int_Flag(void);
+void Clear_PORTC_Int_Flag(void);
 
 void Liga_Timer_XCL_16bits(void);
 void Desliga_Timer_XCL_16bits(void);

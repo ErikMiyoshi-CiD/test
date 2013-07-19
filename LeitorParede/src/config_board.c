@@ -98,11 +98,24 @@ void FSK_Pin_Config(void)
 	PORTD.INTMASK |= (1<<INTMASK2);
 }
 
+void PSK_Pin_Config(void)
+{
+	ioport_set_pin_dir(PSK,IOPORT_DIR_INPUT);
+	ioport_set_pin_sense_mode(PSK,IOPORT_SENSE_RISING);
+	PORTC.INTCTRL = PMIC_MEDLVLEN_bm;
+	PORTC.INTMASK |= (1<<INTMASK6);
+}
+
 // Limpa a flag de interrupção do pino de ASK e FSK
 
 void Clear_PORTD_Int_Flag(void)
 {
 	PORTD.INTFLAGS |= (1<<INT2IF);
+}
+
+void Clear_PORTC_Int_Flag(void)
+{
+	PORTC.INTFLAGS |= (1<<INT6IF);
 }
 
 void Conf_Timer_XCL_16bits(void)

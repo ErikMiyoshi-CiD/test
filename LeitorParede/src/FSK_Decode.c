@@ -59,14 +59,15 @@ static inline void leu_bit(int bit)
 	_last_bit = bit;
 	++_num_bits;
 
-	if (_num_bits / 2 >= 45)
+	if (_num_bits >= 90)
 	{
-		uint8_t Hex_Num [17];
+		
+		// TODO: Ou verificar paridade ou amostrar mais cartões e verificar se são iguais 
+		uint8_t Hex_Num [9];
 		// Acabou!
 		aborta_leitura();
-		sprintf(&Hex_Num[0],"0x%04X",(const uint16_t)((_val >> 32) & 0xFFFF));
-		sprintf(&Hex_Num[6],"%04X",(const uint16_t)((_val >> 16) & 0xFFFF));
-		sprintf(&Hex_Num[10],"%04X\n\r",(const uint16_t)((_val >> 0) & 0xFFFF));
+	
+		sprintf(&Hex_Num[0],"%05d\n\r",(const uint16_t)((_val >> 1) & 0xFFFF));
 		usart_serial_write_packet(USART_SERIAL,(const uint8_t*)Hex_Num,strlen(Hex_Num));
 		//processa_resultado(val);
 	}
@@ -146,6 +147,10 @@ void FSK_Decoding(void)
 				// Pulso longo, formado de pulsinhos pequenos (correspondente, portanto, a nivel 0)
 				ioport_set_pin_level(D1_DATA,1);
 				leu_bit(0);
+				leu_bit(0);
+			}
+			else if (short_periods > 14)
+			{
 				leu_bit(0);
 			}
 			else

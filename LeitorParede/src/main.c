@@ -10,7 +10,7 @@ int main (void)
 	
 	Inicializa_GPIO();
 	
-	//Inicializa_USART();
+	Inicializa_USART();
 
 	Liga_125kHz();
 
@@ -20,26 +20,42 @@ int main (void)
 
 	Liga_TC5();
 	
-	//ASK_Pin_Config();
-	//FSK_Pin_Config();
+	#ifdef ASK
+		ASK_Pin_Config();
+	#endif
+	
+	#ifdef FSK
+		FSK_Pin_Config();
+	#endif
+	
+	#ifdef PSK
 	PSK_Pin_Config();
+	#endif
 	
 	while(1)
 	{
 	}
 }
 
-//ISR(PORTD_INT_vect)
-//{
-	//ASK_Decoding();
-	//FSK_Decoding();
-	//
-	//Clear_PORTD_Int_Flag();
-//}
+#ifndef	PSK
+	ISR(PORTD_INT_vect)
+	{
+		#ifdef ASK
+			ASK_Decoding();
+		#endif
+		
+		#ifdef PSK
+			FSK_Decoding();
+		#endif
+		
+		Clear_PORTD_Int_Flag();
+	}
+#endif
 
-ISR(PORTC_INT_vect)
-{
-	//PSK_Decoding();
-	PSK_Decoding_2();
-	Clear_PORTC_Int_Flag();
-}
+#ifdef PSK
+	ISR(PORTC_INT_vect)
+	{
+		PSK_Decoding();
+		Clear_PORTC_Int_Flag();
+	}
+#endif

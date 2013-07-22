@@ -7,13 +7,19 @@ Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		ASK_Release|AVR = ASK_Release|AVR
 		Debug|AVR = Debug|AVR
+		FSK_Release|AVR = FSK_Release|AVR
+		PSK_Release|AVR = PSK_Release|AVR
 		Release|AVR = Release|AVR
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3F5F6544-02F9-4C11-BDB4-A9404B56D38C}.ASK_Release|AVR.ActiveCfg = ASK_Release|AVR
-		{3F5F6544-02F9-4C11-BDB4-A9404B56D38C}.ASK_Release|AVR.Build.0 = ASK_Release|AVR
+		{3F5F6544-02F9-4C11-BDB4-A9404B56D38C}.ASK_Release|AVR.ActiveCfg = FSK_Release|AVR
+		{3F5F6544-02F9-4C11-BDB4-A9404B56D38C}.ASK_Release|AVR.Build.0 = FSK_Release|AVR
 		{3F5F6544-02F9-4C11-BDB4-A9404B56D38C}.Debug|AVR.ActiveCfg = Debug|AVR
 		{3F5F6544-02F9-4C11-BDB4-A9404B56D38C}.Debug|AVR.Build.0 = Debug|AVR
+		{3F5F6544-02F9-4C11-BDB4-A9404B56D38C}.FSK_Release|AVR.ActiveCfg = FSK_Release|AVR
+		{3F5F6544-02F9-4C11-BDB4-A9404B56D38C}.FSK_Release|AVR.Build.0 = FSK_Release|AVR
+		{3F5F6544-02F9-4C11-BDB4-A9404B56D38C}.PSK_Release|AVR.ActiveCfg = PSK_Release|AVR
+		{3F5F6544-02F9-4C11-BDB4-A9404B56D38C}.PSK_Release|AVR.Build.0 = PSK_Release|AVR
 		{3F5F6544-02F9-4C11-BDB4-A9404B56D38C}.Release|AVR.ActiveCfg = Release|AVR
 		{3F5F6544-02F9-4C11-BDB4-A9404B56D38C}.Release|AVR.Build.0 = Release|AVR
 	EndGlobalSection

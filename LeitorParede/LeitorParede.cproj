@@ -383,6 +383,42 @@
     <GenerateEepFile>True</GenerateEepFile>
     <OutputPath>bin\ASK_Release\</OutputPath>
   </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'PSK_Release' ">
+    <OutputPath>bin\PSK_Release\</OutputPath>
+    <ToolchainSettings>
+      <AvrGcc>
+  <avrgcc.common.outputfiles.hex>True</avrgcc.common.outputfiles.hex>
+  <avrgcc.common.outputfiles.lss>True</avrgcc.common.outputfiles.lss>
+  <avrgcc.common.outputfiles.eep>True</avrgcc.common.outputfiles.eep>
+  <avrgcc.common.outputfiles.srec>True</avrgcc.common.outputfiles.srec>
+  <avrgcc.compiler.symbols.DefSymbols>
+    <ListValues>
+      <Value>PSK</Value>
+      <Value>BOARD=USER_BOARD</Value>
+      <Value>IOPORT_XMEGA_COMPAT</Value>
+    </ListValues>
+  </avrgcc.compiler.symbols.DefSymbols>
+</AvrGcc>
+    </ToolchainSettings>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'FSK_Release' ">
+    <OutputPath>bin\FSK_Release\</OutputPath>
+    <ToolchainSettings>
+      <AvrGcc>
+  <avrgcc.common.outputfiles.hex>True</avrgcc.common.outputfiles.hex>
+  <avrgcc.common.outputfiles.lss>True</avrgcc.common.outputfiles.lss>
+  <avrgcc.common.outputfiles.eep>True</avrgcc.common.outputfiles.eep>
+  <avrgcc.common.outputfiles.srec>True</avrgcc.common.outputfiles.srec>
+  <avrgcc.compiler.symbols.DefSymbols>
+    <ListValues>
+      <Value>FSK</Value>
+      <Value>BOARD=USER_BOARD</Value>
+      <Value>IOPORT_XMEGA_COMPAT</Value>
+    </ListValues>
+  </avrgcc.compiler.symbols.DefSymbols>
+</AvrGcc>
+    </ToolchainSettings>
+  </PropertyGroup>
   <ItemGroup>
     <Compile Include="src\ABATK2.c">
       <SubType>compile</SubType>

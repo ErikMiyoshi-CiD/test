@@ -9,7 +9,9 @@
 #ifndef PSK_DECODE_H_
 #define PSK_DECODE_H_
 
+#define EXPECTED_TRANS_AVG_MAX_TIME 480
+#define EXPECTED_TRANS_AVG_MIN_TIME 450
+
 void PSK_Decoding(void);
-void PSK_Decoding_2(void);
 
 #endif /* PSK_DECODE_H_ */

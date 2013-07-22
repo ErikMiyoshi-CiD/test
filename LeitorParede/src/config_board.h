@@ -24,7 +24,7 @@
 #define USART_TX_PIN IOPORT_CREATE_PIN(PORTD, 7)	// Pino de saída para envio dos dados de Wiegand (D0), TX (Serial) e CLK (ABATK2).
 #define D1_DATA IOPORT_CREATE_PIN(PORTC,0)			// Pino de saída para envio dos dados de Wiegand (D1)
 #define LED_IN IOPORT_CREATE_PIN(PORTC,7)			// Pino de entrada para sinalização de que o cartão foi aceito e a entrada foi liberada
-#define PSK (IOPORT_CREATE_PIN(PORTC,6))			// Pino de entrada para recepção do sinal filtrado PSK
+#define PSK_PIN (IOPORT_CREATE_PIN(PORTC,6))			// Pino de entrada para recepção do sinal filtrado PSK
 
 #define USART_SERIAL               &USARTD0					// Serial utilizada para transmistir
 #define USART_SERIAL_BAUDRATE      115200					// Velocidade de transmissao

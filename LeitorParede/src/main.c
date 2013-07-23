@@ -44,7 +44,7 @@ int main (void)
 			ASK_Decoding();
 		#endif
 		
-		#ifdef PSK
+		#ifdef FSK
 			FSK_Decoding();
 		#endif
 		
@@ -55,7 +55,9 @@ int main (void)
 #ifdef PSK
 	ISR(PORTC_INT_vect)
 	{
+		ioport_toggle_pin(CARD_PRES);
 		PSK_Decoding();
+		ioport_toggle_pin(CARD_PRES);
 		Clear_PORTC_Int_Flag();
 	}
 #endif

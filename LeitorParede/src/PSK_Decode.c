@@ -6,10 +6,26 @@
  */ 
 
 #include <asf.h>
+#include "stdio.h"
+#include "string.h"
 #include "config_board.h"
 #include "PSK_Decode.h"
 
 static int8_t _primeira_vez = 0;
+static uint8_t _num_bits=0;
+static uint8_t _sync=0;
+static uint64_t _val;
+
+
+static inline void Recebe_Bit(uint8_t bit);
+static inline void processa_resultado(uint64_t val);
+
+static inline void reinicia_leitura(void)
+{
+	_val = 0;
+	_num_bits = 0;
+	//ioport_set_pin_level(CARD_PRES,1);
+}
 
 void PSK_Decoding(void)
 {
@@ -20,7 +36,13 @@ void PSK_Decoding(void)
 	
 	static uint8_t holdoff=0;
 	
+	static uint8_t bit_status=1;
+	
 	static uint16_t last_time;
+	
+	static uint16_t pulse_count=0;
+	
+	static uint8_t i=0;
 	
 	uint16_t media=0;
 	uint16_t amostra=0;
@@ -37,10 +59,12 @@ void PSK_Decoding(void)
 	elapsed = amostra - last_time;
 	last_time = amostra;
 	
-	ioport_toggle_pin(USART_TX_PIN);
+	pulse_count++;
 	
 	if (elapsed > 8191)
+	{
 		elapsed = 8191;
+	}
 	
 	mov_avg_s3=mov_avg_s2;
 	mov_avg_s2=mov_avg_s1;
@@ -49,13 +73,49 @@ void PSK_Decoding(void)
 	
 	media=(mov_avg_s0+mov_avg_s1+mov_avg_s2+mov_avg_s3) / 4;
 	
-	ioport_toggle_pin(USART_TX_PIN);
-	
 	if(holdoff==0)
 	{
-		if (media >= EXPECTED_TRANS_AVG_MIN_TIME && media <= EXPECTED_TRANS_AVG_MAX_TIME)
+		if ( (media >= EXPECTED_TRANS_AVG_MIN_TIME && media <= EXPECTED_TRANS_AVG_MAX_TIME) )
 		{
-			ioport_toggle_pin(CARD_PRES);
+			if(_sync==1)
+			{
+				if (pulse_count >= 8)
+				{
+					pulse_count += 8;
+					for(i=(pulse_count>>4) - 1; i>0; i--)
+					{
+						Recebe_Bit(bit_status);
+					}
+					pulse_count = pulse_count & 0xf;
+					if (pulse_count < 5 || pulse_count > 11)
+					{
+						// Erro!
+						_sync = 0;
+						pulse_count = 0;
+						return;
+					}
+					bit_status=!bit_status;
+					//ioport_toggle_pin(CARD_PRES);
+				}
+				else
+				{
+					// Pulso muito curto! Erro!
+					_sync = 0;
+					pulse_count = 0;
+					return;
+				}
+				Recebe_Bit(bit_status);
+			}
+			else if(pulse_count > 400)
+			{
+				_sync=1;
+				reinicia_leitura();
+				bit_status=1; //Bit negado
+				//ioport_set_pin_level(CARD_PRES,!bit_status);
+				Recebe_Bit(bit_status);
+			}
+			
+			pulse_count=0;
 			holdoff++;
 		}
 	}
@@ -67,4 +127,26 @@ void PSK_Decoding(void)
 	{
 		holdoff=0;
 	}
+}
+
+static inline void Recebe_Bit(uint8_t bit)
+{
+	_val = _val << 1;
+	_val |= bit;
+	if (++_num_bits >= 35)
+	{
+		_sync=0;
+		processa_resultado(_val);
+	}
+}
+
+static inline void processa_resultado(uint64_t val)
+{
+	static uint8_t Hex_Num [17];
+	
+	sprintf(&Hex_Num[0],"0x%04X",(const uint16_t)((_val >> 32) & 0xF));
+	sprintf(&Hex_Num[6],"%04X",(const uint16_t)((_val >> 16) & 0xFFFF));
+	sprintf(&Hex_Num[10],"%04X\r\n",(const uint16_t)(_val & 0xFFFF));
+	usart_serial_write_packet(USART_SERIAL,(const uint8_t*)Hex_Num,strlen(Hex_Num));
+	
 }

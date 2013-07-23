@@ -1,0 +1,77 @@
+#require 6.0000
+
+string Version = "0.01";
+
+output("C:\\Users\\Neto\\Documents\\eagle\\leitorcartao\\sample") {
+	int i;
+	int j;
+	int n;
+	int ncampos;
+	string lines[];
+	int nLines = fileread(lines, "C:\\Users\\Neto\\Documents\\eagle\\leitorcartao\\BOM.txt");
+	if (nLines <= 1)
+	{
+		printf("Erro! Numero de linhas do arquivo insuficiente!");
+		exit(0);
+	}
+	
+	string campos[];
+	string resumo_campos;
+	ncampos = strsplit(campos, lines[0], '\t');	
+	
+	sprintf(resumo_campos,"Linhas lidas: %d\nCampos lidos: %d\n\n",nLines,ncampos);
+	for (i=0; i<ncampos; i++)
+	{
+		resumo_campos+=campos[i]+" ";
+	}
+	resumo_campos+="\n\n";
+	resumo_campos+="Deseja continuar?";
+	
+	if (dlgMessageBox(resumo_campos, "&Yes", "&No") != 0) {
+		dlgMessageBox("Operacao cancelada!");
+		exit(0);
+	}
+	
+	string mudar_valores="";
+	string mudar_att="";
+	string peca[];
+	
+	schematic(S)
+	{
+		S.sheets(sh)
+		{
+			sh.parts(P)
+			{	
+				for (i=1; i < nLines; i++)
+				{
+					strsplit(peca, lines[i], '\t');
+					
+					if (P.name == peca[0])
+					{
+						if (P.value==peca[1])
+						{
+							for (j=5;j<ncampos;j++)
+							{
+								string temp="";
+								sprintf(temp,"%d",sh.number);
+								mudar_att+= "EDIT .s"+temp+";\n";
+								mudar_att+= "attribute "+P.name+" '"+campos[j]+"' '"+peca[j]+"';\n";
+								mudar_att+= "attribute "+P.name+" '"+campos[j]+"' DELETE;\n";
+								mudar_att+= "change display off;\n";
+								mudar_att+= "attribute "+P.name+" '"+campos[j]+"' '"+peca[j]+"';\n";
+							}
+						}
+						else
+						{
+							mudar_valores+="value "+P.name+" "+peca[1]+";\n";
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	printf("%s",mudar_valores);
+	printf("%s",mudar_att);
+}
+

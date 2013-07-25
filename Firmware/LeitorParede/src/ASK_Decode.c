@@ -7,6 +7,7 @@
 
 #include <asf.h>
 #include "ASK_Decode.h"
+#include "Envia_Dados_Cartao.h"
 #include "config_board.h"
 #include "stdio.h"
 #include "string.h"
@@ -40,9 +41,8 @@ static const int _row_good[32] = {
 	1, 0, 0, 1, 0, 1, 1, 0
 };
 
-static uint64_t num;
+static uint32_t num;
 static volatile unsigned int cartao_RFID;
-static int ver;
 
 void ASK_Decoding(void)
 {
@@ -186,8 +186,6 @@ static void processa_resultado(uint64_t val)
 		if (!_row_good[row])
 		{
 			// Erro na paridade dessa linha
-			//usart_serial_write_packet(USART_SERIAL,(const uint8_t*)"!P:R\n\r",strlen("!P:R\n\r"));
-			//printf(RFID_MSG "Paridade linha %d\n\r", i);
 			return;
 		}
 		temp >>= 5;
@@ -201,8 +199,6 @@ static void processa_resultado(uint64_t val)
 		if ((count_ones(temp >> 32) + count_ones((unsigned int)temp)) & 1)
 		{
 			// Erro na paridade da coluna
-			//printf(RFID_MSG "Paridade coluna %d\n\r", i);
-			//usart_serial_write_packet(USART_SERIAL,(const uint8_t*)"!P:C\n\r",strlen("!P:R\n\r"));
 			return;
 		}
 		col <<= 1;
@@ -217,25 +213,8 @@ static void processa_resultado(uint64_t val)
 	(((val >> 31u) & 0xfu) << 20u) |
 	(((val >> 36u) & 0xfu) << 24u) |
 	(((val >> 41u) & 0xfu) << 28u);
-	ver = (int)(
-	((val >> 46u) & 0xfu) |
-	(((val >> 51u) & 0xfu) << 4u));
 	
-	//Transmite_Pacote_Wiegand(num);
-
-	//char Hex_Num[20];
-	//
-	//usart_serial_write_packet(USART_SERIAL,(const uint8_t*)"ASK: ",strlen("ASK: "));
-	//
-	//sprintf(&Hex_Num[0],"0x%03X",(const uint16_t)((num >> 16) & 0xFFF));
-	//sprintf(&Hex_Num[5],"%04X\n\r",(const uint16_t)((num >> 0) & 0xFFFFFFFF));
-	//usart_serial_write_packet(USART_SERIAL,(const uint8_t*)Hex_Num,strlen(Hex_Num));
-	
-	uint64_t serial;
-	
-	serial = Monta_Dados_Serial(num,ver);
-	
-	Transmite_Cartao_Serial(serial);
+	Enviar_Dados_Cartao(num);
 	
 }
 

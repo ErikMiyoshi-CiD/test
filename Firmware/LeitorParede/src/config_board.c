@@ -70,7 +70,7 @@ void Inicializa_GPIO(void)
 	ioport_set_pin_dir(RFID_CLK,IOPORT_DIR_OUTPUT);
 	ioport_set_pin_dir(CARD_PRES,IOPORT_DIR_OUTPUT);
 	ioport_set_pin_dir(D1_DATA,IOPORT_DIR_OUTPUT);
-	ioport_set_pin_dir(BUZZER,IOPORT_DIR_OUTPUT);
+//	ioport_set_pin_dir(BUZZER,IOPORT_DIR_OUTPUT);
 	ioport_set_pin_dir(USART_TX_PIN, IOPORT_DIR_OUTPUT);
 	
 	ioport_set_pin_dir(LED_IN,IOPORT_DIR_INPUT);
@@ -124,16 +124,28 @@ void Conf_Timer_XCL_16bits(void)
 	xcl_port(PD);
 	xcl_tc_type(TC16);
 	xcl_tc_mode(XCL_TCMODE_NORMAL_gc);
+	xcl_tc16_enable_underflow_interrupt();
 }
 
 void Liga_Timer_XCL_16bits(void)
 {
-	xcl_tc_source_clock(DIV1);
+	xcl_tc_source_clock(DIV1024);
 }
 
 void Desliga_Timer_XCL_16bits(void)
 {
 	xcl_tc_source_clock(OFF);
+}
+
+void Reinicia_XCL_Cnt(void)
+{
+	XCL.CTRLF |= ((1<<7)|(1<<6));
+	XCL.CTRLE |= (1<<7);
+}
+
+void Clear_XCL_Underflow_Flag(void)
+{
+	XCL.INTFLAGS |= ((1<<7)|(1<<6));
 }
 
 uint16_t  Cont_Timer_XCL_16bits(void)

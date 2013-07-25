@@ -53,6 +53,7 @@ void Liga_Timer_XCL_16bits(void);
 void Desliga_Timer_XCL_16bits(void);
 void Conf_Timer_XCL_16bits(void);
 uint16_t  Cont_Timer_XCL_16bits(void);
+void Reinicia_XCL_Cnt(void);
 
 void Liga_TC5(void);
 void Desliga_TC5(void);
@@ -60,5 +61,6 @@ void Configura_TC5(void);
 uint16_t Ler_Contagem_TC5(void);
 void Reinicia_Contagem_TC5(void);
 void TC5_Set_CountUp_Mode(void);
+void Clear_XCL_Underflow_Flag(void);
 
 #endif /* CONFIG_BOARD_H_ */

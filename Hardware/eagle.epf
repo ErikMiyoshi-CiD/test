@@ -245,7 +245,6 @@ UsedLibrary="C:/Program Files (x86)/EAGLE-6.3.0/lbr/opto-transmittter-hp.lbr"
 UsedLibrary="C:/Program Files (x86)/EAGLE-6.3.0/lbr/opto-vishay.lbr"
 UsedLibrary="C:/Program Files (x86)/EAGLE-6.3.0/lbr/optocoupler.lbr"
 UsedLibrary="C:/Program Files (x86)/EAGLE-6.3.0/lbr/pal.lbr"
-UsedLibrary="C:/Program Files (x86)/EAGLE-6.3.0/lbr/paparizzi.lbr"
 UsedLibrary="C:/Program Files (x86)/EAGLE-6.3.0/lbr/philips-semiconductors.lbr"
 UsedLibrary="C:/Program Files (x86)/EAGLE-6.3.0/lbr/photo-elements.lbr"
 UsedLibrary="C:/Program Files (x86)/EAGLE-6.3.0/lbr/piher.lbr"
@@ -344,11 +343,11 @@ UsedLibrary="RFiD.lbr"
 
 [Win_1]
 Type="Board Editor"
-Loc="332 181 931 580"
-State=0
+Loc="1358 -8 1957 391"
+State=3
 Number=2
 File="leitorcartao.brd"
-View="-1.01993 -1.5635 36.3331 69.2753"
+View="27.7541 49.5081 33.7868 60.9489"
 WireWidths=" 0 0.254 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -387,7 +386,7 @@ Loc="332 181 931 580"
 State=3
 Number=1
 File="leitorcartao.sch"
-View="52.5973 88.6395 161.75 163.821"
+View="192.188 46.0607 267.988 98.2701"
 WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -419,17 +418,17 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: 180.314 99.1316 232.953 135.388 3: 52.5973 88.6395 161.75 163.821"
+Views=" 1: 180.314 99.1316 232.953 135.388 3: 192.188 46.0607 267.988 98.2701"
 Sheet=3
 
 [Win_3]
 Type="Control Panel"
-Loc="332 181 931 580"
+Loc="375 165 974 564"
 State=2
 Number=0
 
 [Desktop]
-Screen="1280 800"
+Screen="2732 768"
 Window="Win_1"
 Window="Win_2"
 Window="Win_3"

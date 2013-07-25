@@ -16,9 +16,6 @@
 #define MIN_LONG_TIME 13184u   // 412us
 #define MAX_LONG_TIME 19584u   // 612us
 
-#define MIN_REPEAT		2
-#define REPEAT_TIMEOUT	250
-
 #define COL0	0x0008421084210842ull
 
 void ASK_Decoding(void);

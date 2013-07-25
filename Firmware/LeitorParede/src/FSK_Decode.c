@@ -6,7 +6,11 @@
  */ 
 
 #include <asf.h>
+#include "Envia_Dados_Cartao.h"
 #include "FSK_Decode.h"
+#include "SerialOut.h"
+#include "Wiegand.h"
+#include "ABATK2.h"
 #include "config_board.h"
 #include "string.h"
 #include <stdio.h>
@@ -16,9 +20,10 @@ static int _last_bit;
 static int _num_bits;
 static int _valendo;
 
+static inline void processa_resultado(void);
+
 static void comeca_leitura(void)
 {
-	ioport_set_pin_level(CARD_PRES,1);
 	_val = 0;
 	_num_bits = 0;
 	_valendo = 1;
@@ -27,7 +32,6 @@ static void comeca_leitura(void)
 static void aborta_leitura(void)
 {
 	_valendo = 0;
-	ioport_set_pin_level(CARD_PRES,0);
 }
 
 static inline void leu_bit(int bit)
@@ -47,7 +51,7 @@ static inline void leu_bit(int bit)
 		else if (!_last_bit && bit)
 		{
 			// Transicao baixo --> alto
-			//_val |= 0;
+			_val |= 0;
 		}
 		else
 		{
@@ -61,16 +65,21 @@ static inline void leu_bit(int bit)
 
 	if (_num_bits >= 90)
 	{
-		
-		// TODO: Ou verificar paridade ou amostrar mais cartões e verificar se são iguais 
-		uint8_t Hex_Num [9];
 		// Acabou!
 		aborta_leitura();
-	
-		sprintf(&Hex_Num[0],"%05d\n\r",(const uint16_t)((_val >> 1) & 0xFFFF));
-		usart_serial_write_packet(USART_SERIAL,(const uint8_t*)Hex_Num,strlen(Hex_Num));
-		//processa_resultado(val);
+		processa_resultado();
 	}
+}
+
+static inline void processa_resultado()
+{
+	uint32_t card_data;
+
+	card_data = 
+	((_val >> 1) & 0xFFFF) |
+	(((_val >> 17) & 0xFF) << 16);
+	
+	Enviar_Dados_Cartao(card_data);
 }
 
 void FSK_Decoding(void)
@@ -79,9 +88,6 @@ void FSK_Decoding(void)
 	static uint8_t long_periods = 0;
 	
 	uint16_t duracao = tc45_read_count(&TCC5);
-	
-	//if (duracao < GLITCH_TIME)
-	//	return;
 
 	// Reset counter
 	Reinicia_Contagem_TC5();
@@ -101,13 +107,11 @@ void FSK_Decoding(void)
 			if (long_periods >= 4 && long_periods <= 7)
 			{
 				// Pulso curto, formado de pulsinhos longos (correspondente, portanto, a nivel 1)
-				ioport_set_pin_level(D1_DATA,0);
 				leu_bit(1);
 			}
 			else if (long_periods >= 8 && long_periods <= 14)
 			{
 				// Pulso longo, formado de pulsinhos longos (correspondente, portanto, a nivel 1)
-				ioport_set_pin_level(D1_DATA,0);
 				leu_bit(1);
 				leu_bit(1);
 			}
@@ -120,10 +124,6 @@ void FSK_Decoding(void)
 			else
 			{
 				// Erro!
-				delay_us(10);
-				ioport_toggle_pin(D1_DATA);
-				delay_us(10);
-				ioport_toggle_pin(D1_DATA);
 				aborta_leitura();
 			}
 		}
@@ -139,13 +139,11 @@ void FSK_Decoding(void)
 			if (short_periods >= 4 && short_periods <= 7)
 			{
 				// Pulso curto, formado de pulsinhos pequenos (correspondente, portanto, a nivel 0)
-				ioport_set_pin_level(D1_DATA,1);
 				leu_bit(0);
 			}
 			else if (short_periods >= 8 && short_periods <= 14)
 			{
 				// Pulso longo, formado de pulsinhos pequenos (correspondente, portanto, a nivel 0)
-				ioport_set_pin_level(D1_DATA,1);
 				leu_bit(0);
 				leu_bit(0);
 			}
@@ -156,11 +154,7 @@ void FSK_Decoding(void)
 			else
 			{
 				// Erro!
-				delay_us(10);
-				ioport_toggle_pin(D1_DATA);
-				delay_us(10);
-				ioport_toggle_pin(D1_DATA);
-				//TODO: Recomecar leitura
+				aborta_leitura();
 			}
 		}
 		short_periods = 0;

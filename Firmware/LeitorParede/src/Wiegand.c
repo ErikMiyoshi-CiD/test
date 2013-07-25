@@ -25,7 +25,7 @@ static inline uint8_t Calcula_Paridade(uint16_t val)
 		tmp >>= 1;
 	}
 	
-	return parity; // Paridade impar
+	return !parity; // Paridade impar
 }
 
 static inline uint32_t Codifica_Wiegand(uint32_t val)

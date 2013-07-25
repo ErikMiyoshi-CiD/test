@@ -7,31 +7,35 @@
 int main (void)
 {
 	Inicializa_Placa();
-	
+
 	Inicializa_GPIO();
-	
+
 	Inicializa_USART();
 
 	Liga_125kHz();
 
 	Configura_TC5();
-	
+
 	TC5_Set_CountUp_Mode();
 
 	Liga_TC5();
 	
+	Conf_Timer_XCL_16bits();
+	
+	Liga_Timer_XCL_16bits();
+
 	#ifdef ASK
-		ASK_Pin_Config();
+	ASK_Pin_Config();
 	#endif
-	
+
 	#ifdef FSK
-		FSK_Pin_Config();
+	FSK_Pin_Config();
 	#endif
-	
+
 	#ifdef PSK
 	PSK_Pin_Config();
 	#endif
-	
+
 	while(1)
 	{
 	}
@@ -55,9 +59,7 @@ int main (void)
 #ifdef PSK
 	ISR(PORTC_INT_vect)
 	{
-		ioport_toggle_pin(CARD_PRES);
 		PSK_Decoding();
-		ioport_toggle_pin(CARD_PRES);
 		Clear_PORTC_Int_Flag();
 	}
 #endif

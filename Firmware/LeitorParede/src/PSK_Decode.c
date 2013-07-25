@@ -1,15 +1,17 @@
 /*
- * PSK_Decode.c
- *
- * Created: 17/07/2013 17:58:39
- *  Author: Neto
- */ 
+* PSK_Decode.c
+*
+* Created: 17/07/2013 17:58:39
+*  Author: Neto
+*/
 
 #include <asf.h>
 #include "stdio.h"
 #include "string.h"
 #include "config_board.h"
 #include "PSK_Decode.h"
+#include "Envia_Dados_Cartao.h"
+#include "Wiegand.h"
 
 static int8_t _primeira_vez = 0;
 static uint8_t _num_bits=0;
@@ -24,7 +26,6 @@ static inline void reinicia_leitura(void)
 {
 	_val = 0;
 	_num_bits = 0;
-	//ioport_set_pin_level(CARD_PRES,1);
 }
 
 void PSK_Decoding(void)
@@ -95,7 +96,6 @@ void PSK_Decoding(void)
 						return;
 					}
 					bit_status=!bit_status;
-					//ioport_toggle_pin(CARD_PRES);
 				}
 				else
 				{
@@ -110,8 +110,7 @@ void PSK_Decoding(void)
 			{
 				_sync=1;
 				reinicia_leitura();
-				bit_status=1; //Bit negado
-				//ioport_set_pin_level(CARD_PRES,!bit_status);
+				bit_status=1;
 				Recebe_Bit(bit_status);
 			}
 			
@@ -141,12 +140,42 @@ static inline void Recebe_Bit(uint8_t bit)
 }
 
 static inline void processa_resultado(uint64_t val)
-{
-	static uint8_t Hex_Num [17];
+{	
+	uint16_t card_number;
 	
-	sprintf(&Hex_Num[0],"0x%04X",(const uint16_t)((_val >> 32) & 0xF));
-	sprintf(&Hex_Num[6],"%04X",(const uint16_t)((_val >> 16) & 0xFFFF));
-	sprintf(&Hex_Num[10],"%04X\r\n",(const uint16_t)(_val & 0xFFFF));
-	usart_serial_write_packet(USART_SERIAL,(const uint8_t*)Hex_Num,strlen(Hex_Num));
+	uint8_t site_code;
 	
+	uint32_t card_data;
+	
+	if((val & 0x5)==0) 
+	{
+		// Erro!! Fim do cartão está errado
+		reinicia_leitura(); 
+		return;
+	}
+	
+	// S ??A0 1AAA72BBBB54CCCCD36DDD?PP?? TTT
+	// 4 3210 987654321098765432109876543 210
+	//	    3		   2		 1
+	
+	site_code = 
+	(((val >> 30) & 0x1) << 7) |	// Bit 0 - MSB
+	(((val >> 29) & 0x1) << 6) |	// Bit 1
+	(((val >> 24) & 0x1) << 5) |	// Bit 2
+	(((val >> 12) & 0x1) << 4) |	// Bit 3
+	(((val >> 18) & 0x1) << 3) |	// Bit 4
+	(((val >> 19) & 0x1) << 2) |	// Bit 5
+	(((val >> 11) & 0x1) << 1) |	// Bit 6
+	((val >> 25) & 0x1);			// Bit 7 - LSB
+	
+	card_number = 
+	((val >> 8) & 0x7u) |
+	(((val >> 13) & 0x1Fu) << 3) |
+	(((val >> 20) & 0xFu) << 8)  |
+	(((val >> 26) & 0x7u) << 12) |
+	(((val >> 31) & 0x1u) << 15);
+	
+	card_data = ( ((uint32_t) site_code << 16) | card_number );
+
+	Enviar_Dados_Cartao(card_data);
 }

@@ -18,7 +18,6 @@ static uint8_t _num_bits=0;
 static uint8_t _sync=0;
 static uint64_t _val;
 
-
 static inline void Recebe_Bit(uint8_t bit);
 static inline void processa_resultado(uint64_t val);
 

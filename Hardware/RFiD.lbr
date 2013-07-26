@@ -3340,7 +3340,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="3.15" y1="3.15" x2="-3.15" y2="3.15" width="0.12" layer="21"/>
 <wire x1="-3.15" y1="-3.15" x2="3.15" y2="-3.15" width="0.12" layer="21"/>
 <circle x="-2.6" y="-2.6" radius="0.1" width="0.4" layer="21"/>
-<circle x="-3.6" y="-4.4" radius="0.1" width="0.25" layer="21"/>
+<circle x="-3.9" y="-4.3" radius="0.2" width="0.38" layer="21"/>
 </package>
 <package name="SOT223-3L">
 <smd name="4" x="0" y="2.9" dx="3.25" dy="2.15" layer="1"/>
@@ -5760,6 +5760,86 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <pin name="C2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 <pin name="C1A2" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
 </symbol>
+<symbol name="ATSAMD20E">
+<pin name="PA0" x="-10.16" y="33.02" length="short"/>
+<pin name="PA1" x="-10.16" y="30.48" length="short"/>
+<pin name="PA2" x="-10.16" y="27.94" length="short"/>
+<pin name="PA3" x="-10.16" y="25.4" length="short"/>
+<pin name="PA4" x="-10.16" y="22.86" length="short"/>
+<pin name="PA5" x="-10.16" y="20.32" length="short"/>
+<pin name="PA6" x="-10.16" y="17.78" length="short"/>
+<pin name="PA7" x="-10.16" y="15.24" length="short"/>
+<pin name="VDDANA" x="25.4" y="-7.62" length="short" direction="pwr" rot="R180"/>
+<pin name="GND" x="25.4" y="0" length="short" direction="pwr" rot="R180"/>
+<pin name="PA8" x="-10.16" y="12.7" length="short"/>
+<pin name="PA9" x="-10.16" y="10.16" length="short"/>
+<pin name="PA10" x="-10.16" y="7.62" length="short"/>
+<pin name="PA11" x="-10.16" y="5.08" length="short"/>
+<pin name="PA14" x="-10.16" y="2.54" length="short"/>
+<pin name="PA15" x="-10.16" y="0" length="short"/>
+<pin name="PA16" x="-10.16" y="-2.54" length="short"/>
+<pin name="PA17" x="-10.16" y="-5.08" length="short"/>
+<pin name="PA18" x="-10.16" y="-7.62" length="short"/>
+<pin name="PA19" x="-10.16" y="-10.16" length="short"/>
+<pin name="PA22" x="-10.16" y="-12.7" length="short"/>
+<pin name="PA23" x="-10.16" y="-15.24" length="short"/>
+<pin name="PA24" x="-10.16" y="-17.78" length="short"/>
+<pin name="PA25" x="-10.16" y="-20.32" length="short"/>
+<pin name="PA27" x="-10.16" y="-22.86" length="short"/>
+<pin name="RESET" x="25.4" y="-5.08" length="short" rot="R180"/>
+<pin name="PA28" x="-10.16" y="-25.4" length="short"/>
+<pin name="GND@1" x="25.4" y="-2.54" length="short" direction="pwr" rot="R180"/>
+<pin name="VDDCORE" x="25.4" y="2.54" length="short" direction="pwr" rot="R180"/>
+<pin name="VDDIN" x="25.4" y="5.08" length="short" direction="pwr" rot="R180"/>
+<pin name="PA30" x="-10.16" y="-27.94" length="short"/>
+<pin name="PA31" x="-10.16" y="-30.48" length="short"/>
+<text x="-7.62" y="36.83" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-35.56" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="ATSAMD20E-A">
+<pin name="PA0" x="-5.08" y="33.02" length="short"/>
+<pin name="PA1" x="-5.08" y="30.48" length="short"/>
+<pin name="PA2" x="-5.08" y="27.94" length="short"/>
+<pin name="PA3" x="-5.08" y="25.4" length="short"/>
+<pin name="PA4" x="-5.08" y="22.86" length="short"/>
+<pin name="PA5" x="-5.08" y="20.32" length="short"/>
+<pin name="PA6" x="-5.08" y="17.78" length="short"/>
+<pin name="PA7" x="-5.08" y="15.24" length="short"/>
+<pin name="PA8" x="-5.08" y="12.7" length="short"/>
+<pin name="PA9" x="-5.08" y="10.16" length="short"/>
+<pin name="PA10" x="-5.08" y="7.62" length="short"/>
+<pin name="PA11" x="-5.08" y="5.08" length="short"/>
+<pin name="PA14" x="-5.08" y="2.54" length="short"/>
+<pin name="PA15" x="-5.08" y="0" length="short"/>
+<pin name="PA16" x="-5.08" y="-2.54" length="short"/>
+<pin name="PA17" x="-5.08" y="-5.08" length="short"/>
+<pin name="PA18" x="-5.08" y="-7.62" length="short"/>
+<pin name="PA19" x="-5.08" y="-10.16" length="short"/>
+<pin name="PA22" x="-5.08" y="-12.7" length="short"/>
+<pin name="PA23" x="-5.08" y="-15.24" length="short"/>
+<pin name="PA24" x="-5.08" y="-17.78" length="short"/>
+<pin name="PA25" x="-5.08" y="-20.32" length="short"/>
+<pin name="PA27" x="-5.08" y="-22.86" length="short"/>
+<pin name="PA28" x="-5.08" y="-25.4" length="short"/>
+<pin name="PA30" x="-5.08" y="-27.94" length="short"/>
+<pin name="PA31" x="-5.08" y="-30.48" length="short"/>
+<wire x1="-2.54" y1="-33.02" x2="-2.54" y2="35.56" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="35.56" x2="7.62" y2="35.56" width="0.254" layer="94"/>
+<wire x1="7.62" y1="35.56" x2="7.62" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-33.02" x2="-2.54" y2="-33.02" width="0.254" layer="94"/>
+</symbol>
+<symbol name="ATSAMD20E-B">
+<pin name="VDDANA" x="-10.16" y="5.08" length="short" direction="pwr"/>
+<pin name="GND" x="-10.16" y="-5.08" length="short" direction="pwr"/>
+<pin name="RESET" x="-10.16" y="-2.54" length="short"/>
+<pin name="GND@1" x="-10.16" y="-7.62" length="short" direction="pwr"/>
+<pin name="VDDCORE" x="-10.16" y="2.54" length="short" direction="pwr"/>
+<pin name="VDDIN" x="-10.16" y="0" length="short" direction="pwr"/>
+<wire x1="-7.62" y1="-10.16" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="C-US" prefix="C" uservalue="yes">
@@ -7408,6 +7488,109 @@ Source: Fairchild .. BAT54.pdf</description>
 <connect gate="G$1" pin="A1" pad="1"/>
 <connect gate="G$1" pin="C1A2" pad="3"/>
 <connect gate="G$1" pin="C2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ATSAMD20E" prefix="U">
+<description>&lt;b&gt;ATSAMD20E&lt;/b&gt; &lt;font color="red"&gt;edit this description&lt;/font&gt;&lt;p&gt;
+Auto generated by &lt;i&gt;make-symbol-device-package-bsdl.ulp Rev. 43&lt;/i&gt;&lt;br&gt;
+Source: ATSAMD20E.txt</description>
+<gates>
+<gate name="G$1" symbol="ATSAMD20E" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TQFP32">
+<connects>
+<connect gate="G$1" pin="GND" pad="10"/>
+<connect gate="G$1" pin="GND@1" pad="28"/>
+<connect gate="G$1" pin="PA0" pad="1"/>
+<connect gate="G$1" pin="PA1" pad="2"/>
+<connect gate="G$1" pin="PA10" pad="13"/>
+<connect gate="G$1" pin="PA11" pad="14"/>
+<connect gate="G$1" pin="PA14" pad="15"/>
+<connect gate="G$1" pin="PA15" pad="16"/>
+<connect gate="G$1" pin="PA16" pad="17"/>
+<connect gate="G$1" pin="PA17" pad="18"/>
+<connect gate="G$1" pin="PA18" pad="19"/>
+<connect gate="G$1" pin="PA19" pad="20"/>
+<connect gate="G$1" pin="PA2" pad="3"/>
+<connect gate="G$1" pin="PA22" pad="21"/>
+<connect gate="G$1" pin="PA23" pad="22"/>
+<connect gate="G$1" pin="PA24" pad="23"/>
+<connect gate="G$1" pin="PA25" pad="24"/>
+<connect gate="G$1" pin="PA27" pad="25"/>
+<connect gate="G$1" pin="PA28" pad="27"/>
+<connect gate="G$1" pin="PA3" pad="4"/>
+<connect gate="G$1" pin="PA30" pad="31"/>
+<connect gate="G$1" pin="PA31" pad="32"/>
+<connect gate="G$1" pin="PA4" pad="5"/>
+<connect gate="G$1" pin="PA5" pad="6"/>
+<connect gate="G$1" pin="PA6" pad="7"/>
+<connect gate="G$1" pin="PA7" pad="8"/>
+<connect gate="G$1" pin="PA8" pad="11"/>
+<connect gate="G$1" pin="PA9" pad="12"/>
+<connect gate="G$1" pin="RESET" pad="26"/>
+<connect gate="G$1" pin="VDDANA" pad="9"/>
+<connect gate="G$1" pin="VDDCORE" pad="29"/>
+<connect gate="G$1" pin="VDDIN" pad="30"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SAMD20E14A-AUT" prefix="U">
+<description>&lt;b&gt;ATSAMD20E&lt;/b&gt; &lt;font color="red"&gt;edit this description&lt;/font&gt;&lt;p&gt;
+The Atmel® SAM D20 family is a series of low-power, high-performance, ARM®-based
+embedded flash microcontrollers based on the ARM Cortex®-M0+ 32-bit processor.
+Operating at a maximum speed of 48MHz, and with a two-stage pipeline, single-cycle
+I/O access, single-cycle 32x32 multiplier, Event System and a fast and flexible interrupt
+controller, the SAM D20 series microcontrollers are highly efficient, reaching
+2.14 Coremark/MHz – 0.93 DMIPS/MHz.</description>
+<gates>
+<gate name="G$1" symbol="ATSAMD20E-A" x="-30.48" y="0"/>
+<gate name="G$2" symbol="ATSAMD20E-B" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TQFP32">
+<connects>
+<connect gate="G$1" pin="PA0" pad="1"/>
+<connect gate="G$1" pin="PA1" pad="2"/>
+<connect gate="G$1" pin="PA10" pad="13"/>
+<connect gate="G$1" pin="PA11" pad="14"/>
+<connect gate="G$1" pin="PA14" pad="15"/>
+<connect gate="G$1" pin="PA15" pad="16"/>
+<connect gate="G$1" pin="PA16" pad="17"/>
+<connect gate="G$1" pin="PA17" pad="18"/>
+<connect gate="G$1" pin="PA18" pad="19"/>
+<connect gate="G$1" pin="PA19" pad="20"/>
+<connect gate="G$1" pin="PA2" pad="3"/>
+<connect gate="G$1" pin="PA22" pad="21"/>
+<connect gate="G$1" pin="PA23" pad="22"/>
+<connect gate="G$1" pin="PA24" pad="23"/>
+<connect gate="G$1" pin="PA25" pad="24"/>
+<connect gate="G$1" pin="PA27" pad="25"/>
+<connect gate="G$1" pin="PA28" pad="27"/>
+<connect gate="G$1" pin="PA3" pad="4"/>
+<connect gate="G$1" pin="PA30" pad="31"/>
+<connect gate="G$1" pin="PA31" pad="32"/>
+<connect gate="G$1" pin="PA4" pad="5"/>
+<connect gate="G$1" pin="PA5" pad="6"/>
+<connect gate="G$1" pin="PA6" pad="7"/>
+<connect gate="G$1" pin="PA7" pad="8"/>
+<connect gate="G$1" pin="PA8" pad="11"/>
+<connect gate="G$1" pin="PA9" pad="12"/>
+<connect gate="G$2" pin="GND" pad="10"/>
+<connect gate="G$2" pin="GND@1" pad="28"/>
+<connect gate="G$2" pin="RESET" pad="26"/>
+<connect gate="G$2" pin="VDDANA" pad="9"/>
+<connect gate="G$2" pin="VDDCORE" pad="29"/>
+<connect gate="G$2" pin="VDDIN" pad="30"/>
 </connects>
 <technologies>
 <technology name=""/>

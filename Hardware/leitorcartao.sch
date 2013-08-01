@@ -2418,6 +2418,14 @@ Source: http://www.vishay.com/docs/31059/wsrhigh.pdf</description>
 <text x="-0.9" y="0.9" size="0.6096" layer="25" font="vector">&gt;NAME</text>
 <text x="-0.9" y="-1.5" size="0.6096" layer="27" font="vector">&gt;VALUE</text>
 </package>
+<package name="SOLDERBRIDGE">
+<smd name="1" x="0" y="0.75" dx="0.8" dy="0.5" layer="1" stop="no"/>
+<smd name="2" x="0" y="0" dx="0.8" dy="0.5" layer="1" stop="no"/>
+<smd name="3" x="0" y="-0.75" dx="0.8" dy="0.5" layer="1" stop="no"/>
+<rectangle x1="-0.5" y1="-1.1" x2="0.5" y2="-0.35" layer="29"/>
+<rectangle x1="-0.5" y1="0.35" x2="0.5" y2="1.1" layer="29"/>
+<rectangle x1="-0.5" y1="-0.4" x2="0.5" y2="0.4" layer="29"/>
+</package>
 </packages>
 <symbols>
 <symbol name="A4L-LOC">
@@ -2907,6 +2915,18 @@ Source: http://www.vishay.com/docs/31059/wsrhigh.pdf</description>
 <pin name="2" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
 <pin name="1" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 <pin name="3" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
+</symbol>
+<symbol name="SOLDERBRIDGE">
+<pin name="2" x="0" y="2.54" visible="off" length="short" rot="R270"/>
+<pin name="3" x="5.08" y="0" visible="off" length="short" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short"/>
+<rectangle x1="-2.54" y1="-1.27" x2="-1.524" y2="1.27" layer="94"/>
+<rectangle x1="-0.508" y1="-1.27" x2="0.508" y2="1.27" layer="94"/>
+<rectangle x1="1.524" y1="-1.27" x2="2.54" y2="1.27" layer="94"/>
+<wire x1="-3.302" y1="1.778" x2="-3.302" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-3.302" y1="-1.778" x2="3.302" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="3.302" y1="-1.778" x2="3.302" y2="1.778" width="0.254" layer="94"/>
+<wire x1="3.302" y1="1.778" x2="-3.302" y2="1.778" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -4418,6 +4438,23 @@ controller, the SAM D20 series microcontrollers are highly efficient, reaching
 </device>
 </devices>
 </deviceset>
+<deviceset name="SOLDERBRIDGE" prefix="SJ?">
+<gates>
+<gate name="G$1" symbol="SOLDERBRIDGE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOLDERBRIDGE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="supply1">
@@ -5459,6 +5496,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="P+12" library="supply1" deviceset="+12V" device=""/>
 <part name="D4" library="RFiD" deviceset="BAV99" device=""/>
 <part name="D3" library="RFiD" deviceset="BAV99" device=""/>
+<part name="SJ?1" library="RFiD" deviceset="SOLDERBRIDGE" device=""/>
+<part name="P+16" library="supply1" deviceset="+12V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7755,7 +7794,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="R44" gate="G$1" x="35.56" y="139.7" rot="R90">
 <attribute name="CUSTOMER_PN" x="35.56" y="139.7" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="+3V16" gate="G$1" x="35.56" y="157.48"/>
+<instance part="+3V16" gate="G$1" x="25.4" y="162.56"/>
 <instance part="R45" gate="G$1" x="180.34" y="53.34" rot="R180">
 <attribute name="CUSTOMER_PN" x="180.34" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
@@ -7800,6 +7839,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="VALUE" x="111.76" y="121.92" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="D7" gate="G$1" x="182.88" y="66.04" rot="R270"/>
+<instance part="SJ?1" gate="G$1" x="35.56" y="154.94" rot="R180"/>
+<instance part="P+16" gate="1" x="48.26" y="162.56"/>
 </instances>
 <busses>
 </busses>
@@ -7982,16 +8023,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="+3V15" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="R44" gate="G$1" pin="2"/>
-<pinref part="+3V16" gate="G$1" pin="+3V3"/>
-<wire x1="35.56" y1="144.78" x2="35.56" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="SG1" gate="1" pin="+"/>
-<wire x1="35.56" y1="147.32" x2="35.56" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="144.78" x2="45.72" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="147.32" x2="35.56" y2="147.32" width="0.1524" layer="91"/>
-<junction x="35.56" y="147.32"/>
-</segment>
-<segment>
 <pinref part="D5" gate="G$1" pin="C2"/>
 <pinref part="+3V18" gate="G$1" pin="+3V3"/>
 <wire x1="203.2" y1="157.48" x2="198.12" y2="157.48" width="0.1524" layer="91"/>
@@ -8002,6 +8033,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="+3V19" gate="G$1" pin="+3V3"/>
 <wire x1="203.2" y1="127" x2="198.12" y2="127" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="127" x2="198.12" y2="129.54" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="+3V16" gate="G$1" pin="+3V3"/>
+<pinref part="SJ?1" gate="G$1" pin="3"/>
+<wire x1="25.4" y1="160.02" x2="25.4" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="154.94" x2="30.48" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$52" class="0">
@@ -8079,6 +8116,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="182.88" y1="73.66" x2="182.88" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="76.2" x2="193.04" y2="76.2" width="0.1524" layer="91"/>
 <junction x="193.04" y="76.2"/>
+</segment>
+<segment>
+<pinref part="SJ?1" gate="G$1" pin="1"/>
+<pinref part="P+16" gate="1" pin="+12V"/>
+<wire x1="40.64" y1="154.94" x2="48.26" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="154.94" x2="48.26" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$56" class="0">
@@ -8167,6 +8210,18 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="137.16" y1="127" x2="109.22" y2="127" width="0.1524" layer="91"/>
 <label x="116.84" y="127" size="1.778" layer="95"/>
 <pinref part="LED2" gate="G$1" pin="3"/>
+</segment>
+</net>
+<net name="N$77" class="0">
+<segment>
+<pinref part="R44" gate="G$1" pin="2"/>
+<wire x1="35.56" y1="144.78" x2="35.56" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="SG1" gate="1" pin="+"/>
+<wire x1="45.72" y1="144.78" x2="45.72" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="147.32" x2="35.56" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="SJ?1" gate="G$1" pin="2"/>
+<wire x1="35.56" y1="147.32" x2="35.56" y2="152.4" width="0.1524" layer="91"/>
+<junction x="35.56" y="147.32"/>
 </segment>
 </net>
 </nets>

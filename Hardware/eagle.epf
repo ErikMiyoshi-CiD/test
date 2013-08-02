@@ -343,7 +343,7 @@ UsedLibrary="RFiD.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="153 134 1069 559"
+Loc="159 89 1075 514"
 State=2
 Number=0
 

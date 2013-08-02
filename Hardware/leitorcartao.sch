@@ -4736,21 +4736,21 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="FRAME2" library="RFiD" deviceset="A4L-LOC" device=""/>
 <part name="FRAME3" library="RFiD" deviceset="A4L-LOC" device=""/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
-<part name="C2" library="RFiD" deviceset="C-US" device="C0402" value="0.1uF">
+<part name="C2" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="CUSTOMER_PN" value="C/0.1u/16V/C04"/>
 </part>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="C3" library="RFiD" deviceset="C-US" device="C0402" value="0.1uF">
+<part name="C3" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="CUSTOMER_PN" value="C/0.1u/16V/C04"/>
 </part>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="C6" library="RFiD" deviceset="C-US" device="C0603" value="4.7uF">
+<part name="C6" library="RFiD" deviceset="C-US" device="C0603" value="4.7u">
 <attribute name="CUSTOMER_PN" value="C/10u/36V/C12"/>
 </part>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
-<part name="C7" library="RFiD" deviceset="C-US" device="C0603" value="4.7uF">
+<part name="C7" library="RFiD" deviceset="C-US" device="C0603" value="4.7u">
 <attribute name="CUSTOMER_PN" value="C/10u/16V/C12"/>
 </part>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
@@ -4787,10 +4787,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="X1" library="con-molex" deviceset="22-23-2021" device="" value="ANTENA 125kHz">
 <attribute name="CUSTOMER_PN" value="-"/>
 </part>
-<part name="C12" library="RFiD" deviceset="C-US" device="C0603" value="1nF">
+<part name="C12" library="RFiD" deviceset="C-US" device="C0603" value="1n">
 <attribute name="CUSTOMER_PN" value="C/1n/100V/C04"/>
 </part>
-<part name="C13" library="RFiD" deviceset="C-US" device="C0603" value="100nF">
+<part name="C13" library="RFiD" deviceset="C-US" device="C0603" value="0.1u">
 <attribute name="CUSTOMER_PN" value="C/0.1u/50V/C04"/>
 </part>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
@@ -4802,19 +4802,19 @@ In this library the device names are the same as the pin names of the symbols, t
 </part>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
-<part name="C14" library="RFiD" deviceset="C-US" device="C0603" value="1nF">
+<part name="C14" library="RFiD" deviceset="C-US" device="C0603" value="1n">
 <attribute name="CUSTOMER_PN" value="C/1n/100V/C04"/>
 </part>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
-<part name="C15" library="RFiD" deviceset="C-US" device="C0603" value="2.2nF">
+<part name="C15" library="RFiD" deviceset="C-US" device="C0603" value="2.2n">
 <attribute name="CUSTOMER_PN" value="C/2.2n/100V/D04"/>
 </part>
-<part name="C16" library="RFiD" deviceset="C-US" device="C0603" value="100nF">
+<part name="C16" library="RFiD" deviceset="C-US" device="C0603" value="0.1u">
 <attribute name="CUSTOMER_PN" value="C/0.1u/50V/C04"/>
 </part>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="supply2" deviceset="+5V" device=""/>
-<part name="C17" library="RFiD" deviceset="C-US" device="C0402" value="100nF">
+<part name="C17" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="CUSTOMER_PN" value="C/0.1u/16V/C04"/>
 </part>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
@@ -4826,10 +4826,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="CUSTOMER_PN" value="IC/5VREG"/>
 </part>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="C1" library="RFiD" deviceset="C-US" device="C0805" value="10uF">
+<part name="C1" library="RFiD" deviceset="C-US" device="C0805" value="10u">
 <attribute name="CUSTOMER_PN" value="C/10u/36V/C12"/>
 </part>
-<part name="C4" library="RFiD" deviceset="C-US" device="C0805" value="10uF">
+<part name="C4" library="RFiD" deviceset="C-US" device="C0805" value="10u">
 <attribute name="CUSTOMER_PN" value="C/10u/16V/C12"/>
 </part>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
@@ -4843,22 +4843,22 @@ In this library the device names are the same as the pin names of the symbols, t
 </part>
 <part name="GND36" library="supply1" deviceset="GND" device=""/>
 <part name="GND37" library="supply1" deviceset="GND" device=""/>
-<part name="L1" library="RFiD" deviceset="R-EU_" device="R0402" value="22nH">
+<part name="L1" library="RFiD" deviceset="R-EU_" device="R0402" value="22n">
 <attribute name="CUSTOMER_PN" value="L/22n/0.2A/04"/>
 </part>
-<part name="L3" library="RFiD" deviceset="R-EU_" device="R0402" value="22nH">
+<part name="L3" library="RFiD" deviceset="R-EU_" device="R0402" value="22n">
 <attribute name="CUSTOMER_PN" value="L/22n/0.2A/04"/>
 </part>
-<part name="C10" library="RFiD" deviceset="C-US" device="C0402" value="100nF">
+<part name="C10" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="CUSTOMER_PN" value="C/0.1u/16V/C04"/>
 </part>
-<part name="C11" library="RFiD" deviceset="C-US" device="C0402" value="100nF">
+<part name="C11" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="CUSTOMER_PN" value="C/0.1u/16V/C04"/>
 </part>
-<part name="C30" library="RFiD" deviceset="C-US" device="C0402" value="100pF">
+<part name="C30" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="CUSTOMER_PN" value="C/100p/50V/D04"/>
 </part>
-<part name="C31" library="RFiD" deviceset="C-US" device="C0402" value="100pF">
+<part name="C31" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="CUSTOMER_PN" value="C/100p/50V/D04"/>
 </part>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
@@ -4867,10 +4867,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND39" library="supply1" deviceset="GND" device=""/>
 <part name="GND40" library="supply1" deviceset="GND" device=""/>
 <part name="GND41" library="supply1" deviceset="GND" device=""/>
-<part name="C32" library="RFiD" deviceset="C-US" device="C0402" value="100nF">
+<part name="C32" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="CUSTOMER_PN" value="C/0.1u/16V/C04"/>
 </part>
-<part name="C33" library="RFiD" deviceset="C-US" device="C0402" value="100nF">
+<part name="C33" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="CUSTOMER_PN" value="C/0.1u/16V/C04"/>
 </part>
 <part name="GND42" library="supply1" deviceset="GND" device=""/>
@@ -4878,10 +4878,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="QZ1" library="RFiD" deviceset="CRISTAL" device="SMALL(3.2X2.5MM)" value="27.12MHz">
 <attribute name="CUSTOMER_PN" value="XTAL/2712MHZ/3x2"/>
 </part>
-<part name="C5" library="RFiD" deviceset="C-US" device="C0402" value="18pF">
+<part name="C5" library="RFiD" deviceset="C-US" device="C0402" value="18p">
 <attribute name="CUSTOMER_PN" value="C/18p/16V/C04"/>
 </part>
-<part name="C9" library="RFiD" deviceset="C-US" device="C0402" value="18pF">
+<part name="C9" library="RFiD" deviceset="C-US" device="C0402" value="18p">
 <attribute name="CUSTOMER_PN" value="C/18p/16V/C04"/>
 </part>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
@@ -4889,28 +4889,28 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="GND44" library="supply1" deviceset="GND" device=""/>
-<part name="C34" library="RFiD" deviceset="C-US" device="C0402" value="120pF">
+<part name="C34" library="RFiD" deviceset="C-US" device="C0402" value="120p">
 <attribute name="CUSTOMER_PN" value="C/120p/50V/D04"/>
 </part>
-<part name="C35" library="RFiD" deviceset="C-US" device="C0402" value="120pF">
+<part name="C35" library="RFiD" deviceset="C-US" device="C0402" value="120p">
 <attribute name="CUSTOMER_PN" value="C/120p/50V/D04"/>
 </part>
-<part name="C36" library="RFiD" deviceset="C-US" device="C0402" value="18pF">
+<part name="C36" library="RFiD" deviceset="C-US" device="C0402" value="18p">
 <attribute name="CUSTOMER_PN" value="C/18p/16V/C04"/>
 </part>
-<part name="C37" library="RFiD" deviceset="C-US" device="C0402" value="18pF">
+<part name="C37" library="RFiD" deviceset="C-US" device="C0402" value="18p">
 <attribute name="CUSTOMER_PN" value="C/18p/16V/C04"/>
 </part>
-<part name="C38" library="RFiD" deviceset="C-US" device="C0402" value="56pF">
+<part name="C38" library="RFiD" deviceset="C-US" device="C0402" value="56p">
 <attribute name="CUSTOMER_PN" value="C/56p/50V/D04"/>
 </part>
-<part name="C39" library="RFiD" deviceset="C-US" device="C0402" value="56pF">
+<part name="C39" library="RFiD" deviceset="C-US" device="C0402" value="56p">
 <attribute name="CUSTOMER_PN" value="C/56p/50V/D04"/>
 </part>
-<part name="L5" library="RFiD" deviceset="R-EU_" device="R0603" value="1uH">
+<part name="L5" library="RFiD" deviceset="R-EU_" device="R0603" value="1u">
 <attribute name="CUSTOMER_PN" value="L/1u/0.5A/06"/>
 </part>
-<part name="L4" library="RFiD" deviceset="R-EU_" device="R0603" value="1uH">
+<part name="L4" library="RFiD" deviceset="R-EU_" device="R0603" value="1u">
 <attribute name="CUSTOMER_PN" value="L/1u/0.5A/06"/>
 </part>
 <part name="R24" library="RFiD" deviceset="R-US_" device="R0402" value="3.3">
@@ -4932,20 +4932,20 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R26" library="RFiD" deviceset="R-US_" device="R0402" value="2.2k">
 <attribute name="CUSTOMER_PN" value="R/2.2k/5%/04"/>
 </part>
-<part name="C40" library="RFiD" deviceset="C-US" device="C0402" value="1nF">
+<part name="C40" library="RFiD" deviceset="C-US" device="C0402" value="1n">
 <attribute name="CUSTOMER_PN" value="C/1n/100V/D04"/>
 </part>
 <part name="R27" library="RFiD" deviceset="R-US_" device="R0402" value="1k">
 <attribute name="CUSTOMER_PN" value="R/1k/5%/04"/>
 </part>
-<part name="C41" library="RFiD" deviceset="C-US" device="C0402" value="100nF">
+<part name="C41" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="CUSTOMER_PN" value="C/0.1u/16V/C04"/>
 </part>
 <part name="GND46" library="supply1" deviceset="GND" device=""/>
 <part name="X2" library="con-molex" deviceset="22-23-2021" device="" value="MIFARE ANTENA">
 <attribute name="CUSTOMER_PN" value="-"/>
 </part>
-<part name="C42" library="RFiD" deviceset="C-US" device="C0402" value="0.1uF">
+<part name="C42" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="CUSTOMER_PN" value="C/10u/16V/C08"/>
 </part>
 <part name="+3V11" library="supply1" deviceset="+3V3" device=""/>
@@ -5078,7 +5078,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R4" library="RFiD" deviceset="R-US_" device="R0402" value="1k">
 <attribute name="CUSTOMER_PN" value="R/1M/5%/04"/>
 </part>
-<part name="C18" library="RFiD" deviceset="C-US" device="C0402" value="220nF">
+<part name="C18" library="RFiD" deviceset="C-US" device="C0402" value="220n">
 <attribute name="CUSTOMER_PN" value="C/2.2n/100V/D04"/>
 </part>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
@@ -5127,16 +5127,16 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R18" library="RFiD" deviceset="R-US_" device="R0402" value="9.1k">
 <attribute name="CUSTOMER_PN" value="R/1k/5%/04"/>
 </part>
-<part name="C24" library="RFiD" deviceset="C-US" device="C0402" value="47nF">
+<part name="C24" library="RFiD" deviceset="C-US" device="C0402" value="47n">
 <attribute name="CUSTOMER_PN" value="C/1n/100V/C04"/>
 </part>
-<part name="C25" library="RFiD" deviceset="C-US" device="C0402" value="4.7nF">
+<part name="C25" library="RFiD" deviceset="C-US" device="C0402" value="4.7n">
 <attribute name="CUSTOMER_PN" value="C/1n/100V/C04"/>
 </part>
-<part name="C26" library="RFiD" deviceset="C-US" device="C0402" value="0.1uF">
+<part name="C26" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="CUSTOMER_PN" value="C/1n/100V/C04"/>
 </part>
-<part name="C27" library="RFiD" deviceset="C-US" device="C0402" value="22pF">
+<part name="C27" library="RFiD" deviceset="C-US" device="C0402" value="22p">
 <attribute name="CUSTOMER_PN" value="C/1n/100V/C04"/>
 </part>
 <part name="R19" library="RFiD" deviceset="R-US_" device="R0402" value="68k">
@@ -5144,19 +5144,19 @@ In this library the device names are the same as the pin names of the symbols, t
 </part>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
-<part name="C28" library="RFiD" deviceset="C-US" device="C0402" value="0.1uF">
+<part name="C28" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="CUSTOMER_PN" value="C/1n/100V/C04"/>
 </part>
 <part name="R20" library="RFiD" deviceset="R-US_" device="R0402" value="220">
 <attribute name="CUSTOMER_PN" value="R/1k/5%/04"/>
 </part>
-<part name="C29" library="RFiD" deviceset="C-US" device="C0402" value="47nF">
+<part name="C29" library="RFiD" deviceset="C-US" device="C0402" value="47n">
 <attribute name="CUSTOMER_PN" value="C/1n/100V/C04"/>
 </part>
 <part name="R21" library="RFiD" deviceset="R-US_" device="R0402" value="2k">
 <attribute name="CUSTOMER_PN" value="R/1k/5%/04"/>
 </part>
-<part name="C44" library="RFiD" deviceset="C-US" device="C0402" value="4.7nF">
+<part name="C44" library="RFiD" deviceset="C-US" device="C0402" value="4.7n">
 <attribute name="CUSTOMER_PN" value="C/1n/100V/C04"/>
 </part>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
@@ -5168,7 +5168,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R48" library="RFiD" deviceset="R-US_" device="R0402" value="68k">
 <attribute name="CUSTOMER_PN" value="R/1k/5%/04"/>
 </part>
-<part name="C45" library="RFiD" deviceset="C-US" device="C0402" value="22pF">
+<part name="C45" library="RFiD" deviceset="C-US" device="C0402" value="22p">
 <attribute name="CUSTOMER_PN" value="C/1n/100V/C04"/>
 </part>
 <part name="R49" library="RFiD" deviceset="R-US_" device="R0402" value="330k">
@@ -5177,7 +5177,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R50" library="RFiD" deviceset="R-US_" device="R0402" value="10k">
 <attribute name="CUSTOMER_PN" value="R/1k/5%/04"/>
 </part>
-<part name="C46" library="RFiD" deviceset="C-US" device="C0402" value="100n">
+<part name="C46" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="CUSTOMER_PN" value="C/1n/100V/C04"/>
 </part>
 <part name="R51" library="RFiD" deviceset="R-US_" device="R0402" value="5.6k">
@@ -5198,16 +5198,16 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R54" library="RFiD" deviceset="R-US_" device="R0402" value="5.6k">
 <attribute name="CUSTOMER_PN" value="R/1k/5%/04"/>
 </part>
-<part name="C49" library="RFiD" deviceset="C-US" device="C0402" value="0.1uF">
+<part name="C49" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="CUSTOMER_PN" value="C/1n/100V/C04"/>
 </part>
 <part name="R55" library="RFiD" deviceset="R-US_" device="R0402" value="5.1k">
 <attribute name="CUSTOMER_PN" value="R/1k/5%/04"/>
 </part>
-<part name="C50" library="RFiD" deviceset="C-US" device="C0402" value="68pF">
+<part name="C50" library="RFiD" deviceset="C-US" device="C0402" value="68p">
 <attribute name="CUSTOMER_PN" value="C/1n/100V/C04"/>
 </part>
-<part name="C51" library="RFiD" deviceset="C-US" device="C0402" value="100pF">
+<part name="C51" library="RFiD" deviceset="C-US" device="C0402" value="100p">
 <attribute name="CUSTOMER_PN" value="C/1n/100V/C04"/>
 </part>
 <part name="R56" library="RFiD" deviceset="R-US_" device="R0402" value="270k">
@@ -5219,10 +5219,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="P+8" library="supply1" deviceset="+12V" device=""/>
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
-<part name="C52" library="RFiD" deviceset="C-US" device="C0402" value="0.1uF">
+<part name="C52" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="CUSTOMER_PN" value="C/2.2n/100V/D04"/>
 </part>
-<part name="C53" library="RFiD" deviceset="C-US" device="C0402" value="0.1uF">
+<part name="C53" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="CUSTOMER_PN" value="C/2.2n/100V/D04"/>
 </part>
 <part name="SUPPLY12" library="supply2" deviceset="+5V" device=""/>
@@ -5239,8 +5239,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R57" library="RFiD" deviceset="R-US_" device="R0402" value="470"/>
 <part name="R58" library="RFiD" deviceset="R-US_" device="R0402" value="470"/>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
-<part name="C54" library="RFiD" deviceset="C-US" device="C0402" value="100nF"/>
-<part name="C55" library="RFiD" deviceset="C-US" device="C0402" value="10nF"/>
+<part name="C54" library="RFiD" deviceset="C-US" device="C0402" value="0.1u"/>
+<part name="C55" library="RFiD" deviceset="C-US" device="C0402" value="10n"/>
 <part name="GND35" library="supply1" deviceset="GND" device=""/>
 <part name="GND52" library="supply1" deviceset="GND" device=""/>
 <part name="P+15" library="supply1" deviceset="V+" device=""/>
@@ -5255,7 +5255,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="D3" library="RFiD" deviceset="BAV99" device=""/>
 <part name="SJ?1" library="RFiD" deviceset="SOLDERBRIDGE" device=""/>
 <part name="P+16" library="supply1" deviceset="+12V" device=""/>
-<part name="C43" library="RFiD" deviceset="C-US" device="C0402" value="100nF"/>
+<part name="C43" library="RFiD" deviceset="C-US" device="C0402" value="0.1u"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>

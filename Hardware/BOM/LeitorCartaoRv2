@@ -1,4 +1,4 @@
-<b>Partlist exported from C:/Control iD/LeitorParede/leitorrf/Hardware/leitorcartao.sch at 02/08/2013 16:48:38</b>
+<b>Partlist exported from C:/Control iD/LeitorParede/leitorrf/Hardware/leitorcartao.sch at 05/08/2013 11:16:19</b>
 <p>
 <table>
 <tr><td><b>Part</b></td><td><b>Value</b></td><td><b>Device</b></td><td><b>Package</b></td><td><b>Description</b></td><td><b>CUSTOMER_PN</b></td><td><b>MF</b></td><td><b>MPN</b></td><td><b>OC_FARNELL</b></td><td><b>OC_NEWARK</b></td></tr>
@@ -32,16 +32,16 @@
 <tr><td>C27</td><td>22p</td><td>C-USC0402</td><td>C0402</td><td>CAPACITOR, American symbol</td><td>C/1n/100V/C04</td><td></td><td></td><td></td><td></td></tr>
 <tr><td>C28</td><td>0.1u</td><td>C-USC0402</td><td>C0402</td><td>CAPACITOR, American symbol</td><td>C/1n/100V/C04</td><td></td><td></td><td></td><td></td></tr>
 <tr><td>C29</td><td>47n</td><td>C-USC0402</td><td>C0402</td><td>CAPACITOR, American symbol</td><td>C/1n/100V/C04</td><td></td><td></td><td></td><td></td></tr>
-<tr><td>C30</td><td>0.1u</td><td>C-USC0402</td><td>C0402</td><td>CAPACITOR, American symbol</td><td>C/100p/50V/D04</td><td></td><td></td><td></td><td></td></tr>
-<tr><td>C31</td><td>0.1u</td><td>C-USC0402</td><td>C0402</td><td>CAPACITOR, American symbol</td><td>C/100p/50V/D04</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>C30</td><td>100p</td><td>C-USC0402</td><td>C0402</td><td>CAPACITOR, American symbol</td><td>C/100p/50V/D04</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>C31</td><td>100p</td><td>C-USC0402</td><td>C0402</td><td>CAPACITOR, American symbol</td><td>C/100p/50V/D04</td><td></td><td></td><td></td><td></td></tr>
 <tr><td>C32</td><td>0.1u</td><td>C-USC0402</td><td>C0402</td><td>CAPACITOR, American symbol</td><td>C/0.1u/16V/C04</td><td></td><td></td><td></td><td></td></tr>
 <tr><td>C33</td><td>0.1u</td><td>C-USC0402</td><td>C0402</td><td>CAPACITOR, American symbol</td><td>C/0.1u/16V/C04</td><td></td><td></td><td></td><td></td></tr>
-<tr><td>C34</td><td>120p</td><td>C-USC0402</td><td>C0402</td><td>CAPACITOR, American symbol</td><td>C/120p/50V/D04</td><td></td><td></td><td></td><td></td></tr>
-<tr><td>C35</td><td>120p</td><td>C-USC0402</td><td>C0402</td><td>CAPACITOR, American symbol</td><td>C/120p/50V/D04</td><td></td><td></td><td></td><td></td></tr>
-<tr><td>C36</td><td>18p</td><td>C-USC0402</td><td>C0402</td><td>CAPACITOR, American symbol</td><td>C/18p/16V/C04</td><td></td><td></td><td></td><td></td></tr>
-<tr><td>C37</td><td>18p</td><td>C-USC0402</td><td>C0402</td><td>CAPACITOR, American symbol</td><td>C/18p/16V/C04</td><td></td><td></td><td></td><td></td></tr>
-<tr><td>C38</td><td>56p</td><td>C-USC0402</td><td>C0402</td><td>CAPACITOR, American symbol</td><td>C/56p/50V/D04</td><td></td><td></td><td></td><td></td></tr>
-<tr><td>C39</td><td>56p</td><td>C-USC0402</td><td>C0402</td><td>CAPACITOR, American symbol</td><td>C/56p/50V/D04</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>C34</td><td>120p</td><td>C-USC0603</td><td>C0603</td><td>CAPACITOR, American symbol</td><td>C/120p/50V/D04</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>C35</td><td>120p</td><td>C-USC0603</td><td>C0603</td><td>CAPACITOR, American symbol</td><td>C/120p/50V/D04</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>C36</td><td>18p</td><td>C-USC0603</td><td>C0603</td><td>CAPACITOR, American symbol</td><td>C/18p/16V/C04</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>C37</td><td>18p</td><td>C-USC0603</td><td>C0603</td><td>CAPACITOR, American symbol</td><td>C/18p/16V/C04</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>C38</td><td>56p</td><td>C-USC0603</td><td>C0603</td><td>CAPACITOR, American symbol</td><td>C/56p/50V/D04</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>C39</td><td>56p</td><td>C-USC0603</td><td>C0603</td><td>CAPACITOR, American symbol</td><td>C/56p/50V/D04</td><td></td><td></td><td></td><td></td></tr>
 <tr><td>C40</td><td>1n</td><td>C-USC0402</td><td>C0402</td><td>CAPACITOR, American symbol</td><td>C/1n/100V/D04</td><td></td><td></td><td></td><td></td></tr>
 <tr><td>C41</td><td>0.1u</td><td>C-USC0402</td><td>C0402</td><td>CAPACITOR, American symbol</td><td>C/0.1u/16V/C04</td><td></td><td></td><td></td><td></td></tr>
 <tr><td>C42</td><td>0.1u</td><td>C-USC0402</td><td>C0402</td><td>CAPACITOR, American symbol</td><td>C/10u/16V/C08</td><td></td><td></td><td></td><td></td></tr>
@@ -58,6 +58,7 @@
 <tr><td>C53</td><td>0.1u</td><td>C-USC0402</td><td>C0402</td><td>CAPACITOR, American symbol</td><td>C/2.2n/100V/D04</td><td></td><td></td><td></td><td></td></tr>
 <tr><td>C54</td><td>0.1u</td><td>C-USC0402</td><td>C0402</td><td>CAPACITOR, American symbol</td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td>C55</td><td>10n</td><td>C-USC0402</td><td>C0402</td><td>CAPACITOR, American symbol</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>C56</td><td>10u</td><td>C-USC0603</td><td>C0603</td><td>CAPACITOR, American symbol</td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td>CARDPRS</td><td>CARD-PRES</td><td>PTHPAD</td><td>HOLE</td><td></td><td>-</td><td></td><td></td><td></td><td></td></tr>
 <tr><td>D0/TX/CLK</td><td>D0/CLK/TX</td><td>PTHPAD</td><td>HOLE</td><td></td><td>-</td><td></td><td></td><td></td><td></td></tr>
 <tr><td>D1</td><td></td><td>DIODE-DO214AA</td><td>DO214AA</td><td>DIODE</td><td>D/SERIE/SMB</td><td></td><td></td><td></td><td></td></tr>
@@ -109,11 +110,11 @@
 <tr><td>R21</td><td>2k</td><td>R-US_R0402</td><td>R0402</td><td>RESISTOR, American symbol</td><td>R/1k/5%/04</td><td></td><td></td><td></td><td></td></tr>
 <tr><td>R22</td><td>9.1k</td><td>R-US_R0402</td><td>R0402</td><td>RESISTOR, American symbol</td><td>R/1k/5%/04</td><td></td><td></td><td></td><td></td></tr>
 <tr><td>R23</td><td>10k</td><td>R-US_R0402</td><td>R0402</td><td>RESISTOR, American symbol</td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>R24</td><td>3.3</td><td>R-US_R0402</td><td>R0402</td><td>RESISTOR, American symbol</td><td>R/3.3/5%/04</td><td></td><td></td><td></td><td></td></tr>
-<tr><td>R25</td><td>3.3</td><td>R-US_R0402</td><td>R0402</td><td>RESISTOR, American symbol</td><td>R/3.3/5%/04</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>R24</td><td>3.3</td><td>R-US_R0603</td><td>R0603</td><td>RESISTOR, American symbol</td><td>R/3.3/5%/04</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>R25</td><td>3.3</td><td>R-US_R0603</td><td>R0603</td><td>RESISTOR, American symbol</td><td>R/3.3/5%/04</td><td></td><td></td><td></td><td></td></tr>
 <tr><td>R26</td><td>2.2k</td><td>R-US_R0402</td><td>R0402</td><td>RESISTOR, American symbol</td><td>R/2.2k/5%/04</td><td></td><td></td><td></td><td></td></tr>
 <tr><td>R27</td><td>1k</td><td>R-US_R0402</td><td>R0402</td><td>RESISTOR, American symbol</td><td>R/1k/5%/04</td><td></td><td></td><td></td><td></td></tr>
-<tr><td>R28</td><td>100k</td><td>R-US_R0402</td><td>R0402</td><td>RESISTOR, American symbol</td><td>R/100k/5%/04</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>R28</td><td>100k</td><td>R-US_R0603</td><td>R0603</td><td>RESISTOR, American symbol</td><td>R/100k/5%/04</td><td></td><td></td><td></td><td></td></tr>
 <tr><td>R29</td><td>1k</td><td>R-US_R0402</td><td>R0402</td><td>RESISTOR, American symbol</td><td>R/1k/5%/04</td><td></td><td></td><td></td><td></td></tr>
 <tr><td>R30</td><td>1k</td><td>R-US_R0402</td><td>R0402</td><td>RESISTOR, American symbol</td><td>R/1k/5%/04</td><td></td><td></td><td></td><td></td></tr>
 <tr><td>R31</td><td>1k</td><td>R-US_R0402</td><td>R0402</td><td>RESISTOR, American symbol</td><td>R/1k/5%/04</td><td></td><td></td><td></td><td></td></tr>
@@ -123,13 +124,14 @@
 <tr><td>R35</td><td>100</td><td>R-US_R0402</td><td>R0402</td><td>RESISTOR, American symbol</td><td>R/100/5%/04</td><td></td><td></td><td></td><td></td></tr>
 <tr><td>R36</td><td>100</td><td>R-US_R0402</td><td>R0402</td><td>RESISTOR, American symbol</td><td>R/100/5%/04</td><td></td><td></td><td></td><td></td></tr>
 <tr><td>R37</td><td>100</td><td>R-US_R0402</td><td>R0402</td><td>RESISTOR, American symbol</td><td>R/100/5%/04</td><td></td><td></td><td></td><td></td></tr>
-<tr><td>R38</td><td>10k</td><td>R-US_R0402</td><td>R0402</td><td>RESISTOR, American symbol</td><td>R/10k/5%/04</td><td></td><td></td><td></td><td></td></tr>
-<tr><td>R39</td><td>100k</td><td>R-US_R0402</td><td>R0402</td><td>RESISTOR, American symbol</td><td>R/100k/5%/04</td><td></td><td></td><td></td><td></td></tr>
-<tr><td>R40</td><td>100k</td><td>R-US_R0402</td><td>R0402</td><td>RESISTOR, American symbol</td><td>R/100k/5%/04</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>R38</td><td>10k</td><td>R-US_R0603</td><td>R0603</td><td>RESISTOR, American symbol</td><td>R/10k/5%/04</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>R39</td><td>100k</td><td>R-US_R0603</td><td>R0603</td><td>RESISTOR, American symbol</td><td>R/100k/5%/04</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>R40</td><td>100k</td><td>R-US_R0603</td><td>R0603</td><td>RESISTOR, American symbol</td><td>R/100k/5%/04</td><td></td><td></td><td></td><td></td></tr>
 <tr><td>R41</td><td>82</td><td>R-US_R0402</td><td>R0402</td><td>RESISTOR, American symbol</td><td>R/180/5%/04</td><td></td><td></td><td></td><td></td></tr>
 <tr><td>R42</td><td>100</td><td>R-US_R0402</td><td>R0402</td><td>RESISTOR, American symbol</td><td>R/180/5%/04</td><td></td><td></td><td></td><td></td></tr>
 <tr><td>R43</td><td>2.2k</td><td>R-US_R0402</td><td>R0402</td><td>RESISTOR, American symbol</td><td>R/2.2k/5%/04</td><td></td><td></td><td></td><td></td></tr>
 <tr><td>R44</td><td>1k</td><td>R-US_R0402</td><td>R0402</td><td>RESISTOR, American symbol</td><td>R/1k/5%/04</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>R45</td><td>1.47k</td><td>R-US_R0402</td><td>R0402</td><td>RESISTOR, American symbol</td><td>R/1k/5%/04</td><td></td><td></td><td></td><td></td></tr>
 <tr><td>R46</td><td>10</td><td>R-US_R0603</td><td>R0603</td><td>RESISTOR, American symbol</td><td>R/39/5%/04</td><td></td><td></td><td></td><td></td></tr>
 <tr><td>R47</td><td>10</td><td>R-US_R0603</td><td>R0603</td><td>RESISTOR, American symbol</td><td>R/39/5%/04</td><td></td><td></td><td></td><td></td></tr>
 <tr><td>R48</td><td>68k</td><td>R-US_R0402</td><td>R0402</td><td>RESISTOR, American symbol</td><td>R/1k/5%/04</td><td></td><td></td><td></td><td></td></tr>
@@ -143,6 +145,11 @@
 <tr><td>R56</td><td>270k</td><td>R-US_R0402</td><td>R0402</td><td>RESISTOR, American symbol</td><td>R/1k/5%/04</td><td></td><td></td><td></td><td></td></tr>
 <tr><td>R57</td><td>470</td><td>R-US_R0402</td><td>R0402</td><td>RESISTOR, American symbol</td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td>R58</td><td>470</td><td>R-US_R0402</td><td>R0402</td><td>RESISTOR, American symbol</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>R59</td><td>4.02k</td><td>R-US_R0402</td><td>R0402</td><td>RESISTOR, American symbol</td><td>R/1k/5%/04</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>R60</td><td>4.02k</td><td>R-US_R0402</td><td>R0402</td><td>RESISTOR, American symbol</td><td>R/1k/5%/04</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>R61</td><td>1.47k</td><td>R-US_R0402</td><td>R0402</td><td>RESISTOR, American symbol</td><td>R/1k/5%/04</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>R62</td><td>0</td><td>R-US_R0402</td><td>R0402</td><td>RESISTOR, American symbol</td><td>R/1M/5%/04</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>R63</td><td>0</td><td>R-US_R0402</td><td>R0402</td><td>RESISTOR, American symbol</td><td>R/1M/5%/04</td><td></td><td></td><td></td><td></td></tr>
 <tr><td>SG1</td><td>F/TMB</td><td>F/TMB</td><td>F/TMB</td><td>BUZZER Source: Buerklin</td><td>BUZZER</td><td></td><td></td><td>unknown</td><td>unknown</td></tr>
 <tr><td>SJ?1</td><td>SOLDERBRIDGE</td><td>SOLDERBRIDGE</td><td>SOLDERBRIDGE</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td>SWD</td><td></td><td>PINHD-1X5</td><td>1X05</td><td>PIN HEADER</td><td></td><td></td><td></td><td></td><td></td></tr>

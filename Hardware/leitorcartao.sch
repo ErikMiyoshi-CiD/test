@@ -5551,20 +5551,22 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="193.04" y="167.64" size="3.81" layer="91" ratio="10">Alimentacao</text>
 <text x="193.04" y="81.28" size="3.81" layer="91" ratio="10">Debug/Prog</text>
 <text x="190.5" y="119.38" size="1.4224" layer="91" rot="R180">16V</text>
-<text x="66.04" y="124.46" size="1.778" layer="91">GPIO do ASK/FSK</text>
+<text x="66.04" y="124.46" size="1.778" layer="91">GPIO de PSK</text>
 <text x="60.96" y="96.52" size="1.778" layer="91">Entrada Mode Select</text>
 <text x="66.04" y="127" size="1.778" layer="91">Clock de 125kHz para antena</text>
-<text x="60.96" y="104.14" size="1.778" layer="91">Saida Wiegand - D1 / ABATK2-DATA</text>
-<text x="66.04" y="121.92" size="1.778" layer="91">GPIO do PSK</text>
+<text x="60.96" y="104.14" size="1.778" layer="91">Saida Wiegand D1 / ABATK2-DATA</text>
+<text x="66.04" y="121.92" size="1.778" layer="91">GPIO do ASK/FSK</text>
 <text x="66.04" y="116.84" size="1.778" layer="91">Controle LED Red</text>
 <text x="66.04" y="119.38" size="1.778" layer="91">Controle LED Green</text>
-<text x="60.96" y="106.68" size="1.778" layer="91">Saida SERIAL/ Saida Wiegand D0/ ABATK2-CLK</text>
+<text x="60.96" y="106.68" size="1.778" layer="91">Saida Wiegand D0/ Saida SERIAL/ ABATK2-CLK</text>
 <text x="60.96" y="78.74" size="1.778" layer="91">MIFARE - I2C SCL</text>
 <text x="60.96" y="81.28" size="1.778" layer="91">MIFARE - I2C SDA</text>
 <text x="60.96" y="101.6" size="1.778" layer="91">Saida ABATK2 - Card Present</text>
-<text x="60.96" y="99.06" size="1.778" layer="91">Saida Wiegand - D1 / ABATK2-DATA</text>
+<text x="60.96" y="99.06" size="1.778" layer="91">Entrada de controle do LED</text>
 <text x="243.84" y="5.08" size="2.54" layer="94">Rev. B</text>
 <text x="66.04" y="114.3" size="1.778" layer="91">PSK - Para uso com Analog Comparator</text>
+<text x="60.96" y="73.66" size="1.778" layer="91">Buzzer PWM</text>
+<text x="60.96" y="91.44" size="1.778" layer="91">MIFARE - Reset Control</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>

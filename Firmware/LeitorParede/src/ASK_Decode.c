@@ -56,7 +56,7 @@ void ASK_Decoding(void)
 
 	// Reset counter
 	Reinicia_Contagem_TC5();
-	delay_us(40);
+	delay_us(5);
 
 	if (_primeira_vez)
 	{
@@ -158,7 +158,6 @@ static inline void leu_bit(int bit)
 	}
 	else
 	{
-		
 		val <<= 1;
 		if (bit)
 			val |= 1u;
@@ -214,7 +213,8 @@ static void processa_resultado(uint64_t val)
 	(((val >> 36u) & 0xfu) << 24u) |
 	(((val >> 41u) & 0xfu) << 28u);
 	
-	Enviar_Dados_Cartao(num);
+	Transmite_Cartao_Serial(num);
+	//Enviar_Dados_Cartao(num);
 	
 }
 

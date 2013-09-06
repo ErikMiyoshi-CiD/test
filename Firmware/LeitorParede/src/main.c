@@ -27,16 +27,25 @@ int main (void)
 
 	#ifdef ASK
 	ASK_Pin_Config();
+	usart_putchar(USART_SERIAL,'A');
+	usart_putchar(USART_SERIAL,'S');
+	usart_putchar(USART_SERIAL,'K');
 	#endif
 
 	#ifdef FSK
 	FSK_Pin_Config();
+	usart_putchar(USART_SERIAL,'F');
+	usart_putchar(USART_SERIAL,'S');
+	usart_putchar(USART_SERIAL,'K');
 	#endif
 
 	#ifdef PSK
 	PSK_Pin_Config();
+	usart_putchar(USART_SERIAL,'P');
+	usart_putchar(USART_SERIAL,'S');
+	usart_putchar(USART_SERIAL,'K');
 	#endif
-
+	
 	while(1)
 	{
 	}

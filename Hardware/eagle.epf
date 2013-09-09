@@ -351,7 +351,7 @@ UsedLibrary="C:/Control iD/ACESSOv16/Acesso/v-reg-3.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="230 239 1146 665"
+Loc="-1284 161 -287 738"
 State=2
 Number=0
 

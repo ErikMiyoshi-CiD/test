@@ -3287,6 +3287,31 @@ Source: 008-0260-0_E.pdf</description>
 <text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="CRISTAL4SMD">
+<description>&lt;b&gt;Cristal de 5 x 3.2 mm&lt;/b&gt;</description>
+<circle x="-2.794" y="2.448" radius="0.254" width="0" layer="21"/>
+<smd name="4" x="-1.95" y="1.2" dx="1.7" dy="1.2" layer="1"/>
+<text x="-3.81" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<smd name="1" x="-1.95" y="-1.2" dx="1.7" dy="1.2" layer="1"/>
+<smd name="2" x="1.95" y="-1.2" dx="1.7" dy="1.2" layer="1"/>
+<smd name="3" x="1.95" y="1.2" dx="1.7" dy="1.2" layer="1"/>
+<wire x1="-2.5" y1="1.6" x2="-2.5" y2="-1.6" width="0.3048" layer="21"/>
+<wire x1="-2.5" y1="-1.6" x2="2.5" y2="-1.6" width="0.3048" layer="21"/>
+<wire x1="2.5" y1="-1.6" x2="2.5" y2="1.6" width="0.3048" layer="21"/>
+<wire x1="2.5" y1="1.6" x2="-2.5" y2="1.6" width="0.3048" layer="21"/>
+</package>
+<package name="CRISTAL4SMD-SMALL">
+<circle x="-2.059" y="-2.213" radius="0.254" width="0" layer="21"/>
+<smd name="1" x="-1.25" y="-0.95" dx="1.7" dy="1.5" layer="1"/>
+<text x="-2.91" y="-3.24" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<smd name="4" x="-1.25" y="0.95" dx="1.7" dy="1.5" layer="1"/>
+<smd name="3" x="1.25" y="0.95" dx="1.7" dy="1.5" layer="1"/>
+<smd name="2" x="1.25" y="-0.95" dx="1.7" dy="1.5" layer="1"/>
+<wire x1="-1.6" y1="1.25" x2="-1.6" y2="-1.25" width="0.3048" layer="21"/>
+<wire x1="-1.6" y1="-1.25" x2="1.6" y2="-1.25" width="0.3048" layer="21"/>
+<wire x1="1.6" y1="-1.25" x2="1.6" y2="1.25" width="0.3048" layer="21"/>
+<wire x1="1.6" y1="1.25" x2="-1.6" y2="1.25" width="0.3048" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="A4L-LOC">
@@ -3346,24 +3371,6 @@ Source: 008-0260-0_E.pdf</description>
 <text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-</symbol>
-<symbol name="NPN">
-<wire x1="2.54" y1="2.54" x2="0.508" y2="1.524" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="-1.524" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="1.778" y2="-1.524" width="0.1524" layer="94"/>
-<wire x1="1.54" y1="-2.04" x2="0.308" y2="-1.424" width="0.1524" layer="94"/>
-<wire x1="1.524" y1="-2.413" x2="2.286" y2="-2.413" width="0.254" layer="94"/>
-<wire x1="2.286" y1="-2.413" x2="1.778" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="1.778" y1="-1.778" x2="1.524" y2="-2.286" width="0.254" layer="94"/>
-<wire x1="1.524" y1="-2.286" x2="1.905" y2="-2.286" width="0.254" layer="94"/>
-<wire x1="1.905" y1="-2.286" x2="1.778" y2="-2.032" width="0.254" layer="94"/>
-<text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
-<pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" swaplevel="3" rot="R90"/>
-<pin name="C" x="2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="2" rot="R270"/>
 </symbol>
 <symbol name="TLV1117-50CDCYR">
 <pin name="VOUT" x="15.24" y="5.08" length="middle" rot="R180"/>
@@ -3757,6 +3764,31 @@ Source: 008-0260-0_E.pdf</description>
 <text x="1.524" y="-1.143" size="0.8636" layer="93">2</text>
 <pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="CRYSTAL-FILTER-3-POL">
+<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="-1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="1.016" y1="1.778" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="1.778" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="1.905" x2="-1.778" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-1.778" y1="2.54" x2="1.778" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="2.54" x2="1.778" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="-1.905" x2="1.778" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.778" y1="-2.54" x2="1.778" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.778" y1="-2.54" x2="-1.778" y2="-1.905" width="0.1524" layer="94"/>
+<text x="2.54" y="1.016" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.159" y="-1.143" size="0.8636" layer="93">1</text>
+<text x="-1.016" y="-3.683" size="0.8636" layer="93">2</text>
+<text x="1.524" y="-1.143" size="0.8636" layer="93">3</text>
+<pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+<pin name="GND@1" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="GND@2" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -4653,30 +4685,6 @@ DIN A4, landscape with location and doc. field</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BC847*" prefix="Q">
-<description>NPN Transistor</description>
-<gates>
-<gate name="G$1" symbol="NPN" x="0" y="0"/>
-</gates>
-<devices>
-<device name="SMD" package="SOT23">
-<connects>
-<connect gate="G$1" pin="B" pad="1"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-<technology name="A"/>
-<technology name="ALT1"/>
-<technology name="B"/>
-<technology name="BLT1"/>
-<technology name="C"/>
-<technology name="CLT1"/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="TLV1117-50CDCYR" prefix="U">
 <gates>
 <gate name="G$1" symbol="TLV1117-50CDCYR" x="0" y="0"/>
@@ -4931,12 +4939,7 @@ DIN A4, landscape with location and doc. field</description>
 <connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -5206,12 +5209,7 @@ controller, the SAM D20 series microcontrollers are highly efficient, reaching
 <connect gate="-2" pin="S" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="MF" value="MOLEX" constant="no"/>
-<attribute name="MPN" value="22-23-2021" constant="no"/>
-<attribute name="OC_FARNELL" value="1462926" constant="no"/>
-<attribute name="OC_NEWARK" value="25C3832" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -5260,12 +5258,7 @@ controller, the SAM D20 series microcontrollers are highly efficient, reaching
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="1667008" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="HC49GW" package="HC49GW">
@@ -5498,12 +5491,7 @@ controller, the SAM D20 series microcontrollers are highly efficient, reaching
 <connect gate="G$1" pin="2" pad="4"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="6344860" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="MM20SS" package="MM20SS">
@@ -5546,6 +5534,37 @@ controller, the SAM D20 series microcontrollers are highly efficient, reaching
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRISTAL" prefix="QZ">
+<description>&lt;b&gt;Monolithic Crystal Filters&lt;/b&gt;&lt;p&gt;
+Source: www.vanlong.com</description>
+<gates>
+<gate name="G$1" symbol="CRYSTAL-FILTER-3-POL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CRISTAL4SMD">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="3"/>
+<connect gate="G$1" pin="GND@1" pad="2"/>
+<connect gate="G$1" pin="GND@2" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMALL(3.2X2.5MM)" package="CRISTAL4SMD-SMALL">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="3"/>
+<connect gate="G$1" pin="GND@1" pad="4"/>
+<connect gate="G$1" pin="GND@2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -5701,95 +5720,6 @@ In this library the device names are the same as the pin names of the symbols, t
 </deviceset>
 </devicesets>
 </library>
-<library name="ACESSO">
-<packages>
-<package name="CRISTAL4SMD">
-<description>&lt;b&gt;Cristal de 5 x 3.2 mm&lt;/b&gt;</description>
-<circle x="-2.794" y="2.448" radius="0.254" width="0" layer="21"/>
-<smd name="4" x="-1.95" y="1.2" dx="1.7" dy="1.2" layer="1"/>
-<text x="-3.81" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<smd name="1" x="-1.95" y="-1.2" dx="1.7" dy="1.2" layer="1"/>
-<smd name="2" x="1.95" y="-1.2" dx="1.7" dy="1.2" layer="1"/>
-<smd name="3" x="1.95" y="1.2" dx="1.7" dy="1.2" layer="1"/>
-<wire x1="-2.5" y1="1.6" x2="-2.5" y2="-1.6" width="0.3048" layer="21"/>
-<wire x1="-2.5" y1="-1.6" x2="2.5" y2="-1.6" width="0.3048" layer="21"/>
-<wire x1="2.5" y1="-1.6" x2="2.5" y2="1.6" width="0.3048" layer="21"/>
-<wire x1="2.5" y1="1.6" x2="-2.5" y2="1.6" width="0.3048" layer="21"/>
-</package>
-<package name="CRISTAL4SMD-SMALL">
-<circle x="-2.159" y="-1.813" radius="0.254" width="0" layer="21"/>
-<smd name="1" x="-1.1" y="-0.8" dx="1.4" dy="1.2" layer="1"/>
-<text x="-2.91" y="-3.24" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<smd name="4" x="-1.1" y="0.8" dx="1.4" dy="1.2" layer="1"/>
-<smd name="3" x="1.1" y="0.8" dx="1.4" dy="1.2" layer="1"/>
-<smd name="2" x="1.1" y="-0.8" dx="1.4" dy="1.2" layer="1"/>
-<wire x1="-1.6" y1="1.25" x2="-1.6" y2="-1.25" width="0.3048" layer="21"/>
-<wire x1="-1.6" y1="-1.25" x2="1.6" y2="-1.25" width="0.3048" layer="21"/>
-<wire x1="1.6" y1="-1.25" x2="1.6" y2="1.25" width="0.3048" layer="21"/>
-<wire x1="1.6" y1="1.25" x2="-1.6" y2="1.25" width="0.3048" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="CRYSTAL-FILTER-3-POL">
-<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="0.381" y1="-1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
-<wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.254" layer="94"/>
-<wire x1="1.016" y1="1.778" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="1.778" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="-1.778" y1="1.905" x2="-1.778" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-1.778" y1="2.54" x2="1.778" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="2.54" x2="1.778" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="-1.905" x2="1.778" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-1.778" y1="-2.54" x2="1.778" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-1.778" y1="-2.54" x2="-1.778" y2="-1.905" width="0.1524" layer="94"/>
-<text x="2.54" y="1.016" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-2.159" y="-1.143" size="0.8636" layer="93">1</text>
-<text x="-1.016" y="-3.683" size="0.8636" layer="93">2</text>
-<text x="1.524" y="-1.143" size="0.8636" layer="93">3</text>
-<pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
-<pin name="GND@1" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="GND@2" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="CRISTAL" prefix="QZ">
-<description>&lt;b&gt;Monolithic Crystal Filters&lt;/b&gt;&lt;p&gt;
-Source: www.vanlong.com</description>
-<gates>
-<gate name="G$1" symbol="CRYSTAL-FILTER-3-POL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CRISTAL4SMD">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="3"/>
-<connect gate="G$1" pin="GND@1" pad="2"/>
-<connect gate="G$1" pin="GND@2" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMALL(3.2X2.5MM)" package="CRISTAL4SMD-SMALL">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="3"/>
-<connect gate="G$1" pin="GND@1" pad="4"/>
-<connect gate="G$1" pin="GND@2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5805,25 +5735,40 @@ Source: www.vanlong.com</description>
 <part name="FRAME3" library="RFiD" deviceset="A4L-LOC" device=""/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="C2" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
-<attribute name="CUSTOMER_PN" value="C/0.1u/16V/C04"/>
+<attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="C3" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
-<attribute name="CUSTOMER_PN" value="C/0.1u/16V/C04"/>
+<attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="C6" library="RFiD" deviceset="C-US" device="C0603" value="4.7u">
-<attribute name="CUSTOMER_PN" value="C/10u/36V/C12"/>
+<attribute name="CUSTOMERPN" value="C/10u/36V/C06"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="C7" library="RFiD" deviceset="C-US" device="C0603" value="4.7u">
-<attribute name="CUSTOMER_PN" value="C/10u/16V/C12"/>
+<attribute name="CUSTOMERPN" value="C/10u/16V/C06"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="D2" library="RFiD" deviceset="DIODE-" device="DO214AC">
-<attribute name="CUSTOMER_PN" value="D/TVS/SMA"/>
+<attribute name="CUSTOMERPN" value="TVS/14V/SMA"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value="SMAJ14A"/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
@@ -5833,67 +5778,118 @@ Source: www.vanlong.com</description>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="+5V" device=""/>
 <part name="R3" library="RFiD" deviceset="R-US_" device="R0402" value="2.2k">
-<attribute name="CUSTOMER_PN" value="R/2.2k/5%/04"/>
+<attribute name="CUSTOMERPN" value="R/2.2k/5%/04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="R5" library="RFiD" deviceset="R-US_" device="R0402" value="1k">
-<attribute name="CUSTOMER_PN" value="R/1k/5%/04"/>
+<attribute name="CUSTOMERPN" value="R/1k/5%/04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="R6" library="RFiD" deviceset="R-US_" device="R1206" value="1M">
-<attribute name="CUSTOMER_PN" value="R/1M/5%/04"/>
+<attribute name="CUSTOMERPN" value="R/1M/5%/04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="C14" library="RFiD" deviceset="C-US" device="C1206" value="1n">
-<attribute name="CUSTOMER_PN" value="C/1n/100V/C04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="C17" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
-<attribute name="CUSTOMER_PN" value="C/0.1u/16V/C04"/>
+<attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
-<part name="R8" library="RFiD" deviceset="R-US_" device="R0402" value="100k">
-<attribute name="CUSTOMER_PN" value="R/1M/5%/04"/>
+<part name="R8" library="RFiD" deviceset="R-US_" device="R0603" value="100k">
+<attribute name="CUSTOMERPN" value="R/100k/5%/06"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="U3" library="RFiD" deviceset="TLV1117-50CDCYR" device="">
-<attribute name="CUSTOMER_PN" value="IC/5VREG"/>
+<attribute name="CUSTOMERPN" value="IC/5VREG"/>
+<attribute name="PASSIVO" value=""/>
+<attribute name="PN1" value="TLV1117-50CDCYR"/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="C1" library="RFiD" deviceset="C-US" device="C0805" value="10u">
-<attribute name="CUSTOMER_PN" value="C/10u/36V/C12"/>
+<attribute name="CUSTOMERPN" value="C/10u/36V/C08"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="C4" library="RFiD" deviceset="C-US" device="C0805" value="10u">
-<attribute name="CUSTOMER_PN" value="C/10u/16V/C12"/>
+<attribute name="CUSTOMERPN" value="C/10u/16V/C08"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="C8" library="RFiD" deviceset="ESK108M016AH2AA" device="">
-<attribute name="CUSTOMER_PN" value="C/ENTRADA"/>
+<attribute name="CUSTOMERPN" value="C/1m/16V/PTH"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value="ESK108M016AH2AA"/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="P+4" library="supply1" deviceset="+12V" device=""/>
 <part name="FRAME4" library="RFiD" deviceset="A4L-LOC" device=""/>
 <part name="U4" library="RFiD" deviceset="MFRC52202HN1" device="">
-<attribute name="CUSTOMER_PN" value="IC/MFRC52202"/>
+<attribute name="CUSTOMERPN" value="IC/MFRC52202"/>
+<attribute name="PASSIVO" value=""/>
+<attribute name="PN1" value="MFRC52202HN1,151"/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND36" library="supply1" deviceset="GND" device=""/>
 <part name="GND37" library="supply1" deviceset="GND" device=""/>
 <part name="L1" library="RFiD" deviceset="R-EU_" device="R0402" value="22n">
-<attribute name="CUSTOMER_PN" value="L/22n/0.2A/04"/>
+<attribute name="CUSTOMERPN" value="L/22n/0.2A/04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="L3" library="RFiD" deviceset="R-EU_" device="R0402" value="22n">
-<attribute name="CUSTOMER_PN" value="L/22n/0.2A/04"/>
+<attribute name="CUSTOMERPN" value="L/22n/0.2A/04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="C10" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
-<attribute name="CUSTOMER_PN" value="C/0.1u/16V/C04"/>
+<attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="C11" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
-<attribute name="CUSTOMER_PN" value="C/0.1u/16V/C04"/>
+<attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="C30" library="RFiD" deviceset="C-US" device="C0402" value="100p">
-<attribute name="CUSTOMER_PN" value="C/100p/50V/D04"/>
+<attribute name="CUSTOMERPN" value="C/100p/50V/D04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="C31" library="RFiD" deviceset="C-US" device="C0402" value="100p">
-<attribute name="CUSTOMER_PN" value="C/100p/50V/D04"/>
+<attribute name="CUSTOMERPN" value="C/100p/50V/D04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
@@ -5902,18 +5898,30 @@ Source: www.vanlong.com</description>
 <part name="GND40" library="supply1" deviceset="GND" device=""/>
 <part name="GND41" library="supply1" deviceset="GND" device=""/>
 <part name="C32" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
-<attribute name="CUSTOMER_PN" value="C/0.1u/16V/C04"/>
+<attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="C33" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
-<attribute name="CUSTOMER_PN" value="C/0.1u/16V/C04"/>
+<attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND42" library="supply1" deviceset="GND" device=""/>
 <part name="GND43" library="supply1" deviceset="GND" device=""/>
 <part name="C5" library="RFiD" deviceset="C-US" device="C0402" value="18p">
-<attribute name="CUSTOMER_PN" value="C/18p/16V/C04"/>
+<attribute name="CUSTOMERPN" value="C/18p/16V/C04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="C9" library="RFiD" deviceset="C-US" device="C0402" value="18p">
-<attribute name="CUSTOMER_PN" value="C/18p/16V/C04"/>
+<attribute name="CUSTOMERPN" value="C/18p/16V/C04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
@@ -5921,85 +5929,157 @@ Source: www.vanlong.com</description>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="GND44" library="supply1" deviceset="GND" device=""/>
 <part name="C34" library="RFiD" deviceset="C-US" device="C0603" value="120p">
-<attribute name="CUSTOMER_PN" value="C/120p/50V/D04"/>
+<attribute name="CUSTOMERPN" value="C/120p/50V/D04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="C35" library="RFiD" deviceset="C-US" device="C0603" value="120p">
-<attribute name="CUSTOMER_PN" value="C/120p/50V/D04"/>
+<attribute name="CUSTOMERPN" value="C/120p/50V/D04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="C36" library="RFiD" deviceset="C-US" device="C0603" value="18p">
-<attribute name="CUSTOMER_PN" value="C/18p/16V/C04"/>
+<attribute name="CUSTOMERPN" value="C/18p/16V/C04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="C37" library="RFiD" deviceset="C-US" device="C0603" value="18p">
-<attribute name="CUSTOMER_PN" value="C/18p/16V/C04"/>
+<attribute name="CUSTOMERPN" value="C/18p/16V/C04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="C38" library="RFiD" deviceset="C-US" device="C0603" value="56p">
-<attribute name="CUSTOMER_PN" value="C/56p/50V/D04"/>
+<attribute name="CUSTOMERPN" value="C/56p/50V/D04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="C39" library="RFiD" deviceset="C-US" device="C0603" value="56p">
-<attribute name="CUSTOMER_PN" value="C/56p/50V/D04"/>
+<attribute name="CUSTOMERPN" value="C/56p/50V/D04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="L5" library="RFiD" deviceset="R-EU_" device="R0603" value="1u">
-<attribute name="CUSTOMER_PN" value="L/1u/0.5A/06"/>
+<attribute name="CUSTOMERPN" value="L/1u/0.5A/06"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="L4" library="RFiD" deviceset="R-EU_" device="R0603" value="1u">
-<attribute name="CUSTOMER_PN" value="L/1u/0.5A/06"/>
+<attribute name="CUSTOMERPN" value="L/1u/0.5A/06"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="R24" library="RFiD" deviceset="R-US_" device="R0603" value="3.3">
-<attribute name="CUSTOMER_PN" value="R/3.3/5%/04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="R25" library="RFiD" deviceset="R-US_" device="R0603" value="3.3">
-<attribute name="CUSTOMER_PN" value="R/3.3/5%/04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND45" library="supply1" deviceset="GND" device=""/>
 <part name="R1" library="RFiD" deviceset="R-US_" device="R0402" value="4.7k">
-<attribute name="CUSTOMER_PN" value="R/4.7k/5%/04"/>
+<attribute name="CUSTOMERPN" value="R/4.7k/5%/04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
 <part name="R2" library="RFiD" deviceset="R-US_" device="R0402" value="4.7k">
-<attribute name="CUSTOMER_PN" value="R/4.7k/5%/04"/>
+<attribute name="CUSTOMERPN" value="R/4.7k/5%/04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="+3V10" library="supply1" deviceset="+3V3" device=""/>
 <part name="R26" library="RFiD" deviceset="R-US_" device="R0402" value="2.2k">
-<attribute name="CUSTOMER_PN" value="R/2.2k/5%/04"/>
+<attribute name="CUSTOMERPN" value="R/2.2k/5%/04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="C40" library="RFiD" deviceset="C-US" device="C0402" value="1n">
-<attribute name="CUSTOMER_PN" value="C/1n/100V/D04"/>
+<attribute name="CUSTOMERPN" value="C/1n/100V/D04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="R27" library="RFiD" deviceset="R-US_" device="R0402" value="1k">
-<attribute name="CUSTOMER_PN" value="R/1k/5%/04"/>
+<attribute name="CUSTOMERPN" value="R/1k/5%/04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="C41" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
-<attribute name="CUSTOMER_PN" value="C/0.1u/16V/C04"/>
+<attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND46" library="supply1" deviceset="GND" device=""/>
 <part name="C42" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
-<attribute name="CUSTOMER_PN" value="C/10u/16V/C08"/>
+<attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="+3V11" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND47" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME5" library="RFiD" deviceset="A4L-LOC" device=""/>
 <part name="P+5" library="supply1" deviceset="VCC/2" device="" value="VIN"/>
 <part name="VCC" library="RFiD" deviceset="PTHPAD" device="" value="VCC">
-<attribute name="CUSTOMER_PN" value="-"/>
+<attribute name="CUSTOMERPN" value="DNP"/>
+<attribute name="PASSIVO" value=""/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND" library="RFiD" deviceset="PTHPAD" device="" value="GND">
-<attribute name="CUSTOMER_PN" value="-"/>
+<attribute name="CUSTOMERPN" value="DNP"/>
+<attribute name="PASSIVO" value=""/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="LED-IN" library="RFiD" deviceset="PTHPAD" device="" value="LED">
-<attribute name="CUSTOMER_PN" value="-"/>
+<attribute name="CUSTOMERPN" value="DNP"/>
+<attribute name="PASSIVO" value=""/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="MODE" library="RFiD" deviceset="PTHPAD" device="" value="MODESELECT">
-<attribute name="CUSTOMER_PN" value="-"/>
+<attribute name="CUSTOMERPN" value="DNP"/>
+<attribute name="PASSIVO" value=""/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="D0/TX/CLK" library="RFiD" deviceset="PTHPAD" device="" value="D0/CLK/TX">
-<attribute name="CUSTOMER_PN" value="-"/>
+<attribute name="CUSTOMERPN" value="DNP"/>
+<attribute name="PASSIVO" value=""/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="D1/DATA" library="RFiD" deviceset="PTHPAD" device="" value="D1/DATA">
-<attribute name="CUSTOMER_PN" value="-"/>
+<attribute name="CUSTOMERPN" value="DNP"/>
+<attribute name="PASSIVO" value=""/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="CARDPRS" library="RFiD" deviceset="PTHPAD" device="" value="CARD-PRES">
-<attribute name="CUSTOMER_PN" value="-"/>
+<attribute name="CUSTOMERPN" value="DNP"/>
+<attribute name="PASSIVO" value=""/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="P+6" library="supply1" deviceset="VCC/2" device="" value="VIN"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
@@ -6007,211 +6087,426 @@ Source: www.vanlong.com</description>
 <part name="GND50" library="supply1" deviceset="GND" device=""/>
 <part name="GND51" library="supply1" deviceset="GND" device=""/>
 <part name="R29" library="RFiD" deviceset="R-US_" device="R0402" value="1k">
-<attribute name="CUSTOMER_PN" value="R/1k/5%/04"/>
+<attribute name="CUSTOMERPN" value="R/1k/5%/04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="R30" library="RFiD" deviceset="R-US_" device="R0402" value="1k">
-<attribute name="CUSTOMER_PN" value="R/1k/5%/04"/>
+<attribute name="CUSTOMERPN" value="R/1k/5%/04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="R31" library="RFiD" deviceset="R-US_" device="R0402" value="1k">
-<attribute name="CUSTOMER_PN" value="R/1k/5%/04"/>
+<attribute name="CUSTOMERPN" value="R/1k/5%/04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="SUPPLY3" library="supply2" deviceset="+5V" device=""/>
 <part name="SUPPLY5" library="supply2" deviceset="+5V" device=""/>
 <part name="SUPPLY6" library="supply2" deviceset="+5V" device=""/>
 <part name="R32" library="RFiD" deviceset="R-US_" device="R0402" value="2.2k">
-<attribute name="CUSTOMER_PN" value="R/2.2k/5%/04"/>
+<attribute name="CUSTOMERPN" value="R/2.2k/5%/04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="R33" library="RFiD" deviceset="R-US_" device="R0402" value="2.2k">
-<attribute name="CUSTOMER_PN" value="R/2.2k/5%/04"/>
+<attribute name="CUSTOMERPN" value="R/2.2k/5%/04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="R34" library="RFiD" deviceset="R-US_" device="R0402" value="2.2k">
-<attribute name="CUSTOMER_PN" value="R/2.2k/5%/04"/>
+<attribute name="CUSTOMERPN" value="R/2.2k/5%/04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
-<part name="Q5" library="RFiD" deviceset="BC847*" device="SMD" technology="ALT1">
-<attribute name="CUSTOMER_PN" value="Q/BC847A"/>
+<part name="Q5" library="RFiD" deviceset="MMBT4401" device="">
+<attribute name="CUSTOMERPN" value="Q/MMBT4401/SOT23"/>
+<attribute name="PASSIVO" value=""/>
+<attribute name="PN1" value="MMBT4403LT3G"/>
+<attribute name="SPECIAL" value=""/>
 </part>
-<part name="Q6" library="RFiD" deviceset="BC847*" device="SMD" technology="ALT1">
-<attribute name="CUSTOMER_PN" value="Q/BC847A"/>
+<part name="Q6" library="RFiD" deviceset="MMBT4401" device="">
+<attribute name="CUSTOMERPN" value="Q/MMBT4401/SOT23"/>
+<attribute name="PASSIVO" value=""/>
+<attribute name="PN1" value="MMBT4403LT3G"/>
+<attribute name="SPECIAL" value=""/>
 </part>
-<part name="Q7" library="RFiD" deviceset="BC847*" device="SMD" technology="ALT1">
-<attribute name="CUSTOMER_PN" value="Q/BC847A"/>
+<part name="Q7" library="RFiD" deviceset="MMBT4401" device="">
+<attribute name="CUSTOMERPN" value="Q/MMBT4401/SOT23"/>
+<attribute name="PASSIVO" value=""/>
+<attribute name="PN1" value="MMBT4403LT3G"/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="R35" library="RFiD" deviceset="R-US_" device="R0402" value="100">
-<attribute name="CUSTOMER_PN" value="R/100/5%/04"/>
+<attribute name="CUSTOMERPN" value="R/100/5%/04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="R36" library="RFiD" deviceset="R-US_" device="R0402" value="100">
-<attribute name="CUSTOMER_PN" value="R/100/5%/04"/>
+<attribute name="CUSTOMERPN" value="R/100/5%/04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="R37" library="RFiD" deviceset="R-US_" device="R0402" value="100">
-<attribute name="CUSTOMER_PN" value="R/100/5%/04"/>
+<attribute name="CUSTOMERPN" value="R/100/5%/04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="R28" library="RFiD" deviceset="R-US_" device="R0603" value="100k">
-<attribute name="CUSTOMER_PN" value="R/100k/5%/04"/>
+<attribute name="CUSTOMERPN" value="R/100k/5%/06"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="R38" library="RFiD" deviceset="R-US_" device="R0603" value="10k">
-<attribute name="CUSTOMER_PN" value="R/10k/5%/04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="R39" library="RFiD" deviceset="R-US_" device="R0603" value="100k">
-<attribute name="CUSTOMER_PN" value="R/100k/5%/04"/>
+<attribute name="CUSTOMERPN" value="R/100k/5%/06"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="R40" library="RFiD" deviceset="R-US_" device="R0603" value="100k">
-<attribute name="CUSTOMER_PN" value="R/100k/5%/04"/>
+<attribute name="CUSTOMERPN" value="R/100k/5%/06"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="+3V12" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V13" library="supply1" deviceset="+3V3" device=""/>
 <part name="R41" library="RFiD" deviceset="R-US_" device="R0402" value="82">
-<attribute name="CUSTOMER_PN" value="R/180/5%/04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="R42" library="RFiD" deviceset="R-US_" device="R0402" value="100">
-<attribute name="CUSTOMER_PN" value="R/180/5%/04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
-<part name="SG1" library="RFiD" deviceset="F/TMB" device="">
-<attribute name="CUSTOMER_PN" value="BUZZER"/>
+<part name="BZ1" library="RFiD" deviceset="F/TMB" device="">
+<attribute name="CUSTOMERPN" value="BUZ-REP"/>
+<attribute name="PASSIVO" value=""/>
+<attribute name="PN1" value="PS1240P02BT"/>
+<attribute name="SPECIAL" value=""/>
 </part>
-<part name="Q4" library="RFiD" deviceset="BC847*" device="SMD" technology="ALT1">
-<attribute name="CUSTOMER_PN" value="Q/BC847A"/>
+<part name="Q4" library="RFiD" deviceset="MMBT4401" device="">
+<attribute name="CUSTOMERPN" value="Q/MMBT4401/SOT23"/>
+<attribute name="PASSIVO" value=""/>
+<attribute name="PN1" value="MMBT4403LT3G"/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND48" library="supply1" deviceset="GND" device=""/>
 <part name="R43" library="RFiD" deviceset="R-US_" device="R0402" value="2.2k">
-<attribute name="CUSTOMER_PN" value="R/2.2k/5%/04"/>
+<attribute name="CUSTOMERPN" value="R/2.2k/5%/04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="R44" library="RFiD" deviceset="R-US_" device="R0402" value="1k">
-<attribute name="CUSTOMER_PN" value="R/1k/5%/04"/>
+<attribute name="CUSTOMERPN" value="R/1k/5%/04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="D5" library="RFiD" deviceset="BAT54S" device="">
-<attribute name="CUSTOMER_PN" value="D/BAT54S"/>
+<attribute name="CUSTOMERPN" value="D/BAT54S"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="D6" library="RFiD" deviceset="BAT54S" device="">
-<attribute name="CUSTOMER_PN" value="D/BAT54S"/>
+<attribute name="CUSTOMERPN" value="D/BAT54S"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND54" library="supply1" deviceset="GND" device=""/>
 <part name="GND55" library="supply1" deviceset="GND" device=""/>
 <part name="+3V18" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V19" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND57" library="supply1" deviceset="GND" device=""/>
-<part name="U1" library="RFiD" deviceset="SAMD20E14A-AUT" device=""/>
-<part name="R23" library="RFiD" deviceset="R-US_" device="R0402" value="10k"/>
+<part name="U1" library="RFiD" deviceset="SAMD20E14A-AUT" device="">
+<attribute name="CUSTOMERPN" value="IC/SAMD20/TQ32"/>
+<attribute name="PASSIVO" value=""/>
+<attribute name="PN1" value="SAMD20E14A-AUT"/>
+<attribute name="SPECIAL" value=""/>
+</part>
+<part name="R23" library="RFiD" deviceset="R-US_" device="R0603" value="10k">
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
+</part>
 <part name="R46" library="RFiD" deviceset="R-US_" device="R0603" value="10">
-<attribute name="CUSTOMER_PN" value="R/39/5%/04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="R47" library="RFiD" deviceset="R-US_" device="R0603" value="10">
-<attribute name="CUSTOMER_PN" value="R/39/5%/04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="R10" library="RFiD" deviceset="R-US_" device="R0402" value="27k">
-<attribute name="CUSTOMER_PN" value="R/1M/5%/04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="R11" library="RFiD" deviceset="R-US_" device="R0402" value="27k">
-<attribute name="CUSTOMER_PN" value="R/1M/5%/04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="C20" library="RFiD" deviceset="C-US" device="C0402" value="47p">
-<attribute name="CUSTOMER_PN" value="C/2.2n/100V/D04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="C21" library="RFiD" deviceset="C-US" device="C0402" value="47p">
-<attribute name="CUSTOMER_PN" value="C/2.2n/100V/D04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="C22" library="RFiD" deviceset="C-US" device="C0402" value="47p">
-<attribute name="CUSTOMER_PN" value="C/2.2n/100V/D04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="R12" library="RFiD" deviceset="R-US_" device="R0402" value="27k">
-<attribute name="CUSTOMER_PN" value="R/1M/5%/04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="R13" library="RFiD" deviceset="R-US_" device="R0402" value="27k">
-<attribute name="CUSTOMER_PN" value="R/1M/5%/04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="C23" library="RFiD" deviceset="C-US" device="C0402" value="47p">
-<attribute name="CUSTOMER_PN" value="C/2.2n/100V/D04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="R17" library="RFiD" deviceset="R-US_" device="R0402" value="4.7k">
-<attribute name="CUSTOMER_PN" value="R/1k/5%/04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="R18" library="RFiD" deviceset="R-US_" device="R0402" value="13k">
-<attribute name="CUSTOMER_PN" value="R/1k/5%/04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="C25" library="RFiD" deviceset="C-US" device="C0402" value="4.7n">
-<attribute name="CUSTOMER_PN" value="C/1n/100V/C04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="C26" library="RFiD" deviceset="C-US" device="C0402" value="220n">
-<attribute name="CUSTOMER_PN" value="C/1n/100V/C04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="C27" library="RFiD" deviceset="C-US" device="C0402" value="68p">
-<attribute name="CUSTOMER_PN" value="C/1n/100V/C04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="R19" library="RFiD" deviceset="R-US_" device="R0402" value="91k">
-<attribute name="CUSTOMER_PN" value="R/1k/5%/04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
 <part name="C28" library="RFiD" deviceset="C-US" device="C0402" value="220n">
-<attribute name="CUSTOMER_PN" value="C/1n/100V/C04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="R21" library="RFiD" deviceset="R-US_" device="R0402" value="4.7k">
-<attribute name="CUSTOMER_PN" value="R/1k/5%/04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="C44" library="RFiD" deviceset="C-US" device="C0402" value="4.7n">
-<attribute name="CUSTOMER_PN" value="C/1n/100V/C04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="R22" library="RFiD" deviceset="R-US_" device="R0402" value="13k">
-<attribute name="CUSTOMER_PN" value="R/1k/5%/04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="R48" library="RFiD" deviceset="R-US_" device="R0402" value="91k">
-<attribute name="CUSTOMER_PN" value="R/1k/5%/04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="C45" library="RFiD" deviceset="C-US" device="C0402" value="68p">
-<attribute name="CUSTOMER_PN" value="C/1n/100V/C04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="C46" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
-<attribute name="CUSTOMER_PN" value="C/1n/100V/C04"/>
+<attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="R51" library="RFiD" deviceset="R-US_" device="R0402" value="F:P:5.6k">
-<attribute name="CUSTOMER_PN" value="R/1k/5%/04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="R52" library="RFiD" deviceset="R-US_" device="R0402" value="F:P:5.1k">
-<attribute name="CUSTOMER_PN" value="R/1k/5%/04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="C47" library="RFiD" deviceset="C-US" device="C0402" value="F:P:100p">
-<attribute name="CUSTOMER_PN" value="C/1n/100V/C04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="C48" library="RFiD" deviceset="C-US" device="C0402" value="F:P:68p">
-<attribute name="CUSTOMER_PN" value="C/1n/100V/C04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="R53" library="RFiD" deviceset="R-US_" device="R0402" value="F:P:270k">
-<attribute name="CUSTOMER_PN" value="R/1k/5%/04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="R54" library="RFiD" deviceset="R-US_" device="R0402" value="F:P:5.6k">
-<attribute name="CUSTOMER_PN" value="R/1k/5%/04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="C49" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
-<attribute name="CUSTOMER_PN" value="C/1n/100V/C04"/>
+<attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="R55" library="RFiD" deviceset="R-US_" device="R0402" value="F:P:5.1k">
-<attribute name="CUSTOMER_PN" value="R/1k/5%/04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="C50" library="RFiD" deviceset="C-US" device="C0402" value="F:P:68p">
-<attribute name="CUSTOMER_PN" value="C/1n/100V/C04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="C51" library="RFiD" deviceset="C-US" device="C0402" value="F:P:100p">
-<attribute name="CUSTOMER_PN" value="C/1n/100V/C04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="R56" library="RFiD" deviceset="R-US_" device="R0402" value="F:P:270k">
-<attribute name="CUSTOMER_PN" value="R/1k/5%/04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="P+3" library="supply1" deviceset="+12V" device=""/>
 <part name="P+8" library="supply1" deviceset="+12V" device=""/>
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
 <part name="C52" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
-<attribute name="CUSTOMER_PN" value="C/2.2n/100V/D04"/>
+<attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="C53" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
-<attribute name="CUSTOMER_PN" value="C/2.2n/100V/D04"/>
+<attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="SUPPLY12" library="supply2" deviceset="+5V" device=""/>
-<part name="U5" library="RFiD" deviceset="LP2985-33DBVR" device=""/>
-<part name="R57" library="RFiD" deviceset="R-US_" device="R0402" value="470"/>
-<part name="R58" library="RFiD" deviceset="R-US_" device="R0402" value="470"/>
+<part name="U5" library="RFiD" deviceset="LP2985-33DBVR" device="">
+<attribute name="CUSTOMERPN" value="IC/3V3REG"/>
+<attribute name="PASSIVO" value=""/>
+<attribute name="PN1" value="LP2985-33DBVR"/>
+<attribute name="SPECIAL" value=""/>
+</part>
+<part name="R57" library="RFiD" deviceset="R-US_" device="R0402" value="470">
+<attribute name="CUSTOMERPN" value="R/470/5%/04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
+</part>
+<part name="R58" library="RFiD" deviceset="R-US_" device="R0402" value="470">
+<attribute name="CUSTOMERPN" value="R/470/5%/04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
+</part>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
-<part name="C54" library="RFiD" deviceset="C-US" device="C0402" value="0.1u"/>
-<part name="C55" library="RFiD" deviceset="C-US" device="C0402" value="10n"/>
+<part name="C54" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
+<attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="SPECIAL" value=""/>
+</part>
+<part name="C55" library="RFiD" deviceset="C-US" device="C0402" value="10n">
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
+</part>
 <part name="GND35" library="supply1" deviceset="GND" device=""/>
 <part name="GND52" library="supply1" deviceset="GND" device=""/>
 <part name="P+15" library="supply1" deviceset="V+" device=""/>
@@ -6221,123 +6516,290 @@ Source: www.vanlong.com</description>
 <part name="P+10" library="supply1" deviceset="V+" device=""/>
 <part name="P+12" library="supply1" deviceset="+12V" device=""/>
 <part name="P+16" library="supply1" deviceset="+12V" device=""/>
-<part name="C43" library="RFiD" deviceset="C-US" device="C0402" value="0.1u"/>
+<part name="C43" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
+<attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="SPECIAL" value=""/>
+</part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="P+7" library="supply1" deviceset="V+" device=""/>
 <part name="+3V17" library="supply1" deviceset="+3V3" device=""/>
 <part name="R45" library="RFiD" deviceset="R-US_" device="R0402" value="5.1k">
-<attribute name="CUSTOMER_PN" value="R/1k/5%/04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="R59" library="RFiD" deviceset="R-US_" device="R0402" value="12k">
-<attribute name="CUSTOMER_PN" value="R/1k/5%/04"/>
+<attribute name="CUSTOMERPN" value="R/12k/5%/04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND53" library="supply1" deviceset="GND" device=""/>
 <part name="R60" library="RFiD" deviceset="R-US_" device="R0402" value="12k">
-<attribute name="CUSTOMER_PN" value="R/1k/5%/04"/>
+<attribute name="CUSTOMERPN" value="R/12k/5%/04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="R61" library="RFiD" deviceset="R-US_" device="R0402" value="5.1k">
-<attribute name="CUSTOMER_PN" value="R/1k/5%/04"/>
+<attribute name="CUSTOMERPN" value="R/5.1k/5%/04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND56" library="supply1" deviceset="GND" device=""/>
 <part name="R62" library="RFiD" deviceset="R-US_" device="R0402" value="0">
-<attribute name="CUSTOMER_PN" value="R/1M/5%/04"/>
+<attribute name="CUSTOMERPN" value="R/0/0%/04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="R63" library="RFiD" deviceset="R-US_" device="R0402" value="0">
-<attribute name="CUSTOMER_PN" value="R/1M/5%/04"/>
+<attribute name="CUSTOMERPN" value="R/0/0%/04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
-<part name="C56" library="RFiD" deviceset="C-US" device="C0603" value="10u"/>
+<part name="C56" library="RFiD" deviceset="C-US" device="C0603" value="10u">
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
+</part>
 <part name="GND58" library="supply1" deviceset="GND" device=""/>
 <part name="C57" library="RFiD" deviceset="C-US" device="C0805" value="DNP">
-<attribute name="CUSTOMER_PN" value="C/0.1u/50V/C04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
-<part name="R64" library="RFiD" deviceset="R-US_" device="R0603" value="0">
-<attribute name="CUSTOMER_PN" value="R/1M/5%/04"/>
+<part name="R64" library="RFiD" deviceset="R-US_" device="R0402" value="0">
+<attribute name="CUSTOMERPN" value="R/0/0%/04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND59" library="supply1" deviceset="GND" device=""/>
-<part name="C12" library="RFiD" deviceset="C-US" device="C1812" value="1n"/>
+<part name="C12" library="RFiD" deviceset="C-US" device="C1812" value="1n">
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
+</part>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
-<part name="C15" library="RFiD" deviceset="C-US" device="C1206" value="220n"/>
+<part name="C15" library="RFiD" deviceset="C-US" device="C1206" value="220n">
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
+</part>
 <part name="P+17" library="supply1" deviceset="V+" device=""/>
-<part name="IC1" library="RFiD" deviceset="TL084" device=""/>
+<part name="IC1" library="RFiD" deviceset="TL084" device="">
+<attribute name="CUSTOMERPN" value="IC/TL084/TSSOP14"/>
+<attribute name="PASSIVO" value=""/>
+<attribute name="PN1" value="TL084CPT"/>
+<attribute name="SPECIAL" value=""/>
+</part>
 <part name="R4" library="RFiD" deviceset="R-US_" device="R0402">
-<attribute name="CUSTOMER_PN" value="R/1M/5%/04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="R7" library="RFiD" deviceset="R-US_" device="R0402">
-<attribute name="CUSTOMER_PN" value="R/1M/5%/04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="R9" library="RFiD" deviceset="R-US_" device="R0402">
-<attribute name="CUSTOMER_PN" value="R/1M/5%/04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="C16" library="RFiD" deviceset="C-US" device="C0402">
-<attribute name="CUSTOMER_PN" value="C/2.2n/100V/D04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="C18" library="RFiD" deviceset="C-US" device="C0402">
-<attribute name="CUSTOMER_PN" value="C/2.2n/100V/D04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
-<part name="IC2" library="RFiD" deviceset="TL084" device=""/>
+<part name="IC2" library="RFiD" deviceset="TL084" device="">
+<attribute name="CUSTOMERPN" value="IC/TL084/TSSOP14"/>
+<attribute name="PASSIVO" value=""/>
+<attribute name="PN1" value="TL084CPT"/>
+<attribute name="SPECIAL" value=""/>
+</part>
 <part name="P+1" library="supply1" deviceset="V+" device=""/>
-<part name="Q1" library="RFiD" deviceset="DMN3404" device=""/>
-<part name="Q8" library="RFiD" deviceset="MMBT4403" device=""/>
-<part name="Q9" library="RFiD" deviceset="MMBT4401" device=""/>
+<part name="Q1" library="RFiD" deviceset="DMN3404" device="">
+<attribute name="CUSTOMERPN" value="Q/DMN3404/SOT23"/>
+<attribute name="PASSIVO" value=""/>
+<attribute name="PN1" value="DMN3404L-7"/>
+<attribute name="SPECIAL" value=""/>
+</part>
+<part name="Q8" library="RFiD" deviceset="MMBT4403" device="">
+<attribute name="CUSTOMERPN" value="Q/MMBT4403/SOT23"/>
+<attribute name="PASSIVO" value=""/>
+<attribute name="PN1" value="MMBT4403LT3G"/>
+<attribute name="SPECIAL" value=""/>
+</part>
+<part name="Q9" library="RFiD" deviceset="MMBT4401" device="">
+<attribute name="CUSTOMERPN" value="Q/MMBT4401/SOT23"/>
+<attribute name="PASSIVO" value=""/>
+<attribute name="PN1" value="MMBT4401LT3G"/>
+<attribute name="SPECIAL" value=""/>
+</part>
 <part name="R14" library="RFiD" deviceset="R-US_" device="R0402" value="470">
-<attribute name="CUSTOMER_PN" value="R/1M/5%/04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="R15" library="RFiD" deviceset="R-US_" device="R0402" value="100">
-<attribute name="CUSTOMER_PN" value="R/1M/5%/04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="P+11" library="supply1" deviceset="V+" device=""/>
 <part name="C19" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
-<attribute name="CUSTOMER_PN" value="C/1n/100V/C04"/>
+<attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="R16" library="RFiD" deviceset="R-US_" device="R0402" value="F:P:5.6k">
-<attribute name="CUSTOMER_PN" value="R/1k/5%/04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
-<part name="C24" library="RFiD" deviceset="C-US" device="C0402" value="F:C:100p">
-<attribute name="CUSTOMER_PN" value="C/1n/100V/C04"/>
+<part name="C24" library="RFiD" deviceset="C-US" device="C0402" value="F:P:100p">
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="C29" library="RFiD" deviceset="C-US" device="C0402" value="F:P:68p">
-<attribute name="CUSTOMER_PN" value="C/1n/100V/C04"/>
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
-<part name="R20" library="RFiD" deviceset="R-US_" device="R0402" value="C:P:270k">
-<attribute name="CUSTOMER_PN" value="R/1k/5%/04"/>
+<part name="R20" library="RFiD" deviceset="R-US_" device="R0402" value="F:P:270k">
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="PASSIVO" value=""/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="R49" library="RFiD" deviceset="R-US_" device="R0402" value="F:P:5.1k">
-<attribute name="CUSTOMER_PN" value="R/1k/5%/04"/>
+<attribute name="CUSTOMERPN" value="R/1k/5%/04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
-<part name="R50" library="RFiD" deviceset="R-US_" device="R0402" value="100k">
-<attribute name="CUSTOMER_PN" value="R/1M/5%/04"/>
+<part name="R50" library="RFiD" deviceset="R-US_" device="R0603" value="100k">
+<attribute name="CUSTOMERPN" value="R/100k/5%/06"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="P+18" library="supply1" deviceset="V+" device=""/>
 <part name="P+19" library="supply1" deviceset="V+" device=""/>
 <part name="P+20" library="supply1" deviceset="V+" device=""/>
-<part name="LED2" library="RFiD" deviceset="LTL1BEKVJNN" device=""/>
+<part name="LED1" library="RFiD" deviceset="LTL1BEKVJNN" device="">
+<attribute name="CUSTOMERPN" value="LED/RG/3MM"/>
+<attribute name="PASSIVO" value=""/>
+<attribute name="PN1" value="LTL1BEKVJNN"/>
+<attribute name="SPECIAL" value=""/>
+</part>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
-<part name="D3" library="RFiD" deviceset="BYG20J" device=""/>
-<part name="D1" library="RFiD" deviceset="BYG20J" device=""/>
-<part name="X3" library="RFiD" deviceset="22-23-2021" device="" value="ANTENA"/>
-<part name="SWD" library="RFiD" deviceset="PINHD-1X5" device=""/>
-<part name="Y2" library="RFiD" deviceset="CRYSTAL" device="HC49S"/>
+<part name="D3" library="RFiD" deviceset="BYG20J" device="">
+<attribute name="CUSTOMERPN" value="D/BYG20J"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value="BYG20J"/>
+<attribute name="SPECIAL" value=""/>
+</part>
+<part name="D1" library="RFiD" deviceset="BYG20J" device="">
+<attribute name="CUSTOMERPN" value="D/BYG20J"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value="BYG20J"/>
+<attribute name="SPECIAL" value=""/>
+</part>
+<part name="X3" library="RFiD" deviceset="22-23-2021" device="" value="ANTENA">
+<attribute name="CUSTOMERPN" value="DNP"/>
+<attribute name="PASSIVO" value=""/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
+</part>
+<part name="SWD" library="RFiD" deviceset="PINHD-1X5" device="">
+<attribute name="CUSTOMERPN" value="DNP"/>
+<attribute name="PASSIVO" value=""/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
+</part>
+<part name="QZ1" library="RFiD" deviceset="CRYSTAL" device="HC49S" value="8MHz">
+<attribute name="CUSTOMERPN" value="XTAL/8MHZ/PTH"/>
+<attribute name="PASSIVO" value=""/>
+<attribute name="PN1" value="9B-8.000MAAJ-B"/>
+<attribute name="SPECIAL" value=""/>
+</part>
 <part name="C13" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
-<attribute name="CUSTOMER_PN" value="C/10u/16V/C08"/>
+<attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="C58" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
-<attribute name="CUSTOMER_PN" value="C/10u/16V/C08"/>
+<attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
-<part name="X1" library="RFiD" deviceset="22-23-2021" device="" value="MIFARE"/>
-<part name="C59" library="RFiD" deviceset="C-US" device="C0402" value="0.1u"/>
+<part name="X1" library="RFiD" deviceset="22-23-2021" device="" value="MIFARE">
+<attribute name="CUSTOMERPN" value="DNP"/>
+<attribute name="PASSIVO" value=""/>
+<attribute name="PN1" value=""/>
+<attribute name="SPECIAL" value=""/>
+</part>
+<part name="C59" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
+<attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="SPECIAL" value=""/>
+</part>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
-<part name="C60" library="RFiD" deviceset="C-US" device="C0402" value="0.1u"/>
+<part name="C60" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
+<attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="SPECIAL" value=""/>
+</part>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
-<part name="Y1" library="ACESSO" deviceset="CRISTAL" device="SMALL(3.2X2.5MM)" value="27.12MHz"/>
+<part name="QZ2" library="RFiD" deviceset="CRISTAL" device="" value="27.12MHz">
+<attribute name="CUSTOMERPN" value="XTAL/2712MHZ/5x3"/>
+<attribute name="PASSIVO" value=""/>
+<attribute name="PN1" value="7B-27.120MAAJ-T"/>
+<attribute name="SPECIAL" value=""/>
+</part>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="231.14" y="20.32" size="2.54" layer="94">RFiD</text>
-<text x="226.06" y="10.16" size="2.54" layer="94">02/08/2013</text>
+<text x="226.06" y="10.16" size="2.54" layer="94">19/09/2013</text>
 <text x="226.06" y="15.24" size="2.54" layer="94">Alimentacao</text>
 <text x="48.26" y="78.74" size="1.4224" layer="91" rot="R270">06/16V/10%/587-2786-2-ND </text>
 <text x="127" y="78.74" size="1.4224" layer="91" rot="R270">06/16V/10%/587-2786-2-ND </text>
@@ -6345,24 +6807,33 @@ Source: www.vanlong.com</description>
 <text x="134.62" y="121.92" size="1.4224" layer="91" rot="R270">10%/08/1276-2890-1-ND</text>
 <text x="114.3" y="119.38" size="1.4224" layer="91" rot="R180">25V</text>
 <text x="116.84" y="114.3" size="1.778" layer="91" rot="R180">1000uF</text>
-<text x="243.84" y="5.08" size="2.54" layer="94">Rev. B</text>
+<text x="243.84" y="5.08" size="2.54" layer="94">Rev. C</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="C6" gate="G$1" x="55.88" y="66.04">
-<attribute name="CUSTOMER_PN" x="55.88" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="55.88" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="55.88" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="55.88" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="55.88" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND4" gate="1" x="68.58" y="48.26"/>
 <instance part="GND5" gate="1" x="55.88" y="55.88"/>
 <instance part="+3V3" gate="G$1" x="116.84" y="81.28"/>
 <instance part="C7" gate="G$1" x="116.84" y="66.04">
-<attribute name="CUSTOMER_PN" x="116.84" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="116.84" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="116.84" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="116.84" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="116.84" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND8" gate="1" x="116.84" y="55.88"/>
 <instance part="D2" gate="G$1" x="88.9" y="116.84" smashed="yes" rot="R90">
 <attribute name="NAME" x="86.36" y="118.8974" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="91.2114" y="119.38" size="1.778" layer="96" rot="R90"/>
-<attribute name="CUSTOMER_PN" x="88.9" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="88.9" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="88.9" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="88.9" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="88.9" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND9" gate="1" x="88.9" y="109.22"/>
 <instance part="P+2" gate="1" x="139.7" y="134.62"/>
@@ -6370,39 +6841,101 @@ Source: www.vanlong.com</description>
 <instance part="GND16" gate="1" x="200.66" y="109.22"/>
 <instance part="SUPPLY2" gate="+5V" x="200.66" y="132.08"/>
 <instance part="U3" gate="G$1" x="170.18" y="119.38">
-<attribute name="CUSTOMER_PN" x="170.18" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="170.18" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="170.18" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="170.18" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="170.18" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND6" gate="1" x="152.4" y="109.22"/>
 <instance part="C1" gate="G$1" x="139.7" y="119.38">
-<attribute name="CUSTOMER_PN" x="139.7" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="139.7" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="139.7" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="139.7" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="139.7" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C4" gate="G$1" x="200.66" y="119.38">
-<attribute name="CUSTOMER_PN" x="200.66" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="200.66" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="200.66" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="200.66" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="200.66" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND7" gate="1" x="104.14" y="109.22"/>
 <instance part="C8" gate="G$1" x="104.14" y="119.38">
-<attribute name="CUSTOMER_PN" x="104.14" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="104.14" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="104.14" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="104.14" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="104.14" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+5" gate="G$1" x="63.5" y="134.62"/>
 <instance part="SUPPLY12" gate="+5V" x="55.88" y="78.74"/>
-<instance part="U5" gate="G$1" x="86.36" y="63.5"/>
-<instance part="R57" gate="G$1" x="167.64" y="71.12"/>
-<instance part="R58" gate="G$1" x="175.26" y="63.5" rot="R90"/>
+<instance part="U5" gate="G$1" x="86.36" y="63.5">
+<attribute name="CUSTOMERPN" x="86.36" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="86.36" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="86.36" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="86.36" y="63.5" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R57" gate="G$1" x="167.64" y="71.12">
+<attribute name="CUSTOMERPN" x="167.64" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="167.64" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="167.64" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="167.64" y="71.12" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R58" gate="G$1" x="175.26" y="63.5" rot="R90">
+<attribute name="CUSTOMERPN" x="175.26" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="175.26" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="175.26" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="175.26" y="63.5" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND34" gate="1" x="175.26" y="53.34"/>
-<instance part="C54" gate="G$1" x="187.96" y="66.04"/>
-<instance part="C55" gate="G$1" x="198.12" y="66.04"/>
+<instance part="C54" gate="G$1" x="187.96" y="66.04">
+<attribute name="CUSTOMERPN" x="187.96" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="187.96" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="187.96" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="187.96" y="66.04" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C55" gate="G$1" x="198.12" y="66.04">
+<attribute name="CUSTOMERPN" x="198.12" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="198.12" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="198.12" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="198.12" y="66.04" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND35" gate="1" x="187.96" y="53.34"/>
 <instance part="GND52" gate="1" x="198.12" y="53.34"/>
 <instance part="P+15" gate="1" x="238.76" y="78.74"/>
 <instance part="P+12" gate="1" x="157.48" y="76.2"/>
-<instance part="C43" gate="G$1" x="218.44" y="66.04"/>
+<instance part="C43" gate="G$1" x="218.44" y="66.04">
+<attribute name="CUSTOMERPN" x="218.44" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="218.44" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="218.44" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="218.44" y="66.04" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND1" gate="1" x="218.44" y="53.34"/>
-<instance part="C56" gate="G$1" x="238.76" y="66.04"/>
+<instance part="C56" gate="G$1" x="238.76" y="66.04">
+<attribute name="CUSTOMERPN" x="238.76" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="238.76" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="238.76" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="238.76" y="66.04" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND58" gate="1" x="238.76" y="53.34"/>
-<instance part="D1" gate="G$1" x="76.2" y="124.46" rot="R180"/>
-<instance part="C59" gate="G$1" x="228.6" y="66.04"/>
+<instance part="D1" gate="G$1" x="76.2" y="124.46" rot="R180">
+<attribute name="CUSTOMERPN" x="76.2" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="76.2" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="76.2" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="76.2" y="124.46" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C59" gate="G$1" x="228.6" y="66.04">
+<attribute name="CUSTOMERPN" x="228.6" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="228.6" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="228.6" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="228.6" y="66.04" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND28" gate="1" x="228.6" y="53.34"/>
-<instance part="C60" gate="G$1" x="208.28" y="66.04"/>
+<instance part="C60" gate="G$1" x="208.28" y="66.04">
+<attribute name="CUSTOMERPN" x="208.28" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="208.28" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="208.28" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="208.28" y="66.04" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND30" gate="1" x="208.28" y="53.34"/>
 </instances>
 <busses>
@@ -6603,11 +7136,10 @@ Source: www.vanlong.com</description>
 <sheet>
 <plain>
 <text x="231.14" y="20.32" size="2.54" layer="94">RFiD</text>
-<text x="224.536" y="10.16" size="2.54" layer="94">02/08/2013</text>
+<text x="224.536" y="10.16" size="2.54" layer="94">19/09/2013</text>
 <text x="224.79" y="15.24" size="2.54" layer="94">Processador</text>
 <text x="203.2" y="119.38" size="1.4224" layer="91" rot="R180">16V</text>
 <text x="203.2" y="154.94" size="1.4224" layer="91" rot="R270">16V</text>
-<text x="116.84" y="7.62" size="1.778" layer="91">L6: BLM15BB221SN1D</text>
 <wire x1="161.29" y1="24.13" x2="161.29" y2="90.17" width="0.6096" layer="94"/>
 <wire x1="161.29" y1="90.17" x2="161.29" y2="174.752" width="0.6096" layer="94"/>
 <wire x1="161.29" y1="90.17" x2="201.93" y2="90.17" width="0.6096" layer="94"/>
@@ -6626,7 +7158,7 @@ Source: www.vanlong.com</description>
 <text x="60.96" y="81.28" size="1.778" layer="91">MIFARE - I2C SDA</text>
 <text x="60.96" y="101.6" size="1.778" layer="91">Saida ABATK2 - Card Present</text>
 <text x="60.96" y="99.06" size="1.778" layer="91">Entrada de controle do LED</text>
-<text x="243.84" y="5.08" size="2.54" layer="94">Rev. B</text>
+<text x="243.84" y="5.08" size="2.54" layer="94">Rev. C</text>
 <text x="60.96" y="114.3" size="1.778" layer="91">PSK - Para uso com Analog Comparator</text>
 <text x="60.96" y="73.66" size="1.778" layer="91">Buzzer PWM</text>
 <text x="60.96" y="91.44" size="1.778" layer="91">MIFARE - Reset Control</text>
@@ -6639,32 +7171,69 @@ Source: www.vanlong.com</description>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
 <instance part="+3V1" gate="G$1" x="195.58" y="154.94"/>
 <instance part="C2" gate="G$1" x="195.58" y="119.38">
-<attribute name="CUSTOMER_PN" x="195.58" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="195.58" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="195.58" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="195.58" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="195.58" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND2" gate="1" x="195.58" y="109.22"/>
 <instance part="C3" gate="G$1" x="203.2" y="147.32" rot="R90">
-<attribute name="CUSTOMER_PN" x="203.2" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="203.2" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="203.2" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="203.2" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="203.2" y="147.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND3" gate="1" x="213.36" y="147.32" rot="R90"/>
 <instance part="+3V4" gate="G$1" x="238.76" y="63.5"/>
 <instance part="GND10" gate="1" x="238.76" y="35.56"/>
 <instance part="+3V5" gate="G$1" x="218.44" y="68.58"/>
 <instance part="C42" gate="G$1" x="182.88" y="119.38">
-<attribute name="CUSTOMER_PN" x="182.88" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="182.88" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="182.88" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="182.88" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="182.88" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V11" gate="G$1" x="182.88" y="142.24"/>
 <instance part="GND47" gate="1" x="182.88" y="109.22"/>
 <instance part="GND57" gate="1" x="228.6" y="119.38"/>
-<instance part="U1" gate="IO" x="27.94" y="93.98" rot="MR0"/>
-<instance part="U1" gate="PWR" x="210.82" y="129.54"/>
-<instance part="R23" gate="G$1" x="218.44" y="58.42" rot="R90"/>
-<instance part="SWD" gate="A" x="248.92" y="50.8"/>
-<instance part="Y2" gate="G$1" x="180.34" y="55.88"/>
-<instance part="C13" gate="G$1" x="185.42" y="48.26">
-<attribute name="CUSTOMER_PN" x="185.42" y="48.26" size="1.778" layer="96" display="off"/>
+<instance part="U1" gate="IO" x="27.94" y="93.98" rot="MR0">
+<attribute name="CUSTOMERPN" x="27.94" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="27.94" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="27.94" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="27.94" y="93.98" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C58" gate="G$1" x="175.26" y="48.26">
-<attribute name="CUSTOMER_PN" x="175.26" y="48.26" size="1.778" layer="96" display="off"/>
+<instance part="U1" gate="PWR" x="210.82" y="129.54"/>
+<instance part="R23" gate="G$1" x="218.44" y="58.42" rot="R90">
+<attribute name="CUSTOMERPN" x="218.44" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="218.44" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="218.44" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="218.44" y="58.42" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="SWD" gate="A" x="248.92" y="50.8">
+<attribute name="CUSTOMERPN" x="248.92" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="248.92" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="248.92" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="248.92" y="50.8" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="QZ1" gate="G$1" x="180.34" y="58.42" smashed="yes">
+<attribute name="NAME" x="177.8" y="61.976" size="1.778" layer="95"/>
+<attribute name="VALUE" x="177.8" y="53.34" size="1.778" layer="96"/>
+<attribute name="CUSTOMERPN" x="180.34" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="180.34" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="180.34" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="180.34" y="58.42" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C13" gate="G$1" x="185.42" y="45.72">
+<attribute name="CUSTOMERPN" x="185.42" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="185.42" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="185.42" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="185.42" y="45.72" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C58" gate="G$1" x="175.26" y="45.72">
+<attribute name="CUSTOMERPN" x="175.26" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="175.26" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="175.26" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="175.26" y="45.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND25" gate="1" x="175.26" y="35.56"/>
 <instance part="GND26" gate="1" x="185.42" y="35.56"/>
@@ -6707,12 +7276,12 @@ Source: www.vanlong.com</description>
 <segment>
 <pinref part="GND25" gate="1" pin="GND"/>
 <pinref part="C58" gate="G$1" pin="2"/>
-<wire x1="175.26" y1="38.1" x2="175.26" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="38.1" x2="175.26" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C13" gate="G$1" pin="2"/>
 <pinref part="GND26" gate="1" pin="GND"/>
-<wire x1="185.42" y1="43.18" x2="185.42" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="40.64" x2="185.42" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -6879,12 +7448,12 @@ Source: www.vanlong.com</description>
 </net>
 <net name="XIN" class="0">
 <segment>
-<pinref part="Y2" gate="G$1" pin="1"/>
+<pinref part="QZ1" gate="G$1" pin="1"/>
 <pinref part="C58" gate="G$1" pin="1"/>
-<wire x1="177.8" y1="55.88" x2="175.26" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="55.88" x2="175.26" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="55.88" x2="175.26" y2="66.04" width="0.1524" layer="91"/>
-<junction x="175.26" y="55.88"/>
+<wire x1="177.8" y1="58.42" x2="175.26" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="58.42" x2="175.26" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="58.42" x2="175.26" y2="66.04" width="0.1524" layer="91"/>
+<junction x="175.26" y="58.42"/>
 <wire x1="175.26" y1="66.04" x2="167.64" y2="66.04" width="0.1524" layer="91"/>
 <label x="167.64" y="66.04" size="1.778" layer="95"/>
 </segment>
@@ -6896,12 +7465,12 @@ Source: www.vanlong.com</description>
 </net>
 <net name="XOUT" class="0">
 <segment>
-<pinref part="Y2" gate="G$1" pin="2"/>
+<pinref part="QZ1" gate="G$1" pin="2"/>
 <pinref part="C13" gate="G$1" pin="1"/>
-<wire x1="182.88" y1="55.88" x2="185.42" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="55.88" x2="185.42" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="55.88" x2="185.42" y2="66.04" width="0.1524" layer="91"/>
-<junction x="185.42" y="55.88"/>
+<wire x1="182.88" y1="58.42" x2="185.42" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="58.42" x2="185.42" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="58.42" x2="185.42" y2="66.04" width="0.1524" layer="91"/>
+<junction x="185.42" y="58.42"/>
 <wire x1="185.42" y1="66.04" x2="193.04" y2="66.04" width="0.1524" layer="91"/>
 <label x="185.42" y="66.04" size="1.778" layer="95"/>
 </segment>
@@ -6937,13 +7506,13 @@ Source: www.vanlong.com</description>
 <sheet>
 <plain>
 <text x="231.14" y="20.32" size="2.54" layer="94">RFiD</text>
-<text x="226.06" y="10.16" size="2.54" layer="94">02/08/2013</text>
+<text x="226.06" y="10.16" size="2.54" layer="94">19/09/2013</text>
 <text x="216.154" y="15.24" size="2.54" layer="94">Demodulador/Antena</text>
 <wire x1="4.064" y1="89.662" x2="104.902" y2="89.662" width="0.8128" layer="94"/>
 <wire x1="104.902" y1="89.662" x2="256.286" y2="89.662" width="0.8128" layer="94"/>
 <wire x1="104.902" y1="3.81" x2="104.902" y2="89.662" width="0.8128" layer="94"/>
 <text x="86.36" y="81.28" size="5.08" layer="91" ratio="10">ASK</text>
-<text x="243.84" y="5.08" size="2.54" layer="94">Rev. B</text>
+<text x="243.84" y="5.08" size="2.54" layer="94">Rev. C</text>
 <wire x1="77.47" y1="157.48" x2="77.47" y2="121.92" width="0.6096" layer="94"/>
 <wire x1="77.47" y1="121.92" x2="106.68" y2="121.92" width="0.6096" layer="94"/>
 <wire x1="106.68" y1="121.92" x2="106.68" y2="157.48" width="0.6096" layer="94"/>
@@ -6978,154 +7547,280 @@ PSK: Q=5 / Fc=71.8k</text>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
 <instance part="R3" gate="G$1" x="20.32" y="160.02" rot="R90">
-<attribute name="CUSTOMER_PN" x="20.32" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="20.32" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="20.32" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="20.32" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="20.32" y="160.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R5" gate="G$1" x="10.16" y="109.22" rot="R270">
-<attribute name="CUSTOMER_PN" x="10.16" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="10.16" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="10.16" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="10.16" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="10.16" y="109.22" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND17" gate="1" x="20.32" y="99.06"/>
 <instance part="GND18" gate="1" x="30.48" y="99.06"/>
 <instance part="R6" gate="G$1" x="55.88" y="111.76" rot="R90">
-<attribute name="CUSTOMER_PN" x="55.88" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="55.88" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="55.88" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="55.88" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="55.88" y="111.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND21" gate="1" x="55.88" y="99.06"/>
 <instance part="C14" gate="G$1" x="66.04" y="111.76">
-<attribute name="CUSTOMER_PN" x="66.04" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="66.04" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="66.04" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="66.04" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="66.04" y="111.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND22" gate="1" x="66.04" y="99.06"/>
 <instance part="C17" gate="G$1" x="53.34" y="157.48" rot="MR0">
-<attribute name="CUSTOMER_PN" x="53.34" y="157.48" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="CUSTOMERPN" x="53.34" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="53.34" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="53.34" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="53.34" y="157.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND24" gate="1" x="53.34" y="147.32"/>
 <instance part="R8" gate="G$1" x="66.04" y="152.4" rot="R90">
-<attribute name="CUSTOMER_PN" x="66.04" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="66.04" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="66.04" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="66.04" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="66.04" y="152.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+4" gate="1" x="20.32" y="170.18"/>
 <instance part="R46" gate="G$1" x="30.48" y="139.7" rot="R90">
-<attribute name="CUSTOMER_PN" x="30.48" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="30.48" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="30.48" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="30.48" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="30.48" y="139.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R47" gate="G$1" x="30.48" y="127" rot="R90">
-<attribute name="CUSTOMER_PN" x="30.48" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="30.48" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="30.48" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="30.48" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="30.48" y="127" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R10" gate="G$1" x="180.34" y="152.4">
-<attribute name="CUSTOMER_PN" x="180.34" y="152.4" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="CUSTOMERPN" x="180.34" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="180.34" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="180.34" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="180.34" y="152.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R11" gate="G$1" x="200.66" y="152.4">
-<attribute name="CUSTOMER_PN" x="200.66" y="152.4" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="CUSTOMERPN" x="200.66" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="200.66" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="200.66" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="200.66" y="152.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C20" gate="G$1" x="195.58" y="144.78">
-<attribute name="CUSTOMER_PN" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C21" gate="G$1" x="185.42" y="144.78">
-<attribute name="CUSTOMER_PN" x="185.42" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="185.42" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="185.42" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="185.42" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="185.42" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C22" gate="G$1" x="182.88" y="124.46" rot="R270">
-<attribute name="CUSTOMER_PN" x="182.88" y="124.46" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="CUSTOMERPN" x="182.88" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="182.88" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="182.88" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="182.88" y="124.46" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R12" gate="G$1" x="185.42" y="132.08" rot="R90">
-<attribute name="CUSTOMER_PN" x="185.42" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="185.42" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="185.42" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="185.42" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="185.42" y="132.08" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R13" gate="G$1" x="195.58" y="132.08" rot="R90">
-<attribute name="CUSTOMER_PN" x="195.58" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="195.58" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="195.58" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="195.58" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="195.58" y="132.08" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C23" gate="G$1" x="200.66" y="124.46" rot="R270">
-<attribute name="CUSTOMER_PN" x="200.66" y="124.46" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="CUSTOMERPN" x="200.66" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="200.66" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="200.66" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="200.66" y="124.46" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R17" gate="G$1" x="17.78" y="66.04" rot="R180">
-<attribute name="CUSTOMER_PN" x="17.78" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="17.78" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="17.78" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="17.78" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="17.78" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R18" gate="G$1" x="33.02" y="66.04" rot="R180">
-<attribute name="CUSTOMER_PN" x="33.02" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="33.02" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="33.02" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="33.02" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="33.02" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C25" gate="G$1" x="25.4" y="58.42">
-<attribute name="CUSTOMER_PN" x="25.4" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="25.4" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="25.4" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="25.4" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="25.4" y="58.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C26" gate="G$1" x="10.16" y="73.66" smashed="yes" rot="R180">
-<attribute name="CUSTOMER_PN" x="10.16" y="73.66" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="NAME" x="9.144" y="78.105" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="19.304" y="77.851" size="1.778" layer="96" rot="R180"/>
+<attribute name="CUSTOMERPN" x="10.16" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="10.16" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="10.16" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="10.16" y="73.66" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C27" gate="G$1" x="38.1" y="76.2">
-<attribute name="CUSTOMER_PN" x="38.1" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="38.1" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="38.1" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="38.1" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="38.1" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R19" gate="G$1" x="33.02" y="83.82" rot="R180">
-<attribute name="CUSTOMER_PN" x="33.02" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="33.02" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="33.02" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="33.02" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="33.02" y="83.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND27" gate="1" x="25.4" y="48.26"/>
 <instance part="C28" gate="G$1" x="63.5" y="63.5" rot="R90">
-<attribute name="CUSTOMER_PN" x="63.5" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="CUSTOMERPN" x="63.5" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="63.5" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="63.5" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="63.5" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R21" gate="G$1" x="25.4" y="27.94">
-<attribute name="CUSTOMER_PN" x="25.4" y="27.94" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="CUSTOMERPN" x="25.4" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="25.4" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="25.4" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="25.4" y="27.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C44" gate="G$1" x="30.48" y="20.32">
-<attribute name="CUSTOMER_PN" x="30.48" y="20.32" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="30.48" y="20.32" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="30.48" y="20.32" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="30.48" y="20.32" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="30.48" y="20.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND29" gate="1" x="30.48" y="10.16"/>
 <instance part="R22" gate="G$1" x="38.1" y="27.94" rot="R180">
-<attribute name="CUSTOMER_PN" x="38.1" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="38.1" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="38.1" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="38.1" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="38.1" y="27.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R48" gate="G$1" x="38.1" y="43.18">
-<attribute name="CUSTOMER_PN" x="38.1" y="43.18" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="CUSTOMERPN" x="38.1" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="38.1" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="38.1" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="38.1" y="43.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C45" gate="G$1" x="48.26" y="35.56" rot="R180">
-<attribute name="CUSTOMER_PN" x="48.26" y="35.56" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="CUSTOMERPN" x="48.26" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="48.26" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="48.26" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="48.26" y="35.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C46" gate="G$1" x="109.22" y="63.5">
-<attribute name="CUSTOMER_PN" x="109.22" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="109.22" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="109.22" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="109.22" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="109.22" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R51" gate="G$1" x="116.84" y="71.12">
-<attribute name="CUSTOMER_PN" x="116.84" y="71.12" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="CUSTOMERPN" x="116.84" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="116.84" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="116.84" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="116.84" y="71.12" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R52" gate="G$1" x="127" y="63.5" rot="R90">
-<attribute name="CUSTOMER_PN" x="127" y="63.5" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="CUSTOMERPN" x="127" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="127" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="127" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="127" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C47" gate="G$1" x="137.16" y="71.12" smashed="yes" rot="R270">
-<attribute name="CUSTOMER_PN" x="137.16" y="71.12" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="NAME" x="137.795" y="70.104" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="136.271" y="56.896" size="1.778" layer="96" rot="R90"/>
+<attribute name="CUSTOMERPN" x="137.16" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="137.16" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="137.16" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="137.16" y="71.12" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C48" gate="G$1" x="137.16" y="81.28" smashed="yes" rot="R270">
-<attribute name="CUSTOMER_PN" x="137.16" y="81.28" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="NAME" x="130.556" y="76.835" size="1.778" layer="95"/>
 <attribute name="VALUE" x="133.096" y="84.709" size="1.778" layer="96"/>
+<attribute name="CUSTOMERPN" x="137.16" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="137.16" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="137.16" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="137.16" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R53" gate="G$1" x="144.78" y="76.2" rot="R90">
-<attribute name="CUSTOMER_PN" x="144.78" y="76.2" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="CUSTOMERPN" x="144.78" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="144.78" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="144.78" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="144.78" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R54" gate="G$1" x="195.58" y="68.58" rot="MR0">
-<attribute name="CUSTOMER_PN" x="195.58" y="68.58" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="CUSTOMERPN" x="195.58" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="195.58" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="195.58" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="195.58" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C49" gate="G$1" x="180.34" y="68.58" rot="R90">
-<attribute name="CUSTOMER_PN" x="180.34" y="68.58" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="CUSTOMERPN" x="180.34" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="180.34" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="180.34" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="180.34" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R55" gate="G$1" x="205.74" y="63.5" smashed="yes" rot="MR90">
-<attribute name="CUSTOMER_PN" x="205.74" y="63.5" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="NAME" x="207.2386" y="57.15" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="202.438" y="57.15" size="1.778" layer="96" rot="MR90"/>
+<attribute name="CUSTOMERPN" x="205.74" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="205.74" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="205.74" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="205.74" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C50" gate="G$1" x="213.36" y="81.28" smashed="yes" rot="MR90">
-<attribute name="CUSTOMER_PN" x="213.36" y="81.28" size="1.778" layer="96" rot="MR90" display="off"/>
 <attribute name="NAME" x="217.424" y="76.835" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="217.424" y="84.709" size="1.778" layer="96" rot="MR0"/>
+<attribute name="CUSTOMERPN" x="213.36" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="213.36" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="213.36" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="213.36" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C51" gate="G$1" x="213.36" y="68.58" smashed="yes" rot="MR90">
-<attribute name="CUSTOMER_PN" x="213.36" y="68.58" size="1.778" layer="96" rot="MR90" display="off"/>
 <attribute name="NAME" x="217.424" y="71.755" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="222.504" y="64.389" size="1.778" layer="96" rot="MR0"/>
+<attribute name="CUSTOMERPN" x="213.36" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="213.36" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="213.36" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="213.36" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R56" gate="G$1" x="223.52" y="76.2" rot="MR270">
-<attribute name="CUSTOMER_PN" x="223.52" y="76.2" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="CUSTOMERPN" x="223.52" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="223.52" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="223.52" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="223.52" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+3" gate="1" x="116.84" y="104.14" rot="R90"/>
 <instance part="P+8" gate="1" x="180.34" y="104.14" rot="R90"/>
 <instance part="GND32" gate="1" x="160.02" y="99.06"/>
 <instance part="GND33" gate="1" x="226.06" y="99.06"/>
 <instance part="C52" gate="G$1" x="210.82" y="99.06" rot="R90">
-<attribute name="CUSTOMER_PN" x="210.82" y="99.06" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="CUSTOMERPN" x="210.82" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="210.82" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="210.82" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="210.82" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C53" gate="G$1" x="142.24" y="99.06" rot="R90">
-<attribute name="CUSTOMER_PN" x="142.24" y="99.06" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="CUSTOMERPN" x="142.24" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="142.24" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="142.24" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="142.24" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+9" gate="1" x="223.52" y="63.5" smashed="yes" rot="MR270">
 <attribute name="VALUE" x="226.06" y="58.42" size="1.778" layer="96" rot="MR0"/>
@@ -7135,121 +7830,230 @@ PSK: Q=5 / Fc=71.8k</text>
 <instance part="P+10" gate="1" x="38.1" y="55.88" rot="R180"/>
 <instance part="P+7" gate="1" x="66.04" y="167.64"/>
 <instance part="R45" gate="G$1" x="83.82" y="20.32" rot="MR90">
-<attribute name="CUSTOMER_PN" x="83.82" y="20.32" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="CUSTOMERPN" x="83.82" y="20.32" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="83.82" y="20.32" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="83.82" y="20.32" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="83.82" y="20.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R59" gate="G$1" x="76.2" y="25.4" rot="MR180">
-<attribute name="CUSTOMER_PN" x="76.2" y="25.4" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="CUSTOMERPN" x="76.2" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="76.2" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="76.2" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="76.2" y="25.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND53" gate="1" x="83.82" y="10.16" rot="MR0"/>
 <instance part="R60" gate="G$1" x="147.32" y="35.56" rot="MR0">
-<attribute name="CUSTOMER_PN" x="147.32" y="35.56" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="CUSTOMERPN" x="147.32" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="147.32" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="147.32" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="147.32" y="35.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R61" gate="G$1" x="139.7" y="30.48" rot="MR90">
-<attribute name="CUSTOMER_PN" x="139.7" y="30.48" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="CUSTOMERPN" x="139.7" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="139.7" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="139.7" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="139.7" y="30.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND56" gate="1" x="139.7" y="22.86" rot="MR0"/>
 <instance part="R62" gate="G$1" x="129.54" y="104.14">
-<attribute name="CUSTOMER_PN" x="129.54" y="104.14" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="CUSTOMERPN" x="129.54" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="129.54" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="129.54" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="129.54" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R63" gate="G$1" x="193.04" y="104.14">
-<attribute name="CUSTOMER_PN" x="193.04" y="104.14" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="CUSTOMERPN" x="193.04" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="193.04" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="193.04" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="193.04" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C57" gate="G$1" x="38.1" y="154.94">
-<attribute name="CUSTOMER_PN" x="38.1" y="154.94" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="CUSTOMERPN" x="38.1" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="38.1" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="38.1" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="38.1" y="154.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R64" gate="G$1" x="30.48" y="162.56" rot="R90">
-<attribute name="CUSTOMER_PN" x="30.48" y="162.56" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="30.48" y="162.56" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="30.48" y="162.56" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="30.48" y="162.56" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="30.48" y="162.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND59" gate="1" x="38.1" y="144.78"/>
-<instance part="C12" gate="G$1" x="38.1" y="111.76"/>
+<instance part="C12" gate="G$1" x="38.1" y="111.76">
+<attribute name="CUSTOMERPN" x="38.1" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="38.1" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="38.1" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="38.1" y="111.76" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND20" gate="1" x="38.1" y="99.06"/>
-<instance part="C15" gate="G$1" x="66.04" y="132.08" rot="R180"/>
+<instance part="C15" gate="G$1" x="66.04" y="132.08" rot="R180">
+<attribute name="CUSTOMERPN" x="66.04" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="66.04" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="66.04" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="66.04" y="132.08" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="P+17" gate="1" x="139.7" y="124.46" smashed="yes" rot="R180">
 <attribute name="VALUE" x="134.62" y="124.46" size="1.778" layer="96"/>
 </instance>
-<instance part="IC1" gate="A" x="91.44" y="139.7"/>
+<instance part="IC1" gate="A" x="91.44" y="139.7">
+<attribute name="CUSTOMERPN" x="91.44" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="91.44" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="91.44" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="91.44" y="139.7" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="IC1" gate="B" x="149.86" y="137.16" rot="MR180"/>
 <instance part="IC1" gate="C" x="48.26" y="63.5" rot="MR180"/>
 <instance part="IC1" gate="D" x="60.96" y="25.4" rot="MR180"/>
 <instance part="R4" gate="G$1" x="116.84" y="139.7">
-<attribute name="CUSTOMER_PN" x="116.84" y="139.7" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="CUSTOMERPN" x="116.84" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="116.84" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="116.84" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="116.84" y="139.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R7" gate="G$1" x="132.08" y="139.7">
-<attribute name="CUSTOMER_PN" x="132.08" y="139.7" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="CUSTOMERPN" x="132.08" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="132.08" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="132.08" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="132.08" y="139.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R9" gate="G$1" x="124.46" y="147.32" rot="R270">
-<attribute name="CUSTOMER_PN" x="124.46" y="147.32" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="CUSTOMERPN" x="124.46" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="124.46" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="124.46" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="124.46" y="147.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C16" gate="G$1" x="124.46" y="132.08">
-<attribute name="CUSTOMER_PN" x="124.46" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="124.46" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="124.46" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="124.46" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="124.46" y="132.08" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C18" gate="G$1" x="139.7" y="149.86">
-<attribute name="CUSTOMER_PN" x="139.7" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="139.7" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="139.7" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="139.7" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="139.7" y="149.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND23" gate="1" x="124.46" y="121.92"/>
-<instance part="IC2" gate="A" x="223.52" y="144.78"/>
+<instance part="IC2" gate="A" x="223.52" y="144.78">
+<attribute name="CUSTOMERPN" x="223.52" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="223.52" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="223.52" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="223.52" y="144.78" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="IC2" gate="B" x="157.48" y="68.58" rot="MR180"/>
 <instance part="IC2" gate="C" x="236.22" y="66.04" rot="MR180"/>
 <instance part="P+1" gate="1" x="172.72" y="144.78" smashed="yes">
 <attribute name="VALUE" x="177.8" y="144.78" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="Q1" gate="G$1" x="20.32" y="106.68"/>
+<instance part="Q1" gate="G$1" x="20.32" y="106.68">
+<attribute name="CUSTOMERPN" x="20.32" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="20.32" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="20.32" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="20.32" y="106.68" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="Q8" gate="G$1" x="27.94" y="114.3" smashed="yes">
 <attribute name="NAME" x="22.86" y="116.84" size="1.778" layer="95"/>
 <attribute name="VALUE" x="33.02" y="109.22" size="1.778" layer="96" rot="R90"/>
+<attribute name="CUSTOMERPN" x="27.94" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="27.94" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="27.94" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="27.94" y="114.3" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q9" gate="G$1" x="27.94" y="149.86" smashed="yes">
 <attribute name="NAME" x="22.86" y="152.4" size="1.778" layer="95"/>
 <attribute name="VALUE" x="33.02" y="144.78" size="1.778" layer="96" rot="R90"/>
+<attribute name="CUSTOMERPN" x="27.94" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="27.94" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="27.94" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="27.94" y="149.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="IC1" gate="P" x="147.32" y="109.22" rot="R90"/>
 <instance part="IC2" gate="P" x="210.82" y="109.22" rot="R90"/>
 <instance part="IC2" gate="D" x="172.72" y="35.56" rot="R180"/>
 <instance part="R14" gate="G$1" x="177.8" y="137.16" rot="R180">
-<attribute name="CUSTOMER_PN" x="177.8" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="CUSTOMERPN" x="177.8" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="177.8" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="177.8" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="177.8" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R15" gate="G$1" x="203.2" y="137.16" rot="R180">
-<attribute name="CUSTOMER_PN" x="203.2" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="CUSTOMERPN" x="203.2" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="203.2" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="203.2" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="203.2" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+11" gate="1" x="182.88" y="27.94" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="185.42" y="27.94" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="C19" gate="G$1" x="220.98" y="38.1" rot="R90">
-<attribute name="CUSTOMER_PN" x="220.98" y="38.1" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="CUSTOMERPN" x="220.98" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="220.98" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="220.98" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="220.98" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R16" gate="G$1" x="210.82" y="38.1" rot="MR0">
-<attribute name="CUSTOMER_PN" x="210.82" y="38.1" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="CUSTOMERPN" x="210.82" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="210.82" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="210.82" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="210.82" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C24" gate="G$1" x="190.5" y="38.1" smashed="yes" rot="MR270">
-<attribute name="CUSTOMER_PN" x="190.5" y="38.1" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="NAME" x="191.516" y="42.545" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="183.896" y="34.671" size="1.778" layer="96" rot="MR180"/>
+<attribute name="CUSTOMERPN" x="190.5" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="190.5" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="190.5" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="190.5" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C29" gate="G$1" x="190.5" y="53.34" smashed="yes" rot="MR270">
-<attribute name="CUSTOMER_PN" x="190.5" y="53.34" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="NAME" x="188.976" y="57.785" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="188.976" y="49.911" size="1.778" layer="96" rot="MR180"/>
+<attribute name="CUSTOMERPN" x="190.5" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="190.5" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="190.5" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="190.5" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R20" gate="G$1" x="182.88" y="45.72" smashed="yes" rot="MR270">
-<attribute name="CUSTOMER_PN" x="182.88" y="45.72" size="1.778" layer="96" rot="MR90" display="off"/>
 <attribute name="NAME" x="186.4614" y="49.53" size="1.778" layer="95" rot="MR270"/>
 <attribute name="VALUE" x="181.102" y="52.07" size="1.778" layer="96" rot="MR270"/>
+<attribute name="CUSTOMERPN" x="182.88" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="182.88" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="182.88" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="182.88" y="45.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R49" gate="G$1" x="198.12" y="33.02" smashed="yes" rot="R90">
-<attribute name="CUSTOMER_PN" x="198.12" y="33.02" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="NAME" x="196.6214" y="26.67" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="199.898" y="39.37" size="1.778" layer="96" rot="R270"/>
+<attribute name="CUSTOMERPN" x="198.12" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="198.12" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="198.12" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="198.12" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R50" gate="G$1" x="71.12" y="142.24" rot="R180">
-<attribute name="CUSTOMER_PN" x="71.12" y="142.24" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="CUSTOMERPN" x="71.12" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="71.12" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="71.12" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="71.12" y="142.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+18" gate="1" x="208.28" y="27.94" smashed="yes" rot="MR90">
 <attribute name="VALUE" x="205.74" y="33.02" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="P+19" gate="1" x="127" y="53.34" rot="R180"/>
 <instance part="P+20" gate="1" x="205.74" y="53.34" rot="R180"/>
-<instance part="D3" gate="G$1" x="48.26" y="121.92" rot="R180"/>
-<instance part="X3" gate="-1" x="45.72" y="134.62"/>
+<instance part="D3" gate="G$1" x="48.26" y="121.92" rot="R180">
+<attribute name="CUSTOMERPN" x="48.26" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="48.26" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="48.26" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="48.26" y="121.92" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="X3" gate="-1" x="45.72" y="134.62">
+<attribute name="CUSTOMERPN" x="45.72" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="45.72" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="45.72" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="45.72" y="134.62" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="X3" gate="-2" x="45.72" y="132.08"/>
 </instances>
 <busses>
@@ -7969,7 +8773,7 @@ PSK: Q=5 / Fc=71.8k</text>
 <sheet>
 <plain>
 <text x="231.14" y="20.32" size="2.54" layer="94">RFiD</text>
-<text x="226.06" y="10.16" size="2.54" layer="94">02/08/2013</text>
+<text x="226.06" y="10.16" size="2.54" layer="94">19/09/2013</text>
 <text x="228.854" y="15.24" size="2.54" layer="94">MIFARE</text>
 <text x="157.48" y="116.84" size="1.4224" layer="91" rot="R180">16V</text>
 <text x="177.8" y="116.84" size="1.4224" layer="91" rot="R180">16V</text>
@@ -7986,34 +8790,55 @@ PSK: Q=5 / Fc=71.8k</text>
 <text x="93.98" y="33.02" size="1.4224" layer="91" rot="R180">16V</text>
 <text x="208.28" y="160.02" size="1.4224" layer="91" rot="R180">16V</text>
 <text x="220.98" y="160.02" size="1.4224" layer="91" rot="R180">16V</text>
-<text x="243.84" y="5.08" size="2.54" layer="94">Rev. B</text>
+<text x="243.84" y="5.08" size="2.54" layer="94">Rev. C</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0"/>
 <instance part="U4" gate="PWR" x="218.44" y="132.08">
-<attribute name="CUSTOMER_PN" x="218.44" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="218.44" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="218.44" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="218.44" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="218.44" y="132.08" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U4" gate="B" x="66.04" y="48.26"/>
 <instance part="U4" gate="A" x="83.82" y="137.16" rot="MR0"/>
 <instance part="GND36" gate="1" x="246.38" y="116.84"/>
 <instance part="GND37" gate="1" x="198.12" y="114.3"/>
 <instance part="L1" gate="G$1" x="160.02" y="149.86">
-<attribute name="CUSTOMER_PN" x="160.02" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="160.02" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="160.02" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="160.02" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="160.02" y="149.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="L3" gate="G$1" x="160.02" y="121.92">
-<attribute name="CUSTOMER_PN" x="160.02" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="160.02" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="160.02" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="160.02" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="160.02" y="121.92" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C10" gate="G$1" x="170.18" y="116.84">
-<attribute name="CUSTOMER_PN" x="170.18" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="170.18" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="170.18" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="170.18" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="170.18" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C11" gate="G$1" x="170.18" y="144.78">
-<attribute name="CUSTOMER_PN" x="170.18" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="170.18" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="170.18" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="170.18" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="170.18" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C30" gate="G$1" x="149.86" y="144.78">
-<attribute name="CUSTOMER_PN" x="149.86" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="149.86" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="149.86" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="149.86" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="149.86" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C31" gate="G$1" x="149.86" y="116.84">
-<attribute name="CUSTOMER_PN" x="149.86" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="149.86" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="149.86" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="149.86" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="149.86" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V6" gate="G$1" x="142.24" y="154.94"/>
 <instance part="+3V7" gate="G$1" x="142.24" y="127"/>
@@ -8022,22 +8847,34 @@ PSK: Q=5 / Fc=71.8k</text>
 <instance part="GND40" gate="1" x="170.18" y="106.68"/>
 <instance part="GND41" gate="1" x="149.86" y="106.68"/>
 <instance part="C32" gate="G$1" x="200.66" y="160.02">
-<attribute name="CUSTOMER_PN" x="200.66" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="200.66" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="200.66" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="200.66" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="200.66" y="160.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C33" gate="G$1" x="213.36" y="160.02">
-<attribute name="CUSTOMER_PN" x="213.36" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="213.36" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="213.36" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="213.36" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="213.36" y="160.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND42" gate="1" x="200.66" y="152.4"/>
 <instance part="GND43" gate="1" x="213.36" y="152.4"/>
 <instance part="C5" gate="G$1" x="38.1" y="149.86" smashed="yes" rot="R270">
 <attribute name="NAME" x="33.528" y="153.035" size="1.778" layer="95"/>
 <attribute name="VALUE" x="34.544" y="145.161" size="1.778" layer="96"/>
-<attribute name="CUSTOMER_PN" x="38.1" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="38.1" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="38.1" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="38.1" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="38.1" y="149.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C9" gate="G$1" x="38.1" y="124.46" smashed="yes" rot="R270">
 <attribute name="NAME" x="34.036" y="127.635" size="1.778" layer="95"/>
 <attribute name="VALUE" x="33.782" y="118.999" size="1.778" layer="96"/>
-<attribute name="CUSTOMER_PN" x="38.1" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="38.1" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="38.1" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="38.1" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="38.1" y="124.46" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND13" gate="1" x="53.34" y="137.16" rot="R90"/>
 <instance part="GND14" gate="1" x="25.4" y="137.16" rot="R270"/>
@@ -8047,64 +8884,121 @@ PSK: Q=5 / Fc=71.8k</text>
 <instance part="GND15" gate="1" x="40.64" y="58.42" rot="R270"/>
 <instance part="GND44" gate="1" x="40.64" y="43.18" rot="R270"/>
 <instance part="C34" gate="G$1" x="182.88" y="71.12">
-<attribute name="CUSTOMER_PN" x="182.88" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="182.88" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="182.88" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="182.88" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="182.88" y="71.12" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C35" gate="G$1" x="182.88" y="58.42">
-<attribute name="CUSTOMER_PN" x="182.88" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="182.88" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="182.88" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="182.88" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="182.88" y="58.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C36" gate="G$1" x="198.12" y="78.74" rot="R270">
-<attribute name="CUSTOMER_PN" x="198.12" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="198.12" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="198.12" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="198.12" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="198.12" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C37" gate="G$1" x="198.12" y="48.26" rot="R270">
-<attribute name="CUSTOMER_PN" x="198.12" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="198.12" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="198.12" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="198.12" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="198.12" y="48.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C38" gate="G$1" x="210.82" y="58.42">
-<attribute name="CUSTOMER_PN" x="210.82" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="210.82" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="210.82" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="210.82" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="210.82" y="58.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C39" gate="G$1" x="210.82" y="71.12">
-<attribute name="CUSTOMER_PN" x="210.82" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="210.82" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="210.82" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="210.82" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="210.82" y="71.12" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="L5" gate="G$1" x="172.72" y="48.26">
-<attribute name="CUSTOMER_PN" x="172.72" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="172.72" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="172.72" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="172.72" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="172.72" y="48.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="L4" gate="G$1" x="172.72" y="78.74">
-<attribute name="CUSTOMER_PN" x="172.72" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="172.72" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="172.72" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="172.72" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="172.72" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R24" gate="G$1" x="223.52" y="78.74">
-<attribute name="CUSTOMER_PN" x="223.52" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="223.52" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="223.52" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="223.52" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="223.52" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R25" gate="G$1" x="223.52" y="48.26">
-<attribute name="CUSTOMER_PN" x="223.52" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="223.52" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="223.52" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="223.52" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="223.52" y="48.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND45" gate="1" x="198.12" y="60.96"/>
 <instance part="R1" gate="G$1" x="88.9" y="68.58" rot="R90">
-<attribute name="CUSTOMER_PN" x="88.9" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="88.9" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="88.9" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="88.9" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="88.9" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V9" gate="G$1" x="88.9" y="81.28"/>
 <instance part="+3V8" gate="G$1" x="193.04" y="170.18"/>
 <instance part="R2" gate="G$1" x="20.32" y="48.26" rot="R90">
-<attribute name="CUSTOMER_PN" x="20.32" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="20.32" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="20.32" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="20.32" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="20.32" y="48.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V10" gate="G$1" x="20.32" y="60.96"/>
 <instance part="R26" gate="G$1" x="175.26" y="35.56" rot="R180">
-<attribute name="CUSTOMER_PN" x="175.26" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="175.26" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="175.26" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="175.26" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="175.26" y="35.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C40" gate="G$1" x="165.1" y="35.56" rot="R270">
-<attribute name="CUSTOMER_PN" x="165.1" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="165.1" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="165.1" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="165.1" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="165.1" y="35.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R27" gate="G$1" x="93.98" y="38.1" rot="R180">
-<attribute name="CUSTOMER_PN" x="93.98" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="93.98" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="93.98" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="93.98" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="93.98" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C41" gate="G$1" x="86.36" y="33.02">
-<attribute name="CUSTOMER_PN" x="86.36" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="86.36" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="86.36" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="86.36" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="86.36" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND46" gate="1" x="86.36" y="22.86"/>
 <instance part="+3V17" gate="G$1" x="241.3" y="152.4"/>
-<instance part="X1" gate="-1" x="243.84" y="66.04"/>
+<instance part="X1" gate="-1" x="243.84" y="66.04">
+<attribute name="CUSTOMERPN" x="243.84" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="243.84" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="243.84" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="243.84" y="66.04" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="X1" gate="-2" x="243.84" y="63.5"/>
-<instance part="Y1" gate="G$1" x="43.18" y="137.16" smashed="yes" rot="R90">
+<instance part="QZ2" gate="G$1" x="43.18" y="137.16" smashed="yes" rot="R90">
 <attribute name="NAME" x="41.656" y="141.732" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="56.388" y="133.604" size="1.778" layer="96" rot="R180"/>
+<attribute name="CUSTOMERPN" x="43.18" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="43.18" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="43.18" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="43.18" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -8218,12 +9112,12 @@ PSK: Q=5 / Fc=71.8k</text>
 <pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="33.02" y1="124.46" x2="30.48" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="124.46" x2="30.48" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="Y1" gate="G$1" pin="GND@2"/>
+<pinref part="QZ2" gate="G$1" pin="GND@2"/>
 </segment>
 <segment>
 <pinref part="GND13" gate="1" pin="GND"/>
 <wire x1="50.8" y1="137.16" x2="48.26" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="Y1" gate="G$1" pin="GND@1"/>
+<pinref part="QZ2" gate="G$1" pin="GND@1"/>
 </segment>
 <segment>
 <pinref part="U4" gate="B" pin="EA"/>
@@ -8324,7 +9218,7 @@ PSK: Q=5 / Fc=71.8k</text>
 <junction x="43.18" y="144.78"/>
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="43.18" y1="149.86" x2="40.64" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="Y1" gate="G$1" pin="2"/>
+<pinref part="QZ2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -8338,7 +9232,7 @@ PSK: Q=5 / Fc=71.8k</text>
 <wire x1="40.64" y1="124.46" x2="43.18" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="124.46" x2="43.18" y2="129.54" width="0.1524" layer="91"/>
 <junction x="43.18" y="129.54"/>
-<pinref part="Y1" gate="G$1" pin="1"/>
+<pinref part="QZ2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="MIFARE-RST" class="0">
@@ -8500,7 +9394,7 @@ PSK: Q=5 / Fc=71.8k</text>
 <sheet>
 <plain>
 <text x="231.14" y="20.32" size="2.54" layer="94">RFiD</text>
-<text x="226.06" y="10.16" size="2.54" layer="94">02/08/2013</text>
+<text x="226.06" y="10.16" size="2.54" layer="94">19/09/2013</text>
 <text x="220.98" y="15.24" size="2.54" layer="94">Entradas/Saidas</text>
 <text x="99.822" y="86.36" size="3.81" layer="91" ratio="10">Conexoes de Saida</text>
 <wire x1="161.29" y1="94.742" x2="161.29" y2="175.26" width="0.3048" layer="94"/>
@@ -8511,36 +9405,57 @@ PSK: Q=5 / Fc=71.8k</text>
 <wire x1="67.31" y1="94.742" x2="67.31" y2="175.26" width="0.3048" layer="94"/>
 <text x="22.86" y="167.64" size="3.81" layer="91" ratio="10">Buzzer</text>
 <wire x1="256.54" y1="94.742" x2="161.29" y2="94.742" width="0.3048" layer="94"/>
-<text x="243.84" y="5.08" size="2.54" layer="94">Rev. B</text>
+<text x="243.84" y="5.08" size="2.54" layer="94">Rev. C</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="G$1" x="0" y="0"/>
 <instance part="VCC" gate="G$1" x="248.92" y="144.78" rot="MR0">
-<attribute name="CUSTOMER_PN" x="248.92" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="248.92" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="248.92" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="248.92" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="248.92" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND" gate="G$1" x="248.92" y="114.3" rot="MR0">
-<attribute name="CUSTOMER_PN" x="248.92" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="248.92" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="248.92" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="248.92" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="248.92" y="114.3" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="LED-IN" gate="G$1" x="172.72" y="144.78">
-<attribute name="CUSTOMER_PN" x="172.72" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="172.72" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="172.72" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="172.72" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="172.72" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="MODE" gate="G$1" x="172.72" y="114.3" smashed="yes">
 <attribute name="NAME" x="170.18" y="117.602" size="1.778" layer="95"/>
 <attribute name="VALUE" x="165.1" y="109.22" size="1.778" layer="96"/>
-<attribute name="CUSTOMER_PN" x="172.72" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="172.72" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="172.72" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="172.72" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="172.72" y="114.3" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D0/TX/CLK" gate="G$1" x="76.2" y="55.88" smashed="yes" rot="MR0">
 <attribute name="NAME" x="78.74" y="59.182" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="78.74" y="50.8" size="1.778" layer="96" rot="MR0"/>
-<attribute name="CUSTOMER_PN" x="76.2" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="76.2" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="76.2" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="76.2" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="76.2" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D1/DATA" gate="G$1" x="162.56" y="38.1" rot="MR0">
-<attribute name="CUSTOMER_PN" x="162.56" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="162.56" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="162.56" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="162.56" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="162.56" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="CARDPRS" gate="G$1" x="243.84" y="53.34" smashed="yes" rot="MR0">
 <attribute name="NAME" x="245.618" y="48.26" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="251.46" y="56.642" size="1.778" layer="96" rot="MR0"/>
-<attribute name="CUSTOMER_PN" x="243.84" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="243.84" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="243.84" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="243.84" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="243.84" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+6" gate="G$1" x="241.3" y="152.4"/>
 <instance part="GND11" gate="1" x="241.3" y="106.68"/>
@@ -8548,101 +9463,178 @@ PSK: Q=5 / Fc=71.8k</text>
 <instance part="GND50" gate="1" x="127" y="22.86"/>
 <instance part="GND51" gate="1" x="213.36" y="38.1"/>
 <instance part="R29" gate="G$1" x="40.64" y="63.5" rot="R90">
-<attribute name="CUSTOMER_PN" x="40.64" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="40.64" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="40.64" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="40.64" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="40.64" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R30" gate="G$1" x="127" y="45.72" rot="R90">
-<attribute name="CUSTOMER_PN" x="127" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="127" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="127" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="127" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="127" y="45.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R31" gate="G$1" x="213.36" y="60.96" rot="R90">
-<attribute name="CUSTOMER_PN" x="213.36" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="213.36" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="213.36" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="213.36" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="213.36" y="60.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY3" gate="+5V" x="40.64" y="73.66"/>
 <instance part="SUPPLY5" gate="+5V" x="127" y="55.88"/>
 <instance part="SUPPLY6" gate="+5V" x="213.36" y="71.12"/>
 <instance part="R32" gate="G$1" x="27.94" y="55.88" rot="R90">
-<attribute name="CUSTOMER_PN" x="27.94" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="27.94" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="27.94" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="27.94" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="27.94" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R33" gate="G$1" x="114.3" y="38.1" rot="R90">
-<attribute name="CUSTOMER_PN" x="114.3" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="114.3" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="114.3" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="114.3" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="114.3" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R34" gate="G$1" x="200.66" y="53.34" rot="R90">
-<attribute name="CUSTOMER_PN" x="200.66" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="200.66" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="200.66" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="200.66" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="200.66" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q5" gate="G$1" x="38.1" y="50.8" smashed="yes">
 <attribute name="NAME" x="43.18" y="50.8" size="1.778" layer="95"/>
 <attribute name="VALUE" x="43.18" y="48.26" size="1.778" layer="96"/>
-<attribute name="CUSTOMER_PN" x="38.1" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="38.1" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="38.1" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="38.1" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="38.1" y="50.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q6" gate="G$1" x="124.46" y="33.02" smashed="yes">
 <attribute name="NAME" x="129.54" y="33.02" size="1.778" layer="95"/>
 <attribute name="VALUE" x="129.54" y="30.48" size="1.778" layer="96"/>
-<attribute name="CUSTOMER_PN" x="124.46" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="124.46" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="124.46" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="124.46" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="124.46" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q7" gate="G$1" x="210.82" y="48.26" smashed="yes">
 <attribute name="NAME" x="215.9" y="48.26" size="1.778" layer="95"/>
 <attribute name="VALUE" x="215.9" y="45.72" size="1.778" layer="96"/>
-<attribute name="CUSTOMER_PN" x="210.82" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="210.82" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="210.82" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="210.82" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="210.82" y="48.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R35" gate="G$1" x="55.88" y="55.88" rot="R180">
-<attribute name="CUSTOMER_PN" x="55.88" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="55.88" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="55.88" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="55.88" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="55.88" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R36" gate="G$1" x="142.24" y="38.1" rot="R180">
-<attribute name="CUSTOMER_PN" x="142.24" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="142.24" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="142.24" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="142.24" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="142.24" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R37" gate="G$1" x="226.06" y="53.34" rot="R180">
-<attribute name="CUSTOMER_PN" x="226.06" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="226.06" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="226.06" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="226.06" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="226.06" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R28" gate="G$1" x="195.58" y="144.78" rot="R180">
-<attribute name="CUSTOMER_PN" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R38" gate="G$1" x="195.58" y="114.3" rot="R180">
-<attribute name="CUSTOMER_PN" x="195.58" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="195.58" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="195.58" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="195.58" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="195.58" y="114.3" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R39" gate="G$1" x="185.42" y="121.92" rot="R270">
-<attribute name="CUSTOMER_PN" x="185.42" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="185.42" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="185.42" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="185.42" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="185.42" y="121.92" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R40" gate="G$1" x="185.42" y="152.4" rot="R270">
-<attribute name="CUSTOMER_PN" x="185.42" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="185.42" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="185.42" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="185.42" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="185.42" y="152.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V12" gate="G$1" x="185.42" y="162.56"/>
 <instance part="+3V13" gate="G$1" x="185.42" y="132.08"/>
 <instance part="R41" gate="G$1" x="101.6" y="137.16" smashed="yes" rot="R270">
 <attribute name="NAME" x="95.4786" y="140.97" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="98.298" y="140.97" size="1.778" layer="96" rot="R270"/>
-<attribute name="CUSTOMER_PN" x="101.6" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="101.6" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="101.6" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="101.6" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="101.6" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R42" gate="G$1" x="111.76" y="137.16" smashed="yes" rot="R90">
 <attribute name="NAME" x="117.8814" y="135.89" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="115.062" y="135.89" size="1.778" layer="96" rot="R90"/>
-<attribute name="CUSTOMER_PN" x="111.76" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="111.76" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="111.76" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="111.76" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="111.76" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="SG1" gate="1" x="48.26" y="142.24" rot="R270">
-<attribute name="CUSTOMER_PN" x="48.26" y="142.24" size="1.778" layer="96" display="off"/>
+<instance part="BZ1" gate="1" x="48.26" y="142.24" rot="R270">
+<attribute name="CUSTOMERPN" x="48.26" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="48.26" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="48.26" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="48.26" y="142.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q4" gate="G$1" x="33.02" y="121.92" smashed="yes">
 <attribute name="NAME" x="38.1" y="121.92" size="1.778" layer="95"/>
 <attribute name="VALUE" x="38.1" y="119.38" size="1.778" layer="96"/>
-<attribute name="CUSTOMER_PN" x="33.02" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="33.02" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="33.02" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="33.02" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="33.02" y="121.92" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND48" gate="1" x="35.56" y="106.68"/>
 <instance part="R43" gate="G$1" x="25.4" y="127" rot="R90">
-<attribute name="CUSTOMER_PN" x="25.4" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="25.4" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="25.4" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="25.4" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="25.4" y="127" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R44" gate="G$1" x="35.56" y="139.7" rot="R90">
-<attribute name="CUSTOMER_PN" x="35.56" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="35.56" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="35.56" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="35.56" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="35.56" y="139.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D5" gate="G$1" x="208.28" y="157.48" rot="R180">
-<attribute name="CUSTOMER_PN" x="208.28" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="208.28" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="208.28" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="208.28" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="208.28" y="157.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D6" gate="G$1" x="208.28" y="127" rot="R180">
-<attribute name="CUSTOMER_PN" x="208.28" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="CUSTOMERPN" x="208.28" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="208.28" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="208.28" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="208.28" y="127" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND54" gate="1" x="218.44" y="121.92"/>
 <instance part="GND55" gate="1" x="218.44" y="152.4"/>
 <instance part="+3V18" gate="G$1" x="198.12" y="162.56"/>
 <instance part="+3V19" gate="G$1" x="198.12" y="132.08"/>
 <instance part="P+16" gate="1" x="35.56" y="154.94"/>
-<instance part="LED2" gate="G$1" x="109.22" y="124.46"/>
+<instance part="LED1" gate="G$1" x="109.22" y="124.46">
+<attribute name="CUSTOMERPN" x="109.22" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="109.22" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="109.22" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="109.22" y="124.46" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND19" gate="1" x="106.68" y="114.3"/>
 </instances>
 <busses>
@@ -8696,7 +9688,7 @@ PSK: Q=5 / Fc=71.8k</text>
 <wire x1="218.44" y1="127" x2="218.44" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="LED2" gate="G$1" pin="COMMON"/>
+<pinref part="LED1" gate="G$1" pin="COMMON"/>
 <pinref part="GND19" gate="1" pin="GND"/>
 <wire x1="106.68" y1="116.84" x2="106.68" y2="119.38" width="0.1524" layer="91"/>
 </segment>
@@ -8833,7 +9825,7 @@ PSK: Q=5 / Fc=71.8k</text>
 <pinref part="Q4" gate="G$1" pin="C"/>
 <pinref part="R44" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="127" x2="35.56" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="SG1" gate="1" pin="-"/>
+<pinref part="BZ1" gate="1" pin="-"/>
 <wire x1="35.56" y1="132.08" x2="35.56" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="137.16" x2="45.72" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="132.08" x2="35.56" y2="132.08" width="0.1524" layer="91"/>
@@ -8923,14 +9915,14 @@ PSK: Q=5 / Fc=71.8k</text>
 </net>
 <net name="N$52" class="0">
 <segment>
-<pinref part="LED2" gate="G$1" pin="ANODE_RED"/>
+<pinref part="LED1" gate="G$1" pin="ANODE_RED"/>
 <pinref part="R41" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="129.54" x2="101.6" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$53" class="0">
 <segment>
-<pinref part="LED2" gate="G$1" pin="ANODE_GRN"/>
+<pinref part="LED1" gate="G$1" pin="ANODE_GRN"/>
 <pinref part="R42" gate="G$1" pin="1"/>
 <wire x1="111.76" y1="129.54" x2="111.76" y2="132.08" width="0.1524" layer="91"/>
 </segment>
@@ -8939,7 +9931,7 @@ PSK: Q=5 / Fc=71.8k</text>
 <segment>
 <pinref part="R44" gate="G$1" pin="2"/>
 <wire x1="35.56" y1="144.78" x2="35.56" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="SG1" gate="1" pin="+"/>
+<pinref part="BZ1" gate="1" pin="+"/>
 <wire x1="45.72" y1="144.78" x2="45.72" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="147.32" x2="35.56" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="147.32" x2="35.56" y2="152.4" width="0.1524" layer="91"/>

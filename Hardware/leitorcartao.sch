@@ -5989,7 +5989,7 @@ Source: www.vanlong.com</description>
 <part name="LED-IN" library="RFiD" deviceset="PTHPAD" device="" value="LED">
 <attribute name="CUSTOMER_PN" value="-"/>
 </part>
-<part name="MODE-SEL" library="RFiD" deviceset="PTHPAD" device="" value="MODESELECT">
+<part name="MODE" library="RFiD" deviceset="PTHPAD" device="" value="MODESELECT">
 <attribute name="CUSTOMER_PN" value="-"/>
 </part>
 <part name="D0/TX/CLK" library="RFiD" deviceset="PTHPAD" device="" value="D0/CLK/TX">
@@ -6614,25 +6614,26 @@ Source: www.vanlong.com</description>
 <text x="193.04" y="167.64" size="3.81" layer="91" ratio="10">Alimentacao</text>
 <text x="215.9" y="81.28" size="3.81" layer="91" ratio="10">Debug/Prog</text>
 <text x="190.5" y="119.38" size="1.4224" layer="91" rot="R180">16V</text>
-<text x="66.04" y="124.46" size="1.778" layer="91">GPIO de PSK</text>
+<text x="60.96" y="124.46" size="1.778" layer="91">GPIO de PSK</text>
 <text x="60.96" y="96.52" size="1.778" layer="91">Entrada Mode Select</text>
-<text x="66.04" y="127" size="1.778" layer="91">Clock de 125kHz para antena</text>
+<text x="60.96" y="109.22" size="1.778" layer="91">Clock de 125kHz para antena (TC1)</text>
 <text x="60.96" y="104.14" size="1.778" layer="91">Saida Wiegand D1 / ABATK2-DATA</text>
-<text x="66.04" y="121.92" size="1.778" layer="91">GPIO do ASK/FSK</text>
-<text x="66.04" y="116.84" size="1.778" layer="91">Controle LED Red</text>
-<text x="66.04" y="119.38" size="1.778" layer="91">Controle LED Green</text>
+<text x="60.96" y="127" size="1.778" layer="91">GPIO do ASK/FSK</text>
+<text x="60.96" y="121.92" size="1.778" layer="91">Controle LED Red</text>
+<text x="60.96" y="119.38" size="1.778" layer="91">Controle LED Green</text>
 <text x="60.96" y="106.68" size="1.778" layer="91">Saida Wiegand D0/ Saida SERIAL/ ABATK2-CLK</text>
 <text x="60.96" y="78.74" size="1.778" layer="91">MIFARE - I2C SCL</text>
 <text x="60.96" y="81.28" size="1.778" layer="91">MIFARE - I2C SDA</text>
 <text x="60.96" y="101.6" size="1.778" layer="91">Saida ABATK2 - Card Present</text>
 <text x="60.96" y="99.06" size="1.778" layer="91">Entrada de controle do LED</text>
 <text x="243.84" y="5.08" size="2.54" layer="94">Rev. B</text>
-<text x="66.04" y="114.3" size="1.778" layer="91">PSK - Para uso com Analog Comparator</text>
+<text x="60.96" y="114.3" size="1.778" layer="91">PSK - Para uso com Analog Comparator</text>
 <text x="60.96" y="73.66" size="1.778" layer="91">Buzzer PWM</text>
 <text x="60.96" y="91.44" size="1.778" layer="91">MIFARE - Reset Control</text>
 <text x="170.18" y="81.28" size="3.81" layer="91" ratio="10">Crystal</text>
 <wire x1="201.93" y1="90.17" x2="256.286" y2="90.17" width="0.6096" layer="94"/>
 <wire x1="201.93" y1="24.13" x2="201.93" y2="90.17" width="0.6096" layer="94"/>
+<text x="60.96" y="88.9" size="1.778" layer="91">Entrada de Mode Select e Buzzer</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
@@ -6761,22 +6762,22 @@ Source: www.vanlong.com</description>
 <net name="MIFARE-RST" class="0">
 <segment>
 <pinref part="U1" gate="IO" pin="PA16"/>
-<wire x1="33.02" y1="91.44" x2="58.42" y2="91.44" width="0.1524" layer="91"/>
-<label x="40.64" y="91.44" size="1.778" layer="95"/>
+<wire x1="33.02" y1="91.44" x2="55.88" y2="91.44" width="0.1524" layer="91"/>
+<label x="38.1" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CARD-PRES" class="0">
 <segment>
 <pinref part="U1" gate="IO" pin="PA10"/>
-<wire x1="33.02" y1="101.6" x2="58.42" y2="101.6" width="0.1524" layer="91"/>
-<label x="40.64" y="101.6" size="1.778" layer="95"/>
+<wire x1="33.02" y1="101.6" x2="55.88" y2="101.6" width="0.1524" layer="91"/>
+<label x="38.1" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LED-INPUT" class="0">
 <segment>
 <pinref part="U1" gate="IO" pin="PA11"/>
-<wire x1="33.02" y1="99.06" x2="58.42" y2="99.06" width="0.1524" layer="91"/>
-<label x="40.64" y="99.06" size="1.778" layer="95"/>
+<wire x1="33.02" y1="99.06" x2="55.88" y2="99.06" width="0.1524" layer="91"/>
+<label x="38.1" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$47" class="0">
@@ -6818,76 +6819,62 @@ Source: www.vanlong.com</description>
 <net name="D0/TX/CLK" class="0">
 <segment>
 <pinref part="U1" gate="IO" pin="PA8"/>
-<wire x1="33.02" y1="106.68" x2="58.42" y2="106.68" width="0.1524" layer="91"/>
-<label x="40.64" y="106.68" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="125KHZ-ANTENA" class="0">
-<segment>
-<pinref part="U1" gate="IO" pin="PA0"/>
-<wire x1="33.02" y1="127" x2="63.5" y2="127" width="0.1524" layer="91"/>
-<label x="40.64" y="127" size="1.778" layer="95"/>
+<wire x1="33.02" y1="106.68" x2="55.88" y2="106.68" width="0.1524" layer="91"/>
+<label x="38.1" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D1/DATA" class="0">
 <segment>
 <pinref part="U1" gate="IO" pin="PA9"/>
-<wire x1="33.02" y1="104.14" x2="58.42" y2="104.14" width="0.1524" layer="91"/>
-<label x="40.64" y="104.14" size="1.778" layer="95"/>
+<wire x1="33.02" y1="104.14" x2="55.88" y2="104.14" width="0.1524" layer="91"/>
+<label x="38.1" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PSK" class="0">
+<net name="FSK-PSK" class="0">
 <segment>
 <pinref part="U1" gate="IO" pin="PA1"/>
-<wire x1="33.02" y1="124.46" x2="63.5" y2="124.46" width="0.1524" layer="91"/>
-<label x="40.64" y="124.46" size="1.778" layer="95"/>
+<wire x1="33.02" y1="124.46" x2="55.88" y2="124.46" width="0.1524" layer="91"/>
+<label x="38.1" y="124.46" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U1" gate="IO" pin="PA5"/>
-<wire x1="33.02" y1="114.3" x2="63.5" y2="114.3" width="0.1524" layer="91"/>
-<label x="40.64" y="114.3" size="1.778" layer="95"/>
+<wire x1="33.02" y1="114.3" x2="55.88" y2="114.3" width="0.1524" layer="91"/>
+<label x="38.1" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LED-RED-CTRL" class="0">
 <segment>
-<pinref part="U1" gate="IO" pin="PA3"/>
-<wire x1="33.02" y1="119.38" x2="63.5" y2="119.38" width="0.1524" layer="91"/>
-<label x="40.64" y="119.38" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ASK-FSK" class="0">
-<segment>
 <pinref part="U1" gate="IO" pin="PA2"/>
-<wire x1="33.02" y1="121.92" x2="63.5" y2="121.92" width="0.1524" layer="91"/>
-<label x="40.64" y="121.92" size="1.778" layer="95"/>
+<wire x1="33.02" y1="121.92" x2="55.88" y2="121.92" width="0.1524" layer="91"/>
+<label x="38.1" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BUZZER" class="0">
 <segment>
 <pinref part="U1" gate="IO" pin="PA25"/>
-<wire x1="33.02" y1="73.66" x2="58.42" y2="73.66" width="0.1524" layer="91"/>
-<label x="40.64" y="73.66" size="1.778" layer="95"/>
+<wire x1="33.02" y1="73.66" x2="55.88" y2="73.66" width="0.1524" layer="91"/>
+<label x="38.1" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="LED-GREEN-CTRL" class="0">
+<net name="LED-GRN-CTRL" class="0">
 <segment>
-<pinref part="U1" gate="IO" pin="PA4"/>
-<wire x1="33.02" y1="116.84" x2="63.5" y2="116.84" width="0.1524" layer="91"/>
-<label x="40.64" y="116.84" size="1.778" layer="95"/>
+<pinref part="U1" gate="IO" pin="PA3"/>
+<wire x1="33.02" y1="119.38" x2="55.88" y2="119.38" width="0.1524" layer="91"/>
+<label x="38.1" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MIFARE-SDA" class="0">
 <segment>
-<wire x1="33.02" y1="81.28" x2="58.42" y2="81.28" width="0.1524" layer="91"/>
-<label x="40.64" y="81.28" size="1.778" layer="95"/>
+<wire x1="33.02" y1="81.28" x2="55.88" y2="81.28" width="0.1524" layer="91"/>
+<label x="38.1" y="81.28" size="1.778" layer="95"/>
 <pinref part="U1" gate="IO" pin="PA22"/>
 </segment>
 </net>
 <net name="MIFARE-SCL" class="0">
 <segment>
 <pinref part="U1" gate="IO" pin="PA23"/>
-<wire x1="33.02" y1="78.74" x2="58.42" y2="78.74" width="0.1524" layer="91"/>
-<label x="40.64" y="78.74" size="1.778" layer="95"/>
+<wire x1="33.02" y1="78.74" x2="55.88" y2="78.74" width="0.1524" layer="91"/>
+<label x="38.1" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="XIN" class="0">
@@ -6903,8 +6890,8 @@ Source: www.vanlong.com</description>
 </segment>
 <segment>
 <pinref part="U1" gate="IO" pin="PA14"/>
-<wire x1="33.02" y1="96.52" x2="58.42" y2="96.52" width="0.1524" layer="91"/>
-<label x="40.64" y="96.52" size="1.778" layer="95"/>
+<wire x1="33.02" y1="96.52" x2="55.88" y2="96.52" width="0.1524" layer="91"/>
+<label x="38.1" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="XOUT" class="0">
@@ -6920,8 +6907,29 @@ Source: www.vanlong.com</description>
 </segment>
 <segment>
 <pinref part="U1" gate="IO" pin="PA15"/>
-<wire x1="33.02" y1="93.98" x2="58.42" y2="93.98" width="0.1524" layer="91"/>
-<label x="40.64" y="93.98" size="1.778" layer="95"/>
+<wire x1="33.02" y1="93.98" x2="55.88" y2="93.98" width="0.1524" layer="91"/>
+<label x="38.1" y="93.98" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="125KHZ" class="0">
+<segment>
+<pinref part="U1" gate="IO" pin="PA7"/>
+<wire x1="33.02" y1="109.22" x2="55.88" y2="109.22" width="0.1524" layer="91"/>
+<label x="38.1" y="109.22" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ASK" class="0">
+<segment>
+<pinref part="U1" gate="IO" pin="PA0"/>
+<wire x1="33.02" y1="127" x2="55.88" y2="127" width="0.1524" layer="91"/>
+<label x="38.1" y="127" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USART-RX" class="0">
+<segment>
+<pinref part="U1" gate="IO" pin="PA17"/>
+<wire x1="33.02" y1="88.9" x2="55.88" y2="88.9" width="0.1524" layer="91"/>
+<label x="38.1" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -7032,8 +7040,10 @@ PSK: Q=5 / Fc=71.8k</text>
 <instance part="C25" gate="G$1" x="25.4" y="58.42">
 <attribute name="CUSTOMER_PN" x="25.4" y="58.42" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C26" gate="G$1" x="12.7" y="73.66" rot="R180">
-<attribute name="CUSTOMER_PN" x="12.7" y="73.66" size="1.778" layer="96" rot="R180" display="off"/>
+<instance part="C26" gate="G$1" x="10.16" y="73.66" smashed="yes" rot="R180">
+<attribute name="CUSTOMER_PN" x="10.16" y="73.66" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="NAME" x="9.144" y="78.105" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="19.304" y="77.851" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C27" gate="G$1" x="38.1" y="76.2">
 <attribute name="CUSTOMER_PN" x="38.1" y="76.2" size="1.778" layer="96" display="off"/>
@@ -7154,7 +7164,9 @@ PSK: Q=5 / Fc=71.8k</text>
 <instance part="C12" gate="G$1" x="38.1" y="111.76"/>
 <instance part="GND20" gate="1" x="38.1" y="99.06"/>
 <instance part="C15" gate="G$1" x="66.04" y="132.08" rot="R180"/>
-<instance part="P+17" gate="1" x="139.7" y="124.46" rot="R180"/>
+<instance part="P+17" gate="1" x="139.7" y="124.46" smashed="yes" rot="R180">
+<attribute name="VALUE" x="134.62" y="124.46" size="1.778" layer="96"/>
+</instance>
 <instance part="IC1" gate="A" x="91.44" y="139.7"/>
 <instance part="IC1" gate="B" x="149.86" y="137.16" rot="MR180"/>
 <instance part="IC1" gate="C" x="48.26" y="63.5" rot="MR180"/>
@@ -7358,13 +7370,6 @@ PSK: Q=5 / Fc=71.8k</text>
 <pinref part="Q1" gate="G$1" pin="S"/>
 </segment>
 </net>
-<net name="125KHZ-ANTENA" class="0">
-<segment>
-<pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="10.16" y1="114.3" x2="10.16" y2="144.78" width="0.1524" layer="91"/>
-<label x="7.62" y="144.78" size="1.778" layer="95" rot="R270"/>
-</segment>
-</net>
 <net name="N$9" class="0">
 <segment>
 <wire x1="43.18" y1="132.08" x2="38.1" y2="132.08" width="0.1524" layer="91"/>
@@ -7516,10 +7521,10 @@ PSK: Q=5 / Fc=71.8k</text>
 <junction x="48.26" y="27.94"/>
 </segment>
 </net>
-<net name="ASK-FSK" class="0">
+<net name="ASK" class="0">
 <segment>
-<wire x1="83.82" y1="25.4" x2="99.06" y2="25.4" width="0.1524" layer="91"/>
-<label x="99.06" y="25.4" size="1.778" layer="95" rot="MR0"/>
+<wire x1="83.82" y1="25.4" x2="91.44" y2="25.4" width="0.1524" layer="91"/>
+<label x="91.44" y="25.4" size="1.778" layer="95" rot="MR0"/>
 <pinref part="R45" gate="G$1" pin="2"/>
 <junction x="83.82" y="25.4"/>
 <pinref part="R59" gate="G$1" pin="2"/>
@@ -7584,7 +7589,7 @@ PSK: Q=5 / Fc=71.8k</text>
 <pinref part="IC2" gate="C" pin="-IN"/>
 </segment>
 </net>
-<net name="PSK" class="0">
+<net name="FSK-PSK" class="0">
 <segment>
 <pinref part="R60" gate="G$1" pin="2"/>
 <pinref part="R61" gate="G$1" pin="2"/>
@@ -7774,7 +7779,7 @@ PSK: Q=5 / Fc=71.8k</text>
 <junction x="139.7" y="139.7"/>
 </segment>
 </net>
-<net name="ASK" class="0">
+<net name="ASK-OUT" class="0">
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="124.46" y1="152.4" x2="124.46" y2="154.94" width="0.1524" layer="91"/>
@@ -7801,8 +7806,8 @@ PSK: Q=5 / Fc=71.8k</text>
 </segment>
 <segment>
 <pinref part="C26" gate="G$1" pin="2"/>
-<wire x1="12.7" y1="78.74" x2="12.7" y2="83.82" width="0.1524" layer="91"/>
-<label x="12.7" y="83.82" size="1.778" layer="95" xref="yes"/>
+<wire x1="10.16" y1="78.74" x2="10.16" y2="83.82" width="0.1524" layer="91"/>
+<label x="10.16" y="83.82" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -7832,7 +7837,8 @@ PSK: Q=5 / Fc=71.8k</text>
 <segment>
 <pinref part="R17" gate="G$1" pin="2"/>
 <pinref part="C26" gate="G$1" pin="1"/>
-<wire x1="12.7" y1="71.12" x2="12.7" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="71.12" x2="10.16" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="66.04" x2="12.7" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$22" class="0">
@@ -7949,6 +7955,13 @@ PSK: Q=5 / Fc=71.8k</text>
 <pinref part="IC1" gate="A" pin="+IN"/>
 <pinref part="R50" gate="G$1" pin="1"/>
 <wire x1="76.2" y1="142.24" x2="83.82" y2="142.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="125KHZ" class="0">
+<segment>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="10.16" y1="114.3" x2="10.16" y2="127" width="0.1524" layer="91"/>
+<label x="7.62" y="127" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 </nets>
@@ -8511,7 +8524,7 @@ PSK: Q=5 / Fc=71.8k</text>
 <instance part="LED-IN" gate="G$1" x="172.72" y="144.78">
 <attribute name="CUSTOMER_PN" x="172.72" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="MODE-SEL" gate="G$1" x="172.72" y="114.3" smashed="yes">
+<instance part="MODE" gate="G$1" x="172.72" y="114.3" smashed="yes">
 <attribute name="NAME" x="170.18" y="117.602" size="1.778" layer="95"/>
 <attribute name="VALUE" x="165.1" y="109.22" size="1.778" layer="96"/>
 <attribute name="CUSTOMER_PN" x="172.72" y="114.3" size="1.778" layer="96" display="off"/>
@@ -8854,7 +8867,7 @@ PSK: Q=5 / Fc=71.8k</text>
 </net>
 <net name="N$43" class="0">
 <segment>
-<pinref part="MODE-SEL" gate="G$1" pin="P$1"/>
+<pinref part="MODE" gate="G$1" pin="P$1"/>
 <pinref part="R38" gate="G$1" pin="2"/>
 <wire x1="177.8" y1="114.3" x2="185.42" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="R39" gate="G$1" pin="2"/>
@@ -8892,7 +8905,7 @@ PSK: Q=5 / Fc=71.8k</text>
 <label x="213.36" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="LED-GREEN-CTRL" class="0">
+<net name="LED-GRN-CTRL" class="0">
 <segment>
 <wire x1="101.6" y1="154.94" x2="134.62" y2="154.94" width="0.1524" layer="91"/>
 <label x="111.76" y="154.94" size="1.778" layer="95"/>

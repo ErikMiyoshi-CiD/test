@@ -5734,40 +5734,50 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="FRAME2" library="RFiD" deviceset="A4L-LOC" device=""/>
 <part name="FRAME3" library="RFiD" deviceset="A4L-LOC" device=""/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
-<part name="C2" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
+<part name="C16" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="C3" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
+<part name="C17" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="C6" library="RFiD" deviceset="C-US" device="C0603" value="4.7u">
-<attribute name="CUSTOMERPN" value="C/10u/36V/C06"/>
+<part name="C1" library="RFiD" deviceset="C-US" device="C0603" value="4.7u">
+<attribute name="CUSTOMERPN" value="C/4.7u/16V/C06"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="EMK107ABJ475KA-T"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
-<part name="C7" library="RFiD" deviceset="C-US" device="C0603" value="4.7u">
-<attribute name="CUSTOMERPN" value="C/10u/16V/C06"/>
+<part name="C4" library="RFiD" deviceset="C-US" device="C0603" value="4.7u">
+<attribute name="CUSTOMERPN" value="C/4.7u/16V/C06"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="EMK107ABJ475KA-T"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="D2" library="RFiD" deviceset="DIODE-" device="DO214AC">
 <attribute name="CUSTOMERPN" value="TVS/14V/SMA"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value="SMAJ14A"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
@@ -5777,119 +5787,153 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="+5V" device=""/>
-<part name="R3" library="RFiD" deviceset="R-US_" device="R0402" value="2.2k">
+<part name="R6" library="RFiD" deviceset="R-US_" device="R0402" value="2.2k">
 <attribute name="CUSTOMERPN" value="R/2.2k/5%/04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="RC0402JR-072K2L"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="R5" library="RFiD" deviceset="R-US_" device="R0402" value="1k">
-<attribute name="CUSTOMERPN" value="R/1k/5%/04"/>
+<part name="R4" library="RFiD" deviceset="R-US_" device="R0402" value="1k">
+<attribute name="CUSTOMERPN" value="R/1K/5%/04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="RC0402JR-071KL"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
-<part name="R6" library="RFiD" deviceset="R-US_" device="R1206" value="1M">
-<attribute name="CUSTOMERPN" value="R/1M/5%/04"/>
+<part name="R15" library="RFiD" deviceset="R-US_" device="R1206" value="1M">
+<attribute name="CUSTOMERPN" value="R/1M/5%/12"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="RC3216J105CS"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
-<part name="C14" library="RFiD" deviceset="C-US" device="C1206" value="1n">
-<attribute name="CUSTOMERPN" value=""/>
+<part name="C28" library="RFiD" deviceset="C-US" device="C1206" value="1n">
+<attribute name="CUSTOMERPN" value="C/1n/200V/C12"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="CL31C102JHHNFNE"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
-<part name="C17" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
+<part name="C25" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
-<part name="R8" library="RFiD" deviceset="R-US_" device="R0603" value="100k">
-<attribute name="CUSTOMERPN" value="R/100k/5%/06"/>
+<part name="R16" library="RFiD" deviceset="R-US_" device="R0603" value="100k">
+<attribute name="CUSTOMERPN" value="R/100K/5%/06"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="RC0603JR-07100KL"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
-<part name="U3" library="RFiD" deviceset="TLV1117-50CDCYR" device="">
+<part name="U2" library="RFiD" deviceset="TLV1117-50CDCYR" device="">
 <attribute name="CUSTOMERPN" value="IC/5VREG"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value="TLV1117-50CDCYR"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="C1" library="RFiD" deviceset="C-US" device="C0805" value="10u">
-<attribute name="CUSTOMERPN" value="C/10u/36V/C08"/>
+<part name="C5" library="RFiD" deviceset="C-US" device="C0805" value="10u">
+<attribute name="CUSTOMERPN" value="C/10u/25V/A08"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="CC0805ZKY5V6BB106"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="C4" library="RFiD" deviceset="C-US" device="C0805" value="10u">
-<attribute name="CUSTOMERPN" value="C/10u/16V/C08"/>
+<part name="C8" library="RFiD" deviceset="C-US" device="C0805" value="10u">
+<attribute name="CUSTOMERPN" value="C/10u/25V/A08"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="CC0805ZKY5V6BB106"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="C8" library="RFiD" deviceset="ESK108M016AH2AA" device="">
+<part name="C2" library="RFiD" deviceset="ESK108M016AH2AA" device="">
 <attribute name="CUSTOMERPN" value="C/1m/16V/PTH"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value="ESK108M016AH2AA"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="P+4" library="supply1" deviceset="+12V" device=""/>
 <part name="FRAME4" library="RFiD" deviceset="A4L-LOC" device=""/>
 <part name="U4" library="RFiD" deviceset="MFRC52202HN1" device="">
 <attribute name="CUSTOMERPN" value="IC/MFRC52202"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value="MFRC52202HN1,151"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND36" library="supply1" deviceset="GND" device=""/>
 <part name="GND37" library="supply1" deviceset="GND" device=""/>
 <part name="L1" library="RFiD" deviceset="R-EU_" device="R0402" value="22n">
 <attribute name="CUSTOMERPN" value="L/22n/0.2A/04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="MIFARE"/>
 </part>
-<part name="L3" library="RFiD" deviceset="R-EU_" device="R0402" value="22n">
+<part name="L2" library="RFiD" deviceset="R-EU_" device="R0402" value="22n">
 <attribute name="CUSTOMERPN" value="L/22n/0.2A/04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="MIFARE"/>
 </part>
-<part name="C10" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
+<part name="C53" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value="CL05B104KO5NNNC"/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="MIFARE"/>
 </part>
-<part name="C11" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
+<part name="C52" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value="CL05B104KO5NNNC"/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="MIFARE"/>
 </part>
-<part name="C30" library="RFiD" deviceset="C-US" device="C0402" value="100p">
+<part name="C49" library="RFiD" deviceset="C-US" device="C0402" value="100p">
 <attribute name="CUSTOMERPN" value="C/100p/50V/D04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PN1" value="CL05C101JB5NNNC"/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="MIFARE"/>
 </part>
-<part name="C31" library="RFiD" deviceset="C-US" device="C0402" value="100p">
+<part name="C50" library="RFiD" deviceset="C-US" device="C0402" value="100p">
 <attribute name="CUSTOMERPN" value="C/100p/50V/D04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PN1" value="CL05C101JB5NNNC"/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="MIFARE"/>
 </part>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
@@ -5897,142 +5941,184 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND39" library="supply1" deviceset="GND" device=""/>
 <part name="GND40" library="supply1" deviceset="GND" device=""/>
 <part name="GND41" library="supply1" deviceset="GND" device=""/>
-<part name="C32" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
+<part name="C58" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value="CL05B104KO5NNNC"/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="MIFARE"/>
 </part>
-<part name="C33" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
+<part name="C61" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value="CL05B104KO5NNNC"/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="MIFARE"/>
 </part>
 <part name="GND42" library="supply1" deviceset="GND" device=""/>
 <part name="GND43" library="supply1" deviceset="GND" device=""/>
-<part name="C5" library="RFiD" deviceset="C-US" device="C0402" value="18p">
-<attribute name="CUSTOMERPN" value="C/18p/16V/C04"/>
+<part name="C46" library="RFiD" deviceset="C-US" device="C0402" value="18p">
+<attribute name="CUSTOMERPN" value="C/18p/50V/D04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PN1" value="CL05C180JB5NNNC"/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="MIFARE"/>
 </part>
-<part name="C9" library="RFiD" deviceset="C-US" device="C0402" value="18p">
-<attribute name="CUSTOMERPN" value="C/18p/16V/C04"/>
+<part name="C47" library="RFiD" deviceset="C-US" device="C0402" value="18p">
+<attribute name="CUSTOMERPN" value="C/18p/50V/D04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PN1" value="CL05C180JB5NNNC"/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="MIFARE"/>
 </part>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="GND44" library="supply1" deviceset="GND" device=""/>
-<part name="C34" library="RFiD" deviceset="C-US" device="C0603" value="120p">
-<attribute name="CUSTOMERPN" value="C/120p/50V/D04"/>
+<part name="C54" library="RFiD" deviceset="C-US" device="C0603" value="120p">
+<attribute name="CUSTOMERPN" value="C/120p/50V/E06"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PN1" value="CL05C121JB5NNNC"/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="MIFARE"/>
 </part>
-<part name="C35" library="RFiD" deviceset="C-US" device="C0603" value="120p">
-<attribute name="CUSTOMERPN" value="C/120p/50V/D04"/>
+<part name="C55" library="RFiD" deviceset="C-US" device="C0603" value="120p">
+<attribute name="CUSTOMERPN" value="C/120p/50V/E06"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PN1" value="CL05C121JB5NNNC"/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="MIFARE"/>
 </part>
-<part name="C36" library="RFiD" deviceset="C-US" device="C0603" value="18p">
-<attribute name="CUSTOMERPN" value="C/18p/16V/C04"/>
+<part name="C56" library="RFiD" deviceset="C-US" device="C0603" value="18p">
+<attribute name="CUSTOMERPN" value="C/18p/50V/E06"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PN1" value="CL05C180JB5NNNC"/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="MIFARE"/>
 </part>
-<part name="C37" library="RFiD" deviceset="C-US" device="C0603" value="18p">
-<attribute name="CUSTOMERPN" value="C/18p/16V/C04"/>
+<part name="C57" library="RFiD" deviceset="C-US" device="C0603" value="18p">
+<attribute name="CUSTOMERPN" value="C/18p/50V/E06"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PN1" value="CL05C180JB5NNNC"/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="MIFARE"/>
 </part>
-<part name="C38" library="RFiD" deviceset="C-US" device="C0603" value="56p">
-<attribute name="CUSTOMERPN" value="C/56p/50V/D04"/>
+<part name="C60" library="RFiD" deviceset="C-US" device="C0603" value="56p">
+<attribute name="CUSTOMERPN" value="C/56p/100V/E06"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PN1" value="CL05C560JB5NNNC"/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="MIFARE"/>
 </part>
-<part name="C39" library="RFiD" deviceset="C-US" device="C0603" value="56p">
-<attribute name="CUSTOMERPN" value="C/56p/50V/D04"/>
+<part name="C59" library="RFiD" deviceset="C-US" device="C0603" value="56p">
+<attribute name="CUSTOMERPN" value="C/56p/100V/E06"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
-</part>
-<part name="L5" library="RFiD" deviceset="R-EU_" device="R0603" value="1u">
-<attribute name="CUSTOMERPN" value="L/1u/0.5A/06"/>
-<attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PN1" value="CL05C560JB5NNNC"/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="MIFARE"/>
 </part>
 <part name="L4" library="RFiD" deviceset="R-EU_" device="R0603" value="1u">
-<attribute name="CUSTOMERPN" value="L/1u/0.5A/06"/>
+<attribute name="CUSTOMERPN" value="L/1u/06/0.5A"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="MIFARE"/>
 </part>
-<part name="R24" library="RFiD" deviceset="R-US_" device="R0603" value="3.3">
-<attribute name="CUSTOMERPN" value=""/>
+<part name="L3" library="RFiD" deviceset="R-EU_" device="R0603" value="1u">
+<attribute name="CUSTOMERPN" value="L/1u/06/0.5A"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="MIFARE"/>
 </part>
-<part name="R25" library="RFiD" deviceset="R-US_" device="R0603" value="3.3">
-<attribute name="CUSTOMERPN" value=""/>
+<part name="R46" library="RFiD" deviceset="R-US_" device="R0603" value="3.3">
+<attribute name="CUSTOMERPN" value="R/3.3/5%/06"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PN1" value="RC0402JR-073R3L"/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="MIFARE"/>
+</part>
+<part name="R47" library="RFiD" deviceset="R-US_" device="R0603" value="3.3">
+<attribute name="CUSTOMERPN" value="R/3.3/5%/06"/>
+<attribute name="FSK_PN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value="RC0402JR-073R3L"/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="MIFARE"/>
 </part>
 <part name="GND45" library="supply1" deviceset="GND" device=""/>
-<part name="R1" library="RFiD" deviceset="R-US_" device="R0402" value="4.7k">
-<attribute name="CUSTOMERPN" value="R/4.7k/5%/04"/>
+<part name="R43" library="RFiD" deviceset="R-US_" device="R0402" value="4.7k">
+<attribute name="CUSTOMERPN" value="R/4.7K/5%/04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PN1" value="RC0402JR-074K7L"/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="MIFARE"/>
 </part>
 <part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
-<part name="R2" library="RFiD" deviceset="R-US_" device="R0402" value="4.7k">
-<attribute name="CUSTOMERPN" value="R/4.7k/5%/04"/>
+<part name="R42" library="RFiD" deviceset="R-US_" device="R0402" value="4.7k">
+<attribute name="CUSTOMERPN" value="R/4.7K/5%/04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PN1" value="RC0402JR-074K7L"/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="MIFARE"/>
 </part>
 <part name="+3V10" library="supply1" deviceset="+3V3" device=""/>
-<part name="R26" library="RFiD" deviceset="R-US_" device="R0402" value="2.2k">
+<part name="R45" library="RFiD" deviceset="R-US_" device="R0402" value="2.2k">
 <attribute name="CUSTOMERPN" value="R/2.2k/5%/04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PN1" value="RC0402JR-072K2L"/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="MIFARE"/>
 </part>
-<part name="C40" library="RFiD" deviceset="C-US" device="C0402" value="1n">
+<part name="C51" library="RFiD" deviceset="C-US" device="C0402" value="1n">
 <attribute name="CUSTOMERPN" value="C/1n/100V/D04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="MIFARE"/>
 </part>
-<part name="R27" library="RFiD" deviceset="R-US_" device="R0402" value="1k">
-<attribute name="CUSTOMERPN" value="R/1k/5%/04"/>
+<part name="R44" library="RFiD" deviceset="R-US_" device="R0402" value="1k">
+<attribute name="CUSTOMERPN" value="R/1K/5%/04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PN1" value="RC0402JR-071KL"/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="MIFARE"/>
 </part>
-<part name="C41" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
+<part name="C48" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value="CL05B104KO5NNNC"/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="MIFARE"/>
 </part>
 <part name="GND46" library="supply1" deviceset="GND" device=""/>
-<part name="C42" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
+<part name="C14" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="+3V11" library="supply1" deviceset="+3V3" device=""/>
@@ -6041,44 +6127,58 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="P+5" library="supply1" deviceset="VCC/2" device="" value="VIN"/>
 <part name="VCC" library="RFiD" deviceset="PTHPAD" device="" value="VCC">
 <attribute name="CUSTOMERPN" value="DNP"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value=""/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND" library="RFiD" deviceset="PTHPAD" device="" value="GND">
 <attribute name="CUSTOMERPN" value="DNP"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value=""/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="LED-IN" library="RFiD" deviceset="PTHPAD" device="" value="LED">
 <attribute name="CUSTOMERPN" value="DNP"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value=""/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="MODE" library="RFiD" deviceset="PTHPAD" device="" value="MODESELECT">
 <attribute name="CUSTOMERPN" value="DNP"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value=""/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="D0/TX/CLK" library="RFiD" deviceset="PTHPAD" device="" value="D0/CLK/TX">
 <attribute name="CUSTOMERPN" value="DNP"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value=""/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="D1/DATA" library="RFiD" deviceset="PTHPAD" device="" value="D1/DATA">
 <attribute name="CUSTOMERPN" value="DNP"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value=""/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="CARDPRS" library="RFiD" deviceset="PTHPAD" device="" value="CARD-PRES">
 <attribute name="CUSTOMERPN" value="DNP"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value=""/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="P+6" library="supply1" deviceset="VCC/2" device="" value="VIN"/>
@@ -6086,154 +6186,202 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND49" library="supply1" deviceset="GND" device=""/>
 <part name="GND50" library="supply1" deviceset="GND" device=""/>
 <part name="GND51" library="supply1" deviceset="GND" device=""/>
-<part name="R29" library="RFiD" deviceset="R-US_" device="R0402" value="1k">
-<attribute name="CUSTOMERPN" value="R/1k/5%/04"/>
+<part name="R51" library="RFiD" deviceset="R-US_" device="R0402" value="1k">
+<attribute name="CUSTOMERPN" value="R/1K/5%/04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="RC0402JR-071KL"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="R30" library="RFiD" deviceset="R-US_" device="R0402" value="1k">
-<attribute name="CUSTOMERPN" value="R/1k/5%/04"/>
+<part name="R56" library="RFiD" deviceset="R-US_" device="R0402" value="1k">
+<attribute name="CUSTOMERPN" value="R/1K/5%/04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="RC0402JR-071KL"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="R31" library="RFiD" deviceset="R-US_" device="R0402" value="1k">
-<attribute name="CUSTOMERPN" value="R/1k/5%/04"/>
+<part name="R63" library="RFiD" deviceset="R-US_" device="R0402" value="1k">
+<attribute name="CUSTOMERPN" value="R/1K/5%/04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="RC0402JR-071KL"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="SUPPLY3" library="supply2" deviceset="+5V" device=""/>
 <part name="SUPPLY5" library="supply2" deviceset="+5V" device=""/>
 <part name="SUPPLY6" library="supply2" deviceset="+5V" device=""/>
-<part name="R32" library="RFiD" deviceset="R-US_" device="R0402" value="2.2k">
+<part name="R49" library="RFiD" deviceset="R-US_" device="R0402" value="2.2k">
 <attribute name="CUSTOMERPN" value="R/2.2k/5%/04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="RC0402JR-072K2L"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="R33" library="RFiD" deviceset="R-US_" device="R0402" value="2.2k">
+<part name="R55" library="RFiD" deviceset="R-US_" device="R0402" value="2.2k">
 <attribute name="CUSTOMERPN" value="R/2.2k/5%/04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="RC0402JR-072K2L"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="R34" library="RFiD" deviceset="R-US_" device="R0402" value="2.2k">
+<part name="R62" library="RFiD" deviceset="R-US_" device="R0402" value="2.2k">
 <attribute name="CUSTOMERPN" value="R/2.2k/5%/04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="RC0402JR-072K2L"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="Q5" library="RFiD" deviceset="MMBT4401" device="">
 <attribute name="CUSTOMERPN" value="Q/MMBT4401/SOT23"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value="MMBT4403LT3G"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="Q6" library="RFiD" deviceset="MMBT4401" device="">
 <attribute name="CUSTOMERPN" value="Q/MMBT4401/SOT23"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value="MMBT4403LT3G"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="Q7" library="RFiD" deviceset="MMBT4401" device="">
 <attribute name="CUSTOMERPN" value="Q/MMBT4401/SOT23"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value="MMBT4403LT3G"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="R35" library="RFiD" deviceset="R-US_" device="R0402" value="100">
-<attribute name="CUSTOMERPN" value="R/100/5%/04"/>
+<part name="R52" library="RFiD" deviceset="R-US_" device="R0603" value="100">
+<attribute name="CUSTOMERPN" value="R/100/5%/06"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="MCR01MRTF1000"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="R36" library="RFiD" deviceset="R-US_" device="R0402" value="100">
-<attribute name="CUSTOMERPN" value="R/100/5%/04"/>
+<part name="R57" library="RFiD" deviceset="R-US_" device="R0603" value="100">
+<attribute name="CUSTOMERPN" value="R/100/5%/06"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="MCR01MRTF1000"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="R37" library="RFiD" deviceset="R-US_" device="R0402" value="100">
-<attribute name="CUSTOMERPN" value="R/100/5%/04"/>
+<part name="R64" library="RFiD" deviceset="R-US_" device="R0603" value="100">
+<attribute name="CUSTOMERPN" value="R/100/5%/06"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="MCR01MRTF1000"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="R28" library="RFiD" deviceset="R-US_" device="R0603" value="100k">
-<attribute name="CUSTOMERPN" value="R/100k/5%/06"/>
+<part name="R60" library="RFiD" deviceset="R-US_" device="R0603" value="100k">
+<attribute name="CUSTOMERPN" value="R/100K/5%/06"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="RC0603JR-07100KL"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="R38" library="RFiD" deviceset="R-US_" device="R0603" value="10k">
-<attribute name="CUSTOMERPN" value=""/>
+<part name="R61" library="RFiD" deviceset="R-US_" device="R0603" value="100k">
+<attribute name="CUSTOMERPN" value="R/100K/5%/06"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="RC0603JR-07100KL"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="R39" library="RFiD" deviceset="R-US_" device="R0603" value="100k">
-<attribute name="CUSTOMERPN" value="R/100k/5%/06"/>
+<part name="R59" library="RFiD" deviceset="R-US_" device="R0603" value="100k">
+<attribute name="CUSTOMERPN" value="R/100K/5%/06"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="RC0603JR-07100KL"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="R40" library="RFiD" deviceset="R-US_" device="R0603" value="100k">
-<attribute name="CUSTOMERPN" value="R/100k/5%/06"/>
+<part name="R58" library="RFiD" deviceset="R-US_" device="R0603" value="100k">
+<attribute name="CUSTOMERPN" value="R/100K/5%/06"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="RC0603JR-07100KL"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="+3V12" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V13" library="supply1" deviceset="+3V3" device=""/>
-<part name="R41" library="RFiD" deviceset="R-US_" device="R0402" value="82">
-<attribute name="CUSTOMERPN" value=""/>
+<part name="R53" library="RFiD" deviceset="R-US_" device="R0402" value="130">
+<attribute name="CUSTOMERPN" value="R/130/5%/04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="RC1005J131CS"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="R42" library="RFiD" deviceset="R-US_" device="R0402" value="100">
-<attribute name="CUSTOMERPN" value=""/>
+<part name="R54" library="RFiD" deviceset="R-US_" device="R0402" value="120">
+<attribute name="CUSTOMERPN" value="R/120/5%/04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="RC1005J121CS"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="BZ1" library="RFiD" deviceset="F/TMB" device="">
 <attribute name="CUSTOMERPN" value="BUZ-REP"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value="PS1240P02BT"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="Q4" library="RFiD" deviceset="MMBT4401" device="">
 <attribute name="CUSTOMERPN" value="Q/MMBT4401/SOT23"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value="MMBT4403LT3G"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND48" library="supply1" deviceset="GND" device=""/>
-<part name="R43" library="RFiD" deviceset="R-US_" device="R0402" value="2.2k">
+<part name="R48" library="RFiD" deviceset="R-US_" device="R0402" value="2.2k">
 <attribute name="CUSTOMERPN" value="R/2.2k/5%/04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="RC0402JR-072K2L"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="R44" library="RFiD" deviceset="R-US_" device="R0402" value="1k">
-<attribute name="CUSTOMERPN" value="R/1k/5%/04"/>
+<part name="R50" library="RFiD" deviceset="R-US_" device="R0402" value="1k">
+<attribute name="CUSTOMERPN" value="R/1K/5%/04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="RC0402JR-071KL"/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value=""/>
+</part>
+<part name="D4" library="RFiD" deviceset="BAT54S" device="">
+<attribute name="CUSTOMERPN" value="D/BAT54S"/>
+<attribute name="FSK_PN" value=""/>
+<attribute name="PASSIVO" value=""/>
+<attribute name="PN1" value="BAT54S,215"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="D5" library="RFiD" deviceset="BAT54S" device="">
 <attribute name="CUSTOMERPN" value="D/BAT54S"/>
-<attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
-</part>
-<part name="D6" library="RFiD" deviceset="BAT54S" device="">
-<attribute name="CUSTOMERPN" value="D/BAT54S"/>
-<attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="FSK_PN" value=""/>
+<attribute name="PASSIVO" value=""/>
+<attribute name="PN1" value="BAT54S,215"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND54" library="supply1" deviceset="GND" device=""/>
@@ -6241,270 +6389,356 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="+3V18" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V19" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND57" library="supply1" deviceset="GND" device=""/>
-<part name="U1" library="RFiD" deviceset="SAMD20E14A-AUT" device="">
+<part name="U3" library="RFiD" deviceset="SAMD20E14A-AUT" device="">
 <attribute name="CUSTOMERPN" value="IC/SAMD20/TQ32"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value="SAMD20E14A-AUT"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="R23" library="RFiD" deviceset="R-US_" device="R0603" value="10k">
-<attribute name="CUSTOMERPN" value=""/>
+<part name="R3" library="RFiD" deviceset="R-US_" device="R0402" value="10k">
+<attribute name="CUSTOMERPN" value="R/10K/5%/04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="RC0402JR-0710KL"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="R46" library="RFiD" deviceset="R-US_" device="R0603" value="10">
-<attribute name="CUSTOMERPN" value=""/>
+<part name="R9" library="RFiD" deviceset="R-US_" device="R0603" value="10">
+<attribute name="CUSTOMERPN" value="R/10/5%/06"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="RC1608J100CS"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="R47" library="RFiD" deviceset="R-US_" device="R0603" value="10">
-<attribute name="CUSTOMERPN" value=""/>
+<part name="R10" library="RFiD" deviceset="R-US_" device="R0603" value="10">
+<attribute name="CUSTOMERPN" value="R/10/5%/06"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="RC1608J100CS"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="R10" library="RFiD" deviceset="R-US_" device="R0402" value="27k">
-<attribute name="CUSTOMERPN" value=""/>
+<part name="R30" library="RFiD" deviceset="R-US_" device="R0402" value="27k">
+<attribute name="CUSTOMERPN" value="R/27k/1%/04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="MCR01MRTF2702"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="R11" library="RFiD" deviceset="R-US_" device="R0402" value="27k">
-<attribute name="CUSTOMERPN" value=""/>
+<part name="R37" library="RFiD" deviceset="R-US_" device="R0402" value="27k">
+<attribute name="CUSTOMERPN" value="R/27k/1%/04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="MCR01MRTF2702"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="C20" library="RFiD" deviceset="C-US" device="C0402" value="47p">
-<attribute name="CUSTOMERPN" value=""/>
+<part name="C40" library="RFiD" deviceset="C-US" device="C0402" value="47p">
+<attribute name="CUSTOMERPN" value="C/47p/25V/E04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="GRM1555C1H470FA01D"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="C21" library="RFiD" deviceset="C-US" device="C0402" value="47p">
-<attribute name="CUSTOMERPN" value=""/>
+<part name="C37" library="RFiD" deviceset="C-US" device="C0402" value="47p">
+<attribute name="CUSTOMERPN" value="C/47p/25V/E04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="GRM1555C1H470FA01D"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="C22" library="RFiD" deviceset="C-US" device="C0402" value="47p">
-<attribute name="CUSTOMERPN" value=""/>
+<part name="C36" library="RFiD" deviceset="C-US" device="C0402" value="47p">
+<attribute name="CUSTOMERPN" value="C/47p/25V/E04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="GRM1555C1H470FA01D"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="R12" library="RFiD" deviceset="R-US_" device="R0402" value="27k">
-<attribute name="CUSTOMERPN" value=""/>
+<part name="R32" library="RFiD" deviceset="R-US_" device="R0402" value="27k">
+<attribute name="CUSTOMERPN" value="R/27k/1%/04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="MCR01MRTF2702"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="R13" library="RFiD" deviceset="R-US_" device="R0402" value="27k">
-<attribute name="CUSTOMERPN" value=""/>
+<part name="R34" library="RFiD" deviceset="R-US_" device="R0402" value="27k">
+<attribute name="CUSTOMERPN" value="R/27k/1%/04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="MCR01MRTF2702"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="C23" library="RFiD" deviceset="C-US" device="C0402" value="47p">
-<attribute name="CUSTOMERPN" value=""/>
+<part name="C41" library="RFiD" deviceset="C-US" device="C0402" value="47p">
+<attribute name="CUSTOMERPN" value="C/47p/25V/E04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="GRM1555C1H470FA01D"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="R17" library="RFiD" deviceset="R-US_" device="R0402" value="4.7k">
-<attribute name="CUSTOMERPN" value=""/>
+<part name="R5" library="RFiD" deviceset="R-US_" device="R0402" value="4.7k">
+<attribute name="CUSTOMERPN" value="R/4.7k/5%/04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PN1" value="RC0402JR-074K7L"/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="ASK"/>
 </part>
-<part name="R18" library="RFiD" deviceset="R-US_" device="R0402" value="13k">
-<attribute name="CUSTOMERPN" value=""/>
+<part name="R12" library="RFiD" deviceset="R-US_" device="R0402" value="13k">
+<attribute name="CUSTOMERPN" value="R/13k/5%/04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PN1" value="RC1005J133CS"/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="ASK"/>
 </part>
-<part name="C25" library="RFiD" deviceset="C-US" device="C0402" value="4.7n">
-<attribute name="CUSTOMERPN" value=""/>
+<part name="C19" library="RFiD" deviceset="C-US" device="C0402" value="4.7n">
+<attribute name="CUSTOMERPN" value="C/4.7n/25V/D04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PN1" value="CL05B472KA5NNNC"/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="ASK"/>
 </part>
-<part name="C26" library="RFiD" deviceset="C-US" device="C0402" value="220n">
-<attribute name="CUSTOMERPN" value=""/>
+<part name="C18" library="RFiD" deviceset="C-US" device="C0402" value="220n">
+<attribute name="CUSTOMERPN" value="C/220n/200V/C12"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PN1" value="C3216X7R2A224K115AA"/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="ASK"/>
 </part>
-<part name="C27" library="RFiD" deviceset="C-US" device="C0402" value="68p">
-<attribute name="CUSTOMERPN" value=""/>
+<part name="C23" library="RFiD" deviceset="C-US" device="C0402" value="68p">
+<attribute name="CUSTOMERPN" value="C/68p/25V/D04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PN1" value="CL05C680JB5NNNC"/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="ASK"/>
 </part>
-<part name="R19" library="RFiD" deviceset="R-US_" device="R0402" value="91k">
-<attribute name="CUSTOMERPN" value=""/>
+<part name="R11" library="RFiD" deviceset="R-US_" device="R0402" value="91k">
+<attribute name="CUSTOMERPN" value="R/91k/5%/04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PN1" value="RMCF0402JT91K0"/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="ASK"/>
 </part>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
-<part name="C28" library="RFiD" deviceset="C-US" device="C0402" value="220n">
-<attribute name="CUSTOMERPN" value=""/>
+<part name="C26" library="RFiD" deviceset="C-US" device="C0402" value="220n">
+<attribute name="CUSTOMERPN" value="C/220n/200V/C12"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PN1" value="C3216X7R2A224K115AA"/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="ASK"/>
 </part>
-<part name="R21" library="RFiD" deviceset="R-US_" device="R0402" value="4.7k">
-<attribute name="CUSTOMERPN" value=""/>
+<part name="R7" library="RFiD" deviceset="R-US_" device="R0402" value="4.7k">
+<attribute name="CUSTOMERPN" value="R/4.7k/5%/04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PN1" value="RC0402JR-074K7L"/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="ASK"/>
 </part>
-<part name="C44" library="RFiD" deviceset="C-US" device="C0402" value="4.7n">
-<attribute name="CUSTOMERPN" value=""/>
+<part name="C20" library="RFiD" deviceset="C-US" device="C0402" value="4.7n">
+<attribute name="CUSTOMERPN" value="C/4.7n/25V/D04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PN1" value="CL05B472KA5NNNC"/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="ASK"/>
 </part>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
-<part name="R22" library="RFiD" deviceset="R-US_" device="R0402" value="13k">
-<attribute name="CUSTOMERPN" value=""/>
+<part name="R14" library="RFiD" deviceset="R-US_" device="R0402" value="13k">
+<attribute name="CUSTOMERPN" value="R/13k/5%/04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PN1" value="RC1005J133CS"/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="ASK"/>
 </part>
-<part name="R48" library="RFiD" deviceset="R-US_" device="R0402" value="91k">
-<attribute name="CUSTOMERPN" value=""/>
+<part name="R13" library="RFiD" deviceset="R-US_" device="R0402" value="91k">
+<attribute name="CUSTOMERPN" value="R/91k/5%/04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PN1" value="RMCF0402JT91K0"/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="ASK"/>
 </part>
-<part name="C45" library="RFiD" deviceset="C-US" device="C0402" value="68p">
-<attribute name="CUSTOMERPN" value=""/>
+<part name="C24" library="RFiD" deviceset="C-US" device="C0402" value="68p">
+<attribute name="CUSTOMERPN" value="C/68p/25V/D04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PN1" value="CL05C680JB5NNNC"/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="ASK"/>
 </part>
-<part name="C46" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
+<part name="C29" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value="CL05B104KO5NNNC"/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="FSK/PSK"/>
 </part>
-<part name="R51" library="RFiD" deviceset="R-US_" device="R0402" value="F:P:5.6k">
+<part name="R21" library="RFiD" deviceset="R-US_" device="R0402" value="F:P:5.6k">
 <attribute name="CUSTOMERPN" value=""/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="FSK/PSK"/>
 </part>
-<part name="R52" library="RFiD" deviceset="R-US_" device="R0402" value="F:P:5.1k">
+<part name="R23" library="RFiD" deviceset="R-US_" device="R0402" value="F:P:5.1k">
 <attribute name="CUSTOMERPN" value=""/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="FSK/PSK"/>
 </part>
-<part name="C47" library="RFiD" deviceset="C-US" device="C0402" value="F:P:100p">
+<part name="C32" library="RFiD" deviceset="C-US" device="C0402" value="F:P:100p">
 <attribute name="CUSTOMERPN" value=""/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="FSK/PSK"/>
 </part>
-<part name="C48" library="RFiD" deviceset="C-US" device="C0402" value="F:P:68p">
+<part name="C31" library="RFiD" deviceset="C-US" device="C0402" value="F:P:68p">
 <attribute name="CUSTOMERPN" value=""/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="FSK/PSK"/>
 </part>
-<part name="R53" library="RFiD" deviceset="R-US_" device="R0402" value="F:P:270k">
+<part name="R27" library="RFiD" deviceset="R-US_" device="R0402" value="F:P:270k">
 <attribute name="CUSTOMERPN" value=""/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="FSK/PSK"/>
 </part>
-<part name="R54" library="RFiD" deviceset="R-US_" device="R0402" value="F:P:5.6k">
+<part name="R35" library="RFiD" deviceset="R-US_" device="R0402" value="F:P:5.6k">
 <attribute name="CUSTOMERPN" value=""/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="FSK/PSK"/>
 </part>
-<part name="C49" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
+<part name="C35" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value="CL05B104KO5NNNC"/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="FSK/PSK"/>
 </part>
-<part name="R55" library="RFiD" deviceset="R-US_" device="R0402" value="F:P:5.1k">
+<part name="R39" library="RFiD" deviceset="R-US_" device="R0402" value="F:P:5.1k">
 <attribute name="CUSTOMERPN" value=""/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="FSK/PSK"/>
 </part>
-<part name="C50" library="RFiD" deviceset="C-US" device="C0402" value="F:P:68p">
+<part name="C43" library="RFiD" deviceset="C-US" device="C0402" value="F:P:68p">
 <attribute name="CUSTOMERPN" value=""/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="FSK/PSK"/>
 </part>
-<part name="C51" library="RFiD" deviceset="C-US" device="C0402" value="F:P:100p">
+<part name="C44" library="RFiD" deviceset="C-US" device="C0402" value="F:P:100p">
 <attribute name="CUSTOMERPN" value=""/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="FSK/PSK"/>
 </part>
-<part name="R56" library="RFiD" deviceset="R-US_" device="R0402" value="F:P:270k">
+<part name="R41" library="RFiD" deviceset="R-US_" device="R0402" value="F:P:270k">
 <attribute name="CUSTOMERPN" value=""/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="FSK/PSK"/>
 </part>
 <part name="P+3" library="supply1" deviceset="+12V" device=""/>
 <part name="P+8" library="supply1" deviceset="+12V" device=""/>
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
-<part name="C52" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
+<part name="C42" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value="CL05B104KO5NNNC"/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="FSK/PSK"/>
 </part>
-<part name="C53" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
+<part name="C34" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="SUPPLY12" library="supply2" deviceset="+5V" device=""/>
-<part name="U5" library="RFiD" deviceset="LP2985-33DBVR" device="">
+<part name="U1" library="RFiD" deviceset="LP2985-33DBVR" device="">
 <attribute name="CUSTOMERPN" value="IC/3V3REG"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value="LP2985-33DBVR"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="R57" library="RFiD" deviceset="R-US_" device="R0402" value="470">
+<part name="R1" library="RFiD" deviceset="R-US_" device="R0402" value="470">
 <attribute name="CUSTOMERPN" value="R/470/5%/04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="RC0402JR-07470RL"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="R58" library="RFiD" deviceset="R-US_" device="R0402" value="470">
+<part name="R2" library="RFiD" deviceset="R-US_" device="R0402" value="470">
 <attribute name="CUSTOMERPN" value="R/470/5%/04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="RC0402JR-07470RL"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
-<part name="C54" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
+<part name="C6" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="C55" library="RFiD" deviceset="C-US" device="C0402" value="10n">
-<attribute name="CUSTOMERPN" value=""/>
+<part name="C7" library="RFiD" deviceset="C-US" device="C0402" value="10n">
+<attribute name="CUSTOMERPN" value="C/10n/50V/C04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="CL05B103KB5NNNC"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND35" library="supply1" deviceset="GND" device=""/>
@@ -6516,202 +6750,264 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="P+10" library="supply1" deviceset="V+" device=""/>
 <part name="P+12" library="supply1" deviceset="+12V" device=""/>
 <part name="P+16" library="supply1" deviceset="+12V" device=""/>
-<part name="C43" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
+<part name="C10" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="P+7" library="supply1" deviceset="V+" device=""/>
 <part name="+3V17" library="supply1" deviceset="+3V3" device=""/>
-<part name="R45" library="RFiD" deviceset="R-US_" device="R0402" value="5.1k">
-<attribute name="CUSTOMERPN" value=""/>
+<part name="R19" library="RFiD" deviceset="R-US_" device="R0402" value="5.1k">
+<attribute name="CUSTOMERPN" value="R/5.1k/5%/04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PN1" value="ERJ-2GEJ512X"/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="ASK"/>
 </part>
-<part name="R59" library="RFiD" deviceset="R-US_" device="R0402" value="12k">
+<part name="R18" library="RFiD" deviceset="R-US_" device="R0402" value="12k">
 <attribute name="CUSTOMERPN" value="R/12k/5%/04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PN1" value="RC1608J123CS"/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="ASK"/>
 </part>
 <part name="GND53" library="supply1" deviceset="GND" device=""/>
-<part name="R60" library="RFiD" deviceset="R-US_" device="R0402" value="12k">
+<part name="R28" library="RFiD" deviceset="R-US_" device="R0402" value="12k">
 <attribute name="CUSTOMERPN" value="R/12k/5%/04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PN1" value="RC1608J123CS"/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="FSK/PSK"/>
 </part>
-<part name="R61" library="RFiD" deviceset="R-US_" device="R0402" value="5.1k">
+<part name="R26" library="RFiD" deviceset="R-US_" device="R0402" value="5.1k">
 <attribute name="CUSTOMERPN" value="R/5.1k/5%/04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PN1" value="ERJ-2GEJ512X"/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="FSK/PSK"/>
 </part>
 <part name="GND56" library="supply1" deviceset="GND" device=""/>
-<part name="R62" library="RFiD" deviceset="R-US_" device="R0402" value="0">
+<part name="R24" library="RFiD" deviceset="R-US_" device="R0402" value="0">
 <attribute name="CUSTOMERPN" value="R/0/0%/04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="RC1005J000CS"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="R63" library="RFiD" deviceset="R-US_" device="R0402" value="0">
+<part name="R33" library="RFiD" deviceset="R-US_" device="R0402" value="0">
 <attribute name="CUSTOMERPN" value="R/0/0%/04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PN1" value="RC1005J000CS"/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="FSK/PSK"/>
 </part>
-<part name="C56" library="RFiD" deviceset="C-US" device="C0603" value="10u">
-<attribute name="CUSTOMERPN" value=""/>
+<part name="C12" library="RFiD" deviceset="C-US" device="C0805" value="10u">
+<attribute name="CUSTOMERPN" value="C/10u/25V/A08"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="CC0805ZKY5V6BB106"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND58" library="supply1" deviceset="GND" device=""/>
-<part name="C57" library="RFiD" deviceset="C-US" device="C0805" value="DNP">
-<attribute name="CUSTOMERPN" value=""/>
+<part name="C21" library="RFiD" deviceset="C-US" device="C0805" value="DNP">
+<attribute name="CUSTOMERPN" value="DNP"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="R64" library="RFiD" deviceset="R-US_" device="R0402" value="0">
+<part name="R8" library="RFiD" deviceset="R-US_" device="R0402" value="0">
 <attribute name="CUSTOMERPN" value="R/0/0%/04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="RC1005J000CS"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND59" library="supply1" deviceset="GND" device=""/>
-<part name="C12" library="RFiD" deviceset="C-US" device="C1812" value="1n">
-<attribute name="CUSTOMERPN" value=""/>
+<part name="C22" library="RFiD" deviceset="C-US" device="C1812" value="1n">
+<attribute name="CUSTOMERPN" value="C/1n/500V/E18"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="C1812C102FBGACTU"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
-<part name="C15" library="RFiD" deviceset="C-US" device="C1206" value="220n">
-<attribute name="CUSTOMERPN" value=""/>
+<part name="C27" library="RFiD" deviceset="C-US" device="C1206" value="220n">
+<attribute name="CUSTOMERPN" value="C/220n/200V/C12"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="C3216X7R2A224K115AA"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="P+17" library="supply1" deviceset="V+" device=""/>
 <part name="IC1" library="RFiD" deviceset="TL084" device="">
 <attribute name="CUSTOMERPN" value="IC/TL084/TSSOP14"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value="TL084CPT"/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="ASK"/>
+</part>
+<part name="R20" library="RFiD" deviceset="R-US_" device="R0402" value="9.1k">
+<attribute name="CUSTOMERPN" value="R/9.1k/5%/04"/>
+<attribute name="FSK_PN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value="RC1608J912CS"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="R4" library="RFiD" deviceset="R-US_" device="R0402">
-<attribute name="CUSTOMERPN" value=""/>
+<part name="R25" library="RFiD" deviceset="R-US_" device="R0402" value="12k">
+<attribute name="CUSTOMERPN" value="R/12k/5%/04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="RC1608J123CS"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="R7" library="RFiD" deviceset="R-US_" device="R0402">
-<attribute name="CUSTOMERPN" value=""/>
+<part name="R22" library="RFiD" deviceset="R-US_" device="R0402" value="9.1k">
+<attribute name="CUSTOMERPN" value="R/9.1k/5%/04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="RC1608J912CS"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="R9" library="RFiD" deviceset="R-US_" device="R0402">
-<attribute name="CUSTOMERPN" value=""/>
+<part name="C30" library="RFiD" deviceset="C-US" device="C0402" value="680p">
+<attribute name="CUSTOMERPN" value="C/680p/25V/C04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="CC0402KRX7R9BB681"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="C16" library="RFiD" deviceset="C-US" device="C0402">
-<attribute name="CUSTOMERPN" value=""/>
+<part name="C33" library="RFiD" deviceset="C-US" device="C0402" value="68p">
+<attribute name="CUSTOMERPN" value="C/68p/25V/D04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
-</part>
-<part name="C18" library="RFiD" deviceset="C-US" device="C0402">
-<attribute name="CUSTOMERPN" value=""/>
-<attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="CL05C680JB5NNNC"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="IC2" library="RFiD" deviceset="TL084" device="">
 <attribute name="CUSTOMERPN" value="IC/TL084/TSSOP14"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value="TL084CPT"/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="FSK/PSK"/>
 </part>
 <part name="P+1" library="supply1" deviceset="V+" device=""/>
 <part name="Q1" library="RFiD" deviceset="DMN3404" device="">
 <attribute name="CUSTOMERPN" value="Q/DMN3404/SOT23"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value="DMN3404L-7"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="Q8" library="RFiD" deviceset="MMBT4403" device="">
+<part name="Q3" library="RFiD" deviceset="MMBT4403" device="">
 <attribute name="CUSTOMERPN" value="Q/MMBT4403/SOT23"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value="MMBT4403LT3G"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="Q9" library="RFiD" deviceset="MMBT4401" device="">
+<part name="Q2" library="RFiD" deviceset="MMBT4401" device="">
 <attribute name="CUSTOMERPN" value="Q/MMBT4401/SOT23"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value="MMBT4401LT3G"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="R14" library="RFiD" deviceset="R-US_" device="R0402" value="470">
-<attribute name="CUSTOMERPN" value=""/>
+<part name="R29" library="RFiD" deviceset="R-US_" device="R0402" value="470">
+<attribute name="CUSTOMERPN" value="R/470/5%/04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="RC0402JR-07470RL"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="R15" library="RFiD" deviceset="R-US_" device="R0402" value="100">
-<attribute name="CUSTOMERPN" value=""/>
+<part name="R38" library="RFiD" deviceset="R-US_" device="R0402" value="100">
+<attribute name="CUSTOMERPN" value="R/100/5%/04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="RC1005J101CS"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="P+11" library="supply1" deviceset="V+" device=""/>
-<part name="C19" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
+<part name="C45" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value="CL05B104KO5NNNC"/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="FSK/PSK"/>
 </part>
-<part name="R16" library="RFiD" deviceset="R-US_" device="R0402" value="F:P:5.6k">
+<part name="R40" library="RFiD" deviceset="R-US_" device="R0402" value="F:P:5.6k">
 <attribute name="CUSTOMERPN" value=""/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="FSK/PSK"/>
 </part>
-<part name="C24" library="RFiD" deviceset="C-US" device="C0402" value="F:P:100p">
+<part name="C39" library="RFiD" deviceset="C-US" device="C0402" value="F:P:100p">
 <attribute name="CUSTOMERPN" value=""/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="FSK/PSK"/>
 </part>
-<part name="C29" library="RFiD" deviceset="C-US" device="C0402" value="F:P:68p">
+<part name="C38" library="RFiD" deviceset="C-US" device="C0402" value="F:P:68p">
 <attribute name="CUSTOMERPN" value=""/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="FSK/PSK"/>
 </part>
-<part name="R20" library="RFiD" deviceset="R-US_" device="R0402" value="F:P:270k">
+<part name="R31" library="RFiD" deviceset="R-US_" device="R0402" value="F:P:270k">
 <attribute name="CUSTOMERPN" value=""/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="FSK/PSK"/>
 </part>
-<part name="R49" library="RFiD" deviceset="R-US_" device="R0402" value="F:P:5.1k">
-<attribute name="CUSTOMERPN" value="R/1k/5%/04"/>
+<part name="R36" library="RFiD" deviceset="R-US_" device="R0402" value="F:P:5.1k">
+<attribute name="CUSTOMERPN" value=""/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="FSK/PSK"/>
 </part>
-<part name="R50" library="RFiD" deviceset="R-US_" device="R0603" value="100k">
-<attribute name="CUSTOMERPN" value="R/100k/5%/06"/>
+<part name="R17" library="RFiD" deviceset="R-US_" device="R0603" value="100k">
+<attribute name="CUSTOMERPN" value="R/100K/5%/06"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="RC0603JR-07100KL"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="P+18" library="supply1" deviceset="V+" device=""/>
@@ -6719,81 +7015,114 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="P+20" library="supply1" deviceset="V+" device=""/>
 <part name="LED1" library="RFiD" deviceset="LTL1BEKVJNN" device="">
 <attribute name="CUSTOMERPN" value="LED/RG/3MM"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value="LTL1BEKVJNN"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="D3" library="RFiD" deviceset="BYG20J" device="">
 <attribute name="CUSTOMERPN" value="D/BYG20J"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value="BYG20J"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="D1" library="RFiD" deviceset="BYG20J" device="">
 <attribute name="CUSTOMERPN" value="D/BYG20J"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value="BYG20J"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="X3" library="RFiD" deviceset="22-23-2021" device="" value="ANTENA">
+<part name="X1" library="RFiD" deviceset="22-23-2021" device="" value="ANTENA">
 <attribute name="CUSTOMERPN" value="DNP"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value=""/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="SWD" library="RFiD" deviceset="PINHD-1X5" device="">
 <attribute name="CUSTOMERPN" value="DNP"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value=""/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="QZ1" library="RFiD" deviceset="CRYSTAL" device="HC49S" value="8MHz">
 <attribute name="CUSTOMERPN" value="XTAL/8MHZ/PTH"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value="9B-8.000MAAJ-B"/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value=""/>
+</part>
+<part name="C15" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
+<attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="FSK_PN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C13" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value="CL05B104KO5NNNC"/>
-<attribute name="SPECIAL" value=""/>
-</part>
-<part name="C58" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
-<attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
-<attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
-<part name="X1" library="RFiD" deviceset="22-23-2021" device="" value="MIFARE">
+<part name="X2" library="RFiD" deviceset="22-23-2021" device="" value="MIFARE">
 <attribute name="CUSTOMERPN" value="DNP"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value=""/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="C59" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
+<part name="C11" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
-<part name="C60" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
+<part name="C9" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
 <part name="QZ2" library="RFiD" deviceset="CRISTAL" device="" value="27.12MHz">
 <attribute name="CUSTOMERPN" value="XTAL/2712MHZ/5x3"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value="7B-27.120MAAJ-T"/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="MIFARE"/>
+</part>
+<part name="C3" library="RFiD" deviceset="C-US" device="C0402" value="10n">
+<attribute name="CUSTOMERPN" value="C/10n/50V/C04"/>
+<attribute name="FSK_PN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value="CL05B103KB5NNNC"/>
+<attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
+<part name="GND31" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6801,30 +7130,30 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="231.14" y="20.32" size="2.54" layer="94">RFiD</text>
 <text x="226.06" y="10.16" size="2.54" layer="94">19/09/2013</text>
 <text x="226.06" y="15.24" size="2.54" layer="94">Alimentacao</text>
-<text x="48.26" y="78.74" size="1.4224" layer="91" rot="R270">06/16V/10%/587-2786-2-ND </text>
-<text x="127" y="78.74" size="1.4224" layer="91" rot="R270">06/16V/10%/587-2786-2-ND </text>
-<text x="208.28" y="121.92" size="1.4224" layer="91" rot="R270">08/16V/10%/1276-1096-1-ND</text>
-<text x="134.62" y="121.92" size="1.4224" layer="91" rot="R270">10%/08/1276-2890-1-ND</text>
 <text x="114.3" y="119.38" size="1.4224" layer="91" rot="R180">25V</text>
 <text x="116.84" y="114.3" size="1.778" layer="91" rot="R180">1000uF</text>
 <text x="243.84" y="5.08" size="2.54" layer="94">Rev. C</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
-<instance part="C6" gate="G$1" x="55.88" y="66.04">
+<instance part="C1" gate="G$1" x="55.88" y="66.04">
 <attribute name="CUSTOMERPN" x="55.88" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="55.88" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="55.88" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="55.88" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="55.88" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="55.88" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND4" gate="1" x="68.58" y="48.26"/>
 <instance part="GND5" gate="1" x="55.88" y="55.88"/>
 <instance part="+3V3" gate="G$1" x="116.84" y="81.28"/>
-<instance part="C7" gate="G$1" x="116.84" y="66.04">
+<instance part="C4" gate="G$1" x="116.84" y="66.04">
 <attribute name="CUSTOMERPN" x="116.84" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="116.84" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="116.84" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="116.84" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="116.84" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="116.84" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND8" gate="1" x="116.84" y="55.88"/>
 <instance part="D2" gate="G$1" x="88.9" y="116.84" smashed="yes" rot="R90">
@@ -6834,87 +7163,111 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="PASSIVO" x="88.9" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="88.9" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="88.9" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="88.9" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="88.9" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND9" gate="1" x="88.9" y="109.22"/>
 <instance part="P+2" gate="1" x="139.7" y="134.62"/>
 <instance part="GND12" gate="1" x="139.7" y="109.22"/>
 <instance part="GND16" gate="1" x="200.66" y="109.22"/>
 <instance part="SUPPLY2" gate="+5V" x="200.66" y="132.08"/>
-<instance part="U3" gate="G$1" x="170.18" y="119.38">
+<instance part="U2" gate="G$1" x="170.18" y="119.38">
 <attribute name="CUSTOMERPN" x="170.18" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="170.18" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="170.18" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="170.18" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="170.18" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="170.18" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND6" gate="1" x="152.4" y="109.22"/>
-<instance part="C1" gate="G$1" x="139.7" y="119.38">
+<instance part="C5" gate="G$1" x="139.7" y="119.38">
 <attribute name="CUSTOMERPN" x="139.7" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="139.7" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="139.7" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="139.7" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="139.7" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="139.7" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C4" gate="G$1" x="200.66" y="119.38">
+<instance part="C8" gate="G$1" x="200.66" y="119.38">
 <attribute name="CUSTOMERPN" x="200.66" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="200.66" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="200.66" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="200.66" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="200.66" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="200.66" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND7" gate="1" x="104.14" y="109.22"/>
-<instance part="C8" gate="G$1" x="104.14" y="119.38">
+<instance part="C2" gate="G$1" x="104.14" y="119.38">
 <attribute name="CUSTOMERPN" x="104.14" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="104.14" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="104.14" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="104.14" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="104.14" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="104.14" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+5" gate="G$1" x="63.5" y="134.62"/>
 <instance part="SUPPLY12" gate="+5V" x="55.88" y="78.74"/>
-<instance part="U5" gate="G$1" x="86.36" y="63.5">
+<instance part="U1" gate="G$1" x="86.36" y="63.5">
 <attribute name="CUSTOMERPN" x="86.36" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="86.36" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="86.36" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="86.36" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="86.36" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="86.36" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R57" gate="G$1" x="167.64" y="71.12">
+<instance part="R1" gate="G$1" x="167.64" y="71.12">
 <attribute name="CUSTOMERPN" x="167.64" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="167.64" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="167.64" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="167.64" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="167.64" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="167.64" y="71.12" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R58" gate="G$1" x="175.26" y="63.5" rot="R90">
+<instance part="R2" gate="G$1" x="175.26" y="63.5" rot="R90">
 <attribute name="CUSTOMERPN" x="175.26" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="175.26" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="175.26" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="175.26" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="175.26" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="175.26" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND34" gate="1" x="175.26" y="53.34"/>
-<instance part="C54" gate="G$1" x="187.96" y="66.04">
+<instance part="C6" gate="G$1" x="187.96" y="66.04">
 <attribute name="CUSTOMERPN" x="187.96" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="187.96" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="187.96" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="187.96" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="187.96" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="187.96" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C55" gate="G$1" x="198.12" y="66.04">
+<instance part="C7" gate="G$1" x="198.12" y="66.04">
 <attribute name="CUSTOMERPN" x="198.12" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="198.12" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="198.12" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="198.12" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="198.12" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="198.12" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND35" gate="1" x="187.96" y="53.34"/>
 <instance part="GND52" gate="1" x="198.12" y="53.34"/>
 <instance part="P+15" gate="1" x="238.76" y="78.74"/>
 <instance part="P+12" gate="1" x="157.48" y="76.2"/>
-<instance part="C43" gate="G$1" x="218.44" y="66.04">
+<instance part="C10" gate="G$1" x="218.44" y="66.04">
 <attribute name="CUSTOMERPN" x="218.44" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="218.44" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="218.44" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="218.44" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="218.44" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="218.44" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND1" gate="1" x="218.44" y="53.34"/>
-<instance part="C56" gate="G$1" x="238.76" y="66.04">
+<instance part="C12" gate="G$1" x="238.76" y="66.04">
 <attribute name="CUSTOMERPN" x="238.76" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="238.76" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="238.76" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="238.76" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="238.76" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="238.76" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND58" gate="1" x="238.76" y="53.34"/>
 <instance part="D1" gate="G$1" x="76.2" y="124.46" rot="R180">
@@ -6922,21 +7275,36 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="PASSIVO" x="76.2" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="76.2" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="76.2" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="76.2" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="76.2" y="124.46" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C59" gate="G$1" x="228.6" y="66.04">
+<instance part="C11" gate="G$1" x="228.6" y="66.04">
 <attribute name="CUSTOMERPN" x="228.6" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="228.6" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="228.6" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="228.6" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="228.6" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="228.6" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND28" gate="1" x="228.6" y="53.34"/>
-<instance part="C60" gate="G$1" x="208.28" y="66.04">
+<instance part="C9" gate="G$1" x="208.28" y="66.04">
 <attribute name="CUSTOMERPN" x="208.28" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="208.28" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="208.28" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="208.28" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="208.28" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="208.28" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND30" gate="1" x="208.28" y="53.34"/>
+<instance part="C3" gate="G$1" x="104.14" y="50.8">
+<attribute name="CUSTOMERPN" x="104.14" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="104.14" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="104.14" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="104.14" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="104.14" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="104.14" y="50.8" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="GND31" gate="1" x="104.14" y="40.64"/>
 </instances>
 <busses>
 </busses>
@@ -6944,12 +7312,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <net name="GND" class="0">
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
-<pinref part="C6" gate="G$1" pin="2"/>
+<pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="55.88" y1="58.42" x2="55.88" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
-<pinref part="C7" gate="G$1" pin="2"/>
+<pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="116.84" y1="58.42" x2="116.84" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -6960,88 +7328,93 @@ In this library the device names are the same as the pin names of the symbols, t
 <segment>
 <pinref part="GND16" gate="1" pin="GND"/>
 <wire x1="200.66" y1="111.76" x2="200.66" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="C8" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="GND"/>
+<pinref part="U2" gate="G$1" pin="GND"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="154.94" y1="114.3" x2="152.4" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="114.3" x2="152.4" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND12" gate="1" pin="GND"/>
-<pinref part="C1" gate="G$1" pin="2"/>
+<pinref part="C5" gate="G$1" pin="2"/>
 <wire x1="139.7" y1="111.76" x2="139.7" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="104.14" y1="111.76" x2="104.14" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="-"/>
+<pinref part="C2" gate="G$1" pin="-"/>
 </segment>
 <segment>
-<pinref part="U5" gate="G$1" pin="GND"/>
+<pinref part="U1" gate="G$1" pin="GND"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="71.12" y1="55.88" x2="68.58" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="55.88" x2="68.58" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND34" gate="1" pin="GND"/>
-<pinref part="R58" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="175.26" y1="55.88" x2="175.26" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND35" gate="1" pin="GND"/>
-<pinref part="C54" gate="G$1" pin="2"/>
+<pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="187.96" y1="55.88" x2="187.96" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND52" gate="1" pin="GND"/>
-<pinref part="C55" gate="G$1" pin="2"/>
+<pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="198.12" y1="55.88" x2="198.12" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
-<pinref part="C43" gate="G$1" pin="2"/>
+<pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="218.44" y1="55.88" x2="218.44" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND58" gate="1" pin="GND"/>
-<pinref part="C56" gate="G$1" pin="2"/>
+<pinref part="C12" gate="G$1" pin="2"/>
 <wire x1="238.76" y1="55.88" x2="238.76" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C59" gate="G$1" pin="2"/>
+<pinref part="C11" gate="G$1" pin="2"/>
 <pinref part="GND28" gate="1" pin="GND"/>
 <wire x1="228.6" y1="60.96" x2="228.6" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND30" gate="1" pin="GND"/>
-<pinref part="C60" gate="G$1" pin="2"/>
+<pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="208.28" y1="55.88" x2="208.28" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="GND31" gate="1" pin="GND"/>
+<wire x1="104.14" y1="45.72" x2="104.14" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
-<pinref part="C7" gate="G$1" pin="1"/>
+<pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="116.84" y1="68.58" x2="116.84" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="71.12" x2="101.6" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
 <wire x1="116.84" y1="78.74" x2="116.84" y2="71.12" width="0.1524" layer="91"/>
 <junction x="116.84" y="71.12"/>
-<pinref part="U5" gate="G$1" pin="VOUT"/>
+<pinref part="U1" gate="G$1" pin="VOUT"/>
 </segment>
 </net>
 <net name="+12V" class="0">
 <segment>
-<pinref part="U3" gate="G$1" pin="VIN"/>
-<pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="U2" gate="G$1" pin="VIN"/>
+<pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="154.94" y1="124.46" x2="139.7" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="124.46" x2="139.7" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="1" pin="+12V"/>
 <wire x1="139.7" y1="132.08" x2="139.7" y2="124.46" width="0.1524" layer="91"/>
 <junction x="139.7" y="124.46"/>
 <wire x1="104.14" y1="121.92" x2="104.14" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="+"/>
+<pinref part="C2" gate="G$1" pin="+"/>
 <pinref part="D2" gate="G$1" pin="C"/>
 <wire x1="88.9" y1="124.46" x2="78.74" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="119.38" x2="88.9" y2="124.46" width="0.1524" layer="91"/>
@@ -7052,7 +7425,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="D1" gate="G$1" pin="K"/>
 </segment>
 <segment>
-<pinref part="R57" gate="G$1" pin="1"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="162.56" y1="71.12" x2="157.48" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="71.12" x2="157.48" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="P+12" gate="1" pin="+12V"/>
@@ -7062,27 +7435,27 @@ In this library the device names are the same as the pin names of the symbols, t
 <segment>
 <wire x1="200.66" y1="121.92" x2="200.66" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="+5V" pin="+5V"/>
-<pinref part="C4" gate="G$1" pin="1"/>
-<pinref part="U3" gate="G$1" pin="VOUT"/>
+<pinref part="C8" gate="G$1" pin="1"/>
+<pinref part="U2" gate="G$1" pin="VOUT"/>
 <wire x1="200.66" y1="124.46" x2="200.66" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="124.46" x2="190.5" y2="124.46" width="0.1524" layer="91"/>
 <junction x="200.66" y="124.46"/>
-<pinref part="U3" gate="G$1" pin="TAB"/>
+<pinref part="U2" gate="G$1" pin="TAB"/>
 <wire x1="190.5" y1="124.46" x2="200.66" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="114.3" x2="190.5" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="114.3" x2="190.5" y2="124.46" width="0.1524" layer="91"/>
 <junction x="190.5" y="124.46"/>
 </segment>
 <segment>
-<pinref part="C6" gate="G$1" pin="1"/>
+<pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="71.12" y1="71.12" x2="68.58" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="71.12" x2="55.88" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="71.12" x2="55.88" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="SUPPLY12" gate="+5V" pin="+5V"/>
 <wire x1="55.88" y1="76.2" x2="55.88" y2="71.12" width="0.1524" layer="91"/>
 <junction x="55.88" y="71.12"/>
-<pinref part="U5" gate="G$1" pin="VIN"/>
-<pinref part="U5" gate="G$1" pin="ON/OFF"/>
+<pinref part="U1" gate="G$1" pin="VIN"/>
+<pinref part="U1" gate="G$1" pin="ON/OFF"/>
 <wire x1="71.12" y1="63.5" x2="68.58" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="63.5" x2="68.58" y2="71.12" width="0.1524" layer="91"/>
 <junction x="68.58" y="71.12"/>
@@ -7098,37 +7471,45 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="V+" class="0">
 <segment>
-<pinref part="C56" gate="G$1" pin="1"/>
+<pinref part="C12" gate="G$1" pin="1"/>
 <pinref part="P+15" gate="1" pin="V+"/>
 <wire x1="238.76" y1="76.2" x2="238.76" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="R57" gate="G$1" pin="2"/>
-<pinref part="R58" gate="G$1" pin="2"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="238.76" y1="71.12" x2="238.76" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="71.12" x2="175.26" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="71.12" x2="175.26" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="71.12" x2="187.96" y2="71.12" width="0.1524" layer="91"/>
 <junction x="175.26" y="71.12"/>
-<pinref part="C54" gate="G$1" pin="1"/>
+<pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="187.96" y1="71.12" x2="187.96" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="C55" gate="G$1" pin="1"/>
+<pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="187.96" y1="71.12" x2="198.12" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="71.12" x2="198.12" y2="68.58" width="0.1524" layer="91"/>
 <junction x="187.96" y="71.12"/>
 <wire x1="198.12" y1="71.12" x2="208.28" y2="71.12" width="0.1524" layer="91"/>
 <junction x="198.12" y="71.12"/>
-<pinref part="C43" gate="G$1" pin="1"/>
+<pinref part="C10" gate="G$1" pin="1"/>
 <wire x1="208.28" y1="71.12" x2="218.44" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="68.58" x2="218.44" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="C59" gate="G$1" pin="1"/>
+<pinref part="C11" gate="G$1" pin="1"/>
 <wire x1="228.6" y1="68.58" x2="228.6" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="71.12" x2="228.6" y2="71.12" width="0.1524" layer="91"/>
 <junction x="218.44" y="71.12"/>
 <wire x1="228.6" y1="71.12" x2="238.76" y2="71.12" width="0.1524" layer="91"/>
 <junction x="228.6" y="71.12"/>
 <junction x="238.76" y="71.12"/>
-<pinref part="C60" gate="G$1" pin="1"/>
+<pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="208.28" y1="68.58" x2="208.28" y2="71.12" width="0.1524" layer="91"/>
 <junction x="208.28" y="71.12"/>
+</segment>
+</net>
+<net name="N$65" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="BYPASS"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="101.6" y1="55.88" x2="104.14" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="55.88" x2="104.14" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -7170,50 +7551,62 @@ In this library the device names are the same as the pin names of the symbols, t
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
 <instance part="+3V1" gate="G$1" x="195.58" y="154.94"/>
-<instance part="C2" gate="G$1" x="195.58" y="119.38">
+<instance part="C16" gate="G$1" x="195.58" y="119.38">
 <attribute name="CUSTOMERPN" x="195.58" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="195.58" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="195.58" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="195.58" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="195.58" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="195.58" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND2" gate="1" x="195.58" y="109.22"/>
-<instance part="C3" gate="G$1" x="203.2" y="147.32" rot="R90">
+<instance part="C17" gate="G$1" x="203.2" y="147.32" rot="R90">
 <attribute name="CUSTOMERPN" x="203.2" y="147.32" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="203.2" y="147.32" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="203.2" y="147.32" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="203.2" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="203.2" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="203.2" y="147.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND3" gate="1" x="213.36" y="147.32" rot="R90"/>
 <instance part="+3V4" gate="G$1" x="238.76" y="63.5"/>
 <instance part="GND10" gate="1" x="238.76" y="35.56"/>
 <instance part="+3V5" gate="G$1" x="218.44" y="68.58"/>
-<instance part="C42" gate="G$1" x="182.88" y="119.38">
+<instance part="C14" gate="G$1" x="182.88" y="119.38">
 <attribute name="CUSTOMERPN" x="182.88" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="182.88" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="182.88" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="182.88" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="182.88" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="182.88" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V11" gate="G$1" x="182.88" y="142.24"/>
 <instance part="GND47" gate="1" x="182.88" y="109.22"/>
 <instance part="GND57" gate="1" x="228.6" y="119.38"/>
-<instance part="U1" gate="IO" x="27.94" y="93.98" rot="MR0">
+<instance part="U3" gate="IO" x="27.94" y="93.98" rot="MR0">
 <attribute name="CUSTOMERPN" x="27.94" y="93.98" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="27.94" y="93.98" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="27.94" y="93.98" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="27.94" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="27.94" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="27.94" y="93.98" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U1" gate="PWR" x="210.82" y="129.54"/>
-<instance part="R23" gate="G$1" x="218.44" y="58.42" rot="R90">
+<instance part="U3" gate="PWR" x="210.82" y="129.54"/>
+<instance part="R3" gate="G$1" x="218.44" y="58.42" rot="R90">
 <attribute name="CUSTOMERPN" x="218.44" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="218.44" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="218.44" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="218.44" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="218.44" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="218.44" y="58.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SWD" gate="A" x="248.92" y="50.8">
 <attribute name="CUSTOMERPN" x="248.92" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="248.92" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="248.92" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="248.92" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="248.92" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="248.92" y="50.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="QZ1" gate="G$1" x="180.34" y="58.42" smashed="yes">
 <attribute name="NAME" x="177.8" y="61.976" size="1.778" layer="95"/>
@@ -7222,18 +7615,24 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="PASSIVO" x="180.34" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="180.34" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="180.34" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="180.34" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="180.34" y="58.42" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C13" gate="G$1" x="185.42" y="45.72">
+<instance part="C15" gate="G$1" x="185.42" y="45.72">
 <attribute name="CUSTOMERPN" x="185.42" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="185.42" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="185.42" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="185.42" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="185.42" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="185.42" y="45.72" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C58" gate="G$1" x="175.26" y="45.72">
+<instance part="C13" gate="G$1" x="175.26" y="45.72">
 <attribute name="CUSTOMERPN" x="175.26" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="175.26" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="175.26" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="175.26" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="175.26" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="175.26" y="45.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND25" gate="1" x="175.26" y="35.56"/>
 <instance part="GND26" gate="1" x="185.42" y="35.56"/>
@@ -7244,17 +7643,17 @@ In this library the device names are the same as the pin names of the symbols, t
 <net name="GND" class="0">
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
-<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="C16" gate="G$1" pin="2"/>
 <wire x1="195.58" y1="111.76" x2="195.58" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="C17" gate="G$1" pin="2"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="210.82" y1="147.32" x2="208.28" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND47" gate="1" pin="GND"/>
-<pinref part="C42" gate="G$1" pin="2"/>
+<pinref part="C14" gate="G$1" pin="2"/>
 <wire x1="182.88" y1="111.76" x2="182.88" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -7264,8 +7663,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="226.06" y1="129.54" x2="228.6" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="129.54" x2="228.6" y2="127" width="0.1524" layer="91"/>
 <junction x="228.6" y="127"/>
-<pinref part="U1" gate="PWR" pin="GND"/>
-<pinref part="U1" gate="PWR" pin="GND@1"/>
+<pinref part="U3" gate="PWR" pin="GND"/>
+<pinref part="U3" gate="PWR" pin="GND@1"/>
 </segment>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
@@ -7275,11 +7674,11 @@ In this library the device names are the same as the pin names of the symbols, t
 </segment>
 <segment>
 <pinref part="GND25" gate="1" pin="GND"/>
-<pinref part="C58" gate="G$1" pin="2"/>
+<pinref part="C13" gate="G$1" pin="2"/>
 <wire x1="175.26" y1="38.1" x2="175.26" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C13" gate="G$1" pin="2"/>
+<pinref part="C15" gate="G$1" pin="2"/>
 <pinref part="GND26" gate="1" pin="GND"/>
 <wire x1="185.42" y1="40.64" x2="185.42" y2="38.1" width="0.1524" layer="91"/>
 </segment>
@@ -7287,10 +7686,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <net name="+3V3" class="0">
 <segment>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
-<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="C17" gate="G$1" pin="1"/>
 <wire x1="195.58" y1="147.32" x2="195.58" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="147.32" x2="195.58" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="U1" gate="PWR" pin="VDDIN"/>
+<pinref part="U3" gate="PWR" pin="VDDIN"/>
 <wire x1="198.12" y1="132.08" x2="195.58" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="132.08" x2="195.58" y2="147.32" width="0.1524" layer="91"/>
 <junction x="195.58" y="147.32"/>
@@ -7302,14 +7701,14 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="SWD" gate="A" pin="1"/>
 </segment>
 <segment>
-<pinref part="R23" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
 <wire x1="218.44" y1="63.5" x2="218.44" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C42" gate="G$1" pin="1"/>
+<pinref part="C14" gate="G$1" pin="1"/>
 <wire x1="182.88" y1="121.92" x2="182.88" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="U1" gate="PWR" pin="VDDANA"/>
+<pinref part="U3" gate="PWR" pin="VDDANA"/>
 <wire x1="198.12" y1="129.54" x2="182.88" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="+3V11" gate="G$1" pin="+3V3"/>
 <wire x1="182.88" y1="129.54" x2="182.88" y2="139.7" width="0.1524" layer="91"/>
@@ -7323,36 +7722,36 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="SWD" gate="A" pin="2"/>
 </segment>
 <segment>
-<pinref part="U1" gate="IO" pin="PA31"/>
+<pinref part="U3" gate="IO" pin="PA31"/>
 <wire x1="33.02" y1="63.5" x2="53.34" y2="63.5" width="0.1524" layer="91"/>
 <label x="53.34" y="63.5" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MIFARE-RST" class="0">
 <segment>
-<pinref part="U1" gate="IO" pin="PA16"/>
+<pinref part="U3" gate="IO" pin="PA16"/>
 <wire x1="33.02" y1="91.44" x2="55.88" y2="91.44" width="0.1524" layer="91"/>
 <label x="38.1" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CARD-PRES" class="0">
 <segment>
-<pinref part="U1" gate="IO" pin="PA10"/>
+<pinref part="U3" gate="IO" pin="PA10"/>
 <wire x1="33.02" y1="101.6" x2="55.88" y2="101.6" width="0.1524" layer="91"/>
 <label x="38.1" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LED-INPUT" class="0">
 <segment>
-<pinref part="U1" gate="IO" pin="PA11"/>
+<pinref part="U3" gate="IO" pin="PA11"/>
 <wire x1="33.02" y1="99.06" x2="55.88" y2="99.06" width="0.1524" layer="91"/>
 <label x="38.1" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$47" class="0">
 <segment>
-<pinref part="U1" gate="PWR" pin="VDDCORE"/>
-<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="U3" gate="PWR" pin="VDDCORE"/>
+<pinref part="C16" gate="G$1" pin="1"/>
 <wire x1="198.12" y1="127" x2="195.58" y2="127" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="127" x2="195.58" y2="121.92" width="0.1524" layer="91"/>
 </segment>
@@ -7364,7 +7763,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="SWD" gate="A" pin="3"/>
 </segment>
 <segment>
-<pinref part="U1" gate="IO" pin="PA30"/>
+<pinref part="U3" gate="IO" pin="PA30"/>
 <wire x1="33.02" y1="66.04" x2="53.34" y2="66.04" width="0.1524" layer="91"/>
 <label x="53.34" y="66.04" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -7373,61 +7772,61 @@ In this library the device names are the same as the pin names of the symbols, t
 <segment>
 <wire x1="246.38" y1="48.26" x2="218.44" y2="48.26" width="0.1524" layer="91"/>
 <label x="213.36" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="R23" gate="G$1" pin="1"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="218.44" y1="48.26" x2="213.36" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="53.34" x2="218.44" y2="48.26" width="0.1524" layer="91"/>
 <junction x="218.44" y="48.26"/>
 <pinref part="SWD" gate="A" pin="4"/>
 </segment>
 <segment>
-<pinref part="U1" gate="PWR" pin="RESET"/>
+<pinref part="U3" gate="PWR" pin="RESET"/>
 <wire x1="226.06" y1="132.08" x2="233.68" y2="132.08" width="0.1524" layer="91"/>
 <label x="233.68" y="132.08" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="D0/TX/CLK" class="0">
 <segment>
-<pinref part="U1" gate="IO" pin="PA8"/>
+<pinref part="U3" gate="IO" pin="PA8"/>
 <wire x1="33.02" y1="106.68" x2="55.88" y2="106.68" width="0.1524" layer="91"/>
 <label x="38.1" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D1/DATA" class="0">
 <segment>
-<pinref part="U1" gate="IO" pin="PA9"/>
+<pinref part="U3" gate="IO" pin="PA9"/>
 <wire x1="33.02" y1="104.14" x2="55.88" y2="104.14" width="0.1524" layer="91"/>
 <label x="38.1" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="FSK-PSK" class="0">
 <segment>
-<pinref part="U1" gate="IO" pin="PA1"/>
+<pinref part="U3" gate="IO" pin="PA1"/>
 <wire x1="33.02" y1="124.46" x2="55.88" y2="124.46" width="0.1524" layer="91"/>
 <label x="38.1" y="124.46" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="IO" pin="PA5"/>
+<pinref part="U3" gate="IO" pin="PA5"/>
 <wire x1="33.02" y1="114.3" x2="55.88" y2="114.3" width="0.1524" layer="91"/>
 <label x="38.1" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LED-RED-CTRL" class="0">
 <segment>
-<pinref part="U1" gate="IO" pin="PA2"/>
+<pinref part="U3" gate="IO" pin="PA2"/>
 <wire x1="33.02" y1="121.92" x2="55.88" y2="121.92" width="0.1524" layer="91"/>
 <label x="38.1" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BUZZER" class="0">
 <segment>
-<pinref part="U1" gate="IO" pin="PA25"/>
+<pinref part="U3" gate="IO" pin="PA25"/>
 <wire x1="33.02" y1="73.66" x2="55.88" y2="73.66" width="0.1524" layer="91"/>
 <label x="38.1" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LED-GRN-CTRL" class="0">
 <segment>
-<pinref part="U1" gate="IO" pin="PA3"/>
+<pinref part="U3" gate="IO" pin="PA3"/>
 <wire x1="33.02" y1="119.38" x2="55.88" y2="119.38" width="0.1524" layer="91"/>
 <label x="38.1" y="119.38" size="1.778" layer="95"/>
 </segment>
@@ -7436,12 +7835,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <segment>
 <wire x1="33.02" y1="81.28" x2="55.88" y2="81.28" width="0.1524" layer="91"/>
 <label x="38.1" y="81.28" size="1.778" layer="95"/>
-<pinref part="U1" gate="IO" pin="PA22"/>
+<pinref part="U3" gate="IO" pin="PA22"/>
 </segment>
 </net>
 <net name="MIFARE-SCL" class="0">
 <segment>
-<pinref part="U1" gate="IO" pin="PA23"/>
+<pinref part="U3" gate="IO" pin="PA23"/>
 <wire x1="33.02" y1="78.74" x2="55.88" y2="78.74" width="0.1524" layer="91"/>
 <label x="38.1" y="78.74" size="1.778" layer="95"/>
 </segment>
@@ -7449,7 +7848,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <net name="XIN" class="0">
 <segment>
 <pinref part="QZ1" gate="G$1" pin="1"/>
-<pinref part="C58" gate="G$1" pin="1"/>
+<pinref part="C13" gate="G$1" pin="1"/>
 <wire x1="177.8" y1="58.42" x2="175.26" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="58.42" x2="175.26" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="58.42" x2="175.26" y2="66.04" width="0.1524" layer="91"/>
@@ -7458,7 +7857,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="167.64" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="IO" pin="PA14"/>
+<pinref part="U3" gate="IO" pin="PA14"/>
 <wire x1="33.02" y1="96.52" x2="55.88" y2="96.52" width="0.1524" layer="91"/>
 <label x="38.1" y="96.52" size="1.778" layer="95"/>
 </segment>
@@ -7466,7 +7865,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <net name="XOUT" class="0">
 <segment>
 <pinref part="QZ1" gate="G$1" pin="2"/>
-<pinref part="C13" gate="G$1" pin="1"/>
+<pinref part="C15" gate="G$1" pin="1"/>
 <wire x1="182.88" y1="58.42" x2="185.42" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="58.42" x2="185.42" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="58.42" x2="185.42" y2="66.04" width="0.1524" layer="91"/>
@@ -7475,28 +7874,28 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="185.42" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="IO" pin="PA15"/>
+<pinref part="U3" gate="IO" pin="PA15"/>
 <wire x1="33.02" y1="93.98" x2="55.88" y2="93.98" width="0.1524" layer="91"/>
 <label x="38.1" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="125KHZ" class="0">
 <segment>
-<pinref part="U1" gate="IO" pin="PA7"/>
+<pinref part="U3" gate="IO" pin="PA7"/>
 <wire x1="33.02" y1="109.22" x2="55.88" y2="109.22" width="0.1524" layer="91"/>
 <label x="38.1" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ASK" class="0">
 <segment>
-<pinref part="U1" gate="IO" pin="PA0"/>
+<pinref part="U3" gate="IO" pin="PA0"/>
 <wire x1="33.02" y1="127" x2="55.88" y2="127" width="0.1524" layer="91"/>
 <label x="38.1" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USART-RX" class="0">
 <segment>
-<pinref part="U1" gate="IO" pin="PA17"/>
+<pinref part="U3" gate="IO" pin="PA17"/>
 <wire x1="33.02" y1="88.9" x2="55.88" y2="88.9" width="0.1524" layer="91"/>
 <label x="38.1" y="88.9" size="1.778" layer="95"/>
 </segment>
@@ -7546,281 +7945,365 @@ PSK: Q=5 / Fc=71.8k</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
-<instance part="R3" gate="G$1" x="20.32" y="160.02" rot="R90">
+<instance part="R6" gate="G$1" x="20.32" y="160.02" rot="R90">
 <attribute name="CUSTOMERPN" x="20.32" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="20.32" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="20.32" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="20.32" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="20.32" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="20.32" y="160.02" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R5" gate="G$1" x="10.16" y="109.22" rot="R270">
+<instance part="R4" gate="G$1" x="10.16" y="109.22" rot="R270">
 <attribute name="CUSTOMERPN" x="10.16" y="109.22" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="10.16" y="109.22" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="10.16" y="109.22" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="10.16" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="10.16" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="10.16" y="109.22" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND17" gate="1" x="20.32" y="99.06"/>
 <instance part="GND18" gate="1" x="30.48" y="99.06"/>
-<instance part="R6" gate="G$1" x="55.88" y="111.76" rot="R90">
+<instance part="R15" gate="G$1" x="55.88" y="111.76" rot="R90">
 <attribute name="CUSTOMERPN" x="55.88" y="111.76" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="55.88" y="111.76" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="55.88" y="111.76" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="55.88" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="55.88" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="55.88" y="111.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND21" gate="1" x="55.88" y="99.06"/>
-<instance part="C14" gate="G$1" x="66.04" y="111.76">
+<instance part="C28" gate="G$1" x="66.04" y="111.76">
 <attribute name="CUSTOMERPN" x="66.04" y="111.76" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="66.04" y="111.76" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="66.04" y="111.76" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="66.04" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="66.04" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="66.04" y="111.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND22" gate="1" x="66.04" y="99.06"/>
-<instance part="C17" gate="G$1" x="53.34" y="157.48" rot="MR0">
+<instance part="C25" gate="G$1" x="53.34" y="157.48" rot="MR0">
 <attribute name="CUSTOMERPN" x="53.34" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="53.34" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="53.34" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="53.34" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="53.34" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="53.34" y="157.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND24" gate="1" x="53.34" y="147.32"/>
-<instance part="R8" gate="G$1" x="66.04" y="152.4" rot="R90">
+<instance part="R16" gate="G$1" x="66.04" y="152.4" rot="R90">
 <attribute name="CUSTOMERPN" x="66.04" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="66.04" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="66.04" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="66.04" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="66.04" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="66.04" y="152.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+4" gate="1" x="20.32" y="170.18"/>
-<instance part="R46" gate="G$1" x="30.48" y="139.7" rot="R90">
+<instance part="R9" gate="G$1" x="30.48" y="139.7" rot="R90">
 <attribute name="CUSTOMERPN" x="30.48" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="30.48" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="30.48" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="30.48" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="30.48" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="30.48" y="139.7" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R47" gate="G$1" x="30.48" y="127" rot="R90">
+<instance part="R10" gate="G$1" x="30.48" y="127" rot="R90">
 <attribute name="CUSTOMERPN" x="30.48" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="30.48" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="30.48" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="30.48" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="30.48" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="30.48" y="127" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R10" gate="G$1" x="180.34" y="152.4">
+<instance part="R30" gate="G$1" x="180.34" y="152.4">
 <attribute name="CUSTOMERPN" x="180.34" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="180.34" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="180.34" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="180.34" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="180.34" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="180.34" y="152.4" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R11" gate="G$1" x="200.66" y="152.4">
+<instance part="R37" gate="G$1" x="200.66" y="152.4">
 <attribute name="CUSTOMERPN" x="200.66" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="200.66" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="200.66" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="200.66" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="200.66" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="200.66" y="152.4" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C20" gate="G$1" x="195.58" y="144.78">
+<instance part="C40" gate="G$1" x="195.58" y="144.78">
 <attribute name="CUSTOMERPN" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C21" gate="G$1" x="185.42" y="144.78">
+<instance part="C37" gate="G$1" x="185.42" y="144.78">
 <attribute name="CUSTOMERPN" x="185.42" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="185.42" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="185.42" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="185.42" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="185.42" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="185.42" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C22" gate="G$1" x="182.88" y="124.46" rot="R270">
+<instance part="C36" gate="G$1" x="182.88" y="124.46" rot="R270">
 <attribute name="CUSTOMERPN" x="182.88" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="182.88" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="182.88" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="182.88" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="182.88" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="182.88" y="124.46" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R12" gate="G$1" x="185.42" y="132.08" rot="R90">
+<instance part="R32" gate="G$1" x="185.42" y="132.08" rot="R90">
 <attribute name="CUSTOMERPN" x="185.42" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="185.42" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="185.42" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="185.42" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="185.42" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="185.42" y="132.08" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R13" gate="G$1" x="195.58" y="132.08" rot="R90">
+<instance part="R34" gate="G$1" x="195.58" y="132.08" rot="R90">
 <attribute name="CUSTOMERPN" x="195.58" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="195.58" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="195.58" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="195.58" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="195.58" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="195.58" y="132.08" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C23" gate="G$1" x="200.66" y="124.46" rot="R270">
+<instance part="C41" gate="G$1" x="200.66" y="124.46" rot="R270">
 <attribute name="CUSTOMERPN" x="200.66" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="200.66" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="200.66" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="200.66" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="200.66" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="200.66" y="124.46" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R17" gate="G$1" x="17.78" y="66.04" rot="R180">
+<instance part="R5" gate="G$1" x="17.78" y="66.04" rot="R180">
 <attribute name="CUSTOMERPN" x="17.78" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="17.78" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="17.78" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="17.78" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="17.78" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="17.78" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R18" gate="G$1" x="33.02" y="66.04" rot="R180">
+<instance part="R12" gate="G$1" x="33.02" y="66.04" rot="R180">
 <attribute name="CUSTOMERPN" x="33.02" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="33.02" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="33.02" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="33.02" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="33.02" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="33.02" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C25" gate="G$1" x="25.4" y="58.42">
+<instance part="C19" gate="G$1" x="25.4" y="58.42">
 <attribute name="CUSTOMERPN" x="25.4" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="25.4" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="25.4" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="25.4" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="25.4" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="25.4" y="58.42" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C26" gate="G$1" x="10.16" y="73.66" smashed="yes" rot="R180">
+<instance part="C18" gate="G$1" x="10.16" y="73.66" smashed="yes" rot="R180">
 <attribute name="NAME" x="9.144" y="78.105" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="19.304" y="77.851" size="1.778" layer="96" rot="R180"/>
 <attribute name="CUSTOMERPN" x="10.16" y="73.66" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="10.16" y="73.66" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="10.16" y="73.66" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="10.16" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="10.16" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="10.16" y="73.66" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C27" gate="G$1" x="38.1" y="76.2">
+<instance part="C23" gate="G$1" x="38.1" y="76.2">
 <attribute name="CUSTOMERPN" x="38.1" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="38.1" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="38.1" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="38.1" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="38.1" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="38.1" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R19" gate="G$1" x="33.02" y="83.82" rot="R180">
+<instance part="R11" gate="G$1" x="33.02" y="83.82" rot="R180">
 <attribute name="CUSTOMERPN" x="33.02" y="83.82" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="33.02" y="83.82" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="33.02" y="83.82" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="33.02" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="33.02" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="33.02" y="83.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND27" gate="1" x="25.4" y="48.26"/>
-<instance part="C28" gate="G$1" x="63.5" y="63.5" rot="R90">
+<instance part="C26" gate="G$1" x="63.5" y="63.5" rot="R90">
 <attribute name="CUSTOMERPN" x="63.5" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="63.5" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="63.5" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="63.5" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="63.5" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="63.5" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R21" gate="G$1" x="25.4" y="27.94">
+<instance part="R7" gate="G$1" x="25.4" y="27.94">
 <attribute name="CUSTOMERPN" x="25.4" y="27.94" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="25.4" y="27.94" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="25.4" y="27.94" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="25.4" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="25.4" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="25.4" y="27.94" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C44" gate="G$1" x="30.48" y="20.32">
+<instance part="C20" gate="G$1" x="30.48" y="20.32">
 <attribute name="CUSTOMERPN" x="30.48" y="20.32" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="30.48" y="20.32" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="30.48" y="20.32" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="30.48" y="20.32" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="30.48" y="20.32" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="30.48" y="20.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND29" gate="1" x="30.48" y="10.16"/>
-<instance part="R22" gate="G$1" x="38.1" y="27.94" rot="R180">
+<instance part="R14" gate="G$1" x="38.1" y="27.94" rot="R180">
 <attribute name="CUSTOMERPN" x="38.1" y="27.94" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="38.1" y="27.94" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="38.1" y="27.94" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="38.1" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="38.1" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="38.1" y="27.94" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R48" gate="G$1" x="38.1" y="43.18">
+<instance part="R13" gate="G$1" x="38.1" y="43.18">
 <attribute name="CUSTOMERPN" x="38.1" y="43.18" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="38.1" y="43.18" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="38.1" y="43.18" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="38.1" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="38.1" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="38.1" y="43.18" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C45" gate="G$1" x="48.26" y="35.56" rot="R180">
+<instance part="C24" gate="G$1" x="48.26" y="35.56" rot="R180">
 <attribute name="CUSTOMERPN" x="48.26" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="48.26" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="48.26" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="48.26" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="48.26" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="48.26" y="35.56" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C46" gate="G$1" x="109.22" y="63.5">
+<instance part="C29" gate="G$1" x="109.22" y="63.5">
 <attribute name="CUSTOMERPN" x="109.22" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="109.22" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="109.22" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="109.22" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="109.22" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="109.22" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R51" gate="G$1" x="116.84" y="71.12">
+<instance part="R21" gate="G$1" x="116.84" y="71.12">
 <attribute name="CUSTOMERPN" x="116.84" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="116.84" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="116.84" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="116.84" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="116.84" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="116.84" y="71.12" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R52" gate="G$1" x="127" y="63.5" rot="R90">
+<instance part="R23" gate="G$1" x="127" y="63.5" rot="R90">
 <attribute name="CUSTOMERPN" x="127" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="127" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="127" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="127" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="127" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="127" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C47" gate="G$1" x="137.16" y="71.12" smashed="yes" rot="R270">
+<instance part="C32" gate="G$1" x="137.16" y="71.12" smashed="yes" rot="R270">
 <attribute name="NAME" x="137.795" y="70.104" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="136.271" y="56.896" size="1.778" layer="96" rot="R90"/>
 <attribute name="CUSTOMERPN" x="137.16" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="137.16" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="137.16" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="137.16" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="137.16" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="137.16" y="71.12" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C48" gate="G$1" x="137.16" y="81.28" smashed="yes" rot="R270">
+<instance part="C31" gate="G$1" x="137.16" y="81.28" smashed="yes" rot="R270">
 <attribute name="NAME" x="130.556" y="76.835" size="1.778" layer="95"/>
 <attribute name="VALUE" x="133.096" y="84.709" size="1.778" layer="96"/>
 <attribute name="CUSTOMERPN" x="137.16" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="137.16" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="137.16" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="137.16" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="137.16" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="137.16" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R53" gate="G$1" x="144.78" y="76.2" rot="R90">
+<instance part="R27" gate="G$1" x="144.78" y="76.2" rot="R90">
 <attribute name="CUSTOMERPN" x="144.78" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="144.78" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="144.78" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="144.78" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="144.78" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="144.78" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R54" gate="G$1" x="195.58" y="68.58" rot="MR0">
+<instance part="R35" gate="G$1" x="195.58" y="68.58" rot="MR0">
 <attribute name="CUSTOMERPN" x="195.58" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="195.58" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="195.58" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="195.58" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="195.58" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="195.58" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C49" gate="G$1" x="180.34" y="68.58" rot="R90">
+<instance part="C35" gate="G$1" x="180.34" y="68.58" rot="R90">
 <attribute name="CUSTOMERPN" x="180.34" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="180.34" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="180.34" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="180.34" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="180.34" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="180.34" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R55" gate="G$1" x="205.74" y="63.5" smashed="yes" rot="MR90">
+<instance part="R39" gate="G$1" x="205.74" y="63.5" smashed="yes" rot="MR90">
 <attribute name="NAME" x="207.2386" y="57.15" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="202.438" y="57.15" size="1.778" layer="96" rot="MR90"/>
 <attribute name="CUSTOMERPN" x="205.74" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="205.74" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="205.74" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="205.74" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="205.74" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="205.74" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C50" gate="G$1" x="213.36" y="81.28" smashed="yes" rot="MR90">
+<instance part="C43" gate="G$1" x="213.36" y="81.28" smashed="yes" rot="MR90">
 <attribute name="NAME" x="217.424" y="76.835" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="217.424" y="84.709" size="1.778" layer="96" rot="MR0"/>
 <attribute name="CUSTOMERPN" x="213.36" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="213.36" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="213.36" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="213.36" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="213.36" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="213.36" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C51" gate="G$1" x="213.36" y="68.58" smashed="yes" rot="MR90">
+<instance part="C44" gate="G$1" x="213.36" y="68.58" smashed="yes" rot="MR90">
 <attribute name="NAME" x="217.424" y="71.755" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="222.504" y="64.389" size="1.778" layer="96" rot="MR0"/>
 <attribute name="CUSTOMERPN" x="213.36" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="213.36" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="213.36" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="213.36" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="213.36" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="213.36" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R56" gate="G$1" x="223.52" y="76.2" rot="MR270">
+<instance part="R41" gate="G$1" x="223.52" y="76.2" rot="MR270">
 <attribute name="CUSTOMERPN" x="223.52" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="223.52" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="223.52" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="223.52" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="223.52" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="223.52" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+3" gate="1" x="116.84" y="104.14" rot="R90"/>
 <instance part="P+8" gate="1" x="180.34" y="104.14" rot="R90"/>
 <instance part="GND32" gate="1" x="160.02" y="99.06"/>
 <instance part="GND33" gate="1" x="226.06" y="99.06"/>
-<instance part="C52" gate="G$1" x="210.82" y="99.06" rot="R90">
+<instance part="C42" gate="G$1" x="210.82" y="99.06" rot="R90">
 <attribute name="CUSTOMERPN" x="210.82" y="99.06" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="210.82" y="99.06" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="210.82" y="99.06" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="210.82" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="210.82" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="210.82" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C53" gate="G$1" x="142.24" y="99.06" rot="R90">
+<instance part="C34" gate="G$1" x="142.24" y="99.06" rot="R90">
 <attribute name="CUSTOMERPN" x="142.24" y="99.06" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="142.24" y="99.06" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="142.24" y="99.06" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="142.24" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="142.24" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="142.24" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+9" gate="1" x="223.52" y="63.5" smashed="yes" rot="MR270">
 <attribute name="VALUE" x="226.06" y="58.42" size="1.778" layer="96" rot="MR0"/>
@@ -7829,69 +8312,89 @@ PSK: Q=5 / Fc=71.8k</text>
 <instance part="P+14" gate="1" x="43.18" y="15.24" rot="R180"/>
 <instance part="P+10" gate="1" x="38.1" y="55.88" rot="R180"/>
 <instance part="P+7" gate="1" x="66.04" y="167.64"/>
-<instance part="R45" gate="G$1" x="83.82" y="20.32" rot="MR90">
+<instance part="R19" gate="G$1" x="83.82" y="20.32" rot="MR90">
 <attribute name="CUSTOMERPN" x="83.82" y="20.32" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="83.82" y="20.32" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="83.82" y="20.32" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="83.82" y="20.32" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="83.82" y="20.32" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="83.82" y="20.32" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R59" gate="G$1" x="76.2" y="25.4" rot="MR180">
+<instance part="R18" gate="G$1" x="76.2" y="25.4" rot="MR180">
 <attribute name="CUSTOMERPN" x="76.2" y="25.4" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="76.2" y="25.4" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="76.2" y="25.4" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="76.2" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="76.2" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="76.2" y="25.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND53" gate="1" x="83.82" y="10.16" rot="MR0"/>
-<instance part="R60" gate="G$1" x="147.32" y="35.56" rot="MR0">
+<instance part="R28" gate="G$1" x="147.32" y="35.56" rot="MR0">
 <attribute name="CUSTOMERPN" x="147.32" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="147.32" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="147.32" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="147.32" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="147.32" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="147.32" y="35.56" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R61" gate="G$1" x="139.7" y="30.48" rot="MR90">
+<instance part="R26" gate="G$1" x="139.7" y="30.48" rot="MR90">
 <attribute name="CUSTOMERPN" x="139.7" y="30.48" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="139.7" y="30.48" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="139.7" y="30.48" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="139.7" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="139.7" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="139.7" y="30.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND56" gate="1" x="139.7" y="22.86" rot="MR0"/>
-<instance part="R62" gate="G$1" x="129.54" y="104.14">
+<instance part="R24" gate="G$1" x="129.54" y="104.14">
 <attribute name="CUSTOMERPN" x="129.54" y="104.14" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="129.54" y="104.14" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="129.54" y="104.14" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="129.54" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="129.54" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="129.54" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R63" gate="G$1" x="193.04" y="104.14">
+<instance part="R33" gate="G$1" x="193.04" y="104.14">
 <attribute name="CUSTOMERPN" x="193.04" y="104.14" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="193.04" y="104.14" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="193.04" y="104.14" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="193.04" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="193.04" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="193.04" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C57" gate="G$1" x="38.1" y="154.94">
+<instance part="C21" gate="G$1" x="38.1" y="154.94">
 <attribute name="CUSTOMERPN" x="38.1" y="154.94" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="38.1" y="154.94" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="38.1" y="154.94" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="38.1" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="38.1" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="38.1" y="154.94" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R64" gate="G$1" x="30.48" y="162.56" rot="R90">
+<instance part="R8" gate="G$1" x="30.48" y="162.56" rot="R90">
 <attribute name="CUSTOMERPN" x="30.48" y="162.56" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="30.48" y="162.56" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="30.48" y="162.56" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="30.48" y="162.56" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="30.48" y="162.56" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="30.48" y="162.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND59" gate="1" x="38.1" y="144.78"/>
-<instance part="C12" gate="G$1" x="38.1" y="111.76">
+<instance part="C22" gate="G$1" x="38.1" y="111.76">
 <attribute name="CUSTOMERPN" x="38.1" y="111.76" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="38.1" y="111.76" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="38.1" y="111.76" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="38.1" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="38.1" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="38.1" y="111.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND20" gate="1" x="38.1" y="99.06"/>
-<instance part="C15" gate="G$1" x="66.04" y="132.08" rot="R180">
+<instance part="C27" gate="G$1" x="66.04" y="132.08" rot="R180">
 <attribute name="CUSTOMERPN" x="66.04" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="66.04" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="66.04" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="66.04" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="66.04" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="66.04" y="132.08" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+17" gate="1" x="139.7" y="124.46" smashed="yes" rot="R180">
 <attribute name="VALUE" x="134.62" y="124.46" size="1.778" layer="96"/>
@@ -7901,39 +8404,51 @@ PSK: Q=5 / Fc=71.8k</text>
 <attribute name="PASSIVO" x="91.44" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="91.44" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="91.44" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="91.44" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="91.44" y="139.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="IC1" gate="B" x="149.86" y="137.16" rot="MR180"/>
 <instance part="IC1" gate="C" x="48.26" y="63.5" rot="MR180"/>
 <instance part="IC1" gate="D" x="60.96" y="25.4" rot="MR180"/>
-<instance part="R4" gate="G$1" x="116.84" y="139.7">
+<instance part="R20" gate="G$1" x="116.84" y="139.7">
 <attribute name="CUSTOMERPN" x="116.84" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="116.84" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="116.84" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="116.84" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="116.84" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="116.84" y="139.7" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R7" gate="G$1" x="132.08" y="139.7">
+<instance part="R25" gate="G$1" x="132.08" y="139.7">
 <attribute name="CUSTOMERPN" x="132.08" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="132.08" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="132.08" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="132.08" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="132.08" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="132.08" y="139.7" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R9" gate="G$1" x="124.46" y="147.32" rot="R270">
+<instance part="R22" gate="G$1" x="124.46" y="147.32" rot="R270">
 <attribute name="CUSTOMERPN" x="124.46" y="147.32" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="124.46" y="147.32" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="124.46" y="147.32" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="124.46" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="124.46" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="124.46" y="147.32" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C16" gate="G$1" x="124.46" y="132.08">
+<instance part="C30" gate="G$1" x="124.46" y="132.08">
 <attribute name="CUSTOMERPN" x="124.46" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="124.46" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="124.46" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="124.46" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="124.46" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="124.46" y="132.08" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C18" gate="G$1" x="139.7" y="149.86">
+<instance part="C33" gate="G$1" x="139.7" y="149.86">
 <attribute name="CUSTOMERPN" x="139.7" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="139.7" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="139.7" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="139.7" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="139.7" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="139.7" y="149.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND23" gate="1" x="124.46" y="121.92"/>
 <instance part="IC2" gate="A" x="223.52" y="144.78">
@@ -7941,6 +8456,8 @@ PSK: Q=5 / Fc=71.8k</text>
 <attribute name="PASSIVO" x="223.52" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="223.52" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="223.52" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="223.52" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="223.52" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="IC2" gate="B" x="157.48" y="68.58" rot="MR180"/>
 <instance part="IC2" gate="C" x="236.22" y="66.04" rot="MR180"/>
@@ -7952,90 +8469,114 @@ PSK: Q=5 / Fc=71.8k</text>
 <attribute name="PASSIVO" x="20.32" y="106.68" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="20.32" y="106.68" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="20.32" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="20.32" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="20.32" y="106.68" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="Q8" gate="G$1" x="27.94" y="114.3" smashed="yes">
+<instance part="Q3" gate="G$1" x="27.94" y="114.3" smashed="yes">
 <attribute name="NAME" x="22.86" y="116.84" size="1.778" layer="95"/>
 <attribute name="VALUE" x="33.02" y="109.22" size="1.778" layer="96" rot="R90"/>
 <attribute name="CUSTOMERPN" x="27.94" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="27.94" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="27.94" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="27.94" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="27.94" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="27.94" y="114.3" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="Q9" gate="G$1" x="27.94" y="149.86" smashed="yes">
+<instance part="Q2" gate="G$1" x="27.94" y="149.86" smashed="yes">
 <attribute name="NAME" x="22.86" y="152.4" size="1.778" layer="95"/>
 <attribute name="VALUE" x="33.02" y="144.78" size="1.778" layer="96" rot="R90"/>
 <attribute name="CUSTOMERPN" x="27.94" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="27.94" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="27.94" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="27.94" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="27.94" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="27.94" y="149.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="IC1" gate="P" x="147.32" y="109.22" rot="R90"/>
 <instance part="IC2" gate="P" x="210.82" y="109.22" rot="R90"/>
 <instance part="IC2" gate="D" x="172.72" y="35.56" rot="R180"/>
-<instance part="R14" gate="G$1" x="177.8" y="137.16" rot="R180">
+<instance part="R29" gate="G$1" x="177.8" y="137.16" rot="R180">
 <attribute name="CUSTOMERPN" x="177.8" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="177.8" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="177.8" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="177.8" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="177.8" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="177.8" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R15" gate="G$1" x="203.2" y="137.16" rot="R180">
+<instance part="R38" gate="G$1" x="203.2" y="137.16" rot="R180">
 <attribute name="CUSTOMERPN" x="203.2" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="203.2" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="203.2" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="203.2" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="203.2" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="203.2" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+11" gate="1" x="182.88" y="27.94" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="185.42" y="27.94" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="C19" gate="G$1" x="220.98" y="38.1" rot="R90">
+<instance part="C45" gate="G$1" x="220.98" y="38.1" rot="R90">
 <attribute name="CUSTOMERPN" x="220.98" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="220.98" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="220.98" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="220.98" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="220.98" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="220.98" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R16" gate="G$1" x="210.82" y="38.1" rot="MR0">
+<instance part="R40" gate="G$1" x="210.82" y="38.1" rot="MR0">
 <attribute name="CUSTOMERPN" x="210.82" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="210.82" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="210.82" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="210.82" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="210.82" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="210.82" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C24" gate="G$1" x="190.5" y="38.1" smashed="yes" rot="MR270">
+<instance part="C39" gate="G$1" x="190.5" y="38.1" smashed="yes" rot="MR270">
 <attribute name="NAME" x="191.516" y="42.545" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="183.896" y="34.671" size="1.778" layer="96" rot="MR180"/>
 <attribute name="CUSTOMERPN" x="190.5" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="190.5" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="190.5" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="190.5" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="190.5" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="190.5" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C29" gate="G$1" x="190.5" y="53.34" smashed="yes" rot="MR270">
+<instance part="C38" gate="G$1" x="190.5" y="53.34" smashed="yes" rot="MR270">
 <attribute name="NAME" x="188.976" y="57.785" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="188.976" y="49.911" size="1.778" layer="96" rot="MR180"/>
 <attribute name="CUSTOMERPN" x="190.5" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="190.5" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="190.5" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="190.5" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="190.5" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="190.5" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R20" gate="G$1" x="182.88" y="45.72" smashed="yes" rot="MR270">
+<instance part="R31" gate="G$1" x="182.88" y="45.72" smashed="yes" rot="MR270">
 <attribute name="NAME" x="186.4614" y="49.53" size="1.778" layer="95" rot="MR270"/>
 <attribute name="VALUE" x="181.102" y="52.07" size="1.778" layer="96" rot="MR270"/>
 <attribute name="CUSTOMERPN" x="182.88" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="182.88" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="182.88" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="182.88" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="182.88" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="182.88" y="45.72" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R49" gate="G$1" x="198.12" y="33.02" smashed="yes" rot="R90">
+<instance part="R36" gate="G$1" x="198.12" y="33.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="196.6214" y="26.67" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="199.898" y="39.37" size="1.778" layer="96" rot="R270"/>
 <attribute name="CUSTOMERPN" x="198.12" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="198.12" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="198.12" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="198.12" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="198.12" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="198.12" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R50" gate="G$1" x="71.12" y="142.24" rot="R180">
+<instance part="R17" gate="G$1" x="71.12" y="142.24" rot="R180">
 <attribute name="CUSTOMERPN" x="71.12" y="142.24" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="71.12" y="142.24" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="71.12" y="142.24" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="71.12" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="71.12" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="71.12" y="142.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+18" gate="1" x="208.28" y="27.94" smashed="yes" rot="MR90">
 <attribute name="VALUE" x="205.74" y="33.02" size="1.778" layer="96" rot="MR180"/>
@@ -8047,21 +8588,25 @@ PSK: Q=5 / Fc=71.8k</text>
 <attribute name="PASSIVO" x="48.26" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="48.26" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="48.26" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="48.26" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="48.26" y="121.92" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="X3" gate="-1" x="45.72" y="134.62">
+<instance part="X1" gate="-1" x="45.72" y="134.62">
 <attribute name="CUSTOMERPN" x="45.72" y="134.62" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="45.72" y="134.62" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="45.72" y="134.62" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="45.72" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="45.72" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="45.72" y="134.62" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="X3" gate="-2" x="45.72" y="132.08"/>
+<instance part="X1" gate="-2" x="45.72" y="132.08"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="N$7" class="0">
 <segment>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="20.32" y1="111.76" x2="20.32" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="114.3" x2="20.32" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="149.86" x2="20.32" y2="154.94" width="0.1524" layer="91"/>
@@ -8070,13 +8615,13 @@ PSK: Q=5 / Fc=71.8k</text>
 <wire x1="25.4" y1="114.3" x2="20.32" y2="114.3" width="0.1524" layer="91"/>
 <junction x="20.32" y="114.3"/>
 <pinref part="Q1" gate="G$1" pin="D"/>
-<pinref part="Q9" gate="G$1" pin="B"/>
-<pinref part="Q8" gate="G$1" pin="B"/>
+<pinref part="Q2" gate="G$1" pin="B"/>
+<pinref part="Q3" gate="G$1" pin="B"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="10.16" y1="104.14" x2="15.24" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="G"/>
 </segment>
@@ -8084,36 +8629,36 @@ PSK: Q=5 / Fc=71.8k</text>
 <net name="N$11" class="0">
 <segment>
 <wire x1="43.18" y1="134.62" x2="30.48" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="R47" gate="G$1" pin="2"/>
-<pinref part="R46" gate="G$1" pin="1"/>
+<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="R9" gate="G$1" pin="1"/>
 <junction x="30.48" y="134.62"/>
 <wire x1="30.48" y1="134.62" x2="30.48" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="X3" gate="-1" pin="S"/>
+<pinref part="X1" gate="-1" pin="S"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
 <pinref part="GND18" gate="1" pin="GND"/>
 <wire x1="30.48" y1="101.6" x2="30.48" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="Q8" gate="G$1" pin="C"/>
+<pinref part="Q3" gate="G$1" pin="C"/>
 </segment>
 <segment>
 <pinref part="GND21" gate="1" pin="GND"/>
-<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="101.6" x2="55.88" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND22" gate="1" pin="GND"/>
-<pinref part="C14" gate="G$1" pin="2"/>
+<pinref part="C28" gate="G$1" pin="2"/>
 <wire x1="66.04" y1="101.6" x2="66.04" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C25" gate="G$1" pin="2"/>
+<pinref part="C19" gate="G$1" pin="2"/>
 <pinref part="GND27" gate="1" pin="GND"/>
 <wire x1="25.4" y1="53.34" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C44" gate="G$1" pin="2"/>
+<pinref part="C20" gate="G$1" pin="2"/>
 <pinref part="GND29" gate="1" pin="GND"/>
 <wire x1="30.48" y1="12.7" x2="30.48" y2="15.24" width="0.1524" layer="91"/>
 </segment>
@@ -8122,7 +8667,7 @@ PSK: Q=5 / Fc=71.8k</text>
 <wire x1="154.94" y1="104.14" x2="154.94" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="101.6" x2="160.02" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="104.14" x2="154.94" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="C53" gate="G$1" pin="2"/>
+<pinref part="C34" gate="G$1" pin="2"/>
 <wire x1="147.32" y1="99.06" x2="154.94" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="99.06" x2="154.94" y2="104.14" width="0.1524" layer="91"/>
 <junction x="154.94" y="104.14"/>
@@ -8136,36 +8681,36 @@ PSK: Q=5 / Fc=71.8k</text>
 <wire x1="220.98" y1="104.14" x2="226.06" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="104.14" x2="226.06" y2="101.6" width="0.1524" layer="91"/>
 <junction x="220.98" y="104.14"/>
-<pinref part="C52" gate="G$1" pin="2"/>
+<pinref part="C42" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="99.06" x2="220.98" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="P" pin="V-"/>
 </segment>
 <segment>
-<pinref part="R45" gate="G$1" pin="1"/>
+<pinref part="R19" gate="G$1" pin="1"/>
 <pinref part="GND53" gate="1" pin="GND"/>
 <wire x1="83.82" y1="15.24" x2="83.82" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R61" gate="G$1" pin="1"/>
+<pinref part="R26" gate="G$1" pin="1"/>
 <pinref part="GND56" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND59" gate="1" pin="GND"/>
-<pinref part="C57" gate="G$1" pin="2"/>
+<pinref part="C21" gate="G$1" pin="2"/>
 <wire x1="38.1" y1="147.32" x2="38.1" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND20" gate="1" pin="GND"/>
-<pinref part="C12" gate="G$1" pin="2"/>
+<pinref part="C22" gate="G$1" pin="2"/>
 <wire x1="38.1" y1="101.6" x2="38.1" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C17" gate="G$1" pin="2"/>
+<pinref part="C25" gate="G$1" pin="2"/>
 <pinref part="GND24" gate="1" pin="GND"/>
 <wire x1="53.34" y1="152.4" x2="53.34" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C16" gate="G$1" pin="2"/>
+<pinref part="C30" gate="G$1" pin="2"/>
 <pinref part="GND23" gate="1" pin="GND"/>
 <wire x1="124.46" y1="124.46" x2="124.46" y2="127" width="0.1524" layer="91"/>
 </segment>
@@ -8179,23 +8724,23 @@ PSK: Q=5 / Fc=71.8k</text>
 <wire x1="43.18" y1="132.08" x2="38.1" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="132.08" x2="38.1" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="121.92" x2="38.1" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="C12" gate="G$1" pin="1"/>
+<pinref part="C22" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="114.3" x2="38.1" y2="121.92" width="0.1524" layer="91"/>
 <junction x="38.1" y="121.92"/>
 <pinref part="D3" gate="G$1" pin="A"/>
-<pinref part="X3" gate="-2" pin="S"/>
+<pinref part="X1" gate="-2" pin="S"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="121.92" x2="55.88" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="121.92" x2="55.88" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="C14" gate="G$1" pin="1"/>
+<pinref part="C28" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="121.92" x2="66.04" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="121.92" x2="66.04" y2="114.3" width="0.1524" layer="91"/>
 <junction x="55.88" y="121.92"/>
-<pinref part="C15" gate="G$1" pin="1"/>
+<pinref part="C27" gate="G$1" pin="1"/>
 <wire x1="66.04" y1="121.92" x2="66.04" y2="129.54" width="0.1524" layer="91"/>
 <junction x="66.04" y="121.92"/>
 <pinref part="D3" gate="G$1" pin="K"/>
@@ -8203,62 +8748,62 @@ PSK: Q=5 / Fc=71.8k</text>
 </net>
 <net name="+12V" class="0">
 <segment>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R6" gate="G$1" pin="2"/>
 <pinref part="P+4" gate="1" pin="+12V"/>
 <wire x1="20.32" y1="167.64" x2="20.32" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="R64" gate="G$1" pin="2"/>
+<pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="20.32" y1="167.64" x2="30.48" y2="167.64" width="0.1524" layer="91"/>
 <junction x="20.32" y="167.64"/>
 </segment>
 <segment>
 <pinref part="P+3" gate="1" pin="+12V"/>
-<pinref part="R62" gate="G$1" pin="1"/>
+<pinref part="R24" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="104.14" x2="124.46" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R63" gate="G$1" pin="1"/>
+<pinref part="R33" gate="G$1" pin="1"/>
 <pinref part="P+8" gate="1" pin="+12V"/>
 <wire x1="187.96" y1="104.14" x2="182.88" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$60" class="0">
 <segment>
-<pinref part="R47" gate="G$1" pin="1"/>
+<pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="121.92" x2="30.48" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="Q8" gate="G$1" pin="E"/>
+<pinref part="Q3" gate="G$1" pin="E"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
-<pinref part="R10" gate="G$1" pin="2"/>
-<pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="R30" gate="G$1" pin="2"/>
+<pinref part="R37" gate="G$1" pin="1"/>
 <wire x1="185.42" y1="152.4" x2="195.58" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="C21" gate="G$1" pin="1"/>
+<pinref part="C37" gate="G$1" pin="1"/>
 <wire x1="185.42" y1="147.32" x2="185.42" y2="152.4" width="0.1524" layer="91"/>
 <junction x="185.42" y="152.4"/>
-<pinref part="C20" gate="G$1" pin="1"/>
+<pinref part="C40" gate="G$1" pin="1"/>
 <wire x1="195.58" y1="147.32" x2="195.58" y2="152.4" width="0.1524" layer="91"/>
 <junction x="195.58" y="152.4"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
-<pinref part="C22" gate="G$1" pin="1"/>
-<pinref part="C23" gate="G$1" pin="2"/>
+<pinref part="C36" gate="G$1" pin="1"/>
+<pinref part="C41" gate="G$1" pin="2"/>
 <wire x1="185.42" y1="124.46" x2="195.58" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="R32" gate="G$1" pin="1"/>
 <wire x1="185.42" y1="127" x2="185.42" y2="124.46" width="0.1524" layer="91"/>
 <junction x="185.42" y="124.46"/>
-<pinref part="R13" gate="G$1" pin="1"/>
+<pinref part="R34" gate="G$1" pin="1"/>
 <wire x1="195.58" y1="127" x2="195.58" y2="124.46" width="0.1524" layer="91"/>
 <junction x="195.58" y="124.46"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
-<pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="R37" gate="G$1" pin="2"/>
 <wire x1="205.74" y1="152.4" x2="210.82" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="C23" gate="G$1" pin="1"/>
+<pinref part="C41" gate="G$1" pin="1"/>
 <wire x1="203.2" y1="124.46" x2="210.82" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="124.46" x2="210.82" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="152.4" x2="210.82" y2="152.4" width="0.1524" layer="91"/>
@@ -8273,7 +8818,7 @@ PSK: Q=5 / Fc=71.8k</text>
 <pinref part="IC2" gate="A" pin="OUT"/>
 <wire x1="231.14" y1="144.78" x2="233.68" y2="144.78" width="0.1524" layer="91"/>
 <label x="238.76" y="144.78" size="1.778" layer="95" ratio="10" xref="yes"/>
-<pinref part="R15" gate="G$1" pin="1"/>
+<pinref part="R38" gate="G$1" pin="1"/>
 <wire x1="233.68" y1="144.78" x2="238.76" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="137.16" x2="213.36" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="137.16" x2="213.36" y2="142.24" width="0.1524" layer="91"/>
@@ -8285,7 +8830,7 @@ PSK: Q=5 / Fc=71.8k</text>
 <junction x="233.68" y="144.78"/>
 </segment>
 <segment>
-<pinref part="C46" gate="G$1" pin="2"/>
+<pinref part="C29" gate="G$1" pin="2"/>
 <wire x1="109.22" y1="58.42" x2="109.22" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="45.72" x2="119.38" y2="45.72" width="0.1524" layer="91"/>
 <label x="119.38" y="45.72" size="1.778" layer="95" xref="yes"/>
@@ -8293,8 +8838,8 @@ PSK: Q=5 / Fc=71.8k</text>
 </net>
 <net name="N$27" class="0">
 <segment>
-<pinref part="R18" gate="G$1" pin="1"/>
-<pinref part="C27" gate="G$1" pin="2"/>
+<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="C23" gate="G$1" pin="2"/>
 <wire x1="38.1" y1="71.12" x2="38.1" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="C" pin="-IN"/>
 <wire x1="38.1" y1="66.04" x2="40.64" y2="66.04" width="0.1524" layer="91"/>
@@ -8303,22 +8848,22 @@ PSK: Q=5 / Fc=71.8k</text>
 </net>
 <net name="N$63" class="0">
 <segment>
-<pinref part="R21" gate="G$1" pin="2"/>
-<pinref part="C44" gate="G$1" pin="1"/>
-<pinref part="R22" gate="G$1" pin="2"/>
+<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="C20" gate="G$1" pin="1"/>
+<pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="30.48" y1="27.94" x2="30.48" y2="22.86" width="0.1524" layer="91"/>
 <junction x="30.48" y="27.94"/>
 <wire x1="33.02" y1="27.94" x2="30.48" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="R48" gate="G$1" pin="1"/>
+<pinref part="R13" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="43.18" x2="30.48" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="43.18" x2="30.48" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$64" class="0">
 <segment>
-<pinref part="R22" gate="G$1" pin="1"/>
+<pinref part="R14" gate="G$1" pin="1"/>
 <wire x1="43.18" y1="27.94" x2="48.26" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="C45" gate="G$1" pin="1"/>
+<pinref part="C24" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="27.94" x2="48.26" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="D" pin="-IN"/>
 <wire x1="53.34" y1="27.94" x2="48.26" y2="27.94" width="0.1524" layer="91"/>
@@ -8329,30 +8874,30 @@ PSK: Q=5 / Fc=71.8k</text>
 <segment>
 <wire x1="83.82" y1="25.4" x2="91.44" y2="25.4" width="0.1524" layer="91"/>
 <label x="91.44" y="25.4" size="1.778" layer="95" rot="MR0"/>
-<pinref part="R45" gate="G$1" pin="2"/>
+<pinref part="R19" gate="G$1" pin="2"/>
 <junction x="83.82" y="25.4"/>
-<pinref part="R59" gate="G$1" pin="2"/>
+<pinref part="R18" gate="G$1" pin="2"/>
 <wire x1="81.28" y1="25.4" x2="83.82" y2="25.4" width="0.1524" layer="91"/>
 <junction x="83.82" y="25.4"/>
 </segment>
 </net>
 <net name="N$69" class="0">
 <segment>
-<pinref part="C46" gate="G$1" pin="1"/>
-<pinref part="R51" gate="G$1" pin="1"/>
+<pinref part="C29" gate="G$1" pin="1"/>
+<pinref part="R21" gate="G$1" pin="1"/>
 <wire x1="109.22" y1="66.04" x2="109.22" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="71.12" x2="111.76" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$71" class="0">
 <segment>
-<pinref part="C48" gate="G$1" pin="1"/>
-<pinref part="R53" gate="G$1" pin="2"/>
+<pinref part="C31" gate="G$1" pin="1"/>
+<pinref part="R27" gate="G$1" pin="2"/>
 <wire x1="139.7" y1="81.28" x2="144.78" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="81.28" x2="170.18" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="81.28" x2="170.18" y2="68.58" width="0.1524" layer="91"/>
 <junction x="144.78" y="81.28"/>
-<pinref part="C49" gate="G$1" pin="1"/>
+<pinref part="C35" gate="G$1" pin="1"/>
 <wire x1="170.18" y1="68.58" x2="177.8" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="B" pin="OUT"/>
 <wire x1="165.1" y1="68.58" x2="170.18" y2="68.58" width="0.1524" layer="91"/>
@@ -8361,8 +8906,8 @@ PSK: Q=5 / Fc=71.8k</text>
 </net>
 <net name="N$72" class="0">
 <segment>
-<pinref part="C47" gate="G$1" pin="1"/>
-<pinref part="R53" gate="G$1" pin="1"/>
+<pinref part="C32" gate="G$1" pin="1"/>
+<pinref part="R27" gate="G$1" pin="1"/>
 <wire x1="139.7" y1="71.12" x2="144.78" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="B" pin="-IN"/>
 <wire x1="144.78" y1="71.12" x2="149.86" y2="71.12" width="0.1524" layer="91"/>
@@ -8371,22 +8916,22 @@ PSK: Q=5 / Fc=71.8k</text>
 </net>
 <net name="N$74" class="0">
 <segment>
-<pinref part="C51" gate="G$1" pin="2"/>
+<pinref part="C44" gate="G$1" pin="2"/>
 <wire x1="208.28" y1="68.58" x2="205.74" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="R54" gate="G$1" pin="1"/>
-<pinref part="R55" gate="G$1" pin="2"/>
+<pinref part="R35" gate="G$1" pin="1"/>
+<pinref part="R39" gate="G$1" pin="2"/>
 <wire x1="205.74" y1="68.58" x2="200.66" y2="68.58" width="0.1524" layer="91"/>
 <junction x="205.74" y="68.58"/>
 <wire x1="205.74" y1="68.58" x2="205.74" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="C50" gate="G$1" pin="2"/>
+<pinref part="C43" gate="G$1" pin="2"/>
 <wire x1="205.74" y1="81.28" x2="208.28" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$75" class="0">
 <segment>
-<pinref part="R56" gate="G$1" pin="2"/>
+<pinref part="R41" gate="G$1" pin="2"/>
 <wire x1="223.52" y1="71.12" x2="223.52" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="C51" gate="G$1" pin="1"/>
+<pinref part="C44" gate="G$1" pin="1"/>
 <wire x1="223.52" y1="68.58" x2="215.9" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="68.58" x2="223.52" y2="68.58" width="0.1524" layer="91"/>
 <junction x="223.52" y="68.58"/>
@@ -8395,8 +8940,8 @@ PSK: Q=5 / Fc=71.8k</text>
 </net>
 <net name="FSK-PSK" class="0">
 <segment>
-<pinref part="R60" gate="G$1" pin="2"/>
-<pinref part="R61" gate="G$1" pin="2"/>
+<pinref part="R28" gate="G$1" pin="2"/>
+<pinref part="R26" gate="G$1" pin="2"/>
 <wire x1="142.24" y1="35.56" x2="139.7" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="35.56" x2="132.08" y2="35.56" width="0.1524" layer="91"/>
 <junction x="139.7" y="35.56"/>
@@ -8428,10 +8973,10 @@ PSK: Q=5 / Fc=71.8k</text>
 <wire x1="40.64" y1="60.96" x2="38.1" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="R16" gate="G$1" pin="2"/>
 <pinref part="P+7" gate="1" pin="V+"/>
 <wire x1="66.04" y1="157.48" x2="66.04" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="C17" gate="G$1" pin="1"/>
+<pinref part="C25" gate="G$1" pin="1"/>
 <wire x1="66.04" y1="162.56" x2="66.04" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="160.02" x2="53.34" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="162.56" x2="66.04" y2="162.56" width="0.1524" layer="91"/>
@@ -8445,7 +8990,7 @@ PSK: Q=5 / Fc=71.8k</text>
 </segment>
 <segment>
 <pinref part="P+1" gate="1" pin="V+"/>
-<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="R29" gate="G$1" pin="2"/>
 <wire x1="172.72" y1="142.24" x2="172.72" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -8456,31 +9001,31 @@ PSK: Q=5 / Fc=71.8k</text>
 </segment>
 <segment>
 <pinref part="P+18" gate="1" pin="V+"/>
-<pinref part="R49" gate="G$1" pin="1"/>
+<pinref part="R36" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="27.94" x2="198.12" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R52" gate="G$1" pin="1"/>
+<pinref part="R23" gate="G$1" pin="1"/>
 <pinref part="P+19" gate="1" pin="V+"/>
 <wire x1="127" y1="55.88" x2="127" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+20" gate="1" pin="V+"/>
-<pinref part="R55" gate="G$1" pin="1"/>
+<pinref part="R39" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="55.88" x2="205.74" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$40" class="0">
 <segment>
-<pinref part="R56" gate="G$1" pin="1"/>
-<pinref part="C50" gate="G$1" pin="1"/>
+<pinref part="R41" gate="G$1" pin="1"/>
+<pinref part="C43" gate="G$1" pin="1"/>
 <wire x1="223.52" y1="81.28" x2="215.9" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="81.28" x2="246.38" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="81.28" x2="246.38" y2="66.04" width="0.1524" layer="91"/>
 <junction x="223.52" y="81.28"/>
 <pinref part="IC2" gate="C" pin="OUT"/>
 <wire x1="246.38" y1="66.04" x2="243.84" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="C19" gate="G$1" pin="2"/>
+<pinref part="C45" gate="G$1" pin="2"/>
 <wire x1="226.06" y1="38.1" x2="246.38" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="38.1" x2="246.38" y2="66.04" width="0.1524" layer="91"/>
 <junction x="246.38" y="66.04"/>
@@ -8490,10 +9035,10 @@ PSK: Q=5 / Fc=71.8k</text>
 <segment>
 <wire x1="48.26" y1="43.18" x2="71.12" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="43.18" x2="71.12" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="C45" gate="G$1" pin="2"/>
+<pinref part="C24" gate="G$1" pin="2"/>
 <wire x1="48.26" y1="40.64" x2="48.26" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="R59" gate="G$1" pin="1"/>
-<pinref part="R48" gate="G$1" pin="2"/>
+<pinref part="R18" gate="G$1" pin="1"/>
+<pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="43.18" x2="48.26" y2="43.18" width="0.1524" layer="91"/>
 <junction x="48.26" y="43.18"/>
 <pinref part="IC1" gate="D" pin="OUT"/>
@@ -8503,44 +9048,44 @@ PSK: Q=5 / Fc=71.8k</text>
 </net>
 <net name="N$49" class="0">
 <segment>
-<pinref part="R62" gate="G$1" pin="2"/>
+<pinref part="R24" gate="G$1" pin="2"/>
 <wire x1="134.62" y1="99.06" x2="134.62" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="109.22" x2="134.62" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="109.22" x2="134.62" y2="104.14" width="0.1524" layer="91"/>
 <junction x="134.62" y="104.14"/>
-<pinref part="C53" gate="G$1" pin="1"/>
+<pinref part="C34" gate="G$1" pin="1"/>
 <wire x1="139.7" y1="99.06" x2="134.62" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="P" pin="V+"/>
 </segment>
 </net>
 <net name="N$57" class="0">
 <segment>
-<pinref part="R63" gate="G$1" pin="2"/>
+<pinref part="R33" gate="G$1" pin="2"/>
 <wire x1="198.12" y1="99.06" x2="198.12" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="109.22" x2="198.12" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="109.22" x2="198.12" y2="104.14" width="0.1524" layer="91"/>
 <junction x="198.12" y="104.14"/>
-<pinref part="C52" gate="G$1" pin="1"/>
+<pinref part="C42" gate="G$1" pin="1"/>
 <wire x1="208.28" y1="99.06" x2="198.12" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="P" pin="V+"/>
 </segment>
 </net>
 <net name="N$48" class="0">
 <segment>
-<pinref part="R64" gate="G$1" pin="1"/>
+<pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="154.94" x2="30.48" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="C57" gate="G$1" pin="1"/>
+<pinref part="C21" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="157.48" x2="38.1" y2="157.48" width="0.1524" layer="91"/>
 <junction x="30.48" y="157.48"/>
-<pinref part="Q9" gate="G$1" pin="C"/>
+<pinref part="Q2" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="C15" gate="G$1" pin="2"/>
-<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="C27" gate="G$1" pin="2"/>
+<pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="66.04" y1="137.16" x2="66.04" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="R50" gate="G$1" pin="2"/>
+<pinref part="R17" gate="G$1" pin="2"/>
 <wire x1="66.04" y1="142.24" x2="66.04" y2="147.32" width="0.1524" layer="91"/>
 <junction x="66.04" y="142.24"/>
 </segment>
@@ -8554,30 +9099,30 @@ PSK: Q=5 / Fc=71.8k</text>
 <wire x1="104.14" y1="129.54" x2="104.14" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="A" pin="OUT"/>
 <wire x1="104.14" y1="139.7" x2="99.06" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R20" gate="G$1" pin="1"/>
 <wire x1="104.14" y1="139.7" x2="111.76" y2="139.7" width="0.1524" layer="91"/>
 <junction x="104.14" y="139.7"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="2"/>
-<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="R20" gate="G$1" pin="2"/>
+<pinref part="R25" gate="G$1" pin="1"/>
 <wire x1="121.92" y1="139.7" x2="124.46" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="C16" gate="G$1" pin="1"/>
+<pinref part="C30" gate="G$1" pin="1"/>
 <wire x1="124.46" y1="139.7" x2="127" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="134.62" x2="124.46" y2="139.7" width="0.1524" layer="91"/>
 <junction x="124.46" y="139.7"/>
-<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="R22" gate="G$1" pin="2"/>
 <wire x1="124.46" y1="142.24" x2="124.46" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="R25" gate="G$1" pin="2"/>
 <pinref part="IC1" gate="B" pin="-IN"/>
 <wire x1="137.16" y1="139.7" x2="139.7" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="C18" gate="G$1" pin="2"/>
+<pinref part="C33" gate="G$1" pin="2"/>
 <wire x1="139.7" y1="139.7" x2="142.24" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="144.78" x2="139.7" y2="139.7" width="0.1524" layer="91"/>
 <junction x="139.7" y="139.7"/>
@@ -8585,14 +9130,14 @@ PSK: Q=5 / Fc=71.8k</text>
 </net>
 <net name="ASK-OUT" class="0">
 <segment>
-<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="R22" gate="G$1" pin="1"/>
 <wire x1="124.46" y1="152.4" x2="124.46" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="154.94" x2="139.7" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="154.94" x2="162.56" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="154.94" x2="162.56" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="B" pin="OUT"/>
 <wire x1="162.56" y1="137.16" x2="157.48" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="C18" gate="G$1" pin="1"/>
+<pinref part="C33" gate="G$1" pin="1"/>
 <wire x1="139.7" y1="152.4" x2="139.7" y2="154.94" width="0.1524" layer="91"/>
 <junction x="139.7" y="154.94"/>
 <wire x1="162.56" y1="137.16" x2="162.56" y2="124.46" width="0.1524" layer="91"/>
@@ -8600,106 +9145,106 @@ PSK: Q=5 / Fc=71.8k</text>
 <junction x="162.56" y="137.16"/>
 <label x="157.48" y="124.46" size="1.778" layer="95" rot="R180" xref="yes"/>
 <wire x1="170.18" y1="124.46" x2="170.18" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="C22" gate="G$1" pin="2"/>
+<pinref part="C36" gate="G$1" pin="2"/>
 <wire x1="170.18" y1="137.16" x2="170.18" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="124.46" x2="170.18" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="R30" gate="G$1" pin="1"/>
 <wire x1="170.18" y1="152.4" x2="175.26" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="137.16" x2="170.18" y2="137.16" width="0.1524" layer="91"/>
 <junction x="170.18" y="137.16"/>
 </segment>
 <segment>
-<pinref part="C26" gate="G$1" pin="2"/>
+<pinref part="C18" gate="G$1" pin="2"/>
 <wire x1="10.16" y1="78.74" x2="10.16" y2="83.82" width="0.1524" layer="91"/>
 <label x="10.16" y="83.82" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="R46" gate="G$1" pin="2"/>
-<pinref part="Q9" gate="G$1" pin="E"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="Q2" gate="G$1" pin="E"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="R12" gate="G$1" pin="2"/>
-<pinref part="C21" gate="G$1" pin="2"/>
+<pinref part="R32" gate="G$1" pin="2"/>
+<pinref part="C37" gate="G$1" pin="2"/>
 <wire x1="185.42" y1="137.16" x2="185.42" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="R13" gate="G$1" pin="2"/>
-<pinref part="C20" gate="G$1" pin="2"/>
+<pinref part="R34" gate="G$1" pin="2"/>
+<pinref part="C40" gate="G$1" pin="2"/>
 <wire x1="195.58" y1="137.16" x2="195.58" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="137.16" x2="195.58" y2="137.16" width="0.1524" layer="91"/>
 <junction x="185.42" y="137.16"/>
 <junction x="195.58" y="137.16"/>
-<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="R29" gate="G$1" pin="1"/>
 <wire x1="182.88" y1="137.16" x2="185.42" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="R15" gate="G$1" pin="2"/>
+<pinref part="R38" gate="G$1" pin="2"/>
 <wire x1="195.58" y1="137.16" x2="198.12" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
-<pinref part="R17" gate="G$1" pin="2"/>
-<pinref part="C26" gate="G$1" pin="1"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="C18" gate="G$1" pin="1"/>
 <wire x1="10.16" y1="71.12" x2="10.16" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="66.04" x2="12.7" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="R18" gate="G$1" pin="2"/>
-<pinref part="R17" gate="G$1" pin="1"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="66.04" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="C25" gate="G$1" pin="1"/>
+<pinref part="C19" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="66.04" x2="22.86" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="60.96" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
 <junction x="25.4" y="66.04"/>
 <wire x1="25.4" y1="66.04" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="R19" gate="G$1" pin="2"/>
+<pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="25.4" y1="83.82" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ASK_MID" class="0">
 <segment>
-<pinref part="C28" gate="G$1" pin="2"/>
+<pinref part="C26" gate="G$1" pin="2"/>
 <wire x1="68.58" y1="63.5" x2="73.66" y2="63.5" width="0.1524" layer="91"/>
 <label x="73.66" y="63.5" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R21" gate="G$1" pin="1"/>
+<pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="20.32" y1="27.94" x2="17.78" y2="27.94" width="0.1524" layer="91"/>
 <label x="17.78" y="27.94" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$24" class="0">
 <segment>
-<pinref part="R60" gate="G$1" pin="1"/>
+<pinref part="R28" gate="G$1" pin="1"/>
 <pinref part="IC2" gate="D" pin="OUT"/>
 <wire x1="165.1" y1="35.56" x2="160.02" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="C29" gate="G$1" pin="1"/>
+<pinref part="C38" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="35.56" x2="152.4" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="53.34" x2="182.88" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="53.34" x2="160.02" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="53.34" x2="160.02" y2="35.56" width="0.1524" layer="91"/>
 <junction x="160.02" y="35.56"/>
-<pinref part="R20" gate="G$1" pin="1"/>
+<pinref part="R31" gate="G$1" pin="1"/>
 <wire x1="182.88" y1="50.8" x2="182.88" y2="53.34" width="0.1524" layer="91"/>
 <junction x="182.88" y="53.34"/>
 </segment>
 </net>
 <net name="N$25" class="0">
 <segment>
-<pinref part="C49" gate="G$1" pin="2"/>
-<pinref part="R54" gate="G$1" pin="2"/>
+<pinref part="C35" gate="G$1" pin="2"/>
+<pinref part="R35" gate="G$1" pin="2"/>
 <wire x1="185.42" y1="68.58" x2="190.5" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$26" class="0">
 <segment>
 <pinref part="IC2" gate="D" pin="-IN"/>
-<pinref part="C24" gate="G$1" pin="1"/>
+<pinref part="C39" gate="G$1" pin="1"/>
 <wire x1="180.34" y1="38.1" x2="182.88" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="R20" gate="G$1" pin="2"/>
+<pinref part="R31" gate="G$1" pin="2"/>
 <wire x1="182.88" y1="38.1" x2="187.96" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="38.1" x2="182.88" y2="40.64" width="0.1524" layer="91"/>
 <junction x="182.88" y="38.1"/>
@@ -8707,32 +9252,32 @@ PSK: Q=5 / Fc=71.8k</text>
 </net>
 <net name="N$29" class="0">
 <segment>
-<pinref part="C29" gate="G$1" pin="2"/>
+<pinref part="C38" gate="G$1" pin="2"/>
 <wire x1="195.58" y1="53.34" x2="198.12" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="53.34" x2="198.12" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="C24" gate="G$1" pin="2"/>
+<pinref part="C39" gate="G$1" pin="2"/>
 <wire x1="198.12" y1="38.1" x2="195.58" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="R16" gate="G$1" pin="2"/>
+<pinref part="R40" gate="G$1" pin="2"/>
 <wire x1="198.12" y1="38.1" x2="205.74" y2="38.1" width="0.1524" layer="91"/>
 <junction x="198.12" y="38.1"/>
-<pinref part="R49" gate="G$1" pin="2"/>
+<pinref part="R36" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$30" class="0">
 <segment>
-<pinref part="R16" gate="G$1" pin="1"/>
-<pinref part="C19" gate="G$1" pin="1"/>
+<pinref part="R40" gate="G$1" pin="1"/>
+<pinref part="C45" gate="G$1" pin="1"/>
 <wire x1="215.9" y1="38.1" x2="218.44" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$56" class="0">
 <segment>
-<pinref part="R19" gate="G$1" pin="1"/>
+<pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="83.82" x2="58.42" y2="83.82" width="0.1524" layer="91"/>
 <junction x="38.1" y="83.82"/>
-<pinref part="C27" gate="G$1" pin="1"/>
+<pinref part="C23" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="78.74" x2="38.1" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="C28" gate="G$1" pin="1"/>
+<pinref part="C26" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="63.5" x2="58.42" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="83.82" x2="58.42" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="C" pin="OUT"/>
@@ -8742,14 +9287,14 @@ PSK: Q=5 / Fc=71.8k</text>
 </net>
 <net name="N$28" class="0">
 <segment>
-<pinref part="R51" gate="G$1" pin="2"/>
-<pinref part="C47" gate="G$1" pin="2"/>
+<pinref part="R21" gate="G$1" pin="2"/>
+<pinref part="C32" gate="G$1" pin="2"/>
 <wire x1="121.92" y1="71.12" x2="127" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="R52" gate="G$1" pin="2"/>
+<pinref part="R23" gate="G$1" pin="2"/>
 <wire x1="127" y1="71.12" x2="132.08" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="127" y1="68.58" x2="127" y2="71.12" width="0.1524" layer="91"/>
 <junction x="127" y="71.12"/>
-<pinref part="C48" gate="G$1" pin="2"/>
+<pinref part="C31" gate="G$1" pin="2"/>
 <wire x1="132.08" y1="81.28" x2="127" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="127" y1="71.12" x2="127" y2="81.28" width="0.1524" layer="91"/>
 </segment>
@@ -8757,13 +9302,13 @@ PSK: Q=5 / Fc=71.8k</text>
 <net name="N$58" class="0">
 <segment>
 <pinref part="IC1" gate="A" pin="+IN"/>
-<pinref part="R50" gate="G$1" pin="1"/>
+<pinref part="R17" gate="G$1" pin="1"/>
 <wire x1="76.2" y1="142.24" x2="83.82" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="125KHZ" class="0">
 <segment>
-<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="10.16" y1="114.3" x2="10.16" y2="127" width="0.1524" layer="91"/>
 <label x="7.62" y="127" size="1.778" layer="95" rot="R270"/>
 </segment>
@@ -8799,6 +9344,8 @@ PSK: Q=5 / Fc=71.8k</text>
 <attribute name="PASSIVO" x="218.44" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="218.44" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="218.44" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="218.44" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="218.44" y="132.08" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U4" gate="B" x="66.04" y="48.26"/>
 <instance part="U4" gate="A" x="83.82" y="137.16" rot="MR0"/>
@@ -8809,36 +9356,48 @@ PSK: Q=5 / Fc=71.8k</text>
 <attribute name="PASSIVO" x="160.02" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="160.02" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="160.02" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="160.02" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="160.02" y="149.86" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="L3" gate="G$1" x="160.02" y="121.92">
+<instance part="L2" gate="G$1" x="160.02" y="121.92">
 <attribute name="CUSTOMERPN" x="160.02" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="160.02" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="160.02" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="160.02" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="160.02" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="160.02" y="121.92" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C10" gate="G$1" x="170.18" y="116.84">
+<instance part="C53" gate="G$1" x="170.18" y="116.84">
 <attribute name="CUSTOMERPN" x="170.18" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="170.18" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="170.18" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="170.18" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="170.18" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="170.18" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C11" gate="G$1" x="170.18" y="144.78">
+<instance part="C52" gate="G$1" x="170.18" y="144.78">
 <attribute name="CUSTOMERPN" x="170.18" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="170.18" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="170.18" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="170.18" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="170.18" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="170.18" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C30" gate="G$1" x="149.86" y="144.78">
+<instance part="C49" gate="G$1" x="149.86" y="144.78">
 <attribute name="CUSTOMERPN" x="149.86" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="149.86" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="149.86" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="149.86" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="149.86" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="149.86" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C31" gate="G$1" x="149.86" y="116.84">
+<instance part="C50" gate="G$1" x="149.86" y="116.84">
 <attribute name="CUSTOMERPN" x="149.86" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="149.86" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="149.86" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="149.86" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="149.86" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="149.86" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V6" gate="G$1" x="142.24" y="154.94"/>
 <instance part="+3V7" gate="G$1" x="142.24" y="127"/>
@@ -8846,35 +9405,43 @@ PSK: Q=5 / Fc=71.8k</text>
 <instance part="GND39" gate="1" x="149.86" y="134.62"/>
 <instance part="GND40" gate="1" x="170.18" y="106.68"/>
 <instance part="GND41" gate="1" x="149.86" y="106.68"/>
-<instance part="C32" gate="G$1" x="200.66" y="160.02">
+<instance part="C58" gate="G$1" x="200.66" y="160.02">
 <attribute name="CUSTOMERPN" x="200.66" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="200.66" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="200.66" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="200.66" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="200.66" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="200.66" y="160.02" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C33" gate="G$1" x="213.36" y="160.02">
+<instance part="C61" gate="G$1" x="213.36" y="160.02">
 <attribute name="CUSTOMERPN" x="213.36" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="213.36" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="213.36" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="213.36" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="213.36" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="213.36" y="160.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND42" gate="1" x="200.66" y="152.4"/>
 <instance part="GND43" gate="1" x="213.36" y="152.4"/>
-<instance part="C5" gate="G$1" x="38.1" y="149.86" smashed="yes" rot="R270">
+<instance part="C46" gate="G$1" x="38.1" y="149.86" smashed="yes" rot="R270">
 <attribute name="NAME" x="33.528" y="153.035" size="1.778" layer="95"/>
 <attribute name="VALUE" x="34.544" y="145.161" size="1.778" layer="96"/>
 <attribute name="CUSTOMERPN" x="38.1" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="38.1" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="38.1" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="38.1" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="38.1" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="38.1" y="149.86" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C9" gate="G$1" x="38.1" y="124.46" smashed="yes" rot="R270">
+<instance part="C47" gate="G$1" x="38.1" y="124.46" smashed="yes" rot="R270">
 <attribute name="NAME" x="34.036" y="127.635" size="1.778" layer="95"/>
 <attribute name="VALUE" x="33.782" y="118.999" size="1.778" layer="96"/>
 <attribute name="CUSTOMERPN" x="38.1" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="38.1" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="38.1" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="38.1" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="38.1" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="38.1" y="124.46" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND13" gate="1" x="53.34" y="137.16" rot="R90"/>
 <instance part="GND14" gate="1" x="25.4" y="137.16" rot="R270"/>
@@ -8883,115 +9450,149 @@ PSK: Q=5 / Fc=71.8k</text>
 </instance>
 <instance part="GND15" gate="1" x="40.64" y="58.42" rot="R270"/>
 <instance part="GND44" gate="1" x="40.64" y="43.18" rot="R270"/>
-<instance part="C34" gate="G$1" x="182.88" y="71.12">
+<instance part="C54" gate="G$1" x="182.88" y="71.12">
 <attribute name="CUSTOMERPN" x="182.88" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="182.88" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="182.88" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="182.88" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="182.88" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="182.88" y="71.12" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C35" gate="G$1" x="182.88" y="58.42">
+<instance part="C55" gate="G$1" x="182.88" y="58.42">
 <attribute name="CUSTOMERPN" x="182.88" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="182.88" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="182.88" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="182.88" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="182.88" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="182.88" y="58.42" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C36" gate="G$1" x="198.12" y="78.74" rot="R270">
+<instance part="C56" gate="G$1" x="198.12" y="78.74" rot="R270">
 <attribute name="CUSTOMERPN" x="198.12" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="198.12" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="198.12" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="198.12" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="198.12" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="198.12" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C37" gate="G$1" x="198.12" y="48.26" rot="R270">
+<instance part="C57" gate="G$1" x="198.12" y="48.26" rot="R270">
 <attribute name="CUSTOMERPN" x="198.12" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="198.12" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="198.12" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="198.12" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="198.12" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="198.12" y="48.26" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C38" gate="G$1" x="210.82" y="58.42">
+<instance part="C60" gate="G$1" x="210.82" y="58.42">
 <attribute name="CUSTOMERPN" x="210.82" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="210.82" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="210.82" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="210.82" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="210.82" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="210.82" y="58.42" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C39" gate="G$1" x="210.82" y="71.12">
+<instance part="C59" gate="G$1" x="210.82" y="71.12">
 <attribute name="CUSTOMERPN" x="210.82" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="210.82" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="210.82" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="210.82" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="210.82" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="210.82" y="71.12" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="L5" gate="G$1" x="172.72" y="48.26">
+<instance part="L4" gate="G$1" x="172.72" y="48.26">
 <attribute name="CUSTOMERPN" x="172.72" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="172.72" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="172.72" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="172.72" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="172.72" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="172.72" y="48.26" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="L4" gate="G$1" x="172.72" y="78.74">
+<instance part="L3" gate="G$1" x="172.72" y="78.74">
 <attribute name="CUSTOMERPN" x="172.72" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="172.72" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="172.72" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="172.72" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="172.72" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="172.72" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R24" gate="G$1" x="223.52" y="78.74">
+<instance part="R46" gate="G$1" x="223.52" y="78.74">
 <attribute name="CUSTOMERPN" x="223.52" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="223.52" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="223.52" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="223.52" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="223.52" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="223.52" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R25" gate="G$1" x="223.52" y="48.26">
+<instance part="R47" gate="G$1" x="223.52" y="48.26">
 <attribute name="CUSTOMERPN" x="223.52" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="223.52" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="223.52" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="223.52" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="223.52" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="223.52" y="48.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND45" gate="1" x="198.12" y="60.96"/>
-<instance part="R1" gate="G$1" x="88.9" y="68.58" rot="R90">
+<instance part="R43" gate="G$1" x="88.9" y="68.58" rot="R90">
 <attribute name="CUSTOMERPN" x="88.9" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="88.9" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="88.9" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="88.9" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="88.9" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="88.9" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V9" gate="G$1" x="88.9" y="81.28"/>
 <instance part="+3V8" gate="G$1" x="193.04" y="170.18"/>
-<instance part="R2" gate="G$1" x="20.32" y="48.26" rot="R90">
+<instance part="R42" gate="G$1" x="20.32" y="48.26" rot="R90">
 <attribute name="CUSTOMERPN" x="20.32" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="20.32" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="20.32" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="20.32" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="20.32" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="20.32" y="48.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V10" gate="G$1" x="20.32" y="60.96"/>
-<instance part="R26" gate="G$1" x="175.26" y="35.56" rot="R180">
+<instance part="R45" gate="G$1" x="175.26" y="35.56" rot="R180">
 <attribute name="CUSTOMERPN" x="175.26" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="175.26" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="175.26" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="175.26" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="175.26" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="175.26" y="35.56" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C40" gate="G$1" x="165.1" y="35.56" rot="R270">
+<instance part="C51" gate="G$1" x="165.1" y="35.56" rot="R270">
 <attribute name="CUSTOMERPN" x="165.1" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="165.1" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="165.1" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="165.1" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="165.1" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="165.1" y="35.56" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R27" gate="G$1" x="93.98" y="38.1" rot="R180">
+<instance part="R44" gate="G$1" x="93.98" y="38.1" rot="R180">
 <attribute name="CUSTOMERPN" x="93.98" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="93.98" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="93.98" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="93.98" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="93.98" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="93.98" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C41" gate="G$1" x="86.36" y="33.02">
+<instance part="C48" gate="G$1" x="86.36" y="33.02">
 <attribute name="CUSTOMERPN" x="86.36" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="86.36" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="86.36" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="86.36" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="86.36" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="86.36" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND46" gate="1" x="86.36" y="22.86"/>
 <instance part="+3V17" gate="G$1" x="241.3" y="152.4"/>
-<instance part="X1" gate="-1" x="243.84" y="66.04">
+<instance part="X2" gate="-1" x="243.84" y="66.04">
 <attribute name="CUSTOMERPN" x="243.84" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="243.84" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="243.84" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="243.84" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="243.84" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="243.84" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="X1" gate="-2" x="243.84" y="63.5"/>
+<instance part="X2" gate="-2" x="243.84" y="63.5"/>
 <instance part="QZ2" gate="G$1" x="43.18" y="137.16" smashed="yes" rot="R90">
 <attribute name="NAME" x="41.656" y="141.732" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="56.388" y="133.604" size="1.778" layer="96" rot="R180"/>
@@ -8999,6 +9600,8 @@ PSK: Q=5 / Fc=71.8k</text>
 <attribute name="PASSIVO" x="43.18" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="43.18" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="43.18" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="43.18" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="43.18" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -9010,7 +9613,7 @@ PSK: Q=5 / Fc=71.8k</text>
 <wire x1="142.24" y1="152.4" x2="142.24" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="L1" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="149.86" x2="149.86" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="C30" gate="G$1" pin="1"/>
+<pinref part="C49" gate="G$1" pin="1"/>
 <wire x1="149.86" y1="149.86" x2="154.94" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="147.32" x2="149.86" y2="149.86" width="0.1524" layer="91"/>
 <junction x="149.86" y="149.86"/>
@@ -9018,8 +9621,8 @@ PSK: Q=5 / Fc=71.8k</text>
 <segment>
 <pinref part="+3V7" gate="G$1" pin="+3V3"/>
 <wire x1="142.24" y1="124.46" x2="142.24" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="L3" gate="G$1" pin="1"/>
-<pinref part="C31" gate="G$1" pin="1"/>
+<pinref part="L2" gate="G$1" pin="1"/>
+<pinref part="C50" gate="G$1" pin="1"/>
 <wire x1="154.94" y1="121.92" x2="149.86" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="121.92" x2="149.86" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="121.92" x2="149.86" y2="121.92" width="0.1524" layer="91"/>
@@ -9031,7 +9634,7 @@ PSK: Q=5 / Fc=71.8k</text>
 <wire x1="81.28" y1="55.88" x2="83.82" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R43" gate="G$1" pin="2"/>
 <pinref part="+3V9" gate="G$1" pin="+3V3"/>
 <wire x1="88.9" y1="73.66" x2="88.9" y2="78.74" width="0.1524" layer="91"/>
 </segment>
@@ -9043,10 +9646,10 @@ PSK: Q=5 / Fc=71.8k</text>
 <wire x1="193.04" y1="142.24" x2="193.04" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="142.24" x2="193.04" y2="142.24" width="0.1524" layer="91"/>
 <junction x="193.04" y="142.24"/>
-<pinref part="C33" gate="G$1" pin="1"/>
+<pinref part="C61" gate="G$1" pin="1"/>
 <wire x1="213.36" y1="162.56" x2="213.36" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="165.1" x2="200.66" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="C32" gate="G$1" pin="1"/>
+<pinref part="C58" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="165.1" x2="193.04" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="162.56" x2="200.66" y2="165.1" width="0.1524" layer="91"/>
 <junction x="200.66" y="165.1"/>
@@ -9055,7 +9658,7 @@ PSK: Q=5 / Fc=71.8k</text>
 <junction x="193.04" y="165.1"/>
 </segment>
 <segment>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R42" gate="G$1" pin="2"/>
 <pinref part="+3V10" gate="G$1" pin="+3V3"/>
 <wire x1="20.32" y1="53.34" x2="20.32" y2="58.42" width="0.1524" layer="91"/>
 </segment>
@@ -9075,41 +9678,41 @@ PSK: Q=5 / Fc=71.8k</text>
 </segment>
 <segment>
 <pinref part="GND39" gate="1" pin="GND"/>
-<pinref part="C30" gate="G$1" pin="2"/>
+<pinref part="C49" gate="G$1" pin="2"/>
 <wire x1="149.86" y1="137.16" x2="149.86" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND38" gate="1" pin="GND"/>
-<pinref part="C11" gate="G$1" pin="2"/>
+<pinref part="C52" gate="G$1" pin="2"/>
 <wire x1="170.18" y1="137.16" x2="170.18" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND41" gate="1" pin="GND"/>
-<pinref part="C31" gate="G$1" pin="2"/>
+<pinref part="C50" gate="G$1" pin="2"/>
 <wire x1="149.86" y1="109.22" x2="149.86" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND40" gate="1" pin="GND"/>
-<pinref part="C10" gate="G$1" pin="2"/>
+<pinref part="C53" gate="G$1" pin="2"/>
 <wire x1="170.18" y1="109.22" x2="170.18" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C32" gate="G$1" pin="2"/>
+<pinref part="C58" gate="G$1" pin="2"/>
 <pinref part="GND42" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C33" gate="G$1" pin="2"/>
+<pinref part="C61" gate="G$1" pin="2"/>
 <pinref part="GND43" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND14" gate="1" pin="GND"/>
 <wire x1="38.1" y1="137.16" x2="30.48" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="C46" gate="G$1" pin="2"/>
 <wire x1="30.48" y1="137.16" x2="27.94" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="149.86" x2="30.48" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="149.86" x2="30.48" y2="137.16" width="0.1524" layer="91"/>
 <junction x="30.48" y="137.16"/>
-<pinref part="C9" gate="G$1" pin="2"/>
+<pinref part="C47" gate="G$1" pin="2"/>
 <wire x1="33.02" y1="124.46" x2="30.48" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="124.46" x2="30.48" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="QZ2" gate="G$1" pin="GND@2"/>
@@ -9138,11 +9741,11 @@ PSK: Q=5 / Fc=71.8k</text>
 <wire x1="43.18" y1="43.18" x2="45.72" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C38" gate="G$1" pin="1"/>
-<pinref part="C39" gate="G$1" pin="2"/>
+<pinref part="C60" gate="G$1" pin="1"/>
+<pinref part="C59" gate="G$1" pin="2"/>
 <wire x1="210.82" y1="60.96" x2="210.82" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="C35" gate="G$1" pin="1"/>
-<pinref part="C34" gate="G$1" pin="2"/>
+<pinref part="C55" gate="G$1" pin="1"/>
+<pinref part="C54" gate="G$1" pin="2"/>
 <wire x1="210.82" y1="63.5" x2="210.82" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="60.96" x2="182.88" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="63.5" x2="182.88" y2="66.04" width="0.1524" layer="91"/>
@@ -9155,7 +9758,7 @@ PSK: Q=5 / Fc=71.8k</text>
 </segment>
 <segment>
 <pinref part="GND46" gate="1" pin="GND"/>
-<pinref part="C41" gate="G$1" pin="2"/>
+<pinref part="C48" gate="G$1" pin="2"/>
 <wire x1="86.36" y1="25.4" x2="86.36" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -9184,7 +9787,7 @@ PSK: Q=5 / Fc=71.8k</text>
 <net name="N$2" class="0">
 <segment>
 <pinref part="L1" gate="G$1" pin="2"/>
-<pinref part="C11" gate="G$1" pin="1"/>
+<pinref part="C52" gate="G$1" pin="1"/>
 <wire x1="165.1" y1="149.86" x2="170.18" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="149.86" x2="170.18" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="149.86" x2="182.88" y2="149.86" width="0.1524" layer="91"/>
@@ -9196,8 +9799,8 @@ PSK: Q=5 / Fc=71.8k</text>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="L3" gate="G$1" pin="2"/>
-<pinref part="C10" gate="G$1" pin="1"/>
+<pinref part="L2" gate="G$1" pin="2"/>
+<pinref part="C53" gate="G$1" pin="1"/>
 <wire x1="170.18" y1="121.92" x2="165.1" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="119.38" x2="170.18" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="U4" gate="PWR" pin="AVDD"/>
@@ -9216,7 +9819,7 @@ PSK: Q=5 / Fc=71.8k</text>
 <wire x1="43.18" y1="144.78" x2="43.18" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="144.78" x2="43.18" y2="149.86" width="0.1524" layer="91"/>
 <junction x="43.18" y="144.78"/>
-<pinref part="C5" gate="G$1" pin="1"/>
+<pinref part="C46" gate="G$1" pin="1"/>
 <wire x1="43.18" y1="149.86" x2="40.64" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="QZ2" gate="G$1" pin="2"/>
 </segment>
@@ -9228,7 +9831,7 @@ PSK: Q=5 / Fc=71.8k</text>
 <wire x1="60.96" y1="134.62" x2="60.96" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="129.54" x2="43.18" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="129.54" x2="43.18" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="1"/>
+<pinref part="C47" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="124.46" x2="43.18" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="124.46" x2="43.18" y2="129.54" width="0.1524" layer="91"/>
 <junction x="43.18" y="129.54"/>
@@ -9244,24 +9847,24 @@ PSK: Q=5 / Fc=71.8k</text>
 </net>
 <net name="N$31" class="0">
 <segment>
-<pinref part="L5" gate="G$1" pin="2"/>
-<pinref part="C37" gate="G$1" pin="2"/>
+<pinref part="L4" gate="G$1" pin="2"/>
+<pinref part="C57" gate="G$1" pin="2"/>
 <wire x1="177.8" y1="48.26" x2="182.88" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="C35" gate="G$1" pin="2"/>
+<pinref part="C55" gate="G$1" pin="2"/>
 <wire x1="182.88" y1="48.26" x2="193.04" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="53.34" x2="182.88" y2="48.26" width="0.1524" layer="91"/>
 <junction x="182.88" y="48.26"/>
-<pinref part="R26" gate="G$1" pin="1"/>
+<pinref part="R45" gate="G$1" pin="1"/>
 <wire x1="180.34" y1="35.56" x2="182.88" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="35.56" x2="182.88" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$33" class="0">
 <segment>
-<pinref part="C37" gate="G$1" pin="1"/>
-<pinref part="R25" gate="G$1" pin="1"/>
+<pinref part="C57" gate="G$1" pin="1"/>
+<pinref part="R47" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="48.26" x2="210.82" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="C38" gate="G$1" pin="2"/>
+<pinref part="C60" gate="G$1" pin="2"/>
 <wire x1="210.82" y1="48.26" x2="218.44" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="53.34" x2="210.82" y2="48.26" width="0.1524" layer="91"/>
 <junction x="210.82" y="48.26"/>
@@ -9269,10 +9872,10 @@ PSK: Q=5 / Fc=71.8k</text>
 </net>
 <net name="N$34" class="0">
 <segment>
-<pinref part="L4" gate="G$1" pin="2"/>
-<pinref part="C36" gate="G$1" pin="2"/>
+<pinref part="L3" gate="G$1" pin="2"/>
+<pinref part="C56" gate="G$1" pin="2"/>
 <wire x1="177.8" y1="78.74" x2="182.88" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="C34" gate="G$1" pin="1"/>
+<pinref part="C54" gate="G$1" pin="1"/>
 <wire x1="182.88" y1="78.74" x2="193.04" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="73.66" x2="182.88" y2="78.74" width="0.1524" layer="91"/>
 <junction x="182.88" y="78.74"/>
@@ -9280,10 +9883,10 @@ PSK: Q=5 / Fc=71.8k</text>
 </net>
 <net name="N$35" class="0">
 <segment>
-<pinref part="C36" gate="G$1" pin="1"/>
-<pinref part="R24" gate="G$1" pin="1"/>
+<pinref part="C56" gate="G$1" pin="1"/>
+<pinref part="R46" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="78.74" x2="210.82" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="C39" gate="G$1" pin="1"/>
+<pinref part="C59" gate="G$1" pin="1"/>
 <wire x1="210.82" y1="78.74" x2="218.44" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="73.66" x2="210.82" y2="78.74" width="0.1524" layer="91"/>
 <junction x="210.82" y="78.74"/>
@@ -9294,7 +9897,7 @@ PSK: Q=5 / Fc=71.8k</text>
 <pinref part="U4" gate="B" pin="SDA"/>
 <label x="96.52" y="58.42" size="1.778" layer="95"/>
 <wire x1="81.28" y1="58.42" x2="88.9" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="R43" gate="G$1" pin="1"/>
 <wire x1="88.9" y1="58.42" x2="111.76" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="63.5" x2="88.9" y2="58.42" width="0.1524" layer="91"/>
 <junction x="88.9" y="58.42"/>
@@ -9305,7 +9908,7 @@ PSK: Q=5 / Fc=71.8k</text>
 <pinref part="U4" gate="B" pin="D7"/>
 <wire x1="50.8" y1="38.1" x2="20.32" y2="38.1" width="0.1524" layer="91"/>
 <label x="22.86" y="38.1" size="1.778" layer="95"/>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R42" gate="G$1" pin="1"/>
 <wire x1="20.32" y1="38.1" x2="17.78" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="43.18" x2="20.32" y2="38.1" width="0.1524" layer="91"/>
 <junction x="20.32" y="38.1"/>
@@ -9318,7 +9921,7 @@ PSK: Q=5 / Fc=71.8k</text>
 <label x="91.44" y="48.26" size="1.3" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="L5" gate="G$1" pin="1"/>
+<pinref part="L4" gate="G$1" pin="1"/>
 <wire x1="167.64" y1="48.26" x2="157.48" y2="48.26" width="0.1524" layer="91"/>
 <label x="157.48" y="48.26" size="1.3" layer="95" rot="MR0" xref="yes"/>
 </segment>
@@ -9330,21 +9933,21 @@ PSK: Q=5 / Fc=71.8k</text>
 <label x="91.44" y="45.72" size="1.3" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="L4" gate="G$1" pin="1"/>
+<pinref part="L3" gate="G$1" pin="1"/>
 <wire x1="167.64" y1="78.74" x2="157.48" y2="78.74" width="0.1524" layer="91"/>
 <label x="157.48" y="78.74" size="1.3" layer="95" rot="MR0" xref="yes"/>
 </segment>
 </net>
 <net name="N$36" class="0">
 <segment>
-<pinref part="R26" gate="G$1" pin="2"/>
-<pinref part="C40" gate="G$1" pin="1"/>
+<pinref part="R45" gate="G$1" pin="2"/>
+<pinref part="C51" gate="G$1" pin="1"/>
 <wire x1="167.64" y1="35.56" x2="170.18" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MIFARE-RX" class="0">
 <segment>
-<pinref part="C40" gate="G$1" pin="2"/>
+<pinref part="C51" gate="G$1" pin="2"/>
 <wire x1="160.02" y1="35.56" x2="157.48" y2="35.56" width="0.1524" layer="91"/>
 <label x="157.48" y="35.56" size="1.3" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -9354,7 +9957,7 @@ PSK: Q=5 / Fc=71.8k</text>
 <label x="91.44" y="50.8" size="1.3" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R27" gate="G$1" pin="1"/>
+<pinref part="R44" gate="G$1" pin="1"/>
 <wire x1="99.06" y1="38.1" x2="101.6" y2="38.1" width="0.1524" layer="91"/>
 <label x="101.6" y="38.1" size="1.3" layer="95" xref="yes"/>
 </segment>
@@ -9362,10 +9965,10 @@ PSK: Q=5 / Fc=71.8k</text>
 <net name="N$37" class="0">
 <segment>
 <pinref part="U4" gate="B" pin="VMID"/>
-<pinref part="C41" gate="G$1" pin="1"/>
+<pinref part="C48" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="43.18" x2="86.36" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="43.18" x2="86.36" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="R27" gate="G$1" pin="2"/>
+<pinref part="R44" gate="G$1" pin="2"/>
 <wire x1="86.36" y1="38.1" x2="86.36" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="38.1" x2="86.36" y2="38.1" width="0.1524" layer="91"/>
 <junction x="86.36" y="38.1"/>
@@ -9374,19 +9977,19 @@ PSK: Q=5 / Fc=71.8k</text>
 <net name="N$38" class="0">
 <segment>
 <wire x1="238.76" y1="66.04" x2="238.76" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="R24" gate="G$1" pin="2"/>
+<pinref part="R46" gate="G$1" pin="2"/>
 <wire x1="238.76" y1="78.74" x2="228.6" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="66.04" x2="241.3" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="X1" gate="-1" pin="S"/>
+<pinref part="X2" gate="-1" pin="S"/>
 </segment>
 </net>
 <net name="N$39" class="0">
 <segment>
 <wire x1="238.76" y1="63.5" x2="238.76" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="R25" gate="G$1" pin="2"/>
+<pinref part="R47" gate="G$1" pin="2"/>
 <wire x1="238.76" y1="48.26" x2="228.6" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="63.5" x2="238.76" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="X1" gate="-2" pin="S"/>
+<pinref part="X2" gate="-2" pin="S"/>
 </segment>
 </net>
 </nets>
@@ -9414,18 +10017,24 @@ PSK: Q=5 / Fc=71.8k</text>
 <attribute name="PASSIVO" x="248.92" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="248.92" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="248.92" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="248.92" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="248.92" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND" gate="G$1" x="248.92" y="114.3" rot="MR0">
 <attribute name="CUSTOMERPN" x="248.92" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="248.92" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="248.92" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="248.92" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="248.92" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="248.92" y="114.3" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="LED-IN" gate="G$1" x="172.72" y="144.78">
 <attribute name="CUSTOMERPN" x="172.72" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="172.72" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="172.72" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="172.72" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="172.72" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="172.72" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="MODE" gate="G$1" x="172.72" y="114.3" smashed="yes">
 <attribute name="NAME" x="170.18" y="117.602" size="1.778" layer="95"/>
@@ -9434,6 +10043,8 @@ PSK: Q=5 / Fc=71.8k</text>
 <attribute name="PASSIVO" x="172.72" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="172.72" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="172.72" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="172.72" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="172.72" y="114.3" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D0/TX/CLK" gate="G$1" x="76.2" y="55.88" smashed="yes" rot="MR0">
 <attribute name="NAME" x="78.74" y="59.182" size="1.778" layer="95" rot="MR0"/>
@@ -9442,12 +10053,16 @@ PSK: Q=5 / Fc=71.8k</text>
 <attribute name="PASSIVO" x="76.2" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="76.2" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="76.2" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="76.2" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="76.2" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D1/DATA" gate="G$1" x="162.56" y="38.1" rot="MR0">
 <attribute name="CUSTOMERPN" x="162.56" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="162.56" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="162.56" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="162.56" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="162.56" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="162.56" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="CARDPRS" gate="G$1" x="243.84" y="53.34" smashed="yes" rot="MR0">
 <attribute name="NAME" x="245.618" y="48.26" size="1.778" layer="95" rot="MR0"/>
@@ -9456,50 +10071,64 @@ PSK: Q=5 / Fc=71.8k</text>
 <attribute name="PASSIVO" x="243.84" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="243.84" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="243.84" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="243.84" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="243.84" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+6" gate="G$1" x="241.3" y="152.4"/>
 <instance part="GND11" gate="1" x="241.3" y="106.68"/>
 <instance part="GND49" gate="1" x="40.64" y="40.64"/>
 <instance part="GND50" gate="1" x="127" y="22.86"/>
 <instance part="GND51" gate="1" x="213.36" y="38.1"/>
-<instance part="R29" gate="G$1" x="40.64" y="63.5" rot="R90">
+<instance part="R51" gate="G$1" x="40.64" y="63.5" rot="R90">
 <attribute name="CUSTOMERPN" x="40.64" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="40.64" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="40.64" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="40.64" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="40.64" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="40.64" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R30" gate="G$1" x="127" y="45.72" rot="R90">
+<instance part="R56" gate="G$1" x="127" y="45.72" rot="R90">
 <attribute name="CUSTOMERPN" x="127" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="127" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="127" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="127" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="127" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="127" y="45.72" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R31" gate="G$1" x="213.36" y="60.96" rot="R90">
+<instance part="R63" gate="G$1" x="213.36" y="60.96" rot="R90">
 <attribute name="CUSTOMERPN" x="213.36" y="60.96" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="213.36" y="60.96" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="213.36" y="60.96" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="213.36" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="213.36" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="213.36" y="60.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY3" gate="+5V" x="40.64" y="73.66"/>
 <instance part="SUPPLY5" gate="+5V" x="127" y="55.88"/>
 <instance part="SUPPLY6" gate="+5V" x="213.36" y="71.12"/>
-<instance part="R32" gate="G$1" x="27.94" y="55.88" rot="R90">
+<instance part="R49" gate="G$1" x="27.94" y="55.88" rot="R90">
 <attribute name="CUSTOMERPN" x="27.94" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="27.94" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="27.94" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="27.94" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="27.94" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="27.94" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R33" gate="G$1" x="114.3" y="38.1" rot="R90">
+<instance part="R55" gate="G$1" x="114.3" y="38.1" rot="R90">
 <attribute name="CUSTOMERPN" x="114.3" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="114.3" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="114.3" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="114.3" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="114.3" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="114.3" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R34" gate="G$1" x="200.66" y="53.34" rot="R90">
+<instance part="R62" gate="G$1" x="200.66" y="53.34" rot="R90">
 <attribute name="CUSTOMERPN" x="200.66" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="200.66" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="200.66" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="200.66" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="200.66" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="200.66" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q5" gate="G$1" x="38.1" y="50.8" smashed="yes">
 <attribute name="NAME" x="43.18" y="50.8" size="1.778" layer="95"/>
@@ -9508,6 +10137,8 @@ PSK: Q=5 / Fc=71.8k</text>
 <attribute name="PASSIVO" x="38.1" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="38.1" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="38.1" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="38.1" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="38.1" y="50.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q6" gate="G$1" x="124.46" y="33.02" smashed="yes">
 <attribute name="NAME" x="129.54" y="33.02" size="1.778" layer="95"/>
@@ -9516,6 +10147,8 @@ PSK: Q=5 / Fc=71.8k</text>
 <attribute name="PASSIVO" x="124.46" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="124.46" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="124.46" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="124.46" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="124.46" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q7" gate="G$1" x="210.82" y="48.26" smashed="yes">
 <attribute name="NAME" x="215.9" y="48.26" size="1.778" layer="95"/>
@@ -9524,72 +10157,94 @@ PSK: Q=5 / Fc=71.8k</text>
 <attribute name="PASSIVO" x="210.82" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="210.82" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="210.82" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="210.82" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="210.82" y="48.26" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R35" gate="G$1" x="55.88" y="55.88" rot="R180">
+<instance part="R52" gate="G$1" x="55.88" y="55.88" rot="R180">
 <attribute name="CUSTOMERPN" x="55.88" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="55.88" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="55.88" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="55.88" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="55.88" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="55.88" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R36" gate="G$1" x="142.24" y="38.1" rot="R180">
+<instance part="R57" gate="G$1" x="142.24" y="38.1" rot="R180">
 <attribute name="CUSTOMERPN" x="142.24" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="142.24" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="142.24" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="142.24" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="142.24" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="142.24" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R37" gate="G$1" x="226.06" y="53.34" rot="R180">
+<instance part="R64" gate="G$1" x="226.06" y="53.34" rot="R180">
 <attribute name="CUSTOMERPN" x="226.06" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="226.06" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="226.06" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="226.06" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="226.06" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="226.06" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R28" gate="G$1" x="195.58" y="144.78" rot="R180">
+<instance part="R60" gate="G$1" x="195.58" y="144.78" rot="R180">
 <attribute name="CUSTOMERPN" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R38" gate="G$1" x="195.58" y="114.3" rot="R180">
+<instance part="R61" gate="G$1" x="195.58" y="114.3" rot="R180">
 <attribute name="CUSTOMERPN" x="195.58" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="195.58" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="195.58" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="195.58" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="195.58" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="195.58" y="114.3" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R39" gate="G$1" x="185.42" y="121.92" rot="R270">
+<instance part="R59" gate="G$1" x="185.42" y="121.92" rot="R270">
 <attribute name="CUSTOMERPN" x="185.42" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="185.42" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="185.42" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="185.42" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="185.42" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="185.42" y="121.92" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R40" gate="G$1" x="185.42" y="152.4" rot="R270">
+<instance part="R58" gate="G$1" x="185.42" y="152.4" rot="R270">
 <attribute name="CUSTOMERPN" x="185.42" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="185.42" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="185.42" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="185.42" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="185.42" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="185.42" y="152.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V12" gate="G$1" x="185.42" y="162.56"/>
 <instance part="+3V13" gate="G$1" x="185.42" y="132.08"/>
-<instance part="R41" gate="G$1" x="101.6" y="137.16" smashed="yes" rot="R270">
+<instance part="R53" gate="G$1" x="101.6" y="137.16" smashed="yes" rot="R270">
 <attribute name="NAME" x="95.4786" y="140.97" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="98.298" y="140.97" size="1.778" layer="96" rot="R270"/>
 <attribute name="CUSTOMERPN" x="101.6" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="101.6" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="101.6" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="101.6" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="101.6" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="101.6" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R42" gate="G$1" x="111.76" y="137.16" smashed="yes" rot="R90">
+<instance part="R54" gate="G$1" x="111.76" y="137.16" smashed="yes" rot="R90">
 <attribute name="NAME" x="117.8814" y="135.89" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="115.062" y="135.89" size="1.778" layer="96" rot="R90"/>
 <attribute name="CUSTOMERPN" x="111.76" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="111.76" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="111.76" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="111.76" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="111.76" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="111.76" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="BZ1" gate="1" x="48.26" y="142.24" rot="R270">
 <attribute name="CUSTOMERPN" x="48.26" y="142.24" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="48.26" y="142.24" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="48.26" y="142.24" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="48.26" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="48.26" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="48.26" y="142.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q4" gate="G$1" x="33.02" y="121.92" smashed="yes">
 <attribute name="NAME" x="38.1" y="121.92" size="1.778" layer="95"/>
@@ -9598,31 +10253,41 @@ PSK: Q=5 / Fc=71.8k</text>
 <attribute name="PASSIVO" x="33.02" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="33.02" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="33.02" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="33.02" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="33.02" y="121.92" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND48" gate="1" x="35.56" y="106.68"/>
-<instance part="R43" gate="G$1" x="25.4" y="127" rot="R90">
+<instance part="R48" gate="G$1" x="25.4" y="127" rot="R90">
 <attribute name="CUSTOMERPN" x="25.4" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="25.4" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="25.4" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="25.4" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="25.4" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="25.4" y="127" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R44" gate="G$1" x="35.56" y="139.7" rot="R90">
+<instance part="R50" gate="G$1" x="35.56" y="139.7" rot="R90">
 <attribute name="CUSTOMERPN" x="35.56" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="35.56" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="35.56" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="35.56" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="35.56" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="35.56" y="139.7" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="D5" gate="G$1" x="208.28" y="157.48" rot="R180">
+<instance part="D4" gate="G$1" x="208.28" y="157.48" rot="R180">
 <attribute name="CUSTOMERPN" x="208.28" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="208.28" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="208.28" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="208.28" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="208.28" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="208.28" y="157.48" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="D6" gate="G$1" x="208.28" y="127" rot="R180">
+<instance part="D5" gate="G$1" x="208.28" y="127" rot="R180">
 <attribute name="CUSTOMERPN" x="208.28" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="208.28" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="208.28" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="208.28" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="208.28" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="208.28" y="127" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND54" gate="1" x="218.44" y="121.92"/>
 <instance part="GND55" gate="1" x="218.44" y="152.4"/>
@@ -9634,6 +10299,8 @@ PSK: Q=5 / Fc=71.8k</text>
 <attribute name="PASSIVO" x="109.22" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="109.22" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="109.22" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="109.22" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="109.22" y="124.46" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND19" gate="1" x="106.68" y="114.3"/>
 </instances>
@@ -9676,13 +10343,13 @@ PSK: Q=5 / Fc=71.8k</text>
 <wire x1="35.56" y1="109.22" x2="35.56" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D5" gate="G$1" pin="A1"/>
+<pinref part="D4" gate="G$1" pin="A1"/>
 <pinref part="GND55" gate="1" pin="GND"/>
 <wire x1="213.36" y1="157.48" x2="218.44" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="157.48" x2="218.44" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D6" gate="G$1" pin="A1"/>
+<pinref part="D5" gate="G$1" pin="A1"/>
 <pinref part="GND54" gate="1" pin="GND"/>
 <wire x1="213.36" y1="127" x2="218.44" y2="127" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="127" x2="218.44" y2="124.46" width="0.1524" layer="91"/>
@@ -9695,45 +10362,45 @@ PSK: Q=5 / Fc=71.8k</text>
 </net>
 <net name="+5V" class="0">
 <segment>
-<pinref part="R29" gate="G$1" pin="2"/>
+<pinref part="R51" gate="G$1" pin="2"/>
 <pinref part="SUPPLY3" gate="+5V" pin="+5V"/>
 <wire x1="40.64" y1="71.12" x2="40.64" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R30" gate="G$1" pin="2"/>
+<pinref part="R56" gate="G$1" pin="2"/>
 <pinref part="SUPPLY5" gate="+5V" pin="+5V"/>
 <wire x1="127" y1="53.34" x2="127" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R31" gate="G$1" pin="2"/>
+<pinref part="R63" gate="G$1" pin="2"/>
 <pinref part="SUPPLY6" gate="+5V" pin="+5V"/>
 <wire x1="213.36" y1="68.58" x2="213.36" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D1/DATA" class="0">
 <segment>
-<pinref part="R33" gate="G$1" pin="2"/>
+<pinref part="R55" gate="G$1" pin="2"/>
 <wire x1="114.3" y1="43.18" x2="96.52" y2="43.18" width="0.1524" layer="91"/>
 <label x="96.52" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CARD-PRES" class="0">
 <segment>
-<pinref part="R34" gate="G$1" pin="2"/>
+<pinref part="R62" gate="G$1" pin="2"/>
 <wire x1="200.66" y1="58.42" x2="172.72" y2="58.42" width="0.1524" layer="91"/>
 <label x="172.72" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="R33" gate="G$1" pin="1"/>
+<pinref part="R55" gate="G$1" pin="1"/>
 <pinref part="Q6" gate="G$1" pin="B"/>
 <wire x1="114.3" y1="33.02" x2="121.92" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$32" class="0">
 <segment>
-<pinref part="R32" gate="G$1" pin="1"/>
+<pinref part="R49" gate="G$1" pin="1"/>
 <pinref part="Q5" gate="G$1" pin="B"/>
 <wire x1="27.94" y1="50.8" x2="35.56" y2="50.8" width="0.1524" layer="91"/>
 </segment>
@@ -9741,9 +10408,9 @@ PSK: Q=5 / Fc=71.8k</text>
 <net name="N$41" class="0">
 <segment>
 <pinref part="Q6" gate="G$1" pin="C"/>
-<pinref part="R30" gate="G$1" pin="1"/>
+<pinref part="R56" gate="G$1" pin="1"/>
 <wire x1="127" y1="38.1" x2="127" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="R36" gate="G$1" pin="2"/>
+<pinref part="R57" gate="G$1" pin="2"/>
 <wire x1="137.16" y1="38.1" x2="127" y2="38.1" width="0.1524" layer="91"/>
 <junction x="127" y="38.1"/>
 </segment>
@@ -9751,16 +10418,16 @@ PSK: Q=5 / Fc=71.8k</text>
 <net name="N$42" class="0">
 <segment>
 <pinref part="Q7" gate="G$1" pin="C"/>
-<pinref part="R31" gate="G$1" pin="1"/>
+<pinref part="R63" gate="G$1" pin="1"/>
 <wire x1="213.36" y1="53.34" x2="213.36" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="R37" gate="G$1" pin="2"/>
+<pinref part="R64" gate="G$1" pin="2"/>
 <wire x1="220.98" y1="53.34" x2="213.36" y2="53.34" width="0.1524" layer="91"/>
 <junction x="213.36" y="53.34"/>
 </segment>
 </net>
 <net name="N$44" class="0">
 <segment>
-<pinref part="R34" gate="G$1" pin="1"/>
+<pinref part="R62" gate="G$1" pin="1"/>
 <pinref part="Q7" gate="G$1" pin="B"/>
 <wire x1="200.66" y1="48.26" x2="208.28" y2="48.26" width="0.1524" layer="91"/>
 </segment>
@@ -9768,16 +10435,16 @@ PSK: Q=5 / Fc=71.8k</text>
 <net name="N$45" class="0">
 <segment>
 <pinref part="Q5" gate="G$1" pin="C"/>
-<pinref part="R29" gate="G$1" pin="1"/>
+<pinref part="R51" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="55.88" x2="40.64" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="R35" gate="G$1" pin="2"/>
+<pinref part="R52" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="55.88" x2="40.64" y2="55.88" width="0.1524" layer="91"/>
 <junction x="40.64" y="55.88"/>
 </segment>
 </net>
 <net name="N$46" class="0">
 <segment>
-<pinref part="R35" gate="G$1" pin="1"/>
+<pinref part="R52" gate="G$1" pin="1"/>
 <pinref part="D0/TX/CLK" gate="G$1" pin="P$1"/>
 <wire x1="60.96" y1="55.88" x2="71.12" y2="55.88" width="0.1524" layer="91"/>
 </segment>
@@ -9785,36 +10452,36 @@ PSK: Q=5 / Fc=71.8k</text>
 <net name="N$50" class="0">
 <segment>
 <pinref part="D1/DATA" gate="G$1" pin="P$1"/>
-<pinref part="R36" gate="G$1" pin="1"/>
+<pinref part="R57" gate="G$1" pin="1"/>
 <wire x1="157.48" y1="38.1" x2="147.32" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$51" class="0">
 <segment>
-<pinref part="R37" gate="G$1" pin="1"/>
+<pinref part="R64" gate="G$1" pin="1"/>
 <pinref part="CARDPRS" gate="G$1" pin="P$1"/>
 <wire x1="231.14" y1="53.34" x2="238.76" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
-<pinref part="R39" gate="G$1" pin="1"/>
+<pinref part="R59" gate="G$1" pin="1"/>
 <pinref part="+3V13" gate="G$1" pin="+3V3"/>
 <wire x1="185.42" y1="127" x2="185.42" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R40" gate="G$1" pin="1"/>
+<pinref part="R58" gate="G$1" pin="1"/>
 <pinref part="+3V12" gate="G$1" pin="+3V3"/>
 <wire x1="185.42" y1="157.48" x2="185.42" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D5" gate="G$1" pin="C2"/>
+<pinref part="D4" gate="G$1" pin="C2"/>
 <pinref part="+3V18" gate="G$1" pin="+3V3"/>
 <wire x1="203.2" y1="157.48" x2="198.12" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="157.48" x2="198.12" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D6" gate="G$1" pin="C2"/>
+<pinref part="D5" gate="G$1" pin="C2"/>
 <pinref part="+3V19" gate="G$1" pin="+3V3"/>
 <wire x1="203.2" y1="127" x2="198.12" y2="127" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="127" x2="198.12" y2="129.54" width="0.1524" layer="91"/>
@@ -9823,7 +10490,7 @@ PSK: Q=5 / Fc=71.8k</text>
 <net name="N$54" class="0">
 <segment>
 <pinref part="Q4" gate="G$1" pin="C"/>
-<pinref part="R44" gate="G$1" pin="1"/>
+<pinref part="R50" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="127" x2="35.56" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="BZ1" gate="1" pin="-"/>
 <wire x1="35.56" y1="132.08" x2="35.56" y2="134.62" width="0.1524" layer="91"/>
@@ -9834,14 +10501,14 @@ PSK: Q=5 / Fc=71.8k</text>
 </net>
 <net name="N$55" class="0">
 <segment>
-<pinref part="R43" gate="G$1" pin="1"/>
+<pinref part="R48" gate="G$1" pin="1"/>
 <pinref part="Q4" gate="G$1" pin="B"/>
 <wire x1="25.4" y1="121.92" x2="30.48" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BUZZER" class="0">
 <segment>
-<pinref part="R43" gate="G$1" pin="2"/>
+<pinref part="R48" gate="G$1" pin="2"/>
 <wire x1="25.4" y1="132.08" x2="12.7" y2="132.08" width="0.1524" layer="91"/>
 <label x="12.7" y="132.08" size="1.778" layer="95"/>
 </segment>
@@ -9849,9 +10516,9 @@ PSK: Q=5 / Fc=71.8k</text>
 <net name="N$18" class="0">
 <segment>
 <pinref part="LED-IN" gate="G$1" pin="P$1"/>
-<pinref part="R28" gate="G$1" pin="2"/>
+<pinref part="R60" gate="G$1" pin="2"/>
 <wire x1="177.8" y1="144.78" x2="185.42" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="R40" gate="G$1" pin="2"/>
+<pinref part="R58" gate="G$1" pin="2"/>
 <wire x1="185.42" y1="144.78" x2="190.5" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="147.32" x2="185.42" y2="144.78" width="0.1524" layer="91"/>
 <junction x="185.42" y="144.78"/>
@@ -9860,9 +10527,9 @@ PSK: Q=5 / Fc=71.8k</text>
 <net name="N$43" class="0">
 <segment>
 <pinref part="MODE" gate="G$1" pin="P$1"/>
-<pinref part="R38" gate="G$1" pin="2"/>
+<pinref part="R61" gate="G$1" pin="2"/>
 <wire x1="177.8" y1="114.3" x2="185.42" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="R39" gate="G$1" pin="2"/>
+<pinref part="R59" gate="G$1" pin="2"/>
 <wire x1="185.42" y1="114.3" x2="190.5" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="116.84" x2="185.42" y2="114.3" width="0.1524" layer="91"/>
 <junction x="185.42" y="114.3"/>
@@ -9870,9 +10537,9 @@ PSK: Q=5 / Fc=71.8k</text>
 </net>
 <net name="LED-INPUT" class="0">
 <segment>
-<pinref part="R28" gate="G$1" pin="1"/>
+<pinref part="R60" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="144.78" x2="208.28" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="D5" gate="G$1" pin="C1A2"/>
+<pinref part="D4" gate="G$1" pin="C1A2"/>
 <wire x1="208.28" y1="144.78" x2="228.6" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="154.94" x2="208.28" y2="144.78" width="0.1524" layer="91"/>
 <junction x="208.28" y="144.78"/>
@@ -9881,16 +10548,16 @@ PSK: Q=5 / Fc=71.8k</text>
 </net>
 <net name="D0/TX/CLK" class="0">
 <segment>
-<pinref part="R32" gate="G$1" pin="2"/>
+<pinref part="R49" gate="G$1" pin="2"/>
 <wire x1="27.94" y1="60.96" x2="10.16" y2="60.96" width="0.1524" layer="91"/>
 <label x="10.16" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USART-RX" class="0">
 <segment>
-<pinref part="R38" gate="G$1" pin="1"/>
+<pinref part="R61" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="114.3" x2="208.28" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="D6" gate="G$1" pin="C1A2"/>
+<pinref part="D5" gate="G$1" pin="C1A2"/>
 <wire x1="208.28" y1="114.3" x2="228.6" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="124.46" x2="208.28" y2="114.3" width="0.1524" layer="91"/>
 <junction x="208.28" y="114.3"/>
@@ -9901,7 +10568,7 @@ PSK: Q=5 / Fc=71.8k</text>
 <segment>
 <wire x1="101.6" y1="154.94" x2="134.62" y2="154.94" width="0.1524" layer="91"/>
 <label x="111.76" y="154.94" size="1.778" layer="95"/>
-<pinref part="R41" gate="G$1" pin="1"/>
+<pinref part="R53" gate="G$1" pin="1"/>
 <wire x1="101.6" y1="154.94" x2="101.6" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9909,27 +10576,27 @@ PSK: Q=5 / Fc=71.8k</text>
 <segment>
 <wire x1="134.62" y1="147.32" x2="111.76" y2="147.32" width="0.1524" layer="91"/>
 <label x="114.3" y="147.32" size="1.778" layer="95"/>
-<pinref part="R42" gate="G$1" pin="2"/>
+<pinref part="R54" gate="G$1" pin="2"/>
 <wire x1="111.76" y1="147.32" x2="111.76" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$52" class="0">
 <segment>
 <pinref part="LED1" gate="G$1" pin="ANODE_RED"/>
-<pinref part="R41" gate="G$1" pin="2"/>
+<pinref part="R53" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="129.54" x2="101.6" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$53" class="0">
 <segment>
 <pinref part="LED1" gate="G$1" pin="ANODE_GRN"/>
-<pinref part="R42" gate="G$1" pin="1"/>
+<pinref part="R54" gate="G$1" pin="1"/>
 <wire x1="111.76" y1="129.54" x2="111.76" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+12V" class="0">
 <segment>
-<pinref part="R44" gate="G$1" pin="2"/>
+<pinref part="R50" gate="G$1" pin="2"/>
 <wire x1="35.56" y1="144.78" x2="35.56" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="BZ1" gate="1" pin="+"/>
 <wire x1="45.72" y1="144.78" x2="45.72" y2="147.32" width="0.1524" layer="91"/>

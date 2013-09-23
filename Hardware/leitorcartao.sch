@@ -6949,7 +6949,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="CUSTOMERPN" value="R/100/5%/06"/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC1005J101CS"/>
+<attribute name="PN1" value="MCR01MRTF1000"/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>

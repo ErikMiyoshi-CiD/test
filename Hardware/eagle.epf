@@ -348,10 +348,12 @@ UsedLibrary="C:/Control iD/ACESSOv16/Acesso/Pinhead_box_1mm27.lbr"
 UsedLibrary="C:/Control iD/ACESSOv16/Acesso/SparkFun.lbr"
 UsedLibrary="C:/Control iD/ACESSOv16/Acesso/REP-BR.lbr"
 UsedLibrary="C:/Control iD/ACESSOv16/Acesso/v-reg-3.lbr"
+UsedLibrary="C:/Control iD/Hamster/hamster/HamsterLib.lbr"
+UsedLibrary="C:/Control iD/sat-hw/SAT.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="149 155 1220 554"
+Loc="224 122 1295 521"
 State=2
 Number=0
 

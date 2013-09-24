@@ -5056,7 +5056,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <package name="ESK108M016AH2AA">
 <pad name="+" x="-2.5" y="0" drill="0.6" diameter="1.4"/>
 <pad name="-" x="2.5" y="0" drill="0.6" diameter="1.4"/>
-<text x="3.54" y="-0.73" size="2.1844" layer="21" ratio="20" rot="SR0">-</text>
 <text x="-3.175" y="-0.73" size="1.6764" layer="21" ratio="18" rot="SR90">+</text>
 <wire x1="-5" y1="1" x2="5" y2="1" width="0.127" layer="51"/>
 <wire x1="5" y1="1" x2="5" y2="17" width="0.127" layer="51"/>

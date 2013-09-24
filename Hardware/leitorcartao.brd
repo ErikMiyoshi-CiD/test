@@ -6,13 +6,13 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="11" fill="1" visible="no" active="yes"/>
-<layer number="5" name="Route5" color="13" fill="1" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="11" fill="1" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
 <layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
 <layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
@@ -34,31 +34,31 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -72,37 +72,37 @@
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="100" name="Mechanical" color="7" fill="1" visible="no" active="no"/>
-<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
-<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
-<layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
-<layer number="104" name="Name" color="16" fill="1" visible="no" active="yes"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="105" name="Beschreib" color="9" fill="1" visible="no" active="no"/>
 <layer number="106" name="BGA-Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="107" name="BD-Top" color="5" fill="1" visible="no" active="no"/>
-<layer number="108" name="TOPONLY" color="7" fill="1" visible="no" active="yes"/>
-<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
-<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="108" name="TOPONLY" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="14" fill="1" visible="no" active="no"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
 <layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
-<layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
-<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
-<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
-<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
-<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
-<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
-<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
-<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="202" name="202bmp" color="3" fill="10" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
 <layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
 <layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
@@ -111,13 +111,13 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
-<layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="no" active="yes"/>
-<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="yes"/>
-<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="yes"/>
+<layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 <layer number="254" name="OrgLBR" color="13" fill="1" visible="no" active="no"/>
-<layer number="255" name="Route4Restrict" color="10" fill="10" visible="no" active="yes"/>
+<layer number="255" name="Route4Restrict" color="10" fill="10" visible="yes" active="yes"/>
 </layers>
 <board>
 <plain>
@@ -206,6 +206,130 @@
 <wire x1="25.3" y1="19.45" x2="24.3" y2="19.45" width="0.2032" layer="22"/>
 <text x="31.6" y="25.45" size="0.8128" layer="22" font="vector" ratio="11" rot="MR0">1</text>
 <text x="31.6" y="15.35" size="0.8128" layer="22" font="vector" ratio="11" rot="MR0">5</text>
+<wire x1="27.6" y1="47.5" x2="28.2" y2="47.5" width="0.2032" layer="21"/>
+<wire x1="28.7" y1="47.5" x2="29.3" y2="47.5" width="0.2032" layer="21"/>
+<wire x1="29.8" y1="47.5" x2="30.4" y2="47.5" width="0.2032" layer="21"/>
+<wire x1="32.4" y1="48.4" x2="32.4" y2="47.8" width="0.2032" layer="21"/>
+<wire x1="32.4" y1="47.2" x2="32.4" y2="46.6" width="0.2032" layer="21"/>
+<wire x1="20.5" y1="39.6" x2="20.5" y2="40.2" width="0.2032" layer="21"/>
+<wire x1="20.5" y1="41" x2="20.5" y2="41.6" width="0.2032" layer="21"/>
+<wire x1="22.8" y1="40.8" x2="22.2" y2="40.8" width="0.2032" layer="21"/>
+<wire x1="21.9" y1="42.8" x2="21.9" y2="42.2" width="0.2032" layer="21"/>
+<wire x1="21.9" y1="44.1" x2="21.9" y2="43.5" width="0.2032" layer="21"/>
+<wire x1="22.2" y1="45.6" x2="22.8" y2="45.6" width="0.2032" layer="21"/>
+<wire x1="20.5" y1="44.7" x2="20.5" y2="45.3" width="0.2032" layer="21"/>
+<wire x1="19.3" y1="45.9" x2="19.3" y2="46.5" width="0.2032" layer="21"/>
+<wire x1="22.8" y1="37.1" x2="22.2" y2="37.1" width="0.2032" layer="21"/>
+<wire x1="21.2" y1="37.1" x2="20.6" y2="37.1" width="0.2032" layer="21"/>
+<wire x1="20" y1="37.1" x2="19.4" y2="37.1" width="0.2032" layer="21"/>
+<wire x1="19.8" y1="35.5" x2="19.8" y2="34.9" width="0.2032" layer="21"/>
+<wire x1="19.8" y1="34.3" x2="19.8" y2="33.7" width="0.2032" layer="21"/>
+<wire x1="22.4" y1="34.3" x2="22.4" y2="33.7" width="0.2032" layer="21"/>
+<wire x1="22.4" y1="35.5" x2="22.4" y2="34.9" width="0.2032" layer="21"/>
+<wire x1="22.2" y1="32.1" x2="22.8" y2="32.1" width="0.2032" layer="21"/>
+<wire x1="19.4" y1="32.1" x2="20" y2="32.1" width="0.2032" layer="21"/>
+<wire x1="24.4" y1="38.3" x2="23.8" y2="38.3" width="0.2032" layer="21"/>
+<wire x1="25.8" y1="38.3" x2="25.2" y2="38.3" width="0.2032" layer="21"/>
+<wire x1="27.6" y1="38.3" x2="27" y2="38.3" width="0.2032" layer="21"/>
+<wire x1="29" y1="38.3" x2="28.4" y2="38.3" width="0.2032" layer="21"/>
+<wire x1="30.4" y1="37.6" x2="29.8" y2="37.6" width="0.2032" layer="21"/>
+<wire x1="24.6" y1="40.5" x2="24.6" y2="39.9" width="0.2032" layer="21"/>
+<wire x1="27.1" y1="40.5" x2="27.1" y2="39.9" width="0.2032" layer="21"/>
+<wire x1="29.9" y1="40.5" x2="29.9" y2="39.9" width="0.2032" layer="21"/>
+<wire x1="31.9" y1="41.3" x2="32.5" y2="41.3" width="0.2032" layer="21"/>
+<wire x1="33.1" y1="41.3" x2="33.7" y2="41.3" width="0.2032" layer="21"/>
+<wire x1="33.1" y1="38.6" x2="33.7" y2="38.6" width="0.2032" layer="21"/>
+<wire x1="32.5" y1="42.9" x2="32.5" y2="43.5" width="0.2032" layer="21"/>
+<wire x1="32.1" y1="45" x2="31.5" y2="45" width="0.2032" layer="21"/>
+<wire x1="33.2" y1="49.8" x2="33.8" y2="49.8" width="0.2032" layer="21"/>
+<wire x1="28" y1="49.3" x2="28" y2="49.9" width="0.2032" layer="21"/>
+<wire x1="30.4" y1="35.1" x2="29.8" y2="35.1" width="0.2032" layer="21"/>
+<wire x1="32" y1="34.7" x2="32" y2="34.1" width="0.2032" layer="21"/>
+<wire x1="32" y1="36.1" x2="32" y2="35.5" width="0.2032" layer="21"/>
+<wire x1="29.8" y1="32.6" x2="30.4" y2="32.6" width="0.2032" layer="21"/>
+<wire x1="31.1" y1="32.5" x2="31.7" y2="32.5" width="0.2032" layer="21"/>
+<wire x1="32.3" y1="32.5" x2="32.9" y2="32.5" width="0.2032" layer="21"/>
+<wire x1="31.1" y1="29.8" x2="31.7" y2="29.8" width="0.2032" layer="21"/>
+<wire x1="29.8" y1="30" x2="30.4" y2="30" width="0.2032" layer="21"/>
+<wire x1="28.3" y1="27" x2="28.3" y2="27.6" width="0.2032" layer="21"/>
+<wire x1="29.5" y1="25.4" x2="28.9" y2="25.4" width="0.2032" layer="21"/>
+<wire x1="27.9" y1="25.4" x2="27.3" y2="25.4" width="0.2032" layer="21"/>
+<wire x1="26.8" y1="25.4" x2="26.2" y2="25.4" width="0.2032" layer="21"/>
+<wire x1="25.2" y1="25.4" x2="24.6" y2="25.4" width="0.2032" layer="21"/>
+<wire x1="24.9" y1="27.6" x2="24.9" y2="27" width="0.2032" layer="21"/>
+<wire x1="22.6" y1="26.7" x2="23.2" y2="26.7" width="0.2032" layer="21"/>
+<wire x1="21.2" y1="26.7" x2="21.8" y2="26.7" width="0.2032" layer="21"/>
+<wire x1="28.6" y1="22.9" x2="28" y2="22.9" width="0.2032" layer="21"/>
+<wire x1="30.5" y1="22.9" x2="29.9" y2="22.9" width="0.2032" layer="21"/>
+<wire x1="27" y1="22.9" x2="26.4" y2="22.9" width="0.2032" layer="21"/>
+<wire x1="24.6" y1="23.5" x2="24.6" y2="22.9" width="0.2032" layer="21"/>
+<wire x1="29.4" y1="18.4" x2="29.4" y2="17.8" width="0.2032" layer="21"/>
+<wire x1="28.9" y1="16.2" x2="29.5" y2="16.2" width="0.2032" layer="21"/>
+<wire x1="30.2" y1="13.3" x2="30.2" y2="13.9" width="0.2032" layer="21"/>
+<wire x1="22.3" y1="10.2" x2="22.3" y2="10.8" width="0.2032" layer="21"/>
+<wire x1="25.1" y1="10" x2="25.1" y2="10.6" width="0.2032" layer="21"/>
+<wire x1="22.1" y1="9" x2="22.1" y2="9.6" width="0.2032" layer="21"/>
+<wire x1="19.1" y1="9.6" x2="19.1" y2="10.2" width="0.2032" layer="21"/>
+<wire x1="16.9" y1="9.7" x2="16.3" y2="9.7" width="0.2032" layer="21"/>
+<wire x1="15.4" y1="8.3" x2="14.8" y2="8.3" width="0.2032" layer="21"/>
+<wire x1="14.3" y1="8.3" x2="13.7" y2="8.3" width="0.2032" layer="21"/>
+<wire x1="13.2" y1="8.3" x2="12.6" y2="8.3" width="0.2032" layer="21"/>
+<wire x1="11.2" y1="8" x2="10.6" y2="8" width="0.2032" layer="21"/>
+<wire x1="8.4" y1="8.9" x2="8.4" y2="8.3" width="0.2032" layer="21"/>
+<wire x1="5.1" y1="8.9" x2="5.1" y2="8.3" width="0.2032" layer="21"/>
+<wire x1="5.1" y1="7.2" x2="5.1" y2="6.6" width="0.2032" layer="21"/>
+<wire x1="8.4" y1="7.2" x2="8.4" y2="6.6" width="0.2032" layer="21"/>
+<wire x1="8.4" y1="5.4" x2="8.4" y2="4.8" width="0.2032" layer="21"/>
+<wire x1="5.1" y1="5.4" x2="5.1" y2="4.8" width="0.2032" layer="21"/>
+<wire x1="5.1" y1="3.7" x2="5.1" y2="3.1" width="0.2032" layer="21"/>
+<wire x1="8.4" y1="3.7" x2="8.4" y2="3.1" width="0.2032" layer="21"/>
+<wire x1="7.5" y1="1.4" x2="7.5" y2="0.8" width="0.2032" layer="21"/>
+<wire x1="10.1" y1="1.4" x2="10.1" y2="0.8" width="0.2032" layer="21"/>
+<wire x1="12.9" y1="1.4" x2="12.9" y2="0.8" width="0.2032" layer="21"/>
+<wire x1="15.6" y1="1.4" x2="15.6" y2="0.8" width="0.2032" layer="21"/>
+<wire x1="12.4" y1="3.3" x2="13" y2="3.3" width="0.2032" layer="21"/>
+<wire x1="13.6" y1="3.3" x2="14.2" y2="3.3" width="0.2032" layer="21"/>
+<wire x1="14.8" y1="3.3" x2="15.4" y2="3.3" width="0.2032" layer="21"/>
+<wire x1="10.6" y1="4" x2="11.2" y2="4" width="0.2032" layer="21"/>
+<wire x1="26" y1="0.9" x2="26" y2="1.5" width="0.2032" layer="21"/>
+<wire x1="30.4" y1="3.3" x2="29.8" y2="3.3" width="0.2032" layer="21"/>
+<wire x1="32.6" y1="4.4" x2="32" y2="4.4" width="0.2032" layer="21"/>
+<wire x1="28.507840625" y1="9.81641875" x2="28.083578125" y2="9.39215625" width="0.2032" layer="21"/>
+<wire x1="15.8" y1="12.6" x2="15.2" y2="12.6" width="0.2032" layer="21"/>
+<wire x1="14.2" y1="12.6" x2="13.6" y2="12.6" width="0.2032" layer="21"/>
+<wire x1="4.6" y1="11.4" x2="4.6" y2="10.8" width="0.2032" layer="21"/>
+<wire x1="3.9" y1="13.1" x2="3.9" y2="12.5" width="0.2032" layer="21"/>
+<wire x1="4.6" y1="14.8" x2="4.6" y2="14.2" width="0.2032" layer="21"/>
+<wire x1="3.9" y1="16.5" x2="3.9" y2="15.9" width="0.2032" layer="21"/>
+<wire x1="4.6" y1="18.2" x2="4.6" y2="17.6" width="0.2032" layer="21"/>
+<wire x1="4.6" y1="19.5" x2="4.6" y2="18.9" width="0.2032" layer="21"/>
+<wire x1="12.4" y1="16.8" x2="12.4" y2="16.2" width="0.2032" layer="21"/>
+<wire x1="12.1" y1="19.1" x2="12.7" y2="19.1" width="0.2032" layer="21"/>
+<wire x1="14.1" y1="20.7" x2="14.7" y2="20.7" width="0.2032" layer="21"/>
+<wire x1="15.9" y1="19" x2="16.5" y2="19" width="0.2032" layer="21"/>
+<wire x1="4.6" y1="21.6" x2="4.6" y2="21" width="0.2032" layer="21"/>
+<wire x1="4.6" y1="22.9" x2="4.6" y2="22.3" width="0.2032" layer="21"/>
+<wire x1="4.6" y1="25" x2="4.6" y2="24.4" width="0.2032" layer="21"/>
+<wire x1="4.6" y1="26.2" x2="4.6" y2="25.6" width="0.2032" layer="21"/>
+<wire x1="5.1" y1="39.3" x2="5.1" y2="38.7" width="0.2032" layer="21"/>
+<wire x1="10.3" y1="39.3" x2="10.3" y2="38.7" width="0.2032" layer="21"/>
+<wire x1="15.9" y1="46.3" x2="15.3" y2="46.3" width="0.2032" layer="21"/>
+<wire x1="14.4" y1="47.5" x2="13.8" y2="47.5" width="0.2032" layer="21"/>
+<wire x1="13.9" y1="41.3" x2="13.9" y2="40.7" width="0.2032" layer="21"/>
+<wire x1="14.2" y1="39.2" x2="14.8" y2="39.2" width="0.2032" layer="21"/>
+<wire x1="15.4" y1="39.2" x2="16" y2="39.2" width="0.2032" layer="21"/>
+<wire x1="12.6" y1="39.2" x2="13.2" y2="39.2" width="0.2032" layer="21"/>
+<wire x1="14.6" y1="36.8" x2="14.6" y2="37.4" width="0.2032" layer="21"/>
+<wire x1="11.7" y1="41.7" x2="11.1" y2="41.7" width="0.2032" layer="21"/>
+<wire x1="12.8" y1="53.1" x2="12.8" y2="52.5" width="0.2032" layer="21"/>
+<wire x1="15.8" y1="53.1" x2="15.8" y2="52.5" width="0.2032" layer="21"/>
+<wire x1="18.7" y1="48.2" x2="18.7" y2="47.6" width="0.2032" layer="21"/>
+<wire x1="31.2" y1="49.8" x2="31.2" y2="50.4" width="0.2032" layer="21"/>
+<wire x1="17.6" y1="32.6" x2="18.2" y2="32.6" width="0.2032" layer="21"/>
+<wire x1="15.6" y1="31.6" x2="15.6" y2="32.2" width="0.2032" layer="21"/>
+<wire x1="20.8" y1="32.1" x2="21.4" y2="32.1" width="0.2032" layer="21"/>
+<wire x1="17.2" y1="37.9" x2="17.8" y2="37.9" width="0.2032" layer="21"/>
+<wire x1="24.8" y1="36.8" x2="24.8" y2="36.2" width="0.2032" layer="21"/>
 </plain>
 <libraries>
 <library name="RFiD">
@@ -326,7 +450,6 @@
 <package name="ESK108M016AH2AA">
 <pad name="+" x="-2.5" y="0" drill="0.6" diameter="1.4"/>
 <pad name="-" x="2.5" y="0" drill="0.6" diameter="1.4"/>
-<text x="3.54" y="-0.73" size="2.1844" layer="21" ratio="20" rot="SR0">-</text>
 <text x="-3.175" y="-0.73" size="1.6764" layer="21" ratio="18" rot="SR90">+</text>
 <wire x1="-5" y1="1" x2="5" y2="1" width="0.127" layer="51"/>
 <wire x1="5" y1="1" x2="5" y2="17" width="0.127" layer="51"/>
@@ -970,7 +1093,7 @@ design rules under a new name.</description>
 <attribute name="PSK_PN" value="" x="33.5" y="49.8" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R16" library="RFiD" package="R0603" value="100k" x="31.2" y="50.1" smashed="yes">
-<attribute name="NAME" x="30.365" y="50.635" size="0.6096" layer="25" font="vector" ratio="11"/>
+<attribute name="NAME" x="28.165" y="50.235" size="0.6096" layer="25" font="vector" ratio="11"/>
 <attribute name="VALUE" x="30.565" y="48.195" size="1" layer="27" ratio="14"/>
 <attribute name="CUSTOMERPN" value="R/100K/5%/06" x="31.2" y="50.1" size="1.778" layer="27" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="31.2" y="50.1" size="1.778" layer="27" display="off"/>
@@ -1224,7 +1347,7 @@ design rules under a new name.</description>
 <attribute name="PSK_PN" value="" x="5.1" y="6.9" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R43" library="RFiD" package="R0402" value="4.7k" x="22.3" y="10.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="23.435" y="11.435" size="0.6096" layer="25" font="vector" ratio="11" rot="R270"/>
+<attribute name="NAME" x="23.385" y="11.435" size="0.6096" layer="25" font="vector" ratio="11" rot="R270"/>
 <attribute name="VALUE" x="22.935" y="12.405" size="1" layer="27" ratio="14" rot="R180"/>
 <attribute name="CUSTOMERPN" value="R/4.7K/5%/04" x="22.3" y="10.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="22.3" y="10.5" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1504,7 +1627,7 @@ design rules under a new name.</description>
 <attribute name="PSK_PN" value="" x="4.6" y="11.1" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R59" library="RFiD" package="R0603" value="100k" x="3.9" y="12.8" smashed="yes" rot="R180">
-<attribute name="NAME" x="2.435" y="13.065" size="0.6096" layer="25" font="vector" ratio="11" rot="R180"/>
+<attribute name="NAME" x="1.885" y="13.685" size="0.6096" layer="25" font="vector" ratio="11" rot="R270"/>
 <attribute name="VALUE" x="4.535" y="14.705" size="1" layer="27" ratio="14" rot="R180"/>
 <attribute name="CUSTOMERPN" value="R/100K/5%/06" x="3.9" y="12.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="3.9" y="12.8" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1514,7 +1637,7 @@ design rules under a new name.</description>
 <attribute name="PSK_PN" value="" x="3.9" y="12.8" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R58" library="RFiD" package="R0603" value="100k" x="3.9" y="16.2" smashed="yes" rot="R180">
-<attribute name="NAME" x="2.635" y="16.465" size="0.6096" layer="25" font="vector" ratio="11" rot="R180"/>
+<attribute name="NAME" x="1.885" y="17.085" size="0.6096" layer="25" font="vector" ratio="11" rot="R270"/>
 <attribute name="VALUE" x="4.535" y="18.105" size="1" layer="27" ratio="14" rot="R180"/>
 <attribute name="CUSTOMERPN" value="R/100K/5%/06" x="3.9" y="16.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="3.9" y="16.2" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1574,7 +1697,7 @@ design rules under a new name.</description>
 <attribute name="PSK_PN" value="" x="28.3" y="9.6" size="1.778" layer="27" rot="R135" display="off"/>
 </element>
 <element name="R50" library="RFiD" package="R0402" value="1k" x="32.3" y="4.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="32.885" y="5.335003125" size="0.6096" layer="25" font="vector" ratio="11" rot="R270"/>
+<attribute name="NAME" x="30.264996875" y="4.785" size="0.6096" layer="25" font="vector" ratio="11"/>
 <attribute name="VALUE" x="30.394996875" y="5.035003125" size="1" layer="27" ratio="14" rot="R270"/>
 <attribute name="CUSTOMERPN" value="R/1K/5%/04" x="32.3" y="4.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="32.3" y="4.4" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1682,7 +1805,7 @@ design rules under a new name.</description>
 <attribute name="PSK_PN" value="" x="19.8" y="35.2" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C36" library="RFiD" package="C0402" value="47p" x="22.5" y="37.1" smashed="yes" rot="R90">
-<attribute name="NAME" x="22.065" y="36.365" size="0.6096" layer="25" font="vector" ratio="11" rot="R90"/>
+<attribute name="NAME" x="22.015" y="36.365" size="0.6096" layer="25" font="vector" ratio="11" rot="R90"/>
 <attribute name="VALUE" x="24.405" y="36.465" size="1" layer="27" rot="R90"/>
 <attribute name="CUSTOMERPN" value="C/47p/25V/E04" x="22.5" y="37.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="22.5" y="37.1" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1761,18 +1884,18 @@ design rules under a new name.</description>
 <attribute name="FSK_PN" value="" x="24.6" y="40.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PSK_PN" value="" x="24.6" y="40.2" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C23" library="RFiD" package="C0402" value="68p" x="32" y="41.3" smashed="yes" rot="R90">
-<attribute name="NAME" x="31.735" y="40.335" size="0.6096" layer="25" font="vector" ratio="11" rot="R270"/>
-<attribute name="VALUE" x="33.905" y="40.665" size="1" layer="27" rot="R90"/>
-<attribute name="CUSTOMERPN" value="C/68p/25V/D04" x="32" y="41.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PASSIVO" value="Sim" x="32" y="41.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PN1" value="CL05C680JB5NNNC" x="32" y="41.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SPECIAL" value="ASK" x="32" y="41.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="FSK_PN" value="" x="32" y="41.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PSK_PN" value="" x="32" y="41.3" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C23" library="RFiD" package="C0402" value="68p" x="32.2" y="41.3" smashed="yes" rot="R90">
+<attribute name="NAME" x="31.935" y="40.335" size="0.6096" layer="25" font="vector" ratio="11" rot="R270"/>
+<attribute name="VALUE" x="34.105" y="40.665" size="1" layer="27" rot="R90"/>
+<attribute name="CUSTOMERPN" value="C/68p/25V/D04" x="32.2" y="41.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PASSIVO" value="Sim" x="32.2" y="41.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PN1" value="CL05C680JB5NNNC" x="32.2" y="41.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SPECIAL" value="ASK" x="32.2" y="41.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="FSK_PN" value="" x="32.2" y="41.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PSK_PN" value="" x="32.2" y="41.3" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R11" library="RFiD" package="R0402" value="91k" x="29.9" y="40.2" smashed="yes" rot="R180">
-<attribute name="NAME" x="30.935" y="41.335" size="0.6096" layer="25" font="vector" ratio="11" rot="R270"/>
+<attribute name="NAME" x="31.035" y="41.335" size="0.6096" layer="25" font="vector" ratio="11" rot="R270"/>
 <attribute name="VALUE" x="30.535" y="42.105" size="1" layer="27" rot="R180"/>
 <attribute name="CUSTOMERPN" value="R/91k/5%/04" x="29.9" y="40.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="29.9" y="40.2" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1791,25 +1914,25 @@ design rules under a new name.</description>
 <attribute name="FSK_PN" value="" x="27.9" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PSK_PN" value="" x="27.9" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R7" library="RFiD" package="R0402" value="4.7k" x="29.2" y="47.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="29.735" y="49.065" size="0.6096" layer="25" font="vector" ratio="11" rot="R180"/>
-<attribute name="VALUE" x="27.295" y="48.135" size="1" layer="27" rot="R270"/>
-<attribute name="CUSTOMERPN" value="R/4.7k/5%/04" x="29.2" y="47.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PASSIVO" value="Sim" x="29.2" y="47.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PN1" value="RC0402JR-074K7L" x="29.2" y="47.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SPECIAL" value="ASK" x="29.2" y="47.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="FSK_PN" value="" x="29.2" y="47.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PSK_PN" value="" x="29.2" y="47.5" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="R7" library="RFiD" package="R0402" value="4.7k" x="29" y="47.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="29.765" y="48.665" size="0.6096" layer="25" font="vector" ratio="11" rot="R90"/>
+<attribute name="VALUE" x="27.095" y="48.135" size="1" layer="27" rot="R270"/>
+<attribute name="CUSTOMERPN" value="R/4.7k/5%/04" x="29" y="47.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PASSIVO" value="Sim" x="29" y="47.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PN1" value="RC0402JR-074K7L" x="29" y="47.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SPECIAL" value="ASK" x="29" y="47.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="FSK_PN" value="" x="29" y="47.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PSK_PN" value="" x="29" y="47.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C20" library="RFiD" package="C0402" value="4.7n" x="30.5" y="47.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="31.535" y="49.165" size="0.6096" layer="25" font="vector" ratio="11" rot="R180"/>
-<attribute name="VALUE" x="32.405" y="46.865" size="1" layer="27" rot="R90"/>
-<attribute name="CUSTOMERPN" value="C/4.7n/25V/D04" x="30.5" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PASSIVO" value="Sim" x="30.5" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PN1" value="CL05B472KA5NNNC" x="30.5" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SPECIAL" value="ASK" x="30.5" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="FSK_PN" value="" x="30.5" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PSK_PN" value="" x="30.5" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C20" library="RFiD" package="C0402" value="4.7n" x="30.1" y="47.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="30.635" y="48.335" size="0.6096" layer="25" font="vector" ratio="11" rot="R270"/>
+<attribute name="VALUE" x="32.005" y="46.865" size="1" layer="27" rot="R90"/>
+<attribute name="CUSTOMERPN" value="C/4.7n/25V/D04" x="30.1" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PASSIVO" value="Sim" x="30.1" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PN1" value="CL05B472KA5NNNC" x="30.1" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SPECIAL" value="ASK" x="30.1" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="FSK_PN" value="" x="30.1" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PSK_PN" value="" x="30.1" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R14" library="RFiD" package="R0402" value="13k" x="32.4" y="48.1" smashed="yes" rot="R180">
 <attribute name="NAME" x="33.535" y="48.735" size="0.6096" layer="25" font="vector" ratio="11" rot="R270"/>
@@ -1861,18 +1984,18 @@ design rules under a new name.</description>
 <attribute name="FSK_PN" value="" x="24.9" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PSK_PN" value="" x="24.9" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R23" library="RFiD" package="R0402" value="F:P:5.1k" x="26.3" y="25.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="26.035" y="28.235" size="0.6096" layer="25" font="vector" ratio="11" rot="R270"/>
-<attribute name="VALUE" x="24.395" y="26.035" size="1" layer="27" rot="R270"/>
-<attribute name="CUSTOMERPN" value="" x="26.3" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PASSIVO" value="Sim" x="26.3" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PN1" value="" x="26.3" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SPECIAL" value="FSK/PSK" x="26.3" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="FSK_PN" value="" x="26.3" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PSK_PN" value="" x="26.3" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="R23" library="RFiD" package="R0402" value="F:P:5.1k" x="26.5" y="25.4" smashed="yes" rot="R270">
+<attribute name="NAME" x="25.385" y="26.335" size="0.6096" layer="25" font="vector" ratio="11" rot="R270"/>
+<attribute name="VALUE" x="24.595" y="26.035" size="1" layer="27" rot="R270"/>
+<attribute name="CUSTOMERPN" value="" x="26.5" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PASSIVO" value="Sim" x="26.5" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PN1" value="" x="26.5" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SPECIAL" value="FSK/PSK" x="26.5" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="FSK_PN" value="" x="26.5" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PSK_PN" value="" x="26.5" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C32" library="RFiD" package="C0402" value="F:P:100p" x="27.6" y="25.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="28.035" y="26.235" size="0.6096" layer="25" font="vector" ratio="11" rot="R270"/>
+<attribute name="NAME" x="28.085" y="26.285" size="0.6096" layer="25" font="vector" ratio="11" rot="R270"/>
 <attribute name="VALUE" x="25.695" y="26.035" size="1" layer="27" rot="R270"/>
 <attribute name="CUSTOMERPN" value="" x="27.6" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="27.6" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1881,15 +2004,15 @@ design rules under a new name.</description>
 <attribute name="FSK_PN" value="" x="27.6" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PSK_PN" value="" x="27.6" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C31" library="RFiD" package="C0402" value="F:P:68p" x="29" y="25.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="29.535" y="26.235" size="0.6096" layer="25" font="vector" ratio="11" rot="R270"/>
-<attribute name="VALUE" x="27.095" y="26.035" size="1" layer="27" rot="R270"/>
-<attribute name="CUSTOMERPN" value="" x="29" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PASSIVO" value="Sim" x="29" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PN1" value="" x="29" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SPECIAL" value="FSK/PSK" x="29" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="FSK_PN" value="" x="29" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PSK_PN" value="" x="29" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C31" library="RFiD" package="C0402" value="F:P:68p" x="29.2" y="25.4" smashed="yes" rot="R270">
+<attribute name="NAME" x="29.735" y="26.235" size="0.6096" layer="25" font="vector" ratio="11" rot="R270"/>
+<attribute name="VALUE" x="27.295" y="26.035" size="1" layer="27" rot="R270"/>
+<attribute name="CUSTOMERPN" value="" x="29.2" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PASSIVO" value="Sim" x="29.2" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PN1" value="" x="29.2" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SPECIAL" value="FSK/PSK" x="29.2" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="FSK_PN" value="" x="29.2" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PSK_PN" value="" x="29.2" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R27" library="RFiD" package="R0402" value="F:P:270k" x="28.3" y="27.3" smashed="yes">
 <attribute name="NAME" x="29.465" y="27.035" size="0.6096" layer="25" font="vector" ratio="11"/>
@@ -2001,15 +2124,15 @@ design rules under a new name.</description>
 <attribute name="FSK_PN" value="" x="12.9" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PSK_PN" value="" x="12.9" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R2" library="RFiD" package="R0402" value="470" x="14.3" y="39.2" smashed="yes" rot="R90">
-<attribute name="NAME" x="15.315" y="37.915" size="0.6096" layer="25" font="vector" ratio="11" rot="R90"/>
-<attribute name="VALUE" x="16.205" y="38.565" size="1" layer="27" rot="R90"/>
-<attribute name="CUSTOMERPN" value="R/470/5%/04" x="14.3" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PASSIVO" value="Sim" x="14.3" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PN1" value="RC0402JR-07470RL" x="14.3" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SPECIAL" value="" x="14.3" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="FSK_PN" value="" x="14.3" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PSK_PN" value="" x="14.3" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="R2" library="RFiD" package="R0402" value="470" x="14.5" y="39.2" smashed="yes" rot="R90">
+<attribute name="NAME" x="14.015" y="38.715" size="0.6096" layer="25" font="vector" ratio="11" rot="R90"/>
+<attribute name="VALUE" x="16.405" y="38.565" size="1" layer="27" rot="R90"/>
+<attribute name="CUSTOMERPN" value="R/470/5%/04" x="14.5" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PASSIVO" value="Sim" x="14.5" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PN1" value="RC0402JR-07470RL" x="14.5" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SPECIAL" value="" x="14.5" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="FSK_PN" value="" x="14.5" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PSK_PN" value="" x="14.5" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C6" library="RFiD" package="C0402" value="0.1u" x="15.7" y="39.2" smashed="yes" rot="R270">
 <attribute name="NAME" x="16.235" y="39.535" size="0.6096" layer="25" font="vector" ratio="11" rot="R270"/>
@@ -2176,7 +2299,7 @@ design rules under a new name.</description>
 <attribute name="SPECIAL" value="" x="20.5" y="41.3" size="1.778" layer="27" display="off"/>
 <attribute name="FSK_PN" value="" x="20.5" y="41.3" size="1.778" layer="27" display="off"/>
 <attribute name="PSK_PN" value="" x="20.5" y="41.3" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="17.915" y="40.385" size="0.6096" layer="25" font="vector" ratio="11"/>
+<attribute name="NAME" x="17.815" y="40.385" size="0.6096" layer="25" font="vector" ratio="11"/>
 <attribute name="VALUE" x="19.865" y="39.395" size="1.27" layer="27"/>
 </element>
 <element name="R22" library="RFiD" package="R0402" value="9.1k" x="20.5" y="39.9" smashed="yes" rot="R180">
@@ -2186,7 +2309,7 @@ design rules under a new name.</description>
 <attribute name="SPECIAL" value="" x="20.5" y="39.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="FSK_PN" value="" x="20.5" y="39.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PSK_PN" value="" x="20.5" y="39.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="19.585" y="39.865" size="0.6096" layer="25" font="vector" ratio="11" rot="R180"/>
+<attribute name="NAME" x="19.485" y="39.665" size="0.6096" layer="25" font="vector" ratio="11" rot="R180"/>
 <attribute name="VALUE" x="21.135" y="41.805" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C30" library="RFiD" package="C0402" value="680p" x="19.3" y="46.2" smashed="yes" rot="R180">
@@ -2199,15 +2322,15 @@ design rules under a new name.</description>
 <attribute name="NAME" x="22.035" y="46.465" size="0.6096" layer="25" font="vector" ratio="11" rot="R180"/>
 <attribute name="VALUE" x="19.935" y="48.105" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C33" library="RFiD" package="C0402" value="68p" x="22.5" y="40.6" smashed="yes" rot="R90">
-<attribute name="CUSTOMERPN" value="C/68p/25V/D04" x="22.5" y="40.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PASSIVO" value="Sim" x="22.5" y="40.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PN1" value="CL05C680JB5NNNC" x="22.5" y="40.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SPECIAL" value="" x="22.5" y="40.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="FSK_PN" value="" x="22.5" y="40.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PSK_PN" value="" x="22.5" y="40.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="22.765" y="38.065" size="0.6096" layer="25" font="vector" ratio="11" rot="R90"/>
-<attribute name="VALUE" x="24.405" y="39.965" size="1.27" layer="27" rot="R90"/>
+<element name="C33" library="RFiD" package="C0402" value="68p" x="22.5" y="40.8" smashed="yes" rot="R90">
+<attribute name="CUSTOMERPN" value="C/68p/25V/D04" x="22.5" y="40.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PASSIVO" value="Sim" x="22.5" y="40.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PN1" value="CL05C680JB5NNNC" x="22.5" y="40.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SPECIAL" value="" x="22.5" y="40.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="FSK_PN" value="" x="22.5" y="40.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PSK_PN" value="" x="22.5" y="40.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="22.765" y="38.165" size="0.6096" layer="25" font="vector" ratio="11" rot="R90"/>
+<attribute name="VALUE" x="24.405" y="40.165" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="IC2" library="RFiD" package="TSSOP14" value="TL084" x="26.7" y="31.9" smashed="yes">
 <attribute name="CUSTOMERPN" value="IC/TL084/TSSOP14" x="26.7" y="31.9" size="1.778" layer="27" display="off"/>
@@ -2247,15 +2370,15 @@ design rules under a new name.</description>
 <attribute name="NAME" x="17.705" y="50.505" size="0.6096" layer="25" font="vector" ratio="11" rot="R270"/>
 <attribute name="VALUE" x="17.905" y="53.075" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R29" library="RFiD" package="R0402" value="470" x="21.1" y="37.1" smashed="yes" rot="R90">
-<attribute name="CUSTOMERPN" value="R/470/5%/04" x="21.1" y="37.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PASSIVO" value="Sim" x="21.1" y="37.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PN1" value="RC0402JR-07470RL" x="21.1" y="37.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SPECIAL" value="" x="21.1" y="37.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="FSK_PN" value="" x="21.1" y="37.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PSK_PN" value="" x="21.1" y="37.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="21.735" y="38.865" size="0.6096" layer="25" font="vector" ratio="11" rot="R180"/>
-<attribute name="VALUE" x="23.005" y="36.465" size="1.27" layer="27" rot="R90"/>
+<element name="R29" library="RFiD" package="R0402" value="470" x="20.9" y="37.1" smashed="yes" rot="R90">
+<attribute name="CUSTOMERPN" value="R/470/5%/04" x="20.9" y="37.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PASSIVO" value="Sim" x="20.9" y="37.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PN1" value="RC0402JR-07470RL" x="20.9" y="37.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SPECIAL" value="" x="20.9" y="37.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="FSK_PN" value="" x="20.9" y="37.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PSK_PN" value="" x="20.9" y="37.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="21.835" y="39.265" size="0.6096" layer="25" font="vector" ratio="11" rot="R180"/>
+<attribute name="VALUE" x="22.805" y="36.465" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R38" library="RFiD" package="R0603" value="100" x="21.1" y="32.1" smashed="yes" rot="R90">
 <attribute name="CUSTOMERPN" value="R/100/5%/06" x="21.1" y="32.1" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2264,7 +2387,7 @@ design rules under a new name.</description>
 <attribute name="SPECIAL" value="" x="21.1" y="32.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="FSK_PN" value="" x="21.1" y="32.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PSK_PN" value="" x="21.1" y="32.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="20.835" y="30.635" size="0.6096" layer="25" font="vector" ratio="11" rot="R270"/>
+<attribute name="NAME" x="20.835" y="30.435" size="0.6096" layer="25" font="vector" ratio="11" rot="R270"/>
 <attribute name="VALUE" x="23.005" y="31.465" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C45" library="RFiD" package="C0402" value="0.1u" x="30.1" y="37.6" smashed="yes" rot="R270">
@@ -2294,7 +2417,7 @@ design rules under a new name.</description>
 <attribute name="SPECIAL" value="FSK/PSK" x="25.5" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="FSK_PN" value="" x="25.5" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PSK_PN" value="" x="25.5" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="26.565" y="37.565" size="0.6096" layer="25" font="vector" ratio="11" rot="R90"/>
+<attribute name="NAME" x="26.665" y="37.565" size="0.6096" layer="25" font="vector" ratio="11" rot="R90"/>
 <attribute name="VALUE" x="27.405" y="37.665" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C38" library="RFiD" package="C0402" value="F:P:68p" x="24.1" y="38.3" smashed="yes" rot="R90">
@@ -2635,8 +2758,7 @@ design rules under a new name.</description>
 <wire x1="21.2" y1="54.9" x2="20.6" y2="54.9" width="0.5" layer="1"/>
 <wire x1="19.65" y1="47.9" x2="20.6" y2="47.9" width="0.3" layer="1"/>
 <via x="20.6" y="47.9" extent="1-16" drill="0.3"/>
-<wire x1="30.5" y1="48.1" x2="30.1" y2="48.5" width="0.3" layer="1"/>
-<wire x1="30.1" y1="48.5" x2="30.1" y2="48.9" width="0.3" layer="1"/>
+<wire x1="30.1" y1="48.1" x2="30.1" y2="48.9" width="0.3" layer="1"/>
 <via x="30.1" y="48.9" extent="1-16" drill="0.3"/>
 <wire x1="33.5" y1="49.2" x2="32.9" y2="49.2" width="0.3" layer="1"/>
 <wire x1="32.9" y1="49.2" x2="32.9" y2="49.1" width="0.3" layer="1"/>
@@ -2720,8 +2842,7 @@ design rules under a new name.</description>
 <wire x1="15.7" y1="38.5" x2="16.2" y2="38" width="0.2032" layer="1"/>
 <wire x1="16.2" y1="38" x2="16.3" y2="38" width="0.2032" layer="1"/>
 <via x="16.3" y="38" extent="1-16" drill="0.3"/>
-<wire x1="14.3" y1="38.6" x2="14.3" y2="38.3" width="0.2032" layer="1"/>
-<wire x1="14.3" y1="38.3" x2="14.6" y2="38" width="0.2032" layer="1"/>
+<wire x1="14.6" y1="38.4" x2="14.6" y2="38" width="0.2032" layer="1"/>
 <via x="14.6" y="38" extent="1-16" drill="0.3"/>
 <wire x1="29.2" y1="15.6" x2="28.5" y2="15.6" width="0.2032" layer="1"/>
 <wire x1="28.5" y1="15.6" x2="27.9" y2="16.2" width="0.2032" layer="1"/>
@@ -2785,6 +2906,8 @@ design rules under a new name.</description>
 <via x="13.1" y="13.45" extent="1-16" drill="0.3"/>
 <wire x1="15.5" y1="13.45" x2="16.3" y2="13.45" width="0.2032" layer="1"/>
 <via x="16.3" y="13.45" extent="1-16" drill="0.3"/>
+<wire x1="14.5" y1="38.6" x2="14.6" y2="38.6" width="0.4064" layer="1"/>
+<wire x1="14.6" y1="38.6" x2="14.6" y2="38" width="0.4064" layer="1"/>
 </signal>
 <signal name="+3V3">
 <contactref element="C17" pad="1"/>
@@ -3595,20 +3718,19 @@ design rules under a new name.</description>
 <contactref element="R12" pad="1"/>
 <contactref element="C23" pad="2"/>
 <contactref element="IC1" pad="9"/>
-<wire x1="29.9" y1="42.2" x2="30.8" y2="42.2" width="0.2032" layer="1"/>
-<wire x1="30.8" y1="42.2" x2="31" y2="42.2" width="0.2032" layer="1"/>
+<wire x1="29.9" y1="42.2" x2="31" y2="42.2" width="0.2032" layer="1"/>
 <wire x1="31" y1="42.2" x2="31.3" y2="41.9" width="0.2032" layer="1"/>
-<wire x1="31.3" y1="41.9" x2="32" y2="41.9" width="0.2032" layer="1"/>
-<wire x1="32" y1="41.9" x2="33.4" y2="41.9" width="0.2032" layer="1"/>
+<wire x1="31.3" y1="41.9" x2="32.2" y2="41.9" width="0.2032" layer="1"/>
+<wire x1="32.2" y1="41.9" x2="33.4" y2="41.9" width="0.2032" layer="1"/>
 </signal>
 <signal name="N$63">
 <contactref element="R7" pad="2"/>
 <contactref element="C20" pad="1"/>
 <contactref element="R14" pad="2"/>
 <contactref element="R13" pad="1"/>
-<wire x1="31.8" y1="46.9" x2="30.5" y2="46.9" width="0.2032" layer="1"/>
+<wire x1="31.8" y1="46.9" x2="30.1" y2="46.9" width="0.2032" layer="1"/>
 <wire x1="31.8" y1="46.9" x2="31.8" y2="48.1" width="0.2032" layer="1"/>
-<wire x1="30.5" y1="46.9" x2="29.2" y2="46.9" width="0.2032" layer="1"/>
+<wire x1="30.1" y1="46.9" x2="29" y2="46.9" width="0.2032" layer="1"/>
 </signal>
 <signal name="N$64">
 <contactref element="R14" pad="1"/>
@@ -3638,8 +3760,8 @@ design rules under a new name.</description>
 <wire x1="28.9" y1="27.9" x2="28.65" y2="28.15" width="0.2032" layer="1"/>
 <wire x1="28.65" y1="29.1" x2="28.65" y2="28.15" width="0.2032" layer="1"/>
 <wire x1="28.9" y1="27.3" x2="28.9" y2="26.7" width="0.2032" layer="1"/>
-<wire x1="28.9" y1="26.7" x2="29" y2="26.6" width="0.2032" layer="1"/>
-<wire x1="29" y1="26.6" x2="29" y2="26" width="0.2032" layer="1"/>
+<wire x1="28.9" y1="26.7" x2="29.2" y2="26.4" width="0.2032" layer="1"/>
+<wire x1="29.2" y1="26.4" x2="29.2" y2="26" width="0.2032" layer="1"/>
 <wire x1="31.4" y1="29.2" x2="31.4" y2="28.4" width="0.2032" layer="1"/>
 <wire x1="31.4" y1="28.4" x2="30.3" y2="27.3" width="0.2032" layer="1"/>
 <wire x1="30.3" y1="27.3" x2="28.9" y2="27.3" width="0.2032" layer="1"/>
@@ -3728,6 +3850,7 @@ design rules under a new name.</description>
 <wire x1="29.9" y1="44.15" x2="28.8" y2="44.15" width="0.2032" layer="1"/>
 <wire x1="28.8" y1="44.15" x2="28.6" y2="44.35" width="0.2032" layer="1"/>
 <via x="28.6" y="44.35" extent="1-16" drill="0.3"/>
+<wire x1="20.9" y1="37.7" x2="21.1" y2="37.7" width="0.2032" layer="1"/>
 <wire x1="21.1" y1="37.7" x2="21.1" y2="38.4" width="0.2032" layer="1"/>
 <via x="21.1" y="38.4" extent="1-16" drill="0.3"/>
 <wire x1="27.3" y1="37.7" x2="27.1" y2="37.7" width="0.2032" layer="1"/>
@@ -3749,14 +3872,13 @@ design rules under a new name.</description>
 <wire x1="23" y1="42.5" x2="22.5" y2="42.5" width="0.2032" layer="1"/>
 <wire x1="29.9" y1="42.85" x2="31.55" y2="42.85" width="0.2032" layer="1"/>
 <wire x1="31.55" y1="42.85" x2="31.9" y2="43.2" width="0.2032" layer="1"/>
-<wire x1="26.3" y1="26" x2="26.3" y2="26.5" width="0.2032" layer="1"/>
-<wire x1="26.3" y1="26.5" x2="26.6" y2="26.8" width="0.2032" layer="1"/>
+<wire x1="26.5" y1="26" x2="26.6" y2="26" width="0.2032" layer="1"/>
+<wire x1="26.6" y1="26" x2="26.6" y2="26.8" width="0.2032" layer="1"/>
 <via x="26.6" y="26.8" extent="1-16" drill="0.3"/>
 <wire x1="32.6" y1="31.9" x2="32.6" y2="31.1" width="0.2032" layer="1"/>
 <via x="32.6" y="31.1" extent="1-16" drill="0.3"/>
-<wire x1="12.9" y1="39.8" x2="14.3" y2="39.8" width="0.4" layer="1"/>
-<wire x1="14.3" y1="39.8" x2="15.7" y2="39.8" width="0.4" layer="1"/>
-<wire x1="14.3" y1="39.8" x2="14.3" y2="40.3" width="0.4" layer="1"/>
+<wire x1="12.9" y1="39.8" x2="14.5" y2="39.8" width="0.4" layer="1"/>
+<wire x1="14.5" y1="39.8" x2="15.7" y2="39.8" width="0.4" layer="1"/>
 <wire x1="14.3" y1="40.3" x2="14.5" y2="40.5" width="0.4" layer="1"/>
 <wire x1="14.5" y1="40.5" x2="14.5" y2="41" width="0.4" layer="1"/>
 <wire x1="14.65" y1="42.6" x2="14.65" y2="41.65" width="0.4" layer="1"/>
@@ -3790,6 +3912,9 @@ design rules under a new name.</description>
 <wire x1="32" y1="50.1" x2="31.5" y2="49.6" width="0.2032" layer="1"/>
 <wire x1="31.5" y1="49.6" x2="31.5" y2="49.2" width="0.2032" layer="1"/>
 <via x="31.5" y="49.2" extent="1-16" drill="0.3"/>
+<wire x1="14.5" y1="39.8" x2="14.2" y2="39.8" width="0.4064" layer="1"/>
+<wire x1="14.2" y1="39.8" x2="14.2" y2="40.3" width="0.4064" layer="1"/>
+<wire x1="14.2" y1="40.3" x2="14.3" y2="40.3" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$40">
 <contactref element="R41" pad="1"/>
@@ -3900,11 +4025,13 @@ design rules under a new name.</description>
 <contactref element="R25" pad="2"/>
 <contactref element="IC1" pad="6"/>
 <contactref element="C33" pad="2"/>
-<wire x1="24.3" y1="42.2" x2="23.5" y2="42.2" width="0.2032" layer="1"/>
-<wire x1="23.5" y1="42.2" x2="22.5" y2="41.2" width="0.2032" layer="1"/>
-<wire x1="21.1" y1="41.3" x2="21.7" y2="41.3" width="0.2032" layer="1"/>
-<wire x1="21.7" y1="41.3" x2="21.8" y2="41.2" width="0.2032" layer="1"/>
-<wire x1="21.8" y1="41.2" x2="22.5" y2="41.2" width="0.2032" layer="1"/>
+<wire x1="24.3" y1="42.2" x2="23.45260625" y2="42.2" width="0.2032" layer="1"/>
+<wire x1="23.45260625" y1="42.2" x2="23.362803125" y2="42.162803125" width="0.2032" layer="1" curve="45"/>
+<wire x1="23.362803125" y1="42.162803125" x2="22.6" y2="41.4" width="0.2032" layer="1"/>
+<wire x1="22.6" y1="41.4" x2="22.5" y2="41.4" width="0.2032" layer="1"/>
+<wire x1="22.4" y1="41.3" x2="22.5" y2="41.4" width="0.2032" layer="1"/>
+<wire x1="21.2" y1="41.4" x2="22.5" y2="41.4" width="0.2032" layer="1"/>
+<wire x1="21.2" y1="41.4" x2="21.1" y2="41.3" width="0.2032" layer="1" curve="90"/>
 </signal>
 <signal name="ASK-OUT">
 <contactref element="R22" pad="1"/>
@@ -3923,12 +4050,10 @@ design rules under a new name.</description>
 <wire x1="22.5" y1="37.7" x2="22.5" y2="38.6" width="0.2032" layer="1"/>
 <wire x1="22.5" y1="38.6" x2="22" y2="39.1" width="0.2032" layer="1"/>
 <wire x1="21.1" y1="39.9" x2="21.1" y2="39.1" width="0.2032" layer="1"/>
-<wire x1="22.5" y1="40" x2="21.9" y2="40" width="0.2032" layer="1"/>
-<wire x1="21.9" y1="40" x2="21.8" y2="39.9" width="0.2032" layer="1"/>
-<wire x1="21.8" y1="39.9" x2="21.1" y2="39.9" width="0.2032" layer="1"/>
-<wire x1="22.5" y1="40" x2="23.1" y2="40" width="0.2032" layer="1"/>
-<wire x1="23.1" y1="40" x2="23.3" y2="40.2" width="0.2032" layer="1"/>
-<wire x1="23.3" y1="40.2" x2="24" y2="40.2" width="0.2032" layer="1"/>
+<wire x1="22.5" y1="40.2" x2="21.9" y2="40.2" width="0.2032" layer="1"/>
+<wire x1="21.9" y1="40.2" x2="21.6" y2="39.9" width="0.2032" layer="1"/>
+<wire x1="21.6" y1="39.9" x2="21.1" y2="39.9" width="0.2032" layer="1"/>
+<wire x1="22.5" y1="40.2" x2="24" y2="40.2" width="0.2032" layer="1"/>
 </signal>
 <signal name="N$16">
 <contactref element="R9" pad="2"/>
@@ -3943,7 +4068,9 @@ design rules under a new name.</description>
 <contactref element="C40" pad="2"/>
 <contactref element="R29" pad="1"/>
 <contactref element="R38" pad="2"/>
-<wire x1="21.1" y1="36.5" x2="21.1" y2="35.2" width="0.2032" layer="1"/>
+<wire x1="20.9" y1="36.5" x2="20.9" y2="35.9" width="0.2032" layer="1"/>
+<wire x1="20.9" y1="35.9" x2="21.1" y2="35.7" width="0.2032" layer="1"/>
+<wire x1="21.1" y1="35.7" x2="21.1" y2="35.2" width="0.2032" layer="1"/>
 <wire x1="21.1" y1="35.2" x2="21.1" y2="34" width="0.2032" layer="1"/>
 <wire x1="21.1" y1="34" x2="21.1" y2="32.95" width="0.2032" layer="1"/>
 <wire x1="20.4" y1="35.2" x2="21.1" y2="35.2" width="0.2032" layer="1"/>
@@ -3970,7 +4097,7 @@ design rules under a new name.</description>
 <signal name="ASK_MID">
 <contactref element="C26" pad="2"/>
 <contactref element="R7" pad="1"/>
-<wire x1="29.2" y1="48.1" x2="27.9" y2="48.1" width="0.2032" layer="1"/>
+<wire x1="29" y1="48.1" x2="27.9" y2="48.1" width="0.2032" layer="1"/>
 </signal>
 <signal name="N$24">
 <contactref element="R28" pad="1"/>
@@ -4039,16 +4166,16 @@ design rules under a new name.</description>
 <wire x1="27.9" y1="42" x2="28.35" y2="41.55" width="0.2032" layer="1"/>
 <wire x1="29.9" y1="41.55" x2="28.35" y2="41.55" width="0.2032" layer="1"/>
 <wire x1="30.85" y1="41.55" x2="31.7" y2="40.7" width="0.2032" layer="1"/>
-<wire x1="31.7" y1="40.7" x2="32" y2="40.7" width="0.2032" layer="1"/>
+<wire x1="31.7" y1="40.7" x2="32.2" y2="40.7" width="0.2032" layer="1"/>
 </signal>
 <signal name="N$28">
 <contactref element="R21" pad="2"/>
 <contactref element="C32" pad="2"/>
 <contactref element="R23" pad="2"/>
 <contactref element="C31" pad="2"/>
-<wire x1="29" y1="24.8" x2="27.6" y2="24.8" width="0.2032" layer="1"/>
-<wire x1="27.6" y1="24.8" x2="26.3" y2="24.8" width="0.2032" layer="1"/>
-<wire x1="24.9" y1="24.8" x2="26.3" y2="24.8" width="0.2032" layer="1"/>
+<wire x1="29.2" y1="24.8" x2="27.6" y2="24.8" width="0.2032" layer="1"/>
+<wire x1="27.6" y1="24.8" x2="26.5" y2="24.8" width="0.2032" layer="1"/>
+<wire x1="24.9" y1="24.8" x2="26.5" y2="24.8" width="0.2032" layer="1"/>
 </signal>
 <signal name="N$58">
 <contactref element="IC1" pad="3"/>

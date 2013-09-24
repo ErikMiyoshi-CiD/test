@@ -1,6 +1,5 @@
 (gerbv-file-version! "2.0A")
-(define-layer! 10 (cons 'filename "RF_STENCIL.TOP")(cons 'visible #f)(cons 'color #(53456 63993 52428)))
-(define-layer! 9 (cons 'filename "RF_STENCIL.BOT")(cons 'visible #f)(cons 'color #(60652 49858 62194)))
+(define-layer! 9 (cons 'filename "RF_STENCIL.TOP")(cons 'visible #f)(cons 'color #(53456 63993 52428)))
 (define-layer! 8 (cons 'filename "RF.SBT")(cons 'visible #t)(cons 'color #(65535 65535 65535)))
 (define-layer! 7 (cons 'filename "RF.MBT")(cons 'visible #t)(cons 'color #(65535 65535 0)))
 (define-layer! 6 (cons 'filename "RF.BOT")(cons 'visible #t)(cons 'color #(1542 20046 65021)))

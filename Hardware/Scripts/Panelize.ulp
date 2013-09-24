@@ -73,7 +73,7 @@ if (board)
 				printf("Cut (0 0);\n");
 				printf("display none;display 125 126;group all;delete (c > 0 0);display all;");
 				printf("EDIT _X%d.brd;\n",filas*columnas);
-				printf("DRC LOAD LeitorDRC.dru;");
+				printf("DRC LOAD C:\\Leitor.dru;");
 				printf("grid mm;\n");
 				int z;
 				for(int x_ = 0; x_ < columnas; x_++){

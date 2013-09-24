@@ -2116,17 +2116,17 @@ Source: http://www.vishay.com/docs/31059/wsrhigh.pdf</description>
 <pad name="-" x="2.5" y="0" drill="0.6" diameter="1.4"/>
 <text x="3.54" y="-0.73" size="2.1844" layer="21" ratio="20" rot="SR0">-</text>
 <text x="-3.175" y="-0.73" size="1.6764" layer="21" ratio="18" rot="SR90">+</text>
-<wire x1="-5" y1="1" x2="5" y2="1" width="0.127" layer="21"/>
-<wire x1="5" y1="1" x2="5" y2="17" width="0.127" layer="21"/>
-<wire x1="-5" y1="1" x2="-5" y2="17" width="0.127" layer="21"/>
-<wire x1="-5" y1="17" x2="5" y2="17" width="0.127" layer="21"/>
-<wire x1="4.5" y1="1.5" x2="4.5" y2="16.5" width="1" layer="21"/>
-<wire x1="4.1" y1="1.6" x2="4.1" y2="1.1" width="0.2" layer="21"/>
-<wire x1="4.9" y1="1.1" x2="4.1" y2="1.1" width="0.2" layer="21"/>
-<wire x1="4.9" y1="1.2" x2="4.9" y2="1.3" width="0.2" layer="21"/>
-<wire x1="4.1" y1="16.3" x2="4.1" y2="16.9" width="0.2" layer="21"/>
-<wire x1="4.1" y1="16.9" x2="4.9" y2="16.9" width="0.2" layer="21"/>
-<wire x1="4.9" y1="16.9" x2="4.9" y2="16.6" width="0.2" layer="21"/>
+<wire x1="-5" y1="1" x2="5" y2="1" width="0.127" layer="51"/>
+<wire x1="5" y1="1" x2="5" y2="17" width="0.127" layer="51"/>
+<wire x1="-5" y1="1" x2="-5" y2="17" width="0.127" layer="51"/>
+<wire x1="-5" y1="17" x2="5" y2="17" width="0.127" layer="51"/>
+<wire x1="4.5" y1="1.5" x2="4.5" y2="16.5" width="1" layer="51"/>
+<wire x1="4.1" y1="1.6" x2="4.1" y2="1.1" width="0.2" layer="51"/>
+<wire x1="4.9" y1="1.1" x2="4.1" y2="1.1" width="0.2" layer="51"/>
+<wire x1="4.9" y1="1.2" x2="4.9" y2="1.3" width="0.2" layer="51"/>
+<wire x1="4.1" y1="16.3" x2="4.1" y2="16.9" width="0.2" layer="51"/>
+<wire x1="4.1" y1="16.9" x2="4.9" y2="16.9" width="0.2" layer="51"/>
+<wire x1="4.9" y1="16.9" x2="4.9" y2="16.6" width="0.2" layer="51"/>
 </package>
 <package name="QFN32">
 <wire x1="-2.5" y1="2.5" x2="-2.1" y2="2.5" width="0.127" layer="21"/>
@@ -2382,8 +2382,8 @@ Source: http://www.vishay.com/docs/31059/wsrhigh.pdf</description>
 </package>
 <package name="22-23-2021">
 <description>.100" (2.54mm) Center Headers - 2 Pin</description>
-<pad name="1" x="-1.27" y="0" drill="1" diameter="1.6" rot="R90"/>
-<pad name="2" x="1.27" y="0" drill="1" diameter="1.6" rot="R90"/>
+<pad name="1" x="-1.27" y="0" drill="0.8" diameter="2" rot="R90"/>
+<pad name="2" x="1.27" y="0" drill="0.8" diameter="2" rot="R90"/>
 <text x="-2.54" y="1.41" size="1.016" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.54" y="-2.48" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
 <wire x1="-2.6" y1="-1.2" x2="-2.6" y2="1.2" width="0.127" layer="21"/>
@@ -3312,6 +3312,20 @@ Source: 008-0260-0_E.pdf</description>
 <wire x1="1.6" y1="-1.25" x2="1.6" y2="1.25" width="0.3048" layer="21"/>
 <wire x1="1.6" y1="1.25" x2="-1.6" y2="1.25" width="0.3048" layer="21"/>
 </package>
+<package name="FIDUCIAL-1.5X3">
+<circle x="0" y="0" radius="0.9055" width="1.27" layer="29"/>
+<smd name="1" x="0" y="0" dx="1.5" dy="1.5" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="FIDUCIAL-1X2">
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="FIDUCIAL-1X2.5">
+<circle x="0" y="0" radius="0.9" width="1.27" layer="29"/>
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="MICRO-FIDUCIAL">
+<smd name="1" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100" cream="no"/>
+</package>
 </packages>
 <symbols>
 <symbol name="A4L-LOC">
@@ -3789,6 +3803,11 @@ Source: 008-0260-0_E.pdf</description>
 <pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
 <pin name="GND@1" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
 <pin name="GND@2" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+</symbol>
+<symbol name="FIDUCIAL">
+<wire x1="-0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -5569,6 +5588,35 @@ Source: www.vanlong.com</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="FIDUCIAL" prefix="FID">
+<description>&lt;b&gt;Fiducial Alignment Points&lt;/b&gt;
+Various fiducial points for machine vision alignment.</description>
+<gates>
+<gate name="G$1" symbol="FIDUCIAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="1.5X3" package="FIDUCIAL-1.5X3">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1X2" package="FIDUCIAL-1X2">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1X2.5" package="FIDUCIAL-1X2.5">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="UFIDUCIAL" package="MICRO-FIDUCIAL">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="supply1">
@@ -6131,7 +6179,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK_PN" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="SPECIAL" value="DNP"/>
 </part>
 <part name="GND" library="RFiD" deviceset="PTHPAD" device="" value="GND">
 <attribute name="CUSTOMERPN" value="DNP"/>
@@ -6139,7 +6187,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK_PN" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="SPECIAL" value="DNP"/>
 </part>
 <part name="LED-IN" library="RFiD" deviceset="PTHPAD" device="" value="LED">
 <attribute name="CUSTOMERPN" value="DNP"/>
@@ -6147,7 +6195,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK_PN" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="SPECIAL" value="DNP"/>
 </part>
 <part name="MODE" library="RFiD" deviceset="PTHPAD" device="" value="MODESELECT">
 <attribute name="CUSTOMERPN" value="DNP"/>
@@ -6155,7 +6203,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK_PN" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="SPECIAL" value="DNP"/>
 </part>
 <part name="D0/TX/CLK" library="RFiD" deviceset="PTHPAD" device="" value="D0/CLK/TX">
 <attribute name="CUSTOMERPN" value="DNP"/>
@@ -6163,7 +6211,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK_PN" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="SPECIAL" value="DNP"/>
 </part>
 <part name="D1/DATA" library="RFiD" deviceset="PTHPAD" device="" value="D1/DATA">
 <attribute name="CUSTOMERPN" value="DNP"/>
@@ -6171,7 +6219,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK_PN" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="SPECIAL" value="DNP"/>
 </part>
 <part name="CARDPRS" library="RFiD" deviceset="PTHPAD" device="" value="CARD-PRES">
 <attribute name="CUSTOMERPN" value="DNP"/>
@@ -6179,7 +6227,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK_PN" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="SPECIAL" value="DNP"/>
 </part>
 <part name="P+6" library="supply1" deviceset="VCC/2" device="" value="VIN"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
@@ -6319,19 +6367,19 @@ In this library the device names are the same as the pin names of the symbols, t
 </part>
 <part name="+3V12" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V13" library="supply1" deviceset="+3V3" device=""/>
-<part name="R53" library="RFiD" deviceset="R-US_" device="R0402" value="130">
-<attribute name="CUSTOMERPN" value="R/130/5%/04"/>
+<part name="R53" library="RFiD" deviceset="R-US_" device="R0402" value="150">
+<attribute name="CUSTOMERPN" value="R/150/5%/04"/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC1005J131CS"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="R54" library="RFiD" deviceset="R-US_" device="R0402" value="120">
-<attribute name="CUSTOMERPN" value="R/120/5%/04"/>
+<part name="R54" library="RFiD" deviceset="R-US_" device="R0402" value="150">
+<attribute name="CUSTOMERPN" value="R/150/5%/04"/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC1005J121CS"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
@@ -6397,11 +6445,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="R3" library="RFiD" deviceset="R-US_" device="R0402" value="10k">
-<attribute name="CUSTOMERPN" value="R/10K/5%/04"/>
+<part name="R3" library="RFiD" deviceset="R-US_" device="R0402" value="12k">
+<attribute name="CUSTOMERPN" value="R/12K/5%/04"/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC0402JR-0710KL"/>
+<attribute name="PN1" value="RC1608J123CS"/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
@@ -6826,7 +6874,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK_PN" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="SPECIAL" value="DNP"/>
 </part>
 <part name="R8" library="RFiD" deviceset="R-US_" device="R0402" value="0">
 <attribute name="CUSTOMERPN" value="R/0/0%/04"/>
@@ -7002,11 +7050,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value="FSK/PSK"/>
 </part>
-<part name="R17" library="RFiD" deviceset="R-US_" device="R0603" value="100k">
-<attribute name="CUSTOMERPN" value="R/100K/5%/06"/>
+<part name="R17" library="RFiD" deviceset="R-US_" device="R0402" value="1k">
+<attribute name="CUSTOMERPN" value="R/1K/5%/04"/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC0603JR-07100KL"/>
+<attribute name="PN1" value="RC0402JR-071KL"/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
@@ -7044,7 +7092,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK_PN" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="SPECIAL" value="DNP"/>
 </part>
 <part name="SWD" library="RFiD" deviceset="PINHD-1X5" device="">
 <attribute name="CUSTOMERPN" value="DNP"/>
@@ -7052,7 +7100,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK_PN" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="SPECIAL" value="DNP"/>
 </part>
 <part name="QZ1" library="RFiD" deviceset="CRYSTAL" device="HC49S" value="8MHz">
 <attribute name="CUSTOMERPN" value="XTAL/8MHZ/PTH"/>
@@ -7062,19 +7110,19 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="C15" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
-<attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<part name="C15" library="RFiD" deviceset="C-US" device="C0402" value="22p">
+<attribute name="CUSTOMERPN" value="C/22p/16V/A04"/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="C13" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
-<attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<part name="C13" library="RFiD" deviceset="C-US" device="C0402" value="22p">
+<attribute name="CUSTOMERPN" value="C/22p/16V/A04"/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
@@ -7086,7 +7134,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK_PN" value=""/>
-<attribute name="SPECIAL" value=""/>
+<attribute name="SPECIAL" value="DNP"/>
 </part>
 <part name="C11" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
@@ -7123,6 +7171,35 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
+<part name="FID1" library="RFiD" deviceset="FIDUCIAL" device="1.5X3"/>
+<part name="FID3" library="RFiD" deviceset="FIDUCIAL" device="1.5X3"/>
+<part name="C62" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
+<attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="FSK_PN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="MIFARE"/>
+</part>
+<part name="GND60" library="supply1" deviceset="GND" device=""/>
+<part name="C63" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
+<attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="FSK_PN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value=""/>
+</part>
+<part name="C64" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
+<attribute name="CUSTOMERPN" value="DNP"/>
+<attribute name="FSK_PN" value=""/>
+<attribute name="PASSIVO" value="Sim"/>
+<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="PSK_PN" value=""/>
+<attribute name="SPECIAL" value="DNP"/>
+</part>
+<part name="GND61" library="supply1" deviceset="GND" device=""/>
+<part name="GND62" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7305,6 +7382,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="PSK_PN" x="104.14" y="50.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND31" gate="1" x="104.14" y="40.64"/>
+<instance part="FID1" gate="G$1" x="226.06" y="162.56"/>
+<instance part="FID3" gate="G$1" x="231.14" y="162.56"/>
 </instances>
 <busses>
 </busses>
@@ -7527,11 +7606,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="193.04" y="167.64" size="3.81" layer="91" ratio="10">Alimentacao</text>
 <text x="215.9" y="81.28" size="3.81" layer="91" ratio="10">Debug/Prog</text>
 <text x="190.5" y="119.38" size="1.4224" layer="91" rot="R180">16V</text>
-<text x="60.96" y="124.46" size="1.778" layer="91">GPIO de PSK</text>
+<text x="60.96" y="124.46" size="1.778" layer="91">GPIO de FSK/PSK</text>
 <text x="60.96" y="96.52" size="1.778" layer="91">Entrada Mode Select</text>
 <text x="60.96" y="109.22" size="1.778" layer="91">Clock de 125kHz para antena (TC1)</text>
 <text x="60.96" y="104.14" size="1.778" layer="91">Saida Wiegand D1 / ABATK2-DATA</text>
-<text x="60.96" y="127" size="1.778" layer="91">GPIO do ASK/FSK</text>
+<text x="60.96" y="127" size="1.778" layer="91">GPIO do ASK</text>
 <text x="60.96" y="121.92" size="1.778" layer="91">Controle LED Red</text>
 <text x="60.96" y="119.38" size="1.778" layer="91">Controle LED Green</text>
 <text x="60.96" y="106.68" size="1.778" layer="91">Saida Wiegand D0/ Saida SERIAL/ ABATK2-CLK</text>
@@ -7540,13 +7619,14 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="60.96" y="101.6" size="1.778" layer="91">Saida ABATK2 - Card Present</text>
 <text x="60.96" y="99.06" size="1.778" layer="91">Entrada de controle do LED</text>
 <text x="243.84" y="5.08" size="2.54" layer="94">Rev. C</text>
-<text x="60.96" y="114.3" size="1.778" layer="91">PSK - Para uso com Analog Comparator</text>
+<text x="60.96" y="114.3" size="1.778" layer="91">FSK/PSK - Para uso com Analog Comparator</text>
 <text x="60.96" y="73.66" size="1.778" layer="91">Buzzer PWM</text>
 <text x="60.96" y="91.44" size="1.778" layer="91">MIFARE - Reset Control</text>
 <text x="170.18" y="81.28" size="3.81" layer="91" ratio="10">Crystal</text>
 <wire x1="201.93" y1="90.17" x2="256.286" y2="90.17" width="0.6096" layer="94"/>
 <wire x1="201.93" y1="24.13" x2="201.93" y2="90.17" width="0.6096" layer="94"/>
 <text x="60.96" y="88.9" size="1.778" layer="91">Entrada de Mode Select e Buzzer</text>
+<text x="60.96" y="116.84" size="1.778" layer="91">ASK - Para uso com Analog Comparator</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
@@ -7805,9 +7885,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="38.1" y="124.46" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U3" gate="IO" pin="PA5"/>
-<wire x1="33.02" y1="114.3" x2="55.88" y2="114.3" width="0.1524" layer="91"/>
-<label x="38.1" y="114.3" size="1.778" layer="95"/>
+<pinref part="U3" gate="IO" pin="PA4"/>
+<wire x1="33.02" y1="116.84" x2="55.88" y2="116.84" width="0.1524" layer="91"/>
+<label x="38.1" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LED-RED-CTRL" class="0">
@@ -7891,6 +7971,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="U3" gate="IO" pin="PA0"/>
 <wire x1="33.02" y1="127" x2="55.88" y2="127" width="0.1524" layer="91"/>
 <label x="38.1" y="127" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U3" gate="IO" pin="PA5"/>
+<wire x1="33.02" y1="114.3" x2="55.88" y2="114.3" width="0.1524" layer="91"/>
+<label x="38.1" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USART-RX" class="0">
@@ -9349,7 +9434,7 @@ PSK: Q=5 / Fc=71.8k</text>
 </instance>
 <instance part="U4" gate="B" x="66.04" y="48.26"/>
 <instance part="U4" gate="A" x="83.82" y="137.16" rot="MR0"/>
-<instance part="GND36" gate="1" x="246.38" y="116.84"/>
+<instance part="GND36" gate="1" x="248.92" y="116.84"/>
 <instance part="GND37" gate="1" x="198.12" y="114.3"/>
 <instance part="L1" gate="G$1" x="160.02" y="149.86">
 <attribute name="CUSTOMERPN" x="160.02" y="149.86" size="1.778" layer="96" display="off"/>
@@ -9603,6 +9688,15 @@ PSK: Q=5 / Fc=71.8k</text>
 <attribute name="FSK_PN" x="43.18" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="43.18" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
+<instance part="C62" gate="G$1" x="236.22" y="116.84">
+<attribute name="CUSTOMERPN" x="236.22" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="236.22" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="236.22" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="236.22" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="236.22" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="236.22" y="116.84" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="GND60" gate="1" x="236.22" y="106.68"/>
 </instances>
 <busses>
 </busses>
@@ -9667,6 +9761,9 @@ PSK: Q=5 / Fc=71.8k</text>
 <wire x1="236.22" y1="121.92" x2="241.3" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="121.92" x2="241.3" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="+3V17" gate="G$1" pin="+3V3"/>
+<pinref part="C62" gate="G$1" pin="1"/>
+<wire x1="236.22" y1="119.38" x2="236.22" y2="121.92" width="0.1524" layer="91"/>
+<junction x="236.22" y="121.92"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -9763,25 +9860,30 @@ PSK: Q=5 / Fc=71.8k</text>
 </segment>
 <segment>
 <pinref part="U4" gate="PWR" pin="PVSS"/>
-<wire x1="236.22" y1="142.24" x2="246.38" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="142.24" x2="246.38" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="137.16" x2="246.38" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="132.08" x2="246.38" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="129.54" x2="246.38" y2="127" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="127" x2="246.38" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="142.24" x2="248.92" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="142.24" x2="248.92" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="137.16" x2="248.92" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="132.08" x2="248.92" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="129.54" x2="248.92" y2="127" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="127" x2="248.92" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="U4" gate="PWR" pin="AVSS"/>
-<wire x1="236.22" y1="127" x2="246.38" y2="127" width="0.1524" layer="91"/>
-<junction x="246.38" y="127"/>
+<wire x1="236.22" y1="127" x2="248.92" y2="127" width="0.1524" layer="91"/>
+<junction x="248.92" y="127"/>
 <pinref part="U4" gate="PWR" pin="TVSS@1"/>
-<wire x1="236.22" y1="132.08" x2="246.38" y2="132.08" width="0.1524" layer="91"/>
-<junction x="246.38" y="132.08"/>
+<wire x1="236.22" y1="132.08" x2="248.92" y2="132.08" width="0.1524" layer="91"/>
+<junction x="248.92" y="132.08"/>
 <pinref part="U4" gate="PWR" pin="TVSS@2"/>
-<wire x1="236.22" y1="129.54" x2="246.38" y2="129.54" width="0.1524" layer="91"/>
-<junction x="246.38" y="129.54"/>
+<wire x1="236.22" y1="129.54" x2="248.92" y2="129.54" width="0.1524" layer="91"/>
+<junction x="248.92" y="129.54"/>
 <pinref part="U4" gate="PWR" pin="DVSS"/>
-<wire x1="236.22" y1="137.16" x2="246.38" y2="137.16" width="0.1524" layer="91"/>
-<junction x="246.38" y="137.16"/>
+<wire x1="236.22" y1="137.16" x2="248.92" y2="137.16" width="0.1524" layer="91"/>
+<junction x="248.92" y="137.16"/>
 <pinref part="GND36" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND60" gate="1" pin="GND"/>
+<pinref part="C62" gate="G$1" pin="2"/>
+<wire x1="236.22" y1="109.22" x2="236.22" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -10303,6 +10405,24 @@ PSK: Q=5 / Fc=71.8k</text>
 <attribute name="PSK_PN" x="109.22" y="124.46" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND19" gate="1" x="106.68" y="114.3"/>
+<instance part="C63" gate="G$1" x="213.36" y="137.16" rot="R90">
+<attribute name="CUSTOMERPN" x="213.36" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="PASSIVO" x="213.36" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="PN1" x="213.36" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SPECIAL" x="213.36" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="FSK_PN" x="213.36" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="PSK_PN" x="213.36" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C64" gate="G$1" x="208.28" y="109.22">
+<attribute name="CUSTOMERPN" x="208.28" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="PASSIVO" x="208.28" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="PN1" x="208.28" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="SPECIAL" x="208.28" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_PN" x="208.28" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_PN" x="208.28" y="109.22" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="GND61" gate="1" x="208.28" y="99.06"/>
+<instance part="GND62" gate="1" x="223.52" y="137.16" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -10358,6 +10478,16 @@ PSK: Q=5 / Fc=71.8k</text>
 <pinref part="LED1" gate="G$1" pin="COMMON"/>
 <pinref part="GND19" gate="1" pin="GND"/>
 <wire x1="106.68" y1="116.84" x2="106.68" y2="119.38" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C64" gate="G$1" pin="2"/>
+<pinref part="GND61" gate="1" pin="GND"/>
+<wire x1="208.28" y1="101.6" x2="208.28" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C63" gate="G$1" pin="2"/>
+<pinref part="GND62" gate="1" pin="GND"/>
+<wire x1="218.44" y1="137.16" x2="220.98" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -10544,6 +10674,9 @@ PSK: Q=5 / Fc=71.8k</text>
 <wire x1="208.28" y1="154.94" x2="208.28" y2="144.78" width="0.1524" layer="91"/>
 <junction x="208.28" y="144.78"/>
 <label x="213.36" y="144.78" size="1.778" layer="95"/>
+<pinref part="C63" gate="G$1" pin="1"/>
+<wire x1="210.82" y1="137.16" x2="208.28" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="137.16" x2="208.28" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D0/TX/CLK" class="0">
@@ -10562,6 +10695,8 @@ PSK: Q=5 / Fc=71.8k</text>
 <wire x1="208.28" y1="124.46" x2="208.28" y2="114.3" width="0.1524" layer="91"/>
 <junction x="208.28" y="114.3"/>
 <label x="213.36" y="114.3" size="1.778" layer="95"/>
+<pinref part="C64" gate="G$1" pin="1"/>
+<wire x1="208.28" y1="111.76" x2="208.28" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED-GRN-CTRL" class="0">

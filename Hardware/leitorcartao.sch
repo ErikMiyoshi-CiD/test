@@ -6007,16 +6007,16 @@ In this library the device names are the same as the pin names of the symbols, t
 </part>
 <part name="GND42" library="supply1" deviceset="GND" device=""/>
 <part name="GND43" library="supply1" deviceset="GND" device=""/>
-<part name="C46" library="RFiD" deviceset="C-US" device="C0402" value="18p">
-<attribute name="CUSTOMERPN" value="C/18p/50V/D04"/>
+<part name="C46" library="RFiD" deviceset="C-US" device="C0603" value="18p">
+<attribute name="CUSTOMERPN" value="C/18p/50V/E06"/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value="CL05C180JB5NNNC"/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value="MIFARE"/>
 </part>
-<part name="C47" library="RFiD" deviceset="C-US" device="C0402" value="18p">
-<attribute name="CUSTOMERPN" value="C/18p/50V/D04"/>
+<part name="C47" library="RFiD" deviceset="C-US" device="C0603" value="18p">
+<attribute name="CUSTOMERPN" value="C/18p/50V/E06"/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value="CL05C180JB5NNNC"/>
@@ -7110,19 +7110,19 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="C15" library="RFiD" deviceset="C-US" device="C0402" value="22p">
-<attribute name="CUSTOMERPN" value="C/22p/16V/A04"/>
+<part name="C15" library="RFiD" deviceset="C-US" device="C0603" value="18p">
+<attribute name="CUSTOMERPN" value="C/18p/50V/E06"/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="CL05C180JB5NNNC"/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="C13" library="RFiD" deviceset="C-US" device="C0402" value="22p">
-<attribute name="CUSTOMERPN" value="C/22p/16V/A04"/>
+<part name="C13" library="RFiD" deviceset="C-US" device="C0603" value="18p">
+<attribute name="CUSTOMERPN" value="C/18p/50V/E06"/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value=""/>
+<attribute name="PN1" value="CL05C180JB5NNNC"/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>

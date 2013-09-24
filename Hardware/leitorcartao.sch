@@ -6809,36 +6809,36 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="P+7" library="supply1" deviceset="V+" device=""/>
 <part name="+3V17" library="supply1" deviceset="+3V3" device=""/>
-<part name="R19" library="RFiD" deviceset="R-US_" device="R0402" value="5.1k">
-<attribute name="CUSTOMERPN" value="R/5.1k/5%/04"/>
+<part name="R19" library="RFiD" deviceset="R-US_" device="R0402" value="9.1k">
+<attribute name="CUSTOMERPN" value="R/9.1k/5%/04"/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="ERJ-2GEJ512X"/>
+<attribute name="PN1" value="RC1608J912CS"/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value="ASK"/>
 </part>
-<part name="R18" library="RFiD" deviceset="R-US_" device="R0402" value="12k">
-<attribute name="CUSTOMERPN" value="R/12k/5%/04"/>
+<part name="R18" library="RFiD" deviceset="R-US_" device="R0402" value="27k">
+<attribute name="CUSTOMERPN" value="R/27k/1%/04"/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC1608J123CS"/>
+<attribute name="PN1" value="MCR01MRTF2702"/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value="ASK"/>
 </part>
 <part name="GND53" library="supply1" deviceset="GND" device=""/>
-<part name="R28" library="RFiD" deviceset="R-US_" device="R0402" value="12k">
-<attribute name="CUSTOMERPN" value="R/12k/5%/04"/>
+<part name="R28" library="RFiD" deviceset="R-US_" device="R0402" value="27k">
+<attribute name="CUSTOMERPN" value="R/27k/1%/04"/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC1608J123CS"/>
+<attribute name="PN1" value="MCR01MRTF2702"/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value="FSK/PSK"/>
 </part>
-<part name="R26" library="RFiD" deviceset="R-US_" device="R0402" value="5.1k">
-<attribute name="CUSTOMERPN" value="R/5.1k/5%/04"/>
+<part name="R26" library="RFiD" deviceset="R-US_" device="R0402" value="9.1k">
+<attribute name="CUSTOMERPN" value="R/9.1k/5%/04"/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="ERJ-2GEJ512X"/>
+<attribute name="PN1" value="RC1608J912CS"/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value="FSK/PSK"/>
 </part>
@@ -6919,7 +6919,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="R25" library="RFiD" deviceset="R-US_" device="R0402" value="12k">
+<part name="R25" library="RFiD" deviceset="R-US_" device="R0402" value="13k">
 <attribute name="CUSTOMERPN" value="R/12k/5%/04"/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
@@ -7619,14 +7619,14 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="60.96" y="101.6" size="1.778" layer="91">Saida ABATK2 - Card Present</text>
 <text x="60.96" y="99.06" size="1.778" layer="91">Entrada de controle do LED</text>
 <text x="243.84" y="5.08" size="2.54" layer="94">Rev. C</text>
-<text x="60.96" y="114.3" size="1.778" layer="91">FSK/PSK - Para uso com Analog Comparator</text>
+<text x="60.96" y="116.84" size="1.778" layer="91">FSK/PSK - Para uso com Analog Comparator</text>
 <text x="60.96" y="73.66" size="1.778" layer="91">Buzzer PWM</text>
 <text x="60.96" y="91.44" size="1.778" layer="91">MIFARE - Reset Control</text>
 <text x="170.18" y="81.28" size="3.81" layer="91" ratio="10">Crystal</text>
 <wire x1="201.93" y1="90.17" x2="256.286" y2="90.17" width="0.6096" layer="94"/>
 <wire x1="201.93" y1="24.13" x2="201.93" y2="90.17" width="0.6096" layer="94"/>
 <text x="60.96" y="88.9" size="1.778" layer="91">Entrada de Mode Select e Buzzer</text>
-<text x="60.96" y="116.84" size="1.778" layer="91">ASK - Para uso com Analog Comparator</text>
+<text x="60.96" y="114.3" size="1.778" layer="91">ASK - Para uso com Analog Comparator</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
@@ -8008,7 +8008,7 @@ Follower</text>
 <wire x1="165.1" y1="116.84" x2="165.1" y2="170.18" width="0.6096" layer="94"/>
 <wire x1="165.1" y1="170.18" x2="109.22" y2="170.18" width="0.6096" layer="94"/>
 <text x="137.16" y="162.56" size="2.54" layer="94" ratio="10" align="center">Low Pass Filter
-Q=0.5 / Fc=?</text>
+Q=0.5 / Fc=70k</text>
 <wire x1="167.64" y1="170.18" x2="167.64" y2="116.84" width="0.6096" layer="94"/>
 <wire x1="167.64" y1="116.84" x2="236.22" y2="116.84" width="0.6096" layer="94"/>
 <wire x1="236.22" y1="116.84" x2="236.22" y2="170.18" width="0.6096" layer="94"/>
@@ -10111,6 +10111,7 @@ PSK: Q=5 / Fc=71.8k</text>
 <text x="22.86" y="167.64" size="3.81" layer="91" ratio="10">Buzzer</text>
 <wire x1="256.54" y1="94.742" x2="161.29" y2="94.742" width="0.3048" layer="94"/>
 <text x="243.84" y="5.08" size="2.54" layer="94">Rev. C</text>
+<text x="212.09" y="107.442" size="1.778" layer="91" font="vector">Do not place</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="G$1" x="0" y="0"/>

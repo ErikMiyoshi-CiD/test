@@ -29,15 +29,15 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -2009,42 +2009,42 @@ design rules under a new name.</description>
 <attribute name="FSK_PN" value="" x="32.5" y="43.2" size="1.778" layer="27" display="off"/>
 <attribute name="PSK_PN" value="" x="32.5" y="43.2" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R19" library="RFiD" package="R0402" value="5.1k" x="30.2" y="22.9" smashed="yes" rot="R270">
+<element name="R19" library="RFiD" package="R0402" value="9.1k" x="30.2" y="22.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="29.835" y="21.835" size="0.6096" layer="25" font="vector" ratio="11" rot="R270"/>
 <attribute name="VALUE" x="28.295" y="23.535" size="1.27" layer="27" rot="R270"/>
-<attribute name="CUSTOMERPN" value="R/5.1k/5%/04" x="30.2" y="22.9" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="CUSTOMERPN" value="R/9.1k/5%/04" x="30.2" y="22.9" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="30.2" y="22.9" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PN1" value="ERJ-2GEJ512X" x="30.2" y="22.9" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PN1" value="RC1608J912CS" x="30.2" y="22.9" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPECIAL" value="ASK" x="30.2" y="22.9" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="FSK_PN" value="" x="30.2" y="22.9" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PSK_PN" value="" x="30.2" y="22.9" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R18" library="RFiD" package="R0402" value="12k" x="28.3" y="22.9" smashed="yes" rot="R270">
+<element name="R18" library="RFiD" package="R0402" value="27k" x="28.3" y="22.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="27.935" y="21.935" size="0.6096" layer="25" font="vector" ratio="11" rot="R270"/>
 <attribute name="VALUE" x="26.395" y="23.535" size="1.27" layer="27" rot="R270"/>
-<attribute name="CUSTOMERPN" value="R/12k/5%/04" x="28.3" y="22.9" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="CUSTOMERPN" value="R/27k/1%/04" x="28.3" y="22.9" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="28.3" y="22.9" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PN1" value="RC1608J123CS" x="28.3" y="22.9" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PN1" value="MCR01MRTF2702" x="28.3" y="22.9" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPECIAL" value="ASK" x="28.3" y="22.9" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="FSK_PN" value="" x="28.3" y="22.9" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PSK_PN" value="" x="28.3" y="22.9" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R28" library="RFiD" package="R0402" value="12k" x="26.7" y="22.9" smashed="yes" rot="R270">
+<element name="R28" library="RFiD" package="R0402" value="27k" x="26.7" y="22.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="27.765" y="22.165" size="0.6096" layer="25" font="vector" ratio="11" rot="R90"/>
 <attribute name="VALUE" x="24.795" y="23.535" size="1.27" layer="27" rot="R270"/>
-<attribute name="CUSTOMERPN" value="R/12k/5%/04" x="26.7" y="22.9" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="CUSTOMERPN" value="R/27k/1%/04" x="26.7" y="22.9" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="26.7" y="22.9" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PN1" value="RC1608J123CS" x="26.7" y="22.9" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PN1" value="MCR01MRTF2702" x="26.7" y="22.9" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPECIAL" value="FSK/PSK" x="26.7" y="22.9" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="FSK_PN" value="" x="26.7" y="22.9" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PSK_PN" value="" x="26.7" y="22.9" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R26" library="RFiD" package="R0402" value="5.1k" x="24.6" y="23.2" smashed="yes">
+<element name="R26" library="RFiD" package="R0402" value="9.1k" x="24.6" y="23.2" smashed="yes">
 <attribute name="NAME" x="23.865" y="22.035" size="0.6096" layer="25" font="vector" ratio="11"/>
 <attribute name="VALUE" x="23.965" y="21.295" size="1.27" layer="27"/>
-<attribute name="CUSTOMERPN" value="R/5.1k/5%/04" x="24.6" y="23.2" size="1.778" layer="27" display="off"/>
+<attribute name="CUSTOMERPN" value="R/9.1k/5%/04" x="24.6" y="23.2" size="1.778" layer="27" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="24.6" y="23.2" size="1.778" layer="27" display="off"/>
-<attribute name="PN1" value="ERJ-2GEJ512X" x="24.6" y="23.2" size="1.778" layer="27" display="off"/>
+<attribute name="PN1" value="RC1608J912CS" x="24.6" y="23.2" size="1.778" layer="27" display="off"/>
 <attribute name="SPECIAL" value="FSK/PSK" x="24.6" y="23.2" size="1.778" layer="27" display="off"/>
 <attribute name="FSK_PN" value="" x="24.6" y="23.2" size="1.778" layer="27" display="off"/>
 <attribute name="PSK_PN" value="" x="24.6" y="23.2" size="1.778" layer="27" display="off"/>
@@ -2137,7 +2137,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="17.965" y="44.535" size="0.6096" layer="25" font="vector" ratio="11"/>
 <attribute name="VALUE" x="21.135" y="46.905" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R25" library="RFiD" package="R0402" value="12k" x="20.5" y="41.3" smashed="yes">
+<element name="R25" library="RFiD" package="R0402" value="13k" x="20.5" y="41.3" smashed="yes">
 <attribute name="CUSTOMERPN" value="R/12k/5%/04" x="20.5" y="41.3" size="1.778" layer="27" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="20.5" y="41.3" size="1.778" layer="27" display="off"/>
 <attribute name="PN1" value="RC1608J123CS" x="20.5" y="41.3" size="1.778" layer="27" display="off"/>

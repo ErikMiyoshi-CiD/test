@@ -6667,14 +6667,14 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="Q4" library="RFiD" deviceset="MMBT4401" device="">
-<attribute name="ASK" value=""/>
+<attribute name="ASK" value="X"/>
 <attribute name="CUSTOMERPN" value="Q/MMBT4401/SOT23"/>
-<attribute name="FSK" value=""/>
+<attribute name="FSK" value="X"/>
 <attribute name="FSK_PN" value=""/>
-<attribute name="MIFARE" value=""/>
+<attribute name="MIFARE" value="X"/>
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value="MMBT4401LT3G"/>
-<attribute name="PSK" value=""/>
+<attribute name="PSK" value="X"/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
@@ -7843,7 +7843,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
 <attribute name="FSK" value=""/>
 <attribute name="FSK_PN" value=""/>
-<attribute name="MIFARE" value=""/>
+<attribute name="MIFARE" value="X"/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value="CL05B104KO5NNNC"/>
 <attribute name="PSK" value=""/>

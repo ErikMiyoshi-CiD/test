@@ -2350,172 +2350,172 @@ design rules under a new name.</description>
 <attribute name="PSK_PN" value="" x="31.8" y="45" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPECIAL" value="" x="31.8" y="45" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C29" library="RFiD" package="C0402" value="0.1u" x="24.9" y="27.3" smashed="yes">
+<element name="C29" library="RFiD" package="C0402" value="F:0.1uP:10n" x="24.9" y="27.3" smashed="yes">
 <attribute name="NAME" x="22.765" y="27.835" size="0.6096" layer="25" font="vector" ratio="11"/>
 <attribute name="VALUE" x="24.265" y="25.395" size="1" layer="27"/>
 <attribute name="ASK" value="" x="24.9" y="27.3" size="1.778" layer="27" display="off"/>
 <attribute name="CUSTOMERPN" value="" x="24.9" y="27.3" size="1.778" layer="27" display="off"/>
 <attribute name="FSK" value="X" x="24.9" y="27.3" size="1.778" layer="27" display="off"/>
-<attribute name="FSK_PN" value="" x="24.9" y="27.3" size="1.778" layer="27" display="off"/>
+<attribute name="FSK_PN" value="CL05B104KO5NNNC" x="24.9" y="27.3" size="1.778" layer="27" display="off"/>
 <attribute name="MIFARE" value="" x="24.9" y="27.3" size="1.778" layer="27" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="24.9" y="27.3" size="1.778" layer="27" display="off"/>
 <attribute name="PN1" value="" x="24.9" y="27.3" size="1.778" layer="27" display="off"/>
 <attribute name="PSK" value="X" x="24.9" y="27.3" size="1.778" layer="27" display="off"/>
-<attribute name="PSK_PN" value="" x="24.9" y="27.3" size="1.778" layer="27" display="off"/>
+<attribute name="PSK_PN" value="CL05B103KB5NNNC" x="24.9" y="27.3" size="1.778" layer="27" display="off"/>
 <attribute name="SPECIAL" value="" x="24.9" y="27.3" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R21" library="RFiD" package="R0402" value="F:P:5.6k" x="24.9" y="25.4" smashed="yes" rot="R270">
+<element name="R21" library="RFiD" package="R0402" value="F:5.1kP:5.6k" x="24.9" y="25.4" smashed="yes" rot="R270">
 <attribute name="NAME" x="23.735" y="26.335" size="0.6096" layer="25" font="vector" ratio="11" rot="R270"/>
 <attribute name="VALUE" x="22.995" y="26.035" size="1" layer="27" rot="R270"/>
 <attribute name="ASK" value="" x="24.9" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="CUSTOMERPN" value="" x="24.9" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="FSK" value="X" x="24.9" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="FSK_PN" value="" x="24.9" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="FSK_PN" value="RC1005F512CS" x="24.9" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MIFARE" value="" x="24.9" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="24.9" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PN1" value="" x="24.9" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PSK" value="X" x="24.9" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PSK_PN" value="" x="24.9" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PSK_PN" value="RC1005F562CS" x="24.9" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPECIAL" value="" x="24.9" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R23" library="RFiD" package="R0402" value="F:P:5.1k" x="26.5" y="25.4" smashed="yes" rot="R270">
+<element name="R23" library="RFiD" package="R0402" value="F:7.5kP:5.1k" x="26.5" y="25.4" smashed="yes" rot="R270">
 <attribute name="NAME" x="25.385" y="26.335" size="0.6096" layer="25" font="vector" ratio="11" rot="R270"/>
 <attribute name="VALUE" x="24.595" y="26.035" size="1" layer="27" rot="R270"/>
 <attribute name="ASK" value="" x="26.5" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="CUSTOMERPN" value="" x="26.5" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="FSK" value="X" x="26.5" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="FSK_PN" value="" x="26.5" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="FSK_PN" value="RC1005F752CS" x="26.5" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MIFARE" value="" x="26.5" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="26.5" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PN1" value="" x="26.5" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PSK" value="X" x="26.5" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PSK_PN" value="" x="26.5" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PSK_PN" value="RC1005F512CS" x="26.5" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPECIAL" value="" x="26.5" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C32" library="RFiD" package="C0402" value="F:P:100p" x="27.6" y="25.4" smashed="yes" rot="R270">
+<element name="C32" library="RFiD" package="C0402" value="F:1nP:100p" x="27.6" y="25.4" smashed="yes" rot="R270">
 <attribute name="NAME" x="28.085" y="26.285" size="0.6096" layer="25" font="vector" ratio="11" rot="R270"/>
 <attribute name="VALUE" x="25.695" y="26.035" size="1" layer="27" rot="R270"/>
 <attribute name="ASK" value="" x="27.6" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="CUSTOMERPN" value="" x="27.6" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="FSK" value="X" x="27.6" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="FSK_PN" value="" x="27.6" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="FSK_PN" value="C0402C102J1GACTU" x="27.6" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MIFARE" value="" x="27.6" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="27.6" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PN1" value="" x="27.6" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PSK" value="X" x="27.6" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PSK_PN" value="" x="27.6" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PSK_PN" value="CL05C101JB5NNNC" x="27.6" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPECIAL" value="" x="27.6" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C31" library="RFiD" package="C0402" value="F:P:68p" x="29.2" y="25.4" smashed="yes" rot="R270">
+<element name="C31" library="RFiD" package="C0402" value="F:220pP:68p" x="29.2" y="25.4" smashed="yes" rot="R270">
 <attribute name="NAME" x="29.735" y="26.235" size="0.6096" layer="25" font="vector" ratio="11" rot="R270"/>
 <attribute name="VALUE" x="27.295" y="26.035" size="1" layer="27" rot="R270"/>
 <attribute name="ASK" value="" x="29.2" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="CUSTOMERPN" value="" x="29.2" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="FSK" value="X" x="29.2" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="FSK_PN" value="" x="29.2" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="FSK_PN" value="CL05C221JB5NNNC" x="29.2" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MIFARE" value="" x="29.2" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="29.2" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PN1" value="" x="29.2" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PSK" value="X" x="29.2" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PSK_PN" value="" x="29.2" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PSK_PN" value="CL05C680JB5NNNC" x="29.2" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPECIAL" value="" x="29.2" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R27" library="RFiD" package="R0402" value="F:P:270k" x="28.3" y="27.3" smashed="yes">
+<element name="R27" library="RFiD" package="R0402" value="F:180kP:270k" x="28.3" y="27.3" smashed="yes">
 <attribute name="NAME" x="29.465" y="27.035" size="0.6096" layer="25" font="vector" ratio="11"/>
 <attribute name="VALUE" x="27.665" y="25.395" size="1" layer="27"/>
 <attribute name="ASK" value="" x="28.3" y="27.3" size="1.778" layer="27" display="off"/>
 <attribute name="CUSTOMERPN" value="" x="28.3" y="27.3" size="1.778" layer="27" display="off"/>
 <attribute name="FSK" value="X" x="28.3" y="27.3" size="1.778" layer="27" display="off"/>
-<attribute name="FSK_PN" value="" x="28.3" y="27.3" size="1.778" layer="27" display="off"/>
+<attribute name="FSK_PN" value="RC1005F184CS" x="28.3" y="27.3" size="1.778" layer="27" display="off"/>
 <attribute name="MIFARE" value="" x="28.3" y="27.3" size="1.778" layer="27" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="28.3" y="27.3" size="1.778" layer="27" display="off"/>
 <attribute name="PN1" value="" x="28.3" y="27.3" size="1.778" layer="27" display="off"/>
 <attribute name="PSK" value="X" x="28.3" y="27.3" size="1.778" layer="27" display="off"/>
-<attribute name="PSK_PN" value="" x="28.3" y="27.3" size="1.778" layer="27" display="off"/>
+<attribute name="PSK_PN" value="RC1005F274CS" x="28.3" y="27.3" size="1.778" layer="27" display="off"/>
 <attribute name="SPECIAL" value="" x="28.3" y="27.3" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R35" library="RFiD" package="R0402" value="F:P:5.6k" x="31.4" y="32.5" smashed="yes" rot="R270">
+<element name="R35" library="RFiD" package="R0402" value="F:5.1kP:5.6k" x="31.4" y="32.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="33.235" y="30.535" size="0.6096" layer="25" font="vector" ratio="11" rot="R270"/>
 <attribute name="VALUE" x="29.495" y="33.135" size="1" layer="27" rot="R270"/>
 <attribute name="ASK" value="" x="31.4" y="32.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="CUSTOMERPN" value="" x="31.4" y="32.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="FSK" value="X" x="31.4" y="32.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="FSK_PN" value="" x="31.4" y="32.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="FSK_PN" value="RC1005F512CS" x="31.4" y="32.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MIFARE" value="" x="31.4" y="32.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="31.4" y="32.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PN1" value="" x="31.4" y="32.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PSK" value="X" x="31.4" y="32.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PSK_PN" value="" x="31.4" y="32.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PSK_PN" value="RC1005F562CS" x="31.4" y="32.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPECIAL" value="" x="31.4" y="32.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C35" library="RFiD" package="C0402" value="0.1u" x="31.4" y="29.8" smashed="yes" rot="R90">
+<element name="C35" library="RFiD" package="C0402" value="F:0.1uP:10n" x="31.4" y="29.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="32.565" y="28.965" size="0.6096" layer="25" font="vector" ratio="11" rot="R90"/>
 <attribute name="VALUE" x="33.305" y="29.165" size="1" layer="27" rot="R90"/>
 <attribute name="ASK" value="" x="31.4" y="29.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="CUSTOMERPN" value="" x="31.4" y="29.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="FSK" value="X" x="31.4" y="29.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="FSK_PN" value="" x="31.4" y="29.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="FSK_PN" value="CL05B104KO5NNNC" x="31.4" y="29.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MIFARE" value="" x="31.4" y="29.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="31.4" y="29.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PN1" value="" x="31.4" y="29.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PSK" value="X" x="31.4" y="29.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PSK_PN" value="" x="31.4" y="29.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PSK_PN" value="CL05B103KB5NNNC" x="31.4" y="29.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPECIAL" value="" x="31.4" y="29.8" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R39" library="RFiD" package="R0402" value="F:P:5.1k" x="32.6" y="32.5" smashed="yes" rot="R90">
+<element name="R39" library="RFiD" package="R0402" value="F:7.5kP:5.1k" x="32.6" y="32.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="33.235" y="33.335" size="0.6096" layer="25" font="vector" ratio="11" rot="R270"/>
 <attribute name="VALUE" x="34.505" y="31.865" size="1" layer="27" rot="R90"/>
 <attribute name="ASK" value="" x="32.6" y="32.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="CUSTOMERPN" value="" x="32.6" y="32.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="FSK" value="X" x="32.6" y="32.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="FSK_PN" value="" x="32.6" y="32.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="FSK_PN" value="RC1005F752CS" x="32.6" y="32.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MIFARE" value="" x="32.6" y="32.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="32.6" y="32.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PN1" value="" x="32.6" y="32.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PSK" value="X" x="32.6" y="32.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PSK_PN" value="" x="32.6" y="32.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PSK_PN" value="RC1005F512CS" x="32.6" y="32.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPECIAL" value="" x="32.6" y="32.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C43" library="RFiD" package="C0402" value="F:P:68p" x="32" y="35.8" smashed="yes">
+<element name="C43" library="RFiD" package="C0402" value="F:220pP:68p" x="32" y="35.8" smashed="yes">
 <attribute name="NAME" x="32.265" y="36.435" size="0.6096" layer="25" font="vector" ratio="11"/>
 <attribute name="VALUE" x="31.365" y="33.895" size="1" layer="27"/>
 <attribute name="ASK" value="" x="32" y="35.8" size="1.778" layer="27" display="off"/>
 <attribute name="CUSTOMERPN" value="" x="32" y="35.8" size="1.778" layer="27" display="off"/>
 <attribute name="FSK" value="X" x="32" y="35.8" size="1.778" layer="27" display="off"/>
-<attribute name="FSK_PN" value="" x="32" y="35.8" size="1.778" layer="27" display="off"/>
+<attribute name="FSK_PN" value="CL05C221JB5NNNC" x="32" y="35.8" size="1.778" layer="27" display="off"/>
 <attribute name="MIFARE" value="" x="32" y="35.8" size="1.778" layer="27" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="32" y="35.8" size="1.778" layer="27" display="off"/>
 <attribute name="PN1" value="" x="32" y="35.8" size="1.778" layer="27" display="off"/>
 <attribute name="PSK" value="X" x="32" y="35.8" size="1.778" layer="27" display="off"/>
-<attribute name="PSK_PN" value="" x="32" y="35.8" size="1.778" layer="27" display="off"/>
+<attribute name="PSK_PN" value="CL05C680JB5NNNC" x="32" y="35.8" size="1.778" layer="27" display="off"/>
 <attribute name="SPECIAL" value="" x="32" y="35.8" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C44" library="RFiD" package="C0402" value="F:P:100p" x="32" y="34.4" smashed="yes">
+<element name="C44" library="RFiD" package="C0402" value="F:1nP:100p" x="32" y="34.4" smashed="yes">
 <attribute name="NAME" x="33.235" y="35.435" size="0.6096" layer="25" font="vector" ratio="11" rot="R270"/>
 <attribute name="VALUE" x="31.365" y="32.495" size="1" layer="27"/>
 <attribute name="ASK" value="" x="32" y="34.4" size="1.778" layer="27" display="off"/>
 <attribute name="CUSTOMERPN" value="" x="32" y="34.4" size="1.778" layer="27" display="off"/>
 <attribute name="FSK" value="X" x="32" y="34.4" size="1.778" layer="27" display="off"/>
-<attribute name="FSK_PN" value="" x="32" y="34.4" size="1.778" layer="27" display="off"/>
+<attribute name="FSK_PN" value="C0402C102J1GACTU" x="32" y="34.4" size="1.778" layer="27" display="off"/>
 <attribute name="MIFARE" value="" x="32" y="34.4" size="1.778" layer="27" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="32" y="34.4" size="1.778" layer="27" display="off"/>
 <attribute name="PN1" value="" x="32" y="34.4" size="1.778" layer="27" display="off"/>
 <attribute name="PSK" value="X" x="32" y="34.4" size="1.778" layer="27" display="off"/>
-<attribute name="PSK_PN" value="" x="32" y="34.4" size="1.778" layer="27" display="off"/>
+<attribute name="PSK_PN" value="CL05C101JB5NNNC" x="32" y="34.4" size="1.778" layer="27" display="off"/>
 <attribute name="SPECIAL" value="" x="32" y="34.4" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R41" library="RFiD" package="R0402" value="F:P:270k" x="30.1" y="35.1" smashed="yes" rot="R270">
+<element name="R41" library="RFiD" package="R0402" value="F:180kP:270k" x="30.1" y="35.1" smashed="yes" rot="R270">
 <attribute name="NAME" x="29.035" y="36.335" size="0.6096" layer="25" font="vector" ratio="11" rot="R270"/>
 <attribute name="VALUE" x="28.195" y="35.735" size="1" layer="27" rot="R270"/>
 <attribute name="ASK" value="" x="30.1" y="35.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="CUSTOMERPN" value="" x="30.1" y="35.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="FSK" value="X" x="30.1" y="35.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="FSK_PN" value="" x="30.1" y="35.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="FSK_PN" value="RC1005F184CS" x="30.1" y="35.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MIFARE" value="" x="30.1" y="35.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="30.1" y="35.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PN1" value="" x="30.1" y="35.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PSK" value="X" x="30.1" y="35.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PSK_PN" value="" x="30.1" y="35.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PSK_PN" value="RC1005F274CS" x="30.1" y="35.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPECIAL" value="" x="30.1" y="35.1" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C42" library="RFiD" package="C0402" value="0.1u" x="30.1" y="30" smashed="yes" rot="R270">
@@ -2948,88 +2948,88 @@ design rules under a new name.</description>
 <attribute name="PSK_PN" value="" x="21.1" y="32.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPECIAL" value="" x="21.1" y="32.1" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C45" library="RFiD" package="C0402" value="0.1u" x="30.1" y="37.6" smashed="yes" rot="R270">
+<element name="C45" library="RFiD" package="C0402" value="F:0.1uP:10n" x="30.1" y="37.6" smashed="yes" rot="R270">
 <attribute name="NAME" x="30.635" y="38.435" size="0.6096" layer="25" font="vector" ratio="11" rot="R270"/>
 <attribute name="VALUE" x="28.195" y="38.235" size="1.27" layer="27" rot="R270"/>
 <attribute name="ASK" value="" x="30.1" y="37.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="CUSTOMERPN" value="" x="30.1" y="37.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="FSK" value="X" x="30.1" y="37.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="FSK_PN" value="" x="30.1" y="37.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="FSK_PN" value="CL05B104KO5NNNC" x="30.1" y="37.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MIFARE" value="" x="30.1" y="37.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="30.1" y="37.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PN1" value="" x="30.1" y="37.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PSK" value="X" x="30.1" y="37.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PSK_PN" value="" x="30.1" y="37.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PSK_PN" value="CL05B103KB5NNNC" x="30.1" y="37.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPECIAL" value="" x="30.1" y="37.6" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R40" library="RFiD" package="R0402" value="F:P:5.6k" x="28.7" y="38.3" smashed="yes" rot="R90">
+<element name="R40" library="RFiD" package="R0402" value="F:5.1kP:5.6k" x="28.7" y="38.3" smashed="yes" rot="R90">
 <attribute name="NAME" x="30.935" y="39.365" size="0.6096" layer="25" font="vector" ratio="11" rot="R180"/>
 <attribute name="VALUE" x="30.605" y="37.665" size="1.27" layer="27" rot="R90"/>
 <attribute name="ASK" value="" x="28.7" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="CUSTOMERPN" value="" x="28.7" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="FSK" value="X" x="28.7" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="FSK_PN" value="" x="28.7" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="FSK_PN" value="RC1005F512CS" x="28.7" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MIFARE" value="" x="28.7" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="28.7" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PN1" value="" x="28.7" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PSK" value="X" x="28.7" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PSK_PN" value="" x="28.7" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PSK_PN" value="RC1005F562CS" x="28.7" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPECIAL" value="" x="28.7" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C39" library="RFiD" package="C0402" value="F:P:100p" x="25.5" y="38.3" smashed="yes" rot="R90">
+<element name="C39" library="RFiD" package="C0402" value="F:1nP:100p" x="25.5" y="38.3" smashed="yes" rot="R90">
 <attribute name="NAME" x="26.665" y="37.565" size="0.6096" layer="25" font="vector" ratio="11" rot="R90"/>
 <attribute name="VALUE" x="27.405" y="37.665" size="1.27" layer="27" rot="R90"/>
 <attribute name="ASK" value="" x="25.5" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="CUSTOMERPN" value="" x="25.5" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="FSK" value="X" x="25.5" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="FSK_PN" value="" x="25.5" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="FSK_PN" value="C0402C102J1GACTU" x="25.5" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MIFARE" value="" x="25.5" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="25.5" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PN1" value="" x="25.5" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PSK" value="X" x="25.5" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PSK_PN" value="" x="25.5" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PSK_PN" value="CL05C101JB5NNNC" x="25.5" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPECIAL" value="" x="25.5" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C38" library="RFiD" package="C0402" value="F:P:68p" x="24.1" y="38.3" smashed="yes" rot="R90">
+<element name="C38" library="RFiD" package="C0402" value="F:220pP:68p" x="24.1" y="38.3" smashed="yes" rot="R90">
 <attribute name="NAME" x="23.665" y="37.565" size="0.6096" layer="25" font="vector" ratio="11" rot="R90"/>
 <attribute name="VALUE" x="26.005" y="37.665" size="1.27" layer="27" rot="R90"/>
 <attribute name="ASK" value="" x="24.1" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="CUSTOMERPN" value="" x="24.1" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="FSK" value="X" x="24.1" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="FSK_PN" value="" x="24.1" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="FSK_PN" value="CL05C221JB5NNNC" x="24.1" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MIFARE" value="" x="24.1" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="24.1" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PN1" value="" x="24.1" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PSK" value="X" x="24.1" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PSK_PN" value="" x="24.1" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PSK_PN" value="CL05C680JB5NNNC" x="24.1" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPECIAL" value="" x="24.1" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R31" library="RFiD" package="R0402" value="F:P:270k" x="24.8" y="36.5" smashed="yes">
+<element name="R31" library="RFiD" package="R0402" value="F:180kP:270k" x="24.8" y="36.5" smashed="yes">
 <attribute name="NAME" x="25.865" y="35.735" size="0.6096" layer="25" font="vector" ratio="11"/>
 <attribute name="VALUE" x="24.165" y="34.595" size="1.27" layer="27"/>
 <attribute name="ASK" value="" x="24.8" y="36.5" size="1.778" layer="27" display="off"/>
 <attribute name="CUSTOMERPN" value="" x="24.8" y="36.5" size="1.778" layer="27" display="off"/>
 <attribute name="FSK" value="X" x="24.8" y="36.5" size="1.778" layer="27" display="off"/>
-<attribute name="FSK_PN" value="" x="24.8" y="36.5" size="1.778" layer="27" display="off"/>
+<attribute name="FSK_PN" value="RC1005F184CS" x="24.8" y="36.5" size="1.778" layer="27" display="off"/>
 <attribute name="MIFARE" value="" x="24.8" y="36.5" size="1.778" layer="27" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="24.8" y="36.5" size="1.778" layer="27" display="off"/>
 <attribute name="PN1" value="" x="24.8" y="36.5" size="1.778" layer="27" display="off"/>
 <attribute name="PSK" value="X" x="24.8" y="36.5" size="1.778" layer="27" display="off"/>
-<attribute name="PSK_PN" value="" x="24.8" y="36.5" size="1.778" layer="27" display="off"/>
+<attribute name="PSK_PN" value="RC1005F274CS" x="24.8" y="36.5" size="1.778" layer="27" display="off"/>
 <attribute name="SPECIAL" value="" x="24.8" y="36.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R36" library="RFiD" package="R0402" value="F:P:5.1k" x="27.3" y="38.3" smashed="yes" rot="R90">
+<element name="R36" library="RFiD" package="R0402" value="F:7.5kP:5.1k" x="27.3" y="38.3" smashed="yes" rot="R90">
 <attribute name="NAME" x="28.335" y="37.165" size="0.6096" layer="25" font="vector" ratio="11" rot="R180"/>
 <attribute name="VALUE" x="29.205" y="37.665" size="1.27" layer="27" rot="R90"/>
 <attribute name="ASK" value="" x="27.3" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="CUSTOMERPN" value="" x="27.3" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="FSK" value="X" x="27.3" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="FSK_PN" value="" x="27.3" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="FSK_PN" value="RC1005F752CS" x="27.3" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MIFARE" value="" x="27.3" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="27.3" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PN1" value="" x="27.3" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PSK" value="X" x="27.3" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PSK_PN" value="" x="27.3" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PSK_PN" value="RC1005F512CS" x="27.3" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPECIAL" value="" x="27.3" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R17" library="RFiD" package="R0402" value="1k" x="28" y="49.6" smashed="yes">

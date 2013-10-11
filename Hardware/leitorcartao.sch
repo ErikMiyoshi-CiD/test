@@ -7022,148 +7022,148 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="C29" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
+<part name="C29" library="RFiD" deviceset="C-US" device="C0402" value="F:0.1uP:10n">
 <attribute name="ASK" value=""/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_PN" value="CL05B104KO5NNNC"/>
 <attribute name="MIFARE" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_PN" value="CL05B103KB5NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="R21" library="RFiD" deviceset="R-US_" device="R0402" value="F:P:5.6k">
+<part name="R21" library="RFiD" deviceset="R-US_" device="R0402" value="F:5.1kP:5.6k">
 <attribute name="ASK" value=""/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_PN" value="RC1005F512CS"/>
 <attribute name="MIFARE" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_PN" value="RC1005F562CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="R23" library="RFiD" deviceset="R-US_" device="R0402" value="F:P:5.1k">
+<part name="R23" library="RFiD" deviceset="R-US_" device="R0402" value="F:7.5kP:5.1k">
 <attribute name="ASK" value=""/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_PN" value="RC1005F752CS"/>
 <attribute name="MIFARE" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_PN" value="RC1005F512CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="C32" library="RFiD" deviceset="C-US" device="C0402" value="F:P:100p">
+<part name="C32" library="RFiD" deviceset="C-US" device="C0402" value="F:1nP:100p">
 <attribute name="ASK" value=""/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_PN" value="C0402C102J1GACTU"/>
 <attribute name="MIFARE" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_PN" value="CL05C101JB5NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="C31" library="RFiD" deviceset="C-US" device="C0402" value="F:P:68p">
+<part name="C31" library="RFiD" deviceset="C-US" device="C0402" value="F:220pP:68p">
 <attribute name="ASK" value=""/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_PN" value="CL05C221JB5NNNC"/>
 <attribute name="MIFARE" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_PN" value="CL05C680JB5NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="R27" library="RFiD" deviceset="R-US_" device="R0402" value="F:P:270k">
+<part name="R27" library="RFiD" deviceset="R-US_" device="R0402" value="F:180kP:270k">
 <attribute name="ASK" value=""/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_PN" value="RC1005F184CS"/>
 <attribute name="MIFARE" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_PN" value="RC1005F274CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="R35" library="RFiD" deviceset="R-US_" device="R0402" value="F:P:5.6k">
+<part name="R35" library="RFiD" deviceset="R-US_" device="R0402" value="F:5.1kP:5.6k">
 <attribute name="ASK" value=""/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_PN" value="RC1005F512CS"/>
 <attribute name="MIFARE" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_PN" value="RC1005F562CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="C35" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
+<part name="C35" library="RFiD" deviceset="C-US" device="C0402" value="F:0.1uP:10n">
 <attribute name="ASK" value=""/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_PN" value="CL05B104KO5NNNC"/>
 <attribute name="MIFARE" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_PN" value="CL05B103KB5NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="R39" library="RFiD" deviceset="R-US_" device="R0402" value="F:P:5.1k">
+<part name="R39" library="RFiD" deviceset="R-US_" device="R0402" value="F:7.5kP:5.1k">
 <attribute name="ASK" value=""/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_PN" value="RC1005F752CS"/>
 <attribute name="MIFARE" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_PN" value="RC1005F512CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="C43" library="RFiD" deviceset="C-US" device="C0402" value="F:P:68p">
+<part name="C43" library="RFiD" deviceset="C-US" device="C0402" value="F:220pP:68p">
 <attribute name="ASK" value=""/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_PN" value="CL05C221JB5NNNC"/>
 <attribute name="MIFARE" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_PN" value="CL05C680JB5NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="C44" library="RFiD" deviceset="C-US" device="C0402" value="F:P:100p">
+<part name="C44" library="RFiD" deviceset="C-US" device="C0402" value="F:1nP:100p">
 <attribute name="ASK" value=""/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_PN" value="C0402C102J1GACTU"/>
 <attribute name="MIFARE" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_PN" value="CL05C101JB5NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="R41" library="RFiD" deviceset="R-US_" device="R0402" value="F:P:270k">
+<part name="R41" library="RFiD" deviceset="R-US_" device="R0402" value="F:180kP:270k">
 <attribute name="ASK" value=""/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_PN" value="RC1005F184CS"/>
 <attribute name="MIFARE" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_PN" value="RC1005F274CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="P+3" library="supply1" deviceset="+12V" device=""/>
@@ -7565,76 +7565,76 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="P+11" library="supply1" deviceset="V+" device=""/>
-<part name="C45" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
+<part name="C45" library="RFiD" deviceset="C-US" device="C0402" value="F:0.1uP:10n">
 <attribute name="ASK" value=""/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_PN" value="CL05B104KO5NNNC"/>
 <attribute name="MIFARE" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_PN" value="CL05B103KB5NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="R40" library="RFiD" deviceset="R-US_" device="R0402" value="F:P:5.6k">
+<part name="R40" library="RFiD" deviceset="R-US_" device="R0402" value="F:5.1kP:5.6k">
 <attribute name="ASK" value=""/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_PN" value="RC1005F512CS"/>
 <attribute name="MIFARE" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_PN" value="RC1005F562CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="C39" library="RFiD" deviceset="C-US" device="C0402" value="F:P:100p">
+<part name="C39" library="RFiD" deviceset="C-US" device="C0402" value="F:1nP:100p">
 <attribute name="ASK" value=""/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_PN" value="C0402C102J1GACTU"/>
 <attribute name="MIFARE" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_PN" value="CL05C101JB5NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="C38" library="RFiD" deviceset="C-US" device="C0402" value="F:P:68p">
+<part name="C38" library="RFiD" deviceset="C-US" device="C0402" value="F:220pP:68p">
 <attribute name="ASK" value=""/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_PN" value="CL05C221JB5NNNC"/>
 <attribute name="MIFARE" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_PN" value="CL05C680JB5NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="R31" library="RFiD" deviceset="R-US_" device="R0402" value="F:P:270k">
+<part name="R31" library="RFiD" deviceset="R-US_" device="R0402" value="F:180kP:270k">
 <attribute name="ASK" value=""/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_PN" value="RC1005F184CS"/>
 <attribute name="MIFARE" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_PN" value="RC1005F274CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
-<part name="R36" library="RFiD" deviceset="R-US_" device="R0402" value="F:P:5.1k">
+<part name="R36" library="RFiD" deviceset="R-US_" device="R0402" value="F:7.5kP:5.1k">
 <attribute name="ASK" value=""/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_PN" value="RC1005F752CS"/>
 <attribute name="MIFARE" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_PN" value="RC1005F512CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R17" library="RFiD" deviceset="R-US_" device="R0402" value="1k">

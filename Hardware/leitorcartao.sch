@@ -7616,7 +7616,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="ASK_PN" value=""/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_CUSTOMERPN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="C/0.1u/16V/A04"/>
 <attribute name="FSK_PN" value="CL05B104KO5NNNC"/>
 <attribute name="MIFARE" value=""/>
 <attribute name="MIFARE_CUSTOMERPN" value=""/>
@@ -7624,7 +7624,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="PSK_CUSTOMERPN" value="C/10n/50V/C04"/>
 <attribute name="PSK_PN" value="CL05B103KB5NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
@@ -7787,7 +7787,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
 <attribute name="PSK_CUSTOMERPN" value="C/680p/25V/C04"/>
-<attribute name="PSK_PN" value="CL05C680JB5NNNC"/>
+<attribute name="PSK_PN" value="CL05B681KB5NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C44" library="RFiD" deviceset="C-US" device="C0402" value="F:1nP:100p">
@@ -8217,7 +8217,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
 <attribute name="FSK_CUSTOMERPN" value="R/9.1k/5%/04"/>
-<attribute name="FSK_PN" value="CL05B104KO5NNNC"/>
+<attribute name="FSK_PN" value="RC1005J912CS"/>
 <attribute name="MIFARE" value=""/>
 <attribute name="MIFARE_CUSTOMERPN" value=""/>
 <attribute name="MIFARE_PN" value=""/>
@@ -8225,7 +8225,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
 <attribute name="PSK_CUSTOMERPN" value="R/9.1k/5%/04"/>
-<attribute name="PSK_PN" value="CL05B104KO5NNNC"/>
+<attribute name="PSK_PN" value="RC1005J912CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R25" library="RFiD" deviceset="R-US_" device="R0402" value="13k">
@@ -8260,8 +8260,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_CUSTOMERPN" value="RC1005J912CS"/>
-<attribute name="PSK_PN" value="R/9.1k/5%/04"/>
+<attribute name="PSK_CUSTOMERPN" value="R/9.1k/5%/04"/>
+<attribute name="PSK_PN" value="RC1005J912CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C30" library="RFiD" deviceset="C-US" device="C0402" value="680p">
@@ -8849,8 +8849,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_CUSTOMERPN" value="CL05B104KO5NNNC"/>
-<attribute name="PSK_PN" value="C/0.1u/16V/A04"/>
+<attribute name="PSK_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="PSK_PN" value="CL05B104KO5NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C64" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
@@ -8867,8 +8867,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_CUSTOMERPN" value="CL05B104KO5NNNC"/>
-<attribute name="PSK_PN" value="DNP"/>
+<attribute name="PSK_CUSTOMERPN" value="DNP"/>
+<attribute name="PSK_PN" value="CL05B104KO5NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND61" library="supply1" deviceset="GND" device=""/>

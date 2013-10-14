@@ -5783,40 +5783,58 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="C16" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="ASK_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="ASK_PN" value="CL05B104KO5NNNC"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="FSK_PN" value="CL05B104KO5NNNC"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="MIFARE_PN" value="CL05B104KO5NNNC"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="PSK_PN" value="CL05B104KO5NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="C17" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="ASK_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="ASK_PN" value="CL05B104KO5NNNC"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="FSK_PN" value="CL05B104KO5NNNC"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="MIFARE_PN" value="CL05B104KO5NNNC"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="PSK_PN" value="CL05B104KO5NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="C1" library="RFiD" deviceset="C-US" device="C0603" value="4.7u">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="C/4.7u/16V/C06"/>
+<attribute name="ASK_CUSTOMERPN" value="C/4.7u/16V/C06"/>
+<attribute name="ASK_PN" value="CL10A475KO8NNNC"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="C/4.7u/16V/C06"/>
+<attribute name="FSK_PN" value="CL10A475KO8NNNC"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/4.7u/16V/C06"/>
+<attribute name="MIFARE_PN" value="CL10A475KO8NNNC"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="CL10A475KO8NNNC"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="C/4.7u/16V/C06"/>
+<attribute name="PSK_PN" value="CL10A475KO8NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
@@ -5824,27 +5842,39 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="C4" library="RFiD" deviceset="C-US" device="C0603" value="4.7u">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="C/4.7u/16V/C06"/>
+<attribute name="ASK_CUSTOMERPN" value="C/4.7u/16V/C06"/>
+<attribute name="ASK_PN" value="CL10A475KO8NNNC"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="C/4.7u/16V/C06"/>
+<attribute name="FSK_PN" value="CL10A475KO8NNNC"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/4.7u/16V/C06"/>
+<attribute name="MIFARE_PN" value="CL10A475KO8NNNC"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="CL10A475KO8NNNC"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="C/4.7u/16V/C06"/>
+<attribute name="PSK_PN" value="CL10A475KO8NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="D2" library="RFiD" deviceset="DIODE-" device="DO214AC">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="TVS/14V/SMA"/>
+<attribute name="ASK_CUSTOMERPN" value="TVS/14V/SMA"/>
+<attribute name="ASK_PN" value="SMAJ14A"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="TVS/14V/SMA"/>
+<attribute name="FSK_PN" value="SMAJ14A"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="TVS/14V/SMA"/>
+<attribute name="MIFARE_PN" value="SMAJ14A"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="SMAJ14A"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="TVS/14V/SMA"/>
+<attribute name="PSK_PN" value="SMAJ14A"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
@@ -5856,143 +5886,209 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY2" library="supply2" deviceset="+5V" device=""/>
 <part name="R6" library="RFiD" deviceset="R-US_" device="R0402" value="2.2k">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="R/2.2k/5%/04"/>
+<attribute name="ASK_CUSTOMERPN" value="R/2.2k/5%/04"/>
+<attribute name="ASK_PN" value="RMCF0402JT2K20"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="R/2.2k/5%/04"/>
+<attribute name="FSK_PN" value="RMCF0402JT2K20"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RMCF0402JT2K20"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="RMCF0402JT2K20"/>
+<attribute name="PSK_PN" value="R/2.2k/5%/04"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R4" library="RFiD" deviceset="R-US_" device="R0402" value="1k">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="R/1K/5%/04"/>
+<attribute name="ASK_CUSTOMERPN" value="R/1K/5%/04"/>
+<attribute name="ASK_PN" value="RC0402JR-071KL"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="R/1K/5%/04"/>
+<attribute name="FSK_PN" value="RC0402JR-071KL"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC0402JR-071KL"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="R/1K/5%/04"/>
+<attribute name="PSK_PN" value="RC0402JR-071KL"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="R15" library="RFiD" deviceset="R-US_" device="R1206" value="1M">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="R/1M/5%/12"/>
+<attribute name="ASK_CUSTOMERPN" value="R/1M/5%/12"/>
+<attribute name="ASK_PN" value="RC3216J105CS"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="R/1M/5%/12"/>
+<attribute name="FSK_PN" value="RC3216J105CS"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC3216J105CS"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="R/1M/5%/12"/>
+<attribute name="PSK_PN" value="RC3216J105CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="C28" library="RFiD" deviceset="C-US" device="C1206" value="1n">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="C/1n/200V/C12"/>
+<attribute name="ASK_CUSTOMERPN" value="C/1n/200V/C12"/>
+<attribute name="ASK_PN" value="CL31C102JHHNFNE"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="C/1n/200V/C12"/>
+<attribute name="FSK_PN" value="CL31C102JHHNFNE"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="CL31C102JHHNFNE"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="C/1n/200V/C12"/>
+<attribute name="PSK_PN" value="CL31C102JHHNFNE"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="C25" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="ASK_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="ASK_PN" value="CL05B104KO5NNNC"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="FSK_PN" value="CL05B104KO5NNNC"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="PSK_PN" value="CL05B104KO5NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="R16" library="RFiD" deviceset="R-US_" device="R0603" value="100k">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="R/100K/5%/06"/>
+<attribute name="ASK_CUSTOMERPN" value="R/100K/5%/06"/>
+<attribute name="ASK_PN" value="RC0603JR-07100KL"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="R/100K/5%/06"/>
+<attribute name="FSK_PN" value="RC0603JR-07100KL"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC0603JR-07100KL"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="R/100K/5%/06"/>
+<attribute name="PSK_PN" value="RC0603JR-07100KL"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="U2" library="RFiD" deviceset="TLV1117-50CDCYR" device="">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="IC/5VREG"/>
+<attribute name="ASK_CUSTOMERPN" value="IC/5VREG"/>
+<attribute name="ASK_PN" value="TLV1117-50CDCYR"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="IC/5VREG"/>
+<attribute name="FSK_PN" value="TLV1117-50CDCYR"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="IC/5VREG"/>
+<attribute name="MIFARE_PN" value="TLV1117-50CDCYR"/>
 <attribute name="PASSIVO" value=""/>
-<attribute name="PN1" value="TLV1117-50CDCYR"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="IC/5VREG"/>
+<attribute name="PSK_PN" value="TLV1117-50CDCYR"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="C5" library="RFiD" deviceset="C-US" device="C0805" value="10u">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="C/10u/25V/A08"/>
+<attribute name="ASK_CUSTOMERPN" value="C/10u/25V/A08"/>
+<attribute name="ASK_PN" value="GRM188R61E106MA73D"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="C/10u/25V/A08"/>
+<attribute name="FSK_PN" value="GRM188R61E106MA73D"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/10u/25V/A08"/>
+<attribute name="MIFARE_PN" value="GRM188R61E106MA73D"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="GRM188R61E106MA73D"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="C/10u/25V/A08"/>
+<attribute name="PSK_PN" value="GRM188R61E106MA73D"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C8" library="RFiD" deviceset="C-US" device="C0805" value="10u">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="C/10u/25V/A08"/>
+<attribute name="ASK_CUSTOMERPN" value="C/10u/25V/A08"/>
+<attribute name="ASK_PN" value="GRM188R61E106MA73D"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="C/10u/25V/A08"/>
+<attribute name="FSK_PN" value="GRM188R61E106MA73D"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/10u/25V/A08"/>
+<attribute name="MIFARE_PN" value="GRM188R61E106MA73D"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="GRM188R61E106MA73D"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="C/10u/25V/A08"/>
+<attribute name="PSK_PN" value="GRM188R61E106MA73D"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="C2" library="RFiD" deviceset="ESK108M016AH2AA" device="">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="C/1m/16V/PTH"/>
+<attribute name="ASK_CUSTOMERPN" value="C/1m/16V/PTH"/>
+<attribute name="ASK_PN" value="ESK108M016AH2AA"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="C/1m/16V/PTH"/>
+<attribute name="FSK_PN" value="ESK108M016AH2AA"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/1m/16V/PTH"/>
+<attribute name="MIFARE_PN" value="ESK108M016AH2AA"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="ESK108M016AH2AA"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="C/1m/16V/PTH"/>
+<attribute name="PSK_PN" value="ESK108M016AH2AA"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="P+4" library="supply1" deviceset="+12V" device=""/>
 <part name="FRAME4" library="RFiD" deviceset="A4L-LOC" device=""/>
 <part name="U4" library="RFiD" deviceset="MFRC52202HN1" device="">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="IC/MFRC52202"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="IC/MFRC52202"/>
+<attribute name="MIFARE_PN" value="MFRC52202HN1,151"/>
 <attribute name="PASSIVO" value=""/>
-<attribute name="PN1" value="MFRC52202HN1,151"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
@@ -6000,73 +6096,109 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND37" library="supply1" deviceset="GND" device=""/>
 <part name="L1" library="RFiD" deviceset="R-EU_" device="R0402" value="22n">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="L/22n/0.2A/04"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="L/22n/0.2A/04"/>
+<attribute name="MIFARE_PN" value="CIH05T22NJNC"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="CIH05T22NJNC"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="L2" library="RFiD" deviceset="R-EU_" device="R0402" value="22n">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="L/22n/0.2A/04"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="L/22n/0.2A/04"/>
+<attribute name="MIFARE_PN" value="CIH05T22NJNC"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="CIH05T22NJNC"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C53" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="MIFARE_PN" value="CL05B104KO5NNNC"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C52" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="MIFARE_PN" value="CL05B104KO5NNNC"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C49" library="RFiD" deviceset="C-US" device="C0402" value="100p">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="C/100p/50V/D04"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/100p/50V/D04"/>
+<attribute name="MIFARE_PN" value="CL05C101JB5NNNC"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="CL05C101JB5NNNC"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C50" library="RFiD" deviceset="C-US" device="C0402" value="100p">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="C/100p/50V/D04"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/100p/50V/D04"/>
+<attribute name="MIFARE_PN" value="CL05C101JB5NNNC"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="CL05C101JB5NNNC"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
@@ -6078,25 +6210,37 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND41" library="supply1" deviceset="GND" device=""/>
 <part name="C58" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="MIFARE_PN" value="CL05B104KO5NNNC"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C61" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="MIFARE_PN" value="CL05B104KO5NNNC"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
@@ -6104,25 +6248,37 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND43" library="supply1" deviceset="GND" device=""/>
 <part name="C46" library="RFiD" deviceset="C-US" device="C0603" value="18p">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="C/18p/50V/D06"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/18p/50V/D06"/>
+<attribute name="MIFARE_PN" value="CL05C180JB5NNNC"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="CL05C180JB5NNNC"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C47" library="RFiD" deviceset="C-US" device="C0603" value="18p">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="C/18p/50V/D06"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/18p/50V/D06"/>
+<attribute name="MIFARE_PN" value="CL05C180JB5NNNC"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="CL05C180JB5NNNC"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
@@ -6133,134 +6289,200 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND44" library="supply1" deviceset="GND" device=""/>
 <part name="C54" library="RFiD" deviceset="C-US" device="C0603" value="120p">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="C/120p/50V/E06"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/120p/50V/E06"/>
+<attribute name="MIFARE_PN" value="06035U121FAT2A"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="06035U121FAT2A"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C55" library="RFiD" deviceset="C-US" device="C0603" value="120p">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="C/120p/50V/E06"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/120p/50V/E06"/>
+<attribute name="MIFARE_PN" value="06035U121FAT2A"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="06035U121FAT2A"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C56" library="RFiD" deviceset="C-US" device="C0603" value="18p">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="C/18p/50V/E06"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/18p/50V/E06"/>
+<attribute name="MIFARE_PN" value="CL05C180JB5NNNC"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="CL05C180JB5NNNC"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C57" library="RFiD" deviceset="C-US" device="C0603" value="18p">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="C/18p/50V/E06"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/18p/50V/E06"/>
+<attribute name="MIFARE_PN" value="CL05C180JB5NNNC"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="CL05C180JB5NNNC"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C60" library="RFiD" deviceset="C-US" device="C0603" value="56p">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="C/56p/100V/E06"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/56p/100V/E06"/>
+<attribute name="MIFARE_PN" value="06031U560FAT2A"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="06031U560FAT2A"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C59" library="RFiD" deviceset="C-US" device="C0603" value="56p">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="C/56p/100V/E06"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/56p/100V/E06"/>
+<attribute name="MIFARE_PN" value="06031U560FAT2A"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="06031U560FAT2A"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="L4" library="RFiD" deviceset="R-EU_" device="R0603" value="1u">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="L/1u/0.5A/06"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="L/1u/0.5A/06"/>
+<attribute name="MIFARE_PN" value="BRC1608T1R0M"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="BRC1608T1R0M"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="L3" library="RFiD" deviceset="R-EU_" device="R0603" value="1u">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="L/1u/0.5A/06"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="L/1u/0.5A/06"/>
+<attribute name="MIFARE_PN" value="BRC1608T1R0M"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="BRC1608T1R0M"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R46" library="RFiD" deviceset="R-US_" device="R0603" value="3.3">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="R/3.3/5%/06"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="R/3.3/5%/06"/>
+<attribute name="MIFARE_PN" value="RC1608J3R3CS"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC1608J3R3CS"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R47" library="RFiD" deviceset="R-US_" device="R0603" value="3.3">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="R/3.3/5%/06"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="R/3.3/5%/06"/>
+<attribute name="MIFARE_PN" value="RC1608J3R3CS"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC1608J3R3CS"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND45" library="supply1" deviceset="GND" device=""/>
 <part name="R43" library="RFiD" deviceset="R-US_" device="R0402" value="4.7k">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="R/4.7K/5%/04"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="R/4.7K/5%/04"/>
+<attribute name="MIFARE_PN" value="RC1608J472CS"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC1608J472CS"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
@@ -6268,76 +6490,112 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
 <part name="R42" library="RFiD" deviceset="R-US_" device="R0402" value="4.7k">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="R/4.7K/5%/04"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="R/4.7K/5%/04"/>
+<attribute name="MIFARE_PN" value="RC1608J472CS"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC1608J472CS"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="+3V10" library="supply1" deviceset="+3V3" device=""/>
 <part name="R45" library="RFiD" deviceset="R-US_" device="R0402" value="2.2k">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="R/2.2k/5%/04"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="R/2.2k/5%/04"/>
+<attribute name="MIFARE_PN" value="RMCF0402JT2K20"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RMCF0402JT2K20"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C51" library="RFiD" deviceset="C-US" device="C0402" value="1n">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="C/1n/100V/D04"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/1n/100V/D04"/>
+<attribute name="MIFARE_PN" value="C0402C102J1GACTU"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="C0402C102J1GACTU"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R44" library="RFiD" deviceset="R-US_" device="R0402" value="1k">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="R/1K/5%/04"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="R/1K/5%/04"/>
+<attribute name="MIFARE_PN" value="RC0402JR-071KL"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC0402JR-071KL"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C48" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="MIFARE_PN" value="CL05B104KO5NNNC"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND46" library="supply1" deviceset="GND" device=""/>
 <part name="C14" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="ASK_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="ASK_PN" value="CL05B104KO5NNNC"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="FSK_PN" value="CL05B104KO5NNNC"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="MIFARE_PN" value="CL05B104KO5NNNC"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="PSK_PN" value="CL05B104KO5NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="+3V11" library="supply1" deviceset="+3V3" device=""/>
@@ -6346,85 +6604,127 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="P+5" library="supply1" deviceset="VCC/2" device="" value="VIN"/>
 <part name="VCC" library="RFiD" deviceset="PTHPAD" device="" value="VCC">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="DNP"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND" library="RFiD" deviceset="PTHPAD" device="" value="GND">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="DNP"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="LED-IN" library="RFiD" deviceset="PTHPAD" device="" value="LED">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="DNP"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="MODE" library="RFiD" deviceset="PTHPAD" device="" value="MODESELECT">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="DNP"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="D0/TX/CLK" library="RFiD" deviceset="PTHPAD" device="" value="D0/CLK/TX">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="DNP"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="D1/DATA" library="RFiD" deviceset="PTHPAD" device="" value="D1/DATA">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="DNP"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="CARDPRS" library="RFiD" deviceset="PTHPAD" device="" value="CARD-PRES">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="DNP"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
@@ -6435,38 +6735,56 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND51" library="supply1" deviceset="GND" device=""/>
 <part name="R51" library="RFiD" deviceset="R-US_" device="R0402" value="1k">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="R/1K/5%/04"/>
+<attribute name="ASK_CUSTOMERPN" value="R/1K/5%/04"/>
+<attribute name="ASK_PN" value="RC0402JR-071KL"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="R/1K/5%/04"/>
+<attribute name="FSK_PN" value="RC0402JR-071KL"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="R/1K/5%/04"/>
+<attribute name="MIFARE_PN" value="RC0402JR-071KL"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC0402JR-071KL"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="R/1K/5%/04"/>
+<attribute name="PSK_PN" value="RC0402JR-071KL"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R56" library="RFiD" deviceset="R-US_" device="R0402" value="1k">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="R/1K/5%/04"/>
+<attribute name="ASK_CUSTOMERPN" value="R/1K/5%/04"/>
+<attribute name="ASK_PN" value="RC0402JR-071KL"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="R/1K/5%/04"/>
+<attribute name="FSK_PN" value="RC0402JR-071KL"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="R/1K/5%/04"/>
+<attribute name="MIFARE_PN" value="RC0402JR-071KL"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC0402JR-071KL"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="R/1K/5%/04"/>
+<attribute name="PSK_PN" value="RC0402JR-071KL"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R63" library="RFiD" deviceset="R-US_" device="R0402" value="1k">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="R/1K/5%/04"/>
+<attribute name="ASK_CUSTOMERPN" value="R/1K/5%/04"/>
+<attribute name="ASK_PN" value="RC0402JR-071KL"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="R/1K/5%/04"/>
+<attribute name="FSK_PN" value="RC0402JR-071KL"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="R/1K/5%/04"/>
+<attribute name="MIFARE_PN" value="RC0402JR-071KL"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC0402JR-071KL"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="R/1K/5%/04"/>
+<attribute name="PSK_PN" value="RC0402JR-071KL"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="SUPPLY3" library="supply2" deviceset="+5V" device=""/>
@@ -6474,257 +6792,383 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY6" library="supply2" deviceset="+5V" device=""/>
 <part name="R49" library="RFiD" deviceset="R-US_" device="R0402" value="2.2k">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="R/2.2k/5%/04"/>
+<attribute name="ASK_CUSTOMERPN" value="R/2.2k/5%/04"/>
+<attribute name="ASK_PN" value="RMCF0402JT2K20"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="R/2.2k/5%/04"/>
+<attribute name="FSK_PN" value="RMCF0402JT2K20"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="R/2.2k/5%/04"/>
+<attribute name="MIFARE_PN" value="RMCF0402JT2K20"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RMCF0402JT2K20"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="R/2.2k/5%/04"/>
+<attribute name="PSK_PN" value="RMCF0402JT2K20"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R55" library="RFiD" deviceset="R-US_" device="R0402" value="2.2k">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="R/2.2k/5%/04"/>
+<attribute name="ASK_CUSTOMERPN" value="R/2.2k/5%/04"/>
+<attribute name="ASK_PN" value="RMCF0402JT2K20"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="R/2.2k/5%/04"/>
+<attribute name="FSK_PN" value="RMCF0402JT2K20"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="R/2.2k/5%/04"/>
+<attribute name="MIFARE_PN" value="RMCF0402JT2K20"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RMCF0402JT2K20"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="R/2.2k/5%/04"/>
+<attribute name="PSK_PN" value="RMCF0402JT2K20"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R62" library="RFiD" deviceset="R-US_" device="R0402" value="2.2k">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="R/2.2k/5%/04"/>
+<attribute name="ASK_CUSTOMERPN" value="R/2.2k/5%/04"/>
+<attribute name="ASK_PN" value="RMCF0402JT2K20"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="R/2.2k/5%/04"/>
+<attribute name="FSK_PN" value="RMCF0402JT2K20"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="R/2.2k/5%/04"/>
+<attribute name="MIFARE_PN" value="RMCF0402JT2K20"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RMCF0402JT2K20"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="R/2.2k/5%/04"/>
+<attribute name="PSK_PN" value="RMCF0402JT2K20"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="Q5" library="RFiD" deviceset="MMBT4401" device="">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="Q/MMBT4401/SOT23"/>
+<attribute name="ASK_CUSTOMERPN" value="Q/MMBT4401/SOT23"/>
+<attribute name="ASK_PN" value="MMBT4401LT3G"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="Q/MMBT4401/SOT23"/>
+<attribute name="FSK_PN" value="MMBT4401LT3G"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="Q/MMBT4401/SOT23"/>
+<attribute name="MIFARE_PN" value="MMBT4401LT3G"/>
 <attribute name="PASSIVO" value=""/>
-<attribute name="PN1" value="MMBT4401LT3G"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="Q/MMBT4401/SOT23"/>
+<attribute name="PSK_PN" value="MMBT4401LT3G"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="Q6" library="RFiD" deviceset="MMBT4401" device="">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="Q/MMBT4401/SOT23"/>
+<attribute name="ASK_CUSTOMERPN" value="Q/MMBT4401/SOT23"/>
+<attribute name="ASK_PN" value="MMBT4401LT3G"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="Q/MMBT4401/SOT23"/>
+<attribute name="FSK_PN" value="MMBT4401LT3G"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="Q/MMBT4401/SOT23"/>
+<attribute name="MIFARE_PN" value="MMBT4401LT3G"/>
 <attribute name="PASSIVO" value=""/>
-<attribute name="PN1" value="MMBT4401LT3G"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="Q/MMBT4401/SOT23"/>
+<attribute name="PSK_PN" value="MMBT4401LT3G"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="Q7" library="RFiD" deviceset="MMBT4401" device="">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="Q/MMBT4401/SOT23"/>
+<attribute name="ASK_CUSTOMERPN" value="Q/MMBT4401/SOT23"/>
+<attribute name="ASK_PN" value="MMBT4401LT3G"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="Q/MMBT4401/SOT23"/>
+<attribute name="FSK_PN" value="MMBT4401LT3G"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="Q/MMBT4401/SOT23"/>
+<attribute name="MIFARE_PN" value="MMBT4401LT3G"/>
 <attribute name="PASSIVO" value=""/>
-<attribute name="PN1" value="MMBT4401LT3G"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="Q/MMBT4401/SOT23"/>
+<attribute name="PSK_PN" value="MMBT4401LT3G"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R52" library="RFiD" deviceset="R-US_" device="R0603" value="100">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="R/100/5%/06"/>
+<attribute name="ASK_CUSTOMERPN" value="R/100/5%/06"/>
+<attribute name="ASK_PN" value="RC1005J101CS"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="R/100/5%/06"/>
+<attribute name="FSK_PN" value="RC1005J101CS"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="R/100/5%/06"/>
+<attribute name="MIFARE_PN" value="RC1005J101CS"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC1005J101CS"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="R/100/5%/06"/>
+<attribute name="PSK_PN" value="RC1005J101CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R57" library="RFiD" deviceset="R-US_" device="R0603" value="100">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="R/100/5%/06"/>
+<attribute name="ASK_CUSTOMERPN" value="R/100/5%/06"/>
+<attribute name="ASK_PN" value="RC1005J101CS"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="R/100/5%/06"/>
+<attribute name="FSK_PN" value="RC1005J101CS"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="R/100/5%/06"/>
+<attribute name="MIFARE_PN" value="RC1005J101CS"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC1005J101CS"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="R/100/5%/06"/>
+<attribute name="PSK_PN" value="RC1005J101CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R64" library="RFiD" deviceset="R-US_" device="R0603" value="100">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="R/100/5%/06"/>
+<attribute name="ASK_CUSTOMERPN" value="R/100/5%/06"/>
+<attribute name="ASK_PN" value="RC1005J101CS"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="R/100/5%/06"/>
+<attribute name="FSK_PN" value="RC1005J101CS"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="R/100/5%/06"/>
+<attribute name="MIFARE_PN" value="RC1005J101CS"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC1005J101CS"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="R/100/5%/06"/>
+<attribute name="PSK_PN" value="RC1005J101CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R60" library="RFiD" deviceset="R-US_" device="R0603" value="100k">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="R/100K/5%/06"/>
+<attribute name="ASK_CUSTOMERPN" value="R/100K/5%/06"/>
+<attribute name="ASK_PN" value="RC0603JR-07100KL"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="R/100K/5%/06"/>
+<attribute name="FSK_PN" value="RC0603JR-07100KL"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="R/100K/5%/06"/>
+<attribute name="MIFARE_PN" value="RC0603JR-07100KL"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC0603JR-07100KL"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="R/100K/5%/06"/>
+<attribute name="PSK_PN" value="RC0603JR-07100KL"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R61" library="RFiD" deviceset="R-US_" device="R0603" value="100k">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="R/100K/5%/06"/>
+<attribute name="ASK_CUSTOMERPN" value="R/100K/5%/06"/>
+<attribute name="ASK_PN" value="RC0603JR-07100KL"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="R/100K/5%/06"/>
+<attribute name="FSK_PN" value="RC0603JR-07100KL"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="R/100K/5%/06"/>
+<attribute name="MIFARE_PN" value="RC0603JR-07100KL"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC0603JR-07100KL"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="R/100K/5%/06"/>
+<attribute name="PSK_PN" value="RC0603JR-07100KL"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R59" library="RFiD" deviceset="R-US_" device="R0603" value="100k">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="R/100K/5%/06"/>
+<attribute name="ASK_CUSTOMERPN" value="R/100K/5%/06"/>
+<attribute name="ASK_PN" value="RC0603JR-07100KL"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="R/100K/5%/06"/>
+<attribute name="FSK_PN" value="RC0603JR-07100KL"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="R/100K/5%/06"/>
+<attribute name="MIFARE_PN" value="RC0603JR-07100KL"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC0603JR-07100KL"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="R/100K/5%/06"/>
+<attribute name="PSK_PN" value="RC0603JR-07100KL"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R58" library="RFiD" deviceset="R-US_" device="R0603" value="100k">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="R/100K/5%/06"/>
+<attribute name="ASK_CUSTOMERPN" value="R/100K/5%/06"/>
+<attribute name="ASK_PN" value="RC0603JR-07100KL"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="R/100K/5%/06"/>
+<attribute name="FSK_PN" value="RC0603JR-07100KL"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="R/100K/5%/06"/>
+<attribute name="MIFARE_PN" value="RC0603JR-07100KL"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC0603JR-07100KL"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="R/100K/5%/06"/>
+<attribute name="PSK_PN" value="RC0603JR-07100KL"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="+3V12" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V13" library="supply1" deviceset="+3V3" device=""/>
 <part name="R53" library="RFiD" deviceset="R-US_" device="R0402" value="130">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="R/130/5%/04"/>
+<attribute name="ASK_CUSTOMERPN" value="R/130/5%/04"/>
+<attribute name="ASK_PN" value="RC1005J131CS"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="R/130/5%/04"/>
+<attribute name="FSK_PN" value="RC1005J131CS"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="R/130/5%/04"/>
+<attribute name="MIFARE_PN" value="RC1005J131CS"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC1005J131CS"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="R/130/5%/04"/>
+<attribute name="PSK_PN" value="RC1005J131CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R54" library="RFiD" deviceset="R-US_" device="R0402" value="120">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="R/120/5%/04"/>
+<attribute name="ASK_CUSTOMERPN" value="R/120/5%/04"/>
+<attribute name="ASK_PN" value="RC1005J121CS"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="R/120/5%/04"/>
+<attribute name="FSK_PN" value="RC1005J121CS"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="R/120/5%/04"/>
+<attribute name="MIFARE_PN" value="RC1005J121CS"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC1005J121CS"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="R/120/5%/04"/>
+<attribute name="PSK_PN" value="RC1005J121CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="BZ1" library="RFiD" deviceset="F/TMB" device="">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="BUZ-REP"/>
+<attribute name="ASK_CUSTOMERPN" value="BUZ-REP"/>
+<attribute name="ASK_PN" value="PS1240P02BT"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="BUZ-REP"/>
+<attribute name="FSK_PN" value="PS1240P02BT"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="BUZ-REP"/>
+<attribute name="MIFARE_PN" value="PS1240P02BT"/>
 <attribute name="PASSIVO" value=""/>
-<attribute name="PN1" value="PS1240P02BT"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="BUZ-REP"/>
+<attribute name="PSK_PN" value="PS1240P02BT"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="Q4" library="RFiD" deviceset="MMBT4401" device="">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="Q/MMBT4401/SOT23"/>
+<attribute name="ASK_CUSTOMERPN" value="Q/MMBT4401/SOT23"/>
+<attribute name="ASK_PN" value="MMBT4401LT3G"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="Q/MMBT4401/SOT23"/>
+<attribute name="FSK_PN" value="MMBT4401LT3G"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="Q/MMBT4401/SOT23"/>
+<attribute name="MIFARE_PN" value="MMBT4401LT3G"/>
 <attribute name="PASSIVO" value=""/>
-<attribute name="PN1" value="MMBT4401LT3G"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="Q/MMBT4401/SOT23"/>
+<attribute name="PSK_PN" value="MMBT4401LT3G"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND48" library="supply1" deviceset="GND" device=""/>
 <part name="R48" library="RFiD" deviceset="R-US_" device="R0402" value="2.2k">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="R/2.2k/5%/04"/>
+<attribute name="ASK_CUSTOMERPN" value="R/2.2k/5%/04"/>
+<attribute name="ASK_PN" value="RMCF0402JT2K20"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="R/2.2k/5%/04"/>
+<attribute name="FSK_PN" value="RMCF0402JT2K20"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="R/2.2k/5%/04"/>
+<attribute name="MIFARE_PN" value="RMCF0402JT2K20"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RMCF0402JT2K20"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="R/2.2k/5%/04"/>
+<attribute name="PSK_PN" value="RMCF0402JT2K20"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R50" library="RFiD" deviceset="R-US_" device="R0402" value="1k">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="R/1K/5%/04"/>
+<attribute name="ASK_CUSTOMERPN" value="R/1K/5%/04"/>
+<attribute name="ASK_PN" value="RC0402JR-071KL"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="R/1K/5%/04"/>
+<attribute name="FSK_PN" value="RC0402JR-071KL"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="R/1K/5%/04"/>
+<attribute name="MIFARE_PN" value="RC0402JR-071KL"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC0402JR-071KL"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="R/1K/5%/04"/>
+<attribute name="PSK_PN" value="RC0402JR-071KL"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="D4" library="RFiD" deviceset="BAT54S" device="">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="D/BAT54S/SOT23"/>
+<attribute name="ASK_CUSTOMERPN" value="D/BAT54S/SOT23"/>
+<attribute name="ASK_PN" value="BAT54S,215"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="D/BAT54S/SOT23"/>
+<attribute name="FSK_PN" value="BAT54S,215"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="D/BAT54S/SOT23"/>
+<attribute name="MIFARE_PN" value="BAT54S,215"/>
 <attribute name="PASSIVO" value=""/>
-<attribute name="PN1" value="BAT54S,215"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="D/BAT54S/SOT23"/>
+<attribute name="PSK_PN" value="BAT54S,215"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="D5" library="RFiD" deviceset="BAT54S" device="">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="D/BAT54S/SOT23"/>
+<attribute name="ASK_CUSTOMERPN" value="D/BAT54S/SOT23"/>
+<attribute name="ASK_PN" value="BAT54S,215"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="D/BAT54S/SOT23"/>
+<attribute name="FSK_PN" value="BAT54S,215"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="D/BAT54S/SOT23"/>
+<attribute name="MIFARE_PN" value="BAT54S,215"/>
 <attribute name="PASSIVO" value=""/>
-<attribute name="PN1" value="BAT54S,215"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="D/BAT54S/SOT23"/>
+<attribute name="PSK_PN" value="BAT54S,215"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND54" library="supply1" deviceset="GND" device=""/>
@@ -6734,435 +7178,651 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND57" library="supply1" deviceset="GND" device=""/>
 <part name="U3" library="RFiD" deviceset="SAMD20E14A-AUT" device="">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="IC/SAMD20/TQ32"/>
+<attribute name="ASK_CUSTOMERPN" value="IC/SAMD20/TQ32"/>
+<attribute name="ASK_PN" value="SAMD20E14A-AUT"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="IC/SAMD20/TQ32"/>
+<attribute name="FSK_PN" value="SAMD20E14A-AUT"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="IC/SAMD20/TQ32"/>
+<attribute name="MIFARE_PN" value="SAMD20E14A-AUT"/>
 <attribute name="PASSIVO" value=""/>
-<attribute name="PN1" value="SAMD20E14A-AUT"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="IC/SAMD20/TQ32"/>
+<attribute name="PSK_PN" value="SAMD20E14A-AUT"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R3" library="RFiD" deviceset="R-US_" device="R0402" value="12k">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="R/12K/5%/04"/>
+<attribute name="ASK_CUSTOMERPN" value="R/12K/5%/04"/>
+<attribute name="ASK_PN" value="1622826-8"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="R/12K/5%/04"/>
+<attribute name="FSK_PN" value="1622826-8"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="R/12K/5%/04"/>
+<attribute name="MIFARE_PN" value="1622826-8"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="1622826-8"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="R/12K/5%/04"/>
+<attribute name="PSK_PN" value="1622826-8"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R9" library="RFiD" deviceset="R-US_" device="R0603" value="10">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="R/10/5%/06"/>
+<attribute name="ASK_CUSTOMERPN" value="R/10/5%/06"/>
+<attribute name="ASK_PN" value="RC1608J100CS"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="R/10/5%/06"/>
+<attribute name="FSK_PN" value="RC1608J100CS"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC1608J100CS"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="R/10/5%/06"/>
+<attribute name="PSK_PN" value="RC1608J100CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R10" library="RFiD" deviceset="R-US_" device="R0603" value="10">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="R/10/5%/06"/>
+<attribute name="ASK_CUSTOMERPN" value="R/10/5%/06"/>
+<attribute name="ASK_PN" value="RC1608J100CS"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="R/10/5%/06"/>
+<attribute name="FSK_PN" value="RC1608J100CS"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC1608J100CS"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="R/10/5%/06"/>
+<attribute name="PSK_PN" value="RC1608J100CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R30" library="RFiD" deviceset="R-US_" device="R0402" value="27k">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="R/27k/1%/04"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="R/27k/1%/04"/>
+<attribute name="FSK_PN" value="RC1005F273CS"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC1005F273CS"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="R/27k/1%/04"/>
+<attribute name="PSK_PN" value="RC1005F273CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R37" library="RFiD" deviceset="R-US_" device="R0402" value="27k">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="R/27k/1%/04"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="R/27k/1%/04"/>
+<attribute name="FSK_PN" value="RC1005F273CS"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC1005F273CS"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="R/27k/1%/04"/>
+<attribute name="PSK_PN" value="RC1005F273CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C40" library="RFiD" deviceset="C-US" device="C0402" value="47p">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="C/47p/25V/E04"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="C/47p/25V/E04"/>
+<attribute name="FSK_PN" value="GRM1555C1H470FA01D"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="GRM1555C1H470FA01D"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="C/47p/25V/E04"/>
+<attribute name="PSK_PN" value="GRM1555C1H470FA01D"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C37" library="RFiD" deviceset="C-US" device="C0402" value="47p">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="C/47p/25V/E04"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="C/47p/25V/E04"/>
+<attribute name="FSK_PN" value="GRM1555C1H470FA01D"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="GRM1555C1H470FA01D"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="C/47p/25V/E04"/>
+<attribute name="PSK_PN" value="GRM1555C1H470FA01D"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C36" library="RFiD" deviceset="C-US" device="C0402" value="47p">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="C/47p/25V/E04"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="C/47p/25V/E04"/>
+<attribute name="FSK_PN" value="GRM1555C1H470FA01D"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="GRM1555C1H470FA01D"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="C/47p/25V/E04"/>
+<attribute name="PSK_PN" value="GRM1555C1H470FA01D"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R32" library="RFiD" deviceset="R-US_" device="R0402" value="27k">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="R/27k/1%/04"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="R/27k/1%/04"/>
+<attribute name="FSK_PN" value="RC1005F273CS"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC1005F273CS"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="R/27k/1%/04"/>
+<attribute name="PSK_PN" value="RC1005F273CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R34" library="RFiD" deviceset="R-US_" device="R0402" value="27k">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="R/27k/1%/04"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="R/27k/1%/04"/>
+<attribute name="FSK_PN" value="RC1005F273CS"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC1005F273CS"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="R/27k/1%/04"/>
+<attribute name="PSK_PN" value="RC1005F273CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C41" library="RFiD" deviceset="C-US" device="C0402" value="47p">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="C/47p/25V/E04"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="C/47p/25V/E04"/>
+<attribute name="FSK_PN" value="GRM1555C1H470FA01D"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="GRM1555C1H470FA01D"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="C/47p/25V/E04"/>
+<attribute name="PSK_PN" value="GRM1555C1H470FA01D"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R5" library="RFiD" deviceset="R-US_" device="R0402" value="4.7k">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="R/4.7k/5%/04"/>
+<attribute name="ASK_CUSTOMERPN" value="R/4.7k/5%/04"/>
+<attribute name="ASK_PN" value="RC1608J472CS"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC1608J472CS"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R12" library="RFiD" deviceset="R-US_" device="R0402" value="13k">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="R/13k/5%/04"/>
+<attribute name="ASK_CUSTOMERPN" value="R/13k/5%/04"/>
+<attribute name="ASK_PN" value="RC1005J133CS"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC1005J133CS"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C19" library="RFiD" deviceset="C-US" device="C0402" value="4.7n">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="C/4.7n/25V/D04"/>
+<attribute name="ASK_CUSTOMERPN" value="C/4.7n/25V/D04"/>
+<attribute name="ASK_PN" value="CL05B472KA5NNNC"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="CL05B472KA5NNNC"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C18" library="RFiD" deviceset="C-US" device="C0402" value="220n">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="C/220n/25V/C04"/>
+<attribute name="ASK_CUSTOMERPN" value="C/220n/25V/C04"/>
+<attribute name="ASK_PN" value="C1005X5R1E224K050BC"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="C1005X5R1E224K050BC"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C23" library="RFiD" deviceset="C-US" device="C0402" value="68p">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="C/68p/25V/D04"/>
+<attribute name="ASK_CUSTOMERPN" value="C/68p/25V/D04"/>
+<attribute name="ASK_PN" value="CL05C680JB5NNNC"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value=""/>
-<attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="CL05C680JB5NNNC"/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
+<attribute name="PASSIVO" value=""/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R11" library="RFiD" deviceset="R-US_" device="R0402" value="91k">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="R/91k/5%/04"/>
+<attribute name="ASK_CUSTOMERPN" value="R/91k/5%/04"/>
+<attribute name="ASK_PN" value="RMCF0402JT91K0"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
+<attribute name="FSK_PN" value="RMCF0402JT91K0"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RMCF0402JT91K0"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
 <part name="C26" library="RFiD" deviceset="C-US" device="C0402" value="220n">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="C/220n/25V/C04"/>
+<attribute name="ASK_CUSTOMERPN" value="C/220n/25V/C04"/>
+<attribute name="ASK_PN" value="C1005X5R1E224K050BC"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="C1005X5R1E224K050BC"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R7" library="RFiD" deviceset="R-US_" device="R0402" value="4.7k">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="R/4.7k/5%/04"/>
+<attribute name="ASK_CUSTOMERPN" value="R/4.7k/5%/04"/>
+<attribute name="ASK_PN" value="RC1608J472CS"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC1608J472CS"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C20" library="RFiD" deviceset="C-US" device="C0402" value="4.7n">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="C/4.7n/25V/D04"/>
+<attribute name="ASK_CUSTOMERPN" value="C/4.7n/25V/D04"/>
+<attribute name="ASK_PN" value="CL05B472KA5NNNC"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="CL05B472KA5NNNC"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="R14" library="RFiD" deviceset="R-US_" device="R0402" value="13k">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="R/13k/5%/04"/>
+<attribute name="ASK_CUSTOMERPN" value="R/13k/5%/04"/>
+<attribute name="ASK_PN" value="RC1005J133CS"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC1005J133CS"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R13" library="RFiD" deviceset="R-US_" device="R0402" value="91k">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="R/91k/5%/04"/>
+<attribute name="ASK_CUSTOMERPN" value="R/91k/5%/04"/>
+<attribute name="ASK_PN" value="RMCF0402JT91K0"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RMCF0402JT91K0"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C24" library="RFiD" deviceset="C-US" device="C0402" value="68p">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="C/68p/25V/D04"/>
+<attribute name="ASK_CUSTOMERPN" value="C/68p/25V/D04"/>
+<attribute name="ASK_PN" value="CL05C680JB5NNNC"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value=""/>
-<attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="CL05C680JB5NNNC"/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
+<attribute name="PASSIVO" value=""/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C29" library="RFiD" deviceset="C-US" device="C0402" value="F:0.1uP:10n">
 <attribute name="ASK" value=""/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value="CL05B104KO5NNNC"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
+<attribute name="PSK_CUSTOMERPN" value="C/0.1u/16V/A04"/>
 <attribute name="PSK_PN" value="CL05B103KB5NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R21" library="RFiD" deviceset="R-US_" device="R0402" value="F:5.1kP:5.6k">
 <attribute name="ASK" value=""/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
+<attribute name="FSK_CUSTOMERPN" value="R/5.1k/5%/04"/>
 <attribute name="FSK_PN" value="RC1005F512CS"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
+<attribute name="PSK_CUSTOMERPN" value="R/5.6k/5%/04"/>
 <attribute name="PSK_PN" value="RC1005F562CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R23" library="RFiD" deviceset="R-US_" device="R0402" value="F:7.5kP:5.1k">
 <attribute name="ASK" value=""/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
+<attribute name="FSK_CUSTOMERPN" value="R/7.5k/5%/04"/>
 <attribute name="FSK_PN" value="RC1005F752CS"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
+<attribute name="PSK_CUSTOMERPN" value="R/5.1k/5%/04"/>
 <attribute name="PSK_PN" value="RC1005F512CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C32" library="RFiD" deviceset="C-US" device="C0402" value="F:1nP:100p">
 <attribute name="ASK" value=""/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
+<attribute name="FSK_CUSTOMERPN" value="C/1n/100V/D04"/>
 <attribute name="FSK_PN" value="C0402C102J1GACTU"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
+<attribute name="PSK_CUSTOMERPN" value="C/100p/50V/D04"/>
 <attribute name="PSK_PN" value="CL05C101JB5NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C31" library="RFiD" deviceset="C-US" device="C0402" value="F:220pP:68p">
 <attribute name="ASK" value=""/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
+<attribute name="FSK_CUSTOMERPN" value="C/220p/25V/D04"/>
 <attribute name="FSK_PN" value="CL05C221JB5NNNC"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
+<attribute name="PSK_CUSTOMERPN" value="C/68p/25V/D04"/>
 <attribute name="PSK_PN" value="CL05C680JB5NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R27" library="RFiD" deviceset="R-US_" device="R0402" value="F:180kP:270k">
 <attribute name="ASK" value=""/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value="RC1005F184CS"/>
+<attribute name="FSK_CUSTOMERPN" value="R/180k/5%/04"/>
+<attribute name="FSK_PN" value="1-1622826-4"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
+<attribute name="PSK_CUSTOMERPN" value="R/270k/5%/04"/>
 <attribute name="PSK_PN" value="RC1005F274CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R35" library="RFiD" deviceset="R-US_" device="R0402" value="F:5.1kP:5.6k">
 <attribute name="ASK" value=""/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
+<attribute name="FSK_CUSTOMERPN" value="R/5.1k/5%/04"/>
 <attribute name="FSK_PN" value="RC1005F512CS"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
+<attribute name="PSK_CUSTOMERPN" value="R/5.6k/5%/04"/>
 <attribute name="PSK_PN" value="RC1005F562CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C35" library="RFiD" deviceset="C-US" device="C0402" value="F:0.1uP:10n">
 <attribute name="ASK" value=""/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
+<attribute name="FSK_CUSTOMERPN" value="C/0.1u/16V/A04"/>
 <attribute name="FSK_PN" value="CL05B104KO5NNNC"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
+<attribute name="PSK_CUSTOMERPN" value="C/10n/50V/C04"/>
 <attribute name="PSK_PN" value="CL05B103KB5NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R39" library="RFiD" deviceset="R-US_" device="R0402" value="F:7.5kP:5.1k">
 <attribute name="ASK" value=""/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
+<attribute name="FSK_CUSTOMERPN" value="R/7.5k/5%/04"/>
 <attribute name="FSK_PN" value="RC1005F752CS"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
+<attribute name="PSK_CUSTOMERPN" value="R/5.1k/5%/04"/>
 <attribute name="PSK_PN" value="RC1005F512CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C43" library="RFiD" deviceset="C-US" device="C0402" value="F:220pP:68p">
 <attribute name="ASK" value=""/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
+<attribute name="FSK_CUSTOMERPN" value="C/220p/25V/D04"/>
 <attribute name="FSK_PN" value="CL05C221JB5NNNC"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
+<attribute name="PSK_CUSTOMERPN" value="C/680p/25V/C04"/>
 <attribute name="PSK_PN" value="CL05C680JB5NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C44" library="RFiD" deviceset="C-US" device="C0402" value="F:1nP:100p">
 <attribute name="ASK" value=""/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
+<attribute name="FSK_CUSTOMERPN" value="C/1n/100V/D04"/>
 <attribute name="FSK_PN" value="C0402C102J1GACTU"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
+<attribute name="PSK_CUSTOMERPN" value="C/100p/50V/D04"/>
 <attribute name="PSK_PN" value="CL05C101JB5NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R41" library="RFiD" deviceset="R-US_" device="R0402" value="F:180kP:270k">
 <attribute name="ASK" value=""/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value="RC1005F184CS"/>
+<attribute name="FSK_CUSTOMERPN" value="R/180k/5%/04"/>
+<attribute name="FSK_PN" value="1-1622826-4"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
+<attribute name="PSK_CUSTOMERPN" value="R/270k/5%/04"/>
 <attribute name="PSK_PN" value="RC1005F274CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
@@ -7172,88 +7832,130 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
 <part name="C42" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="ASK_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="ASK_PN" value="CL05B104KO5NNNC"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="FSK_PN" value="CL05B104KO5NNNC"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="PSK_PN" value="CL05B104KO5NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C34" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="ASK_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="ASK_PN" value="CL05B104KO5NNNC"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="FSK_PN" value="CL05B104KO5NNNC"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="PSK_PN" value="CL05B104KO5NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="SUPPLY12" library="supply2" deviceset="+5V" device=""/>
 <part name="U1" library="RFiD" deviceset="LP2985-33DBVR" device="">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="IC/3V3REG"/>
+<attribute name="ASK_CUSTOMERPN" value="IC/3V3REG"/>
+<attribute name="ASK_PN" value="LP2985-33DBVR"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="IC/3V3REG"/>
+<attribute name="FSK_PN" value="LP2985-33DBVR"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="IC/3V3REG"/>
+<attribute name="MIFARE_PN" value="LP2985-33DBVR"/>
 <attribute name="PASSIVO" value=""/>
-<attribute name="PN1" value="LP2985-33DBVR"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="IC/3V3REG"/>
+<attribute name="PSK_PN" value="LP2985-33DBVR"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R1" library="RFiD" deviceset="R-US_" device="R0402" value="470">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="R/470/5%/04"/>
+<attribute name="ASK_CUSTOMERPN" value="R/470/5%/04"/>
+<attribute name="ASK_PN" value="4-1622826-4"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="R/470/5%/04"/>
+<attribute name="FSK_PN" value="4-1622826-4"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="R/470/5%/04"/>
+<attribute name="MIFARE_PN" value="4-1622826-4"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="4-1622826-4"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="R/470/5%/04"/>
+<attribute name="PSK_PN" value="4-1622826-4"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R2" library="RFiD" deviceset="R-US_" device="R0402" value="470">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="R/470/5%/04"/>
+<attribute name="ASK_CUSTOMERPN" value="R/470/5%/04"/>
+<attribute name="ASK_PN" value="4-1622826-4"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="R/470/5%/04"/>
+<attribute name="FSK_PN" value="4-1622826-4"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="R/470/5%/04"/>
+<attribute name="MIFARE_PN" value="4-1622826-4"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="4-1622826-4"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="R/470/5%/04"/>
+<attribute name="PSK_PN" value="4-1622826-4"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
 <part name="C6" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="ASK_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="ASK_PN" value="CL05B104KO5NNNC"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="FSK_PN" value="CL05B104KO5NNNC"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="MIFARE_PN" value="CL05B104KO5NNNC"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="PSK_PN" value="CL05B104KO5NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C7" library="RFiD" deviceset="C-US" device="C0402" value="10n">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="C/10n/50V/C04"/>
+<attribute name="ASK_CUSTOMERPN" value="C/10n/50V/C04"/>
+<attribute name="ASK_PN" value="CL05B103KB5NNNC"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="C/10n/50V/C04"/>
+<attribute name="FSK_PN" value="CL05B103KB5NNNC"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/10n/50V/C04"/>
+<attribute name="MIFARE_PN" value="CL05B103KB5NNNC"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="CL05B103KB5NNNC"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="C/10n/50V/C04"/>
+<attribute name="PSK_PN" value="CL05B103KB5NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND35" library="supply1" deviceset="GND" device=""/>
@@ -7267,14 +7969,20 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="P+16" library="supply1" deviceset="+12V" device=""/>
 <part name="C10" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="ASK_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="ASK_PN" value="CL05B104KO5NNNC"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="FSK_PN" value="CL05B104KO5NNNC"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="MIFARE_PN" value="CL05B104KO5NNNC"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="PSK_PN" value="CL05B104KO5NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
@@ -7282,371 +7990,551 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="+3V17" library="supply1" deviceset="+3V3" device=""/>
 <part name="R19" library="RFiD" deviceset="R-US_" device="R0402" value="9.1k">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="R/9.1k/5%/04"/>
+<attribute name="ASK_CUSTOMERPN" value="R/9.1k/5%/04"/>
+<attribute name="ASK_PN" value="RC1005J912CS"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC1005J912CS"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R18" library="RFiD" deviceset="R-US_" device="R0402" value="27k">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="R/27k/1%/04"/>
+<attribute name="ASK_CUSTOMERPN" value="R/27k/1%/04"/>
+<attribute name="ASK_PN" value="RC1005F273CS"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC1005F273CS"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND53" library="supply1" deviceset="GND" device=""/>
 <part name="R28" library="RFiD" deviceset="R-US_" device="R0402" value="27k">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="R/27k/1%/04"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="R/27k/1%/04"/>
+<attribute name="FSK_PN" value="RC1005F273CS"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC1005F273CS"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="R/27k/1%/04"/>
+<attribute name="PSK_PN" value="RC1005F273CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R26" library="RFiD" deviceset="R-US_" device="R0402" value="9.1k">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="R/9.1k/5%/04"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="R/9.1k/5%/04"/>
+<attribute name="FSK_PN" value="RC1005J912CS"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC1005J912CS"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="R/9.1k/5%/04"/>
+<attribute name="PSK_PN" value="RC1005J912CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND56" library="supply1" deviceset="GND" device=""/>
 <part name="R24" library="RFiD" deviceset="R-US_" device="R0402" value="0">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="R/0/0%/04"/>
+<attribute name="ASK_CUSTOMERPN" value="R/0/0%/04"/>
+<attribute name="ASK_PN" value="RC1005J000CS"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="R/0/0%/04"/>
+<attribute name="FSK_PN" value="RC1005J000CS"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC1005J000CS"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="R/0/0%/04"/>
+<attribute name="PSK_PN" value="RC1005J000CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R33" library="RFiD" deviceset="R-US_" device="R0402" value="0">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="R/0/0%/04"/>
+<attribute name="ASK_CUSTOMERPN" value="R/0/0%/04"/>
+<attribute name="ASK_PN" value="RC1005J000CS"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="R/0/0%/04"/>
+<attribute name="FSK_PN" value="RC1005J000CS"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC1005J000CS"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="R/0/0%/04"/>
+<attribute name="PSK_PN" value="RC1005J000CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C12" library="RFiD" deviceset="C-US" device="C0805" value="10u">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="C/10u/25V/A08"/>
+<attribute name="ASK_CUSTOMERPN" value="C/10u/25V/A08"/>
+<attribute name="ASK_PN" value="GRM188R61E106MA73D"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="C/10u/25V/A08"/>
+<attribute name="FSK_PN" value="GRM188R61E106MA73D"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/10u/25V/A08"/>
+<attribute name="MIFARE_PN" value="GRM188R61E106MA73D"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="GRM188R61E106MA73D"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="C/10u/25V/A08"/>
+<attribute name="PSK_PN" value="GRM188R61E106MA73D"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND58" library="supply1" deviceset="GND" device=""/>
 <part name="C21" library="RFiD" deviceset="C-US" device="C0805" value="DNP">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="DNP"/>
+<attribute name="ASK_CUSTOMERPN" value="DNP"/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="DNP"/>
+<attribute name="FSK_PN" value="DNP"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
+<attribute name="PSK_PN" value="DNP"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R8" library="RFiD" deviceset="R-US_" device="R0402" value="0">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="R/0/0%/04"/>
+<attribute name="ASK_CUSTOMERPN" value="R/0/0%/04"/>
+<attribute name="ASK_PN" value="RC1005J000CS"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="R/0/0%/04"/>
+<attribute name="FSK_PN" value="RC1005J000CS"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC1005J000CS"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="R/0/0%/04"/>
+<attribute name="PSK_PN" value="RC1005J000CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND59" library="supply1" deviceset="GND" device=""/>
 <part name="C22" library="RFiD" deviceset="C-US" device="C1812" value="1n">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="C/1n/500V/E18"/>
+<attribute name="ASK_CUSTOMERPN" value="C/1n/500V/E18"/>
+<attribute name="ASK_PN" value="C1812C102FBGACTU"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="C/1n/500V/E18"/>
+<attribute name="FSK_PN" value="C1812C102FBGACTU"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="C1812C102FBGACTU"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="C/1n/500V/E18"/>
+<attribute name="PSK_PN" value="C1812C102FBGACTU"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="C27" library="RFiD" deviceset="C-US" device="C1206" value="220n">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="C/220n/200V/C12"/>
+<attribute name="ASK_CUSTOMERPN" value="C/220n/200V/C12"/>
+<attribute name="ASK_PN" value="C3216X7T2E224K160AA"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="C/220n/200V/C12"/>
+<attribute name="FSK_PN" value="C3216X7T2E224K160AA"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="C3216X7T2E224K160AA"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="C/220n/200V/C12"/>
+<attribute name="PSK_PN" value="C3216X7T2E224K160AA"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="P+17" library="supply1" deviceset="V+" device=""/>
 <part name="IC1" library="RFiD" deviceset="TL084" device="">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="IC/TL084/TSSOP14"/>
+<attribute name="ASK_CUSTOMERPN" value="IC/TL084/TSSOP14"/>
+<attribute name="ASK_PN" value="TL084CPT"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="IC/TL084/TSSOP14"/>
+<attribute name="FSK_PN" value="TL084CPT"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
-<attribute name="PN1" value="TL084CPT"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="IC/TL084/TSSOP14"/>
+<attribute name="PSK_PN" value="TL084CPT"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R20" library="RFiD" deviceset="R-US_" device="R0402" value="9.1k">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="R/9.1k/5%/04"/>
+<attribute name="ASK_CUSTOMERPN" value="R/9.1k/5%/04"/>
+<attribute name="ASK_PN" value="RC1005J912CS"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="R/9.1k/5%/04"/>
+<attribute name="FSK_PN" value="CL05B104KO5NNNC"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC1005J912CS"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="R/9.1k/5%/04"/>
+<attribute name="PSK_PN" value="CL05B104KO5NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R25" library="RFiD" deviceset="R-US_" device="R0402" value="13k">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="R/13k/5%/04"/>
+<attribute name="ASK_CUSTOMERPN" value="R/13k/5%/04"/>
+<attribute name="ASK_PN" value="RC1005J133CS"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="R/13k/5%/04"/>
+<attribute name="FSK_PN" value="RC1005J133CS"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC1005J133CS"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="R/13k/5%/04"/>
+<attribute name="PSK_PN" value="RC1005J133CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R22" library="RFiD" deviceset="R-US_" device="R0402" value="9.1k">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="R/9.1k/5%/04"/>
+<attribute name="ASK_CUSTOMERPN" value="R/9.1k/5%/04"/>
+<attribute name="ASK_PN" value="RC1005J912CS"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="R/9.1k/5%/04"/>
+<attribute name="FSK_PN" value="RC1005J912CS"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC1005J912CS"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="RC1005J912CS"/>
+<attribute name="PSK_PN" value="R/9.1k/5%/04"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C30" library="RFiD" deviceset="C-US" device="C0402" value="680p">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="C/680p/25V/C04"/>
+<attribute name="ASK_CUSTOMERPN" value="C/680p/25V/C04"/>
+<attribute name="ASK_PN" value="CL05B681KB5NNNC"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="C/680p/25V/C04"/>
+<attribute name="FSK_PN" value="CL05B681KB5NNNC"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="CL05B681KB5NNNC"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="C/680p/25V/C04"/>
+<attribute name="PSK_PN" value="CL05B681KB5NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C33" library="RFiD" deviceset="C-US" device="C0402" value="68p">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="C/68p/25V/D04"/>
+<attribute name="ASK_CUSTOMERPN" value="C/68p/25V/D04"/>
+<attribute name="ASK_PN" value="CL05C680JB5NNNC"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="C/68p/25V/D04"/>
+<attribute name="FSK_PN" value="CL05C680JB5NNNC"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="CL05C680JB5NNNC"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="C/68p/25V/D04"/>
+<attribute name="PSK_PN" value="CL05C680JB5NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="IC2" library="RFiD" deviceset="TL084" device="">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="IC/TL084/TSSOP14"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="IC/TL084/TSSOP14"/>
+<attribute name="FSK_PN" value="TL084CPT"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
-<attribute name="PN1" value="TL084CPT"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="IC/TL084/TSSOP14"/>
+<attribute name="PSK_PN" value="TL084CPT"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="P+1" library="supply1" deviceset="V+" device=""/>
 <part name="Q1" library="RFiD" deviceset="DMN3404" device="">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="Q/DMN3404/SOT23"/>
+<attribute name="ASK_CUSTOMERPN" value="Q/DMN3404/SOT23"/>
+<attribute name="ASK_PN" value="DMN3404L-7"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="Q/DMN3404/SOT23"/>
+<attribute name="FSK_PN" value="DMN3404L-7"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
-<attribute name="PN1" value="DMN3404L-7"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="Q/DMN3404/SOT23"/>
+<attribute name="PSK_PN" value="DMN3404L-7"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="Q3" library="RFiD" deviceset="MMBT4403" device="">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="Q/MMBT4403/SOT23"/>
+<attribute name="ASK_CUSTOMERPN" value="Q/MMBT4403/SOT23"/>
+<attribute name="ASK_PN" value="MMBT4403LT3G"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="Q/MMBT4403/SOT23"/>
+<attribute name="FSK_PN" value="MMBT4403LT3G"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
-<attribute name="PN1" value="MMBT4403LT3G"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="Q/MMBT4403/SOT23"/>
+<attribute name="PSK_PN" value="MMBT4403LT3G"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="Q2" library="RFiD" deviceset="MMBT4401" device="">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="Q/MMBT4401/SOT23"/>
+<attribute name="ASK_CUSTOMERPN" value="Q/MMBT4401/SOT23"/>
+<attribute name="ASK_PN" value="MMBT4401LT3G"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="Q/MMBT4401/SOT23"/>
+<attribute name="FSK_PN" value="MMBT4401LT3G"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
-<attribute name="PN1" value="MMBT4401LT3G"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="Q/MMBT4401/SOT23"/>
+<attribute name="PSK_PN" value="MMBT4401LT3G"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R29" library="RFiD" deviceset="R-US_" device="R0402" value="470">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="R/470/5%/04"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="R/470/5%/04"/>
+<attribute name="FSK_PN" value="4-1622826-4"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="4-1622826-4"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="R/470/5%/04"/>
+<attribute name="PSK_PN" value="4-1622826-4"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R38" library="RFiD" deviceset="R-US_" device="R0603" value="100">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="R/100/5%/06"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="R/100/5%/06"/>
+<attribute name="FSK_PN" value="RC1005J101CS"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC1005J101CS"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="R/100/5%/06"/>
+<attribute name="PSK_PN" value="RC1005J101CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="P+11" library="supply1" deviceset="V+" device=""/>
 <part name="C45" library="RFiD" deviceset="C-US" device="C0402" value="F:0.1uP:10n">
 <attribute name="ASK" value=""/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
+<attribute name="FSK_CUSTOMERPN" value="C/0.1u/16V/A04"/>
 <attribute name="FSK_PN" value="CL05B104KO5NNNC"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
+<attribute name="PSK_CUSTOMERPN" value="C/10n/50V/C04"/>
 <attribute name="PSK_PN" value="CL05B103KB5NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R40" library="RFiD" deviceset="R-US_" device="R0402" value="F:5.1kP:5.6k">
 <attribute name="ASK" value=""/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
+<attribute name="FSK_CUSTOMERPN" value="R/5.1k/5%/04"/>
 <attribute name="FSK_PN" value="RC1005F512CS"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
+<attribute name="PSK_CUSTOMERPN" value="R/5.6k/5%/04"/>
 <attribute name="PSK_PN" value="RC1005F562CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C39" library="RFiD" deviceset="C-US" device="C0402" value="F:1nP:100p">
 <attribute name="ASK" value=""/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
+<attribute name="FSK_CUSTOMERPN" value="C/1n/100V/D04"/>
 <attribute name="FSK_PN" value="C0402C102J1GACTU"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
+<attribute name="PSK_CUSTOMERPN" value="C/100p/50V/D04"/>
 <attribute name="PSK_PN" value="CL05C101JB5NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C38" library="RFiD" deviceset="C-US" device="C0402" value="F:220pP:68p">
 <attribute name="ASK" value=""/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
+<attribute name="FSK_CUSTOMERPN" value="C/220p/25V/D04"/>
 <attribute name="FSK_PN" value="CL05C221JB5NNNC"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
+<attribute name="PSK_CUSTOMERPN" value="C/68p/25V/D04"/>
 <attribute name="PSK_PN" value="CL05C680JB5NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R31" library="RFiD" deviceset="R-US_" device="R0402" value="F:180kP:270k">
 <attribute name="ASK" value=""/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value="RC1005F184CS"/>
+<attribute name="FSK_CUSTOMERPN" value="R/180k/5%/04"/>
+<attribute name="FSK_PN" value="1-1622826-4"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
+<attribute name="PSK_CUSTOMERPN" value="R/270k/5%/04"/>
 <attribute name="PSK_PN" value="RC1005F274CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R36" library="RFiD" deviceset="R-US_" device="R0402" value="F:7.5kP:5.1k">
 <attribute name="ASK" value=""/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
+<attribute name="FSK_CUSTOMERPN" value="R/7.5k/5%/04"/>
 <attribute name="FSK_PN" value="RC1005F752CS"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
+<attribute name="PSK_CUSTOMERPN" value="R/5.1k/5%/04"/>
 <attribute name="PSK_PN" value="RC1005F512CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R17" library="RFiD" deviceset="R-US_" device="R0402" value="1k">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="R/1K/5%/04"/>
+<attribute name="ASK_CUSTOMERPN" value="R/1K/5%/04"/>
+<attribute name="ASK_PN" value="RC0402JR-071KL"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="R/1K/5%/04"/>
+<attribute name="FSK_PN" value="RC0402JR-071KL"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="RC0402JR-071KL"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="R/1K/5%/04"/>
+<attribute name="PSK_PN" value="RC0402JR-071KL"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="P+18" library="supply1" deviceset="V+" device=""/>
@@ -7654,225 +8542,333 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="P+20" library="supply1" deviceset="V+" device=""/>
 <part name="LED1" library="RFiD" deviceset="LTL1BEKVJNN" device="">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="LED/RG/3MM"/>
+<attribute name="ASK_CUSTOMERPN" value="LED/RG/3MM"/>
+<attribute name="ASK_PN" value="LTL1BEKVJNN"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="LED/RG/3MM"/>
+<attribute name="FSK_PN" value="LTL1BEKVJNN"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="LED/RG/3MM"/>
+<attribute name="MIFARE_PN" value="LTL1BEKVJNN"/>
 <attribute name="PASSIVO" value=""/>
-<attribute name="PN1" value="LTL1BEKVJNN"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="LED/RG/3MM"/>
+<attribute name="PSK_PN" value="LTL1BEKVJNN"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="D3" library="RFiD" deviceset="BYG20J" device="">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="D/BYG20J"/>
+<attribute name="ASK_CUSTOMERPN" value="D/BYG20J"/>
+<attribute name="ASK_PN" value="BYG20J-E3/TR"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="D/BYG20J"/>
+<attribute name="FSK_PN" value="BYG20J-E3/TR"/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="BYG20J-E3/TR"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="D/BYG20J"/>
+<attribute name="PSK_PN" value="BYG20J-E3/TR"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="D1" library="RFiD" deviceset="BYG20J" device="">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="D/BYG20J"/>
+<attribute name="ASK_CUSTOMERPN" value="D/BYG20J"/>
+<attribute name="ASK_PN" value="BYG20J-E3/TR"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="D/BYG20J"/>
+<attribute name="FSK_PN" value="BYG20J-E3/TR"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="D/BYG20J"/>
+<attribute name="MIFARE_PN" value="BYG20J-E3/TR"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="BYG20J-E3/TR"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="D/BYG20J"/>
+<attribute name="PSK_PN" value="BYG20J-E3/TR"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="X1" library="RFiD" deviceset="22-23-2021" device="" value="ANTENA">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="DNP"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="SWD" library="RFiD" deviceset="PINHD-1X5" device="">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="DNP"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="QZ1" library="RFiD" deviceset="CRYSTAL" device="HC49S" value="8MHz">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="XTAL/8MHZ/PTH"/>
+<attribute name="ASK_CUSTOMERPN" value="XTAL/8MHZ/PTH"/>
+<attribute name="ASK_PN" value="9B-8.000MAAJ-B"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="XTAL/8MHZ/PTH"/>
+<attribute name="FSK_PN" value="9B-8.000MAAJ-B"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="XTAL/8MHZ/PTH"/>
+<attribute name="MIFARE_PN" value="9B-8.000MAAJ-B"/>
 <attribute name="PASSIVO" value=""/>
-<attribute name="PN1" value="9B-8.000MAAJ-B"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="XTAL/8MHZ/PTH"/>
+<attribute name="PSK_PN" value="9B-8.000MAAJ-B"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C15" library="RFiD" deviceset="C-US" device="C0603" value="18p">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="C/18p/50V/D06"/>
+<attribute name="ASK_CUSTOMERPN" value="C/18p/50V/D06"/>
+<attribute name="ASK_PN" value="CL05C180JB5NNNC"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="C/18p/50V/D06"/>
+<attribute name="FSK_PN" value="CL05C180JB5NNNC"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/18p/50V/D06"/>
+<attribute name="MIFARE_PN" value="CL05C180JB5NNNC"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="CL05C180JB5NNNC"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="C/18p/50V/D06"/>
+<attribute name="PSK_PN" value="CL05C180JB5NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C13" library="RFiD" deviceset="C-US" device="C0603" value="18p">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="C/18p/50V/D06"/>
+<attribute name="ASK_CUSTOMERPN" value="C/18p/50V/D06"/>
+<attribute name="ASK_PN" value="CL05C180JB5NNNC"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="C/18p/50V/D06"/>
+<attribute name="FSK_PN" value="CL05C180JB5NNNC"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/18p/50V/D06"/>
+<attribute name="MIFARE_PN" value="CL05C180JB5NNNC"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="CL05C180JB5NNNC"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="C/18p/50V/D06"/>
+<attribute name="PSK_PN" value="CL05C180JB5NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="X2" library="RFiD" deviceset="22-23-2021" device="" value="MIFARE">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="DNP"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C11" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="ASK_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="ASK_PN" value="CL05B104KO5NNNC"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="FSK_PN" value="CL05B104KO5NNNC"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="MIFARE_PN" value="CL05B104KO5NNNC"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="PSK_PN" value="CL05B104KO5NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
 <part name="C9" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="ASK_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="ASK_PN" value="CL05B104KO5NNNC"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="FSK_PN" value="CL05B104KO5NNNC"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="MIFARE_PN" value="CL05B104KO5NNNC"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="PSK_PN" value="CL05B104KO5NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
 <part name="QZ2" library="RFiD" deviceset="CRISTAL" device="" value="27.12MHz">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="XTAL/2712MHZ/5x3"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="XTAL/2712MHZ/5x3"/>
+<attribute name="MIFARE_PN" value="7B-27.120MAAJ-T"/>
 <attribute name="PASSIVO" value=""/>
-<attribute name="PN1" value="7B-27.120MAAJ-T"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C3" library="RFiD" deviceset="C-US" device="C0402" value="10n">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="C/10n/50V/C04"/>
+<attribute name="ASK_CUSTOMERPN" value="C/10n/50V/C04"/>
+<attribute name="ASK_PN" value="CL05B103KB5NNNC"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="C/10n/50V/C04"/>
+<attribute name="FSK_PN" value="CL05B103KB5NNNC"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/10n/50V/C04"/>
+<attribute name="MIFARE_PN" value="CL05B103KB5NNNC"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="CL05B103KB5NNNC"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="C/10n/50V/C04"/>
+<attribute name="PSK_PN" value="CL05B103KB5NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
 <part name="FID1" library="RFiD" deviceset="FIDUCIAL" device="1.5X3">
 <attribute name="ASK" value=""/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="FID3" library="RFiD" deviceset="FIDUCIAL" device="1.5X3">
 <attribute name="ASK" value=""/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value=""/>
+<attribute name="MIFARE_CUSTOMERPN" value=""/>
+<attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C62" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="ASK" value=""/>
-<attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="ASK_CUSTOMERPN" value=""/>
+<attribute name="ASK_PN" value=""/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
+<attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="MIFARE_PN" value="CL05B104KO5NNNC"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
+<attribute name="PSK_CUSTOMERPN" value=""/>
 <attribute name="PSK_PN" value=""/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND60" library="supply1" deviceset="GND" device=""/>
 <part name="C63" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="ASK_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="ASK_PN" value="CL05B104KO5NNNC"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="FSK_PN" value="CL05B104KO5NNNC"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/0.1u/16V/A04"/>
+<attribute name="MIFARE_PN" value="CL05B104KO5NNNC"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="CL05B104KO5NNNC"/>
+<attribute name="PSK_PN" value="C/0.1u/16V/A04"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C64" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="ASK" value="X"/>
-<attribute name="CUSTOMERPN" value="DNP"/>
+<attribute name="ASK_CUSTOMERPN" value="DNP"/>
+<attribute name="ASK_PN" value="CL05B104KO5NNNC"/>
+<attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_PN" value=""/>
+<attribute name="FSK_CUSTOMERPN" value="DNP"/>
+<attribute name="FSK_PN" value="CL05B104KO5NNNC"/>
 <attribute name="MIFARE" value="X"/>
+<attribute name="MIFARE_CUSTOMERPN" value="DNP"/>
+<attribute name="MIFARE_PN" value="CL05B104KO5NNNC"/>
 <attribute name="PASSIVO" value="Sim"/>
-<attribute name="PN1" value="CL05B104KO5NNNC"/>
+<attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_PN" value=""/>
+<attribute name="PSK_CUSTOMERPN" value="CL05B104KO5NNNC"/>
+<attribute name="PSK_PN" value="DNP"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND61" library="supply1" deviceset="GND" device=""/>
@@ -7892,45 +8888,63 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="C1" gate="G$1" x="55.88" y="66.04">
 <attribute name="ASK" x="55.88" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="55.88" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="55.88" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="55.88" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="55.88" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="55.88" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="55.88" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="55.88" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="55.88" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="55.88" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="55.88" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="55.88" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="55.88" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="55.88" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="55.88" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="55.88" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND4" gate="1" x="68.58" y="48.26"/>
 <instance part="GND5" gate="1" x="55.88" y="55.88"/>
 <instance part="+3V3" gate="G$1" x="116.84" y="81.28"/>
 <instance part="C4" gate="G$1" x="116.84" y="66.04">
 <attribute name="ASK" x="116.84" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="116.84" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="116.84" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="116.84" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="116.84" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="116.84" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="116.84" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="116.84" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="116.84" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="116.84" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="116.84" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="116.84" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="116.84" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="116.84" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="116.84" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="116.84" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND8" gate="1" x="116.84" y="55.88"/>
 <instance part="D2" gate="G$1" x="88.9" y="116.84" smashed="yes" rot="R90">
 <attribute name="NAME" x="86.36" y="118.8974" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="91.2114" y="119.38" size="1.778" layer="96" rot="R90"/>
 <attribute name="ASK" x="88.9" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="88.9" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="88.9" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="88.9" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="88.9" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="88.9" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="88.9" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="88.9" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="88.9" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="88.9" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="88.9" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="88.9" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="88.9" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="88.9" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="88.9" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="88.9" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND9" gate="1" x="88.9" y="109.22"/>
 <instance part="P+2" gate="1" x="139.7" y="134.62"/>
@@ -7939,116 +8953,170 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="SUPPLY2" gate="+5V" x="200.66" y="132.08"/>
 <instance part="U2" gate="G$1" x="170.18" y="119.38">
 <attribute name="ASK" x="170.18" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="170.18" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="170.18" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="170.18" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="170.18" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="170.18" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="170.18" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="170.18" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="170.18" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="170.18" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="170.18" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="170.18" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="170.18" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="170.18" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="170.18" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="170.18" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND6" gate="1" x="152.4" y="109.22"/>
 <instance part="C5" gate="G$1" x="139.7" y="119.38">
 <attribute name="ASK" x="139.7" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="139.7" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="139.7" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="139.7" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="139.7" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="139.7" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="139.7" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="139.7" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="139.7" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="139.7" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="139.7" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="139.7" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="139.7" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="139.7" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="139.7" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="139.7" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C8" gate="G$1" x="200.66" y="119.38">
 <attribute name="ASK" x="200.66" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="200.66" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="200.66" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="200.66" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="200.66" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="200.66" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="200.66" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="200.66" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="200.66" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="200.66" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="200.66" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="200.66" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="200.66" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="200.66" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="200.66" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="200.66" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND7" gate="1" x="104.14" y="109.22"/>
 <instance part="C2" gate="G$1" x="104.14" y="119.38">
 <attribute name="ASK" x="104.14" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="104.14" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="104.14" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="104.14" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="104.14" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="104.14" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="104.14" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="104.14" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="104.14" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="104.14" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="104.14" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="104.14" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="104.14" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="104.14" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="104.14" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="104.14" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+5" gate="G$1" x="63.5" y="134.62"/>
 <instance part="SUPPLY12" gate="+5V" x="55.88" y="78.74"/>
 <instance part="U1" gate="G$1" x="86.36" y="63.5">
 <attribute name="ASK" x="86.36" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="86.36" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="86.36" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="86.36" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="86.36" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="86.36" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="86.36" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="86.36" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="86.36" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="86.36" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="86.36" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="86.36" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="86.36" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="86.36" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="86.36" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="86.36" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R1" gate="G$1" x="167.64" y="71.12">
 <attribute name="ASK" x="167.64" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="167.64" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="167.64" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="167.64" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="167.64" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="167.64" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="167.64" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="167.64" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="167.64" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="167.64" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="167.64" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="167.64" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="167.64" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="167.64" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="167.64" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="167.64" y="71.12" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R2" gate="G$1" x="175.26" y="63.5" rot="R90">
 <attribute name="ASK" x="175.26" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="175.26" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="175.26" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="175.26" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="175.26" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="175.26" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="175.26" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="175.26" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="175.26" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="175.26" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="175.26" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="175.26" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="175.26" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="175.26" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="175.26" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="175.26" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND34" gate="1" x="175.26" y="53.34"/>
 <instance part="C6" gate="G$1" x="187.96" y="66.04">
 <attribute name="ASK" x="187.96" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="187.96" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="187.96" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="187.96" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="187.96" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="187.96" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="187.96" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="187.96" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="187.96" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="187.96" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="187.96" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="187.96" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="187.96" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="187.96" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="187.96" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="187.96" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C7" gate="G$1" x="198.12" y="66.04">
 <attribute name="ASK" x="198.12" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="198.12" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="198.12" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="198.12" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="198.12" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="198.12" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="198.12" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="198.12" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="198.12" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="198.12" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="198.12" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="198.12" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="198.12" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="198.12" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="198.12" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="198.12" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND35" gate="1" x="187.96" y="53.34"/>
 <instance part="GND52" gate="1" x="198.12" y="53.34"/>
@@ -8056,104 +9124,152 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="P+12" gate="1" x="157.48" y="76.2"/>
 <instance part="C10" gate="G$1" x="218.44" y="66.04">
 <attribute name="ASK" x="218.44" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="218.44" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="218.44" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="218.44" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="218.44" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="218.44" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="218.44" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="218.44" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="218.44" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="218.44" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="218.44" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="218.44" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="218.44" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="218.44" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="218.44" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="218.44" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND1" gate="1" x="218.44" y="53.34"/>
 <instance part="C12" gate="G$1" x="238.76" y="66.04">
 <attribute name="ASK" x="238.76" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="238.76" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="238.76" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="238.76" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="238.76" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="238.76" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="238.76" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="238.76" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="238.76" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="238.76" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="238.76" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="238.76" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="238.76" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="238.76" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="238.76" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="238.76" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND58" gate="1" x="238.76" y="53.34"/>
 <instance part="D1" gate="G$1" x="76.2" y="124.46" rot="R180">
 <attribute name="ASK" x="76.2" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="76.2" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="76.2" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="76.2" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="76.2" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="76.2" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="76.2" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="76.2" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="76.2" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="76.2" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="76.2" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="76.2" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="76.2" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="76.2" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="76.2" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="76.2" y="124.46" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C11" gate="G$1" x="228.6" y="66.04">
 <attribute name="ASK" x="228.6" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="228.6" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="228.6" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="228.6" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="228.6" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="228.6" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="228.6" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="228.6" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="228.6" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="228.6" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="228.6" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="228.6" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="228.6" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="228.6" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="228.6" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="228.6" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND28" gate="1" x="228.6" y="53.34"/>
 <instance part="C9" gate="G$1" x="208.28" y="66.04">
 <attribute name="ASK" x="208.28" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="208.28" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="208.28" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="208.28" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="208.28" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="208.28" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="208.28" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="208.28" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="208.28" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="208.28" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="208.28" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="208.28" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="208.28" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="208.28" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="208.28" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="208.28" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND30" gate="1" x="208.28" y="53.34"/>
 <instance part="C3" gate="G$1" x="104.14" y="50.8">
 <attribute name="ASK" x="104.14" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="104.14" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="104.14" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="104.14" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="104.14" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="104.14" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="104.14" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="104.14" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="104.14" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="104.14" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="104.14" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="104.14" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="104.14" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="104.14" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="104.14" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="104.14" y="50.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND31" gate="1" x="104.14" y="40.64"/>
 <instance part="FID1" gate="G$1" x="226.06" y="162.56">
 <attribute name="ASK" x="226.06" y="162.56" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="226.06" y="162.56" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="226.06" y="162.56" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="226.06" y="162.56" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="226.06" y="162.56" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="226.06" y="162.56" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="226.06" y="162.56" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="226.06" y="162.56" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="226.06" y="162.56" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="226.06" y="162.56" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="226.06" y="162.56" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="226.06" y="162.56" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="226.06" y="162.56" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="226.06" y="162.56" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="226.06" y="162.56" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="226.06" y="162.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="FID3" gate="G$1" x="231.14" y="162.56">
 <attribute name="ASK" x="231.14" y="162.56" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="231.14" y="162.56" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="231.14" y="162.56" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="231.14" y="162.56" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="231.14" y="162.56" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="231.14" y="162.56" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="231.14" y="162.56" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="231.14" y="162.56" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="231.14" y="162.56" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="231.14" y="162.56" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="231.14" y="162.56" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="231.14" y="162.56" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="231.14" y="162.56" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="231.14" y="162.56" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="231.14" y="162.56" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="231.14" y="162.56" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -8404,28 +9520,40 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="+3V1" gate="G$1" x="195.58" y="154.94"/>
 <instance part="C16" gate="G$1" x="195.58" y="119.38">
 <attribute name="ASK" x="195.58" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="195.58" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="195.58" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="195.58" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="195.58" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="195.58" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="195.58" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="195.58" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="195.58" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="195.58" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="195.58" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="195.58" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="195.58" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="195.58" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="195.58" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="195.58" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND2" gate="1" x="195.58" y="109.22"/>
 <instance part="C17" gate="G$1" x="203.2" y="147.32" rot="R90">
 <attribute name="ASK" x="203.2" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="203.2" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="203.2" y="147.32" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="203.2" y="147.32" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="203.2" y="147.32" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="203.2" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="203.2" y="147.32" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="203.2" y="147.32" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="203.2" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="203.2" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="203.2" y="147.32" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="203.2" y="147.32" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="203.2" y="147.32" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="203.2" y="147.32" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="203.2" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="203.2" y="147.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND3" gate="1" x="213.36" y="147.32" rot="R90"/>
 <instance part="+3V4" gate="G$1" x="238.76" y="63.5"/>
@@ -8433,93 +9561,135 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="+3V5" gate="G$1" x="218.44" y="68.58"/>
 <instance part="C14" gate="G$1" x="182.88" y="119.38">
 <attribute name="ASK" x="182.88" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="182.88" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="182.88" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="182.88" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="182.88" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="182.88" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="182.88" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="182.88" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="182.88" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="182.88" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="182.88" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="182.88" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="182.88" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="182.88" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="182.88" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="182.88" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V11" gate="G$1" x="182.88" y="142.24"/>
 <instance part="GND47" gate="1" x="182.88" y="109.22"/>
 <instance part="GND57" gate="1" x="228.6" y="119.38"/>
 <instance part="U3" gate="IO" x="27.94" y="93.98" rot="MR0">
 <attribute name="ASK" x="27.94" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="27.94" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="27.94" y="93.98" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="27.94" y="93.98" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="27.94" y="93.98" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="27.94" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="27.94" y="93.98" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="27.94" y="93.98" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="27.94" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="27.94" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="27.94" y="93.98" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="27.94" y="93.98" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="27.94" y="93.98" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="27.94" y="93.98" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="27.94" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="27.94" y="93.98" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U3" gate="PWR" x="210.82" y="129.54"/>
 <instance part="R3" gate="G$1" x="218.44" y="58.42" rot="R90">
 <attribute name="ASK" x="218.44" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="218.44" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="218.44" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="218.44" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="218.44" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="218.44" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="218.44" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="218.44" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="218.44" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="218.44" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="218.44" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="218.44" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="218.44" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="218.44" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="218.44" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="218.44" y="58.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SWD" gate="A" x="248.92" y="50.8">
 <attribute name="ASK" x="248.92" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="248.92" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="248.92" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="248.92" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="248.92" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="248.92" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="248.92" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="248.92" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="248.92" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="248.92" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="248.92" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="248.92" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="248.92" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="248.92" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="248.92" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="248.92" y="50.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="QZ1" gate="G$1" x="180.34" y="58.42" smashed="yes">
 <attribute name="NAME" x="177.8" y="61.976" size="1.778" layer="95"/>
 <attribute name="VALUE" x="177.8" y="53.34" size="1.778" layer="96"/>
 <attribute name="ASK" x="180.34" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="180.34" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="180.34" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="180.34" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="180.34" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="180.34" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="180.34" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="180.34" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="180.34" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="180.34" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="180.34" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="180.34" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="180.34" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="180.34" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="180.34" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="180.34" y="58.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C15" gate="G$1" x="185.42" y="45.72">
 <attribute name="ASK" x="185.42" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="185.42" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="185.42" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="185.42" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="185.42" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="185.42" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="185.42" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="185.42" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="185.42" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="185.42" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="185.42" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="185.42" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="185.42" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="185.42" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="185.42" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="185.42" y="45.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C13" gate="G$1" x="175.26" y="45.72">
 <attribute name="ASK" x="175.26" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="175.26" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="175.26" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="175.26" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="175.26" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="175.26" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="175.26" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="175.26" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="175.26" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="175.26" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="175.26" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="175.26" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="175.26" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="175.26" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="175.26" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="175.26" y="45.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND25" gate="1" x="175.26" y="35.56"/>
 <instance part="GND26" gate="1" x="185.42" y="35.56"/>
@@ -8839,503 +10009,743 @@ PSK: Q=5 / Fc=71.8k</text>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
 <instance part="R6" gate="G$1" x="20.32" y="160.02" rot="R90">
 <attribute name="ASK" x="20.32" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="20.32" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="20.32" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="20.32" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="20.32" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="20.32" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="20.32" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="20.32" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="20.32" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="20.32" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="20.32" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="20.32" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="20.32" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="20.32" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="20.32" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="20.32" y="160.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R4" gate="G$1" x="10.16" y="109.22" rot="R270">
 <attribute name="ASK" x="10.16" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="10.16" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="10.16" y="109.22" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="10.16" y="109.22" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="10.16" y="109.22" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="10.16" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="10.16" y="109.22" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="10.16" y="109.22" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="10.16" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="10.16" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="10.16" y="109.22" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="10.16" y="109.22" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="10.16" y="109.22" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="10.16" y="109.22" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="10.16" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="10.16" y="109.22" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND17" gate="1" x="20.32" y="99.06"/>
 <instance part="GND18" gate="1" x="30.48" y="99.06"/>
 <instance part="R15" gate="G$1" x="55.88" y="111.76" rot="R90">
 <attribute name="ASK" x="55.88" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="55.88" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="55.88" y="111.76" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="55.88" y="111.76" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="55.88" y="111.76" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="55.88" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="55.88" y="111.76" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="55.88" y="111.76" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="55.88" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="55.88" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="55.88" y="111.76" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="55.88" y="111.76" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="55.88" y="111.76" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="55.88" y="111.76" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="55.88" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="55.88" y="111.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND21" gate="1" x="55.88" y="99.06"/>
 <instance part="C28" gate="G$1" x="66.04" y="111.76">
 <attribute name="ASK" x="66.04" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="66.04" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="66.04" y="111.76" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="66.04" y="111.76" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="66.04" y="111.76" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="66.04" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="66.04" y="111.76" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="66.04" y="111.76" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="66.04" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="66.04" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="66.04" y="111.76" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="66.04" y="111.76" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="66.04" y="111.76" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="66.04" y="111.76" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="66.04" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="66.04" y="111.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND22" gate="1" x="66.04" y="99.06"/>
 <instance part="C25" gate="G$1" x="53.34" y="157.48" rot="MR0">
 <attribute name="ASK" x="53.34" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="53.34" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="53.34" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="53.34" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="53.34" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="53.34" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="53.34" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="53.34" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="53.34" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="53.34" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="53.34" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="53.34" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="53.34" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="53.34" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="53.34" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="53.34" y="157.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND24" gate="1" x="53.34" y="147.32"/>
 <instance part="R16" gate="G$1" x="66.04" y="152.4" rot="R90">
 <attribute name="ASK" x="66.04" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="66.04" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="66.04" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="66.04" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="66.04" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="66.04" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="66.04" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="66.04" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="66.04" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="66.04" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="66.04" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="66.04" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="66.04" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="66.04" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="66.04" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="66.04" y="152.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+4" gate="1" x="20.32" y="170.18"/>
 <instance part="R9" gate="G$1" x="30.48" y="139.7" rot="R90">
 <attribute name="ASK" x="30.48" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="30.48" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="30.48" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="30.48" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="30.48" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="30.48" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="30.48" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="30.48" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="30.48" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="30.48" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="30.48" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="30.48" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="30.48" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="30.48" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="30.48" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="30.48" y="139.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R10" gate="G$1" x="30.48" y="127" rot="R90">
 <attribute name="ASK" x="30.48" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="30.48" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="30.48" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="30.48" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="30.48" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="30.48" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="30.48" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="30.48" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="30.48" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="30.48" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="30.48" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="30.48" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="30.48" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="30.48" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="30.48" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="30.48" y="127" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R30" gate="G$1" x="180.34" y="152.4">
 <attribute name="ASK" x="180.34" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="180.34" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="180.34" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="180.34" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="180.34" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="180.34" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="180.34" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="180.34" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="180.34" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="180.34" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="180.34" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="180.34" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="180.34" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="180.34" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="180.34" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="180.34" y="152.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R37" gate="G$1" x="200.66" y="152.4">
 <attribute name="ASK" x="200.66" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="200.66" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="200.66" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="200.66" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="200.66" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="200.66" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="200.66" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="200.66" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="200.66" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="200.66" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="200.66" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="200.66" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="200.66" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="200.66" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="200.66" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="200.66" y="152.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C40" gate="G$1" x="195.58" y="144.78">
 <attribute name="ASK" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C37" gate="G$1" x="185.42" y="144.78">
 <attribute name="ASK" x="185.42" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="185.42" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="185.42" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="185.42" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="185.42" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="185.42" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="185.42" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="185.42" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="185.42" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="185.42" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="185.42" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="185.42" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="185.42" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="185.42" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="185.42" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="185.42" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C36" gate="G$1" x="182.88" y="124.46" rot="R270">
 <attribute name="ASK" x="182.88" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="182.88" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="182.88" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="182.88" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="182.88" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="182.88" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="182.88" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="182.88" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="182.88" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="182.88" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="182.88" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="182.88" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="182.88" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="182.88" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="182.88" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="182.88" y="124.46" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R32" gate="G$1" x="185.42" y="132.08" rot="R90">
 <attribute name="ASK" x="185.42" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="185.42" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="185.42" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="185.42" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="185.42" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="185.42" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="185.42" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="185.42" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="185.42" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="185.42" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="185.42" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="185.42" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="185.42" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="185.42" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="185.42" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="185.42" y="132.08" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R34" gate="G$1" x="195.58" y="132.08" rot="R90">
 <attribute name="ASK" x="195.58" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="195.58" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="195.58" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="195.58" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="195.58" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="195.58" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="195.58" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="195.58" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="195.58" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="195.58" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="195.58" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="195.58" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="195.58" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="195.58" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="195.58" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="195.58" y="132.08" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C41" gate="G$1" x="200.66" y="124.46" rot="R270">
 <attribute name="ASK" x="200.66" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="200.66" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="200.66" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="200.66" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="200.66" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="200.66" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="200.66" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="200.66" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="200.66" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="200.66" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="200.66" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="200.66" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="200.66" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="200.66" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="200.66" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="200.66" y="124.46" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R5" gate="G$1" x="17.78" y="66.04" rot="R180">
 <attribute name="ASK" x="17.78" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="17.78" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="17.78" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="17.78" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="17.78" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="17.78" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="17.78" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="17.78" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="17.78" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="17.78" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="17.78" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="17.78" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="17.78" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="17.78" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="17.78" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="17.78" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R12" gate="G$1" x="33.02" y="66.04" rot="R180">
 <attribute name="ASK" x="33.02" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="33.02" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="33.02" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="33.02" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="33.02" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="33.02" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="33.02" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="33.02" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="33.02" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="33.02" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="33.02" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="33.02" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="33.02" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="33.02" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="33.02" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="33.02" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C19" gate="G$1" x="25.4" y="58.42">
 <attribute name="ASK" x="25.4" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="25.4" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="25.4" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="25.4" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="25.4" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="25.4" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="25.4" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="25.4" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="25.4" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="25.4" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="25.4" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="25.4" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="25.4" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="25.4" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="25.4" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="25.4" y="58.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C18" gate="G$1" x="10.16" y="73.66" smashed="yes" rot="R180">
 <attribute name="NAME" x="9.144" y="78.105" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="19.304" y="77.851" size="1.778" layer="96" rot="R180"/>
 <attribute name="ASK" x="10.16" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="10.16" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="10.16" y="73.66" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="10.16" y="73.66" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="10.16" y="73.66" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="10.16" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="10.16" y="73.66" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="10.16" y="73.66" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="10.16" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="10.16" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="10.16" y="73.66" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="10.16" y="73.66" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="10.16" y="73.66" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="10.16" y="73.66" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="10.16" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="10.16" y="73.66" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C23" gate="G$1" x="38.1" y="76.2">
 <attribute name="ASK" x="38.1" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="38.1" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="38.1" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="38.1" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="38.1" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="38.1" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="38.1" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="38.1" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="38.1" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="38.1" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="38.1" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="38.1" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="38.1" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="38.1" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="38.1" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="38.1" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R11" gate="G$1" x="33.02" y="83.82" rot="R180">
 <attribute name="ASK" x="33.02" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="33.02" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="33.02" y="83.82" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="33.02" y="83.82" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="33.02" y="83.82" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="33.02" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="33.02" y="83.82" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="33.02" y="83.82" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="33.02" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="33.02" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="33.02" y="83.82" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="33.02" y="83.82" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="33.02" y="83.82" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="33.02" y="83.82" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="33.02" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="33.02" y="83.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND27" gate="1" x="25.4" y="48.26"/>
 <instance part="C26" gate="G$1" x="63.5" y="63.5" rot="R90">
 <attribute name="ASK" x="63.5" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="63.5" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="63.5" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="63.5" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="63.5" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="63.5" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="63.5" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="63.5" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="63.5" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="63.5" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="63.5" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="63.5" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="63.5" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="63.5" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="63.5" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="63.5" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R7" gate="G$1" x="25.4" y="27.94">
 <attribute name="ASK" x="25.4" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="25.4" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="25.4" y="27.94" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="25.4" y="27.94" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="25.4" y="27.94" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="25.4" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="25.4" y="27.94" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="25.4" y="27.94" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="25.4" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="25.4" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="25.4" y="27.94" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="25.4" y="27.94" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="25.4" y="27.94" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="25.4" y="27.94" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="25.4" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="25.4" y="27.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C20" gate="G$1" x="30.48" y="20.32">
 <attribute name="ASK" x="30.48" y="20.32" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="30.48" y="20.32" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="30.48" y="20.32" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="30.48" y="20.32" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="30.48" y="20.32" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="30.48" y="20.32" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="30.48" y="20.32" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="30.48" y="20.32" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="30.48" y="20.32" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="30.48" y="20.32" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="30.48" y="20.32" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="30.48" y="20.32" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="30.48" y="20.32" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="30.48" y="20.32" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="30.48" y="20.32" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="30.48" y="20.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND29" gate="1" x="30.48" y="10.16"/>
 <instance part="R14" gate="G$1" x="38.1" y="27.94" rot="R180">
 <attribute name="ASK" x="38.1" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="38.1" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="38.1" y="27.94" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="38.1" y="27.94" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="38.1" y="27.94" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="38.1" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="38.1" y="27.94" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="38.1" y="27.94" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="38.1" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="38.1" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="38.1" y="27.94" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="38.1" y="27.94" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="38.1" y="27.94" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="38.1" y="27.94" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="38.1" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="38.1" y="27.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R13" gate="G$1" x="38.1" y="43.18">
 <attribute name="ASK" x="38.1" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="38.1" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="38.1" y="43.18" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="38.1" y="43.18" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="38.1" y="43.18" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="38.1" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="38.1" y="43.18" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="38.1" y="43.18" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="38.1" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="38.1" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="38.1" y="43.18" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="38.1" y="43.18" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="38.1" y="43.18" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="38.1" y="43.18" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="38.1" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="38.1" y="43.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C24" gate="G$1" x="48.26" y="35.56" rot="R180">
 <attribute name="ASK" x="48.26" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="48.26" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="48.26" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="48.26" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="48.26" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="48.26" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="48.26" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="48.26" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="48.26" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="48.26" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="48.26" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="48.26" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="48.26" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="48.26" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="48.26" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="48.26" y="35.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C29" gate="G$1" x="109.22" y="63.5">
 <attribute name="ASK" x="109.22" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="109.22" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="109.22" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="109.22" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="109.22" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="109.22" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="109.22" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="109.22" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="109.22" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="109.22" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="109.22" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="109.22" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="109.22" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="109.22" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="109.22" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="109.22" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R21" gate="G$1" x="116.84" y="71.12">
 <attribute name="ASK" x="116.84" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="116.84" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="116.84" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="116.84" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="116.84" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="116.84" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="116.84" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="116.84" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="116.84" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="116.84" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="116.84" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="116.84" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="116.84" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="116.84" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="116.84" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="116.84" y="71.12" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R23" gate="G$1" x="127" y="63.5" rot="R90">
 <attribute name="ASK" x="127" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="127" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="127" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="127" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="127" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="127" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="127" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="127" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="127" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="127" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="127" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="127" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="127" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="127" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="127" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="127" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C32" gate="G$1" x="137.16" y="71.12" smashed="yes" rot="R270">
 <attribute name="NAME" x="137.795" y="70.104" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="136.271" y="56.896" size="1.778" layer="96" rot="R90"/>
 <attribute name="ASK" x="137.16" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="137.16" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="137.16" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="137.16" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="137.16" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="137.16" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="137.16" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="137.16" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="137.16" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="137.16" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="137.16" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="137.16" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="137.16" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="137.16" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="137.16" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="137.16" y="71.12" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C31" gate="G$1" x="137.16" y="81.28" smashed="yes" rot="R270">
 <attribute name="NAME" x="130.556" y="76.835" size="1.778" layer="95"/>
 <attribute name="VALUE" x="133.096" y="84.709" size="1.778" layer="96"/>
 <attribute name="ASK" x="137.16" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="137.16" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="137.16" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="137.16" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="137.16" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="137.16" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="137.16" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="137.16" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="137.16" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="137.16" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="137.16" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="137.16" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="137.16" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="137.16" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="137.16" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="137.16" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R27" gate="G$1" x="144.78" y="76.2" rot="R90">
 <attribute name="ASK" x="144.78" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="144.78" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="144.78" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="144.78" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="144.78" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="144.78" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="144.78" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="144.78" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="144.78" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="144.78" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="144.78" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="144.78" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="144.78" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="144.78" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="144.78" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="144.78" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R35" gate="G$1" x="195.58" y="68.58" rot="MR0">
 <attribute name="ASK" x="195.58" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="195.58" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="195.58" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="195.58" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="195.58" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="195.58" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="195.58" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="195.58" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="195.58" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="195.58" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="195.58" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="195.58" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="195.58" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="195.58" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="195.58" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="195.58" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C35" gate="G$1" x="180.34" y="68.58" rot="R90">
 <attribute name="ASK" x="180.34" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="180.34" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="180.34" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="180.34" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="180.34" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="180.34" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="180.34" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="180.34" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="180.34" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="180.34" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="180.34" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="180.34" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="180.34" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="180.34" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="180.34" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="180.34" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R39" gate="G$1" x="205.74" y="63.5" smashed="yes" rot="MR90">
 <attribute name="NAME" x="207.2386" y="57.15" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="202.438" y="57.15" size="1.778" layer="96" rot="MR90"/>
 <attribute name="ASK" x="205.74" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="205.74" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="205.74" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="205.74" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="205.74" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="205.74" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="205.74" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="205.74" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="205.74" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="205.74" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="205.74" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="205.74" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="205.74" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="205.74" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="205.74" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="205.74" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C43" gate="G$1" x="213.36" y="81.28" smashed="yes" rot="MR90">
 <attribute name="NAME" x="217.424" y="76.835" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="217.424" y="84.709" size="1.778" layer="96" rot="MR0"/>
 <attribute name="ASK" x="213.36" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="213.36" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="213.36" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="213.36" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="213.36" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="213.36" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="213.36" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="213.36" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="213.36" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="213.36" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="213.36" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="213.36" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="213.36" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="213.36" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="213.36" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="213.36" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C44" gate="G$1" x="213.36" y="68.58" smashed="yes" rot="MR90">
 <attribute name="NAME" x="217.424" y="71.755" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="222.504" y="64.389" size="1.778" layer="96" rot="MR0"/>
 <attribute name="ASK" x="213.36" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="213.36" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="213.36" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="213.36" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="213.36" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="213.36" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="213.36" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="213.36" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="213.36" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="213.36" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="213.36" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="213.36" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="213.36" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="213.36" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="213.36" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="213.36" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R41" gate="G$1" x="223.52" y="76.2" rot="MR270">
 <attribute name="ASK" x="223.52" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="223.52" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="223.52" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="223.52" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="223.52" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="223.52" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="223.52" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="223.52" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="223.52" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="223.52" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="223.52" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="223.52" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="223.52" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="223.52" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="223.52" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="223.52" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+3" gate="1" x="116.84" y="104.14" rot="R90"/>
 <instance part="P+8" gate="1" x="180.34" y="104.14" rot="R90"/>
@@ -9343,27 +10753,39 @@ PSK: Q=5 / Fc=71.8k</text>
 <instance part="GND33" gate="1" x="226.06" y="99.06"/>
 <instance part="C42" gate="G$1" x="210.82" y="99.06" rot="R90">
 <attribute name="ASK" x="210.82" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="210.82" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="210.82" y="99.06" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="210.82" y="99.06" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="210.82" y="99.06" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="210.82" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="210.82" y="99.06" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="210.82" y="99.06" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="210.82" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="210.82" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="210.82" y="99.06" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="210.82" y="99.06" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="210.82" y="99.06" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="210.82" y="99.06" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="210.82" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="210.82" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C34" gate="G$1" x="142.24" y="99.06" rot="R90">
 <attribute name="ASK" x="142.24" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="142.24" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="142.24" y="99.06" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="142.24" y="99.06" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="142.24" y="99.06" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="142.24" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="142.24" y="99.06" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="142.24" y="99.06" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="142.24" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="142.24" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="142.24" y="99.06" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="142.24" y="99.06" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="142.24" y="99.06" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="142.24" y="99.06" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="142.24" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="142.24" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+9" gate="1" x="223.52" y="63.5" smashed="yes" rot="MR270">
 <attribute name="VALUE" x="226.06" y="58.42" size="1.778" layer="96" rot="MR0"/>
@@ -9374,218 +10796,320 @@ PSK: Q=5 / Fc=71.8k</text>
 <instance part="P+7" gate="1" x="66.04" y="167.64"/>
 <instance part="R19" gate="G$1" x="83.82" y="20.32" rot="MR90">
 <attribute name="ASK" x="83.82" y="20.32" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="83.82" y="20.32" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="83.82" y="20.32" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="83.82" y="20.32" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="83.82" y="20.32" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="83.82" y="20.32" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="83.82" y="20.32" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="83.82" y="20.32" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="83.82" y="20.32" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="83.82" y="20.32" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="83.82" y="20.32" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="83.82" y="20.32" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="83.82" y="20.32" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="83.82" y="20.32" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="83.82" y="20.32" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="83.82" y="20.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R18" gate="G$1" x="76.2" y="25.4" rot="MR180">
 <attribute name="ASK" x="76.2" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="76.2" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="76.2" y="25.4" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="76.2" y="25.4" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="76.2" y="25.4" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="76.2" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="76.2" y="25.4" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="76.2" y="25.4" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="76.2" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="76.2" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="76.2" y="25.4" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="76.2" y="25.4" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="76.2" y="25.4" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="76.2" y="25.4" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="76.2" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="76.2" y="25.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND53" gate="1" x="83.82" y="10.16" rot="MR0"/>
 <instance part="R28" gate="G$1" x="147.32" y="35.56" rot="MR0">
 <attribute name="ASK" x="147.32" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="147.32" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="147.32" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="147.32" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="147.32" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="147.32" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="147.32" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="147.32" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="147.32" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="147.32" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="147.32" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="147.32" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="147.32" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="147.32" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="147.32" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="147.32" y="35.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R26" gate="G$1" x="139.7" y="30.48" rot="MR90">
 <attribute name="ASK" x="139.7" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="139.7" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="139.7" y="30.48" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="139.7" y="30.48" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="139.7" y="30.48" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="139.7" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="139.7" y="30.48" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="139.7" y="30.48" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="139.7" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="139.7" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="139.7" y="30.48" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="139.7" y="30.48" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="139.7" y="30.48" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="139.7" y="30.48" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="139.7" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="139.7" y="30.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND56" gate="1" x="139.7" y="22.86" rot="MR0"/>
 <instance part="R24" gate="G$1" x="129.54" y="104.14">
 <attribute name="ASK" x="129.54" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="129.54" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="129.54" y="104.14" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="129.54" y="104.14" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="129.54" y="104.14" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="129.54" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="129.54" y="104.14" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="129.54" y="104.14" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="129.54" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="129.54" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="129.54" y="104.14" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="129.54" y="104.14" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="129.54" y="104.14" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="129.54" y="104.14" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="129.54" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="129.54" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R33" gate="G$1" x="193.04" y="104.14">
 <attribute name="ASK" x="193.04" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="193.04" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="193.04" y="104.14" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="193.04" y="104.14" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="193.04" y="104.14" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="193.04" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="193.04" y="104.14" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="193.04" y="104.14" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="193.04" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="193.04" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="193.04" y="104.14" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="193.04" y="104.14" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="193.04" y="104.14" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="193.04" y="104.14" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="193.04" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="193.04" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C21" gate="G$1" x="38.1" y="154.94">
 <attribute name="ASK" x="38.1" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="38.1" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="38.1" y="154.94" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="38.1" y="154.94" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="38.1" y="154.94" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="38.1" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="38.1" y="154.94" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="38.1" y="154.94" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="38.1" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="38.1" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="38.1" y="154.94" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="38.1" y="154.94" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="38.1" y="154.94" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="38.1" y="154.94" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="38.1" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="38.1" y="154.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R8" gate="G$1" x="30.48" y="162.56" rot="R90">
 <attribute name="ASK" x="30.48" y="162.56" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="30.48" y="162.56" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="30.48" y="162.56" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="30.48" y="162.56" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="30.48" y="162.56" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="30.48" y="162.56" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="30.48" y="162.56" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="30.48" y="162.56" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="30.48" y="162.56" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="30.48" y="162.56" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="30.48" y="162.56" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="30.48" y="162.56" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="30.48" y="162.56" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="30.48" y="162.56" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="30.48" y="162.56" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="30.48" y="162.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND59" gate="1" x="38.1" y="144.78"/>
 <instance part="C22" gate="G$1" x="38.1" y="111.76">
 <attribute name="ASK" x="38.1" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="38.1" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="38.1" y="111.76" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="38.1" y="111.76" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="38.1" y="111.76" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="38.1" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="38.1" y="111.76" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="38.1" y="111.76" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="38.1" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="38.1" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="38.1" y="111.76" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="38.1" y="111.76" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="38.1" y="111.76" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="38.1" y="111.76" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="38.1" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="38.1" y="111.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND20" gate="1" x="38.1" y="99.06"/>
 <instance part="C27" gate="G$1" x="66.04" y="132.08" rot="R180">
 <attribute name="ASK" x="66.04" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="66.04" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="66.04" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="66.04" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="66.04" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="66.04" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="66.04" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="66.04" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="66.04" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="66.04" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="66.04" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="66.04" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="66.04" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="66.04" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="66.04" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="66.04" y="132.08" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+17" gate="1" x="139.7" y="124.46" smashed="yes" rot="R180">
 <attribute name="VALUE" x="134.62" y="124.46" size="1.778" layer="96"/>
 </instance>
 <instance part="IC1" gate="A" x="91.44" y="139.7">
 <attribute name="ASK" x="91.44" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="91.44" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="91.44" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="91.44" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="91.44" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="91.44" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="91.44" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="91.44" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="91.44" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="91.44" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="91.44" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="91.44" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="91.44" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="91.44" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="91.44" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="91.44" y="139.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="IC1" gate="B" x="149.86" y="137.16" rot="MR180"/>
 <instance part="IC1" gate="C" x="48.26" y="63.5" rot="MR180"/>
 <instance part="IC1" gate="D" x="60.96" y="25.4" rot="MR180"/>
 <instance part="R20" gate="G$1" x="116.84" y="139.7">
 <attribute name="ASK" x="116.84" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="116.84" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="116.84" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="116.84" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="116.84" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="116.84" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="116.84" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="116.84" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="116.84" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="116.84" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="116.84" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="116.84" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="116.84" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="116.84" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="116.84" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="116.84" y="139.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R25" gate="G$1" x="132.08" y="139.7">
 <attribute name="ASK" x="132.08" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="132.08" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="132.08" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="132.08" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="132.08" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="132.08" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="132.08" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="132.08" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="132.08" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="132.08" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="132.08" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="132.08" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="132.08" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="132.08" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="132.08" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="132.08" y="139.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R22" gate="G$1" x="124.46" y="147.32" rot="R270">
 <attribute name="ASK" x="124.46" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="124.46" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="124.46" y="147.32" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="124.46" y="147.32" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="124.46" y="147.32" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="124.46" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="124.46" y="147.32" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="124.46" y="147.32" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="124.46" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="124.46" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="124.46" y="147.32" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="124.46" y="147.32" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="124.46" y="147.32" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="124.46" y="147.32" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="124.46" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="124.46" y="147.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C30" gate="G$1" x="124.46" y="132.08">
 <attribute name="ASK" x="124.46" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="124.46" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="124.46" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="124.46" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="124.46" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="124.46" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="124.46" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="124.46" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="124.46" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="124.46" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="124.46" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="124.46" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="124.46" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="124.46" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="124.46" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="124.46" y="132.08" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C33" gate="G$1" x="139.7" y="149.86">
 <attribute name="ASK" x="139.7" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="139.7" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="139.7" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="139.7" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="139.7" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="139.7" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="139.7" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="139.7" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="139.7" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="139.7" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="139.7" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="139.7" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="139.7" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="139.7" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="139.7" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="139.7" y="149.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND23" gate="1" x="124.46" y="121.92"/>
 <instance part="IC2" gate="A" x="223.52" y="144.78">
 <attribute name="ASK" x="223.52" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="223.52" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="223.52" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="223.52" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="223.52" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="223.52" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="223.52" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="223.52" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="223.52" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="223.52" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="223.52" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="223.52" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="223.52" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="223.52" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="223.52" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="223.52" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="IC2" gate="B" x="157.48" y="68.58" rot="MR180"/>
 <instance part="IC2" gate="C" x="236.22" y="66.04" rot="MR180"/>
@@ -9594,165 +11118,237 @@ PSK: Q=5 / Fc=71.8k</text>
 </instance>
 <instance part="Q1" gate="G$1" x="20.32" y="106.68">
 <attribute name="ASK" x="20.32" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="20.32" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="20.32" y="106.68" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="20.32" y="106.68" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="20.32" y="106.68" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="20.32" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="20.32" y="106.68" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="20.32" y="106.68" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="20.32" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="20.32" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="20.32" y="106.68" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="20.32" y="106.68" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="20.32" y="106.68" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="20.32" y="106.68" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="20.32" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="20.32" y="106.68" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q3" gate="G$1" x="27.94" y="114.3" smashed="yes">
 <attribute name="NAME" x="22.86" y="116.84" size="1.778" layer="95"/>
 <attribute name="VALUE" x="33.02" y="109.22" size="1.778" layer="96" rot="R90"/>
 <attribute name="ASK" x="27.94" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="27.94" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="27.94" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="27.94" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="27.94" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="27.94" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="27.94" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="27.94" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="27.94" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="27.94" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="27.94" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="27.94" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="27.94" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="27.94" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="27.94" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="27.94" y="114.3" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q2" gate="G$1" x="27.94" y="149.86" smashed="yes">
 <attribute name="NAME" x="22.86" y="152.4" size="1.778" layer="95"/>
 <attribute name="VALUE" x="33.02" y="144.78" size="1.778" layer="96" rot="R90"/>
 <attribute name="ASK" x="27.94" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="27.94" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="27.94" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="27.94" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="27.94" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="27.94" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="27.94" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="27.94" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="27.94" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="27.94" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="27.94" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="27.94" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="27.94" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="27.94" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="27.94" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="27.94" y="149.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="IC1" gate="P" x="147.32" y="109.22" rot="R90"/>
 <instance part="IC2" gate="P" x="210.82" y="109.22" rot="R90"/>
 <instance part="IC2" gate="D" x="172.72" y="35.56" rot="R180"/>
 <instance part="R29" gate="G$1" x="177.8" y="137.16" rot="R180">
 <attribute name="ASK" x="177.8" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="177.8" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="177.8" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="177.8" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="177.8" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="177.8" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="177.8" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="177.8" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="177.8" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="177.8" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="177.8" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="177.8" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="177.8" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="177.8" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="177.8" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="177.8" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R38" gate="G$1" x="203.2" y="137.16" rot="R180">
 <attribute name="ASK" x="203.2" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="203.2" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="203.2" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="203.2" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="203.2" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="203.2" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="203.2" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="203.2" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="203.2" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="203.2" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="203.2" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="203.2" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="203.2" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="203.2" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="203.2" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="203.2" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+11" gate="1" x="182.88" y="27.94" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="185.42" y="27.94" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="C45" gate="G$1" x="220.98" y="38.1" rot="R90">
 <attribute name="ASK" x="220.98" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="220.98" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="220.98" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="220.98" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="220.98" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="220.98" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="220.98" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="220.98" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="220.98" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="220.98" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="220.98" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="220.98" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="220.98" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="220.98" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="220.98" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="220.98" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R40" gate="G$1" x="210.82" y="38.1" rot="MR0">
 <attribute name="ASK" x="210.82" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="210.82" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="210.82" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="210.82" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="210.82" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="210.82" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="210.82" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="210.82" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="210.82" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="210.82" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="210.82" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="210.82" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="210.82" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="210.82" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="210.82" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="210.82" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C39" gate="G$1" x="190.5" y="38.1" smashed="yes" rot="MR270">
 <attribute name="NAME" x="191.516" y="42.545" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="183.896" y="34.671" size="1.778" layer="96" rot="MR180"/>
 <attribute name="ASK" x="190.5" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="190.5" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="190.5" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="190.5" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="190.5" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="190.5" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="190.5" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="190.5" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="190.5" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="190.5" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="190.5" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="190.5" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="190.5" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="190.5" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="190.5" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="190.5" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C38" gate="G$1" x="190.5" y="53.34" smashed="yes" rot="MR270">
 <attribute name="NAME" x="188.976" y="57.785" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="188.976" y="49.911" size="1.778" layer="96" rot="MR180"/>
 <attribute name="ASK" x="190.5" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="190.5" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="190.5" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="190.5" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="190.5" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="190.5" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="190.5" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="190.5" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="190.5" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="190.5" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="190.5" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="190.5" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="190.5" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="190.5" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="190.5" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="190.5" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R31" gate="G$1" x="182.88" y="45.72" smashed="yes" rot="MR270">
 <attribute name="NAME" x="186.4614" y="49.53" size="1.778" layer="95" rot="MR270"/>
 <attribute name="VALUE" x="181.102" y="52.07" size="1.778" layer="96" rot="MR270"/>
 <attribute name="ASK" x="182.88" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="182.88" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="182.88" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="182.88" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="182.88" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="182.88" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="182.88" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="182.88" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="182.88" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="182.88" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="182.88" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="182.88" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="182.88" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="182.88" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="182.88" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="182.88" y="45.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R36" gate="G$1" x="198.12" y="33.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="196.6214" y="26.67" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="199.898" y="39.37" size="1.778" layer="96" rot="R270"/>
 <attribute name="ASK" x="198.12" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="198.12" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="198.12" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="198.12" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="198.12" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="198.12" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="198.12" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="198.12" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="198.12" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="198.12" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="198.12" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="198.12" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="198.12" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="198.12" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="198.12" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="198.12" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R17" gate="G$1" x="71.12" y="142.24" rot="R180">
 <attribute name="ASK" x="71.12" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="71.12" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="71.12" y="142.24" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="71.12" y="142.24" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="71.12" y="142.24" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="71.12" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="71.12" y="142.24" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="71.12" y="142.24" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="71.12" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="71.12" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="71.12" y="142.24" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="71.12" y="142.24" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="71.12" y="142.24" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="71.12" y="142.24" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="71.12" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="71.12" y="142.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+18" gate="1" x="208.28" y="27.94" smashed="yes" rot="MR90">
 <attribute name="VALUE" x="205.74" y="33.02" size="1.778" layer="96" rot="MR180"/>
@@ -9761,27 +11357,39 @@ PSK: Q=5 / Fc=71.8k</text>
 <instance part="P+20" gate="1" x="205.74" y="53.34" rot="R180"/>
 <instance part="D3" gate="G$1" x="48.26" y="121.92" rot="R180">
 <attribute name="ASK" x="48.26" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="48.26" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="48.26" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="48.26" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="48.26" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="48.26" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="48.26" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="48.26" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="48.26" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="48.26" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="48.26" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="48.26" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="48.26" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="48.26" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="48.26" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="48.26" y="121.92" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="X1" gate="-1" x="45.72" y="134.62">
 <attribute name="ASK" x="45.72" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="45.72" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="45.72" y="134.62" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="45.72" y="134.62" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="45.72" y="134.62" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="45.72" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="45.72" y="134.62" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="45.72" y="134.62" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="45.72" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="45.72" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="45.72" y="134.62" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="45.72" y="134.62" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="45.72" y="134.62" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="45.72" y="134.62" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="45.72" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="45.72" y="134.62" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="X1" gate="-2" x="45.72" y="132.08"/>
 </instances>
@@ -10525,15 +12133,21 @@ PSK: Q=5 / Fc=71.8k</text>
 <instance part="FRAME4" gate="G$1" x="0" y="0"/>
 <instance part="U4" gate="PWR" x="218.44" y="132.08">
 <attribute name="ASK" x="218.44" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="218.44" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="218.44" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="218.44" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="218.44" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="218.44" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="218.44" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="218.44" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="218.44" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="218.44" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="218.44" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="218.44" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="218.44" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="218.44" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="218.44" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="218.44" y="132.08" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U4" gate="B" x="66.04" y="48.26"/>
 <instance part="U4" gate="A" x="83.82" y="137.16" rot="MR0"/>
@@ -10541,75 +12155,111 @@ PSK: Q=5 / Fc=71.8k</text>
 <instance part="GND37" gate="1" x="198.12" y="114.3"/>
 <instance part="L1" gate="G$1" x="160.02" y="149.86">
 <attribute name="ASK" x="160.02" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="160.02" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="160.02" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="160.02" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="160.02" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="160.02" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="160.02" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="160.02" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="160.02" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="160.02" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="160.02" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="160.02" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="160.02" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="160.02" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="160.02" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="160.02" y="149.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="L2" gate="G$1" x="160.02" y="121.92">
 <attribute name="ASK" x="160.02" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="160.02" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="160.02" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="160.02" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="160.02" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="160.02" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="160.02" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="160.02" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="160.02" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="160.02" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="160.02" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="160.02" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="160.02" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="160.02" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="160.02" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="160.02" y="121.92" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C53" gate="G$1" x="170.18" y="116.84">
 <attribute name="ASK" x="170.18" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="170.18" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="170.18" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="170.18" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="170.18" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="170.18" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="170.18" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="170.18" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="170.18" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="170.18" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="170.18" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="170.18" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="170.18" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="170.18" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="170.18" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="170.18" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C52" gate="G$1" x="170.18" y="144.78">
 <attribute name="ASK" x="170.18" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="170.18" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="170.18" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="170.18" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="170.18" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="170.18" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="170.18" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="170.18" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="170.18" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="170.18" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="170.18" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="170.18" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="170.18" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="170.18" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="170.18" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="170.18" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C49" gate="G$1" x="149.86" y="144.78">
 <attribute name="ASK" x="149.86" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="149.86" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="149.86" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="149.86" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="149.86" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="149.86" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="149.86" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="149.86" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="149.86" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="149.86" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="149.86" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="149.86" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="149.86" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="149.86" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="149.86" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="149.86" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C50" gate="G$1" x="149.86" y="116.84">
 <attribute name="ASK" x="149.86" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="149.86" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="149.86" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="149.86" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="149.86" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="149.86" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="149.86" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="149.86" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="149.86" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="149.86" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="149.86" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="149.86" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="149.86" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="149.86" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="149.86" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="149.86" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V6" gate="G$1" x="142.24" y="154.94"/>
 <instance part="+3V7" gate="G$1" x="142.24" y="127"/>
@@ -10619,27 +12269,39 @@ PSK: Q=5 / Fc=71.8k</text>
 <instance part="GND41" gate="1" x="149.86" y="106.68"/>
 <instance part="C58" gate="G$1" x="200.66" y="160.02">
 <attribute name="ASK" x="200.66" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="200.66" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="200.66" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="200.66" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="200.66" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="200.66" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="200.66" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="200.66" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="200.66" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="200.66" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="200.66" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="200.66" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="200.66" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="200.66" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="200.66" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="200.66" y="160.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C61" gate="G$1" x="213.36" y="160.02">
 <attribute name="ASK" x="213.36" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="213.36" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="213.36" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="213.36" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="213.36" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="213.36" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="213.36" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="213.36" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="213.36" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="213.36" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="213.36" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="213.36" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="213.36" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="213.36" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="213.36" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="213.36" y="160.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND42" gate="1" x="200.66" y="152.4"/>
 <instance part="GND43" gate="1" x="213.36" y="152.4"/>
@@ -10647,29 +12309,41 @@ PSK: Q=5 / Fc=71.8k</text>
 <attribute name="NAME" x="33.528" y="153.035" size="1.778" layer="95"/>
 <attribute name="VALUE" x="34.544" y="145.161" size="1.778" layer="96"/>
 <attribute name="ASK" x="38.1" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="38.1" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="38.1" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="38.1" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="38.1" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="38.1" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="38.1" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="38.1" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="38.1" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="38.1" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="38.1" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="38.1" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="38.1" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="38.1" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="38.1" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="38.1" y="149.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C47" gate="G$1" x="38.1" y="124.46" smashed="yes" rot="R270">
 <attribute name="NAME" x="34.036" y="127.635" size="1.778" layer="95"/>
 <attribute name="VALUE" x="33.782" y="118.999" size="1.778" layer="96"/>
 <attribute name="ASK" x="38.1" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="38.1" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="38.1" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="38.1" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="38.1" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="38.1" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="38.1" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="38.1" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="38.1" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="38.1" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="38.1" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="38.1" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="38.1" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="38.1" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="38.1" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="38.1" y="124.46" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND13" gate="1" x="53.34" y="137.16" rot="R90"/>
 <instance part="GND14" gate="1" x="25.4" y="137.16" rot="R270"/>
@@ -10680,240 +12354,354 @@ PSK: Q=5 / Fc=71.8k</text>
 <instance part="GND44" gate="1" x="40.64" y="43.18" rot="R270"/>
 <instance part="C54" gate="G$1" x="182.88" y="71.12">
 <attribute name="ASK" x="182.88" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="182.88" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="182.88" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="182.88" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="182.88" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="182.88" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="182.88" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="182.88" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="182.88" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="182.88" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="182.88" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="182.88" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="182.88" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="182.88" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="182.88" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="182.88" y="71.12" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C55" gate="G$1" x="182.88" y="58.42">
 <attribute name="ASK" x="182.88" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="182.88" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="182.88" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="182.88" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="182.88" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="182.88" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="182.88" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="182.88" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="182.88" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="182.88" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="182.88" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="182.88" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="182.88" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="182.88" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="182.88" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="182.88" y="58.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C56" gate="G$1" x="198.12" y="78.74" rot="R270">
 <attribute name="ASK" x="198.12" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="198.12" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="198.12" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="198.12" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="198.12" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="198.12" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="198.12" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="198.12" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="198.12" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="198.12" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="198.12" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="198.12" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="198.12" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="198.12" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="198.12" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="198.12" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C57" gate="G$1" x="198.12" y="48.26" rot="R270">
 <attribute name="ASK" x="198.12" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="198.12" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="198.12" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="198.12" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="198.12" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="198.12" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="198.12" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="198.12" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="198.12" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="198.12" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="198.12" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="198.12" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="198.12" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="198.12" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="198.12" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="198.12" y="48.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C60" gate="G$1" x="210.82" y="58.42">
 <attribute name="ASK" x="210.82" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="210.82" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="210.82" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="210.82" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="210.82" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="210.82" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="210.82" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="210.82" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="210.82" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="210.82" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="210.82" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="210.82" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="210.82" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="210.82" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="210.82" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="210.82" y="58.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C59" gate="G$1" x="210.82" y="71.12">
 <attribute name="ASK" x="210.82" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="210.82" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="210.82" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="210.82" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="210.82" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="210.82" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="210.82" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="210.82" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="210.82" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="210.82" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="210.82" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="210.82" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="210.82" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="210.82" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="210.82" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="210.82" y="71.12" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="L4" gate="G$1" x="172.72" y="48.26">
 <attribute name="ASK" x="172.72" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="172.72" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="172.72" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="172.72" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="172.72" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="172.72" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="172.72" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="172.72" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="172.72" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="172.72" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="172.72" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="172.72" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="172.72" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="172.72" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="172.72" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="172.72" y="48.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="L3" gate="G$1" x="172.72" y="78.74">
 <attribute name="ASK" x="172.72" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="172.72" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="172.72" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="172.72" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="172.72" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="172.72" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="172.72" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="172.72" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="172.72" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="172.72" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="172.72" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="172.72" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="172.72" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="172.72" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="172.72" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="172.72" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R46" gate="G$1" x="223.52" y="78.74">
 <attribute name="ASK" x="223.52" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="223.52" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="223.52" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="223.52" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="223.52" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="223.52" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="223.52" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="223.52" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="223.52" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="223.52" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="223.52" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="223.52" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="223.52" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="223.52" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="223.52" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="223.52" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R47" gate="G$1" x="223.52" y="48.26">
 <attribute name="ASK" x="223.52" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="223.52" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="223.52" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="223.52" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="223.52" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="223.52" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="223.52" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="223.52" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="223.52" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="223.52" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="223.52" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="223.52" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="223.52" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="223.52" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="223.52" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="223.52" y="48.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND45" gate="1" x="198.12" y="60.96"/>
 <instance part="R43" gate="G$1" x="88.9" y="68.58" rot="R90">
 <attribute name="ASK" x="88.9" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="88.9" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="88.9" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="88.9" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="88.9" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="88.9" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="88.9" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="88.9" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="88.9" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="88.9" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="88.9" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="88.9" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="88.9" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="88.9" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="88.9" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="88.9" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V9" gate="G$1" x="88.9" y="81.28"/>
 <instance part="+3V8" gate="G$1" x="193.04" y="170.18"/>
 <instance part="R42" gate="G$1" x="20.32" y="48.26" rot="R90">
 <attribute name="ASK" x="20.32" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="20.32" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="20.32" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="20.32" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="20.32" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="20.32" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="20.32" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="20.32" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="20.32" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="20.32" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="20.32" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="20.32" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="20.32" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="20.32" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="20.32" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="20.32" y="48.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V10" gate="G$1" x="20.32" y="60.96"/>
 <instance part="R45" gate="G$1" x="175.26" y="35.56" rot="R180">
 <attribute name="ASK" x="175.26" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="175.26" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="175.26" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="175.26" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="175.26" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="175.26" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="175.26" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="175.26" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="175.26" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="175.26" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="175.26" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="175.26" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="175.26" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="175.26" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="175.26" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="175.26" y="35.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C51" gate="G$1" x="165.1" y="35.56" rot="R270">
 <attribute name="ASK" x="165.1" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="165.1" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="165.1" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="165.1" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="165.1" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="165.1" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="165.1" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="165.1" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="165.1" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="165.1" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="165.1" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="165.1" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="165.1" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="165.1" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="165.1" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="165.1" y="35.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R44" gate="G$1" x="93.98" y="38.1" rot="R180">
 <attribute name="ASK" x="93.98" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="93.98" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="93.98" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="93.98" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="93.98" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="93.98" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="93.98" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="93.98" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="93.98" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="93.98" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="93.98" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="93.98" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="93.98" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="93.98" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="93.98" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="93.98" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C48" gate="G$1" x="86.36" y="33.02">
 <attribute name="ASK" x="86.36" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="86.36" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="86.36" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="86.36" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="86.36" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="86.36" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="86.36" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="86.36" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="86.36" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="86.36" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="86.36" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="86.36" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="86.36" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="86.36" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="86.36" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="86.36" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND46" gate="1" x="86.36" y="22.86"/>
 <instance part="+3V17" gate="G$1" x="241.3" y="152.4"/>
 <instance part="X2" gate="-1" x="243.84" y="66.04">
 <attribute name="ASK" x="243.84" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="243.84" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="243.84" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="243.84" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="243.84" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="243.84" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="243.84" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="243.84" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="243.84" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="243.84" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="243.84" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="243.84" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="243.84" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="243.84" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="243.84" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="243.84" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="X2" gate="-2" x="243.84" y="63.5"/>
 <instance part="QZ2" gate="G$1" x="43.18" y="137.16" smashed="yes" rot="R90">
 <attribute name="NAME" x="41.656" y="141.732" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="56.388" y="133.604" size="1.778" layer="96" rot="R180"/>
 <attribute name="ASK" x="43.18" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="43.18" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="43.18" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="43.18" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="43.18" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="43.18" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="43.18" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="43.18" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="43.18" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="43.18" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="43.18" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="43.18" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="43.18" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="43.18" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="43.18" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="43.18" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C62" gate="G$1" x="236.22" y="116.84">
 <attribute name="ASK" x="236.22" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="236.22" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="236.22" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="236.22" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="236.22" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="236.22" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="236.22" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="236.22" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="236.22" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="236.22" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="236.22" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="236.22" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="236.22" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="236.22" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="236.22" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="236.22" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND60" gate="1" x="236.22" y="106.68"/>
 </instances>
@@ -11336,93 +13124,135 @@ PSK: Q=5 / Fc=71.8k</text>
 <instance part="FRAME5" gate="G$1" x="0" y="0"/>
 <instance part="VCC" gate="G$1" x="248.92" y="144.78" rot="MR0">
 <attribute name="ASK" x="248.92" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="248.92" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="248.92" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="248.92" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="248.92" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="248.92" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="248.92" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="248.92" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="248.92" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="248.92" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="248.92" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="248.92" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="248.92" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="248.92" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="248.92" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="248.92" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND" gate="G$1" x="248.92" y="114.3" rot="MR0">
 <attribute name="ASK" x="248.92" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="248.92" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="248.92" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="248.92" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="248.92" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="248.92" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="248.92" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="248.92" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="248.92" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="248.92" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="248.92" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="248.92" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="248.92" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="248.92" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="248.92" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="248.92" y="114.3" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="LED-IN" gate="G$1" x="172.72" y="144.78">
 <attribute name="ASK" x="172.72" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="172.72" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="172.72" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="172.72" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="172.72" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="172.72" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="172.72" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="172.72" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="172.72" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="172.72" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="172.72" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="172.72" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="172.72" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="172.72" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="172.72" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="172.72" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="MODE" gate="G$1" x="172.72" y="114.3" smashed="yes">
 <attribute name="NAME" x="170.18" y="117.602" size="1.778" layer="95"/>
 <attribute name="VALUE" x="165.1" y="109.22" size="1.778" layer="96"/>
 <attribute name="ASK" x="172.72" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="172.72" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="172.72" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="172.72" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="172.72" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="172.72" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="172.72" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="172.72" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="172.72" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="172.72" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="172.72" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="172.72" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="172.72" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="172.72" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="172.72" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="172.72" y="114.3" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D0/TX/CLK" gate="G$1" x="76.2" y="55.88" smashed="yes" rot="MR0">
 <attribute name="NAME" x="78.74" y="59.182" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="78.74" y="50.8" size="1.778" layer="96" rot="MR0"/>
 <attribute name="ASK" x="76.2" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="76.2" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="76.2" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="76.2" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="76.2" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="76.2" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="76.2" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="76.2" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="76.2" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="76.2" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="76.2" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="76.2" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="76.2" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="76.2" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="76.2" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="76.2" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D1/DATA" gate="G$1" x="162.56" y="38.1" rot="MR0">
 <attribute name="ASK" x="162.56" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="162.56" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="162.56" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="162.56" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="162.56" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="162.56" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="162.56" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="162.56" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="162.56" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="162.56" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="162.56" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="162.56" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="162.56" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="162.56" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="162.56" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="162.56" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="CARDPRS" gate="G$1" x="243.84" y="53.34" smashed="yes" rot="MR0">
 <attribute name="NAME" x="245.618" y="48.26" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="251.46" y="56.642" size="1.778" layer="96" rot="MR0"/>
 <attribute name="ASK" x="243.84" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="243.84" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="243.84" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="243.84" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="243.84" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="243.84" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="243.84" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="243.84" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="243.84" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="243.84" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="243.84" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="243.84" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="243.84" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="243.84" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="243.84" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="243.84" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+6" gate="G$1" x="241.3" y="152.4"/>
 <instance part="GND11" gate="1" x="241.3" y="106.68"/>
@@ -11431,204 +13261,300 @@ PSK: Q=5 / Fc=71.8k</text>
 <instance part="GND51" gate="1" x="213.36" y="38.1"/>
 <instance part="R51" gate="G$1" x="40.64" y="63.5" rot="R90">
 <attribute name="ASK" x="40.64" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="40.64" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="40.64" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="40.64" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="40.64" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="40.64" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="40.64" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="40.64" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="40.64" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="40.64" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="40.64" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="40.64" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="40.64" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="40.64" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="40.64" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="40.64" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R56" gate="G$1" x="127" y="45.72" rot="R90">
 <attribute name="ASK" x="127" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="127" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="127" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="127" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="127" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="127" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="127" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="127" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="127" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="127" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="127" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="127" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="127" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="127" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="127" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="127" y="45.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R63" gate="G$1" x="213.36" y="60.96" rot="R90">
 <attribute name="ASK" x="213.36" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="213.36" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="213.36" y="60.96" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="213.36" y="60.96" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="213.36" y="60.96" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="213.36" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="213.36" y="60.96" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="213.36" y="60.96" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="213.36" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="213.36" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="213.36" y="60.96" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="213.36" y="60.96" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="213.36" y="60.96" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="213.36" y="60.96" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="213.36" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="213.36" y="60.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY3" gate="+5V" x="40.64" y="73.66"/>
 <instance part="SUPPLY5" gate="+5V" x="127" y="55.88"/>
 <instance part="SUPPLY6" gate="+5V" x="213.36" y="71.12"/>
 <instance part="R49" gate="G$1" x="27.94" y="55.88" rot="R90">
 <attribute name="ASK" x="27.94" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="27.94" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="27.94" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="27.94" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="27.94" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="27.94" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="27.94" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="27.94" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="27.94" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="27.94" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="27.94" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="27.94" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="27.94" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="27.94" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="27.94" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="27.94" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R55" gate="G$1" x="114.3" y="38.1" rot="R90">
 <attribute name="ASK" x="114.3" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="114.3" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="114.3" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="114.3" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="114.3" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="114.3" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="114.3" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="114.3" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="114.3" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="114.3" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="114.3" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="114.3" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="114.3" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="114.3" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="114.3" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="114.3" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R62" gate="G$1" x="200.66" y="53.34" rot="R90">
 <attribute name="ASK" x="200.66" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="200.66" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="200.66" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="200.66" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="200.66" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="200.66" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="200.66" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="200.66" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="200.66" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="200.66" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="200.66" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="200.66" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="200.66" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="200.66" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="200.66" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="200.66" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q5" gate="G$1" x="38.1" y="50.8" smashed="yes">
 <attribute name="NAME" x="43.18" y="50.8" size="1.778" layer="95"/>
 <attribute name="VALUE" x="43.18" y="48.26" size="1.778" layer="96"/>
 <attribute name="ASK" x="38.1" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="38.1" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="38.1" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="38.1" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="38.1" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="38.1" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="38.1" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="38.1" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="38.1" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="38.1" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="38.1" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="38.1" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="38.1" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="38.1" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="38.1" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="38.1" y="50.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q6" gate="G$1" x="124.46" y="33.02" smashed="yes">
 <attribute name="NAME" x="129.54" y="33.02" size="1.778" layer="95"/>
 <attribute name="VALUE" x="129.54" y="30.48" size="1.778" layer="96"/>
 <attribute name="ASK" x="124.46" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="124.46" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="124.46" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="124.46" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="124.46" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="124.46" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="124.46" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="124.46" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="124.46" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="124.46" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="124.46" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="124.46" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="124.46" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="124.46" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="124.46" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="124.46" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q7" gate="G$1" x="210.82" y="48.26" smashed="yes">
 <attribute name="NAME" x="215.9" y="48.26" size="1.778" layer="95"/>
 <attribute name="VALUE" x="215.9" y="45.72" size="1.778" layer="96"/>
 <attribute name="ASK" x="210.82" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="210.82" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="210.82" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="210.82" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="210.82" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="210.82" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="210.82" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="210.82" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="210.82" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="210.82" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="210.82" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="210.82" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="210.82" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="210.82" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="210.82" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="210.82" y="48.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R52" gate="G$1" x="55.88" y="55.88" rot="R180">
 <attribute name="ASK" x="55.88" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="55.88" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="55.88" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="55.88" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="55.88" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="55.88" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="55.88" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="55.88" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="55.88" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="55.88" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="55.88" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="55.88" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="55.88" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="55.88" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="55.88" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="55.88" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R57" gate="G$1" x="142.24" y="38.1" rot="R180">
 <attribute name="ASK" x="142.24" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="142.24" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="142.24" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="142.24" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="142.24" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="142.24" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="142.24" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="142.24" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="142.24" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="142.24" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="142.24" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="142.24" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="142.24" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="142.24" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="142.24" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="142.24" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R64" gate="G$1" x="226.06" y="53.34" rot="R180">
 <attribute name="ASK" x="226.06" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="226.06" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="226.06" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="226.06" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="226.06" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="226.06" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="226.06" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="226.06" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="226.06" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="226.06" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="226.06" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="226.06" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="226.06" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="226.06" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="226.06" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="226.06" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R60" gate="G$1" x="195.58" y="144.78" rot="R180">
 <attribute name="ASK" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="195.58" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R61" gate="G$1" x="195.58" y="114.3" rot="R180">
 <attribute name="ASK" x="195.58" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="195.58" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="195.58" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="195.58" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="195.58" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="195.58" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="195.58" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="195.58" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="195.58" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="195.58" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="195.58" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="195.58" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="195.58" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="195.58" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="195.58" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="195.58" y="114.3" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R59" gate="G$1" x="185.42" y="121.92" rot="R270">
 <attribute name="ASK" x="185.42" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="185.42" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="185.42" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="185.42" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="185.42" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="185.42" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="185.42" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="185.42" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="185.42" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="185.42" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="185.42" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="185.42" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="185.42" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="185.42" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="185.42" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="185.42" y="121.92" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R58" gate="G$1" x="185.42" y="152.4" rot="R270">
 <attribute name="ASK" x="185.42" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="185.42" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="185.42" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="185.42" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="185.42" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="185.42" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="185.42" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="185.42" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="185.42" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="185.42" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="185.42" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="185.42" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="185.42" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="185.42" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="185.42" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="185.42" y="152.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V12" gate="G$1" x="185.42" y="162.56"/>
 <instance part="+3V13" gate="G$1" x="185.42" y="132.08"/>
@@ -11636,104 +13562,152 @@ PSK: Q=5 / Fc=71.8k</text>
 <attribute name="NAME" x="95.4786" y="140.97" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="98.298" y="140.97" size="1.778" layer="96" rot="R270"/>
 <attribute name="ASK" x="101.6" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="101.6" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="101.6" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="101.6" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="101.6" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="101.6" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="101.6" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="101.6" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="101.6" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="101.6" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="101.6" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="101.6" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="101.6" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="101.6" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="101.6" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="101.6" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R54" gate="G$1" x="111.76" y="137.16" smashed="yes" rot="R90">
 <attribute name="NAME" x="117.8814" y="135.89" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="115.062" y="135.89" size="1.778" layer="96" rot="R90"/>
 <attribute name="ASK" x="111.76" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="111.76" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="111.76" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="111.76" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="111.76" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="111.76" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="111.76" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="111.76" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="111.76" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="111.76" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="111.76" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="111.76" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="111.76" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="111.76" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="111.76" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="111.76" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="BZ1" gate="1" x="48.26" y="142.24" rot="R270">
 <attribute name="ASK" x="48.26" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="48.26" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="48.26" y="142.24" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="48.26" y="142.24" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="48.26" y="142.24" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="48.26" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="48.26" y="142.24" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="48.26" y="142.24" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="48.26" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="48.26" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="48.26" y="142.24" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="48.26" y="142.24" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="48.26" y="142.24" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="48.26" y="142.24" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="48.26" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="48.26" y="142.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q4" gate="G$1" x="33.02" y="121.92" smashed="yes">
 <attribute name="NAME" x="38.1" y="121.92" size="1.778" layer="95"/>
 <attribute name="VALUE" x="38.1" y="119.38" size="1.778" layer="96"/>
 <attribute name="ASK" x="33.02" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="33.02" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="33.02" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="33.02" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="33.02" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="33.02" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="33.02" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="33.02" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="33.02" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="33.02" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="33.02" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="33.02" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="33.02" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="33.02" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="33.02" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="33.02" y="121.92" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND48" gate="1" x="35.56" y="106.68"/>
 <instance part="R48" gate="G$1" x="25.4" y="127" rot="R90">
 <attribute name="ASK" x="25.4" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="25.4" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="25.4" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="25.4" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="25.4" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="25.4" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="25.4" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="25.4" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="25.4" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="25.4" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="25.4" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="25.4" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="25.4" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="25.4" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="25.4" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="25.4" y="127" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R50" gate="G$1" x="35.56" y="139.7" rot="R90">
 <attribute name="ASK" x="35.56" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="35.56" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="35.56" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="35.56" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="35.56" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="35.56" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="35.56" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="35.56" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="35.56" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="35.56" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="35.56" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="35.56" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="35.56" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="35.56" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="35.56" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="35.56" y="139.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D4" gate="G$1" x="208.28" y="157.48" rot="R180">
 <attribute name="ASK" x="208.28" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="208.28" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="208.28" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="208.28" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="208.28" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="208.28" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="208.28" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="208.28" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="208.28" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="208.28" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="208.28" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="208.28" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="208.28" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="208.28" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="208.28" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="208.28" y="157.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D5" gate="G$1" x="208.28" y="127" rot="R180">
 <attribute name="ASK" x="208.28" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="208.28" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="208.28" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="208.28" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="208.28" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="208.28" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="208.28" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="208.28" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="208.28" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="208.28" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="208.28" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="208.28" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="208.28" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="208.28" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="208.28" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="208.28" y="127" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND54" gate="1" x="218.44" y="121.92"/>
 <instance part="GND55" gate="1" x="218.44" y="152.4"/>
@@ -11742,40 +13716,58 @@ PSK: Q=5 / Fc=71.8k</text>
 <instance part="P+16" gate="1" x="35.56" y="154.94"/>
 <instance part="LED1" gate="G$1" x="109.22" y="124.46">
 <attribute name="ASK" x="109.22" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="109.22" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="109.22" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="109.22" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="109.22" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="109.22" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="109.22" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="109.22" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="109.22" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="109.22" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="109.22" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="109.22" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="109.22" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="109.22" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="109.22" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="109.22" y="124.46" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND19" gate="1" x="106.68" y="114.3"/>
 <instance part="C63" gate="G$1" x="213.36" y="137.16" rot="R90">
 <attribute name="ASK" x="213.36" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="213.36" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="213.36" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="213.36" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="213.36" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="213.36" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="213.36" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="213.36" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="213.36" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="213.36" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="213.36" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="213.36" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="213.36" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="213.36" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="213.36" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="213.36" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C64" gate="G$1" x="208.28" y="109.22">
 <attribute name="ASK" x="208.28" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_CUSTOMERPN" x="208.28" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="ASK_PN" x="208.28" y="109.22" size="1.778" layer="96" display="off"/>
 <attribute name="CUSTOMERPN" x="208.28" y="109.22" size="1.778" layer="96" display="off"/>
 <attribute name="FSK" x="208.28" y="109.22" size="1.778" layer="96" display="off"/>
 <attribute name="FSK_PN" x="208.28" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="FSK_CUSTOMERPN" x="208.28" y="109.22" size="1.778" layer="96" display="off"/>
 <attribute name="MIFARE" x="208.28" y="109.22" size="1.778" layer="96" display="off"/>
 <attribute name="PASSIVO" x="208.28" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_PN" x="208.28" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" x="208.28" y="109.22" size="1.778" layer="96" display="off"/>
 <attribute name="PN1" x="208.28" y="109.22" size="1.778" layer="96" display="off"/>
 <attribute name="PSK" x="208.28" y="109.22" size="1.778" layer="96" display="off"/>
 <attribute name="PSK_PN" x="208.28" y="109.22" size="1.778" layer="96" display="off"/>
 <attribute name="SPECIAL" x="208.28" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="PSK_CUSTOMERPN" x="208.28" y="109.22" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND61" gate="1" x="208.28" y="99.06"/>
 <instance part="GND62" gate="1" x="223.52" y="137.16" rot="R90"/>

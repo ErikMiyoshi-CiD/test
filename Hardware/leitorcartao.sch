@@ -5998,22 +5998,22 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
-<part name="U2" library="RFiD" deviceset="TLV1117-50CDCYR" device="">
+<part name="U2" library="RFiD" deviceset="TLV1117-50CDCYR" device="" value="NCP1117LPST50T3G">
 <attribute name="ASK" value="X"/>
 <attribute name="ASK_CUSTOMERPN" value="IC/5VREG"/>
-<attribute name="ASK_PN" value="TLV1117-50CDCYR"/>
+<attribute name="ASK_PN" value="NCP1117LPST50T3G"/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
 <attribute name="FSK_CUSTOMERPN" value="IC/5VREG"/>
-<attribute name="FSK_PN" value="TLV1117-50CDCYR"/>
+<attribute name="FSK_PN" value="NCP1117LPST50T3G"/>
 <attribute name="MIFARE" value="X"/>
 <attribute name="MIFARE_CUSTOMERPN" value="IC/5VREG"/>
-<attribute name="MIFARE_PN" value="TLV1117-50CDCYR"/>
+<attribute name="MIFARE_PN" value="NCP1117LPST50T3G"/>
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
 <attribute name="PSK_CUSTOMERPN" value="IC/5VREG"/>
-<attribute name="PSK_PN" value="TLV1117-50CDCYR"/>
+<attribute name="PSK_PN" value="NCP1117LPST50T3G"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
@@ -7867,22 +7867,22 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="SUPPLY12" library="supply2" deviceset="+5V" device=""/>
-<part name="U1" library="RFiD" deviceset="LP2985-33DBVR" device="">
+<part name="U1" library="RFiD" deviceset="LP2985-33DBVR" device="" value="TLV71333PDBVR">
 <attribute name="ASK" value="X"/>
 <attribute name="ASK_CUSTOMERPN" value="IC/3V3REG"/>
-<attribute name="ASK_PN" value="LP2985-33DBVR"/>
+<attribute name="ASK_PN" value="TLV71333PDBVR"/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
 <attribute name="FSK_CUSTOMERPN" value="IC/3V3REG"/>
-<attribute name="FSK_PN" value="LP2985-33DBVR"/>
+<attribute name="FSK_PN" value="TLV71333PDBVR"/>
 <attribute name="MIFARE" value="X"/>
 <attribute name="MIFARE_CUSTOMERPN" value="IC/3V3REG"/>
-<attribute name="MIFARE_PN" value="LP2985-33DBVR"/>
+<attribute name="MIFARE_PN" value="TLV71333PDBVR"/>
 <attribute name="PASSIVO" value=""/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
 <attribute name="PSK_CUSTOMERPN" value="IC/3V3REG"/>
-<attribute name="PSK_PN" value="LP2985-33DBVR"/>
+<attribute name="PSK_PN" value="TLV71333PDBVR"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R1" library="RFiD" deviceset="R-US_" device="R0402" value="470">

@@ -5887,19 +5887,19 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R6" library="RFiD" deviceset="R-US_" device="R0402" value="2.2k">
 <attribute name="ASK" value="X"/>
 <attribute name="ASK_CUSTOMERPN" value="R/2.2k/5%/04"/>
-<attribute name="ASK_PN" value="RMCF0402JT2K20"/>
+<attribute name="ASK_PN" value="RC1005J222CS"/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
 <attribute name="FSK_CUSTOMERPN" value="R/2.2k/5%/04"/>
-<attribute name="FSK_PN" value="RMCF0402JT2K20"/>
+<attribute name="FSK_PN" value="RC1005J222CS"/>
 <attribute name="MIFARE" value=""/>
 <attribute name="MIFARE_CUSTOMERPN" value=""/>
 <attribute name="MIFARE_PN" value=""/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_CUSTOMERPN" value="RMCF0402JT2K20"/>
-<attribute name="PSK_PN" value="R/2.2k/5%/04"/>
+<attribute name="PSK_CUSTOMERPN" value="R/2.2k/5%/04"/>
+<attribute name="PSK_PN" value="RC1005J222CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R4" library="RFiD" deviceset="R-US_" device="R0402" value="1k">
@@ -6255,8 +6255,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value="X"/>
-<attribute name="MIFARE_CUSTOMERPN" value="C/18p/50V/D06"/>
-<attribute name="MIFARE_PN" value="CL05C180JB5NNNC"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/18p/100V/E06"/>
+<attribute name="MIFARE_PN" value="06031U180FAT2A"/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
@@ -6273,8 +6273,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value="X"/>
-<attribute name="MIFARE_CUSTOMERPN" value="C/18p/50V/D06"/>
-<attribute name="MIFARE_PN" value="CL05C180JB5NNNC"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/18p/100V/E06"/>
+<attribute name="MIFARE_PN" value="06031U180FAT2A"/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
@@ -6296,8 +6296,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value="X"/>
-<attribute name="MIFARE_CUSTOMERPN" value="C/120p/50V/E06"/>
-<attribute name="MIFARE_PN" value="06035U121FAT2A"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/120p/100V/E06"/>
+<attribute name="MIFARE_PN" value="GRM1885C2A121FA01J"/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
@@ -6314,8 +6314,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value="X"/>
-<attribute name="MIFARE_CUSTOMERPN" value="C/120p/50V/E06"/>
-<attribute name="MIFARE_PN" value="06035U121FAT2A"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/120p/100V/E06"/>
+<attribute name="MIFARE_PN" value="GRM1885C2A121FA01J"/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
@@ -6332,8 +6332,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value="X"/>
-<attribute name="MIFARE_CUSTOMERPN" value="C/18p/50V/E06"/>
-<attribute name="MIFARE_PN" value="CL05C180JB5NNNC"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/18p/100V/E06"/>
+<attribute name="MIFARE_PN" value="06031U180FAT2A"/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
@@ -6350,8 +6350,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="FSK_CUSTOMERPN" value=""/>
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value="X"/>
-<attribute name="MIFARE_CUSTOMERPN" value="C/18p/50V/E06"/>
-<attribute name="MIFARE_PN" value="CL05C180JB5NNNC"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/18p/100V/E06"/>
+<attribute name="MIFARE_PN" value="06031U180FAT2A"/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
@@ -6517,7 +6517,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value="X"/>
 <attribute name="MIFARE_CUSTOMERPN" value="R/2.2k/5%/04"/>
-<attribute name="MIFARE_PN" value="RMCF0402JT2K20"/>
+<attribute name="MIFARE_PN" value="RC1005J222CS"/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value=""/>
@@ -6793,55 +6793,55 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R49" library="RFiD" deviceset="R-US_" device="R0402" value="2.2k">
 <attribute name="ASK" value="X"/>
 <attribute name="ASK_CUSTOMERPN" value="R/2.2k/5%/04"/>
-<attribute name="ASK_PN" value="RMCF0402JT2K20"/>
+<attribute name="ASK_PN" value="RC1005J222CS"/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
 <attribute name="FSK_CUSTOMERPN" value="R/2.2k/5%/04"/>
-<attribute name="FSK_PN" value="RMCF0402JT2K20"/>
+<attribute name="FSK_PN" value="RC1005J222CS"/>
 <attribute name="MIFARE" value="X"/>
 <attribute name="MIFARE_CUSTOMERPN" value="R/2.2k/5%/04"/>
-<attribute name="MIFARE_PN" value="RMCF0402JT2K20"/>
+<attribute name="MIFARE_PN" value="RC1005J222CS"/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
 <attribute name="PSK_CUSTOMERPN" value="R/2.2k/5%/04"/>
-<attribute name="PSK_PN" value="RMCF0402JT2K20"/>
+<attribute name="PSK_PN" value="RC1005J222CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R55" library="RFiD" deviceset="R-US_" device="R0402" value="2.2k">
 <attribute name="ASK" value="X"/>
 <attribute name="ASK_CUSTOMERPN" value="R/2.2k/5%/04"/>
-<attribute name="ASK_PN" value="RMCF0402JT2K20"/>
+<attribute name="ASK_PN" value="RC1005J222CS"/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
 <attribute name="FSK_CUSTOMERPN" value="R/2.2k/5%/04"/>
-<attribute name="FSK_PN" value="RMCF0402JT2K20"/>
+<attribute name="FSK_PN" value="RC1005J222CS"/>
 <attribute name="MIFARE" value="X"/>
 <attribute name="MIFARE_CUSTOMERPN" value="R/2.2k/5%/04"/>
-<attribute name="MIFARE_PN" value="RMCF0402JT2K20"/>
+<attribute name="MIFARE_PN" value="RC1005J222CS"/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
 <attribute name="PSK_CUSTOMERPN" value="R/2.2k/5%/04"/>
-<attribute name="PSK_PN" value="RMCF0402JT2K20"/>
+<attribute name="PSK_PN" value="RC1005J222CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R62" library="RFiD" deviceset="R-US_" device="R0402" value="2.2k">
 <attribute name="ASK" value="X"/>
 <attribute name="ASK_CUSTOMERPN" value="R/2.2k/5%/04"/>
-<attribute name="ASK_PN" value="RMCF0402JT2K20"/>
+<attribute name="ASK_PN" value="RC1005J222CS"/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
 <attribute name="FSK_CUSTOMERPN" value="R/2.2k/5%/04"/>
-<attribute name="FSK_PN" value="RMCF0402JT2K20"/>
+<attribute name="FSK_PN" value="RC1005J222CS"/>
 <attribute name="MIFARE" value="X"/>
 <attribute name="MIFARE_CUSTOMERPN" value="R/2.2k/5%/04"/>
-<attribute name="MIFARE_PN" value="RMCF0402JT2K20"/>
+<attribute name="MIFARE_PN" value="RC1005J222CS"/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
 <attribute name="PSK_CUSTOMERPN" value="R/2.2k/5%/04"/>
-<attribute name="PSK_PN" value="RMCF0402JT2K20"/>
+<attribute name="PSK_PN" value="RC1005J222CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="Q5" library="RFiD" deviceset="MMBT4401" device="">
@@ -7102,19 +7102,19 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R48" library="RFiD" deviceset="R-US_" device="R0402" value="2.2k">
 <attribute name="ASK" value="X"/>
 <attribute name="ASK_CUSTOMERPN" value="R/2.2k/5%/04"/>
-<attribute name="ASK_PN" value="RMCF0402JT2K20"/>
+<attribute name="ASK_PN" value="RC1005J222CS"/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
 <attribute name="FSK_CUSTOMERPN" value="R/2.2k/5%/04"/>
-<attribute name="FSK_PN" value="RMCF0402JT2K20"/>
+<attribute name="FSK_PN" value="RC1005J222CS"/>
 <attribute name="MIFARE" value="X"/>
 <attribute name="MIFARE_CUSTOMERPN" value="R/2.2k/5%/04"/>
-<attribute name="MIFARE_PN" value="RMCF0402JT2K20"/>
+<attribute name="MIFARE_PN" value="RC1005J222CS"/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
 <attribute name="PSK_CUSTOMERPN" value="R/2.2k/5%/04"/>
-<attribute name="PSK_PN" value="RMCF0402JT2K20"/>
+<attribute name="PSK_PN" value="RC1005J222CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R50" library="RFiD" deviceset="R-US_" device="R0402" value="1k">
@@ -7197,19 +7197,19 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R3" library="RFiD" deviceset="R-US_" device="R0402" value="12k">
 <attribute name="ASK" value="X"/>
 <attribute name="ASK_CUSTOMERPN" value="R/12K/5%/04"/>
-<attribute name="ASK_PN" value="1622826-8"/>
+<attribute name="ASK_PN" value="RC1005J123CS"/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
 <attribute name="FSK_CUSTOMERPN" value="R/12K/5%/04"/>
-<attribute name="FSK_PN" value="1622826-8"/>
+<attribute name="FSK_PN" value="RC1005J123CS"/>
 <attribute name="MIFARE" value="X"/>
 <attribute name="MIFARE_CUSTOMERPN" value="R/12K/5%/04"/>
-<attribute name="MIFARE_PN" value="1622826-8"/>
+<attribute name="MIFARE_PN" value="RC1005J123CS"/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
 <attribute name="PSK_CUSTOMERPN" value="R/12K/5%/04"/>
-<attribute name="PSK_PN" value="1622826-8"/>
+<attribute name="PSK_PN" value="RC1005J123CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R9" library="RFiD" deviceset="R-US_" device="R0603" value="10">
@@ -7291,7 +7291,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
 <attribute name="FSK_CUSTOMERPN" value="C/47p/25V/E04"/>
-<attribute name="FSK_PN" value="GRM1555C1H470FA01D"/>
+<attribute name="FSK_PN" value="CL05C470FB5NNNC"/>
 <attribute name="MIFARE" value=""/>
 <attribute name="MIFARE_CUSTOMERPN" value=""/>
 <attribute name="MIFARE_PN" value=""/>
@@ -7299,7 +7299,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
 <attribute name="PSK_CUSTOMERPN" value="C/47p/25V/E04"/>
-<attribute name="PSK_PN" value="GRM1555C1H470FA01D"/>
+<attribute name="PSK_PN" value="CL05C470FB5NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C37" library="RFiD" deviceset="C-US" device="C0402" value="47p">
@@ -7309,7 +7309,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
 <attribute name="FSK_CUSTOMERPN" value="C/47p/25V/E04"/>
-<attribute name="FSK_PN" value="GRM1555C1H470FA01D"/>
+<attribute name="FSK_PN" value="CL05C470FB5NNNC"/>
 <attribute name="MIFARE" value=""/>
 <attribute name="MIFARE_CUSTOMERPN" value=""/>
 <attribute name="MIFARE_PN" value=""/>
@@ -7317,7 +7317,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
 <attribute name="PSK_CUSTOMERPN" value="C/47p/25V/E04"/>
-<attribute name="PSK_PN" value="GRM1555C1H470FA01D"/>
+<attribute name="PSK_PN" value="CL05C470FB5NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C36" library="RFiD" deviceset="C-US" device="C0402" value="47p">
@@ -7327,7 +7327,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
 <attribute name="FSK_CUSTOMERPN" value="C/47p/25V/E04"/>
-<attribute name="FSK_PN" value="GRM1555C1H470FA01D"/>
+<attribute name="FSK_PN" value="CL05C470FB5NNNC"/>
 <attribute name="MIFARE" value=""/>
 <attribute name="MIFARE_CUSTOMERPN" value=""/>
 <attribute name="MIFARE_PN" value=""/>
@@ -7335,7 +7335,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
 <attribute name="PSK_CUSTOMERPN" value="C/47p/25V/E04"/>
-<attribute name="PSK_PN" value="GRM1555C1H470FA01D"/>
+<attribute name="PSK_PN" value="CL05C470FB5NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R32" library="RFiD" deviceset="R-US_" device="R0402" value="27k">
@@ -7381,7 +7381,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
 <attribute name="FSK_CUSTOMERPN" value="C/47p/25V/E04"/>
-<attribute name="FSK_PN" value="GRM1555C1H470FA01D"/>
+<attribute name="FSK_PN" value="CL05C470FB5NNNC"/>
 <attribute name="MIFARE" value=""/>
 <attribute name="MIFARE_CUSTOMERPN" value=""/>
 <attribute name="MIFARE_PN" value=""/>
@@ -7389,7 +7389,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
 <attribute name="PSK_CUSTOMERPN" value="C/47p/25V/E04"/>
-<attribute name="PSK_PN" value="GRM1555C1H470FA01D"/>
+<attribute name="PSK_PN" value="CL05C470FB5NNNC"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R5" library="RFiD" deviceset="R-US_" device="R0402" value="4.7k">
@@ -7485,11 +7485,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R11" library="RFiD" deviceset="R-US_" device="R0402" value="91k">
 <attribute name="ASK" value="X"/>
 <attribute name="ASK_CUSTOMERPN" value="R/91k/5%/04"/>
-<attribute name="ASK_PN" value="RMCF0402JT91K0"/>
+<attribute name="ASK_PN" value="RC1005J913CS"/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
 <attribute name="FSK_CUSTOMERPN" value=""/>
-<attribute name="FSK_PN" value="RMCF0402JT91K0"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value=""/>
 <attribute name="MIFARE_CUSTOMERPN" value=""/>
 <attribute name="MIFARE_PN" value=""/>
@@ -7577,7 +7577,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R13" library="RFiD" deviceset="R-US_" device="R0402" value="91k">
 <attribute name="ASK" value="X"/>
 <attribute name="ASK_CUSTOMERPN" value="R/91k/5%/04"/>
-<attribute name="ASK_PN" value="RMCF0402JT91K0"/>
+<attribute name="ASK_PN" value="RC1005J913CS"/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value=""/>
 <attribute name="FSK_CUSTOMERPN" value=""/>
@@ -7707,7 +7707,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
 <attribute name="FSK_CUSTOMERPN" value="R/180k/5%/04"/>
-<attribute name="FSK_PN" value="1-1622826-4"/>
+<attribute name="FSK_PN" value="RC1005J184CS"/>
 <attribute name="MIFARE" value=""/>
 <attribute name="MIFARE_CUSTOMERPN" value=""/>
 <attribute name="MIFARE_PN" value=""/>
@@ -7815,7 +7815,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
 <attribute name="FSK_CUSTOMERPN" value="R/180k/5%/04"/>
-<attribute name="FSK_PN" value="1-1622826-4"/>
+<attribute name="FSK_PN" value="RC1005J184CS"/>
 <attribute name="MIFARE" value=""/>
 <attribute name="MIFARE_CUSTOMERPN" value=""/>
 <attribute name="MIFARE_PN" value=""/>
@@ -7888,37 +7888,37 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R1" library="RFiD" deviceset="R-US_" device="R0402" value="470">
 <attribute name="ASK" value="X"/>
 <attribute name="ASK_CUSTOMERPN" value="R/470/5%/04"/>
-<attribute name="ASK_PN" value="4-1622826-4"/>
+<attribute name="ASK_PN" value="RC1005J471CS"/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
 <attribute name="FSK_CUSTOMERPN" value="R/470/5%/04"/>
-<attribute name="FSK_PN" value="4-1622826-4"/>
+<attribute name="FSK_PN" value="RC1005J471CS"/>
 <attribute name="MIFARE" value="X"/>
 <attribute name="MIFARE_CUSTOMERPN" value="R/470/5%/04"/>
-<attribute name="MIFARE_PN" value="4-1622826-4"/>
+<attribute name="MIFARE_PN" value="RC1005J471CS"/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
 <attribute name="PSK_CUSTOMERPN" value="R/470/5%/04"/>
-<attribute name="PSK_PN" value="4-1622826-4"/>
+<attribute name="PSK_PN" value="RC1005J471CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R2" library="RFiD" deviceset="R-US_" device="R0402" value="470">
 <attribute name="ASK" value="X"/>
 <attribute name="ASK_CUSTOMERPN" value="R/470/5%/04"/>
-<attribute name="ASK_PN" value="4-1622826-4"/>
+<attribute name="ASK_PN" value="RC1005J471CS"/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
 <attribute name="FSK_CUSTOMERPN" value="R/470/5%/04"/>
-<attribute name="FSK_PN" value="4-1622826-4"/>
+<attribute name="FSK_PN" value="RC1005J471CS"/>
 <attribute name="MIFARE" value="X"/>
 <attribute name="MIFARE_CUSTOMERPN" value="R/470/5%/04"/>
-<attribute name="MIFARE_PN" value="4-1622826-4"/>
+<attribute name="MIFARE_PN" value="RC1005J471CS"/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
 <attribute name="PSK_CUSTOMERPN" value="R/470/5%/04"/>
-<attribute name="PSK_PN" value="4-1622826-4"/>
+<attribute name="PSK_PN" value="RC1005J471CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
@@ -8124,7 +8124,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
 <attribute name="FSK_CUSTOMERPN" value="DNP"/>
-<attribute name="FSK_PN" value="DNP"/>
+<attribute name="FSK_PN" value=""/>
 <attribute name="MIFARE" value=""/>
 <attribute name="MIFARE_CUSTOMERPN" value=""/>
 <attribute name="MIFARE_PN" value=""/>
@@ -8381,7 +8381,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
 <attribute name="FSK_CUSTOMERPN" value="R/470/5%/04"/>
-<attribute name="FSK_PN" value="4-1622826-4"/>
+<attribute name="FSK_PN" value="RC1005J471CS"/>
 <attribute name="MIFARE" value=""/>
 <attribute name="MIFARE_CUSTOMERPN" value=""/>
 <attribute name="MIFARE_PN" value=""/>
@@ -8389,7 +8389,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
 <attribute name="PSK_CUSTOMERPN" value="R/470/5%/04"/>
-<attribute name="PSK_PN" value="4-1622826-4"/>
+<attribute name="PSK_PN" value="RC1005J471CS"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="R38" library="RFiD" deviceset="R-US_" device="R0603" value="100">
@@ -8490,7 +8490,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
 <attribute name="FSK_CUSTOMERPN" value="R/180k/5%/04"/>
-<attribute name="FSK_PN" value="1-1622826-4"/>
+<attribute name="FSK_PN" value="RC1005J184CS"/>
 <attribute name="MIFARE" value=""/>
 <attribute name="MIFARE_CUSTOMERPN" value=""/>
 <attribute name="MIFARE_PN" value=""/>
@@ -8651,38 +8651,38 @@ In this library the device names are the same as the pin names of the symbols, t
 </part>
 <part name="C15" library="RFiD" deviceset="C-US" device="C0603" value="18p">
 <attribute name="ASK" value="X"/>
-<attribute name="ASK_CUSTOMERPN" value="C/18p/50V/D06"/>
-<attribute name="ASK_PN" value="CL05C180JB5NNNC"/>
+<attribute name="ASK_CUSTOMERPN" value="C/18p/100V/E06"/>
+<attribute name="ASK_PN" value="06031U180FAT2A"/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_CUSTOMERPN" value="C/18p/50V/D06"/>
-<attribute name="FSK_PN" value="CL05C180JB5NNNC"/>
+<attribute name="FSK_CUSTOMERPN" value="C/18p/100V/E06"/>
+<attribute name="FSK_PN" value="06031U180FAT2A"/>
 <attribute name="MIFARE" value="X"/>
-<attribute name="MIFARE_CUSTOMERPN" value="C/18p/50V/D06"/>
-<attribute name="MIFARE_PN" value="CL05C180JB5NNNC"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/18p/100V/E06"/>
+<attribute name="MIFARE_PN" value="06031U180FAT2A"/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_CUSTOMERPN" value="C/18p/50V/D06"/>
-<attribute name="PSK_PN" value="CL05C180JB5NNNC"/>
+<attribute name="PSK_CUSTOMERPN" value="C/18p/100V/E06"/>
+<attribute name="PSK_PN" value="06031U180FAT2A"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="C13" library="RFiD" deviceset="C-US" device="C0603" value="18p">
 <attribute name="ASK" value="X"/>
-<attribute name="ASK_CUSTOMERPN" value="C/18p/50V/D06"/>
-<attribute name="ASK_PN" value="CL05C180JB5NNNC"/>
+<attribute name="ASK_CUSTOMERPN" value="C/18p/100V/E06"/>
+<attribute name="ASK_PN" value="06031U180FAT2A"/>
 <attribute name="CUSTOMERPN" value=""/>
 <attribute name="FSK" value="X"/>
-<attribute name="FSK_CUSTOMERPN" value="C/18p/50V/D06"/>
-<attribute name="FSK_PN" value="CL05C180JB5NNNC"/>
+<attribute name="FSK_CUSTOMERPN" value="C/18p/100V/E06"/>
+<attribute name="FSK_PN" value="06031U180FAT2A"/>
 <attribute name="MIFARE" value="X"/>
-<attribute name="MIFARE_CUSTOMERPN" value="C/18p/50V/D06"/>
-<attribute name="MIFARE_PN" value="CL05C180JB5NNNC"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/18p/100V/E06"/>
+<attribute name="MIFARE_PN" value="06031U180FAT2A"/>
 <attribute name="PASSIVO" value="Sim"/>
 <attribute name="PN1" value=""/>
 <attribute name="PSK" value="X"/>
-<attribute name="PSK_CUSTOMERPN" value="C/18p/50V/D06"/>
-<attribute name="PSK_PN" value="CL05C180JB5NNNC"/>
+<attribute name="PSK_CUSTOMERPN" value="C/18p/100V/E06"/>
+<attribute name="PSK_PN" value="06031U180FAT2A"/>
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>

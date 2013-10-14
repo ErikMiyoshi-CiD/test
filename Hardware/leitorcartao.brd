@@ -1099,10 +1099,10 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="16.005" y="46.865" size="1" layer="27" ratio="14" rot="R90"/>
 <attribute name="ASK" value="X" x="14.1" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="ASK_CUSTOMERPN" value="R/2.2k/5%/04" x="14.1" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="ASK_PN" value="RMCF0402JT2K20" x="14.1" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ASK_PN" value="RC1005J222CS" x="14.1" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="CUSTOMERPN" value="" x="14.1" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="FSK" value="X" x="14.1" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="FSK_PN" value="RMCF0402JT2K20" x="14.1" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="FSK_PN" value="RC1005J222CS" x="14.1" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="FSK_CUSTOMERPN" value="R/2.2k/5%/04" x="14.1" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MIFARE" value="" x="14.1" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="14.1" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1110,9 +1110,9 @@ design rules under a new name.</description>
 <attribute name="MIFARE_CUSTOMERPN" value="" x="14.1" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PN1" value="" x="14.1" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PSK" value="X" x="14.1" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PSK_PN" value="R/2.2k/5%/04" x="14.1" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PSK_PN" value="RC1005J222CS" x="14.1" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPECIAL" value="" x="14.1" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PSK_CUSTOMERPN" value="RMCF0402JT2K20" x="14.1" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PSK_CUSTOMERPN" value="R/2.2k/5%/04" x="14.1" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R4" library="RFiD" package="R0402" value="1k" x="11.4" y="41.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="12.035" y="43.465" size="0.6096" layer="25" font="vector" ratio="11" rot="R180"/>
@@ -1480,8 +1480,8 @@ design rules under a new name.</description>
 <attribute name="FSK_CUSTOMERPN" value="" x="26" y="1.2" size="1.778" layer="27" display="off"/>
 <attribute name="MIFARE" value="X" x="26" y="1.2" size="1.778" layer="27" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="26" y="1.2" size="1.778" layer="27" display="off"/>
-<attribute name="MIFARE_PN" value="CL05C180JB5NNNC" x="26" y="1.2" size="1.778" layer="27" display="off"/>
-<attribute name="MIFARE_CUSTOMERPN" value="C/18p/50V/D06" x="26" y="1.2" size="1.778" layer="27" display="off"/>
+<attribute name="MIFARE_PN" value="06031U180FAT2A" x="26" y="1.2" size="1.778" layer="27" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/18p/100V/E06" x="26" y="1.2" size="1.778" layer="27" display="off"/>
 <attribute name="PN1" value="" x="26" y="1.2" size="1.778" layer="27" display="off"/>
 <attribute name="PSK" value="" x="26" y="1.2" size="1.778" layer="27" display="off"/>
 <attribute name="PSK_PN" value="" x="26" y="1.2" size="1.778" layer="27" display="off"/>
@@ -1500,8 +1500,8 @@ design rules under a new name.</description>
 <attribute name="FSK_CUSTOMERPN" value="" x="30.1" y="3.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MIFARE" value="X" x="30.1" y="3.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="30.1" y="3.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MIFARE_PN" value="CL05C180JB5NNNC" x="30.1" y="3.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MIFARE_CUSTOMERPN" value="C/18p/50V/D06" x="30.1" y="3.3" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MIFARE_PN" value="06031U180FAT2A" x="30.1" y="3.3" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/18p/100V/E06" x="30.1" y="3.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PN1" value="" x="30.1" y="3.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PSK" value="" x="30.1" y="3.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PSK_PN" value="" x="30.1" y="3.3" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1520,8 +1520,8 @@ design rules under a new name.</description>
 <attribute name="FSK_CUSTOMERPN" value="" x="10.9" y="4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MIFARE" value="X" x="10.9" y="4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="10.9" y="4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MIFARE_PN" value="06035U121FAT2A" x="10.9" y="4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MIFARE_CUSTOMERPN" value="C/120p/50V/E06" x="10.9" y="4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MIFARE_PN" value="GRM1885C2A121FA01J" x="10.9" y="4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/120p/100V/E06" x="10.9" y="4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PN1" value="" x="10.9" y="4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PSK" value="" x="10.9" y="4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PSK_PN" value="" x="10.9" y="4" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1540,8 +1540,8 @@ design rules under a new name.</description>
 <attribute name="FSK_CUSTOMERPN" value="" x="10.9" y="8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MIFARE" value="X" x="10.9" y="8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="10.9" y="8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MIFARE_PN" value="06035U121FAT2A" x="10.9" y="8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MIFARE_CUSTOMERPN" value="C/120p/50V/E06" x="10.9" y="8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MIFARE_PN" value="GRM1885C2A121FA01J" x="10.9" y="8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/120p/100V/E06" x="10.9" y="8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PN1" value="" x="10.9" y="8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PSK" value="" x="10.9" y="8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PSK_PN" value="" x="10.9" y="8" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1560,8 +1560,8 @@ design rules under a new name.</description>
 <attribute name="FSK_CUSTOMERPN" value="" x="8.4" y="3.4" size="1.778" layer="27" display="off"/>
 <attribute name="MIFARE" value="X" x="8.4" y="3.4" size="1.778" layer="27" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="8.4" y="3.4" size="1.778" layer="27" display="off"/>
-<attribute name="MIFARE_PN" value="CL05C180JB5NNNC" x="8.4" y="3.4" size="1.778" layer="27" display="off"/>
-<attribute name="MIFARE_CUSTOMERPN" value="C/18p/50V/E06" x="8.4" y="3.4" size="1.778" layer="27" display="off"/>
+<attribute name="MIFARE_PN" value="06031U180FAT2A" x="8.4" y="3.4" size="1.778" layer="27" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/18p/100V/E06" x="8.4" y="3.4" size="1.778" layer="27" display="off"/>
 <attribute name="PN1" value="" x="8.4" y="3.4" size="1.778" layer="27" display="off"/>
 <attribute name="PSK" value="" x="8.4" y="3.4" size="1.778" layer="27" display="off"/>
 <attribute name="PSK_PN" value="" x="8.4" y="3.4" size="1.778" layer="27" display="off"/>
@@ -1580,8 +1580,8 @@ design rules under a new name.</description>
 <attribute name="FSK_CUSTOMERPN" value="" x="8.4" y="8.6" size="1.778" layer="27" display="off"/>
 <attribute name="MIFARE" value="X" x="8.4" y="8.6" size="1.778" layer="27" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="8.4" y="8.6" size="1.778" layer="27" display="off"/>
-<attribute name="MIFARE_PN" value="CL05C180JB5NNNC" x="8.4" y="8.6" size="1.778" layer="27" display="off"/>
-<attribute name="MIFARE_CUSTOMERPN" value="C/18p/50V/E06" x="8.4" y="8.6" size="1.778" layer="27" display="off"/>
+<attribute name="MIFARE_PN" value="06031U180FAT2A" x="8.4" y="8.6" size="1.778" layer="27" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/18p/100V/E06" x="8.4" y="8.6" size="1.778" layer="27" display="off"/>
 <attribute name="PN1" value="" x="8.4" y="8.6" size="1.778" layer="27" display="off"/>
 <attribute name="PSK" value="" x="8.4" y="8.6" size="1.778" layer="27" display="off"/>
 <attribute name="PSK_PN" value="" x="8.4" y="8.6" size="1.778" layer="27" display="off"/>
@@ -1760,7 +1760,7 @@ design rules under a new name.</description>
 <attribute name="FSK_CUSTOMERPN" value="" x="7.5" y="1.1" size="1.778" layer="27" display="off"/>
 <attribute name="MIFARE" value="X" x="7.5" y="1.1" size="1.778" layer="27" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="7.5" y="1.1" size="1.778" layer="27" display="off"/>
-<attribute name="MIFARE_PN" value="RMCF0402JT2K20" x="7.5" y="1.1" size="1.778" layer="27" display="off"/>
+<attribute name="MIFARE_PN" value="RC1005J222CS" x="7.5" y="1.1" size="1.778" layer="27" display="off"/>
 <attribute name="MIFARE_CUSTOMERPN" value="R/2.2k/5%/04" x="7.5" y="1.1" size="1.778" layer="27" display="off"/>
 <attribute name="PN1" value="" x="7.5" y="1.1" size="1.778" layer="27" display="off"/>
 <attribute name="PSK" value="" x="7.5" y="1.1" size="1.778" layer="27" display="off"/>
@@ -2046,18 +2046,18 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="12.495" y="21.335" size="1" layer="27" ratio="14" rot="R270"/>
 <attribute name="ASK" value="X" x="14.4" y="20.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="ASK_CUSTOMERPN" value="R/2.2k/5%/04" x="14.4" y="20.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="ASK_PN" value="RMCF0402JT2K20" x="14.4" y="20.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ASK_PN" value="RC1005J222CS" x="14.4" y="20.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="CUSTOMERPN" value="" x="14.4" y="20.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="FSK" value="X" x="14.4" y="20.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="FSK_PN" value="RMCF0402JT2K20" x="14.4" y="20.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="FSK_PN" value="RC1005J222CS" x="14.4" y="20.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="FSK_CUSTOMERPN" value="R/2.2k/5%/04" x="14.4" y="20.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MIFARE" value="X" x="14.4" y="20.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="14.4" y="20.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MIFARE_PN" value="RMCF0402JT2K20" x="14.4" y="20.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MIFARE_PN" value="RC1005J222CS" x="14.4" y="20.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MIFARE_CUSTOMERPN" value="R/2.2k/5%/04" x="14.4" y="20.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PN1" value="" x="14.4" y="20.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PSK" value="X" x="14.4" y="20.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PSK_PN" value="RMCF0402JT2K20" x="14.4" y="20.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PSK_PN" value="RC1005J222CS" x="14.4" y="20.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPECIAL" value="" x="14.4" y="20.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PSK_CUSTOMERPN" value="R/2.2k/5%/04" x="14.4" y="20.7" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -2066,18 +2066,18 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="10.495" y="19.735" size="1" layer="27" ratio="14" rot="R270"/>
 <attribute name="ASK" value="X" x="12.4" y="19.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="ASK_CUSTOMERPN" value="R/2.2k/5%/04" x="12.4" y="19.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="ASK_PN" value="RMCF0402JT2K20" x="12.4" y="19.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ASK_PN" value="RC1005J222CS" x="12.4" y="19.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="CUSTOMERPN" value="" x="12.4" y="19.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="FSK" value="X" x="12.4" y="19.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="FSK_PN" value="RMCF0402JT2K20" x="12.4" y="19.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="FSK_PN" value="RC1005J222CS" x="12.4" y="19.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="FSK_CUSTOMERPN" value="R/2.2k/5%/04" x="12.4" y="19.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MIFARE" value="X" x="12.4" y="19.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="12.4" y="19.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MIFARE_PN" value="RMCF0402JT2K20" x="12.4" y="19.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MIFARE_PN" value="RC1005J222CS" x="12.4" y="19.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MIFARE_CUSTOMERPN" value="R/2.2k/5%/04" x="12.4" y="19.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PN1" value="" x="12.4" y="19.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PSK" value="X" x="12.4" y="19.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PSK_PN" value="RMCF0402JT2K20" x="12.4" y="19.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PSK_PN" value="RC1005J222CS" x="12.4" y="19.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPECIAL" value="" x="12.4" y="19.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PSK_CUSTOMERPN" value="R/2.2k/5%/04" x="12.4" y="19.1" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -2086,18 +2086,18 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="11.765" y="14.595" size="1" layer="27" ratio="14"/>
 <attribute name="ASK" value="X" x="12.4" y="16.5" size="1.778" layer="27" display="off"/>
 <attribute name="ASK_CUSTOMERPN" value="R/2.2k/5%/04" x="12.4" y="16.5" size="1.778" layer="27" display="off"/>
-<attribute name="ASK_PN" value="RMCF0402JT2K20" x="12.4" y="16.5" size="1.778" layer="27" display="off"/>
+<attribute name="ASK_PN" value="RC1005J222CS" x="12.4" y="16.5" size="1.778" layer="27" display="off"/>
 <attribute name="CUSTOMERPN" value="" x="12.4" y="16.5" size="1.778" layer="27" display="off"/>
 <attribute name="FSK" value="X" x="12.4" y="16.5" size="1.778" layer="27" display="off"/>
-<attribute name="FSK_PN" value="RMCF0402JT2K20" x="12.4" y="16.5" size="1.778" layer="27" display="off"/>
+<attribute name="FSK_PN" value="RC1005J222CS" x="12.4" y="16.5" size="1.778" layer="27" display="off"/>
 <attribute name="FSK_CUSTOMERPN" value="R/2.2k/5%/04" x="12.4" y="16.5" size="1.778" layer="27" display="off"/>
 <attribute name="MIFARE" value="X" x="12.4" y="16.5" size="1.778" layer="27" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="12.4" y="16.5" size="1.778" layer="27" display="off"/>
-<attribute name="MIFARE_PN" value="RMCF0402JT2K20" x="12.4" y="16.5" size="1.778" layer="27" display="off"/>
+<attribute name="MIFARE_PN" value="RC1005J222CS" x="12.4" y="16.5" size="1.778" layer="27" display="off"/>
 <attribute name="MIFARE_CUSTOMERPN" value="R/2.2k/5%/04" x="12.4" y="16.5" size="1.778" layer="27" display="off"/>
 <attribute name="PN1" value="" x="12.4" y="16.5" size="1.778" layer="27" display="off"/>
 <attribute name="PSK" value="X" x="12.4" y="16.5" size="1.778" layer="27" display="off"/>
-<attribute name="PSK_PN" value="RMCF0402JT2K20" x="12.4" y="16.5" size="1.778" layer="27" display="off"/>
+<attribute name="PSK_PN" value="RC1005J222CS" x="12.4" y="16.5" size="1.778" layer="27" display="off"/>
 <attribute name="SPECIAL" value="" x="12.4" y="16.5" size="1.778" layer="27" display="off"/>
 <attribute name="PSK_CUSTOMERPN" value="R/2.2k/5%/04" x="12.4" y="16.5" size="1.778" layer="27" display="off"/>
 </element>
@@ -2385,18 +2385,18 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="30.096053125" y="10.498025" size="1" layer="27" ratio="14" rot="R135"/>
 <attribute name="ASK" value="X" x="28.3" y="9.6" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="ASK_CUSTOMERPN" value="R/2.2k/5%/04" x="28.3" y="9.6" size="1.778" layer="27" rot="R135" display="off"/>
-<attribute name="ASK_PN" value="RMCF0402JT2K20" x="28.3" y="9.6" size="1.778" layer="27" rot="R135" display="off"/>
+<attribute name="ASK_PN" value="RC1005J222CS" x="28.3" y="9.6" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="CUSTOMERPN" value="" x="28.3" y="9.6" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="FSK" value="X" x="28.3" y="9.6" size="1.778" layer="27" rot="R135" display="off"/>
-<attribute name="FSK_PN" value="RMCF0402JT2K20" x="28.3" y="9.6" size="1.778" layer="27" rot="R135" display="off"/>
+<attribute name="FSK_PN" value="RC1005J222CS" x="28.3" y="9.6" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="FSK_CUSTOMERPN" value="R/2.2k/5%/04" x="28.3" y="9.6" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="MIFARE" value="X" x="28.3" y="9.6" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="28.3" y="9.6" size="1.778" layer="27" rot="R135" display="off"/>
-<attribute name="MIFARE_PN" value="RMCF0402JT2K20" x="28.3" y="9.6" size="1.778" layer="27" rot="R135" display="off"/>
+<attribute name="MIFARE_PN" value="RC1005J222CS" x="28.3" y="9.6" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="MIFARE_CUSTOMERPN" value="R/2.2k/5%/04" x="28.3" y="9.6" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="PN1" value="" x="28.3" y="9.6" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="PSK" value="X" x="28.3" y="9.6" size="1.778" layer="27" rot="R135" display="off"/>
-<attribute name="PSK_PN" value="RMCF0402JT2K20" x="28.3" y="9.6" size="1.778" layer="27" rot="R135" display="off"/>
+<attribute name="PSK_PN" value="RC1005J222CS" x="28.3" y="9.6" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="SPECIAL" value="" x="28.3" y="9.6" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="PSK_CUSTOMERPN" value="R/2.2k/5%/04" x="28.3" y="9.6" size="1.778" layer="27" rot="R135" display="off"/>
 </element>
@@ -2483,18 +2483,18 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="29.565" y="11.695" size="1" layer="27"/>
 <attribute name="ASK" value="X" x="30.2" y="13.6" size="1.778" layer="27" display="off"/>
 <attribute name="ASK_CUSTOMERPN" value="R/12K/5%/04" x="30.2" y="13.6" size="1.778" layer="27" display="off"/>
-<attribute name="ASK_PN" value="1622826-8" x="30.2" y="13.6" size="1.778" layer="27" display="off"/>
+<attribute name="ASK_PN" value="RC1005J123CS" x="30.2" y="13.6" size="1.778" layer="27" display="off"/>
 <attribute name="CUSTOMERPN" value="" x="30.2" y="13.6" size="1.778" layer="27" display="off"/>
 <attribute name="FSK" value="X" x="30.2" y="13.6" size="1.778" layer="27" display="off"/>
-<attribute name="FSK_PN" value="1622826-8" x="30.2" y="13.6" size="1.778" layer="27" display="off"/>
+<attribute name="FSK_PN" value="RC1005J123CS" x="30.2" y="13.6" size="1.778" layer="27" display="off"/>
 <attribute name="FSK_CUSTOMERPN" value="R/12K/5%/04" x="30.2" y="13.6" size="1.778" layer="27" display="off"/>
 <attribute name="MIFARE" value="X" x="30.2" y="13.6" size="1.778" layer="27" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="30.2" y="13.6" size="1.778" layer="27" display="off"/>
-<attribute name="MIFARE_PN" value="1622826-8" x="30.2" y="13.6" size="1.778" layer="27" display="off"/>
+<attribute name="MIFARE_PN" value="RC1005J123CS" x="30.2" y="13.6" size="1.778" layer="27" display="off"/>
 <attribute name="MIFARE_CUSTOMERPN" value="R/12K/5%/04" x="30.2" y="13.6" size="1.778" layer="27" display="off"/>
 <attribute name="PN1" value="" x="30.2" y="13.6" size="1.778" layer="27" display="off"/>
 <attribute name="PSK" value="X" x="30.2" y="13.6" size="1.778" layer="27" display="off"/>
-<attribute name="PSK_PN" value="1622826-8" x="30.2" y="13.6" size="1.778" layer="27" display="off"/>
+<attribute name="PSK_PN" value="RC1005J123CS" x="30.2" y="13.6" size="1.778" layer="27" display="off"/>
 <attribute name="SPECIAL" value="" x="30.2" y="13.6" size="1.778" layer="27" display="off"/>
 <attribute name="PSK_CUSTOMERPN" value="R/12K/5%/04" x="30.2" y="13.6" size="1.778" layer="27" display="off"/>
 </element>
@@ -2586,7 +2586,7 @@ design rules under a new name.</description>
 <attribute name="ASK_PN" value="" x="19.8" y="34" size="1.778" layer="27" display="off"/>
 <attribute name="CUSTOMERPN" value="" x="19.8" y="34" size="1.778" layer="27" display="off"/>
 <attribute name="FSK" value="X" x="19.8" y="34" size="1.778" layer="27" display="off"/>
-<attribute name="FSK_PN" value="GRM1555C1H470FA01D" x="19.8" y="34" size="1.778" layer="27" display="off"/>
+<attribute name="FSK_PN" value="CL05C470FB5NNNC" x="19.8" y="34" size="1.778" layer="27" display="off"/>
 <attribute name="FSK_CUSTOMERPN" value="C/47p/25V/E04" x="19.8" y="34" size="1.778" layer="27" display="off"/>
 <attribute name="MIFARE" value="" x="19.8" y="34" size="1.778" layer="27" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="19.8" y="34" size="1.778" layer="27" display="off"/>
@@ -2594,7 +2594,7 @@ design rules under a new name.</description>
 <attribute name="MIFARE_CUSTOMERPN" value="" x="19.8" y="34" size="1.778" layer="27" display="off"/>
 <attribute name="PN1" value="" x="19.8" y="34" size="1.778" layer="27" display="off"/>
 <attribute name="PSK" value="X" x="19.8" y="34" size="1.778" layer="27" display="off"/>
-<attribute name="PSK_PN" value="GRM1555C1H470FA01D" x="19.8" y="34" size="1.778" layer="27" display="off"/>
+<attribute name="PSK_PN" value="CL05C470FB5NNNC" x="19.8" y="34" size="1.778" layer="27" display="off"/>
 <attribute name="SPECIAL" value="" x="19.8" y="34" size="1.778" layer="27" display="off"/>
 <attribute name="PSK_CUSTOMERPN" value="C/47p/25V/E04" x="19.8" y="34" size="1.778" layer="27" display="off"/>
 </element>
@@ -2606,7 +2606,7 @@ design rules under a new name.</description>
 <attribute name="ASK_PN" value="" x="19.8" y="35.2" size="1.778" layer="27" display="off"/>
 <attribute name="CUSTOMERPN" value="" x="19.8" y="35.2" size="1.778" layer="27" display="off"/>
 <attribute name="FSK" value="X" x="19.8" y="35.2" size="1.778" layer="27" display="off"/>
-<attribute name="FSK_PN" value="GRM1555C1H470FA01D" x="19.8" y="35.2" size="1.778" layer="27" display="off"/>
+<attribute name="FSK_PN" value="CL05C470FB5NNNC" x="19.8" y="35.2" size="1.778" layer="27" display="off"/>
 <attribute name="FSK_CUSTOMERPN" value="C/47p/25V/E04" x="19.8" y="35.2" size="1.778" layer="27" display="off"/>
 <attribute name="MIFARE" value="" x="19.8" y="35.2" size="1.778" layer="27" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="19.8" y="35.2" size="1.778" layer="27" display="off"/>
@@ -2614,7 +2614,7 @@ design rules under a new name.</description>
 <attribute name="MIFARE_CUSTOMERPN" value="" x="19.8" y="35.2" size="1.778" layer="27" display="off"/>
 <attribute name="PN1" value="" x="19.8" y="35.2" size="1.778" layer="27" display="off"/>
 <attribute name="PSK" value="X" x="19.8" y="35.2" size="1.778" layer="27" display="off"/>
-<attribute name="PSK_PN" value="GRM1555C1H470FA01D" x="19.8" y="35.2" size="1.778" layer="27" display="off"/>
+<attribute name="PSK_PN" value="CL05C470FB5NNNC" x="19.8" y="35.2" size="1.778" layer="27" display="off"/>
 <attribute name="SPECIAL" value="" x="19.8" y="35.2" size="1.778" layer="27" display="off"/>
 <attribute name="PSK_CUSTOMERPN" value="C/47p/25V/E04" x="19.8" y="35.2" size="1.778" layer="27" display="off"/>
 </element>
@@ -2626,7 +2626,7 @@ design rules under a new name.</description>
 <attribute name="ASK_PN" value="" x="22.5" y="37.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="CUSTOMERPN" value="" x="22.5" y="37.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="FSK" value="X" x="22.5" y="37.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="FSK_PN" value="GRM1555C1H470FA01D" x="22.5" y="37.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="FSK_PN" value="CL05C470FB5NNNC" x="22.5" y="37.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="FSK_CUSTOMERPN" value="C/47p/25V/E04" x="22.5" y="37.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MIFARE" value="" x="22.5" y="37.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="22.5" y="37.1" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2634,7 +2634,7 @@ design rules under a new name.</description>
 <attribute name="MIFARE_CUSTOMERPN" value="" x="22.5" y="37.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PN1" value="" x="22.5" y="37.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PSK" value="X" x="22.5" y="37.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PSK_PN" value="GRM1555C1H470FA01D" x="22.5" y="37.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PSK_PN" value="CL05C470FB5NNNC" x="22.5" y="37.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPECIAL" value="" x="22.5" y="37.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PSK_CUSTOMERPN" value="C/47p/25V/E04" x="22.5" y="37.1" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -2686,7 +2686,7 @@ design rules under a new name.</description>
 <attribute name="ASK_PN" value="" x="22.5" y="32.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="CUSTOMERPN" value="" x="22.5" y="32.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="FSK" value="X" x="22.5" y="32.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="FSK_PN" value="GRM1555C1H470FA01D" x="22.5" y="32.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="FSK_PN" value="CL05C470FB5NNNC" x="22.5" y="32.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="FSK_CUSTOMERPN" value="C/47p/25V/E04" x="22.5" y="32.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MIFARE" value="" x="22.5" y="32.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="22.5" y="32.1" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2694,7 +2694,7 @@ design rules under a new name.</description>
 <attribute name="MIFARE_CUSTOMERPN" value="" x="22.5" y="32.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PN1" value="" x="22.5" y="32.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PSK" value="X" x="22.5" y="32.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PSK_PN" value="GRM1555C1H470FA01D" x="22.5" y="32.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PSK_PN" value="CL05C470FB5NNNC" x="22.5" y="32.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPECIAL" value="" x="22.5" y="32.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PSK_CUSTOMERPN" value="C/47p/25V/E04" x="22.5" y="32.1" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -2803,10 +2803,10 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="30.535" y="42.105" size="1" layer="27" rot="R180"/>
 <attribute name="ASK" value="X" x="29.9" y="40.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="ASK_CUSTOMERPN" value="R/91k/5%/04" x="29.9" y="40.2" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ASK_PN" value="RMCF0402JT91K0" x="29.9" y="40.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ASK_PN" value="RC1005J913CS" x="29.9" y="40.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="CUSTOMERPN" value="" x="29.9" y="40.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="FSK" value="" x="29.9" y="40.2" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FSK_PN" value="RMCF0402JT91K0" x="29.9" y="40.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="FSK_PN" value="" x="29.9" y="40.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="FSK_CUSTOMERPN" value="" x="29.9" y="40.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MIFARE" value="" x="29.9" y="40.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="29.9" y="40.2" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2903,7 +2903,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="31.765" y="44.995" size="1" layer="27"/>
 <attribute name="ASK" value="X" x="32.4" y="46.9" size="1.778" layer="27" display="off"/>
 <attribute name="ASK_CUSTOMERPN" value="R/91k/5%/04" x="32.4" y="46.9" size="1.778" layer="27" display="off"/>
-<attribute name="ASK_PN" value="RMCF0402JT91K0" x="32.4" y="46.9" size="1.778" layer="27" display="off"/>
+<attribute name="ASK_PN" value="RC1005J913CS" x="32.4" y="46.9" size="1.778" layer="27" display="off"/>
 <attribute name="CUSTOMERPN" value="" x="32.4" y="46.9" size="1.778" layer="27" display="off"/>
 <attribute name="FSK" value="" x="32.4" y="46.9" size="1.778" layer="27" display="off"/>
 <attribute name="FSK_PN" value="" x="32.4" y="46.9" size="1.778" layer="27" display="off"/>
@@ -3046,7 +3046,7 @@ design rules under a new name.</description>
 <attribute name="ASK_PN" value="" x="28.3" y="27.3" size="1.778" layer="27" display="off"/>
 <attribute name="CUSTOMERPN" value="" x="28.3" y="27.3" size="1.778" layer="27" display="off"/>
 <attribute name="FSK" value="X" x="28.3" y="27.3" size="1.778" layer="27" display="off"/>
-<attribute name="FSK_PN" value="1-1622826-4" x="28.3" y="27.3" size="1.778" layer="27" display="off"/>
+<attribute name="FSK_PN" value="RC1005J184CS" x="28.3" y="27.3" size="1.778" layer="27" display="off"/>
 <attribute name="FSK_CUSTOMERPN" value="R/180k/5%/04" x="28.3" y="27.3" size="1.778" layer="27" display="off"/>
 <attribute name="MIFARE" value="" x="28.3" y="27.3" size="1.778" layer="27" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="28.3" y="27.3" size="1.778" layer="27" display="off"/>
@@ -3166,7 +3166,7 @@ design rules under a new name.</description>
 <attribute name="ASK_PN" value="" x="30.1" y="35.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="CUSTOMERPN" value="" x="30.1" y="35.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="FSK" value="X" x="30.1" y="35.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="FSK_PN" value="1-1622826-4" x="30.1" y="35.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="FSK_PN" value="RC1005J184CS" x="30.1" y="35.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="FSK_CUSTOMERPN" value="R/180k/5%/04" x="30.1" y="35.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MIFARE" value="" x="30.1" y="35.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="30.1" y="35.1" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3243,18 +3243,18 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="14.805" y="38.565" size="1" layer="27" rot="R90"/>
 <attribute name="ASK" value="X" x="12.9" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="ASK_CUSTOMERPN" value="R/470/5%/04" x="12.9" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="ASK_PN" value="4-1622826-4" x="12.9" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ASK_PN" value="RC1005J471CS" x="12.9" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="CUSTOMERPN" value="" x="12.9" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="FSK" value="X" x="12.9" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="FSK_PN" value="4-1622826-4" x="12.9" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="FSK_PN" value="RC1005J471CS" x="12.9" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="FSK_CUSTOMERPN" value="R/470/5%/04" x="12.9" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MIFARE" value="X" x="12.9" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="12.9" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MIFARE_PN" value="4-1622826-4" x="12.9" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MIFARE_PN" value="RC1005J471CS" x="12.9" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MIFARE_CUSTOMERPN" value="R/470/5%/04" x="12.9" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PN1" value="" x="12.9" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PSK" value="X" x="12.9" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PSK_PN" value="4-1622826-4" x="12.9" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PSK_PN" value="RC1005J471CS" x="12.9" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPECIAL" value="" x="12.9" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PSK_CUSTOMERPN" value="R/470/5%/04" x="12.9" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -3263,18 +3263,18 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="16.405" y="38.565" size="1" layer="27" rot="R90"/>
 <attribute name="ASK" value="X" x="14.5" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="ASK_CUSTOMERPN" value="R/470/5%/04" x="14.5" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="ASK_PN" value="4-1622826-4" x="14.5" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ASK_PN" value="RC1005J471CS" x="14.5" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="CUSTOMERPN" value="" x="14.5" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="FSK" value="X" x="14.5" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="FSK_PN" value="4-1622826-4" x="14.5" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="FSK_PN" value="RC1005J471CS" x="14.5" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="FSK_CUSTOMERPN" value="R/470/5%/04" x="14.5" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MIFARE" value="X" x="14.5" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="14.5" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MIFARE_PN" value="4-1622826-4" x="14.5" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MIFARE_PN" value="RC1005J471CS" x="14.5" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MIFARE_CUSTOMERPN" value="R/470/5%/04" x="14.5" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PN1" value="" x="14.5" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PSK" value="X" x="14.5" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PSK_PN" value="4-1622826-4" x="14.5" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PSK_PN" value="RC1005J471CS" x="14.5" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPECIAL" value="" x="14.5" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PSK_CUSTOMERPN" value="R/470/5%/04" x="14.5" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -3486,7 +3486,7 @@ design rules under a new name.</description>
 <attribute name="ASK_PN" value="" x="18.7" y="47.9" size="1.778" layer="27" display="off"/>
 <attribute name="CUSTOMERPN" value="" x="18.7" y="47.9" size="1.778" layer="27" display="off"/>
 <attribute name="FSK" value="X" x="18.7" y="47.9" size="1.778" layer="27" display="off"/>
-<attribute name="FSK_PN" value="DNP" x="18.7" y="47.9" size="1.778" layer="27" display="off"/>
+<attribute name="FSK_PN" value="" x="18.7" y="47.9" size="1.778" layer="27" display="off"/>
 <attribute name="FSK_CUSTOMERPN" value="DNP" x="18.7" y="47.9" size="1.778" layer="27" display="off"/>
 <attribute name="MIFARE" value="" x="18.7" y="47.9" size="1.778" layer="27" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="18.7" y="47.9" size="1.778" layer="27" display="off"/>
@@ -3762,7 +3762,7 @@ design rules under a new name.</description>
 <attribute name="ASK_PN" value="" x="20.9" y="37.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="CUSTOMERPN" value="" x="20.9" y="37.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="FSK" value="X" x="20.9" y="37.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="FSK_PN" value="4-1622826-4" x="20.9" y="37.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="FSK_PN" value="RC1005J471CS" x="20.9" y="37.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="FSK_CUSTOMERPN" value="R/470/5%/04" x="20.9" y="37.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MIFARE" value="" x="20.9" y="37.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="20.9" y="37.1" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3770,7 +3770,7 @@ design rules under a new name.</description>
 <attribute name="MIFARE_CUSTOMERPN" value="" x="20.9" y="37.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PN1" value="" x="20.9" y="37.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PSK" value="X" x="20.9" y="37.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PSK_PN" value="4-1622826-4" x="20.9" y="37.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PSK_PN" value="RC1005J471CS" x="20.9" y="37.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPECIAL" value="" x="20.9" y="37.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PSK_CUSTOMERPN" value="R/470/5%/04" x="20.9" y="37.1" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -3882,7 +3882,7 @@ design rules under a new name.</description>
 <attribute name="ASK_PN" value="" x="24.8" y="36.5" size="1.778" layer="27" display="off"/>
 <attribute name="CUSTOMERPN" value="" x="24.8" y="36.5" size="1.778" layer="27" display="off"/>
 <attribute name="FSK" value="X" x="24.8" y="36.5" size="1.778" layer="27" display="off"/>
-<attribute name="FSK_PN" value="1-1622826-4" x="24.8" y="36.5" size="1.778" layer="27" display="off"/>
+<attribute name="FSK_PN" value="RC1005J184CS" x="24.8" y="36.5" size="1.778" layer="27" display="off"/>
 <attribute name="FSK_CUSTOMERPN" value="R/180k/5%/04" x="24.8" y="36.5" size="1.778" layer="27" display="off"/>
 <attribute name="MIFARE" value="" x="24.8" y="36.5" size="1.778" layer="27" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="24.8" y="36.5" size="1.778" layer="27" display="off"/>
@@ -4051,41 +4051,41 @@ design rules under a new name.</description>
 <attribute name="NAME" x="15.765" y="14.065" size="0.6096" layer="25" font="vector" ratio="11" rot="R90"/>
 <attribute name="VALUE" x="17.405" y="11.965" size="1.27" layer="27" rot="R90"/>
 <attribute name="ASK" value="X" x="15.5" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="ASK_CUSTOMERPN" value="C/18p/50V/D06" x="15.5" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="ASK_PN" value="CL05C180JB5NNNC" x="15.5" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ASK_CUSTOMERPN" value="C/18p/100V/E06" x="15.5" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ASK_PN" value="06031U180FAT2A" x="15.5" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="CUSTOMERPN" value="" x="15.5" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="FSK" value="X" x="15.5" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="FSK_PN" value="CL05C180JB5NNNC" x="15.5" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="FSK_CUSTOMERPN" value="C/18p/50V/D06" x="15.5" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="FSK_PN" value="06031U180FAT2A" x="15.5" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="FSK_CUSTOMERPN" value="C/18p/100V/E06" x="15.5" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MIFARE" value="X" x="15.5" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="15.5" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MIFARE_PN" value="CL05C180JB5NNNC" x="15.5" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MIFARE_CUSTOMERPN" value="C/18p/50V/D06" x="15.5" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MIFARE_PN" value="06031U180FAT2A" x="15.5" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/18p/100V/E06" x="15.5" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PN1" value="" x="15.5" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PSK" value="X" x="15.5" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PSK_PN" value="CL05C180JB5NNNC" x="15.5" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PSK_PN" value="06031U180FAT2A" x="15.5" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPECIAL" value="" x="15.5" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PSK_CUSTOMERPN" value="C/18p/50V/D06" x="15.5" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PSK_CUSTOMERPN" value="C/18p/100V/E06" x="15.5" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C13" library="RFiD" package="C0603" value="18p" x="13.9" y="12.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="14.165" y="14.065" size="0.6096" layer="25" font="vector" ratio="11" rot="R90"/>
 <attribute name="VALUE" x="15.805" y="11.965" size="1.27" layer="27" rot="R90"/>
 <attribute name="ASK" value="X" x="13.9" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="ASK_CUSTOMERPN" value="C/18p/50V/D06" x="13.9" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="ASK_PN" value="CL05C180JB5NNNC" x="13.9" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ASK_CUSTOMERPN" value="C/18p/100V/E06" x="13.9" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ASK_PN" value="06031U180FAT2A" x="13.9" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="CUSTOMERPN" value="" x="13.9" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="FSK" value="X" x="13.9" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="FSK_PN" value="CL05C180JB5NNNC" x="13.9" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="FSK_CUSTOMERPN" value="C/18p/50V/D06" x="13.9" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="FSK_PN" value="06031U180FAT2A" x="13.9" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="FSK_CUSTOMERPN" value="C/18p/100V/E06" x="13.9" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MIFARE" value="X" x="13.9" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PASSIVO" value="Sim" x="13.9" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MIFARE_PN" value="CL05C180JB5NNNC" x="13.9" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MIFARE_CUSTOMERPN" value="C/18p/50V/D06" x="13.9" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MIFARE_PN" value="06031U180FAT2A" x="13.9" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MIFARE_CUSTOMERPN" value="C/18p/100V/E06" x="13.9" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PN1" value="" x="13.9" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PSK" value="X" x="13.9" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PSK_PN" value="CL05C180JB5NNNC" x="13.9" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PSK_PN" value="06031U180FAT2A" x="13.9" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPECIAL" value="" x="13.9" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PSK_CUSTOMERPN" value="C/18p/50V/D06" x="13.9" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PSK_CUSTOMERPN" value="C/18p/100V/E06" x="13.9" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="X2" library="RFiD" package="22-23-2021" value="MIFARE" x="2.1" y="6" smashed="yes" rot="R90">
 <attribute name="NAME" x="2.64" y="9.39" size="0.6096" layer="25" font="vector" ratio="11" rot="R180"/>

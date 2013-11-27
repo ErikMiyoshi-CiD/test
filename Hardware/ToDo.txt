@@ -1,0 +1,2 @@
+Arrumar posição dos furos de montagem na nova revisão.
+Atualizar os componentes errados na BOM.

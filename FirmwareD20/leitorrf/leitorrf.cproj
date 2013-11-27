@@ -166,13 +166,37 @@
     </ToolchainSettings>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="ABATK2.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="ABATK2.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="cmsis\src\startup_samd20.c">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="cmsis\src\system_samd20.c">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="helper.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="helper.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="leitorrf.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="SerialOut.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="SerialOut.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Wiegand.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Wiegand.h">
       <SubType>compile</SubType>
     </Compile>
   </ItemGroup>

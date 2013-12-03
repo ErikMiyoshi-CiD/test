@@ -8117,7 +8117,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND58" library="supply1" deviceset="GND" device=""/>
-<part name="C21" library="RFiD" deviceset="C-US" device="C0805" value="DNP">
+<part name="C21" library="RFiD" deviceset="C-US" device="C0603" value="DNP">
 <attribute name="ASK" value="X"/>
 <attribute name="ASK_CUSTOMERPN" value="DNP"/>
 <attribute name="ASK_PN" value=""/>

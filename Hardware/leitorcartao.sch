@@ -2381,14 +2381,18 @@ Source: http://www.vishay.com/docs/31059/wsrhigh.pdf</description>
 </package>
 <package name="22-23-2021">
 <description>.100" (2.54mm) Center Headers - 2 Pin</description>
-<pad name="1" x="-1.27" y="0" drill="0.8" diameter="2" rot="R90"/>
-<pad name="2" x="1.27" y="0" drill="0.8" diameter="2" rot="R90"/>
+<pad name="1" x="-6.3" y="0" drill="0.8" diameter="2" rot="R90"/>
+<pad name="2" x="6.3" y="0" drill="0.8" diameter="2" rot="R90"/>
 <text x="-2.54" y="1.41" size="1.016" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.54" y="-2.48" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
-<wire x1="-2.6" y1="-1.2" x2="-2.6" y2="1.2" width="0.127" layer="21"/>
-<wire x1="-2.6" y1="1.2" x2="2.6" y2="1.2" width="0.127" layer="21"/>
-<wire x1="2.6" y1="1.2" x2="2.6" y2="-1.2" width="0.127" layer="21"/>
-<wire x1="2.6" y1="-1.2" x2="-2.6" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="-7.6" y1="-1.3" x2="-7.6" y2="1.3" width="0.127" layer="21"/>
+<wire x1="-7.6" y1="1.3" x2="-5" y2="1.3" width="0.127" layer="21"/>
+<wire x1="-5" y1="1.3" x2="-5" y2="-1.3" width="0.127" layer="21"/>
+<wire x1="5" y1="-1.3" x2="5" y2="1.3" width="0.127" layer="21"/>
+<wire x1="5" y1="1.3" x2="7.6" y2="1.3" width="0.127" layer="21"/>
+<wire x1="7.6" y1="1.3" x2="7.6" y2="-1.3" width="0.127" layer="21"/>
+<wire x1="7.6" y1="-1.3" x2="5" y2="-1.3" width="0.127" layer="21"/>
+<wire x1="-5" y1="-1.3" x2="-7.6" y2="-1.3" width="0.127" layer="21"/>
 </package>
 <package name="1X05">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
@@ -3325,6 +3329,16 @@ Source: 008-0260-0_E.pdf</description>
 <package name="MICRO-FIDUCIAL">
 <smd name="1" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100" cream="no"/>
 </package>
+<package name="ANTENNA">
+<pad name="1" x="-1.27" y="0" drill="0.8" diameter="2" rot="R90"/>
+<pad name="2" x="1.27" y="0" drill="0.8" diameter="2" rot="R90"/>
+<text x="-2.64" y="1.51" size="1.016" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.64" y="-2.58" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
+<wire x1="-2.6" y1="-1.3" x2="-2.6" y2="1.3" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="1.3" x2="2.6" y2="1.3" width="0.127" layer="21"/>
+<wire x1="2.6" y1="1.3" x2="2.6" y2="-1.3" width="0.127" layer="21"/>
+<wire x1="2.6" y1="-1.3" x2="-2.6" y2="-1.3" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="A4L-LOC">
@@ -3807,6 +3821,12 @@ Source: 008-0260-0_E.pdf</description>
 <wire x1="-0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
 <wire x1="0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
 <circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
+</symbol>
+<symbol name="ANTENA">
+<wire x1="3.81" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
+<text x="5.08" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
+<text x="1.778" y="1.397" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="S" x="0" y="0" visible="off" length="short" direction="pas"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -5610,6 +5630,23 @@ Various fiducial points for machine vision alignment.</description>
 </technologies>
 </device>
 <device name="UFIDUCIAL" package="MICRO-FIDUCIAL">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ANTENA" prefix="X">
+<gates>
+<gate name="-1" symbol="ANTENA" x="0" y="0"/>
+<gate name="-2" symbol="ANTENA" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="ANTENNA">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -8687,24 +8724,6 @@ In this library the device names are the same as the pin names of the symbols, t
 </part>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
-<part name="X2" library="RFiD" deviceset="22-23-2021" device="" value="MIFARE">
-<attribute name="ASK" value=""/>
-<attribute name="ASK_CUSTOMERPN" value=""/>
-<attribute name="ASK_PN" value=""/>
-<attribute name="CUSTOMERPN" value=""/>
-<attribute name="FSK" value=""/>
-<attribute name="FSK_CUSTOMERPN" value=""/>
-<attribute name="FSK_PN" value=""/>
-<attribute name="MIFARE" value=""/>
-<attribute name="MIFARE_CUSTOMERPN" value=""/>
-<attribute name="MIFARE_PN" value=""/>
-<attribute name="PASSIVO" value=""/>
-<attribute name="PN1" value=""/>
-<attribute name="PSK" value=""/>
-<attribute name="PSK_CUSTOMERPN" value=""/>
-<attribute name="PSK_PN" value=""/>
-<attribute name="SPECIAL" value=""/>
-</part>
 <part name="C11" library="RFiD" deviceset="C-US" device="C0402" value="0.1u">
 <attribute name="ASK" value="X"/>
 <attribute name="ASK_CUSTOMERPN" value="C/0.1u/16V/A04"/>
@@ -8873,6 +8892,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </part>
 <part name="GND61" library="supply1" deviceset="GND" device=""/>
 <part name="GND62" library="supply1" deviceset="GND" device=""/>
+<part name="X2" library="RFiD" deviceset="ANTENA" device="" value="MIFARE"/>
 </parts>
 <sheets>
 <sheet>
@@ -12646,25 +12666,6 @@ PSK: Q=5 / Fc=71.8k</text>
 </instance>
 <instance part="GND46" gate="1" x="86.36" y="22.86"/>
 <instance part="+3V17" gate="G$1" x="241.3" y="152.4"/>
-<instance part="X2" gate="-1" x="243.84" y="66.04">
-<attribute name="ASK" x="243.84" y="66.04" size="1.778" layer="96" display="off"/>
-<attribute name="ASK_CUSTOMERPN" x="243.84" y="66.04" size="1.778" layer="96" display="off"/>
-<attribute name="ASK_PN" x="243.84" y="66.04" size="1.778" layer="96" display="off"/>
-<attribute name="CUSTOMERPN" x="243.84" y="66.04" size="1.778" layer="96" display="off"/>
-<attribute name="FSK" x="243.84" y="66.04" size="1.778" layer="96" display="off"/>
-<attribute name="FSK_CUSTOMERPN" x="243.84" y="66.04" size="1.778" layer="96" display="off"/>
-<attribute name="FSK_PN" x="243.84" y="66.04" size="1.778" layer="96" display="off"/>
-<attribute name="MIFARE" x="243.84" y="66.04" size="1.778" layer="96" display="off"/>
-<attribute name="MIFARE_CUSTOMERPN" x="243.84" y="66.04" size="1.778" layer="96" display="off"/>
-<attribute name="MIFARE_PN" x="243.84" y="66.04" size="1.778" layer="96" display="off"/>
-<attribute name="PASSIVO" x="243.84" y="66.04" size="1.778" layer="96" display="off"/>
-<attribute name="PN1" x="243.84" y="66.04" size="1.778" layer="96" display="off"/>
-<attribute name="PSK" x="243.84" y="66.04" size="1.778" layer="96" display="off"/>
-<attribute name="PSK_CUSTOMERPN" x="243.84" y="66.04" size="1.778" layer="96" display="off"/>
-<attribute name="PSK_PN" x="243.84" y="66.04" size="1.778" layer="96" display="off"/>
-<attribute name="SPECIAL" x="243.84" y="66.04" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="X2" gate="-2" x="243.84" y="63.5"/>
 <instance part="QZ2" gate="G$1" x="43.18" y="137.16" smashed="yes" rot="R90">
 <attribute name="NAME" x="41.656" y="141.732" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="56.388" y="133.604" size="1.778" layer="96" rot="R180"/>
@@ -12704,6 +12705,10 @@ PSK: Q=5 / Fc=71.8k</text>
 <attribute name="SPECIAL" x="236.22" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND60" gate="1" x="236.22" y="106.68"/>
+<instance part="X2" gate="-1" x="241.3" y="66.04"/>
+<instance part="X2" gate="-2" x="241.3" y="63.5" smashed="yes">
+<attribute name="NAME" x="246.38" y="62.738" size="1.524" layer="95"/>
+</instance>
 </instances>
 <busses>
 </busses>

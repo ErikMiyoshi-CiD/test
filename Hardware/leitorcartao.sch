@@ -3339,6 +3339,39 @@ Source: 008-0260-0_E.pdf</description>
 <wire x1="2.6" y1="1.3" x2="2.6" y2="-1.3" width="0.127" layer="21"/>
 <wire x1="2.6" y1="-1.3" x2="-2.6" y2="-1.3" width="0.127" layer="21"/>
 </package>
+<package name="C1812S">
+<wire x1="-1.4732" y1="1.6002" x2="1.4732" y2="1.6002" width="0.1016" layer="51"/>
+<wire x1="-1.4478" y1="-1.6002" x2="1.4732" y2="-1.6002" width="0.1016" layer="51"/>
+<smd name="1" x="-1.95" y="0" dx="1.9" dy="3.4" layer="1" roundness="80" stop="no"/>
+<smd name="2" x="1.95" y="0" dx="1.9" dy="3.4" layer="1" roundness="80" stop="no"/>
+<text x="-1.905" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-2.3876" y1="-1.651" x2="-1.4376" y2="1.649" layer="51"/>
+<rectangle x1="1.4478" y1="-1.651" x2="2.3978" y2="1.649" layer="51"/>
+<rectangle x1="-3" y1="-1.8" x2="3" y2="1.8" layer="29"/>
+</package>
+<package name="C1206S">
+<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
+<smd name="1" x="-1.5" y="0" dx="1.2" dy="1.8" layer="1" roundness="80" stop="no"/>
+<smd name="2" x="1.5" y="0" dx="1.2" dy="1.8" layer="1" roundness="80" stop="no"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-2.2" y1="-1" x2="2.2" y2="1" layer="29"/>
+</package>
+<package name="R1206S">
+<wire x1="-2.473" y1="1.083" x2="2.473" y2="1.083" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="1.083" x2="2.473" y2="-1.083" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-1.083" x2="-2.473" y2="-1.083" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-1.083" x2="-2.473" y2="1.083" width="0.0508" layer="39"/>
+<smd name="2" x="1.6" y="0" dx="1" dy="1.8" layer="1" roundness="80" stop="no"/>
+<smd name="1" x="-1.6" y="0" dx="1" dy="1.8" layer="1" roundness="80" stop="no"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-2.2" y1="-1" x2="2.2" y2="1" layer="29"/>
+</package>
 </packages>
 <symbols>
 <symbol name="A4L-LOC">
@@ -3995,6 +4028,24 @@ DIN A4, landscape with location and doc. field</description>
 </technologies>
 </device>
 <device name="C3640" package="C3640">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="C1812S" package="C1812S">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="C1206S" package="C1206S">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -4713,6 +4764,15 @@ DIN A4, landscape with location and doc. field</description>
 </technologies>
 </device>
 <device name="R1218" package="R1218">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="R1206S" package="R1206S">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -5959,7 +6019,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </part>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
-<part name="R15" library="RFiD" deviceset="R-US_" device="R1206" value="1M">
+<part name="R15" library="RFiD" deviceset="R-US_" device="R1206S" value="1M">
 <attribute name="ASK" value="X"/>
 <attribute name="ASK_CUSTOMERPN" value="R/1M/5%/12"/>
 <attribute name="ASK_PN" value="RC3216J105CS"/>
@@ -5978,7 +6038,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
-<part name="C28" library="RFiD" deviceset="C-US" device="C1206" value="1n">
+<part name="C28" library="RFiD" deviceset="C-US" device="C1206S" value="1n">
 <attribute name="ASK" value="X"/>
 <attribute name="ASK_CUSTOMERPN" value="C/1n/200V/C12"/>
 <attribute name="ASK_PN" value="CL31C102JHHNFNE"/>
@@ -8191,7 +8251,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND59" library="supply1" deviceset="GND" device=""/>
-<part name="C22" library="RFiD" deviceset="C-US" device="C1812" value="1n">
+<part name="C22" library="RFiD" deviceset="C-US" device="C1812S" value="1n">
 <attribute name="ASK" value="X"/>
 <attribute name="ASK_CUSTOMERPN" value="C/1n/500V/E18"/>
 <attribute name="ASK_PN" value="C1812C102FBGACTU"/>
@@ -8210,7 +8270,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="SPECIAL" value=""/>
 </part>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
-<part name="C27" library="RFiD" deviceset="C-US" device="C1206" value="220n">
+<part name="C27" library="RFiD" deviceset="C-US" device="C1206S" value="220n">
 <attribute name="ASK" value="X"/>
 <attribute name="ASK_CUSTOMERPN" value="C/220n/200V/C12"/>
 <attribute name="ASK_PN" value="C3216X7T2E224K160AA"/>

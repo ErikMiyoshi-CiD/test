@@ -2129,10 +2129,12 @@ Source: http://www.vishay.com/docs/31059/wsrhigh.pdf</description>
 </package>
 <package name="QFN32">
 <wire x1="-2.5" y1="2.5" x2="-2.1" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-2.1" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="21"/>
-<wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2.1" width="0.127" layer="21"/>
+<wire x1="2.1" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="2.1" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-2.1" x2="2.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-2.5" x2="2.1" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.1" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="-2.1" width="0.127" layer="21"/>
 <wire x1="-2.5" y1="2.1" x2="-2.5" y2="2.5" width="0.127" layer="21"/>
 <wire x1="-2.1" y1="2.5" x2="-2.5" y2="2.1" width="0.127" layer="21"/>
 <smd name="33" x="0" y="0" dx="3" dy="3" layer="1" cream="no"/>
@@ -2172,6 +2174,9 @@ Source: http://www.vishay.com/docs/31059/wsrhigh.pdf</description>
 <rectangle x1="0.1" y1="0.1" x2="1.3" y2="1.3" layer="31"/>
 <rectangle x1="0.1" y1="-1.3" x2="1.3" y2="-0.1" layer="31"/>
 <rectangle x1="-1.3" y1="-1.3" x2="-0.1" y2="-0.1" layer="31"/>
+<wire x1="-2.4" y1="2.4" x2="-2.4" y2="2.3" width="0.127" layer="21"/>
+<wire x1="-2.4" y1="2.4" x2="-2.3" y2="2.4" width="0.127" layer="21"/>
+<text x="-3" y="3.1" size="1.27" layer="25">&gt;NAME</text>
 </package>
 <package name="HOLE">
 <pad name="P$1" x="0" y="0" drill="1" diameter="1.7" thermals="no"/>
@@ -2344,6 +2349,7 @@ Source: http://www.vishay.com/docs/31059/wsrhigh.pdf</description>
 <wire x1="-2.35" y1="-2.25" x2="-2.55" y2="-2.25" width="0.127" layer="21"/>
 <circle x="-2.65" y="-3" radius="0.15" width="0.3" layer="21"/>
 <circle x="-2.05" y="-1.45" radius="0.15" width="0.3" layer="21"/>
+<text x="-3.81" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 </package>
 <package name="LTL1BEKVJNN">
 <pad name="COMMON" x="0" y="0" drill="0.6"/>
@@ -2378,6 +2384,7 @@ Source: http://www.vishay.com/docs/31059/wsrhigh.pdf</description>
 <wire x1="-0.8" y1="-1.4" x2="-0.8" y2="1.4" width="0.127" layer="21"/>
 <wire x1="-0.7" y1="1.4" x2="-0.7" y2="-1.4" width="0.127" layer="21"/>
 <wire x1="-0.6" y1="-1.4" x2="-0.6" y2="1.4" width="0.127" layer="21"/>
+<text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
 </package>
 <package name="22-23-2021">
 <description>.100" (2.54mm) Center Headers - 2 Pin</description>

@@ -17,8 +17,5 @@ int main(void){
 	
     while (1){
 		//Loop Principal aqui...
-		
-		//Teste de Wiegand
-		delay_us(10000);
-	}
+		}
 }

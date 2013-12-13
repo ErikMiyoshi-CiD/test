@@ -109,6 +109,29 @@ void ClockInit(){
 }
 
 
+//Esta função inicializa o TC1 WO[1] --> Pino do 125kHz da antena
+void Init125khz_NOVO(void){
+	//Associa o pino de 125kHz ao TC1
+	PORT->Group[0].PINCFG[7].bit.PMUXEN = 1; //PA07
+	PORT->Group[0].PMUX[3].bit.PMUXO= 0x5; //Periférico F = TC2/WO[0]
+	
+	//Habilita o clock do TC1
+	PM->APBCMASK.reg |= PM_APBCMASK_TC1;
+	
+	//Reseta o TC1
+	TC1->COUNT16.CTRLA.bit.SWRST = 1;
+	while (TC1->COUNT16.CTRLA.bit.SWRST!=0);
+	
+	//Configura o TC2
+	TC1->COUNT16.CTRLA.reg = TC_CTRLA_WAVEGEN_MFRQ; //GCLK/1, não roda em STBY, MFRQ, COUNT16, Disable
+	TC1->COUNT16.CTRLBSET.reg = 0; //Count up infinitamente
+	TC1->COUNT16.CTRLC.reg = 0; //Sem capture/Compare e não inverte nenhuma saída
+	TC1->COUNT16.CC[0].reg = 31; //Valor para 8MHz é 32 (para 48MHz é 384/2)
+	
+	//Habilita o TC1
+	TC1->COUNT16.CTRLA.bit.ENABLE = 1;
+}
+
 
 //Esta função inicializa o TC2 WO[0] --> Pino do 125kHz da antena
 void Init125khz(void){
@@ -125,7 +148,7 @@ void Init125khz(void){
 	
 	//Configura o TC2
 	TC2->COUNT16.CTRLA.reg = TC_CTRLA_WAVEGEN_MFRQ; //GCLK/1, não roda em STBY, MFRQ, COUNT16, Disable
-	TC2->COUNT16.CTRLBSET.reg = 0; //Count up infinitamente
+	TC2->COUNT16.CTRLBSET.reg = 0; //Count up infinitament e
 	TC2->COUNT16.CTRLC.reg = 0; //Sem capture/Compare e não inverte nenhuma saída 
 	TC2->COUNT16.CC[0].reg = 31; //Valor para 8MHz é 32 (para 48MHz é 384/2)
 		
@@ -176,9 +199,10 @@ void ok_feedback(void){
 void system_init(void){
 	/* Inicializa os clocks */
 	ClockInit();
-	Init125khz();
-	buzzer_clock_init();
+	//Init125khz();
+	Init125khz_NOVO();
+	//buzzer_clock_init();
 	//Habilita o clock do TC2 e do TC5
 	PM->APBBMASK.reg |= PM_APBBMASK_PORT;
-	ok_feedback();
+	//ok_feedback();
 }

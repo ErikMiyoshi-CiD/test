@@ -51,6 +51,7 @@
       <ToolNumber>000028007487</ToolNumber>
       <ToolName>SAM-ICE</ToolName>
     </com_atmel_avrdbg_tool_samice>
+    <AsfVersion>3.5.0</AsfVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <ToolchainSettings>

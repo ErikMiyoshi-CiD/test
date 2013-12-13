@@ -356,7 +356,7 @@ UsedLibrary="C:/Control iD/REP-BR - v6/REP-BR.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="102 52 1242 646"
+Loc="-1218 95 -78 689"
 State=2
 Number=0
 

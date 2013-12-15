@@ -358,7 +358,7 @@
 <vertex x="21.4" y="54.2"/>
 <vertex x="21.3" y="54.3"/>
 </polygon>
-<text x="24.5" y="40.4" size="1.016" layer="22" font="vector" ratio="14" rot="SMR270">Rev. 2.1</text>
+<text x="24.5" y="40.4" size="1.016" layer="22" font="vector" ratio="14" rot="SMR270">Rev. 4</text>
 <text x="22.8" y="40.6" size="1.016" layer="30" font="vector" ratio="20" rot="SMR270">LEITOR</text>
 <text x="22.8" y="34.6" size="1.016" layer="22" font="vector" ratio="20" rot="SMR270">RF</text>
 <text x="22.8" y="40.6" size="1.016" layer="16" font="vector" ratio="20" rot="SMR270">LEITOR</text>

@@ -4,7 +4,7 @@ Layer 116 outlines;LAYER 125 _tnames;LAYER 126 _bnames;display none;display 125 
 Group all;
 Cut (0 0);
 display none;display 125 126;group all;delete (c > 0 0);display all;EDIT _X6.brd;
-DRC LOAD C:\Leitor.dru;grid mm;
+DRC LOAD C:\Users\Alb\Desktop\ControliD\ACESSO-LEITOR\HW-git\leitorrf\Hardware\Leitor.dru;grid mm;
 paste  (0.000000 0.000000)
 paste  (0.000000 56.700000)
 paste  (34.500000 0.000000)

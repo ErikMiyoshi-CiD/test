@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -3343,6 +3343,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="-3.15" y1="-3.15" x2="3.15" y2="-3.15" width="0.12" layer="21"/>
 <circle x="-2.6" y="-2.6" radius="0.1" width="0.4" layer="21"/>
 <circle x="-3.9" y="-4.3" radius="0.2" width="0.38" layer="21"/>
+<text x="-6.35" y="0" size="1.27" layer="25" font="vector" ratio="14" rot="R270" align="center">&gt;NAME</text>
 </package>
 <package name="SOT223-3L">
 <smd name="4" x="0" y="2.9" dx="3.25" dy="2.15" layer="1"/>

@@ -3015,6 +3015,7 @@
 <package name="FIDUCIAL-1.5X3">
 <circle x="0" y="0" radius="0.9055" width="1.27" layer="29"/>
 <smd name="1" x="0" y="0" dx="1.5" dy="1.5" layer="1" roundness="100" cream="no"/>
+<circle x="0" y="0" radius="0.75" width="0" layer="31"/>
 </package>
 <package name="ANTENNA">
 <pad name="1" x="-1.27" y="0" drill="0.8" diameter="2" rot="R90"/>
@@ -3044,6 +3045,7 @@
 <package name="FIDUCIAL-1.5X3">
 <circle x="0" y="0" radius="0.9055" width="1.27" layer="29"/>
 <smd name="1" x="0" y="0" dx="1.5" dy="1.5" layer="1" roundness="100" cream="no"/>
+<circle x="0" y="0" radius="0.75" width="0" layer="31"/>
 </package>
 </packages>
 </library>

@@ -8,6 +8,8 @@
 
 #include "sam.h"
 #include "helper.h"
+#include "pinos.h"
+#include "delay.h"
 
 #define TEMPO_ABATK2	120		// Tempo em que um pulso é mantido em nível baixo
 #define END_SENTINEL	0b11111	// Campo END SENTINEL do frame de mensagem ABATK2
@@ -40,11 +42,11 @@ static inline void Enviar_Caracter_ABA_TK2(uint8_t dado)
 	
 	for(i=4;i>=0;i--)
 	{
-		ioport_set_pin_level(D1_DATA,!(dado & 1));
+		ioport_set_pin_level(PIN_D1_DATA,!(dado & 1));
 		delay_us(TEMPO_ABATK2);
-		ioport_set_pin_level(USART_TX_PIN,1);
+		ioport_set_pin_level(PIN_D0_TX_CLK,1);
 		delay_us(TEMPO_ABATK2);
-		ioport_set_pin_level(USART_TX_PIN,0);
+		ioport_set_pin_level(PIN_D0_TX_CLK,0);
 		dado >>= 1;
 	}
 }
@@ -93,7 +95,7 @@ void Enviar_ABA_TK2(uint64_t val)
 	
 	Codifica_ABATK2(val);
 	
-	ioport_set_pin_level(CARD_PRES,1);
+	ioport_set_pin_level(PIN_CARD_PRES,1);
 	delay_us(20);
 	Enviar_Caracter_ABA_TK2(0);
 	Enviar_Caracter_ABA_TK2(0);
@@ -103,7 +105,7 @@ void Enviar_ABA_TK2(uint64_t val)
 	}
 	Enviar_Caracter_ABA_TK2(0);
 	Enviar_Caracter_ABA_TK2(0);
-	ioport_set_pin_level(CARD_PRES,0);
+	ioport_set_pin_level(PIN_CARD_PRES,0);
 }
 
 //Recebe os dados de site e facility do cartão RFID e concatena em uma única variável para

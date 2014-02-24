@@ -9,18 +9,11 @@
 #include "helper.h"
 #define BUFFERSIZE 10	// Tamanho do buffer que armazena os dados do cartão em formato ASCII representando os caracteres hexadecimais
 
-/*
-TODO:
-usart_putchar(USART_SERIAL,0x02);
-USART_SERIAL
-
-*/
-
 static uint8_t _serial_tx_buff[BUFFERSIZE]; // Buffer de armazenamento de informação
 
 // Recebe os dados de informação do cartão e converte os valores binarios em caracteres ASCII hexadecimais preenchendo o buffer
 
-void usart_putchar(uint8_t pino, char caracter){
+void usart_putchar(char caracter){
 	//TODO
 }
 
@@ -54,14 +47,14 @@ void Transmite_Cartao_Serial(uint64_t val)
 	
 	Monta_Pacote_Serial(val);
 	
-	usart_putchar(USART_SERIAL,0x02);	// STX - Start of Text
+	usart_putchar(0x02);	// STX - Start of Text
 	for(i=BUFFERSIZE-1;i>=0;i--)
 	{
-		usart_putchar(USART_SERIAL,_serial_tx_buff[i]);
+		usart_putchar(_serial_tx_buff[i]);
 	}
-	usart_putchar(USART_SERIAL,0x0D);	// CR - Carriage Return
-	usart_putchar(USART_SERIAL,0x0A);	// LF - Line Feed
-	usart_putchar(USART_SERIAL,0x03);	// ETX - End of Text
+	usart_putchar(0x0D);	// CR - Carriage Return
+	usart_putchar(0x0A);	// LF - Line Feed
+	usart_putchar(0x03);	// ETX - End of Text
 }
 
 //Recebe os dados de site e facility do cartão RFID e concatena em uma única variável para

@@ -6,6 +6,8 @@
  */ 
 
 #include "helper.h"
+#include "pinos.h"
+#include "delay.h"
 
 #define WIE_NUMDIGITS		24  	// Número de bits de dados no frame Wiegand a ser transmitido
 #define DATA_PULSE_TIME		100		// Intervalo de tempo em que o pulso de dados é mantido em nível baixo - Unidade: microsegundos
@@ -53,15 +55,15 @@ static inline void Envia_Payload(uint32_t mensagem)
 		
 		if(tmp)
 		{
-			ioport_set_pin_level(D1_DATA,1); // Transitor de saida inverte o sinal
+			ioport_set_pin_level(PIN_D1_DATA,1); // Transitor de saida inverte o sinal
 			delay_us(DATA_PULSE_TIME);
-			ioport_set_pin_level(D1_DATA,0);
+			ioport_set_pin_level(PIN_D1_DATA,0);
 		}
 		else
 		{
-			ioport_set_pin_level(USART_TX_PIN,1);
+			ioport_set_pin_level(PIN_D0_TX_CLK,1);
 			delay_us(DATA_PULSE_TIME);
-			ioport_set_pin_level(USART_TX_PIN,0);
+			ioport_set_pin_level(PIN_D0_TX_CLK,0);
 		}
 		
 		delay_us(DATA_INTERVAL_TIME);

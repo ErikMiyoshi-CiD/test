@@ -179,6 +179,15 @@
     <Compile Include="cmsis\src\system_samd20.c">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="cycle_counter.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cycle_counter.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="delay.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="helper.c">
       <SubType>compile</SubType>
     </Compile>
@@ -186,6 +195,9 @@
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="leitorrf.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="pinos.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="SerialOut.c">

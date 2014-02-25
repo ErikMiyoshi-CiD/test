@@ -8,6 +8,7 @@
 #include "helper.h"
 #include "pinos.h"
 #include "delay.h"
+#include "RF_common.h"
 
 void ioport_set_pin_level(uint8_t pino, int estado){
 	//Configura e muda o estado de uma determinada porta
@@ -18,6 +19,20 @@ void ioport_set_pin_level(uint8_t pino, int estado){
 		return;
 	}
 	PORT->Group[0].OUTCLR.reg = (1 << pino);
+}
+
+void ioport_set_pin_input(uint8_t pino){
+	//Configura e muda o estado de uma determinada porta
+	PORT->Group[0].PINCFG[pino].reg = 0x2;
+	PORT->Group[0].DIRCLR.reg = (1 << pino);
+	PORT->Group[0].CTRL.bit.SAMPLING = (1 << pino);
+}
+
+uint8_t ioport_get_pin_level(uint8_t pino){
+	if (PORT->Group[0].IN.reg & (1 << pino))
+		return 1;
+	else
+		return 0;
 }
 
 void system_flash_set_waitstates(uint8_t wait_states)
@@ -108,7 +123,7 @@ void Init125khz(void){
 	TC1->COUNT16.CTRLA.bit.SWRST = 1;
 	while (TC1->COUNT16.CTRLA.bit.SWRST!=0);
 	
-	//Configura o TC2
+	//Configura o TC1
 	TC1->COUNT16.CTRLA.reg = TC_CTRLA_WAVEGEN_MFRQ; //GCLK/1, não roda em STBY, MFRQ, COUNT16, Disable
 	TC1->COUNT16.CTRLBSET.reg = 0; //Count up infinitamente
 	TC1->COUNT16.CTRLC.reg = 0; //Sem capture/Compare e não inverte nenhuma saída
@@ -149,7 +164,6 @@ void buzz(uint32_t tempo){
 
 void ok_feedback(void){
 	/* Fornece feedback visual (led) e de áudio(buzzer) positivo*/
-	
 	ioport_set_pin_level(PIN_LED_RED,0);
 	ioport_set_pin_level(PIN_LED_GRN,1);
 	buzz(300);
@@ -169,19 +183,58 @@ void leds_idle(void){
 	ioport_set_pin_level(PIN_LED_GRN,1);
 }
 
+void pin_configure(void)
+{
+	ioport_set_pin_input(PIN_ASK_IN);
+}
+
 void system_init(void){
 	/* Inicializa clock */
 	ClockInit();
+	//Habilita IO Port
+	PM->APBBMASK.reg |= PM_APBBMASK_PORT;
+	//Configura pinos
+	pin_configure();
 	//Inicializa delays
 	delay_init();
-	//Habilita clock das portas de IO
-	PM->APBBMASK.reg |= PM_APBBMASK_PORT;
-	//Inicializa 125kHZ
-	Init125khz();
 	//Inicializa buzzer
 	buzzer_clock_init();
 	//Apresenta as boas vindas para o usuário (leia-se: LED verde)
 	power_on();
 	//Vai para idle
 	leds_idle();
+}
+
+TIPO_LEITOR ler_tipo_leitor(void)
+{
+	//Liga clock do NVM
+	PM->APBBMASK.reg |= PM_APBBMASK_NVMCTRL;
+	
+	uint8_t tipo=(*(volatile uint16_t *)USER_INFO_ADD & 0xFF);
+	switch (tipo)
+	{
+	case 'A':
+		return TIPO_ASK;
+	case 'F':
+		return TIPO_FSK;
+	case 'P':
+		return TIPO_PSK;
+	case 'M':
+		return TIPO_MIFARE;
+	default: //nunca foi programado
+		NVMCTRL->ADDR.reg=USER_INFO_ADD/4;
+		NVMCTRL->CTRLA.reg = NVMCTRL_CTRLA_CMD_ER | NVMCTRL_CTRLA_CMDEX_KEY;
+		while (NVMCTRL->INTFLAG.bit.READY==0);
+		
+		NVMCTRL->CTRLA.reg = NVMCTRL_CTRLA_CMD_PBC | NVMCTRL_CTRLA_CMDEX_KEY;
+		while (NVMCTRL->INTFLAG.bit.READY==0);
+		
+		NVMCTRL->ADDR.reg=USER_INFO_ADD;
+		*(volatile uint16_t *)USER_INFO_ADD='A'; ///PADRÃO É ASK POR ENQUANTO!!!
+		
+		NVMCTRL->CTRLA.reg = NVMCTRL_CTRLA_CMD_WP | NVMCTRL_CTRLA_CMDEX_KEY;
+		while (NVMCTRL->INTFLAG.bit.READY==0);
+		
+		return TIPO_ASK;
+	}
 }

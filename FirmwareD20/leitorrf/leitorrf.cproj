@@ -43,7 +43,7 @@
       <ToolOptions>
         <InterfaceProperties>
           <JtagEnableExtResetOnStartSession>false</JtagEnableExtResetOnStartSession>
-          <SwdClock>1000000</SwdClock>
+          <SwdClock>800000</SwdClock>
         </InterfaceProperties>
         <InterfaceName>SWD</InterfaceName>
       </ToolOptions>
@@ -177,6 +177,18 @@
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="cmsis\src\system_samd20.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="RF_ASK.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="RF_ASK.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="RF_common.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="RF_common.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="cycle_counter.c">

@@ -10,6 +10,10 @@
 #include "delay.h"
 #include "RF_common.h"
 
+/* ----------- GLOBALS start ----------- */
+TIPO_OUTPUT tipo_output;
+/* ------------ GLOBALS end ------------ */
+
 void ioport_set_pin_level(uint8_t pino, int estado){
 	//Configura e muda o estado de uma determinada porta
 	PORT->Group[0].PINCFG[pino].reg = 0;
@@ -171,21 +175,35 @@ void ok_feedback(void){
 	ioport_set_pin_level(PIN_LED_GRN,0);
 }
 
-void power_on(void){
-	/* Quando ligar, vamos apresentar um LED verde OK */
-	ioport_set_pin_level(PIN_LED_RED,0);
-	ioport_set_pin_level(PIN_LED_GRN,1);
-	buzz(300);	
+void led_idle(void){
+	led_yellow();
 }
 
-void leds_idle(void){
+void led_yellow(void){
 	ioport_set_pin_level(PIN_LED_RED,1);
 	ioport_set_pin_level(PIN_LED_GRN,1);
+}
+
+void led_green(void){
+	ioport_set_pin_level(PIN_LED_RED,0);
+	ioport_set_pin_level(PIN_LED_GRN,1);	
+}
+
+void led_red(void){
+	ioport_set_pin_level(PIN_LED_RED,1);
+	ioport_set_pin_level(PIN_LED_GRN,0);
+}
+
+void led_off(void){
+	ioport_set_pin_level(PIN_LED_RED,0);
+	ioport_set_pin_level(PIN_LED_GRN,0);
 }
 
 void pin_configure(void)
 {
 	ioport_set_pin_input(PIN_ASK_IN);
+	ioport_set_pin_input(PIN_LED_INPUT);
+	ioport_set_pin_input(PIN_MS_BUZZ);
 }
 
 void system_init(void){
@@ -199,10 +217,76 @@ void system_init(void){
 	delay_init();
 	//Inicializa buzzer
 	buzzer_clock_init();
-	//Apresenta as boas vindas para o usuário (leia-se: LED verde)
-	power_on();
-	//Vai para idle
-	leds_idle();
+}
+
+MODO_LEITOR avaliar_modo_leitor(void)
+{
+	//Se estivermos em modo programação, o pino 
+	for (uint8_t i=0;i<16;i++)
+	{
+		int val=(i & 1);
+		ioport_set_pin_level(PIN_D0_TX_CLK,val);
+		delay_us(50);
+		if (ioport_get_pin_level(PIN_MS_BUZZ) == val) //D0 tem inversor
+			return MODO_NORMAL;
+	}
+	return MODO_PROGRAMACAO;
+}
+
+void modo_leitor(void)
+{
+	switch(avaliar_modo_leitor())
+	{
+		uint16_t temp=*(volatile uint16_t *)USER_INFO_ADD;
+		case MODO_PROGRAMACAO:
+			temp = temp & 0xFF; //limpa o byte superior
+			for (uint8_t i=0;i<5;i++)
+			{
+				led_red();
+				delay_ms(300);
+				led_green();
+				buzz(300);
+			}
+			if (ioport_get_pin_level(PIN_LED_INPUT)==1)
+			{
+				tipo_output=OUTPUT_WIEGAND;	
+				temp |= 'W' << 8;
+				led_green();	
+			}
+			else
+			{
+				tipo_output=OUTPUT_ABATRACK;
+				temp |= 'A' << 8;
+				led_yellow();
+			}
+			programa_config(temp);
+			while(1); //Espera o cara desligar
+			break;
+		case MODO_NORMAL:
+			if ((temp & 0xFF00) >> 8 == 'A')
+				tipo_output=OUTPUT_ABATRACK;
+			else
+				tipo_output=OUTPUT_WIEGAND;
+			led_green();
+			buzz(500);
+		break;
+	}
+}
+
+void programa_config (uint16_t dados)
+{
+		NVMCTRL->ADDR.reg=USER_INFO_ADD/4;
+		NVMCTRL->CTRLA.reg = NVMCTRL_CTRLA_CMD_ER | NVMCTRL_CTRLA_CMDEX_KEY;
+		while (NVMCTRL->INTFLAG.bit.READY==0);
+		
+		NVMCTRL->CTRLA.reg = NVMCTRL_CTRLA_CMD_PBC | NVMCTRL_CTRLA_CMDEX_KEY;
+		while (NVMCTRL->INTFLAG.bit.READY==0);
+		
+		NVMCTRL->ADDR.reg=USER_INFO_ADD;
+		*(volatile uint16_t *)USER_INFO_ADD=dados;
+		
+		NVMCTRL->CTRLA.reg = NVMCTRL_CTRLA_CMD_WP | NVMCTRL_CTRLA_CMDEX_KEY;
+		while (NVMCTRL->INTFLAG.bit.READY==0);
 }
 
 TIPO_LEITOR ler_tipo_leitor(void)
@@ -222,19 +306,7 @@ TIPO_LEITOR ler_tipo_leitor(void)
 	case 'M':
 		return TIPO_MIFARE;
 	default: //nunca foi programado
-		NVMCTRL->ADDR.reg=USER_INFO_ADD/4;
-		NVMCTRL->CTRLA.reg = NVMCTRL_CTRLA_CMD_ER | NVMCTRL_CTRLA_CMDEX_KEY;
-		while (NVMCTRL->INTFLAG.bit.READY==0);
-		
-		NVMCTRL->CTRLA.reg = NVMCTRL_CTRLA_CMD_PBC | NVMCTRL_CTRLA_CMDEX_KEY;
-		while (NVMCTRL->INTFLAG.bit.READY==0);
-		
-		NVMCTRL->ADDR.reg=USER_INFO_ADD;
-		*(volatile uint16_t *)USER_INFO_ADD='A'; ///PADRÃO É ASK POR ENQUANTO!!!
-		
-		NVMCTRL->CTRLA.reg = NVMCTRL_CTRLA_CMD_WP | NVMCTRL_CTRLA_CMDEX_KEY;
-		while (NVMCTRL->INTFLAG.bit.READY==0);
-		
+		programa_config(((uint16_t)'W' << 8) + 'A');
 		return TIPO_ASK;
 	}
 }

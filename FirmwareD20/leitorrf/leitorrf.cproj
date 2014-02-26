@@ -206,7 +206,7 @@
     <Compile Include="helper.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="leitorrf.c">
+    <Compile Include="main.c">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="pinos.h">

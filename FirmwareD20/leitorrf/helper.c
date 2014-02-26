@@ -235,9 +235,10 @@ MODO_LEITOR avaliar_modo_leitor(void)
 
 void modo_leitor(void)
 {
+	uint16_t temp=*(volatile uint16_t *)USER_INFO_ADD;	
+
 	switch(avaliar_modo_leitor())
 	{
-		uint16_t temp=*(volatile uint16_t *)USER_INFO_ADD;
 		case MODO_PROGRAMACAO:
 			temp = temp & 0xFF; //limpa o byte superior
 			for (uint8_t i=0;i<5;i++)

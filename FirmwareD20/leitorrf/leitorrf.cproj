@@ -179,6 +179,39 @@
     <Compile Include="cmsis\src\system_samd20.c">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="RF_Mifare.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="RF_Mifare.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="RF_Mifare_Util.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="RF_Mifare_Util.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="RC522_ErrCode.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="RC522_Mifare.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="RC522_MifareCmd.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="RC522_OpCtrl.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="RC522_Reg.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="RC522_RegCtrl.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="RC522_RegCtrl.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="RF_ASK.c">
       <SubType>compile</SubType>
     </Compile>

@@ -6,13 +6,11 @@
  */ 
 
 #include "sam.h"
-#include "delay.h"
 #include "helper.h"
-#include "Wiegand.h"
-#include "ABATK2.h"
 #include "pinos.h"
 #include "RF_common.h"
 #include "RF_ASK.h"
+#include "RF_Mifare.h"
 
 int main(void){		
 	//1 - Inicializa o sistema e os clocks
@@ -36,6 +34,8 @@ int main(void){
 	case TIPO_PSK:
 		break;
 	case TIPO_MIFARE:
+		Mifare_Init();
+		Mifare_Run();
 		break;
 	}
 	NVIC_SystemReset(); //Se chegou aqui deu besteira

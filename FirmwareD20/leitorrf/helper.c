@@ -99,6 +99,7 @@ void ClockInit(){
 		GCLK->GENCTRL.reg  = i | GCLK_SOURCE_XOSC << GCLK_GENCTRL_SRC_Pos | GCLK_GENCTRL_GENEN;
 	}
 	
+	//Set TC gclock=0
 	for (i=0x13; i<=0x16;i++)
 	{
 		while (system_gclk_is_syncing()) {/* Wait for synchronization */};
@@ -106,6 +107,14 @@ void ClockInit(){
 		GCLK->CLKCTRL.reg |= GCLK_CLKCTRL_CLKEN;
 	}
 	
+	//Set SERCOM3 Gclock=0
+	for (i=0x0C; i<=0x12;i++)
+	{
+		while (system_gclk_is_syncing()) {/* Wait for synchronization */};
+		*((uint8_t*)&GCLK->CLKCTRL.reg) = (uint8_t)i;
+		GCLK->CLKCTRL.reg |= GCLK_CLKCTRL_CLKEN;
+	}
+		
 	//Set CPU, APBA, APBB and APBC clocks
 	PM->CPUSEL.reg = (uint32_t)0;
 	PM->APBASEL.reg = (uint32_t)0;

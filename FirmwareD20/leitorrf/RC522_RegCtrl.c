@@ -1,3 +1,5 @@
+#include "sam.h"
+#include "RF_Mifare.h"
 #include "RC522_ErrCode.h"
 #include "RC522_RegCtrl.h"
 
@@ -11,11 +13,27 @@ RegVal        The value to be writen
 Return:
 None
  **************************************************/
+
+volatile int mmm;
+
 void RcSetReg(unsigned char RegAddr, unsigned char RegVal)
 {
-	int ret;
-
-//	ret = i2c_smbus_write_byte_data(global_client, RegAddr & 0x3F, RegVal);
+	mifare_i2c_wait_for_bus();
+	while (SERCOM3->I2CM.STATUS.reg & SERCOM_I2CM_STATUS_SYNCBUSY);
+	/* Set address and direction bit. Will send start command on bus. */
+	SERCOM3->I2CM.ADDR.reg = (I2C_ADDRESS << 1) | _I2C_TRANSFER_WRITE;	
+	/* Wait for response on bus. */
+	mifare_i2c_wait_for_bus();	
+	mifare_i2c_master_address_response();
+	while (SERCOM3->I2CM.STATUS.reg & SERCOM_I2CM_STATUS_SYNCBUSY);
+	SERCOM3->I2CM.DATA.reg = RegAddr;
+	mifare_i2c_wait_for_bus();	
+	while (SERCOM3->I2CM.STATUS.reg & SERCOM_I2CM_STATUS_SYNCBUSY);
+	SERCOM3->I2CM.DATA.reg = RegVal;
+	mifare_i2c_wait_for_bus();
+	/* Stop command */
+	while (SERCOM3->I2CM.STATUS.reg & SERCOM_I2CM_STATUS_SYNCBUSY);
+	SERCOM3->I2CM.CTRLB.reg |= SERCOM_I2CM_CTRLB_CMD(3);
 }
 
 /*************************************************
@@ -29,11 +47,43 @@ The value of the specify register
  **************************************************/
 unsigned char RcGetReg(unsigned char RegAddr)
 {
-	int ret=0;
-
-	//ret = i2c_smbus_read_byte_data(global_client, RegAddr & 0x3F);
-
-	return ret & 0xFF; 
+	uint8_t dado;
+	
+	mifare_i2c_wait_for_bus();
+	while (SERCOM3->I2CM.STATUS.reg & SERCOM_I2CM_STATUS_SYNCBUSY);
+	/* Set address and direction bit. Will send start command on bus. */
+	SERCOM3->I2CM.ADDR.reg = (I2C_ADDRESS << 1) | _I2C_TRANSFER_WRITE;	
+	/* Wait for response on bus. */
+	mifare_i2c_wait_for_bus();	
+	mifare_i2c_master_address_response();
+	while (SERCOM3->I2CM.STATUS.reg & SERCOM_I2CM_STATUS_SYNCBUSY);
+	mifare_i2c_wait_for_bus();	
+	SERCOM3->I2CM.DATA.reg = RegAddr;
+	mifare_i2c_wait_for_bus();
+	/* Stop command */
+	while (SERCOM3->I2CM.STATUS.reg & SERCOM_I2CM_STATUS_SYNCBUSY);
+	SERCOM3->I2CM.CTRLB.reg |= SERCOM_I2CM_CTRLB_CMD(3);
+	
+	/* LEITURA */
+	mifare_i2c_wait_for_bus();
+	while (SERCOM3->I2CM.STATUS.reg & SERCOM_I2CM_STATUS_SYNCBUSY);
+	SERCOM3->I2CM.CTRLB.reg |= SERCOM_I2CM_CTRLB_ACKACT;
+	/* Set address and direction bit. Will send start command on bus. */
+	SERCOM3->I2CM.ADDR.reg = (I2C_ADDRESS << 1) | _I2C_TRANSFER_READ;	
+	/* Wait for response on bus. */
+	mifare_i2c_wait_for_bus();	
+	mifare_i2c_master_address_response();
+	/* Set action to NACK */
+	while (SERCOM3->I2CM.STATUS.reg & SERCOM_I2CM_STATUS_SYNCBUSY);
+	mifare_i2c_wait_for_bus();	
+	dado=SERCOM3->I2CM.DATA.reg;
+	/* Stop command */
+	while (SERCOM3->I2CM.STATUS.reg & SERCOM_I2CM_STATUS_SYNCBUSY);
+	SERCOM3->I2CM.CTRLB.reg |= SERCOM_I2CM_CTRLB_CMD(3);
+	while (SERCOM3->I2CM.STATUS.reg & SERCOM_I2CM_STATUS_SYNCBUSY);
+	dado=SERCOM3->I2CM.DATA.reg;
+	
+	return dado;
 }
 
 /*************************************************

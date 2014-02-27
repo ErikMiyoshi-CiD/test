@@ -39,6 +39,7 @@
 */
 #include <string.h>
 #include "delay.h"
+#include "RF_common.h"
 #include "RC522_Reg.h"
 #include "RC522_RegCtrl.h"
 #include "RC522_OpCtrl.h"
@@ -67,8 +68,9 @@ typedef struct
 
 MfCmdInfo MInfo;
 MfCmdInfo *MpIsrInfo = 0;
-unsigned char  SerBuffer[64];
-
+//ALBERT: Vamos usar um buffer que já temos, nada de reinventar a roda
+//unsigned char  SerBuffer[64];
+unsigned char  *SerBuffer=&buf[1][0];
 
 /*************************************************
 Function:       SetPowerDown

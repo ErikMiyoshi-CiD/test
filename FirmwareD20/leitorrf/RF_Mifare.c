@@ -147,6 +147,5 @@ void Mifare_Run(void)
 	while (1)
 	{
 		mifare_activate_card();
-		delay_ms(50);
 	}
 }

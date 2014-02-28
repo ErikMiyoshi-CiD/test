@@ -9,7 +9,7 @@
 #ifndef RF_MIFARE_H_
 #define RF_MIFARE_H_
 
-#define I2C_TIMEOUT 1000
+#define I2C_TIMEOUT 200
 #define I2C_ADDRESS (0x28)
 
 enum _i2c_transfer_direction {

@@ -69,10 +69,8 @@ void mifare_i2c_init(void)
 	PORT->Group[0].PMUX[11].bit.PMUXE = 0x2; //Periférico C
 	//Configura o módulo
 	SERCOM3->I2CM.CTRLA.reg = SERCOM_I2CM_CTRLA_MODE_I2C_MASTER | (1 << SERCOM_I2CM_CTRLA_INACTOUT_Pos);	
-	//Baud divide 100
+	//Baud divide
 	SERCOM3->I2CM.BAUD.reg=5; //400kHz
-	//Enable smart mode
-	SERCOM3->I2CM.CTRLB.reg = SERCOM_I2CM_CTRLB_SMEN;
 	//Habilita o módulo
 	SERCOM3->I2CM.CTRLA.reg |= SERCOM_I2CM_CTRLA_ENABLE;
 }
@@ -96,6 +94,7 @@ void mifare_activate_card(void)
 
 	if ((status = ActivateCard(ISO14443_3_REQA, baATQ, uid, &uid_length, &bSAK)) == STATUS_SUCCESS)
 	{
+		buzz(100);
 		if (uid_length == mifare_uid_length)
 		{
 			for (i = 0; i < uid_length; i++)
@@ -148,6 +147,6 @@ void Mifare_Run(void)
 	while (1)
 	{
 		mifare_activate_card();
-		delay_ms(100);
+		delay_ms(50);
 	}
 }

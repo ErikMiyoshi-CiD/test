@@ -34,6 +34,7 @@ void RcSetReg(unsigned char RegAddr, unsigned char RegVal)
 	/* Stop command */
 	while (SERCOM3->I2CM.STATUS.reg & SERCOM_I2CM_STATUS_SYNCBUSY);
 	SERCOM3->I2CM.CTRLB.reg |= SERCOM_I2CM_CTRLB_CMD(3);
+	while (SERCOM3->I2CM.STATUS.reg & SERCOM_I2CM_STATUS_SYNCBUSY);
 }
 
 /*************************************************
@@ -77,6 +78,8 @@ unsigned char RcGetReg(unsigned char RegAddr)
 	/* Stop command */
 	while (SERCOM3->I2CM.STATUS.reg & SERCOM_I2CM_STATUS_SYNCBUSY);
 	SERCOM3->I2CM.CTRLB.reg |= SERCOM_I2CM_CTRLB_CMD(3);		
+	while (SERCOM3->I2CM.STATUS.reg & SERCOM_I2CM_STATUS_SYNCBUSY);
+	
 	return dado;
 }
 

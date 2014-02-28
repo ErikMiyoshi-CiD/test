@@ -73,6 +73,7 @@ void mifare_i2c_init(void)
 	SERCOM3->I2CM.BAUD.reg=5; //400kHz
 	//Habilita o módulo
 	SERCOM3->I2CM.CTRLA.reg |= SERCOM_I2CM_CTRLA_ENABLE;
+	while (SERCOM3->I2CM.STATUS.reg & SERCOM_I2CM_STATUS_SYNCBUSY);
 }
 
 void mifare_reset(void)

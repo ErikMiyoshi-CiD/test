@@ -147,6 +147,7 @@ void Mifare_Run(void)
 {
 	while (1)
 	{
+		wdt_reset();
 		mifare_activate_card();
 	}
 }

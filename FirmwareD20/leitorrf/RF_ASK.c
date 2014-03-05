@@ -6,10 +6,11 @@
 */
 
 #include "sam.h"
-#include "pinos.h"
+#include "Pinos.h"
 #include "RF_common.h"
 #include "RF_ASK.h"
-#include "helper.h"
+#include "Helper.h"
+#include "Output.h"
 
 volatile uint8_t cur_buf;
 volatile uint8_t n_samples;
@@ -39,6 +40,7 @@ void cospe_ask(unsigned long long int card)
 {
 	uint8_t site_code;
 	uint16_t id;	
+	uint32_t dado;
 	
 	site_code = (((card >> 26u) & 0xfu) << 0u) |
 			    (((card >> 31u) & 0xfu) << 4u);
@@ -48,7 +50,9 @@ void cospe_ask(unsigned long long int card)
 		 (((card >> 16u) & 0xfu) << 8u)  |
 		 (((card >> 21u) & 0xfu) << 12u) ;
 	
-	buzz(10);
+	dado=((uint32_t)site_code << 16) + id;
+	
+	go_output(dado);
 }
 
 static void processa_resultado(unsigned long long int val)
@@ -131,6 +135,7 @@ void ASK_Run(void)
 
 	while(1)
 	{
+		wdt_reset();
 		while(semaforo_ask==0);
 		semaforo_ask=0;
 

@@ -175,6 +175,16 @@ void buzz(uint32_t tempo){
 	TC5->COUNT16.CTRLA.bit.ENABLE = 0;
 }
 
+void buzz_on(void)
+{
+	TC5->COUNT16.CTRLA.bit.ENABLE = 1;
+}
+
+void buzz_off(void)
+{
+	TC5->COUNT16.CTRLA.bit.ENABLE = 0;
+}
+
 void ok_feedback(void){
 	/* Fornece feedback visual (led) e de áudio(buzzer) positivo*/
 	ioport_set_pin_level(PIN_LED_RED,0);
@@ -215,6 +225,19 @@ void pin_configure(void)
 	ioport_set_pin_input(PIN_MS_BUZZ);
 }
 
+void wdt_init(void)
+{
+	WDT->CTRL.bit.ALWAYSON=1;
+	WDT->CTRL.bit.WEN=0; //sem window
+	WDT->CONFIG.bit.PER=0x9; //4s ou explode!
+	WDT->CTRL.bit.ENABLE=1;
+}
+
+void wdt_reset(void)
+{
+	WDT->CLEAR.reg=0xA5;
+}
+
 void system_init(void){
 	/* Inicializa clock */
 	ClockInit();
@@ -226,6 +249,8 @@ void system_init(void){
 	delay_init();
 	//Inicializa buzzer
 	buzzer_clock_init();
+	//Inicializa WDT
+	wdt_init();
 }
 
 MODO_LEITOR avaliar_modo_leitor(void)

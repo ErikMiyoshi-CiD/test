@@ -19,7 +19,7 @@ int main(void){
 	//5 - Roda e demodula	
 	
 	system_init();
-	
+
 	modo_leitor();
 	
 	switch(ler_tipo_leitor())

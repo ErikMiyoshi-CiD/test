@@ -38,6 +38,8 @@ void ClockInit();
 void Init125khz(void);
 void buzzer_clock_init(void);
 void buzz(uint32_t);
+void buzz_on(void);
+void buzz_off(void);
 void ok_feedback(void);
 void led_idle(void);
 void led_green(void);
@@ -45,5 +47,7 @@ void led_red(void);
 void led_yellow(void);
 void led_off(void);
 void programa_config (uint16_t dados);
+void wdt_init(void);
+void wdt_reset(void);
 
 #endif

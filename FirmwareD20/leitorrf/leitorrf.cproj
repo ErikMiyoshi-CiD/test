@@ -179,6 +179,12 @@
     <Compile Include="cmsis\src\system_samd20.c">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="Output.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Output.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="RF_Mifare.c">
       <SubType>compile</SubType>
     </Compile>
@@ -224,25 +230,25 @@
     <Compile Include="RF_common.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="cycle_counter.c">
+    <Compile Include="Cycle_counter.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="cycle_counter.h">
+    <Compile Include="Cycle_counter.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="delay.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="helper.c">
+    <Compile Include="Helper.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="helper.h">
+    <Compile Include="Helper.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="main.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="pinos.h">
+    <Compile Include="Pinos.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="SerialOut.c">

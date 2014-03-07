@@ -250,7 +250,7 @@ void system_init(void){
 	//Inicializa buzzer
 	buzzer_clock_init();
 	//Inicializa WDT
-	wdt_init();
+	//wdt_init();
 }
 
 MODO_LEITOR avaliar_modo_leitor(void)
@@ -302,7 +302,7 @@ void modo_leitor(void)
 				tipo_output=OUTPUT_ABATRACK;
 			else
 				tipo_output=OUTPUT_WIEGAND;
-			led_green();
+			led_yellow();
 			buzz(500);
 		break;
 	}

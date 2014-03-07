@@ -94,9 +94,16 @@ void ClockInit(){
 		*((uint8_t*)&GCLK->GENDIV.reg) = (uint8_t)i;
 		/* Write the new generator configuration */
 		while (system_gclk_is_syncing()) {/* Wait for synchronization */};
-		GCLK->GENDIV.reg  = 0x100+i;
+		if (i==6)
+			GCLK->GENDIV.reg  = 0x2000+i;
+		else
+			GCLK->GENDIV.reg  = 0x0100+i;
 		while (system_gclk_is_syncing()) {/* Wait for synchronization */};
-		GCLK->GENCTRL.reg  = i | GCLK_SOURCE_XOSC << GCLK_GENCTRL_SRC_Pos | GCLK_GENCTRL_GENEN;
+			
+		if (i==6) //GCLK para WDT
+			GCLK->GENCTRL.reg  = i | GCLK_SOURCE_OSCULP32K << GCLK_GENCTRL_SRC_Pos | GCLK_GENCTRL_GENEN;
+		else
+			GCLK->GENCTRL.reg  = i | GCLK_SOURCE_XOSC << GCLK_GENCTRL_SRC_Pos | GCLK_GENCTRL_GENEN;
 	}
 	
 	//Set TC gclock=0
@@ -113,6 +120,14 @@ void ClockInit(){
 		while (system_gclk_is_syncing()) {/* Wait for synchronization */};
 		*((uint8_t*)&GCLK->CLKCTRL.reg) = (uint8_t)i;
 		GCLK->CLKCTRL.reg |= GCLK_CLKCTRL_CLKEN;
+	}
+	
+	//Set WDT Gclock=0
+	for (i=0x01; i<=0x01;i++)
+	{
+		while (system_gclk_is_syncing()) {/* Wait for synchronization */};
+		*((uint8_t*)&GCLK->CLKCTRL.reg) = (uint8_t)i;
+		GCLK->CLKCTRL.reg |= (0x600 | GCLK_CLKCTRL_CLKEN);
 	}
 		
 	//Set CPU, APBA, APBB and APBC clocks
@@ -227,14 +242,22 @@ void pin_configure(void)
 
 void wdt_init(void)
 {
-	WDT->CTRL.bit.ALWAYSON=1;
+	PM->APBAMASK.reg |= PM_APBAMASK_WDT;
+	
+	//WDT->CTRL.bit.ALWAYSON=1;
+	while (WDT->STATUS.reg & WDT_STATUS_SYNCBUSY);
 	WDT->CTRL.bit.WEN=0; //sem window
+	while (WDT->STATUS.reg & WDT_STATUS_SYNCBUSY);
 	WDT->CONFIG.bit.PER=0x9; //4s ou explode!
+	while (WDT->STATUS.reg & WDT_STATUS_SYNCBUSY);
+	WDT->INTENCLR.reg = 0xFF;
+	while (WDT->STATUS.reg & WDT_STATUS_SYNCBUSY);
 	WDT->CTRL.bit.ENABLE=1;
 }
 
 void wdt_reset(void)
 {
+	while (WDT->STATUS.reg & WDT_STATUS_SYNCBUSY);
 	WDT->CLEAR.reg=0xA5;
 }
 
@@ -242,7 +265,7 @@ void system_init(void){
 	/* Inicializa clock */
 	ClockInit();
 	//Habilita IO Port
-	PM->APBBMASK.reg |= PM_APBBMASK_PORT;
+	PM->APBBMASK.reg |= PM_APBBMASK_PORT;	
 	//Configura pinos
 	pin_configure();
 	//Inicializa delays
@@ -250,7 +273,7 @@ void system_init(void){
 	//Inicializa buzzer
 	buzzer_clock_init();
 	//Inicializa WDT
-	//wdt_init();
+	wdt_init();
 }
 
 MODO_LEITOR avaliar_modo_leitor(void)

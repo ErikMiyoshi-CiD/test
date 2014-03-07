@@ -210,7 +210,7 @@ void ok_feedback(void){
 }
 
 void led_idle(void){
-	led_yellow();
+	led_red();
 }
 
 void led_yellow(void){
@@ -325,8 +325,9 @@ void modo_leitor(void)
 				tipo_output=OUTPUT_ABATRACK;
 			else
 				tipo_output=OUTPUT_WIEGAND;
-			led_yellow();
+			led_green();
 			buzz(500);
+			led_idle();
 		break;
 	}
 }

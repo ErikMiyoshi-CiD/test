@@ -57,7 +57,7 @@ void go_output_internal(uint32_t data)
 			break;		
 	}
 	buzz(50); //Agora sim busy wait 100ms
-	led_yellow();
+	led_idle();
 }
 
 

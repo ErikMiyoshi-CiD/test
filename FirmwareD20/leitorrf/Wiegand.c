@@ -31,13 +31,12 @@ static inline uint8_t Calcula_Paridade(uint16_t val)
 
 static inline uint32_t Codifica_Wiegand(uint32_t val)
 {
-	
 	uint32_t coded_message;
 	uint32_t site_parity;
 	uint8_t card_parity;
 	
-	site_parity = Calcula_Paridade( (uint16_t)( (val >> 16) & 0xFF) ) ;	// Paridade par
-	card_parity = !Calcula_Paridade( (uint16_t)( val & 0xFFFF) );		// Paridade impar
+	site_parity = !Calcula_Paridade( (uint16_t)( (val >> 16) & 0xFF) ) ;	// Paridade par
+	card_parity = Calcula_Paridade( (uint16_t)( val & 0xFFFF) );		// Paridade impar
 	
 	coded_message = ( (site_parity << (WIE_NUMDIGITS+1)) | (val << 1) | card_parity );
 	

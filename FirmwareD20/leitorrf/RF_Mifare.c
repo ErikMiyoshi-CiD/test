@@ -5,9 +5,10 @@
  *  Author: Albert
  */ 
 #include "sam.h"
-#include "pinos.h"
-#include "helper.h"
-#include "delay.h"
+#include "Pinos.h"
+#include "Helper.h"
+#include "Delay.h"
+#include "Output.h"
 #include "RF_Mifare.h"
 #include "RF_Mifare_Util.h"
 #include "RC522_Mifare.h"
@@ -86,44 +87,13 @@ void mifare_reset(void)
 
 void mifare_activate_card(void)
 {
-	int i, new_card = 0;
 	unsigned char bSAK, baATQ[2], uid[8], uid_length=255 /*nunca vai ser*/;
-	short status;
-	unsigned long long card;
 
 	Rc522RFReset(5);
 
-	if ((status = ActivateCard(ISO14443_3_REQA, baATQ, uid, &uid_length, &bSAK)) == STATUS_SUCCESS)
+	if (ActivateCard(ISO14443_3_REQA, baATQ, uid, &uid_length, &bSAK) == STATUS_SUCCESS)
 	{
-		buzz(100);
-		if (uid_length == mifare_uid_length)
-		{
-			for (i = 0; i < uid_length; i++)
-			{
-				// Byte diferente => cartão novo.
-				if (uid[i] != buf[0][i])
-				{
-					new_card = 1;
-					// Copia dados restantes.
-					do {
-						buf[0][i] = uid[i];
-					} while (++i < uid_length);
-					break;
-				}
-			}
-		}
-		else 
-		{ 
-			// Tamanho diferente => cartão novo.
-			new_card = 1;
-			mifare_uid_length = uid_length;
-			for (i = 0; i < uid_length; i++)
-				buf[0][i] = uid[i];
-		}
-
-		if (new_card)
-			for (card = 0, i = 0; i < mifare_uid_length; i++)
-				card |= (unsigned long long)buf[0][i] << 8 * (mifare_uid_length - i - 1);
+		go_output(((uint32_t)uid[1] << 16) + ((uint32_t)uid[2] << 8) + (uint32_t)uid[3]);
 	}
 }
 

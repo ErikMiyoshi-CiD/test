@@ -14,8 +14,6 @@
 #include "RC522_Mifare.h"
 #include "RC522_ErrCode.h"
 
-uint8_t mifare_uid_length=255 /*nunca vai ser*/;
-
 int mifare_i2c_master_address_response(void)
 {
 	/* Check for error and ignore bus-error; workaround for BUSSTATE stuck in

@@ -156,6 +156,10 @@ void Rc522Init(void)
 
     RcSetReg(RC522_REG_COMMAND, 0x0F); /*reset the RC522*/
 
+	RcSetReg(RC522_REG_GSN,0x11); //0bXXXXYYYY
+	RcSetReg(RC522_REG_CWGSP,0x01); 
+	RcSetReg(RC522_REG_MODGSP,0x01); 
+
     RcSetReg(RC522_REG_TXASK, 0x40); /*force to 100% ASK*/
 
     /* disable Crypto1 bit*/
@@ -186,7 +190,10 @@ void Rc522Init(void)
     RcSetReg(RC522_REG_RXTRESHOLD, 0x55);    /* MinLevel = 5; CollLevel = 5 */
 
     RcSetReg(RC522_REG_MODWIDTH, 0x26);      /* Modwidth = 0x26 */
-    RcSetReg(RC522_REG_GSN, 0xF0 | 0x04);     /* CWGsN = 0xF; ModGsN = 0x4 */
+    //RcSetReg(RC522_REG_GSN, 0xF0 | 0x04);     /* CWGsN = 0xF; ModGsN = 0x4 */
+	RcSetReg(RC522_REG_GSN,0x11); //0bXXXXYYYY
+	RcSetReg(RC522_REG_CWGSP,0x01);
+	RcSetReg(RC522_REG_MODGSP,0x01);
 
     /* Set the timer to auto mode, 5ms using operation control commands before HF is switched on to
      * guarantee Iso14443-3 compliance of Polling procedure

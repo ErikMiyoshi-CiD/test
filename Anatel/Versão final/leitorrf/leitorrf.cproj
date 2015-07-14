@@ -5,7 +5,7 @@
     <ProjectVersion>6.2</ProjectVersion>
     <ToolchainName>com.Atmel.ARMGCC.C</ToolchainName>
     <ProjectGuid>{4524b554-467a-456f-9759-98af33af6e62}</ProjectGuid>
-    <avrdevice>ATSAMD20E16</avrdevice>
+    <avrdevice>ATSAMD20E15</avrdevice>
     <avrdeviceseries>none</avrdeviceseries>
     <OutputType>Executable</OutputType>
     <Language>C</Language>
@@ -43,12 +43,12 @@
       <ToolOptions>
         <InterfaceProperties>
           <JtagEnableExtResetOnStartSession>false</JtagEnableExtResetOnStartSession>
-          <SwdClock>800000</SwdClock>
+          <SwdClock>4000000</SwdClock>
         </InterfaceProperties>
         <InterfaceName>SWD</InterfaceName>
       </ToolOptions>
       <ToolType>com.atmel.avrdbg.tool.samice</ToolType>
-      <ToolNumber>000028007487</ToolNumber>
+      <ToolNumber>28012586</ToolNumber>
       <ToolName>SAM-ICE</ToolName>
     </com_atmel_avrdbg_tool_samice>
     <AsfVersion>3.5.0</AsfVersion>
@@ -63,7 +63,7 @@
   <armgcc.common.outputfiles.srec>True</armgcc.common.outputfiles.srec>
   <armgcc.compiler.symbols.DefSymbols>
     <ListValues>
-      <Value>NDEBUG</Value>
+      <Value>DEBUG</Value>
     </ListValues>
   </armgcc.compiler.symbols.DefSymbols>
   <armgcc.compiler.directories.IncludePaths>
@@ -74,8 +74,9 @@
       <Value>%24(ToolchainDir)\..\..\CMSIS_Atmel\Device\ATMEL\samd20\include</Value>
     </ListValues>
   </armgcc.compiler.directories.IncludePaths>
-  <armgcc.compiler.optimization.level>Optimize for size (-Os)</armgcc.compiler.optimization.level>
+  <armgcc.compiler.optimization.level>Optimize (-O1)</armgcc.compiler.optimization.level>
   <armgcc.compiler.optimization.PrepareFunctionsForGarbageCollection>True</armgcc.compiler.optimization.PrepareFunctionsForGarbageCollection>
+  <armgcc.compiler.optimization.DebugLevel>Maximum (-g3)</armgcc.compiler.optimization.DebugLevel>
   <armgcc.compiler.warnings.AllWarnings>True</armgcc.compiler.warnings.AllWarnings>
   <armgcc.linker.libraries.Libraries>
     <ListValues>
@@ -88,7 +89,8 @@
     </ListValues>
   </armgcc.linker.libraries.LibrarySearchPaths>
   <armgcc.linker.optimization.GarbageCollectUnusedSections>True</armgcc.linker.optimization.GarbageCollectUnusedSections>
-  <armgcc.linker.miscellaneous.LinkerFlags>-Tsamd20e14_flash.ld</armgcc.linker.miscellaneous.LinkerFlags>
+  <armgcc.linker.miscellaneous.LinkerFlags>-Tsamd20e15_flash.ld</armgcc.linker.miscellaneous.LinkerFlags>
+  <armgcc.assembler.debugging.DebugLevel>Default (-g)</armgcc.assembler.debugging.DebugLevel>
   <armgcc.preprocessingassembler.general.IncludePaths>
     <ListValues>
       <Value>%24(ToolchainDir)\..\..\CMSIS_Atmel</Value>
@@ -97,6 +99,7 @@
       <Value>%24(ToolchainDir)\..\..\CMSIS_Atmel\Device\ATMEL\samd20\include</Value>
     </ListValues>
   </armgcc.preprocessingassembler.general.IncludePaths>
+  <armgcc.preprocessingassembler.debugging.DebugLevel>Default (-Wa,-g)</armgcc.preprocessingassembler.debugging.DebugLevel>
 </ArmGcc>
     </ToolchainSettings>
   </PropertyGroup>
@@ -136,7 +139,7 @@
     </ListValues>
   </armgcc.linker.libraries.LibrarySearchPaths>
   <armgcc.linker.optimization.GarbageCollectUnusedSections>True</armgcc.linker.optimization.GarbageCollectUnusedSections>
-  <armgcc.linker.miscellaneous.LinkerFlags>-Tsamd20e14_flash.ld</armgcc.linker.miscellaneous.LinkerFlags>
+  <armgcc.linker.miscellaneous.LinkerFlags>-Tsamd20e15_flash.ld</armgcc.linker.miscellaneous.LinkerFlags>
   <armgcc.assembler.debugging.DebugLevel>Default (-g)</armgcc.assembler.debugging.DebugLevel>
   <armgcc.preprocessingassembler.general.IncludePaths>
     <ListValues>
@@ -151,12 +154,6 @@
     </ToolchainSettings>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="ABATK2.c">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="ABATK2.h">
-      <SubType>compile</SubType>
-    </Compile>
     <Compile Include="cmsis\src\startup_samd20.c">
       <SubType>compile</SubType>
     </Compile>
@@ -235,18 +232,6 @@
     <Compile Include="Pinos.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="SerialOut.c">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="SerialOut.h">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="Wiegand.c">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="Wiegand.h">
-      <SubType>compile</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="cmsis\" />
@@ -254,10 +239,10 @@
     <Folder Include="cmsis\src\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="cmsis\linkerScripts\samd20e14_flash.ld">
+    <None Include="cmsis\linkerScripts\samd20e15_flash.ld">
       <SubType>compile</SubType>
     </None>
-    <None Include="cmsis\linkerScripts\samd20e14_sram.ld">
+    <None Include="cmsis\linkerScripts\samd20e15_sram.ld">
       <SubType>compile</SubType>
     </None>
   </ItemGroup>

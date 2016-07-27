@@ -1,65 +1,41 @@
 #include <asf.h>
+#include "SerialOut.h"
+#include "pinos.h"
 
-#include "helper.h"
-#define BUFFERSIZE 10	// Tamanho do buffer que armazena os dados do cartão em formato ASCII representando os caracteres hexadecimais
-
-static uint8_t _serial_tx_buff[BUFFERSIZE]; // Buffer de armazenamento de informação
-
-// Recebe os dados de informação do cartão e converte os valores binarios em caracteres ASCII hexadecimais preenchendo o buffer
-
-void usart_putchar(char caracter){
-	//TODO
-}
-
-static inline void Monta_Pacote_Serial (uint64_t val)
+void bitbang_putchar(uint8_t c)
 {
-	int8_t i;
-	
-	for(i=0; i<BUFFERSIZE; i++)
+	const int us_tbit = 48000000/9600;
+	int i;
+
+	ioport_set_pin_level(PIN_D0_TX_CLK,1);
+	delay_cycles(us_tbit);
+	for (i=0;i<8;i++)
 	{
-		_serial_tx_buff[i]= (val % 16);
-		
-		if(_serial_tx_buff[i] < 10)
-		{
-			_serial_tx_buff[i] += '0';
-		}
+		if ((c & (1 << i))!=0)
+		ioport_set_pin_level(PIN_D0_TX_CLK,0);
 		else
-		{
-			_serial_tx_buff[i] = ((_serial_tx_buff[i] - 10) + 'A');
-		}
+		ioport_set_pin_level(PIN_D0_TX_CLK,1);
 		
-		val /= 16;
+		delay_cycles(us_tbit);
 	}
+	ioport_set_pin_level(PIN_D0_TX_CLK,0);
+	delay_cycles(us_tbit);
 }
 
-// Envia os dados do cartão lido através da interface serial (USART/RS-232) do processador. Caracteres constantes (STX, ETX, etc) não
-// são colocados no buffer e são enviados separadamente.
-
-void Transmite_Cartao_Serial(uint64_t val)
+void bitbang_putstring(const char* string, int size)
 {
-	int8_t i;
-	
-	Monta_Pacote_Serial(val);
-	
-	usart_putchar(0x02);	// STX - Start of Text
-	for(i=BUFFERSIZE-1;i>=0;i--)
-	{
-		usart_putchar(_serial_tx_buff[i]);
-	}
-	usart_putchar(0x0D);	// CR - Carriage Return
-	usart_putchar(0x0A);	// LF - Line Feed
-	usart_putchar(0x03);	// ETX - End of Text
+	int i;
+
+	for (i=0;i<size;i++)
+		bitbang_putchar((uint8_t)string[i]);
 }
 
-//Recebe os dados de site e facility do cartão RFID e concatena em uma única variável para
-//tratamento pelas rotinas de envio. Caso o dado adquirido já possua as informações concatenadas
-//e sem paridade não é necessário utilizar esta função.
-
-uint64_t Monta_Dados_Serial (uint64_t num, int ver)
+void configure_usart(void)
 {
-	uint64_t card_data;
-	
-	card_data = (num | ((uint64_t)ver<<32));
-	
-	return card_data;
+	DEBUG_PUTSTRING("initializing USART\n\r");
+	ioport_set_pin_dir(PIN_D0_TX_CLK, IOPORT_DIR_OUTPUT);
+	ioport_set_pin_level(PIN_D0_TX_CLK,0);
+	DEBUG_PUTSTRING("USART Initialised\n\r");
 }
+
+

@@ -4,70 +4,92 @@
 #include "pinos.h"
 #include "delay.h"
 #include "RF_common.h"
+#include "ioport.h"
+#include "SerialOut.h"
+
+
+#undef ENABLE
 
 TIPO_OUTPUT tipo_output;
 
+struct tc_module tc1_module;
+struct tc_config tc1_config;
+
+struct tc_module tc5_module;
+struct tc_config tc5_config;
+
 //Esta função inicializa o TC1 WO[1] --> Pino do 125kHz da antena
 void Init125khz(void){
-	//Associa o pino de 125kHz ao TC1
-	PORT->Group[0].PINCFG[7].bit.PMUXEN = 1; //PA07
-	PORT->Group[0].PMUX[3].bit.PMUXO= 0x5; //Periférico F = TC2/WO[0]
-	
-	//Habilita o clock do TC1
-	PM->APBCMASK.reg |= PM_APBCMASK_TC1;
-	
-	//Reseta o TC1
-	TC1->COUNT16.CTRLA.bit.SWRST = 1;
-	while (TC1->COUNT16.CTRLA.bit.SWRST!=0);
-	
-	//Configura o TC1
-	TC1->COUNT16.CTRLA.reg = TC_CTRLA_WAVEGEN_MFRQ; //GCLK/1, não roda em STBY, MFRQ, COUNT16, Disable
-	TC1->COUNT16.CTRLBSET.reg = 0; //Count up infinitamente
-	TC1->COUNT16.CTRLC.reg = 0; //Sem capture/Compare e não inverte nenhuma saída
-	TC1->COUNT16.CC[0].reg = 31; //Valor para 8MHz é 32 (para 48MHz é 384/2)
-	
-	//Habilita o TC1
-	//TC1->COUNT16.CTRLA.bit.ENABLE = 1;
+	tc_reset(&tc1_module);
+	tc_get_config_defaults(&tc1_config);
+	tc1_config.wave_generation = TC_WAVE_GENERATION_MATCH_FREQ;
+	tc1_config.counter_size = TC_COUNTER_SIZE_16BIT;
+	tc1_config.counter_16_bit.compare_capture_channel[0] = 384/2 - 1;
+	tc1_config.pwm_channel[0].enabled = true;
+	tc1_config.pwm_channel[0].pin_out = PIN_PA07F_TC1_WO1;
+	tc1_config.pwm_channel[0].pin_mux = MUX_PA07F_TC1_WO1;
+	tc_init(&tc1_module, TC1, &tc1_config);
+	tc_enable(&tc1_module);
 }
 
-void buzzer_clock_init(void){
-	//Associa o pino do Buzzer ao TC5
-	PORT->Group[0].PINCFG[25].bit.PMUXEN = 1;
-	PORT->Group[0].PMUX[12].bit.PMUXO = 0x5; //Periférico F = TC5/WO[1]
-
-	//Habilita o clock do TC5
-	PM->APBCMASK.reg |= PM_APBCMASK_TC5;
-	
-	//Reseta o TC5
-	TC5->COUNT16.CTRLA.bit.SWRST = 1;
-	while (TC5->COUNT16.CTRLA.bit.SWRST!=0);
-	
-	//Configura o TC5
-	TC5->COUNT16.CTRLA.reg = TC_CTRLA_WAVEGEN_MFRQ; //GCLK/1, não roda em STBY, MFRQ, COUNT16, Disable
-	TC5->COUNT16.CTRLBSET.reg = 0; //Count up infinitamente
-	TC5->COUNT16.CTRLC.reg = 0; //Sem capture/Compare e não inverte nenhuma saída
-	TC5->COUNT16.CC[0].reg = 1000; ////Valor de topo do counter (aqui que alteramos a freq!!!!)
-	
-	//Não vamos habilitar o TC5 agora. Caso contrário o buzzer já começaria a tocar
-	//TC5->COUNT16.CTRLA.bit.ENABLE = 1;
+void buzzer_clock_init(void)
+{
+	tc_reset(&tc5_module);
+	tc_get_config_defaults(&tc5_config);
+	tc5_config.wave_generation = TC_WAVE_GENERATION_MATCH_FREQ;
+	tc5_config.counter_size = TC_COUNTER_SIZE_16BIT;
+	tc5_config.counter_16_bit.compare_capture_channel[0] = 12000 / 2 - 1;
+	tc5_config.pwm_channel[1].enabled = true;
+	tc5_config.pwm_channel[1].pin_out = PIN_PA25F_TC5_WO1;
+	tc5_config.pwm_channel[1].pin_mux = MUX_PA25F_TC5_WO1;
+	tc_init(&tc5_module, TC5, &tc5_config);
 }
 
 void buzz(uint32_t tempo){
-	/* Apita o buzzer em busy wait por ? segundo */
-	//TC5->COUNT16.CTRLA.bit.ENABLE = 1;
-	//delay_ms(tempo);
-	//TC5->COUNT16.CTRLA.bit.ENABLE = 0;
+	tc_enable(&tc5_module);
+	delay_ms(tempo);
+	tc_disable(&tc5_module);
 }
 
 void buzz_on(void)
 {
-	//TC5->COUNT16.CTRLA.bit.ENABLE = 1;
+	tc_enable(&tc5_module);
 }
 
 void buzz_off(void)
 {
-	//TC5->COUNT16.CTRLA.bit.ENABLE = 0;
+	tc_disable(&tc5_module);
 }
+
+static void pin_configure(void)
+{
+	ioport_init();
+	
+	ioport_set_pin_dir(PIN_ASK_IN, IOPORT_DIR_INPUT);
+	ioport_set_pin_dir(PIN_FSK_PSK_IN, IOPORT_DIR_INPUT);
+	
+	ioport_set_pin_dir(PIN_LED_GRN, IOPORT_DIR_OUTPUT);
+	ioport_set_pin_dir(PIN_LED_RED, IOPORT_DIR_OUTPUT);
+	
+	ioport_set_pin_dir(PIN_FSK_PSK_AC_IN, IOPORT_DIR_INPUT);
+	ioport_set_pin_dir(PIN_ASK_AC_IN, IOPORT_DIR_INPUT);
+	ioport_set_pin_dir(PIN_125KHZ, IOPORT_DIR_OUTPUT);
+	ioport_set_pin_dir(PIN_D0_TX_CLK, IOPORT_DIR_OUTPUT);
+	ioport_set_pin_dir(PIN_D1_DATA, IOPORT_DIR_OUTPUT);
+	ioport_set_pin_dir(PIN_CARD_PRES, IOPORT_DIR_OUTPUT);
+	ioport_set_pin_dir(PIN_LED_INPUT, IOPORT_DIR_INPUT);
+	ioport_set_pin_dir(PIN_MIFARE_RST, IOPORT_DIR_OUTPUT);
+	ioport_set_pin_dir(PIN_MS_BUZZ, IOPORT_DIR_INPUT);
+	ioport_set_pin_dir(PIN_MIFARE_SDA, IOPORT_DIR_INPUT);
+	ioport_set_pin_dir(PIN_MIFARE_SCL, IOPORT_DIR_OUTPUT);
+	ioport_set_pin_dir(PIN_BUZZ, IOPORT_DIR_OUTPUT);
+	
+	ioport_set_pin_level(PIN_LED_GRN,0);
+	ioport_set_pin_level(PIN_LED_GRN,1);
+	ioport_set_pin_level(PIN_LED_RED,0);
+	ioport_set_pin_level(PIN_LED_RED,1);
+}
+
 
 void ok_feedback(void){
 	/* Fornece feedback visual (led) e de áudio(buzzer) positivo*/
@@ -102,11 +124,30 @@ void led_off(void){
 	ioport_set_pin_level(PIN_LED_GRN,0);
 }
 
+void configure_wdt(void)
+{
+    /* Create a new configuration structure for the Watchdog settings and fill
+     * with the default module settings. */
+    struct wdt_conf config_wdt;
+    wdt_get_config_defaults(&config_wdt);
+    /* Set the Watchdog configuration settings */
+    config_wdt.always_on      = false;
+    config_wdt.clock_source   = GCLK_GENERATOR_1;
+    config_wdt.timeout_period = WDT_PERIOD_16384CLK;
+    /* Initialize and enable the Watchdog with the user settings */
+    wdt_set_config(&config_wdt);
+}
+
+
 void wdt_init(void)
 {
+	
+
+
+
 	PM->APBAMASK.reg |= PM_APBAMASK_WDT;
 	
-	//WDT->CTRL.bit.ALWAYSON=1;
+	WDT->CTRL.bit.ALWAYSON=1;
 	while (WDT->STATUS.reg & WDT_STATUS_SYNCBUSY);
 	WDT->CTRL.bit.WEN=0; //sem window
 	while (WDT->STATUS.reg & WDT_STATUS_SYNCBUSY);
@@ -114,7 +155,7 @@ void wdt_init(void)
 	while (WDT->STATUS.reg & WDT_STATUS_SYNCBUSY);
 	WDT->INTENCLR.reg = 0xFF;
 	while (WDT->STATUS.reg & WDT_STATUS_SYNCBUSY);
-	//WDT->CTRL.bit.ENABLE=1;
+	WDT->CTRL.bit.ENABLE=1;
 }
 
 void wdt_reset(void)
@@ -123,26 +164,25 @@ void wdt_reset(void)
 	WDT->CLEAR.reg=0xA5;
 }
 
-static void pin_configure(void)
-{
-	//ioport_set_pin_input(PIN_ASK_IN);
-	//ioport_set_pin_input(PIN_LED_INPUT);
-	//ioport_set_pin_input(PIN_MS_BUZZ);
-}
+
 
 void user_init(void){
-	/* Inicializa clock */
-	//ClockInit();
-	//Habilita IO Port
-	PM->APBBMASK.reg |= PM_APBBMASK_PORT;	
-	//Configura pinos
-	pin_configure();
 	//Inicializa delays
 	delay_init();
+	
+	//Configura USART
+	configure_usart();
+	
+	//Configure pinos
+	pin_configure();
+	
 	//Inicializa buzzer
 	buzzer_clock_init();
+	Init125khz();
+	
 	//Inicializa WDT
-	wdt_init();
+	//configure_wdt();
+	wdt_reset_count();
 }
 
 MODO_LEITOR avaliar_modo_leitor(void)
@@ -161,7 +201,9 @@ MODO_LEITOR avaliar_modo_leitor(void)
 
 void modo_leitor(void)
 {
-	uint16_t temp=*(volatile uint16_t *)USER_INFO_ADD;	
+#warning XXX
+	uint16_t temp=0;
+	//uint16_t temp=*(volatile uint16_t *)USER_INFO_ADD;	
 
 	switch(avaliar_modo_leitor())
 	{
@@ -222,7 +264,10 @@ TIPO_LEITOR ler_tipo_leitor(void)
 	//Liga clock do NVM
 	PM->APBBMASK.reg |= PM_APBBMASK_NVMCTRL;
 	
-	uint8_t tipo=(*(volatile uint16_t *)USER_INFO_ADD & 0xFF);
+#warning SSS
+	//uint8_t tipo=(*(volatile uint16_t *)USER_INFO_ADD & 0xFF);
+	uint8_t tipo='A';
+	
 	switch (tipo)
 	{
 	case 'A':

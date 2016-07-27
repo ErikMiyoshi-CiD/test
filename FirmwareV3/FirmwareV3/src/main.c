@@ -1,10 +1,10 @@
 #include <asf.h>
-
 #include "helper.h"
 #include "pinos.h"
 #include "RF_common.h"
 #include "RF_ASK.h"
 #include "RF_Mifare.h"
+#include "SerialOut.h"
 
 int main(void){		
 	//1 - Inicializa o sistema e os clocks
@@ -18,11 +18,13 @@ int main(void){
 	user_init();
 
 	modo_leitor();
+	wdt_reset_count();
 	
 	switch(ler_tipo_leitor())
 	{
 	case TIPO_ASK:
 		ASK_Init();
+		wdt_reset_count();
 		ASK_Run();
 		break;
 	case TIPO_FSK:
@@ -31,8 +33,9 @@ int main(void){
 		break;
 	case TIPO_MIFARE:
 		Mifare_Init();
+		wdt_reset_count();
 		Mifare_Run();
 		break;
 	}
-	NVIC_SystemReset(); //Se chegou aqui deu besteira
+	NVIC_SystemReset(); //Se chegou aqui deu besteira*/
 }

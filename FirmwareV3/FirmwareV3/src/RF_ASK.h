@@ -1,7 +1,9 @@
 #ifndef RF_ASK_H_
 #define RF_ASK_H_
 
-#define ASK_BUF_SIZE 128
+#define ASK_PERIODS 2
+#define ASK_BUF_COUNT 2
+#define ASK_BUF_SIZE 512
 
 typedef enum
 {

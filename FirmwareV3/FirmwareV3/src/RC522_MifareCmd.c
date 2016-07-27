@@ -69,9 +69,8 @@ typedef struct
 
 MfCmdInfo MInfo;
 MfCmdInfo *MpIsrInfo = 0;
-//ALBERT: Vamos usar um buffer que já temos, nada de reinventar a roda
-//unsigned char  SerBuffer[64];
-unsigned char  *SerBuffer=&buf[1][0];
+unsigned char  SerBuffer[64];
+//unsigned char  *SerBuffer=&buf[1][0];
 
 /*************************************************
 Function:       SetPowerDown
@@ -263,7 +262,7 @@ Parameter:
 Return:
      short      status of implement
 **************************************************/
-short  M522PcdCmd(unsigned char cmd, unsigned char *ExchangeBuf, MfCmdInfo  *info)
+static short  M522PcdCmd(unsigned char cmd, unsigned char *ExchangeBuf, MfCmdInfo  *info)
 {
     short         status    = STATUS_SUCCESS;
 

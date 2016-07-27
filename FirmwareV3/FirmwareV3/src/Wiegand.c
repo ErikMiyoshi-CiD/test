@@ -4,10 +4,11 @@
 #include "pinos.h"
 #include "delay.h"
 
+#include "Wiegand.h"
+
 #define WIE_NUMDIGITS		24  	// Número de bits de dados no frame Wiegand a ser transmitido
 #define DATA_PULSE_TIME		100		// Intervalo de tempo em que o pulso de dados é mantido em nível baixo - Unidade: microsegundos
 #define DATA_INTERVAL_TIME	2000	// Intervalo de tempo entre os pulsos de dados - Unidade: milisegundos
-
 
 static inline uint32_t Calcula_Paridade(uint32_t val) 
 {

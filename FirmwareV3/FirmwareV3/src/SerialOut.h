@@ -1,15 +1,12 @@
-//Como usar:
-//
-// 1 - Adquirir os dados do cartão lido.
-// 2 - Caso os valores de site code e facility code estejam separados, chamar a Monta_Dados_Serial() para concatená-los.
-// 3 - Utilizar a função Transmite_Cartao_Serial() com os dados concatenados anteriormente ou com os dado obtido do cartão
-//     caso este já venha unificado
-//
+#ifndef SERIAL_H_
+#define SERIAL_H_
 
-#ifndef SERIALOUT_H_
-#define SERIALOUT_H_
+#include <asf.h>
+#define DEBUG_PUTSTRING(x) bitbang_putstring(x,sizeof(x))
+#define DEBUG_PUTCHAR(x) bitbang_putchar(x)
 
-void Transmite_Cartao_Serial(uint64_t val);
-uint64_t Monta_Dados_Serial (uint64_t num, int ver);
+void bitbang_putchar(uint8_t c);
+void bitbang_putstring(const char* string, int size);
+void configure_usart(void);
 
-#endif /* SERIALOUT_H_ */
+#endif /* SERIAL_H_ */

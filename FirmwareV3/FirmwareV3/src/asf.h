@@ -74,6 +74,9 @@
 // From module: NVM - Non-Volatile Memory
 #include <nvm.h>
 
+// From module: PORT - GPIO Pin Control
+#include <port.h>
+
 // From module: Part identification macros
 #include <parts.h>
 
@@ -102,7 +105,11 @@
 // From module: SYSTEM - Reset Management for SAM D20/D21/R21/D09/D10/D11/DA0/DA1
 #include <reset.h>
 
-// From module: USART - Serial interface- SAM implementation for devices with only USART
-#include <serial.h>
+// From module: TC - Timer Counter (Callback APIs)
+#include <tc.h>
+#include <tc_interrupt.h>
+
+// From module: WDT - Watchdog Timer (Polled APIs)
+#include <wdt.h>
 
 #endif // ASF_H

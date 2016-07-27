@@ -17,6 +17,8 @@ typedef enum {
 	MODO_NORMAL	
 } MODO_LEITOR;
 
+void configure_wdt(void);
+
 extern TIPO_OUTPUT tipo_output;
 
 TIPO_LEITOR ler_tipo_leitor(void);

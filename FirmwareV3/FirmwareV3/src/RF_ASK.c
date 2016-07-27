@@ -5,10 +5,15 @@
 #include "RF_ASK.h"
 #include "Helper.h"
 #include "Output.h"
+#include "SerialOut.h"
 
-volatile uint8_t cur_buf;
-volatile uint8_t n_samples;
-volatile uint8_t semaforo_ask;
+static volatile uint8_t cur_buf;
+static volatile uint16_t n_samples;
+static volatile uint8_t semaforo_ask;
+
+static struct tc_module tc_instance;
+
+static uint8_t buf[ASK_BUF_COUNT][ASK_PERIODS][ASK_BUF_SIZE];
 
 static const int _row_good[32] = {
 	1, 0, 0, 1, 0, 1, 1, 0,
@@ -90,109 +95,137 @@ static void processa_resultado(uint64_t val)
 		// Erro Cartão "zero"
 		return;
 	}
+	
 	cospe_ask(val);
+		
+	return;
 }
 
-static int pulses=0;
-static uint64_t cartao=0;
-static uint64_t last_sig_in=0;
-static uint64_t sig_in=0;
-static int n_bits=0;
-
-static MANCHESTER_STATE _m_state = IDLE;
+static void TC3_callback(struct tc_module *const module_inst)
+{
+	uint8_t temp_pin=ioport_get_pin_level(PIN_ASK_IN);
+	if ( n_samples > (ASK_PERIODS*ASK_BUF_SIZE-1) ) 
+	{
+		semaforo_ask=1;
+		n_samples=0;
+		
+		cur_buf++;
+		if (cur_buf>1)
+			cur_buf=0;
+	}
+	buf[cur_buf][n_samples % ASK_PERIODS][n_samples/ASK_PERIODS]=temp_pin;
+	n_samples++;
+}
 
 void Init_Timer(void)
 {
-	//Habilita o clock do TC3
-	PM->APBCMASK.reg |= PM_APBCMASK_TC3;
-	
-	//Reseta o TC3
-	TC3->COUNT16.CTRLA.bit.SWRST = 1;
-	while (TC3->COUNT16.CTRLA.bit.SWRST!=0);
-	
-	//Configura o TC3
-	TC3->COUNT16.CTRLA.reg = TC_CTRLA_WAVEGEN_MFRQ; //GCLK/1, não roda em STBY, MFRQ, COUNT16, Disable
-	TC3->COUNT16.CTRLBSET.reg = 0; //Count up infinitamente
-	TC3->COUNT16.CTRLC.reg = 0; //Sem capture/Compare e não inverte nenhuma saída
-	TC3->COUNT16.CC[0].reg = 2047; //Valor para 8MHz é 2048 --> fsample = 3906.25Hz
-	
-	TC3->COUNT16.INTENSET.bit.OVF = 1; //Habilita OVF interrrupt
+	struct tc_config config_tc;
+    tc_get_config_defaults(&config_tc);
+	config_tc.wave_generation = TC_WAVE_GENERATION_MATCH_FREQ;
+    config_tc.counter_size = TC_COUNTER_SIZE_16BIT;
+	config_tc.clock_source = GCLK_GENERATOR_0;
+	config_tc.clock_prescaler = TC_CLOCK_PRESCALER_DIV1;
+    config_tc.counter_16_bit.compare_capture_channel[0] = 12288/2 - 1; // -> 3906.25 * 2Hz (pegaremos dois pontos deslocados de T/2!)
+    tc_init(&tc_instance, TC3, &config_tc);
+}
 
-	//Habilita o TC3
-	//TC3->COUNT16.CTRLA.bit.ENABLE = 1;
+static void configure_tc_callbacks(void)
+{
+	tc_register_callback(&tc_instance, TC3_callback, TC_CALLBACK_CC_CHANNEL0);
+	tc_enable_callback(&tc_instance, TC_CALLBACK_CC_CHANNEL0);
+	tc_enable(&tc_instance);
 }
 
 void ASK_Run(void)
 {
-	int i,j;
+	int pulses[ASK_PERIODS];
+	uint64_t cartao[ASK_PERIODS];
+	MANCHESTER_STATE _m_state[ASK_PERIODS];
+	uint64_t last_sig_in[ASK_PERIODS];
+	uint64_t sig_in[ASK_PERIODS];
+	int n_bits[ASK_PERIODS];
+	int i,j,k;
+	
+	for (i=0;i<ASK_PERIODS;i++)
+	{
+		pulses[i]=0;
+		cartao[i]=0;
+		_m_state[i] = IDLE;
+		last_sig_in[i]=0;
+		sig_in[i]=0;
+		n_bits[i]=0;	
+	}
 
 	while(1)
 	{
-		wdt_reset();
+		wdt_reset_count();
 		while(semaforo_ask==0);
 		semaforo_ask=0;
 
-		for (i=0;i<ASK_BUF_SIZE;i++)
+		for (j=0;j<ASK_PERIODS;j++)
 		{
-			if (cur_buf==0)
-				sig_in=buf[1][i];
-			else
-				sig_in=buf[0][i];
-
-			switch(_m_state)
+			for (i=0;i<ASK_BUF_SIZE;i++)
 			{
-			case IDLE:
-				if (sig_in == 0 && last_sig_in == 0)
-				_m_state = SYNCHING;
-				break;
-			case SYNCHING:
-				if (sig_in != last_sig_in) //Teve inversão
-				pulses++;
-				else //Não teve inversão
-				{
-					if (pulses >= 17) //Achamos sincronismo!
-					{
-						cartao = 0;
-						n_bits = 0;
-						for (j = 0; j < ((pulses + 1) / 2); j++)
-						{
-							n_bits++;
-							cartao = cartao << 1;
-							cartao = cartao | 1;
-						}
-						_m_state = DEMOD_TRANS;
-					}
-					pulses = 0;
-				}
-				break;
-			case DEMOD_WAIT:
-				_m_state = DEMOD_TRANS;
-				break;
-			case DEMOD_TRANS:
-				if (sig_in == last_sig_in) //não teve transição onde deveria
-				_m_state = IDLE;
+				if (cur_buf==0)
+					sig_in[j]=buf[1][j][i];
 				else
-				{
-					cartao = cartao << 1;
-					if (sig_in == 1)
-					cartao = cartao | 1;
-					else
-					cartao = cartao | 0;
-					_m_state = DEMOD_WAIT;
-					n_bits++;
+					sig_in[j]=buf[0][j][i];
 
-					if (n_bits == 64)
-					{
-						processa_resultado(cartao);
-						_m_state = IDLE;
-					}
+				switch(_m_state[j])
+				{
+					case IDLE:
+						if (sig_in[j] == 0 && last_sig_in[j] == 0)
+							_m_state[j] = SYNCHING;
+						break;
+					case SYNCHING:
+						if (sig_in[j] != last_sig_in[j]) //Teve inversão
+							pulses[j]++;
+						else //Não teve inversão
+						{
+							if (pulses[j] >= 17) //Achamos sincronismo!
+							{
+								cartao[j] = 0;
+								n_bits[j] = 0;
+								for (k = 0; k < ((pulses[j] + 1) / 2); k++)
+								{
+									n_bits[j]++;
+									cartao[j] = cartao[j] << 1;
+									cartao[j] = cartao[j] | 1;
+								}
+								_m_state[j] = DEMOD_TRANS;
+							}
+							pulses[j] = 0;
+						}
+						break;
+					case DEMOD_WAIT:
+						_m_state[j] = DEMOD_TRANS;
+						break;
+					case DEMOD_TRANS:
+						if (sig_in[j] == last_sig_in[j]) //não teve transição onde deveria
+							_m_state[j] = IDLE;
+						else
+						{
+							cartao[j] = cartao[j] << 1;
+							if (sig_in[j] == 1)
+								cartao[j] = cartao[j] | 1;
+							else
+								cartao[j] = cartao[j] | 0;
+							_m_state[j] = DEMOD_WAIT;
+							n_bits[j]++;
+
+							if (n_bits[j] == 64)
+							{
+								processa_resultado(cartao[j]);
+								_m_state[j] = IDLE;
+							}
+						}
+						break;
+					default:
+						_m_state[j] = IDLE;
+						break;
 				}
-				break;
-				default:
-				_m_state = IDLE;
-				break;
+				last_sig_in[j]=sig_in[j];
 			}
-			last_sig_in=sig_in;
 		}	
 	}
 }
@@ -203,27 +236,7 @@ void ASK_Init(void)
 	n_samples=0;
 	semaforo_ask=0;
 	
-	Init125khz();
-	NVIC_EnableIRQ(16); //Habilita TC3. Pagina 25 do datasheet
 	Init_Timer();
+	configure_tc_callbacks();
 }
 
-uint8_t temp_pin;
-void TC3_Handler(void)
-{
-	TC3->COUNT16.INTFLAG.bit.OVF=1;
-	temp_pin=ioport_get_pin_level(PIN_ASK_IN);
-	
-	if (n_samples > 127)
-	{
-		semaforo_ask=1;
-		n_samples=0;
-		
-		cur_buf++;
-		if (cur_buf>1)
-			cur_buf=0;
-	}
-	buf[cur_buf][n_samples]=temp_pin;
-	
-	n_samples++;
-}

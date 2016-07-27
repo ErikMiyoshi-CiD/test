@@ -118,6 +118,7 @@ extern void Rc522Init(void);
 
 void Rc522RFReset(unsigned char ms);
 
+
 /*************************************************
 Function:       ChangeRc522BaudRate
 Description:

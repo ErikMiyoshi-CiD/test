@@ -13,13 +13,13 @@
 TIPO_OUTPUT tipo_output;
 
 struct tc_module tc1_module;
-struct tc_config tc1_config;
-
 struct tc_module tc5_module;
-struct tc_config tc5_config;
+static uint8_t user_data_page[NVMCTRL_PAGE_SIZE];
 
 //Esta função inicializa o TC1 WO[1] --> Pino do 125kHz da antena
 void Init125khz(void){
+	struct tc_config tc1_config;
+	
 	tc_reset(&tc1_module);
 	tc_get_config_defaults(&tc1_config);
 	tc1_config.wave_generation = TC_WAVE_GENERATION_MATCH_FREQ;
@@ -34,6 +34,8 @@ void Init125khz(void){
 
 void buzzer_clock_init(void)
 {
+	struct tc_config tc5_config;
+	
 	tc_reset(&tc5_module);
 	tc_get_config_defaults(&tc5_config);
 	tc5_config.wave_generation = TC_WAVE_GENERATION_MATCH_FREQ;
@@ -83,16 +85,10 @@ static void pin_configure(void)
 	ioport_set_pin_dir(PIN_MIFARE_SDA, IOPORT_DIR_INPUT);
 	ioport_set_pin_dir(PIN_MIFARE_SCL, IOPORT_DIR_OUTPUT);
 	ioport_set_pin_dir(PIN_BUZZ, IOPORT_DIR_OUTPUT);
-	
-	ioport_set_pin_level(PIN_LED_GRN,0);
-	ioport_set_pin_level(PIN_LED_GRN,1);
-	ioport_set_pin_level(PIN_LED_RED,0);
-	ioport_set_pin_level(PIN_LED_RED,1);
 }
 
 
 void ok_feedback(void){
-	/* Fornece feedback visual (led) e de áudio(buzzer) positivo*/
 	ioport_set_pin_level(PIN_LED_RED,0);
 	ioport_set_pin_level(PIN_LED_GRN,1);
 	buzz(300);
@@ -124,7 +120,7 @@ void led_off(void){
 	ioport_set_pin_level(PIN_LED_GRN,0);
 }
 
-void configure_wdt(void)
+static void configure_wdt(void)
 {
     /* Create a new configuration structure for the Watchdog settings and fill
      * with the default module settings. */
@@ -138,50 +134,37 @@ void configure_wdt(void)
     wdt_set_config(&config_wdt);
 }
 
-
-void wdt_init(void)
+static void nvm_init(void)
 {
-	
-
-
-
-	PM->APBAMASK.reg |= PM_APBAMASK_WDT;
-	
-	WDT->CTRL.bit.ALWAYSON=1;
-	while (WDT->STATUS.reg & WDT_STATUS_SYNCBUSY);
-	WDT->CTRL.bit.WEN=0; //sem window
-	while (WDT->STATUS.reg & WDT_STATUS_SYNCBUSY);
-	WDT->CONFIG.bit.PER=0x9; //4s ou explode!
-	while (WDT->STATUS.reg & WDT_STATUS_SYNCBUSY);
-	WDT->INTENCLR.reg = 0xFF;
-	while (WDT->STATUS.reg & WDT_STATUS_SYNCBUSY);
-	WDT->CTRL.bit.ENABLE=1;
+	struct nvm_config config_nvm;
+	nvm_get_config_defaults(&config_nvm);
+	nvm_set_config(&config_nvm);
 }
-
-void wdt_reset(void)
-{
-	while (WDT->STATUS.reg & WDT_STATUS_SYNCBUSY);
-	WDT->CLEAR.reg=0xA5;
-}
-
-
 
 void user_init(void){
+	//Inicializa WDT
+	configure_wdt();
+	wdt_reset_count();
+	
 	//Inicializa delays
 	delay_init();
+	wdt_reset_count();
 	
 	//Configura USART
 	configure_usart();
+	wdt_reset_count();
 	
 	//Configure pinos
 	pin_configure();
+	wdt_reset_count();
 	
 	//Inicializa buzzer
 	buzzer_clock_init();
-	Init125khz();
+	wdt_reset_count();
 	
-	//Inicializa WDT
-	//configure_wdt();
+	//Inicializa NVM
+	nvm_init();
+	
 	wdt_reset_count();
 }
 
@@ -202,8 +185,9 @@ MODO_LEITOR avaliar_modo_leitor(void)
 void modo_leitor(void)
 {
 #warning XXX
-	uint16_t temp=0;
-	//uint16_t temp=*(volatile uint16_t *)USER_INFO_ADD;	
+	//uint16_t temp=0;
+	uint16_t temp=*(volatile uint16_t *)USER_INFO_ADD;	
+	temp=0;
 
 	switch(avaliar_modo_leitor())
 	{
@@ -219,13 +203,13 @@ void modo_leitor(void)
 			if (ioport_get_pin_level(PIN_LED_INPUT)==1)
 			{
 				tipo_output=OUTPUT_WIEGAND;	
-				temp |= 'W' << 8;
+				temp |= ((uint16_t)'W') << 8;
 				led_green();	
 			}
 			else
 			{
 				tipo_output=OUTPUT_ABATRACK;
-				temp |= 'A' << 8;
+				temp |= ((uint16_t)'A') << 8;
 				led_yellow();
 			}
 			programa_config(temp);
@@ -261,9 +245,6 @@ void programa_config (uint16_t dados)
 
 TIPO_LEITOR ler_tipo_leitor(void)
 {
-	//Liga clock do NVM
-	PM->APBBMASK.reg |= PM_APBBMASK_NVMCTRL;
-	
 #warning SSS
 	//uint8_t tipo=(*(volatile uint16_t *)USER_INFO_ADD & 0xFF);
 	uint8_t tipo='A';

@@ -160,6 +160,7 @@ void ASK_Run(void)
 	{
 		wdt_reset_count();
 		while(semaforo_ask==0);
+		wdt_reset_count();
 		semaforo_ask=0;
 
 		for (j=0;j<ASK_PERIODS;j++)
@@ -232,11 +233,16 @@ void ASK_Run(void)
 
 void ASK_Init(void)
 {
+	wdt_reset_count();
+	
 	cur_buf=0;
 	n_samples=0;
 	semaforo_ask=0;
 	
+	Init125khz();
 	Init_Timer();
 	configure_tc_callbacks();
+	
+	wdt_reset_count();
 }
 

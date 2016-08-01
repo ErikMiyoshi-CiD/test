@@ -18,8 +18,7 @@ int main(void){
 	user_init();
 
 	modo_leitor();
-	wdt_reset_count();
-	
+		
 	switch(ler_tipo_leitor())
 	{
 	case TIPO_ASK:

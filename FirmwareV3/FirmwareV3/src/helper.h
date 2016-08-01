@@ -17,8 +17,6 @@ typedef enum {
 	MODO_NORMAL	
 } MODO_LEITOR;
 
-void configure_wdt(void);
-
 extern TIPO_OUTPUT tipo_output;
 
 TIPO_LEITOR ler_tipo_leitor(void);
@@ -37,7 +35,5 @@ void led_red(void);
 void led_yellow(void);
 void led_off(void);
 void programa_config (uint16_t dados);
-void wdt_init(void);
-void wdt_reset(void);
 
 #endif

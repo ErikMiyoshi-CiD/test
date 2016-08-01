@@ -93,15 +93,7 @@ void Mifare_Init(void)
 {
 	mifare_i2c_init();
 	mifare_reset();
-	
-/*	
-	while(1)
-	{
-		delay_ms(100);
-		RcGetReg(0x1);		
-	}
-	*/
-	
+		
 	Rc522Init();
 }
 
@@ -109,7 +101,7 @@ void Mifare_Run(void)
 {
 	while (1)
 	{
-		wdt_reset();
 		mifare_activate_card();
+		wdt_reset_count();
 	}
 }

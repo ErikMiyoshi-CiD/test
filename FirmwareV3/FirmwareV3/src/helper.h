@@ -7,6 +7,17 @@
 
 #define USER_INFO_ADD 0x3F00
 
+#define USER_INFO_POS_RFID 0
+#define USER_INFO_POS_OUTP 1
+
+#define USER_INFO_WIE_OUTP 'W'
+#define USER_INFO_ABA_OUTP 'A'
+
+#define USER_INFO_ASK_RFID 'A'
+#define USER_INFO_FSK_RFID 'F'
+#define USER_INFO_PSK_RFID 'P'
+#define USER_INFO_MIF_RFID 'M'
+
 typedef enum {
 	OUTPUT_WIEGAND,
 	OUTPUT_ABATRACK

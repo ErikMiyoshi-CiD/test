@@ -21,20 +21,21 @@ int main(void){
 		
 	switch(ler_tipo_leitor())
 	{
-	case TIPO_ASK:
-		ASK_Init();
-		wdt_reset_count();
-		ASK_Run();
-		break;
-	case TIPO_FSK:
-		break;
-	case TIPO_PSK:
-		break;
-	case TIPO_MIFARE:
-		Mifare_Init();
-		wdt_reset_count();
-		Mifare_Run();
+		case TIPO_ASK:
+			ASK_Init();
+			wdt_reset_count();
+			ASK_Run();
+			break;
+		case TIPO_FSK:
+			break;
+		case TIPO_PSK:
+			break;
+		case TIPO_MIFARE:
+			Mifare_Init();
+			wdt_reset_count();
+			Mifare_Run();
 		break;
 	}
+	
 	NVIC_SystemReset(); //Se chegou aqui deu besteira*/
 }

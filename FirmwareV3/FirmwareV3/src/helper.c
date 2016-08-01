@@ -7,14 +7,59 @@
 #include "ioport.h"
 #include "SerialOut.h"
 
-
-#undef ENABLE
-
 TIPO_OUTPUT tipo_output;
 
 struct tc_module tc1_module;
 struct tc_module tc5_module;
 static uint8_t user_data_page[NVMCTRL_PAGE_SIZE];
+
+static void ReadUserPage(void) {
+	enum status_code error_code;
+	
+	do 
+	{
+		error_code = nvm_read_buffer(USER_INFO_ADD,user_data_page,NVMCTRL_PAGE_SIZE);
+	} while (error_code == STATUS_BUSY);	
+	wdt_reset_count();
+}
+
+static void WriteUserPage(void) {	
+	enum status_code error_code;
+	
+	do
+	{
+		error_code = nvm_erase_row(USER_INFO_ADD);
+	} while (error_code == STATUS_BUSY);
+	wdt_reset_count();	
+	
+	do
+	{
+		error_code = nvm_write_buffer(USER_INFO_ADD,user_data_page,NVMCTRL_PAGE_SIZE);
+	} while (error_code == STATUS_BUSY);
+	wdt_reset_count();
+}
+
+static void WriteOUTP(uint8_t outp) {
+	ReadUserPage();
+	user_data_page[USER_INFO_POS_OUTP]=outp;
+	WriteUserPage();
+}
+
+static void WriteRFID(uint8_t rfid) {
+	ReadUserPage();
+	user_data_page[USER_INFO_POS_RFID]=rfid;
+	WriteUserPage();
+}
+
+static uint8_t ReadRFID(void) {
+	ReadUserPage();
+	return user_data_page[USER_INFO_POS_RFID];
+}
+
+static uint8_t ReadOUTP(void) {
+	ReadUserPage();
+	return user_data_page[USER_INFO_POS_OUTP];
+}
 
 //Esta função inicializa o TC1 WO[1] --> Pino do 125kHz da antena
 void Init125khz(void){
@@ -137,8 +182,23 @@ static void configure_wdt(void)
 static void nvm_init(void)
 {
 	struct nvm_config config_nvm;
+	int i;
+	
 	nvm_get_config_defaults(&config_nvm);
+	config_nvm.manual_page_write = false;
 	nvm_set_config(&config_nvm);
+	
+	ReadUserPage();
+	for (i=0;i<NVMCTRL_PAGE_SIZE;i++)
+		if (user_data_page[i]!=0xff)
+			break;
+		
+	if (i==NVMCTRL_PAGE_SIZE)
+	{
+		DEBUG_PUTSTRING("Memoria zerada!\r\n");
+		WriteOUTP(USER_INFO_WIE_OUTP);
+		WriteRFID(USER_INFO_ASK_RFID);
+	}
 }
 
 void user_init(void){
@@ -150,9 +210,11 @@ void user_init(void){
 	delay_init();
 	wdt_reset_count();
 	
+#if SERIAL_DEBUG
 	//Configura USART
 	configure_usart();
 	wdt_reset_count();
+#endif
 	
 	//Configure pinos
 	pin_configure();
@@ -164,7 +226,6 @@ void user_init(void){
 	
 	//Inicializa NVM
 	nvm_init();
-	
 	wdt_reset_count();
 }
 
@@ -184,83 +245,59 @@ MODO_LEITOR avaliar_modo_leitor(void)
 
 void modo_leitor(void)
 {
-#warning XXX
-	//uint16_t temp=0;
-	uint16_t temp=*(volatile uint16_t *)USER_INFO_ADD;	
-	temp=0;
-
 	switch(avaliar_modo_leitor())
 	{
 		case MODO_PROGRAMACAO:
-			temp = temp & 0xFF; //limpa o byte superior
 			for (uint8_t i=0;i<5;i++)
 			{
-				led_red();
-				delay_ms(300);
 				led_green();
+				delay_ms(300);
+				led_red();
 				buzz(300);
 			}
 			if (ioport_get_pin_level(PIN_LED_INPUT)==1)
 			{
-				tipo_output=OUTPUT_WIEGAND;	
-				temp |= ((uint16_t)'W') << 8;
+				WriteOUTP(USER_INFO_WIE_OUTP);
 				led_green();	
 			}
 			else
 			{
-				tipo_output=OUTPUT_ABATRACK;
-				temp |= ((uint16_t)'A') << 8;
+				WriteOUTP(USER_INFO_ABA_OUTP);
 				led_yellow();
 			}
-			programa_config(temp);
 			while(1); //Espera o cara desligar
 			break;
 		case MODO_NORMAL:
-			if ((temp & 0xFF00) >> 8 == 'A')
+			if (USER_INFO_ABA_OUTP == ReadOUTP()) {
 				tipo_output=OUTPUT_ABATRACK;
-			else
+				ioport_set_pin_level(PIN_D0_TX_CLK,1);
+				ioport_set_pin_level(PIN_D1_DATA,1);
+			}
+			else {
 				tipo_output=OUTPUT_WIEGAND;
+				ioport_set_pin_level(PIN_D0_TX_CLK,1);
+				ioport_set_pin_level(PIN_D1_DATA,1);
+			}
 			led_green();
 			buzz(500);
 			led_idle();
-		break;
+			break;
 	}
-}
-
-void programa_config (uint16_t dados)
-{
-		NVMCTRL->ADDR.reg=USER_INFO_ADD/4;
-		NVMCTRL->CTRLA.reg = NVMCTRL_CTRLA_CMD_ER | NVMCTRL_CTRLA_CMDEX_KEY;
-		while (NVMCTRL->INTFLAG.bit.READY==0);
-		
-		NVMCTRL->CTRLA.reg = NVMCTRL_CTRLA_CMD_PBC | NVMCTRL_CTRLA_CMDEX_KEY;
-		while (NVMCTRL->INTFLAG.bit.READY==0);
-		
-		NVMCTRL->ADDR.reg=USER_INFO_ADD;
-		*(volatile uint16_t *)USER_INFO_ADD=dados;
-		
-		NVMCTRL->CTRLA.reg = NVMCTRL_CTRLA_CMD_WP | NVMCTRL_CTRLA_CMDEX_KEY;
-		while (NVMCTRL->INTFLAG.bit.READY==0);
 }
 
 TIPO_LEITOR ler_tipo_leitor(void)
 {
-#warning SSS
-	//uint8_t tipo=(*(volatile uint16_t *)USER_INFO_ADD & 0xFF);
-	uint8_t tipo='A';
-	
-	switch (tipo)
+	switch (ReadRFID())
 	{
-	case 'A':
+	case USER_INFO_ASK_RFID:
 		return TIPO_ASK;
-	case 'F':
+	case USER_INFO_FSK_RFID:
 		return TIPO_FSK;
-	case 'P':
+	case USER_INFO_PSK_RFID:
 		return TIPO_PSK;
-	case 'M':
+	case USER_INFO_MIF_RFID:
 		return TIPO_MIFARE;
-	default: //nunca foi programado
-		programa_config(((uint16_t)'W' << 8) + 'A');
+	default:
 		return TIPO_ASK;
 	}
 }

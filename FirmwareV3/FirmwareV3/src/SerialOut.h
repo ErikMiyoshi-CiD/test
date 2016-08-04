@@ -3,7 +3,7 @@
 
 #include <asf.h>
 
-#define SERIAL_DEBUG 1
+#define SERIAL_DEBUG 0
 
 #if SERIAL_DEBUG
 #define DEBUG_PUTSTRING(x) bitbang_putstring(x,sizeof(x))

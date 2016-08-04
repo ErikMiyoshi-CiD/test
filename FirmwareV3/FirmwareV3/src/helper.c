@@ -112,24 +112,41 @@ static void pin_configure(void)
 {
 	ioport_init();
 	
-	ioport_set_pin_dir(PIN_ASK_IN, IOPORT_DIR_INPUT);
-	ioport_set_pin_dir(PIN_FSK_PSK_IN, IOPORT_DIR_INPUT);
+	ioport_set_pin_dir(PIN_ASK_IN,        IOPORT_DIR_INPUT);
+	ioport_set_pin_mode(PIN_ASK_IN,0);
+	ioport_set_pin_dir(PIN_FSK_PSK_IN,    IOPORT_DIR_INPUT);
+	ioport_set_pin_mode(PIN_FSK_PSK_IN,0);
 	
-	ioport_set_pin_dir(PIN_LED_GRN, IOPORT_DIR_OUTPUT);
-	ioport_set_pin_dir(PIN_LED_RED, IOPORT_DIR_OUTPUT);
+	ioport_set_pin_dir(PIN_LED_GRN,       IOPORT_DIR_OUTPUT);
+	ioport_set_pin_dir(PIN_LED_RED,       IOPORT_DIR_OUTPUT);
 	
 	ioport_set_pin_dir(PIN_FSK_PSK_AC_IN, IOPORT_DIR_INPUT);
-	ioport_set_pin_dir(PIN_ASK_AC_IN, IOPORT_DIR_INPUT);
-	ioport_set_pin_dir(PIN_125KHZ, IOPORT_DIR_OUTPUT);
-	ioport_set_pin_dir(PIN_D0_TX_CLK, IOPORT_DIR_OUTPUT);
-	ioport_set_pin_dir(PIN_D1_DATA, IOPORT_DIR_OUTPUT);
-	ioport_set_pin_dir(PIN_CARD_PRES, IOPORT_DIR_OUTPUT);
+	ioport_set_pin_mode(PIN_FSK_PSK_AC_IN,0);
+	ioport_set_pin_dir(PIN_ASK_AC_IN,     IOPORT_DIR_INPUT);
+	ioport_set_pin_mode(PIN_ASK_AC_IN,0);
+	
+	ioport_set_pin_dir(PIN_125KHZ,        IOPORT_DIR_OUTPUT);
+	ioport_set_pin_dir(PIN_D0_TX_CLK,     IOPORT_DIR_OUTPUT);
+	ioport_set_pin_dir(PIN_D1_DATA,       IOPORT_DIR_OUTPUT);
+	ioport_set_pin_dir(PIN_CARD_PRES,     IOPORT_DIR_OUTPUT);
+	
+	//Led inpurt sem pull-up or down
 	ioport_set_pin_dir(PIN_LED_INPUT, IOPORT_DIR_INPUT);
-	ioport_set_pin_dir(PIN_MIFARE_RST, IOPORT_DIR_OUTPUT);
+	ioport_set_pin_mode(PIN_LED_INPUT,0);
+	
+	//Mode select sem pull-up or down
 	ioport_set_pin_dir(PIN_MS_BUZZ, IOPORT_DIR_INPUT);
-	ioport_set_pin_dir(PIN_MIFARE_SDA, IOPORT_DIR_INPUT);
+	ioport_set_pin_mode(PIN_MS_BUZZ,0);
+	
+	//Mifare
+	ioport_set_pin_dir(PIN_MIFARE_RST, IOPORT_DIR_OUTPUT);
 	ioport_set_pin_dir(PIN_MIFARE_SCL, IOPORT_DIR_OUTPUT);
-	ioport_set_pin_dir(PIN_BUZZ, IOPORT_DIR_OUTPUT);
+	ioport_set_pin_dir(PIN_MIFARE_SDA, IOPORT_DIR_INPUT);
+	ioport_set_pin_mode(PIN_MIFARE_SDA,0);
+	
+	//Buzzer será reconfigurado na inicialização
+	ioport_set_pin_dir(PIN_BUZZ, IOPORT_DIR_INPUT);
+	ioport_set_pin_mode(PIN_BUZZ,0);
 }
 
 
@@ -202,12 +219,12 @@ static void nvm_init(void)
 }
 
 void user_init(void){
-	//Inicializa WDT
-	configure_wdt();
-	wdt_reset_count();
-	
 	//Inicializa delays
 	delay_init();
+	wdt_reset_count();
+	
+	//Inicializa WDT
+	configure_wdt();
 	wdt_reset_count();
 	
 #if SERIAL_DEBUG
@@ -231,15 +248,20 @@ void user_init(void){
 
 MODO_LEITOR avaliar_modo_leitor(void)
 {
-	//Se estivermos em modo programação, o pino 
-	for (uint8_t i=0;i<16;i++)
+	int i, val;
+	
+	for (i=0;i<16;i++)
 	{
-		int val=(i & 1);
+		val=i % 2;
 		ioport_set_pin_level(PIN_D0_TX_CLK,val);
-		delay_us(50);
-		if (ioport_get_pin_level(PIN_MS_BUZZ) == val) //D0 tem inversor
+		delay_ms(10);
+			
+		if (ioport_get_pin_level(PIN_MS_BUZZ) == val) //D0 tem inversor 
+		{
 			return MODO_NORMAL;
+		}
 	}
+	
 	return MODO_PROGRAMACAO;
 }
 
@@ -265,21 +287,23 @@ void modo_leitor(void)
 				WriteOUTP(USER_INFO_ABA_OUTP);
 				led_yellow();
 			}
-			while(1); //Espera o cara desligar
+			while(1) {
+				wdt_reset_count(); //Espera o cara desligar
+			}
 			break;
 		case MODO_NORMAL:
 			if (USER_INFO_ABA_OUTP == ReadOUTP()) {
 				tipo_output=OUTPUT_ABATRACK;
-				ioport_set_pin_level(PIN_D0_TX_CLK,1);
-				ioport_set_pin_level(PIN_D1_DATA,1);
+				ioport_set_pin_level(PIN_D0_TX_CLK,0); //inverted logic
+				ioport_set_pin_level(PIN_D1_DATA,0); //inverted logic
 			}
 			else {
 				tipo_output=OUTPUT_WIEGAND;
-				ioport_set_pin_level(PIN_D0_TX_CLK,1);
-				ioport_set_pin_level(PIN_D1_DATA,1);
+				ioport_set_pin_level(PIN_D0_TX_CLK,0);//inverted logic
+				ioport_set_pin_level(PIN_D1_DATA,0);//inverted logic
 			}
 			led_green();
-			buzz(500);
+			buzz(250);
 			led_idle();
 			break;
 	}

@@ -150,6 +150,8 @@ Parameter:
 Return:
      NONE
 **************************************************/
+volatile uint8_t tempds;
+
 void Rc522Init(void)
 {
     unsigned char RegVal;
@@ -157,6 +159,12 @@ void Rc522Init(void)
     RcSetReg(RC522_REG_COMMAND, 0x0F); /*reset the RC522*/
 
     RcSetReg(RC522_REG_TXASK, 0x40); /*force to 100% ASK*/
+
+	RcSetReg(RC522_REG_TRELOADHI,0xAA);
+
+	tempds=1;
+	tempds=RcGetReg(RC522_REG_TRELOADHI); 
+	tempds=0;
 
     /* disable Crypto1 bit*/
     RcModifyReg(RC522_REG_STATUS2, 0, RC522_BIT_CRYPTO1ON);

@@ -37,7 +37,7 @@
         \param[in]  RegVal        The value to be writen
         \brief Write data to register of RC522.
      */
-    void RcSetReg(unsigned char RegAddr, unsigned char RegVal);
+    void RcSetReg(uint8_t RegAddr, uint8_t RegVal);
     
      /*************************************************
      Function:       RcGetReg

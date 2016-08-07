@@ -190,8 +190,8 @@ static void configure_wdt(void)
     wdt_get_config_defaults(&config_wdt);
     /* Set the Watchdog configuration settings */
     config_wdt.always_on      = false;
-    config_wdt.clock_source   = GCLK_GENERATOR_1;
-    config_wdt.timeout_period = WDT_PERIOD_16384CLK;
+    config_wdt.clock_source   = GCLK_GENERATOR_2; //RTC
+    config_wdt.timeout_period = WDT_PERIOD_4096CLK; //4s = reset
     /* Initialize and enable the Watchdog with the user settings */
     wdt_set_config(&config_wdt);
 }
@@ -214,7 +214,7 @@ static void nvm_init(void)
 	{
 		DEBUG_PUTSTRING("Memoria zerada!\r\n");
 		WriteOUTP(USER_INFO_WIE_OUTP);
-		WriteRFID(USER_INFO_ASK_RFID);
+		WriteRFID(USER_INFO_MIF_RFID);
 	}
 }
 
@@ -224,8 +224,8 @@ void user_init(void){
 	wdt_reset_count();
 	
 	//Inicializa WDT
-	configure_wdt();
-	wdt_reset_count();
+	//configure_wdt();
+	//wdt_reset_count();
 	
 #if SERIAL_DEBUG
 	//Configura USART

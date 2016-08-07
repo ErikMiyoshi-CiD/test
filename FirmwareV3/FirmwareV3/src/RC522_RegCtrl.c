@@ -17,25 +17,18 @@ None
 
 volatile int mmm;
 
-void RcSetReg(unsigned char RegAddr, unsigned char RegVal)
+void RcSetReg(uint8_t RegAddr, uint8_t RegVal)
 {
-	mifare_i2c_wait_for_bus();
-	while (SERCOM3->I2CM.STATUS.reg & SERCOM_I2CM_STATUS_SYNCBUSY);
-	/* Set address and direction bit. Will send start command on bus. */
-	SERCOM3->I2CM.ADDR.reg = (I2C_ADDRESS << 1) | _I2C_TRANSFER_WRITE;	
-	/* Wait for response on bus. */
-	mifare_i2c_wait_for_bus();	
-	mifare_i2c_master_address_response();
-	while (SERCOM3->I2CM.STATUS.reg & SERCOM_I2CM_STATUS_SYNCBUSY);
-	SERCOM3->I2CM.DATA.reg = RegAddr;
-	mifare_i2c_wait_for_bus();	
-	while (SERCOM3->I2CM.STATUS.reg & SERCOM_I2CM_STATUS_SYNCBUSY);
-	SERCOM3->I2CM.DATA.reg = RegVal;
-	mifare_i2c_wait_for_bus();
-	/* Stop command */
-	while (SERCOM3->I2CM.STATUS.reg & SERCOM_I2CM_STATUS_SYNCBUSY);
-	SERCOM3->I2CM.CTRLB.reg |= SERCOM_I2CM_CTRLB_CMD(3);
-	while (SERCOM3->I2CM.STATUS.reg & SERCOM_I2CM_STATUS_SYNCBUSY);
+	struct i2c_master_packet p;
+	uint8_t data[2] = {RegAddr,RegVal};
+	
+	p.address=I2C_ADDRESS;
+	p.data = data;
+	p.data_length = 2;
+	p.ten_bit_address=false;
+	p.high_speed=false;
+	
+	i2c_master_write_packet_wait(&i2c_master_instance,&p);
 }
 
 /*************************************************
@@ -49,39 +42,26 @@ The value of the specify register
  **************************************************/
 unsigned char RcGetReg(unsigned char RegAddr)
 {
-	uint8_t dado;
+	struct i2c_master_packet write_p;
+	struct i2c_master_packet read_p;
+	uint8_t read_data;
 	
-	mifare_i2c_wait_for_bus();
-	while (SERCOM3->I2CM.STATUS.reg & SERCOM_I2CM_STATUS_SYNCBUSY);
-	/* Set address and direction bit. Will send start command on bus. */
-	SERCOM3->I2CM.ADDR.reg = (I2C_ADDRESS << 1) | _I2C_TRANSFER_WRITE;	
-	/* Wait for response on bus. */
-	mifare_i2c_wait_for_bus();	
-	mifare_i2c_master_address_response();
-	while (SERCOM3->I2CM.STATUS.reg & SERCOM_I2CM_STATUS_SYNCBUSY);
-	mifare_i2c_wait_for_bus();	
-	SERCOM3->I2CM.DATA.reg = RegAddr;
-	mifare_i2c_wait_for_bus();
-	/* Stop command */
-	while (SERCOM3->I2CM.STATUS.reg & SERCOM_I2CM_STATUS_SYNCBUSY);
-	SERCOM3->I2CM.CTRLB.reg |= SERCOM_I2CM_CTRLB_CMD(3);
+	write_p.address=I2C_ADDRESS;
+	write_p.data = &RegAddr;
+	write_p.data_length = 1;
+	write_p.ten_bit_address=false;
+	write_p.high_speed=false;
 	
-	/* LEITURA */
-	mifare_i2c_wait_for_bus();
-	while (SERCOM3->I2CM.STATUS.reg & SERCOM_I2CM_STATUS_SYNCBUSY);
-	SERCOM3->I2CM.CTRLB.reg |= SERCOM_I2CM_CTRLB_ACKACT;
-	/* Set address and direction bit. Will send start command on bus. */
-	SERCOM3->I2CM.ADDR.reg = (I2C_ADDRESS << 1) | _I2C_TRANSFER_READ;	
-	/* Wait for response on bus. */
-	mifare_i2c_wait_for_bus();	
-	mifare_i2c_master_address_response();
-	dado=SERCOM3->I2CM.DATA.reg;
-	/* Stop command */
-	while (SERCOM3->I2CM.STATUS.reg & SERCOM_I2CM_STATUS_SYNCBUSY);
-	SERCOM3->I2CM.CTRLB.reg |= SERCOM_I2CM_CTRLB_CMD(3);		
-	while (SERCOM3->I2CM.STATUS.reg & SERCOM_I2CM_STATUS_SYNCBUSY);
+	read_p.address=I2C_ADDRESS;
+	read_p.data = &read_data;
+	read_p.data_length=1;
+	read_p.ten_bit_address=false;
+	read_p.high_speed=false;
+		
+	i2c_master_write_packet_wait(&i2c_master_instance,&write_p);
+	i2c_master_read_packet_wait(&i2c_master_instance,&read_p);
 	
-	return dado;
+	return read_data;
 }
 
 /*************************************************

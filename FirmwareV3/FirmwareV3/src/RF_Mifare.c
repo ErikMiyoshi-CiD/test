@@ -8,9 +8,6 @@
 #include "RC522_Mifare.h"
 #include "RC522_ErrCode.h"
 
-volatile uint8_t erro=0;
-volatile uint8_t dado=0xff;
-
 struct i2c_master_module i2c_master_instance;
 
 void mifare_i2c_init(void)
@@ -18,11 +15,12 @@ void mifare_i2c_init(void)
 	struct i2c_master_config config_i2c_master;
 	i2c_master_get_config_defaults(&config_i2c_master);
 	
-	config_i2c_master.buffer_timeout = 65535;
+	config_i2c_master.buffer_timeout = 10000;
 	config_i2c_master.pinmux_pad0 = PINMUX_PA22C_SERCOM3_PAD0;
 	config_i2c_master.pinmux_pad1 = PINMUX_PA23C_SERCOM3_PAD1;
 	
 	while (i2c_master_init(&i2c_master_instance, SERCOM3, &config_i2c_master) != STATUS_OK);
+	i2c_master_enable(&i2c_master_instance);
 }
 
 void mifare_reset(void)

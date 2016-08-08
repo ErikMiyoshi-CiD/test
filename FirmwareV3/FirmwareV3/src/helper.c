@@ -214,7 +214,7 @@ static void nvm_init(void)
 	{
 		DEBUG_PUTSTRING("Memoria zerada!\r\n");
 		WriteOUTP(USER_INFO_WIE_OUTP);
-		WriteRFID(USER_INFO_MIF_RFID);
+		WriteRFID(USER_INFO_ASK_RFID);
 	}
 }
 
@@ -224,8 +224,8 @@ void user_init(void){
 	wdt_reset_count();
 	
 	//Inicializa WDT
-	//configure_wdt();
-	//wdt_reset_count();
+	configure_wdt();
+	wdt_reset_count();
 	
 #if SERIAL_DEBUG
 	//Configura USART

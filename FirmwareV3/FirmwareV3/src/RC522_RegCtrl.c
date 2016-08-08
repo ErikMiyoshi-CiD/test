@@ -14,9 +14,6 @@ RegVal        The value to be writen
 Return:
 None
  **************************************************/
-
-volatile int mmm;
-
 void RcSetReg(uint8_t RegAddr, uint8_t RegVal)
 {
 	struct i2c_master_packet p;

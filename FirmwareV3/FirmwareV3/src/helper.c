@@ -191,7 +191,7 @@ static void configure_wdt(void)
     /* Set the Watchdog configuration settings */
     config_wdt.always_on      = false;
     config_wdt.clock_source   = GCLK_GENERATOR_2; //RTC
-    config_wdt.timeout_period = WDT_PERIOD_4096CLK; //4s = reset
+    config_wdt.timeout_period = WDT_PERIOD_8192CLK; //8s = reset
     /* Initialize and enable the Watchdog with the user settings */
     wdt_set_config(&config_wdt);
 }

@@ -2,8 +2,8 @@
 #define OUTPUT_H_
 
 //Timeout do cartão em ms
-#define OUTPUT_CARD_TIMEOUT_MS (350)
-#define OUTPUT_CARD_FORCE_OUTPUT_TIMEOUT_MS (5000)
+#define OUTPUT_CARD_TIMEOUT_MS (300)
+#define OUTPUT_CARD_FORCE_OUTPUT_TIMEOUT_MS (3000)
 
 void go_output(uint32_t data);
 void timeout_timer_init(void);

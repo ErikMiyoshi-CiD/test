@@ -33,7 +33,7 @@ void timeout_timer_stop(void)
 	tc_disable(&tc_timeout);
 }
 
-static void go_output_internal(uint32_t data)
+static void go_output_internal(uint64_t data, uint8_t size)
 {
 	led_green();
 	switch (tipo_output)
@@ -42,7 +42,7 @@ static void go_output_internal(uint32_t data)
 			Enviar_ABA_TK2(data);
 			break;
 		case OUTPUT_WIEGAND:
-			Transmite_Pacote_Wiegand(data);
+			TxWiegandPacket(data,size);
 			break;		
 	}
 	buzz(50); //Agora sim busy wait 100ms
@@ -51,7 +51,7 @@ static void go_output_internal(uint32_t data)
 
 
 ///Envia os dados pela saída selecionada
-void go_output(uint32_t data)
+void go_output(uint64_t data, uint8_t size)
 {
 	static int is_initialized=0;
 	static int total_timeout_ms;
@@ -64,7 +64,7 @@ void go_output(uint32_t data)
 		timeout_timer_start();
 		
 		//Da primeira vez vamos cuspir os dados
-		go_output_internal(data);
+		go_output_internal(data, size);
 		total_timeout_ms=0;
 	}
 	else
@@ -73,14 +73,14 @@ void go_output(uint32_t data)
 		if (count == 0)
 		{
 			//Passou timeout
-			go_output_internal(data);
+			go_output_internal(data,size);
 			total_timeout_ms=0;
 		}
 		else
 		{
 			total_timeout_ms+=1024*count/48000;
 			if (total_timeout_ms>=OUTPUT_CARD_FORCE_OUTPUT_TIMEOUT_MS) {
-				go_output_internal(data);
+				go_output_internal(data,size);
 				total_timeout_ms=0;
 			}
 		}

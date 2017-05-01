@@ -8,6 +8,7 @@
 #include "SerialOut.h"
 
 TIPO_OUTPUT tipo_output;
+WIEGAND_SIZE wiegand_size;
 
 struct tc_module tc1_module;
 struct tc_module tc5_module;
@@ -45,6 +46,12 @@ static void WriteOUTP(uint8_t outp) {
 	WriteUserPage();
 }
 
+static void WriteWIEGANDSIZE(uint8_t wsize) {
+	ReadUserPage();
+	user_data_page[USER_INFO_POS_WIEGANDSIZE]=wsize;
+	WriteUserPage();
+}
+
 static void WriteRFID(uint8_t rfid) {
 	ReadUserPage();
 	user_data_page[USER_INFO_POS_RFID]=rfid;
@@ -59,6 +66,16 @@ static uint8_t ReadRFID(void) {
 static uint8_t ReadOUTP(void) {
 	ReadUserPage();
 	return user_data_page[USER_INFO_POS_OUTP];
+}
+
+static uint8_t ReadWIEGANDSIZE(void) {
+	ReadUserPage();
+	
+	//Trata o caso de nunca ter sido inicializado
+	if (user_data_page[USER_INFO_POS_WIEGANDSIZE] != WIEGAND_34)
+		return WIEGAND_26;
+	else
+		return WIEGAND_34;
 }
 
 //Esta função inicializa o TC1 WO[1] --> Pino do 125kHz da antena
@@ -215,6 +232,7 @@ static void nvm_init(void)
 		DEBUG_PUTSTRING("Memoria zerada!\r\n");
 		WriteOUTP(USER_INFO_WIE_OUTP);
 		WriteRFID(USER_INFO_ASK_RFID);
+		WriteWIEGANDSIZE(USER_INFO_WIEGAND26);
 	}
 }
 
@@ -250,6 +268,7 @@ MODO_LEITOR avaliar_modo_leitor(void)
 {
 	int i, val;
 	
+	//Testa Mode com D0 = W26
 	for (i=0;i<16;i++)
 	{
 		val=i % 2;
@@ -257,51 +276,92 @@ MODO_LEITOR avaliar_modo_leitor(void)
 		delay_ms(10);
 			
 		if (ioport_get_pin_level(PIN_MS_BUZZ) == val) //D0 tem inversor 
-		{
-			return MODO_NORMAL;
-		}
+			break;
 	}
+	if (i==16)
+		return MODO_PROGRAMA_W26;
+		
+	//Testa Mode com D1 = W34
+	for (i=0;i<16;i++)
+	{
+		val=i % 2;
+		ioport_set_pin_level(PIN_D1_DATA,val);
+		delay_ms(10);
+			
+		if (ioport_get_pin_level(PIN_MS_BUZZ) == val) //D0 tem inversor
+		break;
+	}
+	if (i==16)
+		return MODO_PROGRAMA_W34;
+		
+	//Testa Mode com CP = ABA
+	for (i=0;i<16;i++)
+	{
+		val=i % 2;
+		ioport_set_pin_level(PIN_CARD_PRES,val);
+		delay_ms(10);
+			
+		if (ioport_get_pin_level(PIN_MS_BUZZ) == val) //D0 tem inversor
+		break;
+	}
+	if (i==16)
+		return MODO_PROGRAMA_ABA;
 	
-	return MODO_PROGRAMACAO;
+	return MODO_NORMAL;
 }
 
 void modo_leitor(void)
 {
 	switch(avaliar_modo_leitor())
 	{
-		case MODO_PROGRAMACAO:
-			for (uint8_t i=0;i<5;i++)
-			{
-				led_green();
-				delay_ms(300);
-				led_red();
-				buzz(300);
-			}
-			if (ioport_get_pin_level(PIN_LED_INPUT)==1)
-			{
-				WriteOUTP(USER_INFO_WIE_OUTP);
-				led_green();	
-			}
-			else
-			{
-				WriteOUTP(USER_INFO_ABA_OUTP);
-				led_yellow();
-			}
-			while(1) {
-				wdt_reset_count(); //Espera o cara desligar
-			}
+		case MODO_PROGRAMA_W26:
+			WriteOUTP(USER_INFO_WIE_OUTP);
+			WriteWIEGANDSIZE(WIEGAND_26);
+			led_green();
+			buzz_on();
+			while(1)
+				wdt_reset_count();
+			break;
+		case MODO_PROGRAMA_W34:
+			WriteOUTP(USER_INFO_WIE_OUTP);
+			WriteWIEGANDSIZE(WIEGAND_34);
+			led_yellow();
+			buzz_on();
+			while(1)
+				wdt_reset_count();
+			break;		
+		case MODO_PROGRAMA_ABA:
+			WriteOUTP(USER_INFO_ABA_OUTP);
+			WriteWIEGANDSIZE(WIEGAND_26); //ignorado
+			led_red();
+			buzz_on();
+			while(1)
+				wdt_reset_count();
 			break;
 		case MODO_NORMAL:
+			//Lê tamanho Wiegand
+			if (USER_INFO_WIEGAND34 == ReadWIEGANDSIZE()) 
+				wiegand_size=WIEGAND_34;
+			else
+				wiegand_size=WIEGAND_26;
+				
+			//Lê tipo saída
 			if (USER_INFO_ABA_OUTP == ReadOUTP()) {
 				tipo_output=OUTPUT_ABATRACK;
 				ioport_set_pin_level(PIN_D0_TX_CLK,0); //inverted logic
 				ioport_set_pin_level(PIN_D1_DATA,0); //inverted logic
+				ioport_set_pin_level(PIN_CARD_PRES,0); //inverted logic
 			}
 			else {
 				tipo_output=OUTPUT_WIEGAND;
 				ioport_set_pin_level(PIN_D0_TX_CLK,0);//inverted logic
 				ioport_set_pin_level(PIN_D1_DATA,0);//inverted logic
+				ioport_set_pin_level(PIN_CARD_PRES,0); //inverted logic
 			}
+			
+			//Pisca LEDs e termina inicialização
+			led_red();
+			delay_ms(300);
 			led_green();
 			buzz(250);
 			led_idle();

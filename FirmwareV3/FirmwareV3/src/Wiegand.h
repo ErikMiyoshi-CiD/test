@@ -1,6 +1,6 @@
 #ifndef WIEGAND_H_
 #define WIEGAND_H_
 
-void Transmite_Pacote_Wiegand(uint32_t card_num);
+void TxWiegandPacket(uint64_t card_num, uint8_t size);
 
 #endif /* WIEGAND_H_ */

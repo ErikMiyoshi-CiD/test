@@ -49,7 +49,7 @@ static void cospe_ask(uint64_t card)
 	
 	dado=((uint32_t)site_code << 16) + id;
 	
-	go_output(dado);
+	go_output(dado,wiegand_size);
 }
 
 static void processa_resultado(uint64_t val)

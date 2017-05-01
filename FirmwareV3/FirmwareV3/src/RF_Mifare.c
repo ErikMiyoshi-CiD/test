@@ -34,12 +34,14 @@ void mifare_reset(void)
 void mifare_activate_card(void)
 {
 	unsigned char bSAK, baATQ[2], uid[8], uid_length=255 /*nunca vai ser*/;
+	uint32_t uid32;
 
 	Rc522RFReset(5);
 
 	if (ActivateCard(ISO14443_3_REQA, baATQ, uid, &uid_length, &bSAK) == STATUS_SUCCESS)
 	{
-		go_output(((uint32_t)uid[1] << 16) + ((uint32_t)uid[2] << 8) + (uint32_t)uid[3]);
+		uid32=((uint32_t)uid[0] << 24) + ((uint32_t)uid[1] << 16) + ((uint32_t)uid[2] << 8) + (uint32_t)uid[3]; //MSByte (uid0 é o mais significativo)
+		go_output(uid32,wiegand_size);
 	}
 }
 

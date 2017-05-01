@@ -5,6 +5,7 @@
 #include "RF_ASK.h"
 #include "RF_Mifare.h"
 #include "SerialOut.h"
+#include "Output.h"
 
 int main(void){		
 	//1 - Inicializa o sistema e os clocks
@@ -18,7 +19,7 @@ int main(void){
 	user_init();
 
 	modo_leitor();
-		
+			
 	switch(ler_tipo_leitor())
 	{
 		case TIPO_ASK:

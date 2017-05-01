@@ -10,7 +10,7 @@
 #define DATA_PULSE_TIME		100		// Intervalo de tempo em que o pulso de dados é mantido em nível baixo - Unidade: microsegundos
 #define DATA_INTERVAL_TIME	2000	// Intervalo de tempo entre os pulsos de dados - Unidade: milisegundos
 
-static inline uint32_t Calcula_Paridade(uint32_t val) 
+static inline uint32_t CalculateParityOdd(uint32_t val) 
 {
 	uint32_t parity = 0;
 	
@@ -23,35 +23,60 @@ static inline uint32_t Calcula_Paridade(uint32_t val)
 	return !parity; // Paridade impar
 }
 
-static inline uint32_t Codifica_Wiegand(uint32_t val)
+static inline uint64_t WiegandEncode(uint64_t val, uint8_t size)
 {
-	uint32_t coded_message;
-	uint32_t site_parity;
-	uint32_t card_parity;
+	uint64_t LeadingParity;
+	uint64_t TrailingParity;
 	
-	if (Calcula_Paridade( (val>>12) & 0xFFF ))
-		site_parity=0;
-	else
-		site_parity=1;
+	switch (size)
+	{
+		case 26:	
+			//Garante que valor tem no máximo 24 bits
+			val = val & 0xFFFFFF;
 			
-	if (Calcula_Paridade( val & 0xFFF ))
-		card_parity=1;
-	else
-		card_parity=0;		
+			if (CalculateParityOdd( (val>>12) & 0xFFF ))
+				LeadingParity=0;
+			else
+				LeadingParity=1;
+			
+			if (CalculateParityOdd( val & 0xFFF ))
+				TrailingParity=1;
+			else
+				TrailingParity=0;		
 	
-	coded_message = ( (site_parity << (WIE_NUMDIGITS+1)) | (val << 1) | card_parity );
-	
-	return coded_message;
+			return ( (LeadingParity << (size-1)) | (val << 1) | TrailingParity );
+			break;
+		case 34:
+			//Garante que valor tem no máximo 32 bits
+			val = val & 0xFFFFFFFF;
+			
+			if (CalculateParityOdd( (val>>16) & 0xFFFF ))
+				LeadingParity=0;
+			else
+				LeadingParity=1;
+						
+			if (CalculateParityOdd( val & 0xFFFF ))
+				TrailingParity=1;
+			else
+				TrailingParity=0;
+						
+			return ( (LeadingParity << (size-1)) | (val << 1) | TrailingParity );
+			
+			break;
+		default:
+			return val;
+	}
+
 }
 
-static inline void Envia_Payload(uint32_t mensagem)
+static inline void WiegandSendPayload(uint64_t mensagem, uint8_t size)
 {
-	uint32_t tmp;
+	uint8_t tmp;
 	int8_t i;
 	
-	for(i=WIE_NUMDIGITS+1; i>=0;i--)
+	for(i=size-1; i>=0;i--)
 	{
-		tmp = (mensagem & (1l<<25));
+		tmp = !!(mensagem & (((uint64_t)1)<<i));
 		
 		if(tmp)
 		{
@@ -67,14 +92,13 @@ static inline void Envia_Payload(uint32_t mensagem)
 		}
 		
 		delay_us(DATA_INTERVAL_TIME);
-		mensagem <<= 1;
 	}
 }
 
-void Transmite_Pacote_Wiegand(uint32_t card_num)
+void TxWiegandPacket(uint64_t card_num, uint8_t size)
 {
-	uint32_t transmit_message;
+	uint64_t transmit_message;
 	
-	transmit_message = Codifica_Wiegand(card_num);
-	Envia_Payload(transmit_message);
+	transmit_message = WiegandEncode(card_num,size);
+	WiegandSendPayload(transmit_message,size);
 }

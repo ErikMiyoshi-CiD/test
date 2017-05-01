@@ -216,23 +216,30 @@ static void configure_wdt(void)
 static void nvm_init(void)
 {
 	struct nvm_config config_nvm;
-	int i;
 	
 	nvm_get_config_defaults(&config_nvm);
 	config_nvm.manual_page_write = false;
 	nvm_set_config(&config_nvm);
 	
 	ReadUserPage();
-	for (i=0;i<NVMCTRL_PAGE_SIZE;i++)
-		if (user_data_page[i]!=0xff)
-			break;
-		
-	if (i==NVMCTRL_PAGE_SIZE)
+	if (user_data_page[USER_INFO_POS_OUTP] == 0xff &&
+		user_data_page[USER_INFO_POS_RFID] == 0xff &&
+		user_data_page[USER_INFO_POS_WIEGANDSIZE] == 0xff)
 	{
 		DEBUG_PUTSTRING("Memoria zerada!\r\n");
 		WriteOUTP(USER_INFO_WIE_OUTP);
 		WriteRFID(USER_INFO_ASK_RFID);
 		WriteWIEGANDSIZE(USER_INFO_WIEGAND26);
+	}
+	
+	//Se nunca setamos o tamanho da Wiegand, setaremos agora
+	if (user_data_page[USER_INFO_POS_WIEGANDSIZE] != WIEGAND_26 &&
+		user_data_page[USER_INFO_POS_WIEGANDSIZE] != WIEGAND_34)
+	{
+		if (ReadRFID()==USER_INFO_MIF_RFID)
+			WriteWIEGANDSIZE(WIEGAND_34);
+		else
+			WriteWIEGANDSIZE(WIEGAND_26);
 	}
 }
 

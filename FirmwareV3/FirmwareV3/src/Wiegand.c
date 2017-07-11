@@ -6,7 +6,6 @@
 
 #include "Wiegand.h"
 
-#define WIE_NUMDIGITS		24  	// Número de bits de dados no frame Wiegand a ser transmitido
 #define DATA_PULSE_TIME		100		// Intervalo de tempo em que o pulso de dados é mantido em nível baixo - Unidade: microsegundos
 #define DATA_INTERVAL_TIME	2000	// Intervalo de tempo entre os pulsos de dados - Unidade: milisegundos
 
@@ -23,10 +22,14 @@ static inline uint32_t CalculateParityOdd(uint32_t val)
 	return !parity; // Paridade impar
 }
 
-static inline uint64_t WiegandEncode(uint64_t val, uint8_t size)
+static inline WiegandFrame WiegandEncode(uint64_t val, uint8_t size)
 {
-	uint64_t LeadingParity;
-	uint64_t TrailingParity;
+	WiegandFrame wf;
+	
+	//Inicialização do Wiegand frame
+	wf.leading_parity=0;
+	wf.trailing_parity=0;
+	wf.data=0;
 	
 	switch (size)
 	{
@@ -35,70 +38,107 @@ static inline uint64_t WiegandEncode(uint64_t val, uint8_t size)
 			val = val & 0xFFFFFF;
 			
 			if (CalculateParityOdd( (val>>12) & 0xFFF ))
-				LeadingParity=0;
+				wf.leading_parity=0;
 			else
-				LeadingParity=1;
+				wf.leading_parity=1;
 			
 			if (CalculateParityOdd( val & 0xFFF ))
-				TrailingParity=1;
+				wf.trailing_parity=1;
 			else
-				TrailingParity=0;		
+				wf.trailing_parity=0;
 	
-			return ( (LeadingParity << (size-1)) | (val << 1) | TrailingParity );
+			wf.data = val;
+			
+			return wf;
+			
 			break;
 		case 34:
 			//Garante que valor tem no máximo 32 bits
 			val = val & 0xFFFFFFFF;
 			
 			if (CalculateParityOdd( (val>>16) & 0xFFFF ))
-				LeadingParity=0;
+				wf.leading_parity=0;
 			else
-				LeadingParity=1;
+				wf.leading_parity=1;
 						
 			if (CalculateParityOdd( val & 0xFFFF ))
-				TrailingParity=1;
+				wf.trailing_parity=1;
 			else
-				TrailingParity=0;
+				wf.trailing_parity=0;
 						
-			return ( (LeadingParity << (size-1)) | (val << 1) | TrailingParity );
+			wf.data = val;
+			
+			return wf;
 			
 			break;
+		case 66:
+			if (CalculateParityOdd( (val>>32) & 0xFFFFFFFF ))
+				wf.leading_parity=0;
+			else
+				wf.leading_parity=1;
+					
+			if (CalculateParityOdd( val & 0xFFFFFFFF ))
+				wf.trailing_parity=1;
+			else
+				wf.trailing_parity=0;
+					
+			wf.data = val;
+					
+			return wf;
+					
+			break;
 		default:
-			return val;
+			return wf;
 	}
 
 }
 
-static inline void WiegandSendPayload(uint64_t mensagem, uint8_t size)
+static inline void WiegandSend1(void)
+{
+	ioport_set_pin_level(PIN_D1_DATA,1); // Transistor de saida inverte o sinal
+	delay_us(DATA_PULSE_TIME);
+	ioport_set_pin_level(PIN_D1_DATA,0);
+	delay_us(DATA_INTERVAL_TIME);
+}
+
+static inline void WiegandSend0(void)
+{
+	ioport_set_pin_level(PIN_D0_TX_CLK,1); // Transistor de saida inverte o sinal
+	delay_us(DATA_PULSE_TIME);
+	ioport_set_pin_level(PIN_D0_TX_CLK,0);
+	delay_us(DATA_INTERVAL_TIME);
+}
+
+static inline void WiegandSendPayload(WiegandFrame wf, uint8_t size)
 {
 	uint8_t tmp;
 	int8_t i;
 	
-	for(i=size-1; i>=0;i--)
+	if (wf.leading_parity)
+		WiegandSend1();
+	else
+		WiegandSend0();
+	
+	for(i=size-3; i>=0;i--) //-3 em razão do 66 que deve ser 64. 66 --> De 63 a 0
 	{
-		tmp = !!(mensagem & (((uint64_t)1)<<i));
+		tmp = !!(wf.data & (((uint64_t)1)<<i));
 		
 		if(tmp)
-		{
-			ioport_set_pin_level(PIN_D1_DATA,1); // Transitor de saida inverte o sinal
-			delay_us(DATA_PULSE_TIME);
-			ioport_set_pin_level(PIN_D1_DATA,0);
-		}
+			WiegandSend1();
 		else
-		{
-			ioport_set_pin_level(PIN_D0_TX_CLK,1);
-			delay_us(DATA_PULSE_TIME);
-			ioport_set_pin_level(PIN_D0_TX_CLK,0);
-		}
-		
-		delay_us(DATA_INTERVAL_TIME);
+			WiegandSend0();	
 	}
+	
+	if (wf.trailing_parity)
+		WiegandSend1();
+	else
+		WiegandSend0();
 }
 
 void TxWiegandPacket(uint64_t card_num, uint8_t size)
 {
-	uint64_t transmit_message;
+	WiegandFrame wf;
 	
-	transmit_message = WiegandEncode(card_num,size);
-	WiegandSendPayload(transmit_message,size);
+	wf = WiegandEncode(card_num,size);
+	WiegandSendPayload(wf,size);
 }

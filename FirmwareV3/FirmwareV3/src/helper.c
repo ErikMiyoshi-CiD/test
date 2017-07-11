@@ -72,10 +72,12 @@ static uint8_t ReadWIEGANDSIZE(void) {
 	ReadUserPage();
 	
 	//Trata o caso de nunca ter sido inicializado
-	if (user_data_page[USER_INFO_POS_WIEGANDSIZE] != WIEGAND_34)
-		return WIEGAND_26;
-	else
+	if (user_data_page[USER_INFO_POS_WIEGANDSIZE] == WIEGAND_66)
+		return WIEGAND_66;
+	else if (user_data_page[USER_INFO_POS_WIEGANDSIZE] == WIEGAND_34)
 		return WIEGAND_34;
+	else
+		return WIEGAND_26;
 }
 
 //Esta função inicializa o TC1 WO[1] --> Pino do 125kHz da antena
@@ -234,7 +236,8 @@ static void nvm_init(void)
 	
 	//Se nunca setamos o tamanho da Wiegand, setaremos agora
 	if (user_data_page[USER_INFO_POS_WIEGANDSIZE] != WIEGAND_26 &&
-		user_data_page[USER_INFO_POS_WIEGANDSIZE] != WIEGAND_34)
+		user_data_page[USER_INFO_POS_WIEGANDSIZE] != WIEGAND_34 && 
+		user_data_page[USER_INFO_POS_WIEGANDSIZE] != WIEGAND_66)
 	{
 		if (ReadRFID()==USER_INFO_MIF_RFID)
 			WriteWIEGANDSIZE(WIEGAND_34);
@@ -246,7 +249,6 @@ static void nvm_init(void)
 void user_init(void){
 	//Inicializa delays
 	delay_init();
-	wdt_reset_count();
 	
 	//Inicializa WDT
 	configure_wdt();
@@ -273,46 +275,62 @@ void user_init(void){
 
 MODO_LEITOR avaliar_modo_leitor(void)
 {
+	const uint8_t nretries = 8;
 	int i, val;
 	
+	wdt_reset_count();
+	
 	//Testa Mode com D0 = W26
-	for (i=0;i<16;i++)
+	for (i=0;i<nretries;i++)
 	{
 		val=i % 2;
 		ioport_set_pin_level(PIN_D0_TX_CLK,val);
-		delay_ms(10);
+		delay_ms(20);
 			
-		if (ioport_get_pin_level(PIN_MS_BUZZ) == val) //D0 tem inversor 
+		if (ioport_get_pin_level(PIN_MS_BUZZ) == val) //tem inversor 
 			break;
 	}
-	if (i==16)
+	if (i==nretries)
 		return MODO_PROGRAMA_W26;
-		
+				
 	//Testa Mode com D1 = W34
-	for (i=0;i<16;i++)
+	for (i=0;i<nretries;i++)
 	{
 		val=i % 2;
 		ioport_set_pin_level(PIN_D1_DATA,val);
-		delay_ms(10);
+		delay_ms(20);
 			
-		if (ioport_get_pin_level(PIN_MS_BUZZ) == val) //D0 tem inversor
-		break;
+		if (ioport_get_pin_level(PIN_MS_BUZZ) == val) //tem inversor
+			break;
 	}
-	if (i==16)
+	if (i==nretries)
 		return MODO_PROGRAMA_W34;
 		
-	//Testa Mode com CP = ABA
-	for (i=0;i<16;i++)
+	//Testa Mode com CardPres = ABA
+	for (i=0;i<nretries;i++)
 	{
 		val=i % 2;
 		ioport_set_pin_level(PIN_CARD_PRES,val);
-		delay_ms(10);
+		delay_ms(20);
 			
-		if (ioport_get_pin_level(PIN_MS_BUZZ) == val) //D0 tem inversor
-		break;
+		if (ioport_get_pin_level(PIN_MS_BUZZ) == val) //tem inversor
+			break;
 	}
-	if (i==16)
+	if (i==nretries)
 		return MODO_PROGRAMA_ABA;
+		
+	//Testa LEDIN com D0 = W66
+	for (i=0;i<nretries;i++)
+	{
+		val=i % 2;
+		ioport_set_pin_level(PIN_D0_TX_CLK,val);
+		delay_ms(20);
+		
+		if (ioport_get_pin_level(PIN_LED_INPUT) == val) //tem inversor
+			break;
+	}
+	if (i==nretries)
+		return MODO_PROGRAMA_W66;	
 	
 	return MODO_NORMAL;
 }
@@ -336,7 +354,15 @@ void modo_leitor(void)
 			buzz_on();
 			while(1)
 				wdt_reset_count();
-			break;		
+			break;	
+		case MODO_PROGRAMA_W66:
+			WriteOUTP(USER_INFO_WIE_OUTP);
+			WriteWIEGANDSIZE(WIEGAND_66);
+			led_off();
+			buzz_on();
+			while(1)
+				wdt_reset_count();
+			break;
 		case MODO_PROGRAMA_ABA:
 			WriteOUTP(USER_INFO_ABA_OUTP);
 			WriteWIEGANDSIZE(WIEGAND_26); //ignorado
@@ -349,6 +375,8 @@ void modo_leitor(void)
 			//Lê tamanho Wiegand
 			if (USER_INFO_WIEGAND34 == ReadWIEGANDSIZE()) 
 				wiegand_size=WIEGAND_34;
+			else if (USER_INFO_WIEGAND66 == ReadWIEGANDSIZE())
+				wiegand_size=WIEGAND_66;
 			else
 				wiegand_size=WIEGAND_26;
 				

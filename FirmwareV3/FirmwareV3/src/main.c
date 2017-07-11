@@ -7,6 +7,10 @@
 #include "SerialOut.h"
 #include "Output.h"
 
+/*
+ ATENÇÃO!!! O FIRMWARE NÃO PODE PASSAR DE 16KB para não entrar em 0x3F00 (USER_PAGE)!!!
+ */
+
 int main(void){		
 	//1 - Inicializa o sistema e os clocks
 	//2 - Verifica se estamos em modo de programação ou não
@@ -18,8 +22,10 @@ int main(void){
 	
 	user_init();
 
+	wdt_reset_count();
+
 	modo_leitor();
-			
+	
 	switch(ler_tipo_leitor())
 	{
 		case TIPO_ASK:

@@ -86,9 +86,10 @@ void Init125khz(void){
 	
 	tc_reset(&tc1_module);
 	tc_get_config_defaults(&tc1_config);
+	tc1_config.clock_source = GCLK_GENERATOR_3;
 	tc1_config.wave_generation = TC_WAVE_GENERATION_MATCH_FREQ;
 	tc1_config.counter_size = TC_COUNTER_SIZE_16BIT;
-	tc1_config.counter_16_bit.compare_capture_channel[0] = 384/2 - 1;
+	tc1_config.counter_16_bit.compare_capture_channel[0] = 384/2/6 - 1;
 	tc1_config.pwm_channel[0].enabled = true;
 	tc1_config.pwm_channel[0].pin_out = PIN_PA07F_TC1_WO1;
 	tc1_config.pwm_channel[0].pin_mux = MUX_PA07F_TC1_WO1;

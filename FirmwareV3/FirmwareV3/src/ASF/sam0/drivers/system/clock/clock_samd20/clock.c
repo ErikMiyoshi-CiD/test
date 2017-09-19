@@ -263,6 +263,9 @@ void system_clock_source_xosc_set_config(
 		}
 
 	}
+	
+	//Albert
+	temp.bit.GAIN = 4;
 
 	temp.bit.ONDEMAND = config->on_demand;
 	temp.bit.RUNSTDBY = config->run_in_standby;

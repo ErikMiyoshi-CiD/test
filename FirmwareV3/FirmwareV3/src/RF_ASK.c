@@ -101,7 +101,7 @@ static void processa_resultado(uint64_t val)
 	return;
 }
 
-static void TC3_callback(struct tc_module *const module_inst)
+static void TC0_callback(struct tc_module *const module_inst)
 {
 	uint8_t temp_pin=ioport_get_pin_level(PIN_ASK_IN);
 	if ( n_samples > (ASK_PERIODS*ASK_BUF_SIZE-1) ) 
@@ -123,15 +123,15 @@ void Init_Timer(void)
     tc_get_config_defaults(&config_tc);
 	config_tc.wave_generation = TC_WAVE_GENERATION_MATCH_FREQ;
     config_tc.counter_size = TC_COUNTER_SIZE_16BIT;
-	config_tc.clock_source = GCLK_GENERATOR_0;
+	config_tc.clock_source = GCLK_GENERATOR_3;
 	config_tc.clock_prescaler = TC_CLOCK_PRESCALER_DIV1;
-    config_tc.counter_16_bit.compare_capture_channel[0] = 12288/2 - 1; // -> 3906.25 * 2Hz (pegaremos dois pontos deslocados de T/2!)
-    tc_init(&tc_instance, TC3, &config_tc);
+    config_tc.counter_16_bit.compare_capture_channel[0] = 12288/2/6 - 1; // -> 3906.25 * 2Hz (pegaremos dois pontos deslocados de T/2!)
+    tc_init(&tc_instance, TC0, &config_tc);
 }
 
 static void configure_tc_callbacks(void)
 {
-	tc_register_callback(&tc_instance, TC3_callback, TC_CALLBACK_CC_CHANNEL0);
+	tc_register_callback(&tc_instance, TC0_callback, TC_CALLBACK_CC_CHANNEL0);
 	tc_enable_callback(&tc_instance, TC_CALLBACK_CC_CHANNEL0);
 	tc_enable(&tc_instance);
 }

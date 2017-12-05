@@ -21,7 +21,7 @@ TargetOutputMedium=Folder Structure
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Brother DCP-8080DN Printer
+TargetPrinter=Brother DCP-8157DN Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -123,7 +123,7 @@ OutputEnabled6_OutputMedium3=6
 OutputEnabled6_OutputMedium4=0
 OutputDefault6=0
 Configuration6_Name1=OutputConfigurationParameter1
-Configuration6_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=False|IncludeElectricalPadHoles=False|IncludeFreePadHoles=False|ExportFoldedBoard=True|ExportFoldedBoardRate=0|ComponentSuffixType=0|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=1|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False
+Configuration6_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=True|IncludeElectricalPadHoles=True|IncludeFreePadHoles=True|ExportFoldedBoard=True|ExportFoldedBoardRate=0|ComponentSuffixType=0|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=0|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False|ExportAsSinglePart=False
 
 [PublishSettings]
 OutputFilePath2=Project Outputs for Free Documents\.PDF
@@ -151,6 +151,8 @@ MarkPortsId2=1
 GenerateTOC2=1
 ShowComponentParameters2=1
 GlobalBookmarks2=0
+PDFACompliance2=Disabled
+PDFVersion2=Default
 OutputFilePath3=D:\Dropbox\ControliD\ACESSO-LEITOR\HW-git\leitorrf\Altium\Project Outputs for iDProx\Gerbers\
 ReleaseManaged3=1
 OutputBasePath3=Project Outputs for iDProx

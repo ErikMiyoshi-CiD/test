@@ -58,12 +58,12 @@
 #define _125KHZ_GPIO_Port GPIOA
 #define ASK_IN_Pin GPIO_PIN_7
 #define ASK_IN_GPIO_Port GPIOA
-#define D1_DATA_Pin GPIO_PIN_0
-#define D1_DATA_GPIO_Port GPIOB
+#define D0_DATA_Pin GPIO_PIN_0
+#define D0_DATA_GPIO_Port GPIOB
 #define CARD_PRES_Pin GPIO_PIN_1
 #define CARD_PRES_GPIO_Port GPIOB
-#define D0_TX_CLK_Pin GPIO_PIN_9
-#define D0_TX_CLK_GPIO_Port GPIOA
+#define D1_TX_CLK_Pin GPIO_PIN_9
+#define D1_TX_CLK_GPIO_Port GPIOA
 #define MS_BUZZ_Pin GPIO_PIN_10
 #define MS_BUZZ_GPIO_Port GPIOA
 #define LED_RED_Pin GPIO_PIN_3

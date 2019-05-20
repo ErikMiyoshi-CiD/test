@@ -6,7 +6,7 @@
 
 #include "Wiegand.h"
 
-#define DATA_PULSE_TIME		50		// Intervalo de tempo em que o pulso de dados é mantido em nível baixo - Unidade: microsegundos
+#define DATA_PULSE_TIME		50		// Intervalo de tempo em que o pulso de dados ï¿½ mantido em nï¿½vel baixo - Unidade: microsegundos
 #define DATA_INTERVAL_TIME	2000	// Intervalo de tempo entre os pulsos de dados - Unidade: microsegundos
 
 static inline uint32_t CalculateParityOdd(uint32_t val) 
@@ -26,7 +26,7 @@ static inline WiegandFrame WiegandEncode(uint64_t val, uint8_t size)
 {
 	WiegandFrame wf;
 	
-	//Inicialização do Wiegand frame
+	//Inicializaï¿½ï¿½o do Wiegand frame
 	wf.leading_parity = 0;
 	wf.trailing_parity = 0;
 	wf.data = 0;
@@ -34,7 +34,7 @@ static inline WiegandFrame WiegandEncode(uint64_t val, uint8_t size)
 	switch (size)
 	{
 		case 26:	
-			//Garante que valor tem no máximo 24 bits
+			//Garante que valor tem no mï¿½ximo 24 bits
 			val = val & 0xFFFFFF;
 			
 			if (CalculateParityOdd( (val>>12) & 0xFFF ))
@@ -53,7 +53,7 @@ static inline WiegandFrame WiegandEncode(uint64_t val, uint8_t size)
 			
 			break;
 		case 34:
-			//Garante que valor tem no máximo 32 bits
+			//Garante que valor tem no mï¿½ximo 32 bits
 			val = val & 0xFFFFFFFF;
 			
 			if (CalculateParityOdd( (val>>16) & 0xFFFF ))
@@ -95,17 +95,17 @@ static inline WiegandFrame WiegandEncode(uint64_t val, uint8_t size)
 
 static inline void WiegandSend1(void)
 {
-	HAL_GPIO_WritePin(D1_DATA_GPIO_Port, D1_DATA_Pin, GPIO_PIN_SET); // Transistor de saida inverte o sinal
+	HAL_GPIO_WritePin(D1_TX_CLK_GPIO_Port, D1_TX_CLK_Pin, GPIO_PIN_SET); // Transistor de saida inverte o sinal
 	delay_us(DATA_PULSE_TIME);
-	HAL_GPIO_WritePin(D1_DATA_GPIO_Port, D1_DATA_Pin, GPIO_PIN_RESET);
+	HAL_GPIO_WritePin(D1_TX_CLK_GPIO_Port, D1_TX_CLK_Pin, GPIO_PIN_RESET);
 	delay_us(DATA_INTERVAL_TIME);
 }
 
 static inline void WiegandSend0(void)
 {
-	HAL_GPIO_WritePin(D0_TX_CLK_GPIO_Port, D0_TX_CLK_Pin, GPIO_PIN_SET); // Transistor de saida inverte o sinal
+	HAL_GPIO_WritePin(D0_DATA_GPIO_Port, D0_DATA_Pin, GPIO_PIN_SET); // Transistor de saida inverte o sinal
 	delay_us(DATA_PULSE_TIME);
-	HAL_GPIO_WritePin(D0_TX_CLK_GPIO_Port, D0_TX_CLK_Pin, GPIO_PIN_RESET);
+	HAL_GPIO_WritePin(D0_DATA_GPIO_Port, D0_DATA_Pin, GPIO_PIN_RESET);
 	delay_us(DATA_INTERVAL_TIME);
 }
 
@@ -119,7 +119,7 @@ static inline void WiegandSendPayload(WiegandFrame wf, uint8_t size)
 	else
 		WiegandSend0();
 	
-	for(i = size - 3; i >= 0; i--) //-3 em razão do 66 que deve ser 64. 66 --> De 63 a 0
+	for(i = size - 3; i >= 0; i--) //-3 em razï¿½o do 66 que deve ser 64. 66 --> De 63 a 0
 	{
 		tmp = !!(wf.data & (((uint64_t) 1) << i));
 		

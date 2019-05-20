@@ -18,20 +18,20 @@ void bitbang_putchar(uint8_t c)
 	const int us_tbit = 1000000/9600;
 	int i;
 
-	HAL_GPIO_WritePin(D0_TX_CLK_GPIO_Port, D0_TX_CLK_Pin, GPIO_PIN_RESET);
+	HAL_GPIO_WritePin(D1_TX_CLK_GPIO_Port, D1_TX_CLK_Pin, GPIO_PIN_RESET);
 	delay_us(us_tbit);
 	
 	for (i = 0; i < 8; i++) 
 	{
 		if ((c & (1 << i)) != 0)
-			HAL_GPIO_WritePin(D0_TX_CLK_GPIO_Port, D0_TX_CLK_Pin, GPIO_PIN_SET);
+			HAL_GPIO_WritePin(D1_TX_CLK_GPIO_Port, D1_TX_CLK_Pin, GPIO_PIN_SET);
 		else
-			HAL_GPIO_WritePin(D0_TX_CLK_GPIO_Port, D0_TX_CLK_Pin, GPIO_PIN_RESET);
+			HAL_GPIO_WritePin(D1_TX_CLK_GPIO_Port, D1_TX_CLK_Pin, GPIO_PIN_RESET);
 		
 		delay_us(us_tbit);
 	}
 	
-	HAL_GPIO_WritePin(D0_TX_CLK_GPIO_Port, D0_TX_CLK_Pin, GPIO_PIN_SET);
+	HAL_GPIO_WritePin(D1_TX_CLK_GPIO_Port, D1_TX_CLK_Pin, GPIO_PIN_SET);
 	delay_us(us_tbit);
 }
 
@@ -95,6 +95,6 @@ uint8_t dec2hex(uint8_t val) {
 void configure_usart(void)
 {
 	DEBUG_PUTSTRING("initializing USART\n\r");
-	HAL_GPIO_WritePin(D0_TX_CLK_GPIO_Port, D0_TX_CLK_Pin, GPIO_PIN_SET);
+	HAL_GPIO_WritePin(D1_TX_CLK_GPIO_Port, D1_TX_CLK_Pin, GPIO_PIN_SET);
 	DEBUG_PUTSTRING("USART Initialised\n\r");
 }

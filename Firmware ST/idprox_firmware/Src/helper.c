@@ -172,18 +172,19 @@ static void configure_wdt(void)
 static void nvm_init(void)
 {
 	ReadUserPage();
+
 	if (user_info_array[USER_INFO_POS_OUTP] == 0xff &&
-			user_info_array[USER_INFO_POS_WIEGANDSIZE] == 0xff)
+		user_info_array[USER_INFO_POS_WIEGANDSIZE] == 0xff)
 	{
 		DEBUG_PUTSTRING("Memoria zerada!\r\n");
 		WriteOUTP(USER_INFO_WIE_OUTP);
-		WriteWIEGANDSIZE(USER_INFO_WIEGAND26);
+		// WriteWIEGANDSIZE(USER_INFO_WIEGAND26);
 	}
 	
 	//Se nunca setamos o tamanho da Wiegand, setaremos agora
 	if (user_info_array[USER_INFO_POS_WIEGANDSIZE] != WIEGAND_26 &&
-			user_info_array[USER_INFO_POS_WIEGANDSIZE] != WIEGAND_34 && 
-			user_info_array[USER_INFO_POS_WIEGANDSIZE] != WIEGAND_66)
+		user_info_array[USER_INFO_POS_WIEGANDSIZE] != WIEGAND_34 && 
+		user_info_array[USER_INFO_POS_WIEGANDSIZE] != WIEGAND_66)
 	{
 		if (ReadRFID() == USER_INFO_MIF_RFID)
 			WriteWIEGANDSIZE(WIEGAND_34);

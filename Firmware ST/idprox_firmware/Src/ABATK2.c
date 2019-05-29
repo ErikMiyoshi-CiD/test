@@ -6,10 +6,10 @@
 
 #include "delay.h"
 
-#define TEMPO_ABATK2		120		// Tempo em que um pulso é mantido em nível baixo
+#define TEMPO_ABATK2		120		// Tempo em que um pulso ï¿½ mantido em nï¿½vel baixo
 #define END_SENTINEL		31	// Campo END SENTINEL do frame de mensagem ABATK2
 #define START_SENTINEL	11	// Campo START SENTINEL do frame de mensagem ABATK2
-#define NUM_DIGITS			14		// Número de campos do frame que efetivamente recebem informações do cartão
+#define NUM_DIGITS			14		// Nï¿½mero de campos do frame que efetivamente recebem informaï¿½ï¿½es do cartï¿½o
 
 static uint8_t _abatk2_buff[NUM_DIGITS+3]; // Numero de dados do cartao + SS + ES + LRC
 
@@ -39,18 +39,18 @@ static inline void Enviar_Caracter_ABA_TK2(uint8_t dado)
 	
 	for(i = 4; i >= 0; i--)
 	{
-		HAL_GPIO_WritePin(D1_DATA_GPIO_Port, D1_DATA_Pin, (dado & 1));	// Lógica invertida
+		HAL_GPIO_WritePin(D0_DATA_GPIO_Port, D0_DATA_Pin, (dado & 1));	// Lï¿½gica invertida
 		delay_us(TEMPO_ABATK2 / 2);
-		HAL_GPIO_WritePin(D0_TX_CLK_GPIO_Port, D0_TX_CLK_Pin, GPIO_PIN_SET);
+		HAL_GPIO_WritePin(D1_TX_CLK_GPIO_Port, D1_TX_CLK_Pin, GPIO_PIN_SET);
 		delay_us(TEMPO_ABATK2);
-		HAL_GPIO_WritePin(D0_TX_CLK_GPIO_Port, D0_TX_CLK_Pin, GPIO_PIN_RESET);
+		HAL_GPIO_WritePin(D1_TX_CLK_GPIO_Port, D1_TX_CLK_Pin, GPIO_PIN_RESET);
 		delay_us(TEMPO_ABATK2 / 2);
 		
 		dado >>= 1;
 	}
 }
 
-//Calcula o campo LRC utilizado na transmissão via ABATK2.
+//Calcula o campo LRC utilizado na transmissï¿½o via ABATK2.
 
 static inline uint8_t Calcula_LRC(void) 
 {
@@ -65,8 +65,8 @@ static inline uint8_t Calcula_LRC(void)
 	return encode_with_parity(lrc);
 }
 
-//Recebe os dados do cartão com site e facility code e monta o buffer com os dados a serem enviados.
-//Já calula paridade a cada 4 bit e o campo de LRC.
+//Recebe os dados do cartï¿½o com site e facility code e monta o buffer com os dados a serem enviados.
+//Jï¿½ calula paridade a cada 4 bit e o campo de LRC.
 
 static inline void Codifica_ABATK2(uint64_t num) //OK
 {
@@ -106,9 +106,9 @@ void Enviar_ABA_TK2(uint64_t val)
 	HAL_GPIO_WritePin(CARD_PRES_GPIO_Port, CARD_PRES_Pin, GPIO_PIN_RESET);
 }
 
-//Recebe os dados de site e facility do cartão RFID e concatena em uma única variável para
-//tratamento pelas rotinas de envio. Caso o dado adquirido já possua as informações concatenadas
-//e sem paridade não é necessário utilizar esta função.
+//Recebe os dados de site e facility do cartï¿½o RFID e concatena em uma ï¿½nica variï¿½vel para
+//tratamento pelas rotinas de envio. Caso o dado adquirido jï¿½ possua as informaï¿½ï¿½es concatenadas
+//e sem paridade nï¿½o ï¿½ necessï¿½rio utilizar esta funï¿½ï¿½o.
 
 uint64_t Monta_Dados_Cartao_ABATK2(uint64_t num, int ver) //OK
 {

@@ -57,8 +57,8 @@ static void WriteWIEGANDSIZE(uint8_t wsize) {
 	WriteUserPage();
 }
 
-// Alterado para ler pinos B0..2 do módulo RFID
-// Não faz mais sentido ter WriteRFID agora...
+// Alterado para ler pinos B0..2 do mï¿½dulo RFID
+// Nï¿½o faz mais sentido ter WriteRFID agora...
 static uint8_t ReadRFID(void) {
 	uint8_t rfidType = 0;
 	
@@ -172,18 +172,19 @@ static void configure_wdt(void)
 static void nvm_init(void)
 {
 	ReadUserPage();
+
 	if (user_info_array[USER_INFO_POS_OUTP] == 0xff &&
-			user_info_array[USER_INFO_POS_WIEGANDSIZE] == 0xff)
+		user_info_array[USER_INFO_POS_WIEGANDSIZE] == 0xff)
 	{
 		DEBUG_PUTSTRING("Memoria zerada!\r\n");
 		WriteOUTP(USER_INFO_WIE_OUTP);
-		WriteWIEGANDSIZE(USER_INFO_WIEGAND26);
+		// WriteWIEGANDSIZE(USER_INFO_WIEGAND26);
 	}
 	
 	//Se nunca setamos o tamanho da Wiegand, setaremos agora
 	if (user_info_array[USER_INFO_POS_WIEGANDSIZE] != WIEGAND_26 &&
-			user_info_array[USER_INFO_POS_WIEGANDSIZE] != WIEGAND_34 && 
-			user_info_array[USER_INFO_POS_WIEGANDSIZE] != WIEGAND_66)
+		user_info_array[USER_INFO_POS_WIEGANDSIZE] != WIEGAND_34 && 
+		user_info_array[USER_INFO_POS_WIEGANDSIZE] != WIEGAND_66)
 	{
 		if (ReadRFID() == USER_INFO_MIF_RFID)
 			WriteWIEGANDSIZE(WIEGAND_34);
@@ -225,7 +226,7 @@ MODO_LEITOR avaliar_modo_leitor(void)
 	for (i = 0; i < nretries; i++)
 	{
 		val = i % 2;
-		HAL_GPIO_WritePin(D0_TX_CLK_GPIO_Port, D0_TX_CLK_Pin, val);
+		HAL_GPIO_WritePin(D0_DATA_GPIO_Port, D0_DATA_Pin, val);
 		HAL_Delay(20);
 			
 		if (HAL_GPIO_ReadPin(MS_BUZZ_GPIO_Port, MS_BUZZ_Pin) == val) //tem inversor 
@@ -238,7 +239,7 @@ MODO_LEITOR avaliar_modo_leitor(void)
 	for (i = 0; i < nretries; i++)
 	{
 		val = i % 2;
-		HAL_GPIO_WritePin(D1_DATA_GPIO_Port, D1_DATA_Pin, val);
+		HAL_GPIO_WritePin(D1_TX_CLK_GPIO_Port, D1_TX_CLK_Pin, val);
 		HAL_Delay(20);
 			
 		if (HAL_GPIO_ReadPin(MS_BUZZ_GPIO_Port, MS_BUZZ_Pin) == val) //tem inversor
@@ -264,7 +265,7 @@ MODO_LEITOR avaliar_modo_leitor(void)
 	for (i = 0; i < nretries; i++)
 	{
 		val = i % 2;
-		HAL_GPIO_WritePin(D0_TX_CLK_GPIO_Port, D0_TX_CLK_Pin, val);
+		HAL_GPIO_WritePin(D0_DATA_GPIO_Port, D0_DATA_Pin, val);
 		HAL_Delay(20);
 		
 		if (HAL_GPIO_ReadPin(LED_INPUT_GPIO_Port, LED_INPUT_Pin) == val) //tem inversor
@@ -277,7 +278,7 @@ MODO_LEITOR avaliar_modo_leitor(void)
 	for (i = 0; i < nretries; i++)
 	{
 		val = i % 2;
-		HAL_GPIO_WritePin(D1_DATA_GPIO_Port, D1_DATA_Pin, val);
+		HAL_GPIO_WritePin(D1_TX_CLK_GPIO_Port, D1_TX_CLK_Pin, val);
 		HAL_Delay(20);
 		
 		if (HAL_GPIO_ReadPin(LED_INPUT_GPIO_Port, LED_INPUT_Pin) == val) //tem inversor
@@ -344,7 +345,7 @@ void modo_leitor(void)
 		break;
 			
 		case MODO_NORMAL:
-			//Lê tamanho Wiegand
+			//Lï¿½ tamanho Wiegand
 			if (USER_INFO_WIEGAND34 == ReadWIEGANDSIZE()) 
 				wiegand_size = WIEGAND_34;
 			else if (USER_INFO_WIEGAND66 == ReadWIEGANDSIZE())
@@ -352,25 +353,25 @@ void modo_leitor(void)
 			else
 				wiegand_size = WIEGAND_26;
 				
-			//Lê tipo saída
+			//Lï¿½ tipo saï¿½da
 			if (USER_INFO_ABA_OUTP == ReadOUTP()) {
 				tipo_output = OUTPUT_ABATRACK;
-				HAL_GPIO_WritePin(D0_TX_CLK_GPIO_Port, D0_TX_CLK_Pin, GPIO_PIN_RESET); //inverted logic
-				HAL_GPIO_WritePin(D1_DATA_GPIO_Port, D1_DATA_Pin, GPIO_PIN_RESET); //inverted logic
+				HAL_GPIO_WritePin(D0_DATA_GPIO_Port, D0_DATA_Pin, GPIO_PIN_RESET); //inverted logic
+				HAL_GPIO_WritePin(D1_TX_CLK_GPIO_Port, D1_TX_CLK_Pin, GPIO_PIN_RESET); //inverted logic
 				HAL_GPIO_WritePin(CARD_PRES_GPIO_Port, CARD_PRES_Pin, GPIO_PIN_RESET); //inverted logic
 			} else if (USER_INFO_WIE_OUTP == ReadOUTP()) {
 				tipo_output = OUTPUT_WIEGAND;
-				HAL_GPIO_WritePin(D0_TX_CLK_GPIO_Port, D0_TX_CLK_Pin, GPIO_PIN_RESET); //inverted logic
-				HAL_GPIO_WritePin(D1_DATA_GPIO_Port, D1_DATA_Pin, GPIO_PIN_RESET); //inverted logic
+				HAL_GPIO_WritePin(D0_DATA_GPIO_Port, D0_DATA_Pin, GPIO_PIN_RESET); //inverted logic
+				HAL_GPIO_WritePin(D1_TX_CLK_GPIO_Port, D1_TX_CLK_Pin, GPIO_PIN_RESET); //inverted logic
 				HAL_GPIO_WritePin(CARD_PRES_GPIO_Port, CARD_PRES_Pin, GPIO_PIN_RESET); //inverted logic
 			} else {
 				tipo_output = OUTPUT_RS232;
-				HAL_GPIO_WritePin(D0_TX_CLK_GPIO_Port, D0_TX_CLK_Pin, GPIO_PIN_SET); //inverted logic
-				HAL_GPIO_WritePin(D1_DATA_GPIO_Port, D1_DATA_Pin, GPIO_PIN_RESET); //inverted logic
+				HAL_GPIO_WritePin(D0_DATA_GPIO_Port, D0_DATA_Pin, GPIO_PIN_RESET); //inverted logic
+				HAL_GPIO_WritePin(D1_TX_CLK_GPIO_Port, D1_TX_CLK_Pin, GPIO_PIN_SET); //inverted logic
 				HAL_GPIO_WritePin(CARD_PRES_GPIO_Port, CARD_PRES_Pin, GPIO_PIN_RESET); //inverted logic
 			}
 			
-			//Pisca LEDs e termina inicialização
+			//Pisca LEDs e termina inicializaï¿½ï¿½o
 			led_red();
 			HAL_Delay(300);
 			led_green();

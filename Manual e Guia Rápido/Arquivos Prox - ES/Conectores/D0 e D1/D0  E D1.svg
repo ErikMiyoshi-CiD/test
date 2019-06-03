@@ -8,12 +8,12 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.0"
-   width="48.27mm"
-   height="19.940001mm"
+   width="159.61501"
+   height="32.528999"
    id="svg4647"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   viewBox="0 0 48.27 19.940001"
-   sodipodi:docname="D0  E D1 - FINAL.svg">
+   viewBox="0 0 42.231472 8.6066309"
+   sodipodi:docname="D0  E D1.svg">
   <metadata
      id="metadata5086">
     <rdf:RDF>
@@ -40,13 +40,14 @@
      id="namedview5084"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="5.0066018"
-     inkscape:cx="58.908975"
-     inkscape:cy="84.900949"
+     inkscape:zoom="3.5402021"
+     inkscape:cx="135.27011"
+     inkscape:cy="18.987809"
      inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg4647" />
+     inkscape:current-layer="svg4647"
+     units="px" />
   <defs
      id="defs4649">
     <pattern
@@ -59,116 +60,116 @@
   </defs>
   <path
      style="fill:none;stroke:#000000;stroke-width:0.16947038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:282;stroke-dasharray:none;stroke-opacity:1"
-     d="m 0.20273519,0.17422989 8.57334681,0 0,2.81234511 -8.57334681,0 z"
+     d="M 0.08473519,0.08485771 H 8.6580822 V 2.8972027 H 0.08473519 Z"
      id="path4982"
      inkscape:connector-curvature="0" />
   <path
      style="fill:none;stroke:#000000;stroke-width:0.16947038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:282;stroke-dasharray:none;stroke-opacity:1"
-     d="m 0.20273519,2.986575 8.57334681,0 0,2.812344 -8.57334681,0 z"
+     d="M 0.08473519,2.8972027 H 8.6580822 v 2.812344 H 0.08473519 Z"
      id="path4984"
      inkscape:connector-curvature="0" />
   <path
      style="fill:none;stroke:#000000;stroke-width:0.16947038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:282;stroke-dasharray:none;stroke-opacity:1"
-     d="m 0.20273519,5.798919 8.57334681,0 0,2.812347 -8.57334681,0 z"
+     d="M 0.08473519,5.7095467 H 8.6580822 v 2.812347 H 0.08473519 Z"
      id="path4986"
      inkscape:connector-curvature="0" />
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Calibri;-inkscape-font-specification:Calibri;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     x="2.3715427"
-     y="7.985498"
+     x="2.2535412"
+     y="7.8961277"
      id="text4619"><tspan
        sodipodi:role="line"
        id="tspan4621"
-       x="2.3715427"
-       y="7.985498"
+       x="2.2535412"
+       y="7.8961277"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11666703px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri">GND</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Calibri;-inkscape-font-specification:Calibri;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     x="3.1337729"
-     y="2.338716"
+     x="3.0157712"
+     y="2.2493448"
      id="text3442"><tspan
        sodipodi:role="line"
        id="tspan3444"
-       x="3.1337729"
-       y="2.338716"
+       x="3.0157712"
+       y="2.2493448"
        style="font-size:2.11666703px;line-height:1.25">D0</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Calibri;-inkscape-font-specification:Calibri;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     x="3.1544409"
-     y="5.170701"
+     x="3.0364392"
+     y="5.0813313"
      id="text3446"><tspan
        sodipodi:role="line"
        id="tspan3448"
-       x="3.1544409"
-       y="5.170701"
+       x="3.0364392"
+       y="5.0813313"
        style="font-size:2.11666703px;line-height:1.25">D1</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Calibri;-inkscape-font-specification:Calibri;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     x="10.361756"
-     y="7.985498"
+     x="10.184854"
+     y="7.8961277"
      id="text3450"><tspan
        sodipodi:role="line"
        id="tspan3452"
-       x="10.361756"
-       y="7.985498"
-       style="font-size:2.11666703px;line-height:1.25">Black</tspan></text>
+       x="10.184854"
+       y="7.8961277"
+       style="font-size:2.11666703px;line-height:1.25">Negro</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Calibri;-inkscape-font-specification:Calibri;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     x="22.093241"
-     y="7.985498"
+     x="21.985582"
+     y="7.8961277"
      id="text3454"><tspan
        sodipodi:role="line"
        id="tspan3456"
-       x="22.093241"
-       y="7.985498"
-       style="font-size:2.11666703px;line-height:1.25">Common ground</tspan></text>
+       x="21.985582"
+       y="7.8961277"
+       style="font-size:2.11666703px;line-height:1.25">Cable de tierra común</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Calibri;-inkscape-font-specification:Calibri;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     x="10.445472"
-     y="2.338716"
+     x="10.327477"
+     y="2.2493448"
      id="text3458"><tspan
        sodipodi:role="line"
        id="tspan3460"
-       x="10.445472"
-       y="2.338716"
-       style="font-size:2.11666703px;line-height:1.25">Green/Wh</tspan></text>
+       x="10.327477"
+       y="2.2493448"
+       style="font-size:2.11666703px;line-height:1.25">Verde/Bl</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Calibri;-inkscape-font-specification:Calibri;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     x="10.445472"
-     y="5.170701"
+     x="10.327477"
+     y="5.0616932"
      id="text3462"><tspan
        sodipodi:role="line"
        id="tspan3464"
-       x="10.445472"
-       y="5.170701"
-       style="font-size:2.11666703px;line-height:1.25">Green</tspan></text>
+       x="10.327477"
+       y="5.0616932"
+       style="font-size:2.11666703px;line-height:1.25">Verde</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Calibri;-inkscape-font-specification:Calibri;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     x="22.130447"
-     y="2.338716"
+     x="22.012453"
+     y="2.2493448"
      id="text3366"><tspan
        sodipodi:role="line"
        id="tspan3368"
-       x="22.130447"
-       y="2.338716"
-       style="font-size:2.11666703px;line-height:1.25">Wiegand output - DATA0</tspan></text>
+       x="22.012453"
+       y="2.2493448"
+       style="font-size:2.11666703px;line-height:1.25">Salida Wiegand - DATA0</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Calibri;-inkscape-font-specification:Calibri;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     x="22.130447"
-     y="5.170701"
+     x="22.012453"
+     y="5.0616932"
      id="text3370"><tspan
        sodipodi:role="line"
        id="tspan3372"
-       x="22.130447"
-       y="5.170701"
-       style="font-size:2.11666703px;line-height:1.25">Wiegand output - DATA1</tspan></text>
+       x="22.012453"
+       y="5.0616932"
+       style="font-size:2.11666703px;line-height:1.25">Salida Wiegand - DATA1</tspan></text>
 </svg>

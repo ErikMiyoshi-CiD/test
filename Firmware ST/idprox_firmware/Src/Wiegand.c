@@ -52,6 +52,17 @@ static inline WiegandFrame WiegandEncode(uint64_t val, uint8_t size)
 			return wf;
 			
 			break;
+
+		case 32:
+			//Garante que valor tem no m�ximo 32 bits
+			val = val & 0xFFFFFFFF;
+
+			wf.data = val;
+
+			return wf;
+			
+			break;
+
 		case 34:
 			//Garante que valor tem no m�ximo 32 bits
 			val = val & 0xFFFFFFFF;
@@ -113,26 +124,42 @@ static inline void WiegandSendPayload(WiegandFrame wf, uint8_t size)
 {
 	uint8_t tmp;
 	int8_t i;
-	
-	if (wf.leading_parity)
-		WiegandSend1();
-	else
-		WiegandSend0();
-	
-	for(i = size - 3; i >= 0; i--) //-3 em raz�o do 66 que deve ser 64. 66 --> De 63 a 0
+
+	/** Ignore parities for W32. */
+	if (WIEGAND_32 == size)
 	{
+		for(i = size - 1; i >= 0; i--) //-3 em raz�o do 66 que deve ser 64. 66 --> De 63 a 0
+		{
 		tmp = !!(wf.data & (((uint64_t) 1) << i));
 		
 		if(tmp)
 			WiegandSend1();
 		else
 			WiegandSend0();	
+		}
 	}
-	
-	if (wf.trailing_parity)
-		WiegandSend1();
 	else
-		WiegandSend0();
+	{
+		if (wf.leading_parity)
+			WiegandSend1();
+		else
+			WiegandSend0();
+		
+		for(i = size - 3; i >= 0; i--) //-3 em raz�o do 66 que deve ser 64. 66 --> De 63 a 0
+		{
+			tmp = !!(wf.data & (((uint64_t) 1) << i));
+			
+			if(tmp)
+				WiegandSend1();
+			else
+				WiegandSend0();	
+		}
+		
+		if (wf.trailing_parity)
+			WiegandSend1();
+		else
+			WiegandSend0();
+	}
 }
 
 void TxWiegandPacket(uint64_t card_num, uint8_t size)

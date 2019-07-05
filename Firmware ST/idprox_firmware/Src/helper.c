@@ -91,6 +91,8 @@ static uint8_t ReadWIEGANDSIZE(void) {
 	//Trata o caso de nunca ter sido inicializado
 	if (user_info_array[USER_INFO_POS_WIEGANDSIZE] == WIEGAND_66)
 		return WIEGAND_66;
+	else if (user_info_array[USER_INFO_POS_WIEGANDSIZE] == WIEGAND_32)
+		return WIEGAND_32;
 	else if (user_info_array[USER_INFO_POS_WIEGANDSIZE] == WIEGAND_34)
 		return WIEGAND_34;
 	else
@@ -183,6 +185,7 @@ static void nvm_init(void)
 	
 	//Se nunca setamos o tamanho da Wiegand, setaremos agora
 	if (user_info_array[USER_INFO_POS_WIEGANDSIZE] != WIEGAND_26 &&
+		user_info_array[USER_INFO_POS_WIEGANDSIZE] != WIEGAND_32 && 
 		user_info_array[USER_INFO_POS_WIEGANDSIZE] != WIEGAND_34 && 
 		user_info_array[USER_INFO_POS_WIEGANDSIZE] != WIEGAND_66)
 	{
@@ -286,6 +289,19 @@ MODO_LEITOR avaliar_modo_leitor(void)
 	}
 	if (i == nretries)
 		return MODO_PROGRAMA_RS232;	
+
+	//Testa LEDIN com CARDPRES = W32
+	for (i = 0; i < nretries; i++)
+	{
+		val = i % 2;
+		HAL_GPIO_WritePin(CARD_PRES_GPIO_Port, CARD_PRES_Pin, val);
+		HAL_Delay(20);
+		
+		if (HAL_GPIO_ReadPin(LED_INPUT_GPIO_Port, LED_INPUT_Pin) == val) //tem inversor
+			break;
+	}
+	if (i == nretries)
+		return MODO_PROGRAMA_W32;	
 	
 	return MODO_NORMAL;
 }
@@ -301,6 +317,20 @@ void modo_leitor(void)
 			buzz_on();
 			while(1)
 				HAL_IWDG_Refresh(&hiwdg);
+		break;
+
+		case MODO_PROGRAMA_W32:
+			WriteOUTP(USER_INFO_WIE_OUTP);
+			WriteWIEGANDSIZE(WIEGAND_32);
+			led_green();
+			buzz_on();
+			while(1) {
+				HAL_GPIO_TogglePin(LED_GRN_GPIO_Port, LED_GRN_Pin);
+				
+				HAL_Delay(200);
+								
+				HAL_IWDG_Refresh(&hiwdg);
+			}
 		break;
 		
 		case MODO_PROGRAMA_W34:
@@ -346,7 +376,9 @@ void modo_leitor(void)
 			
 		case MODO_NORMAL:
 			//L� tamanho Wiegand
-			if (USER_INFO_WIEGAND34 == ReadWIEGANDSIZE()) 
+			if (USER_INFO_WIEGAND32 == ReadWIEGANDSIZE()) 
+				wiegand_size = WIEGAND_32;
+			else if (USER_INFO_WIEGAND34 == ReadWIEGANDSIZE()) 
 				wiegand_size = WIEGAND_34;
 			else if (USER_INFO_WIEGAND66 == ReadWIEGANDSIZE())
 				wiegand_size = WIEGAND_66;

@@ -109,7 +109,7 @@ void Init125khz(void){
 void buzzer_clock_init(void)
 {
 	MX_TIM3_Init();
-	__HAL_TIM_SET_COMPARE(&htim3,TIM_CHANNEL_2, 6000);
+	__HAL_TIM_SET_COMPARE(&htim3,TIM_CHANNEL_2, 8889);
 }
 
 void buzz(uint32_t tempo){

@@ -39,7 +39,7 @@ static inline void Enviar_Caracter_ABA_TK2(uint8_t dado)
 	
 	for(i = 4; i >= 0; i--)
 	{
-		HAL_GPIO_WritePin(D0_DATA_GPIO_Port, D0_DATA_Pin, (dado & 1));	// L�gica invertida
+		HAL_GPIO_WritePin(D0_DATA_GPIO_Port, D0_DATA_Pin, (GPIO_PinState)(dado & 1));	// Lógica invertida
 		delay_us(TEMPO_ABATK2 / 2);
 		HAL_GPIO_WritePin(D1_TX_CLK_GPIO_Port, D1_TX_CLK_Pin, GPIO_PIN_SET);
 		delay_us(TEMPO_ABATK2);

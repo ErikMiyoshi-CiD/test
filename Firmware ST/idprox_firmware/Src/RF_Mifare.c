@@ -18,12 +18,11 @@ void mifare_i2c_init(void)
 
 void mifare_reset(void)
 {
-	/*
-	HAL_GPIO_WritePin(MIFARE_RST_GPIO_Port, MIFARE_RST_Pin, GPIO_PIN_RESET);
+	HAL_Delay(200);
+	HAL_GPIO_WritePin(ASK_IN_GPIO_Port, ASK_IN_Pin, GPIO_PIN_RESET);
 	HAL_Delay(100);
-	HAL_GPIO_WritePin(MIFARE_RST_GPIO_Port, MIFARE_RST_Pin, GPIO_PIN_RESET);
+	HAL_GPIO_WritePin(ASK_IN_GPIO_Port, ASK_IN_Pin, GPIO_PIN_SET);
 	HAL_Delay(100);
-	*/
 }
 
 void mifare_activate_card(void)
@@ -53,6 +52,17 @@ void mifare_activate_card(void)
 void Mifare_Init(void) 
 {
 	mifare_i2c_init();
+	
+	/* Reconfigure the ASK_IN pin for Mifare. 
+	 * This is ok because we read B0/B1/B2 and we know that we have a REPMIF installed
+	 */
+	GPIO_InitTypeDef GPIO_InitStruct;
+	GPIO_InitStruct.Pin = ASK_IN_Pin;
+	GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+	GPIO_InitStruct.Pull = GPIO_NOPULL;
+	GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+	HAL_GPIO_Init(ASK_IN_GPIO_Port, &GPIO_InitStruct);
+	
 	mifare_reset();
 		
 	Rc522Init();

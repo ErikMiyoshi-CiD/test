@@ -71,7 +71,6 @@ int main(void)
 			while (1) {
 				HAL_IWDG_Refresh(&hiwdg);
 			}
-		break;
 	}
 
 	NVIC_SystemReset(); //Se chegou aqui deu besteira*/

@@ -50,8 +50,6 @@ static inline WiegandFrame WiegandEncode(uint64_t val, uint8_t size)
 			wf.data = val;
 			
 			return wf;
-			
-			break;
 
 		case 32:
 			//Garante que valor tem no m�ximo 32 bits
@@ -60,8 +58,6 @@ static inline WiegandFrame WiegandEncode(uint64_t val, uint8_t size)
 			wf.data = val;
 
 			return wf;
-			
-			break;
 
 		case 34:
 			//Garante que valor tem no m�ximo 32 bits
@@ -80,8 +76,7 @@ static inline WiegandFrame WiegandEncode(uint64_t val, uint8_t size)
 			wf.data = val;
 			
 			return wf;
-			
-			break;
+
 		case 66:
 			if (CalculateParityOdd( (val>>32) & 0xFFFFFFFF ))
 				wf.leading_parity = 0;
@@ -96,8 +91,7 @@ static inline WiegandFrame WiegandEncode(uint64_t val, uint8_t size)
 			wf.data = val;
 					
 			return wf;
-					
-			break;
+
 		default:
 			return wf;
 	}

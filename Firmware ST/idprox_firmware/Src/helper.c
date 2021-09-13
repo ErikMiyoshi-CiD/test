@@ -229,7 +229,7 @@ MODO_LEITOR avaliar_modo_leitor(void)
 	for (i = 0; i < nretries; i++)
 	{
 		val = i % 2;
-		HAL_GPIO_WritePin(D0_DATA_GPIO_Port, D0_DATA_Pin, val);
+		HAL_GPIO_WritePin(D0_DATA_GPIO_Port, D0_DATA_Pin, (GPIO_PinState)val);
 		HAL_Delay(20);
 			
 		if (HAL_GPIO_ReadPin(MS_BUZZ_GPIO_Port, MS_BUZZ_Pin) == val) //tem inversor 
@@ -242,7 +242,7 @@ MODO_LEITOR avaliar_modo_leitor(void)
 	for (i = 0; i < nretries; i++)
 	{
 		val = i % 2;
-		HAL_GPIO_WritePin(D1_TX_CLK_GPIO_Port, D1_TX_CLK_Pin, val);
+		HAL_GPIO_WritePin(D1_TX_CLK_GPIO_Port, D1_TX_CLK_Pin, (GPIO_PinState)val);
 		HAL_Delay(20);
 			
 		if (HAL_GPIO_ReadPin(MS_BUZZ_GPIO_Port, MS_BUZZ_Pin) == val) //tem inversor
@@ -255,7 +255,7 @@ MODO_LEITOR avaliar_modo_leitor(void)
 	for (i = 0; i < nretries; i++)
 	{
 		val = i % 2;
-		HAL_GPIO_WritePin(CARD_PRES_GPIO_Port, CARD_PRES_Pin, val);
+		HAL_GPIO_WritePin(CARD_PRES_GPIO_Port, CARD_PRES_Pin, (GPIO_PinState)val);
 		HAL_Delay(20);
 			
 		if (HAL_GPIO_ReadPin(MS_BUZZ_GPIO_Port, MS_BUZZ_Pin) == val) //tem inversor
@@ -268,7 +268,7 @@ MODO_LEITOR avaliar_modo_leitor(void)
 	for (i = 0; i < nretries; i++)
 	{
 		val = i % 2;
-		HAL_GPIO_WritePin(D0_DATA_GPIO_Port, D0_DATA_Pin, val);
+		HAL_GPIO_WritePin(D0_DATA_GPIO_Port, D0_DATA_Pin, (GPIO_PinState)val);
 		HAL_Delay(20);
 		
 		if (HAL_GPIO_ReadPin(LED_INPUT_GPIO_Port, LED_INPUT_Pin) == val) //tem inversor
@@ -281,7 +281,7 @@ MODO_LEITOR avaliar_modo_leitor(void)
 	for (i = 0; i < nretries; i++)
 	{
 		val = i % 2;
-		HAL_GPIO_WritePin(D1_TX_CLK_GPIO_Port, D1_TX_CLK_Pin, val);
+		HAL_GPIO_WritePin(D1_TX_CLK_GPIO_Port, D1_TX_CLK_Pin, (GPIO_PinState)val);
 		HAL_Delay(20);
 		
 		if (HAL_GPIO_ReadPin(LED_INPUT_GPIO_Port, LED_INPUT_Pin) == val) //tem inversor
@@ -294,7 +294,7 @@ MODO_LEITOR avaliar_modo_leitor(void)
 	for (i = 0; i < nretries; i++)
 	{
 		val = i % 2;
-		HAL_GPIO_WritePin(CARD_PRES_GPIO_Port, CARD_PRES_Pin, val);
+		HAL_GPIO_WritePin(CARD_PRES_GPIO_Port, CARD_PRES_Pin, (GPIO_PinState)val);
 		HAL_Delay(20);
 		
 		if (HAL_GPIO_ReadPin(LED_INPUT_GPIO_Port, LED_INPUT_Pin) == val) //tem inversor
@@ -317,7 +317,6 @@ void modo_leitor(void)
 			buzz_on();
 			while(1)
 				HAL_IWDG_Refresh(&hiwdg);
-		break;
 
 		case MODO_PROGRAMA_W32:
 			WriteOUTP(USER_INFO_WIE_OUTP);
@@ -331,7 +330,6 @@ void modo_leitor(void)
 								
 				HAL_IWDG_Refresh(&hiwdg);
 			}
-		break;
 		
 		case MODO_PROGRAMA_W34:
 			WriteOUTP(USER_INFO_WIE_OUTP);
@@ -340,7 +338,6 @@ void modo_leitor(void)
 			buzz_on();
 			while(1)
 				HAL_IWDG_Refresh(&hiwdg);
-		break;	
 			
 		case MODO_PROGRAMA_W66:
 			WriteOUTP(USER_INFO_WIE_OUTP);
@@ -349,7 +346,6 @@ void modo_leitor(void)
 			buzz_on();
 			while(1)
 				HAL_IWDG_Refresh(&hiwdg);
-		break;
 			
 		case MODO_PROGRAMA_ABA:
 			WriteOUTP(USER_INFO_ABA_OUTP);
@@ -358,7 +354,6 @@ void modo_leitor(void)
 			buzz_on();
 			while(1)
 				HAL_IWDG_Refresh(&hiwdg);
-		break;
 			
 		case MODO_PROGRAMA_RS232:
 			WriteOUTP(USER_INFO_RS232_OUTP);
@@ -372,10 +367,9 @@ void modo_leitor(void)
 								
 				HAL_IWDG_Refresh(&hiwdg);
 			}
-		break;
 			
 		case MODO_NORMAL:
-			//L� tamanho Wiegand
+			//Lê tamanho Wiegand
 			if (USER_INFO_WIEGAND32 == ReadWIEGANDSIZE()) 
 				wiegand_size = WIEGAND_32;
 			else if (USER_INFO_WIEGAND34 == ReadWIEGANDSIZE()) 
@@ -385,7 +379,7 @@ void modo_leitor(void)
 			else
 				wiegand_size = WIEGAND_26;
 				
-			//L� tipo sa�da
+			//Lê tipo saída
 			if (USER_INFO_ABA_OUTP == ReadOUTP()) {
 				tipo_output = OUTPUT_ABATRACK;
 				HAL_GPIO_WritePin(D0_DATA_GPIO_Port, D0_DATA_Pin, GPIO_PIN_RESET); //inverted logic

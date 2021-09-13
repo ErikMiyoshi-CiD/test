@@ -83,7 +83,7 @@ void Enviar_RS232(uint64_t data)
 }
 
 uint8_t dec2hex(uint8_t val) {
-    if (val >= 0 && val <= 9) {
+    if (val <= 9) {
         return val + '0';
     } else if (val >= 10 && val <= 15) {
         return (val - 10) + 'A';

@@ -392,9 +392,9 @@ void modo_leitor(void)
 				HAL_GPIO_WritePin(CARD_PRES_GPIO_Port, CARD_PRES_Pin, GPIO_PIN_RESET); //inverted logic
 			} else {
 				tipo_output = OUTPUT_RS232;
-				HAL_GPIO_WritePin(D0_DATA_GPIO_Port, D0_DATA_Pin, GPIO_PIN_RESET); //inverted logic
-				HAL_GPIO_WritePin(D1_TX_CLK_GPIO_Port, D1_TX_CLK_Pin, GPIO_PIN_SET); //inverted logic
-				HAL_GPIO_WritePin(CARD_PRES_GPIO_Port, CARD_PRES_Pin, GPIO_PIN_RESET); //inverted logic
+				HAL_GPIO_WritePin(D0_DATA_GPIO_Port, D0_DATA_Pin, GPIO_PIN_RESET); //inverted logic. RESET -> 1
+				HAL_GPIO_WritePin(D1_TX_CLK_GPIO_Port, D1_TX_CLK_Pin, GPIO_PIN_RESET); //inverted logic. RESET -> 1 (idle high)
+				HAL_GPIO_WritePin(CARD_PRES_GPIO_Port, CARD_PRES_Pin, GPIO_PIN_RESET); //inverted logic. RESET -> 1
 			}
 			
 			//Pisca LEDs e termina inicializa��o

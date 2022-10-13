@@ -18,21 +18,25 @@ void bitbang_putchar(uint8_t c)
 	const int us_tbit = 1000000/9600;
 	int i;
 
-	HAL_GPIO_WritePin(D1_TX_CLK_GPIO_Port, D1_TX_CLK_Pin, GPIO_PIN_RESET); //IDLE = 1 (this pin is inverted)
+	__disable_irq();
+	
+	HAL_GPIO_WritePin(D1_TX_CLK_GPIO_Port, D1_TX_CLK_Pin, GPIO_PIN_SET); //Start bit = 0 (this pin is inverted, so set)
 	delay_us(us_tbit);
 	
 	for (i = 0; i < 8; i++) 
 	{
 		if ((c & (1 << i)) != 0)
-			HAL_GPIO_WritePin(D1_TX_CLK_GPIO_Port, D1_TX_CLK_Pin, GPIO_PIN_SET);
+			HAL_GPIO_WritePin(D1_TX_CLK_GPIO_Port, D1_TX_CLK_Pin, GPIO_PIN_RESET); //If bit is set, set output to high (this pin is inverted, so reset)
 		else
-			HAL_GPIO_WritePin(D1_TX_CLK_GPIO_Port, D1_TX_CLK_Pin, GPIO_PIN_RESET);
+			HAL_GPIO_WritePin(D1_TX_CLK_GPIO_Port, D1_TX_CLK_Pin, GPIO_PIN_SET); //If bit is 0, set output to low (this pin is inverted, so set)
 		
 		delay_us(us_tbit);
 	}
 	
 	HAL_GPIO_WritePin(D1_TX_CLK_GPIO_Port, D1_TX_CLK_Pin, GPIO_PIN_RESET); //STOP = IDLE = 1 (this pin is inverted)
 	delay_us(us_tbit);
+	
+	__enable_irq();
 }
 
 void bitbang_putstring(const char* string, int size)
